@@ -1,0 +1,100 @@
+<Silk>
+     <Prefixes>
+      <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+	<Prefix id="dbpp" namespace="http://dbpedia.org/property/"/>
+	<Prefix id="dcterm" namespace="http://purl.org/dc/terms/"/>
+	<Prefix id="dc" namespace="http://purl.org/dc/elements/1.1/"/>
+	<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/>
+	<Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/>
+	<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/>
+	<Prefix id="dbo" namespace="http://dbpedia.org/ontology/"/>
+	<Prefix id="sg" namespace="http://www.springernature.com/scigraph/ontologies/core/"/>
+    </Prefixes>
+
+    <DataSources>
+          <Dataset id="DBpedia" type="file">
+            	<Param name="file" value="source.nt"/>
+		<Param name="format" value="N-TRIPLE"/>
+		<Param name="graph" value=""/>
+          </Dataset>
+	  <Dataset id="SciGraph" type="file">
+                <Param name="file" value="target.nt"/>
+		<Param name="format" value="N-TRIPLE"/>
+		<Param name="graph" value=""/>
+          </Dataset>
+    </DataSources>
+
+    <Interlinks>
+          <Interlink id="contributions">
+		<SourceDataset dataSource="DBpedia" var="a" typeUri="http://dbpedia.org/ontology/Person">
+			<RestrictTo>			  
+			</RestrictTo>
+	        </SourceDataset>
+
+		<TargetDataset dataSource="SciGraph" var="b" typeUri="http://www.springernature.com/scigraph/ontologies/core/Contribution">
+			<RestrictTo>			  
+			</RestrictTo>
+	        </TargetDataset>
+
+		<LinkageRule linkType="owl:sameAs">
+			<Aggregate id="combineSimilarities" required="false" weight="1" type="average">
+
+			  <Compare id="compareFullNames" required="false" weight="5" metric="levenshteinDistance" threshold="0.0" indexing="true">
+			    	<TransformInput id="tokenize1" function="tokenize">
+			    	<Input id="fullName1" path="/foaf:name"/>
+			    
+			  	</TransformInput><TransformInput id="tokenize2" function="tokenize">
+			   	<Input id="fullName2" path="/sg:publishedName"/>
+			    
+			  	</TransformInput>
+			  </Compare>
+
+			<Compare id="compareNames" required="false" weight="1" metric="jaccard" threshold="0.0" indexing="true">
+			    	<TransformInput id="toLowerCase1" function="lowerCase">
+			    	<Input id="name1" path="/foaf:givenName"/>
+			    
+			  	</TransformInput><TransformInput id="toLowerCase2" function="lowerCase">
+			   	<Input id="name2" path="/sg:publishedGivenName"/>
+			    
+			  	</TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+			  </Compare>
+
+			<Compare id="comparesurNames" required="false" weight="1" metric="jaccard" threshold="0.0" indexing="true">
+			    	<TransformInput id="toLowerCase3" function="lowerCase">
+			    	<Input id="surName1" path="/foaf:surname"/>
+			    
+			  	</TransformInput><TransformInput id="toLowerCase4" function="lowerCase">
+			   	<Input id="surName2" path="/sg:publishedFamilyName"/>
+			    
+			  	</TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+			  </Compare>
+			  </Aggregate>
+			<Filter limit="1" />
+	        </LinkageRule>
+		<Outputs>
+			<Output id="ver" type="file" maxConfidence="0.5" >
+				<Param name="file" value="verify_links.nt"/>
+				<Param name="format" value="ntriples"/>
+			</Output>
+			<Output id="acc" type="file" minConfidence="0.5">
+				<Param name="file" value="accepted_links.nt"/>
+				<Param name="format" value="ntriples"/>
+			</Output>
+	        </Outputs>
+
+          </Interlink>
+     </Interlinks>
+
+     <Transforms>          
+     </Transforms>
+     <Outputs>
+     	<Output id="ver" type="file" maxConfidence="0.5" >
+		<Param name="file" value="verify_links.nt"/>
+		<Param name="format" value="ntriples"/>
+	</Output>
+	<Output id="acc" type="file" minConfidence="0.5">
+		<Param name="file" value="accepted_links.nt"/>
+		<Param name="format" value="ntriples"/>
+	</Output>
+    </Outputs>
+</Silk>
