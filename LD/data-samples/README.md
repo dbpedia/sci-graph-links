@@ -8,8 +8,6 @@ In order to use Silk Framework, you need:
 2. Java Runtime Environment: The Silk Framework runs on top of the JVM. 
 
 
-### Installing
-
 Download Silk Framework for Linux 
 ---------------------------------
 You can download the framework using downloadSilk.sh or follow the given steps:
@@ -18,7 +16,6 @@ You can download the framework using downloadSilk.sh or follow the given steps:
 2. Extract the files 
 3. Open terminal
 
-### Running
 
 Run Silk Framework from Command Line
 ----------------------------------------
@@ -27,8 +24,6 @@ Run Silk Framework from Command Line
 	-To increase memory (whenever needed): Double-click silk-workbench.sh file go to line 157 and change "mem" variable to the preferred size
 3. Open local host from port 9000: http://localhost:9000
 
-
-### Using Silk Framework
 
 Use Silk Framework from Local Host
 ----------------------------------------
