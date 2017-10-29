@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_14_16>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A9" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_688> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9799182181738648"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Autoroute_A9_(France)> .
+
+<#offset_0_688>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "688"^^xsd:nonNegativeInteger ;
+        nif:isString    "R%C3%A9sum%C3%A9+Dans+notre+exp%C3%A9rience+clinique%2C+certains+enfants+trait%C3%A9s+pour+une+leuc%C3%A9mie+aigu%C3%AB+lymphoblastique+d%C3%A9crivent+des+troubles+cognitifs%2C+notamment+mn%C3%A9siques%2C+ce+qui+nous+a+amen%C3%A9s+%C3%A0+r%C3%A9aliser+une+revue+de+la+litt%C3%A9rature+sur+les+s%C3%A9quelles+cognitives+chez+ces+patients.+La+radioth%C3%A9rapie+et+la+chimioth%C3%A9rapie+entra%C3%AEneraient+des+s%C3%A9quelles+aux+niveaux+attentionnel%2C+ex%C3%A9cutif+et+mn%C3%A9sique+chez+certains+patients.+Des+recherches+restent+%C3%A0+mener+pour+sp%C3%A9cifier+les+s%C3%A9quelles+en+fonction+des+protocoles+th%C3%A9rapeutiques+et+adapter+les+prises+en+charge.=&prefix=&confidence=0.35\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_688> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_95_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leuc" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_688> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.99999969371611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Leuc> .

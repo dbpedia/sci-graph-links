@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_324_332>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creditor" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9306778417253557"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creditor> .
+
+<#offset_546_555>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymmetry" ;
+        nif:beginIndex          "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4953182967988439"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetry> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_590> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_172_176>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.8234204608391127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_556_563>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channel" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9744183618107692"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_channel> .
+
+<#offset_566_572>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.867361417804169"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_228_232>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "debt" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9208747646287007"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Debt> .
+
+<#offset_0_590>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "590"^^xsd:nonNegativeInteger ;
+        nif:isString    "In+this+article+we+examine+the+impact+of+cultural+distance+on+the+pricing+of+corporate+bonds+issued+in+the+United+States.+We+find+that+greater+cultural+differences+between+U.S.+investors+and+foreign+issuers+increase+the+cost+of+debt.+We+also+find+that+the+cost+of+Rule+144a+offers+is+less+sensitive+to+cultural+distance+and+creditor+protection+effects+because+of+the+different+market+structure+and+investor+bases+in+the+Yankee+and+Rule144a+bond+markets.+Our+results+suggest+that+cultural+differences+influence+bond+pricing+through+an+information+asymmetry+channel.=&prefix=&confidence=0.35\n" .

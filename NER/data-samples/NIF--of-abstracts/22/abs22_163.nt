@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_41_52>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "beneficiary" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_607> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5773158937173216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Beneficiary> .
+
+<#offset_0_607>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "607"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&Abstract+Many+maintain+that+if+a+beneficiary+has+a+right+to+a+benefit+provided+by+his+benefactor%2C+then+the+former+cannot+owe+the+latter+gratitude+for+that+benefit.+In+this+paper+I+argue+against+that+view.+I+provide+examples+in+which+benefactors+provide+others+with+benefits+to+which+they+have+a+right+even+though+most+others+are+denying+them+that+right.+These+benefactors+are+moral+standouts%3B+they+do+what+is+right+when+most+similarly+situated+agents+fail+to+do+so.+I+then+spell+out+some+of+the+features+of+these+benefactors%E2%80%99+actions+that+make+them+worthy+of+gratitude.=&confidence=0.35\n" .
+
+<#offset_105_107>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_607> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7676861649062241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2C_(psychedelics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_607> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_607> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9984450818245598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_386_391>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "moral" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_607> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5464604725595796"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moral> .

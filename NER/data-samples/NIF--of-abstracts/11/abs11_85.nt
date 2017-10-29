@@ -1,0 +1,217 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_234_245>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computation" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9423280396753114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computation> .
+
+<#offset_379_382>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ion" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999993963229"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8734587430016011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metric_prefix> .
+
+<#offset_622_627>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axons" ;
+        nif:beginIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Axon> .
+
+<#offset_72_80>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synaptic" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.918652896463932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synapse> .
+
+<#offset_155_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neurons" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999148399876328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neuron> .
+
+<#offset_179_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Langevin" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950560039294587"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Langevin_dynamics> .
+
+<#offset_567_577>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.991886755463326"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_simulation> .
+
+<#offset_81_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8637976800900744"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise_(electronics)> .
+
+<#offset_0_690>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "690"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&Internal+and+external+fluctuations%2C+such+as+channel+noise+and+synaptic+noise%2C+contribute+to+the+generation+of+spontaneous+action+potentials+in+neurons.+Many+different+Langevin+approaches+have+been+proposed+to+speed+up+the+computation+but+with+waning+accuracy+especially+at+small+channel+numbers.+We+apply+a+generating+function+approach+to+the+master+equation+for+the+ion+channel+dynamics+and+further+propose+two+accelerating+algorithms%2C+with+an+accuracy+close+to+the+Gillespie+algorithm+but+with+much+higher+efficiency%2C+opening+the+door+for+expedited+simulation+of+noisy+action+potential+propagating+along+axons+or+other+types+of+noisy+signal+transduction.=&confidence=0.35\n" .
+
+<#offset_383_390>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channel" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996574601386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_channel> .
+
+<#offset_43_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9775624430162493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_54_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channel" ;
+        nif:beginIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996574601386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_channel> .
+
+<#offset_330_338>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997925600267789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<#offset_437_447>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999770353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_448_450>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9775624430162493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_491_500>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_690> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_291_298>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channel" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996574601386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_channel> .
+
+<#offset_87_89>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9775624430162493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_62_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8637976800900744"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise_(electronics)> .
+
+<#offset_659_671>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transduction" ;
+        nif:beginIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9862189568781331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transducer> .
+
+<#offset_533_535>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9775624430162493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_391_399>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6202579223822431"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamics_(mechanics)> .

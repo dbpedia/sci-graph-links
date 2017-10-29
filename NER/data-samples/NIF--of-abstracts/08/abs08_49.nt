@@ -1,0 +1,260 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1006_1008>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1006"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1008"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_495_501>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4541738693634681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .
+
+<#offset_1092_1094>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1092"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1094"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1265_1267>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5220825849255494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_413_415>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_0_1384>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1384"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&Quality+assessment+of+a+protein+model+is+to+predict+the+absolute+or+relative+quality+of+a+protein+model+using+computational+methods+before+the+native+structure+is+available.+Single-model+methods+only+need+one+model+as+input+and+can+predict+the+absolute+residue-specific+quality+of+an+individual+model.+Here%2C+we+have+developed+four+novel+single-model+methods+%28Wang_deep_1%2C+Wang_deep_2%2C+Wang_deep_3%2C+and+Wang_SVM%29+based+on+stacked+denoising+autoencoders+%28SdAs%29+and+support+vector+machines+%28SVMs%29.+We+evaluated+these+four+methods+along+with+six+other+methods+participating+in+CASP11+at+the+global+and+local+levels+using+Pearson%E2%80%99s+correlation+coefficients+and+ROC+analysis.+As+for+residue-specific+quality+assessment%2C+our+four+methods+achieved+better+performance+than+most+of+the+six+other+CASP11+methods+in+distinguishing+the+reliably+modeled+residues+from+the+unreliable+measured+by+ROC+analysis%3B+and+our+SdA-based+method+Wang_deep_1+has+achieved+the+highest+accuracy%2C+0.77%2C+compared+to+SVM-based+methods+and+our+ensemble+of+an+SVM+and+SdAs.+However%2C+we+found+that+Wang_deep_2+and+Wang_deep_3%2C+both+based+on+an+ensemble+of+multiple+SdAs+and+an+SVM%2C+performed+slightly+better+than+Wang_deep_1+in+terms+of+ROC+analysis%2C+indicating+that+integrating+an+SVM+with+deep+networks+works+well+in+terms+of+certain+measurements.=&confidence=0.35\n" .
+
+<#offset_1299_1302>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SVM" ;
+        nif:beginIndex          "1299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Support_vector_machine> .
+
+<#offset_459_471>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autoencoders" ;
+        nif:beginIndex          "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoencoder> .
+
+<#offset_1252_1255>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ROC" ;
+        nif:beginIndex          "1252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Receiver_operating_characteristic> .
+
+<#offset_1014_1016>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1014"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1016"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1190_1193>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SVM" ;
+        nif:beginIndex          "1190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Support_vector_machine> .
+
+<#offset_749_751>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1137_1139>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_315_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_919_922>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ROC" ;
+        nif:beginIndex          "919"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Receiver_operating_characteristic> .
+
+<#offset_692_695>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ROC" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Receiver_operating_characteristic> .
+
+<#offset_98_105>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protein" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999976294403399"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1384> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1070_1073>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SVM" ;
+        nif:beginIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1073"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Support_vector_machine> .
+
+<#offset_32_39>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protein" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999976294403399"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein> .
+
+<#offset_383_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_398_400>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_675_687>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_663_674>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9781826627062599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<#offset_878_886>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "residues" ;
+        nif:beginIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6283186515786997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Residue_(complex_analysis)> .
+
+<#offset_449_458>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "denoising" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9970502843483493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise_(electronics)> .
+
+<#offset_1194_1196>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.8268840722435971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .

@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_195_203>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Republic" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6285352820310313"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Republic> .
+
+<#offset_0_466>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "466"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+The+origins+of+modern+economic+growth+and+the+Industrial+Revolution+that+triggered+it+can+be+found+in+the+cultural+and+institutional+developments+in+early+modern+Europe.+In+this+era+the+Republic+of+Letters+emerged+as+a+transnational+community+that+solved+many+of+the+incentive+problems+that+plagued+the+creation+and+diffusion+of+science+and+technology%2C+and+paved+the+way+to+the+Industrial+Enlightenment+of+the+eighteenth+century.=&prefix=&confidence=0.35\n" .
+
+<#offset_66_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Revolution" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9981703555861623"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_Revolution> .
+
+<#offset_171_177>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Continent> ;
+        itsrdf:taConfidence     "0.9470612691249856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<#offset_325_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diffusion" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7947065865919787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trans-cultural_diffusion> .
+
+<#offset_350_360>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999670823480077"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technology> .
+
+<#offset_400_413>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Enlightenment" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985057325415353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Age_of_Enlightenment> .
+
+<#offset_338_345>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999334477815504"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_466> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_442_448>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "442"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.968634826761974"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .

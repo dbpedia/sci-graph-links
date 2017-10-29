@@ -1,0 +1,126 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_621>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "621"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&confidence=0.35&Abstract+The+solar+surface+oscillations+observed+by+Crimean+Astrophysical+Observatory+and+Solar+Helioseismic+Observatory+are+considered+to+be+excited+by+a+small+fraction+of+Dark+Matter+in+form+of+Compact+Dark+Matter+Objects+%28CDMO%29+in+the+solar+structure.+Gravitational+Waves+%28GW%29+radiated+by+these+CDMO+are+predicted+to+be+the+strongest+at+the+Earth+and+are+easily+detectable+by+European+Laser+Interferometer+Space+Antenna+or+by+Gravitational-Wave+Observatory+%E2%80%9CDulkyn%E2%80%9D+which+can+solve+two+the+most+challenging+tasks+in+the+modern+physics%3A+direct+detection+of+GW+and+DM.=\n" .
+
+<#offset_51_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oscillations" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7880491719930952"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oscillation> .
+
+<#offset_37_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solar" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997958856492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sun> .
+
+<#offset_609_611>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GW" ;
+        nif:beginIndex          "609"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999694964779452"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Watt> .
+
+<#offset_376_381>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Earth" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/CelestialBody> , <http://dbpedia.org/ontology/Planet> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth> .
+
+<#offset_266_271>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solar" ;
+        nif:beginIndex          "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997958856492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sun> .
+
+<#offset_420_425>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laser" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_621> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_120_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Helioseismic" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helioseismology> .
+
+<#offset_616_618>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DM" ;
+        nif:beginIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9687389615359475"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dungeon_Master> .
+
+<#offset_76_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Crimean" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9943741256336602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Crimea> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8703560110270232"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_578_585>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "585"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9768231655857805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<#offset_411_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_621> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Continent> ;
+        itsrdf:taConfidence     "0.7867703220572406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .

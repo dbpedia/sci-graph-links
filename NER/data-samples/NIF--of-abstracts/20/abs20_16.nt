@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_70_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enthalpic" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enthalpy> .
+
+<#offset_171_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aromatic" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999639319419"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aromaticity> .
+
+<#offset_232_242>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enthalpies" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992680580313"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enthalpy> .
+
+<#offset_156_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "derivatives" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9846812014957615"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Derivative_(chemistry)> .
+
+<#offset_379_388>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oxidizers" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977864481933209"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oxidizing_agent> .
+
+<#offset_417_423>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9813131512733081"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_441> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_184_198>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heteroaromatic" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993320141871211"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aromaticity> .
+
+<#offset_33_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971562131229671"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<#offset_0_441>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "441"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+Data+available+from+the+literature+are+used+to+calculate+the+enthalpic+contribution+from+the+trinitromethyl+group+for+a+number+of+C-trinitromethyl+derivatives+of+aromatic+and+heteroaromatic+compounds+and+to+recalculate+the+enthalpies+of+formation+of+these+compounds+in+the+condensed+phase.+The+calculated+data+are+used+to+estimate+the+efficiencies+of+these+compounds+as+oxidizers+in+energetic+compositions.=&prefix=&confidence=0.35\n" .

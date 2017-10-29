@@ -1,0 +1,226 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_462_470>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998789902229"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<#offset_352_358>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex" ;
+        nif:beginIndex          "352"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9895966102588949"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_function> .
+
+<#offset_60_69>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterative" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991936021911"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterative_method> .
+
+<#offset_268_276>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network+" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999992486437"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CompTIA> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9704149089782257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_380_382>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.6815355367846151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_411_421>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lagrangian" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999982237021501"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lagrange_multiplier> .
+
+<#offset_582_593>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9945459606899668"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_equilibrium> .
+
+<#offset_0_947>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "947"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&confidence=0.35&Abstract+We+propose+a+new+two-level+iterative+method+for+solution+of+a+general+problem+of+optimal+allocation+of+a+homogeneous+resource+%28bandwidth%29+in+a+wireless+communication+network.+It+is+divided+into+service+zones+%28clusters%29+and+the+network+manager+can+buy+external+volumes+of+this+resource.+This+approach+leads+to+a+convex+optimization+problem%2C+which+is+solved+with+a+dual+Lagrangian+method%2C+where+calculation+of+the+cost+function+value+decomposes+into+a+system+of+independent+zonal+optimization+problems.+Each+of+them+is+treated+as+a+market+equilibrium+problem.+This+optimization+problem+is+solved+with+conditional+gradient+method+for+different+information+exchange+schemes+for+participants.+Besides%2C+we+suggest+several+ways+to+adjust+the+basic+problemto+the+case+of+moving+nodes.+We+give+some+results+of+numerical+experiments+on+the+proposed+method+which+confirm+its+preference+over+the+previous+ones.=\n" .
+
+<#offset_505_516>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "independent" ;
+        nif:beginIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998073008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence_(probability_theory)> .
+
+<#offset_656_664>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gradient" ;
+        nif:beginIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995512678518755"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gradient_descent> .
+
+<#offset_138_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homogeneous" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998774345332487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<#offset_276_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manager" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999994363474767"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management> .
+
+<#offset_523_535>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999914008413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#offset_406_410>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dual" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996123850127067"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dual_space> .
+
+<#offset_203_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99867220474693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flow_network> .
+
+<#offset_180_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wireless" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5425427648329051"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wireless_network> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_947> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_429_431>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.6815355367846151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_741_743>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.6815355367846151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_608_620>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "608"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999914008413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#offset_359_371>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999914008413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#offset_644_655>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998269935879394"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conditional_probability> .
+
+<#offset_817_822>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nodes" ;
+        nif:beginIndex          "817"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997615687715641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Node_(computer_science)> .
+
+<#offset_189_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_947> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8712702778613912"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .

@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_552_558>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Boston" ;
+        nif:beginIndex          "552"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9994885593839095"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boston> .
+
+<#offset_407_409>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7204063057649649"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2C_(psychedelics)> .
+
+<#offset_816_822>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9066938388698542"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_840> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_637_643>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pareto" ;
+        nif:beginIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990625379072415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pareto_efficiency> .
+
+<#offset_0_840>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "840"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+We+consider+school+choice+problems.+We+are+interested+in+solutions+that+satisfy+consistency.+Consider+a+problem+and+a+recommendation+made+by+the+solution+for+the+problem.+Suppose+some+students+are+removed+with+their+positions+in+schools.+Consider+the+%E2%80%9Creduced%E2%80%9D+problem+consisting+of+the+remaining+students+and+the+remaining+positions.+Consistency+states+that+in+the+reduced+problem%2C+the+solution+should+assign+each+remaining+student+to+the+same+school+as+initially.+Neither+the+immediate+acceptance+rule+%28also+known+as+the+Boston+mechanism%29+nor+the+top+trading+cycles+rules+is+consistent.+We+show+that+the+Pareto+solution+is+the+smallest+consistent+solution+containing+the+immediate+acceptance+rule.+It+is+also+the+smallest+consistent+solution+containing+the+top+trading+cycles+rule.=&prefix=&confidence=0.35\n" .

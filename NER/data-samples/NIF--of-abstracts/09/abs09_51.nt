@@ -1,0 +1,196 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_418_426>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infrared" ;
+        nif:beginIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9927536820307525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infrared> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.965435156786175"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_754_768>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geo-referenced" ;
+        nif:beginIndex          "754"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "768"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Georeference> .
+
+<#offset_1197_1207>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "helicopter" ;
+        nif:beginIndex          "1197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990082257371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helicopter> .
+
+<#offset_1291_1301>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "helicopter" ;
+        nif:beginIndex          "1291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990082257371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helicopter> .
+
+<#offset_406_411>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RADAR" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radar> .
+
+<#offset_1096_1101>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hulls" ;
+        nif:beginIndex          "1096"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5584842109715868"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuselage> .
+
+<#offset_0_1320>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1320"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&Abstract+This+work+presents+recent+progress+at+the+German+Aerospace+Center+%28DLR%29+in+landing+guidance+for+helicopter+approaches+to+landing+sites+without+prior+reconnaissance.%C2%A0During+the+project+ALLFlight%2C+DLRs+research+rotorcraft+Advanced+Control+Technology%2FFlying+Helicopter+Simulator+%28ACT%2FFHS%29+has+been+equipped+with+a+sensor+suite+including+a+LIDAR+sensor%2C+a+forward+looking+RADAR%2C+an+infrared+camera+and+a+TV+camera+to+provide+sensor-based+situational+awareness.+Using+the+information+acquired+by+the+LIDAR%2C+a+method+for+planning+an+initial+flight+path+from+previously+unknown+landing+entry+points+to+the+landing+point+is+presented.+It+is+based+on+a+previously+developed+method+using+a+vehicle+point+representation%2C+geo-referenced+flight+surfaces+and+visibility+graphs.+A+second+mode+to+provide+re-planning+capabilities+in-flight+is+described.+First+results+of+flight+tests+conducted+in+2013+are+presented+and+discussed.+Using+the+data+recorded+during+these+approaches%2C+an+improved+re-planning+strategy+for+the+final+approach+based+on+so+called+visibility+hulls+is+presented.+This+work+continues+recent+research+at+DLR%E2%80%99s+Institute+of+Flight+Systems+helicopter+department+for+flight+under+degraded+visual+environment+%28DVE%29+for+a+full-scale+helicopter.=&confidence=0.35\n" .
+
+<#offset_800_806>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graphs" ;
+        nif:beginIndex          "800"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5046449971039084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infographic> .
+
+<#offset_372_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LIDAR" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/LIDAR> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1320> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_237_247>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rotorcraft" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6659868214136794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helicopter> .
+
+<#offset_1155_1158>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DLR" ;
+        nif:beginIndex          "1155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_Aerospace_Center> .
+
+<#offset_535_540>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LIDAR" ;
+        nif:beginIndex          "535"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/LIDAR> .
+
+<#offset_347_353>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensor" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996994588852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensor> .
+
+<#offset_1208_1218>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "department" ;
+        nif:beginIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950335886759808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ministry_(government_department)> .
+
+<#offset_443_449>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "camera" ;
+        nif:beginIndex          "443"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999954292660371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Camera> .
+
+<#offset_378_384>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensor" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996994588852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensor> .
+
+<#offset_170_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reconnaissance" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.794970043088256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surveillance_aircraft> .
+
+<#offset_117_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "helicopter" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990082257371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helicopter> .
+
+<#offset_427_433>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "camera" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999954292660371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Camera> .
+
+<#offset_59_65>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.8939042931606882"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .

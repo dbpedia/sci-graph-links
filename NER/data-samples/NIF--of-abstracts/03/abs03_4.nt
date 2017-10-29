@@ -1,0 +1,410 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7888079487179627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_375_380>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "c-myc" ;
+        nif:beginIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Myc> .
+
+<#offset_705_714>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cisplatin" ;
+        nif:beginIndex          "705"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cisplatin> .
+
+<#offset_219_224>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "liver" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987039031663294"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hepatotoxicity> .
+
+<#offset_621_627>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ligand" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7779266518533944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ligand> .
+
+<#offset_241_253>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cytotoxicity" ;
+        nif:beginIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cytotoxicity> .
+
+<#offset_401_406>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bcl-2" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bcl-2> .
+
+<#offset_730_735>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tumor" ;
+        nif:beginIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tumor> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_871> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_529_531>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_171_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cytotoxic" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998525928613"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cytotoxicity> .
+
+<#offset_691_697>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ligand" ;
+        nif:beginIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7779266518533944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ligand> .
+
+<#offset_301_303>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_381_383>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_225_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cells" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<#offset_766_769>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "BEL" ;
+        nif:beginIndex          "766"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9997938635346536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bharat_Electronics> .
+
+<#offset_123_134>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synthesized" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985229726496182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein_biosynthesis> .
+
+<#offset_775_784>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xenograft" ;
+        nif:beginIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Xenotransplantation> .
+
+<#offset_754_762>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "efficacy" ;
+        nif:beginIndex          "754"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "762"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999785876662"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Efficacy> .
+
+<#offset_45_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999931706713738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<#offset_603_608>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amino" ;
+        nif:beginIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8303215777200915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amine> .
+
+<#offset_343_353>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "telomerase" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Enzyme> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telomerase> .
+
+<#offset_394_396>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_445_454>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "apoptosis" ;
+        nif:beginIndex          "445"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apoptosis> .
+
+<#offset_556_569>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mitochondrial" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mitochondrion> .
+
+<#offset_306_308>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_430_440>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "senescence" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Senescence> .
+
+<#offset_0_871>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "871"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&confidence=0.35&A+series+of+group-10+metal+complexes+1%E2%80%9314+of+oxoisoaporphine+derivatives+were+designed+and+synthesized.+1%E2%80%9314+were+more+selectively+cytotoxic+to+Hep-G2+cells+comparing+with+normal+liver+cells.+In+vitro+cytotoxicity+results+showed+that+complexes+1%E2%80%936%2C+7%2C+8%2C+10+and+11%2C+especially+3%2C+were+telomerase+inhibitors+targeting+c-myc%2C+telomeric%2C+and+bcl-2+G4s+and+triggered+cell+senescence+and+apoptosis%3B+they+also+caused+telomere%2FDNA+damage+and+S+phase+arrest.+In+addition%2C+1%E2%80%936+also+caused+mitochondrial+dysfunction.+Notably%2C+3+with+6-amino+substituted+ligand+La+exhibited+less+side+effects+than+6+with+8-amino+substituted+ligand+Lb+and+cisplatin%2C+but+similar+tumor+growth+inhibition+efficacy+in+BEL-7402+xenograft+model.+Complex+3+has+the+potential+to+be+developed+as+an+effective+anticancer+agent.=\n" .
+
+<#offset_715_717>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_335_337>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_591_593>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_41_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "-10" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999667081105674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ICD-10> .
+
+<#offset_475_483>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "telomere" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telomere> .
+
+<#offset_671_673>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8-" ;
+        nif:beginIndex          "671"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/8-bit> .
+
+<#offset_673_678>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amino" ;
+        nif:beginIndex          "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8303215777200915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amine> .
+
+<#offset_296_298>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_93_104>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "derivatives" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Derivative_(chemistry)> .
+
+<#offset_319_321>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999721452472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_384_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "telomeric" ;
+        nif:beginIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telomere> .
+
+<#offset_425_429>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cell" ;
+        nif:beginIndex          "425"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<#offset_852_862>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anticancer" ;
+        nif:beginIndex          "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988359862359016"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemotherapy> .
+
+<#offset_407_410>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "G4s" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999825395192193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/G4S> .
+
+<#offset_354_364>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inhibitors" ;
+        nif:beginIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enzyme_inhibitor> .
+
+<#offset_191_196>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cells" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .

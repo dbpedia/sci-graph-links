@@ -1,0 +1,558 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948108678669247"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_1600_1614>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evidence-based" ;
+        nif:beginIndex          "1600"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997328359"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evidence-based_medicine> .
+
+<#offset_815_817>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_703_707>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diet" ;
+        nif:beginIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997343857456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diet_(nutrition)> .
+
+<#offset_365_371>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_1289_1295>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "muscle" ;
+        nif:beginIndex          "1289"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.7820000566004635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skeletal_striated_muscle> .
+
+<#offset_0_1682>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1682"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&Abstract+Elite+athletes+and+coaches+are+in+a+constant+search+for+training+methods+and+nutritional+strategies+to+support+training+and+recovery+efforts+that+may+ultimately+maximize+athletes%E2%80%99+performance.+Recently%2C+there+has+been+a+re-emerging+interest+in+the+role+of+ketone+bodies+in+exercise+metabolism%2C+with+considerable+media+speculation+about+ketone+body+supplements+being+routinely+used+by+professional+cyclists.+Ketone+bodies+can+serve+as+an+important+energy+substrate+under+certain+conditions%2C+such+as+starvation%2C+and+can+modulate+carbohydrate+and+lipid+metabolism.+Dietary+strategies+to+increase+endogenous+ketone+body+availability+%28i.e.%2C+a+ketogenic+diet%29+require+a+diet+high+in+lipids+and+low+in+carbohydrates+for+%7E4+days+to+induce+nutritional+ketosis.+However%2C+a+high+fat%2C%C2%A0low+carbohydrate+ketogenic+diet+may+impair+exercise+performance+via+reducing+the+capacity+to+utilize+carbohydrate%2C+which+forms+a+key+fuel+source+for+skeletal+muscle+during+intense+endurance-type+exercise.+Recently%2C+ketone+body+supplements+%28ketone+salts+and+esters%29+have+emerged+and+may+be+used+to+rapidly+increase+ketone+body+availability%2C+without+the+need+to+first+adapt+to+a+ketogenic+diet.+However%2C+the+extent+to+which+ketone+bodies+regulate+skeletal+muscle+bioenergetics+and+substrate+metabolism+during+prolonged+endurance-type+exercise+of+varying+intensity+and+duration+remains+unknown.+Therefore%2C+at+present+there+are+no+data+available+to+suggest+that+ingestion+of+ketone+bodies+during+exercise+improves+athletes%E2%80%99+performance+under+conditions+where+evidence-based+nutritional+strategies+are+applied+appropriately.=&confidence=0.35\n" .
+
+<#offset_937_939>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "937"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "939"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1170_1172>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_801_803>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "803"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_850_854>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diet" ;
+        nif:beginIndex          "850"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997343857456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diet_(nutrition)> .
+
+<#offset_283_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_1280_1288>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skeletal" ;
+        nif:beginIndex          "1280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skeletal_striated_muscle> .
+
+<#offset_1076_1081>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "salts" ;
+        nif:beginIndex          "1076"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1081"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986182492541334"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Salt_(chemistry)> .
+
+<#offset_551_559>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulate" ;
+        nif:beginIndex          "551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9178195173942132"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulation> .
+
+<#offset_17_23>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Elite+" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elite_Model_Management> .
+
+<#offset_577_582>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lipid" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipid> .
+
+<#offset_227_229>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_716_722>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lipids" ;
+        nif:beginIndex          "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6333197375644439"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipid> .
+
+<#offset_675_684>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketogenic" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "684"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.8359098437793383"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketosis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1682> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_958_962>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuel" ;
+        nif:beginIndex          "958"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.949007992796885"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuel> .
+
+<#offset_436_442>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ketone" ;
+        nif:beginIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_685_689>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diet" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997343857456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diet_(nutrition)> .
+
+<#offset_983_989>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "muscle" ;
+        nif:beginIndex          "983"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "989"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.7820000566004635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skeletal_striated_muscle> .
+
+<#offset_1234_1236>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1042_1048>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "1042"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_1296_1309>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bioenergetics" ;
+        nif:beginIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bioenergetics> .
+
+<#offset_734_747>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbohydrates" ;
+        nif:beginIndex          "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "747"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.980478396647063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glycogen> .
+
+<#offset_974_982>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skeletal" ;
+        nif:beginIndex          "974"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skeletal_striated_muscle> .
+
+<#offset_426_434>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cyclists" ;
+        nif:beginIndex          "426"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999898753832027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cycling> .
+
+<#offset_1508_1514>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "1508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_1145_1151>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "1145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_811_814>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fat" ;
+        nif:beginIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998924338455195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adipose_tissue> .
+
+<#offset_377_388>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "supplements" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999936335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dietary_supplement> .
+
+<#offset_1220_1224>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diet" ;
+        nif:beginIndex          "1220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997343857456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diet_(nutrition)> .
+
+<#offset_1054_1065>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "supplements" ;
+        nif:beginIndex          "1054"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999936335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dietary_supplement> .
+
+<#offset_840_849>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketogenic" ;
+        nif:beginIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.8359098437793383"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketosis> .
+
+<#offset_483_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substrate" ;
+        nif:beginIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.658049786367385"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enzyme_substrate_(biology)> .
+
+<#offset_1324_1334>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolism" ;
+        nif:beginIndex          "1324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992276116"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolism> .
+
+<#offset_1437_1439>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1257_1263>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "1257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_560_572>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbohydrate" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbohydrate> .
+
+<#offset_583_593>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolism" ;
+        nif:beginIndex          "583"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992276116"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolism> .
+
+<#offset_626_636>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogenous" ;
+        nif:beginIndex          "626"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endogeny> .
+
+<#offset_1039_1041>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1039"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1041"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_924_936>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbohydrate" ;
+        nif:beginIndex          "924"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbohydrate> .
+
+<#offset_784_791>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketosis" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketosis> .
+
+<#offset_1210_1219>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketogenic" ;
+        nif:beginIndex          "1210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.8359098437793383"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketosis> .
+
+<#offset_476_482>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999846324955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Food_energy> .
+
+<#offset_637_643>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketone" ;
+        nif:beginIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<#offset_540_542>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "540"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1314_1323>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substrate" ;
+        nif:beginIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.658049786367385"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enzyme_substrate_(biology)> .
+
+<#offset_529_539>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "starvation" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Starvation> .
+
+<#offset_518_520>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "518"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_827_839>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbohydrate" ;
+        nif:beginIndex          "827"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "839"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbohydrate> .
+
+<#offset_1086_1092>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "esters" ;
+        nif:beginIndex          "1086"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ester> .
+
+<#offset_670_672>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_320_322>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9647474159259128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_309_319>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolism" ;
+        nif:beginIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992276116"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolism> .

@@ -1,0 +1,380 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1100_1107>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infants" ;
+        nif:beginIndex          "1100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980320808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infant> .
+
+<#offset_902_913>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transporter" ;
+        nif:beginIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "913"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999912143013581"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Membrane_transport_protein> .
+
+<#offset_898_901>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ABC" ;
+        nif:beginIndex          "898"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/BroadcastNetwork> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.6689701295536181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/American_Broadcasting_Company> .
+
+<#offset_279_282>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gut" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997385929533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gut_flora> .
+
+<#offset_1086_1096>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microbiota" ;
+        nif:beginIndex          "1086"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1096"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948060341981798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiome> .
+
+<#offset_222_224>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999991799768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_359_362>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gut" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997385929533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gut_flora> .
+
+<#offset_120_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physiology" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999691278597784"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physiology> .
+
+<#offset_0_1188>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1188"^^xsd:nonNegativeInteger ;
+        nif:isString    "Recent+studies+have+demonstrated+that+gut+microbiota+development+influences+infants%E2%80%99+health+and+subsequent+host+physiology.+However%2C+the+factors+shaping+the+development+of+the+microbiota+remain+poorly+understood%2C+and+the+mechanisms+through+which+these+factors+affect+gut+metabolite+profiles+have+not+been+extensively+investigated.+Here+we+analyse+gut+microbiota+development+of+27+infants+during+the+first+month+of+life.+We+find+three+distinct+clusters+that+transition+towards+Bifidobacteriaceae-dominant+microbiota.+We+observe+considerable+differences+in+human+milk+oligosaccharide+utilization+among+infant+bifidobacteria.+Colonization+of+fucosyllactose+%28FL%29-utilizing+bifidobacteria+is+associated+with+altered+metabolite+profiles+and+microbiota+compositions%2C+which+have+been+previously+shown+to+affect+infant+health.+Genome+analysis+of+infants%E2%80%99+bifidobacteria+reveals+an+ABC+transporter+as+a+key+genetic+factor+for+FL+utilization.+Thus%2C+the+ability+of+bifidobacteria+to+utilize+FL+and+the+presence+of+FL+in+breast+milk+may+affect+the+development+of+the+gut+microbiota+in+infants%2C+and+might+ultimately+have+therapeutic+implications.=&prefix=&confidence=0.35\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1188> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_619_633>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bifidobacteria" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bifidobacterium> .
+
+<#offset_93_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999956709692039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health> .
+
+<#offset_1030_1032>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "FL" ;
+        nif:beginIndex          "1030"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Region> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9845922279193702"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Florida> .
+
+<#offset_38_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gut" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997385929533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gut_flora> .
+
+<#offset_1036_1042>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "breast" ;
+        nif:beginIndex          "1036"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1042"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9991377608748943"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breast_cancer> .
+
+<#offset_1108_1110>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999991799768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_775_777>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999991799768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1164_1170>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "1164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.874335048684484"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_1082_1085>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gut" ;
+        nif:beginIndex          "1082"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997385929533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gut_flora> .
+
+<#offset_872_886>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bifidobacteria" ;
+        nif:beginIndex          "872"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bifidobacterium> .
+
+<#offset_1043_1047>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "milk" ;
+        nif:beginIndex          "1043"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1047"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993796549657136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_breast_milk> .
+
+<#offset_42_52>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microbiota" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948060341981798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiome> .
+
+<#offset_76_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infants" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980320808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infant> .
+
+<#offset_140_142>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999991799768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_942_944>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "FL" ;
+        nif:beginIndex          "942"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "944"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9845922279193702"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Florida> .
+
+<#offset_578_593>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oligosaccharide" ;
+        nif:beginIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oligosaccharide> .
+
+<#offset_981_995>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bifidobacteria" ;
+        nif:beginIndex          "981"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bifidobacterium> .
+
+<#offset_573_577>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "milk" ;
+        nif:beginIndex          "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993796549657136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_breast_milk> .
+
+<#offset_923_930>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genetic" ;
+        nif:beginIndex          "923"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "930"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5615012920705605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene> .
+
+<#offset_751_761>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microbiota" ;
+        nif:beginIndex          "751"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948060341981798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiome> .
+
+<#offset_283_293>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolite" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980428104552542"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolite> .
+
+<#offset_963_965>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9999999991799768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_363_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microbiota" ;
+        nif:beginIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948060341981798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiome> .
+
+<#offset_828_834>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999956709692039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health> .
+
+<#offset_685_699>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bifidobacteria" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bifidobacterium> .
+
+<#offset_392_399>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infants" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980320808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infant> .
+
+<#offset_516_526>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microbiota" ;
+        nif:beginIndex          "516"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "526"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948060341981798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiome> .
+
+<#offset_727_737>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolite" ;
+        nif:beginIndex          "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980428104552542"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolite> .
+
+<#offset_186_196>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microbiota" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9948060341981798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiome> .
+
+<#offset_1007_1009>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FL" ;
+        nif:beginIndex          "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AdministrativeRegion> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Region> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9845922279193702"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Florida> .
+
+<#offset_855_862>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infants" ;
+        nif:beginIndex          "855"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980320808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infant> .

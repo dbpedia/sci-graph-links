@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_301_303>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.5834440815075077"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_321_332>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "methodology" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999740599818584"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methodology> .
+
+<#offset_596_600>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sand" ;
+        nif:beginIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9909464905503179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sand> .
+
+<#offset_541_551>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "robustness" ;
+        nif:beginIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9595146197356778"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Robust_statistics> .
+
+<#offset_504_506>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.5834440815075077"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_856> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_16_20>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sand" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9909464905503179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sand> .
+
+<#offset_832_838>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "832"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9004184106930306"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polish_notation> .
+
+<#offset_738_745>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foundry" ;
+        nif:beginIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_856> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9645120316933653"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Casting_(metalworking)> .
+
+<#offset_0_856>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "856"^^xsd:nonNegativeInteger ;
+        nif:isString    "Optimisation+of+sand+casting+process+involves+the+adjustment+of+parameters+as+well+as+the+improvement+of+optimisation+process+procedures+and+measures.+Analysis+of+various+critical+process+parameters+and+the+interaction+among+them+is+carried+out+with+the+help+of+Taguchis+method+of+experimental+design%2C+response+surface+methodology+%28RSM%29.+This+paper+proposes+a+Theory+of+Inventive+Problem+Solving+%28TRIZ%29+method+based+on+the+process+window+approach+%28PWA%29+is+to+make+the+analysis+more+precise%2C+cost+effective+and+evaluating+the+robustness+of+a+process+set+up+quickly.+The+successful+sand+casting+process+parameters+optimisation+demonstrates+the+feasibility+of+the+proposed+method.+The+objective+of+this+article+is+to+provide+foundry+personnel+with+innovative+design+ideas+under+research+and+for+practical+application.=&prefix=&confidence=0.35\n" .

@@ -1,0 +1,215 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_641_645>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bank" ;
+        nif:beginIndex          "641"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999713509"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bank> .
+
+<#offset_416_425>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Norwegian" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9779632226942411"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Norway> .
+
+<#offset_859_866>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Central" ;
+        nif:beginIndex          "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7364143349697702"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_Europe> .
+
+<#offset_389_398>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflation" ;
+        nif:beginIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999988183845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflation> .
+
+<#offset_43_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "macroeconomic" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9652472388531169"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Macroeconomic_model> .
+
+<#offset_196_203>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "horizon" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.42715734836176356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Event_horizon> .
+
+<#offset_1156_1167>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirically" ;
+        nif:beginIndex          "1156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991349652477637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_0_1194>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1194"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+The+interest+rate+assumptions+for+macroeconomic+forecasts+differ+among+central+banks.+Common+approaches+are+given+by+the+assumptions+that+interest+rates+remain+constant+over+the+forecast+horizon%2C+follow+a+path+as+expected+by+market+participants+or+follow+a+path+as+expected+by+the+central+bank+itself.+Theoretical+papers+such+as+Svensson+%28The+instrument-rate+projection+under+inflation+targeting%3A+the+Norwegian+example.+Centre+for+European+Policy+Studies+Working+Paper+%28127%29%2C+2006%29+and+Gal%C3%AD+%28J+Monet+Econ+58%3A537%E2%80%93550%2C+2011%29+suggest+an+accuracy+ranking+for+these+forecasts%2C+from+employing+central+bank+expectations+yielding+the+highest+forecast+accuracy+to+conditioning+on+constant+interest+rates+yielding+the+lowest.+Yet%2C+when+investigating+the+predictive+accuracy+of+the+Bank+of+England%E2%80%99s+and+the+Banco+Central+do+Brasil%E2%80%99s+forecasts+for+interest+rates%2C+inflation+and+output+growth%2C+we+hardly+find+any+significant+differences+between+forecasts+based+on+the+different+interest+rate+paths.+Our+results+suggest+that+the+choice+of+the+interest+rate+assumption+appears+to+be+of+minor+relevance+empirically.=&prefix=&confidence=0.35\n" .
+
+<#offset_919_928>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflation" ;
+        nif:beginIndex          "919"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "928"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999988183845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflation> .
+
+<#offset_524_529>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Monet" ;
+        nif:beginIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.9999989277993172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Claude_Monet> .
+
+<#offset_300_304>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bank" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999713509"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bank> .
+
+<#offset_446_454>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European" ;
+        nif:beginIndex          "446"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9746764838297345"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Union> .
+
+<#offset_827_834>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "England" ;
+        nif:beginIndex          "827"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9930834021636269"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/England> .
+
+<#offset_916_918>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "916"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "918"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_204_206>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_947_949>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "947"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1194> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_766_768>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "766"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "768"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_556_558>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_615_617>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_870_876>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Brasil" ;
+        nif:beginIndex          "870"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "876"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999801482373709"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brazil> .
+
+<#offset_1170_1176>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "1170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987579749487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_494_496>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1194> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9423772741875707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .

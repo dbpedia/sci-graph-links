@@ -1,0 +1,398 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1171_1174>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PTP" ;
+        nif:beginIndex          "1171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9998214911497865"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein_tyrosine_phosphatase> .
+
+<#offset_509_524>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synchronization" ;
+        nif:beginIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999926637884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synchronization> .
+
+<#offset_367_369>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BC" ;
+        nif:beginIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9629686510353922"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anno_Domini> .
+
+<#offset_980_985>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clock" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999985172409731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clock_signal> .
+
+<#offset_407_415>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "division" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5676337123316797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Division_(mathematics)> .
+
+<#offset_475_481>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domain" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9794188072055687"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domain_of_a_function> .
+
+<#offset_776_779>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BCs" ;
+        nif:beginIndex          "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "779"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6072162430974349"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/BCS_theory> .
+
+<#offset_0_1341>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1341"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+Channel+based+clock+synchronization+in+packet+switched+networks+%28PSNs%29+is+considered+for%2C+but+not+limited+to%2C+the+time+and+safety%2Fsecurity+critical+application+of+power+system+protection.+The+synchronization+accuracy+requirement+of+power+system+protection+devices+used+for+line+current+differential+protection+is+%24%2410%5C%2C%5Cupmu+%24%24+10%CE%BC+s%2C+which+could+be+achieved+in+time+division+multiplexing+networks+that+were+traditionally+used+in+that+domain.+In+PSN%2C+highly+accurate+synchronization+can+be+achieved+with+the+standard+synchronization+method+IEEE+1588-2008+Precision+Time+Protocol+%28PTP%29+when+devices+in+the+communication+network+are+equipped+with+so+called+boundary+clocks+%28BCs%29+or+transparent+clocks+%28TCs%29.+However%2C+when+BCs+or+TCs+are+not+available%2C+the+required+accuracy+can+hardly+be+achieved.+In+this+work%2C+a+modification+of+the+PTP+is+proposed+that+replaces+the+clock+parameter+estimation+and+the+computation+of+the+clock+control+signal.+Thereby%2C+the+statistics+of+measured+packet+delays+are+considered+to+select+optimum+estimation+schemes.+It+is+shown+that+the+here+proposed+method+outperforms+the+Linux+PTP+in+terms+of+timing+accuracy+by+a+factor+of+2+in+enterprise+local+area+networks+and+by+a+factor+of+10+in+Carrier+Ethernet+wide+area+networks.=&prefix=&confidence=0.35\n" .
+
+<#offset_783_786>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TCs" ;
+        nif:beginIndex          "783"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9931896972779146"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Traction_control_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1341> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_305_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990829204193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_signaling> .
+
+<#offset_559_574>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synchronization" ;
+        nif:beginIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "574"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999926637884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synchronization> .
+
+<#offset_742_748>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clocks" ;
+        nif:beginIndex          "742"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "748"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999816667709903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clock_signal> .
+
+<#offset_344_346>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AutomobileEngine> , <http://dbpedia.org/ontology/Device> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_892_895>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PTP" ;
+        nif:beginIndex          "892"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "895"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9998214911497865"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein_tyrosine_phosphatase> .
+
+<#offset_730_741>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transparent" ;
+        nif:beginIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.424689021705673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transparency_and_translucency> .
+
+<#offset_124_126>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/AutomobileEngine> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_768_770>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "768"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "770"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/AutomobileEngine> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_994_1000>  a           nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "signal" ;
+        nif:beginIndex          "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1000"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.792877436559129"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Signaling_(telecommunications)> .
+
+<#offset_926_931>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clock" ;
+        nif:beginIndex          "926"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999985172409731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clock_signal> .
+
+<#offset_805_807>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "805"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/AutomobileEngine> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_490_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AutomobileEngine> , <http://dbpedia.org/ontology/Device> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_48_54>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "packet" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5397426881100549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Network_packet> .
+
+<#offset_582_586>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IEEE" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Non-ProfitOrganisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999969733119417"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Institute_of_Electrical_and_Electronics_Engineers> .
+
+<#offset_364_366>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9339841802535057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CE_marking> .
+
+<#offset_23_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clock" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999985172409731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clock_signal> .
+
+<#offset_1040_1046>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "packet" ;
+        nif:beginIndex          "1040"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1046"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5397426881100549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Network_packet> .
+
+<#offset_1010_1012>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1010"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/AutomobileEngine> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_102_104>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AutomobileEngine> , <http://dbpedia.org/ontology/Device> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_665_673>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network+" ;
+        nif:beginIndex          "665"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CompTIA> .
+
+<#offset_1165_1170>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Linux" ;
+        nif:beginIndex          "1165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9902793558016536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linux> .
+
+<#offset_710_716>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clocks" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999816667709903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clock_signal> .
+
+<#offset_486_489>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PSN" ;
+        nif:beginIndex          "486"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999514362946043"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PlayStation_Network> .
+
+<#offset_372_374>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AutomobileEngine> , <http://dbpedia.org/ontology/Device> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_211_226>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synchronization" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999926637884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synchronization> .
+
+<#offset_867_869>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/AutomobileEngine> ;
+        itsrdf:taConfidence     "0.9468985242209639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toyota_C_engine> .
+
+<#offset_140_146>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "safety" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997870212204755"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Safety> .
+
+<#offset_651_664>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999931666980459"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telecommunication> .
+
+<#offset_1287_1295>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ethernet" ;
+        nif:beginIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethernet> .
+
+<#offset_961_972>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computation" ;
+        nif:beginIndex          "961"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "972"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986564599976883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computing> .
+
+<#offset_29_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synchronization" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999926637884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synchronization> .
+
+<#offset_1317_1323>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999331893895087"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metric_prefix> .
+
+<#offset_416_428>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiplexing" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997469188711727"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multiplexing> .

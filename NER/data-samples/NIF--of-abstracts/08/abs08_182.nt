@@ -1,0 +1,183 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_496_498>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.7409591774766396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_586_598>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thresholding" ;
+        nif:beginIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999619698209"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thresholding_(image_processing)> .
+
+<#offset_483_495>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "segmentation" ;
+        nif:beginIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999085958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Image_segmentation> .
+
+<#offset_710_721>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999766823751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<#offset_255_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "occlusion" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.48068821312578147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vascular_occlusion> .
+
+<#offset_809_811>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "809"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.7409591774766396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_722_733>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computation" ;
+        nif:beginIndex          "722"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8696778153648962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computing> .
+
+<#offset_0_1104>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1104"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+Automatic+detection+and+recognition+of+traffic+sign+has+been+a+topic+of+great+interest+in+advanced+driver+assistance+system.+It+enhances+vehicle+and+driver+safety+by+providing+the+condition+and+state+of+the+road+to+the+drivers.+However%2C+visual+occlusion+and+ambiguities+in+the+real-world+scenario+make+the+traffic+sign+recognition+a+challenging+task.+This+paper+presents+an+Automatic+Traffic+Sign+Detection+and+Recognition+%28ATSDR%29+system%2C+involving+three+modules%3A+segmentation%2C+detection%2C+and+recognition.+Region+of+Interest+%28ROI%29+is+extracted+using+multiple+thresholding+schemes+with+a+novel+environmental+selection+strategy.+Then%2C+the+traffic+sign+detection+is+carried+out+using+correlation+computation+between+log-polar+mapped+inner+regions+and+the+reference+template.+Finally%2C+recognition+is+performed+using+Support+Vector+Machine+%28SVM%29+classifier.+Our+proposed+system+achieved+a+recognition+accuracy+of+98.3+%EF%BF%BDnd+the+experimental+results+demonstrates+the+robustness+of+traffic+sign+detection+and+recognition+in+real-world+scenario.=&prefix=&confidence=0.35\n" .
+
+<#offset_620_633>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental" ;
+        nif:beginIndex          "620"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998695577275032"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environment_(biophysical)> .
+
+<#offset_949_951>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EF" ;
+        nif:beginIndex          "949"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7730148546627776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enhanced_Fujita_scale> .
+
+<#offset_876_886>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classifier" ;
+        nif:beginIndex          "876"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "886"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6631947545379466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_classification> .
+
+<#offset_395_402>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Traffic" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998669843624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Traffic> .
+
+<#offset_165_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "safety" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999866861988486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Safety> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1104> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_245_247>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.7409591774766396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1080_1086>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "1080"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1086"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6664443767708136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_509_511>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.7409591774766396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_453_455>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.7409591774766396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1002_1012>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "robustness" ;
+        nif:beginIndex          "1002"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9955658374222194"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Robust_statistics> .
+
+<#offset_659_661>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.7409591774766396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .

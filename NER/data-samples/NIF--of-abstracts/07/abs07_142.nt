@@ -1,0 +1,512 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1607_1612>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "breed" ;
+        nif:beginIndex          "1607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986543536993"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breed> .
+
+<#offset_405_414>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "livestock" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983790822778037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Livestock> .
+
+<#offset_1279_1285>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calves" ;
+        nif:beginIndex          "1279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9998772010251469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_119_127>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Cambodia" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999999999413376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cambodia> .
+
+<#offset_2139_2143>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meat" ;
+        nif:beginIndex          "2139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8137368967776687"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Beef> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_2205> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_2205>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2205"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract+This+study+aimed+to+identify+factors+associated+with+cattle+reproductive+output+in+rural+smallholder+farms+in+Cambodia+in+order+to+determine+the+main+causes+of+reproductive+failure+and+design+efficient+interventions+for+improvement.+The+majority+of+the+nation%E2%80%99s+beef+is+produced+on+smallholder+farms+where+productivity+is+constrained+by+poor+animal+reproductivity+reflected+in+the+recent+livestock+population+decline+of+approximately+13%C2%A0%EF%BF%BDrom+2009+to+2013.+Farmers+%28n%E2%80%89=%E2%80%89240%29+from+16+villages+from+five+provinces+were+surveyed+in+mid-2015+to+determine+their+baseline+knowledge%2C+attitude+and+practices+%28KAP%29+associated+with+cattle+reproduction.+In+addition%2C+16+case+studies+from+three+of+these+provinces+were+conducted+to+provide+a+more+detailed+assessment+of+current+cattle+reproductive+husbandry+practices.+In+order+to+assess+the+reproductive+impact+of+previously+implemented+interventions%2C+an+endpoint+KAP+survey+and+longitudinal+health+and+husbandry+study+from+three+Cambodian+provinces+conducted+between+2008+and+2013+were+also+analysed.+Three+multivariable+prediction+models+%28two+KAP+and+one+longitudinal%29+identified+the+following+significant+factors+associated+with+the+reproductive+outcomes+%E2%80%98number+of+calves+born%E2%80%99+or+probability+that+cows+%E2%80%98gave+birth%E2%80%99%3A+target+feeding+%28P%E2%80%89%3D%E2%80%890.074%29%2C+growing+vegetables+%28P%E2%80%89%3D%E2%80%890.005%29%2C+attitudes+towards+cattle+vaccination+%28P%E2%80%89%3D%E2%80%890.010%29%2C+improving+bull+selection+%28P%E2%80%89%3D%E2%80%890.032%29%2C+local+breed+use+%28P%E2%80%89%3D%E2%80%890.005%29%2C+number+of+joining+attempts+%28P%E2%80%89%3C%E2%80%890.001%29%2C+discontinuation+of+animal+draught+practices+%28P%E2%80%89%3D%E2%80%890.003%29+and+retention+of+breeding+animals+%28P%E2%80%89%3C%E2%80%890.001%29.+The+identification+of+significant+factors+and+interventions+in+this+study+has+led+to+intervention+recommendations+that+can+potentially+improve+reproductive+efficiency%2C+combat+the+declining+cattle+population+and+improve+smallholder+capacity+to+supply+to+expanding+regional+meat+demand+in+South-East+Asia+and+China.&prefix=&confidence=0.35\n" .
+
+<#offset_823_829>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cattle" ;
+        nif:beginIndex          "823"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9935908033571997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_843_852>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "husbandry" ;
+        nif:beginIndex          "843"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "852"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999958724593998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Animal_husbandry> .
+
+<#offset_551_560>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "provinces" ;
+        nif:beginIndex          "551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99250545534788"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Province> .
+
+<#offset_1651_1653>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1653"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_677_683>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cattle" ;
+        nif:beginIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9935908033571997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_710_712>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_1695_1697>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3C" ;
+        nif:beginIndex          "1695"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998358857872"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Third_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_1631_1633>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1631"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957419926239637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three-dimensional_space> .
+
+<#offset_1715_1717>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_684_696>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reproduction" ;
+        nif:beginIndex          "684"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985683978628578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reproduction> .
+
+<#offset_1001_1010>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "husbandry" ;
+        nif:beginIndex          "1001"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999958724593998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Animal_husbandry> .
+
+<#offset_1303_1314>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "1303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999344397587"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_1462_1464>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_1844_1846>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3C" ;
+        nif:beginIndex          "1844"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1846"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998358857872"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Third_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_990_996>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "990"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "996"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957543413695426"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health> .
+
+<#offset_2032_2034>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2032"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_2056_2062>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cattle" ;
+        nif:beginIndex          "2056"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9935908033571997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_1578_1580>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1578"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957419926239637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three-dimensional_space> .
+
+<#offset_1145_1148>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "KAP" ;
+        nif:beginIndex          "1145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7349937487848982"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kearny_Air_Pump> .
+
+<#offset_2086_2097>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smallholder" ;
+        nif:beginIndex          "2086"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smallholding> .
+
+<#offset_962_965>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "KAP" ;
+        nif:beginIndex          "962"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7349937487848982"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kearny_Air_Pump> .
+
+<#offset_1417_1427>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vegetables" ;
+        nif:beginIndex          "1417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vegetable> .
+
+<#offset_1320_1324>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cows" ;
+        nif:beginIndex          "1320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.7382334303718239"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_1038_1047>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "provinces" ;
+        nif:beginIndex          "1038"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1047"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99250545534788"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Province> .
+
+<#offset_1483_1489>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cattle" ;
+        nif:beginIndex          "1483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9935908033571997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_1536_1538>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1536"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_92_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rural" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999700974063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subsistence_agriculture> .
+
+<#offset_460_462>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EF" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999885664586762"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Economic_Community> .
+
+<#offset_2181_2187>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "2181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9315793628508503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_299_310>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smallholder" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smallholding> .
+
+<#offset_1028_1037>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cambodian" ;
+        nif:beginIndex          "1028"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999981770946095"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cambodia> .
+
+<#offset_1442_1444>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957419926239637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three-dimensional_space> .
+
+<#offset_1386_1388>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957419926239637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three-dimensional_space> .
+
+<#offset_98_109>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smallholder" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smallholding> .
+
+<#offset_1744_1751>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "draught" ;
+        nif:beginIndex          "1744"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1751"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9864103747269639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Working_animal> .
+
+<#offset_1406_1408>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_366_380>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reproductivity" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reproduction> .
+
+<#offset_947_949>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "947"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_625_627>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_749_758>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "provinces" ;
+        nif:beginIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99250545534788"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Province> .
+
+<#offset_2174_2179>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "China" ;
+        nif:beginIndex          "2174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999851281803251"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/China> .
+
+<#offset_1776_1778>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957419926239637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three-dimensional_space> .
+
+<#offset_62_68>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cattle" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9935908033571997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cattle> .
+
+<#offset_1516_1518>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1516"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9957419926239637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three-dimensional_space> .
+
+<#offset_1598_1600>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.912852533132254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Cambridge_Catalogue_of_Radio_Sources> .
+
+<#offset_1490_1501>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vaccination" ;
+        nif:beginIndex          "1490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999684622487757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vaccination> .
+
+<#offset_323_335>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "productivity" ;
+        nif:beginIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999978008191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Productivity> .
+
+<#offset_2165_2169>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Asia" ;
+        nif:beginIndex          "2165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998960743196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asia> .
+
+<#offset_279_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "beef" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8145899923908148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Beef_cattle> .

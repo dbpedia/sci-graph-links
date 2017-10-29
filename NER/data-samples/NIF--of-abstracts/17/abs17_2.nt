@@ -1,0 +1,909 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9140753375087021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metric_prefix> .
+
+<#offset_2449_2451>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "2449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_0_2805>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2805"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&Abstract+Let+%7Bx+m+%7D+be+a+vector+sequence+that+satisfies+xm%E2%88%BCs+%E2%88%91i=1%E2%88%9E%CE%B1igi%28m%29asm%E2%86%92%E2%88%9E%2C+%24%24%5Cboldsymbol%7Bx%7D_%7Bm%7D%5Csim+%5Cboldsymbol%7Bs%7D+%5Csum%5Climits%5E%7B%5Cinfty%7D_%7Bi%3D1%7D%5Calpha_%7Bi%7D+%5Cboldsymbol%7Bg%7D_%7Bi%7D%28m%29%5Cquad%5Ctext%7Bas+%5C%28m%5Cto%5Cinfty%5C%29%7D%2C+%24%24+s+being+the+limit+or+antilimit+of+%7Bx+m+%7D+and+%7Bgi%28m%29%7Di%3D1%E2%88%9E+%24%5C%7B%5Cboldsymbol+%7Bg%7D_%7Bi%7D%28m%29%5C%7D%5E%7B%5Cinfty+%7D_%7Bi%3D1%7D%24+being+an+asymptotic+scale+as+m+%E2%86%92+%E2%88%9E%2C+in+the+sense+that+limm%E2%86%92%E2%88%9E%E2%88%A5gi+1%28m%29%E2%88%A5%E2%88%A5gi%28m%29%E2%88%A5%3D0%2Ci%3D1%2C2%2C%E2%80%A6.+%24%24%5Clim%5Climits_%7Bm%5Cto%5Cinfty%7D%5Cfrac%7B%5C%7C%5Cboldsymbol%7Bg%7D_%7Bi+1%7D%28m%29%5C%7C%7D%7B%5C%7C%5Cboldsymbol%7Bg%7D_%7Bi%7D%28m%29%5C%7C%7D%3D0%2C%5Cquad+i%3D1%2C2%2C%5Cldots.+%24%24+The+vector+sequences+%7Bgi%28m%29%7Dm%3D0%E2%88%9E+%24%5C%7B%5Cboldsymbol+%7Bg%7D_%7Bi%7D%28m%29%5C%7D%5E%7B%5Cinfty+%7D_%7Bm%3D0%7D%24%2C+i+%3D+1%2C+2%2C%E2%80%A6%2C+are+known%2C+as+well+as+%7Bx+m+%7D.+In+this+work%2C+we+analyze+the+convergence+and+convergence+acceleration+properties+of+a+vectorized+version+of+the+generalized+Richardson+extrapolation+process+that+is+defined+via+the+equations+%E2%88%91i%3D1k%E2%8C%A9y%2C%CE%94gi%28m%29%E2%8C%AA%CE%B1%7Ei%3D%E2%8C%A9y%2C%CE%94xm%E2%8C%AA%2Cn%E2%89%A4m%E2%89%A4n+k%E2%88%921%3Bsn%2Ck%3Dxn+%E2%88%91i%3D1k%CE%B1%7Eigi%28n%29%2C+%24%24%5Csum%5Climits%5E%7Bk%7D_%7Bi%3D1%7D%5Clangle%5Cboldsymbol%7By%7D%2C%7B%5CDelta%7D%5Cboldsymbol%7Bg%7D_%7Bi%7D%28m%29%5Crangle%5Cwidetilde%7B%5Calpha%7D_%7Bi%7D%3D%5Clangle%5Cboldsymbol%7By%7D%2C%7B%5CDelta%7D%5Cboldsymbol%7Bx%7D_%7Bm%7D%5Crangle%2C%5Cquad+n%5Cleq+m%5Cleq+n+k-1%3B%5Cquad+%5Cboldsymbol%7Bs%7D_%7Bn%2Ck%7D%3D%5Cboldsymbol%7Bx%7D_%7Bn%7D+%5Csum%5Climits%5E%7Bk%7D_%7Bi%3D1%7D%5Cwidetilde%7B%5Calpha%7D_%7Bi%7D%5Cboldsymbol%7Bg%7D_%7Bi%7D%28n%29%2C+%24%24+s+n%2C+k+being+the+approximation+to+s.+Here%2C+y+is+some+nonzero+vector%2C+%E2%8C%A9%E2%8B%85+%2C%E2%8B%85%E2%8C%AA+is+an+inner+product%2C+such+that+%E2%8C%A9%CE%B1a%2C%CE%B2b%E2%8C%AA%3D%CE%B1%C2%AF%CE%B2%E2%8C%A9a%2Cb%E2%8C%AA+%24%5Clangle+%5Calpha+%5Cboldsymbol+%7Ba%7D%2C%5Cbeta+%5Cboldsymbol+%7Bb%7D%5Crangle+%3D%5Coverline+%7B%5Calpha+%7D%5Cbeta+%5Clangle+%5Cboldsymbol+%7Ba%7D%2C%5Cboldsymbol+%7Bb%7D%5Crangle+%24%2C+and+%CE%94x+m+%3D+x+m+++1%E2%88%92+x+m+and+%CE%94g+i+%28m%29+%3D+g+i+%28m+++1%29%E2%88%92g+i+%28m%29.+By+imposing+a+minimal+number+of+reasonable+additional+conditions+on+the+g+i+%28m%29%2C+we+show+that+the+error+s+n%2C+k+%E2%88%92+s+has+a+full+asymptotic+expansion+as+n%E2%86%92%E2%88%9E.+We+also+show+that+actual+convergence+acceleration+takes+place%2C+and+we+provide+a+complete+classification+of+it.&confidence=0.35\n" .
+
+<#offset_2189_2191>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AA" ;
+        nif:beginIndex          "2189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8928254949175353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AA_battery> .
+
+<#offset_1378_1380>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_857_859>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "7C" ;
+        nif:beginIndex          "857"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "859"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7667356328517426"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/7C> .
+
+<#offset_2603_2605>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2603"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_887_889>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "889"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1321_1323>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "1321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_1042_1044>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1042"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1044"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2064_2066>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8B" ;
+        nif:beginIndex          "2064"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2066"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Locomotive> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.643485419277259"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GCR_Class_8B> .
+
+<#offset_2186_2188>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "2186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_2058_2060>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2058"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1654_1656>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1654"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_1967_1969>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1967"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2701_2712>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "2701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6693863835723992"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_of_a_sequence> .
+
+<#offset_37_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992927012096625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_space> .
+
+<#offset_1140_1151>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "1140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6693863835723992"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_of_a_sequence> .
+
+<#offset_2395_2398>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "94x" ;
+        nif:beginIndex          "2395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/RadioStation> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://schema.org/RadioStation> ;
+        itsrdf:taConfidence     "0.9999994014564862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/KZIO> .
+
+<#offset_2073_2075>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "2073"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2075"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_2805> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_2099_2101>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2099"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1365_1367>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_44_52>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequence" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequence> .
+
+<#offset_534_544>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6343256536349996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<#offset_1168_1180>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acceleration" ;
+        nif:beginIndex          "1168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999556323483"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acceleration> .
+
+<#offset_2007_2009>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1392_1394>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "1392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_1355_1357>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "1355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_2573_2575>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2573"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1349_1351>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "1349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_1464_1466>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "1464"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_1483_1485>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2148_2150>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "2148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_1381_1383>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "1381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_1246_1259>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "extrapolation" ;
+        nif:beginIndex          "1246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Extrapolation> .
+
+<#offset_680_683>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2Ci" ;
+        nif:beginIndex          "680"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999972772391862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2C-I> .
+
+<#offset_2035_2037>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2035"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2037"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2135_2138>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B2b" ;
+        nif:beginIndex          "2135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999831743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business-to-business> .
+
+<#offset_1122_1124>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_576_578>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1156_1167>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "1156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6693863835723992"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_of_a_sequence> .
+
+<#offset_2163_2165>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "2163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_2042_2044>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "2042"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2044"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_103_105>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_1352_1354>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AA" ;
+        nif:beginIndex          "1352"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8928254949175353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AA_battery> .
+
+<#offset_2145_2147>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AA" ;
+        nif:beginIndex          "2145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8928254949175353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AA_battery> .
+
+<#offset_1371_1373>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "1371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_2278_2280>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "2278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_2431_2433>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "2431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_140_142>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1328_1330>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1328"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_910_916>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "916"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992927012096625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_space> .
+
+<#offset_761_763>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "7C" ;
+        nif:beginIndex          "761"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7667356328517426"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/7C> .
+
+<#offset_351_353>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_804_806>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "7C" ;
+        nif:beginIndex          "804"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7667356328517426"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/7C> .
+
+<#offset_2236_2238>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1686_1688>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1686"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2172_2174>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "2172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_2051_2053>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8B" ;
+        nif:beginIndex          "2051"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2053"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Locomotive> ;
+        itsrdf:taConfidence     "0.643485419277259"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GCR_Class_8B> .
+
+<#offset_2116_2118>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "2116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_1953_1955>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1955"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1559_1561>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2402_2404>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "2402"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_2129_2131>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2129"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2713_2725>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acceleration" ;
+        nif:beginIndex          "2713"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999556323483"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acceleration> .
+
+<#offset_2384_2386>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1083_1085>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1083"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1418_1421>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A4n" ;
+        nif:beginIndex          "1418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Aircraft> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9999999568176472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nakajima_A4N> .
+
+<#offset_2142_2144>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "8C" ;
+        nif:beginIndex          "2142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.9999999003741827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfa_Romeo_8C> .
+
+<#offset_2347_2349>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1815_1817>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1817"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_1058_1060>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1058"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2028_2034>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "2028"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2034"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992927012096625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_space> .
+
+<#offset_1053_1055>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1053"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1197_1207>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vectorized" ;
+        nif:beginIndex          "1197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9967983810759949"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_graphics> .
+
+<#offset_2392_2394>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "2392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_2132_2134>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "2132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_2076_2078>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AA" ;
+        nif:beginIndex          "2076"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8928254949175353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AA_battery> .
+
+<#offset_2151_2153>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "2151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_1740_1742>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1740"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_1048_1050>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D" ;
+        nif:beginIndex          "1048"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719596740474705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_867_869>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_701_703>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "A6" ;
+        nif:beginIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> , <http://dbpedia.org/ontology/MeanOfTransportation> ;
+        itsrdf:taConfidence     "0.7696564045460433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Audi_A6> .
+
+<#offset_2631_2641>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "2631"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6343256536349996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<#offset_2738_2740>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "2738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2740"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_816_818>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "7C" ;
+        nif:beginIndex          "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7667356328517426"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/7C> .
+
+<#offset_2122_2124>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "2122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_1982_1995>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "approximation" ;
+        nif:beginIndex          "1982"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.704966543988523"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Approximation> .
+
+<#offset_2160_2162>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AF" ;
+        nif:beginIndex          "2160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6673233400708948"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autofocus> .
+
+<#offset_1395_1397>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AA" ;
+        nif:beginIndex          "1395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8928254949175353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AA_battery> .
+
+<#offset_692_694>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_77_80>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BCs" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7325257086594033"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bowl_Championship_Series> .
+
+<#offset_1070_1072>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2C" ;
+        nif:beginIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1072"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.993233695902301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/5-HT2C_receptor> .
+
+<#offset_2179_2182>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2Cb" ;
+        nif:beginIndex          "2179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999999984084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2C-B> .
+
+<#offset_1331_1333>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CE" ;
+        nif:beginIndex          "1331"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9582232211700356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .

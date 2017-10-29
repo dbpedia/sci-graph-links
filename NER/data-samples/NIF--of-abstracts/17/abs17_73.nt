@@ -1,0 +1,97 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_120_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IS" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999931136137055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_systems> .
+
+<#offset_738_746>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "morality" ;
+        nif:beginIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999541766810804"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Morality> .
+
+<#offset_386_397>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirically" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999140688113107"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_253_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7639854775271214"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
+
+<#offset_636_644>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "morality" ;
+        nif:beginIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999541766810804"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Morality> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_766> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_366_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "emotion" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emotion> .
+
+<#offset_0_6>  a                nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "6"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9872111954148424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prefix> .
+
+<#offset_123_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "security+" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999999999664624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CompTIA> .
+
+<#offset_0_766>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "766"^^xsd:nonNegativeInteger ;
+        nif:isString    "prefix=&confidence=0.35&Internal+computer+abuse+has+received+considerable+research+attention+as+a+significant+source+of+IS+security+incidents+in+organizations.+We+examine+the+effects+of+both+organizational+and+individual+factors+on+individuals%E2%80%99+computer+abuse+intent.+A+theoretical+model+is+developed+based+on+two+theories%3A+abuse+opportunity+structure+and+emotion+process.+We+empirically+tested+the+model+with+205+working+professionals.+We+found+that+the+abuse+opportunity+structure+in+organizations+affects+an+individual%27s+goal+conduciveness%2C+which+in+turn+affects+their+abuse%E2%80%90positive+affect.+We+also+found+that+morality+affects+the+abuse%E2%80%90positive+affect%2C+which+in+turn+mediates+the+relationship+between+morality+and+abuse+intent.=\n" .
+
+<#offset_33_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7639854775271214"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer> .
