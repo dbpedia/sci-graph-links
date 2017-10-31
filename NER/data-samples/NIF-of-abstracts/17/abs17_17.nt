@@ -1,0 +1,213 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_24_36>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bi-Lipschitz" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipschitz_continuity> .
+
+<#offset_376_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dis" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983560689908386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hades> .
+
+<#offset_541_551>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive" ;
+        nif:beginIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994393422962229"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_action> .
+
+<#offset_629_634>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Viola" ;
+        nif:beginIndex          "629"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982426151087521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Viola> .
+
+<#offset_179_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bijection" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bijection> .
+
+<#offset_56_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Boolean" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7395112019342881"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boolean_function> .
+
+<#offset_602_614>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open problem" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999855783381387"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_problem> .
+
+<#offset_992_999>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inverse" ;
+        nif:beginIndex          "992"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "999"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999862957752141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inverse_function> .
+
+<#offset_0_1209>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1209"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We construct a bi-Lipschitz bijection from the Boolean cube to the Hamming ball of equal volume. More precisely, we show that for all even n ∈ N there exists an explicit bijection ψ: {0, 1} n → {x ∈ {0, 1} n 1 : |x| > n/2} such that for every x ≠ y ∈ {0, 1} n , $$\\frac{1}{5} \\leqslant \\frac{{dis\\tan ce\\left( {\\psi \\left( x \\right),\\psi \\left( y \\right)} \\right)}}{{dis\\tan ce\\left( {x,y} \\right)}} \\leqslant 4,$$ where distance(·, ·) denotes the Hamming distance. In particular, this implies that the Hamming ball is bi-Lipschitz transitive. This result gives a strong negative answer to an open problem of Lovett and Viola (2012), who raised the question in the context of sampling distributions in low-level complexity classes. The conceptual implication is that the problem of proving lower bounds in the context of sampling distributions requires ideas beyond the sensitivity-based structural results of Boppana (1997). We study the mapping ψ further and show that it (and its inverse) are computable in DLOGTIME-uniform TC0, but not in AC0. Moreover, we prove that ψ is “approximately local” in the sense that all but the last output bit of ψ are essentially determined by a single input bit.\n" .
+
+<#offset_1005_1015>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computable" ;
+        nif:beginIndex          "1005"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1015"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997472381280923"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computable_function> .
+
+<#offset_721_739>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complexity classes" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987316953187231"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complexity_class> .
+
+<#offset_1036_1039>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "TC0" ;
+        nif:beginIndex          "1036"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999941961944958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/TC0> .
+
+<#offset_830_838>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sampling" ;
+        nif:beginIndex          "830"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "838"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8002151541353681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .
+
+<#offset_457_473>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamming distance" ;
+        nif:beginIndex          "457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamming_distance> .
+
+<#offset_37_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bijection" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bijection> .
+
+<#offset_76_88>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamming ball" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999957708804074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamming_ball> .
+
+<#offset_528_540>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bi-Lipschitz" ;
+        nif:beginIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipschitz_continuity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1209> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_685_693>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sampling" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8002151541353681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .
+
+<#offset_512_524>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamming ball" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999957708804074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamming_ball> .
+
+<#offset_302_305>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dis" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983560689908386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hades> .
+
+<#offset_1191_1197>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "single" ;
+        nif:beginIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9900550867039728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Single_(music)> .
+
+<#offset_64_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cube" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8119041928098272"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sphere> .
+
+<#offset_1052_1055>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AC0" ;
+        nif:beginIndex          "1052"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AC0> .

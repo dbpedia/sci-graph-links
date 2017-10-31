@@ -1,0 +1,99 @@
+Abstract Idealized models of reduced complexity are important tools to understand key processes underlying a complex system. In climate science in particular, they are important for helping the community improve our ability to predict the effect of climate change on the earth system. Climate models are large computer codes based on the discretization of the fluid dynamics equations on grids of horizontal resolution in the order of 100 km, whereas unresolved processes are handled by subgrid models. For instance, simple models are routinely used to help understand the interactions between small-scale processes due to atmospheric moist convection and large-scale circulation patterns. Here, a zonally symmetric model for the monsoon circulation is presented and solved numerically. The model is based on the Galerkin projection of the primitive equations of atmospheric synoptic dynamics onto the first modes of vertical structure to represent free tropospheric circulation and is coupled to a bulk atmospheric boundary layer (ABL) model. The model carries bulk equations for water vapor in both the free troposphere and the ABL, while the processes of convection and precipitation are represented through a stochastic model for clouds. The model equations are coupled through advective nonlinearities, and the resulting system is not conservative and not necessarily hyperbolic. This makes the design of a numerical method for the solution of this system particularly difficult. Here, we develop a numerical scheme based on the operator time-splitting strategy, which decomposes the system into three pieces: a conservative part and two purely advective parts, each of which is solved iteratively using an appropriate method. The conservative system is solved via a central scheme, which does not require hyperbolicity since it avoids the Riemann problem by design. One of the advective parts is a hyperbolic diagonal matrix, which is easily handled by classical methods for hyperbolic equations, while the other advective part is a nilpotent matrix, which is solved via the method of lines. Validation tests using a synthetic exact solution are presented, and formal second-order convergence under grid refinement is demonstrated. Moreover, the model is tested under realistic monsoon conditions, and the ability of the model to simulate key features of the monsoon circulation is illustrated in two distinct parameter regimes.
+water vapor         0.9999999999533884^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Water_vapor           
+
+hyperbolic equations          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Hyperbolic_partial_differential_equation
+
+synoptic                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Synoptic_scale_meteorology
+
+climate science               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Climatology           
+
+primitive equations           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Primitive_equations   
+
+conservative                  0.9973750556230742^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Conservative_vector_field
+
+precipitation                 0.6489557764745888^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Rain                  
+
+ABL                           0.6354949863526317^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/ABL_(gene)            
+
+hyperbolic                    0.9999999999984084^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Hyperbolic_partial_differential_equation
+
+diagonal matrix               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Diagonal_matrix       
+
+classical                     0.9999999991614459^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Classical_mechanics   
+
+conservative                  0.9973750556230742^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Conservative_vector_field
+
+ABL                           0.6354949863526317^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/ABL_(gene)            
+
+stochastic model              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Stochastic_calculus   
+
+dynamics                      0.765775262620589^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Fluid_dynamics        
+
+fluid dynamics                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Fluid_dynamics        
+
+exact solution                0.9999995954841233^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Integrable_system     
+
+advective                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Advection             
+
+complex system                0.9999998410087427^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Complex_system        
+
+conservative                  0.9973750556230742^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Conservative_vector_field
+
+zonally                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Zonal_and_meridional  
+
+Galerkin                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Galerkin_method       
+
+numerical scheme              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Numerical_analysis    
+
+advective                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Advection             
+
+tropospheric                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Troposphere           
+
+symmetric                     0.9997780206684913^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Symmetry              
+
+monsoon                       0.9998675060454592^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Monsoon               
+
+Climate models                0.9881569887166056^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Global_climate_model  
+
+advective                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Advection             
+
+discretization                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Discretization        
+
+hyperbolicity                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Hyperbolic_equilibrium_point
+
+clouds                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Cloud                 
+
+monsoon                       0.9998675060454592^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Monsoon               
+
+computer                      0.9580128881935923^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer              
+
+climate change                0.9995779298543129^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Climate_change        
+
+numerical method              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Numerical_analysis    
+
+Riemann problem               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Riemann_problem       
+
+grid                          0.9999357759269899^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Grid_computing        
+
+atmospheric boundary layer    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Planetary_boundary_layer
+
+troposphere                   0.9995541072822806^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Troposphere           
+
+synthetic                     0.515458535404859^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Organic_compound      
+
+monsoon                       0.9998675060454592^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Monsoon               
+
+nonlinearities                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Nonlinear_system      
+
+convection                    0.9999999999997726^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Convection            
+
+nilpotent matrix              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Nilpotent_matrix      
+
+convection                    0.9999999999997726^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Convection            
+
+hyperbolic                    0.9999999999984084^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Hyperbolic_partial_differential_equation
+
+advective                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Advection             
+
+convergence                   0.9999182199896504^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Limit_(mathematics)   
+

@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_615_621>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pareto" ;
+        nif:beginIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_793> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992550873498673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pareto_efficiency> .
+
+<#offset_532_538>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Boston" ;
+        nif:beginIndex          "532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_793> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9993465632238303"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boston> .
+
+<#offset_0_793>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "793"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider school choice problems. We are interested in solutions that satisfy consistency. Consider a problem and a recommendation made by the solution for the problem. Suppose some students are removed with their positions in schools. Consider the “reduced” problem consisting of the remaining students and the remaining positions. Consistency states that in the reduced problem, the solution should assign each remaining student to the same school as initially. Neither the immediate acceptance rule (also known as the Boston mechanism) nor the top trading cycles rules is consistent. We show that the Pareto solution is the smallest consistent solution containing the immediate acceptance rule. It is also the smallest consistent solution containing the top trading cycles rule.\n" .
+
+<#offset_21_34>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "school choice" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_793> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9613414267530229"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/School_choice> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_793> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

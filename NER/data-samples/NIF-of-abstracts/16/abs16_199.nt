@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_70_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "euro" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.9999999479077828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euro> .
+
+<#offset_400_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5589332295640572"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Money> .
+
+<#offset_353_361>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eurozone" ;
+        nif:beginIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eurozone> .
+
+<#offset_163_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eurozone" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eurozone> .
+
+<#offset_517_521>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "euro" ;
+        nif:beginIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.9999999479077828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euro> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_531> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_477_485>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary" ;
+        nif:beginIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5589332295640572"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Money> .
+
+<#offset_0_531>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "531"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract There seem to be two typical responses to the failure of the euro project that the last five years have exposed. The first, mostly from those outside the eurozone, is that the whole project was doomed from the start and should be abandoned. The second is that the only way forward is further political integration. However, the problems of the eurozone are not intrinsic to any attempt at a monetary union, but rather reflect design flaws in the particular version of monetary union that was embodied in the euro project.\n" .

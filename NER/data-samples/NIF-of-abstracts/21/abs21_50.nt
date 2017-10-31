@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_551>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "551"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As James Buchanan often asserted, in constitutional design “we start from here” which is to say we design a constitution to fit the institutions, social practices and so forth that we already have. Comparison of the complicated case of the US constitution and the failed attempt at constitutionalism in contemporary Egypt suggest that many societies are not yet ready for serious constitutional design. The English civil wars were about religion; the US constitution ignores religion and thereby avoids the grim conflict of church and state.\n" .
+
+<#offset_446_454>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "religion" ;
+        nif:beginIndex          "446"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9839672308930718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Religion> .
+
+<#offset_416_434>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English civil wars" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Event> , <http://dbpedia.org/ontology/MilitaryConflict> , <http://dbpedia.org/ontology/Event> ;
+        itsrdf:taConfidence     "0.9977425249160226"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_Civil_War> .
+
+<#offset_12_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "James Buchanan" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/OfficeHolder> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "0.9278288017937275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/James_Buchanan> .
+
+<#offset_249_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "US constitution" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Constitution> .
+
+<#offset_533_539>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "church" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6237105699545122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Church_(building)> .
+
+<#offset_484_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "religion" ;
+        nif:beginIndex          "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9839672308930718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Religion> .
+
+<#offset_117_129>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "constitution" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991187569187406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constitution> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_551> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_325_330>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Egypt" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.987422637762023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Egypt> .
+
+<#offset_291_308>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "constitutionalism" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9981122058279054"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constitutionalism> .
+
+<#offset_460_475>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "US constitution" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_551> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Constitution> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1229>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1229"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper focuses on modeling collaborative interaction in Ubiquitous Learning Environment (ULE) based on the assumption that the collaborative interaction can be perceived through interpersonal interactions, which can be described as local dynamic behaviors of the team. In this paper, the collaborative interaction is collected from the experiment with 50 students having 5 members per team. Then the collaborative interaction is coded with 16 participation shift (P-shifts) from 5 different types of turns including turn receiving, turn claiming, turn usurping, turn continuing, and turn noreturning to represent the participation status of each member. Three types of participation statuses used in this paper are the contributor, the target and the unaddressed recipient. Then the discovered local dynamic behavior is used for constructing the model by using agent-based modeling. The model consists of student agents working together according to the discovered behavior. Then, the constructed model is verified by comparing the actual behavior with the simulated behavior. Finally, the comparison result shows that the constructed model can reasonably be the model for modeling collaborative interaction in ULE.\n" .
+
+<#offset_1224_1227>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ULE" ;
+        nif:beginIndex          "1224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999419215042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/List_of_Sons_of_Anarchy_characters> .
+
+<#offset_102_105>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ULE" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999419215042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/List_of_Sons_of_Anarchy_characters> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1229> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_874_894>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "agent-based modeling" ;
+        nif:beginIndex          "874"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Agent-based_model> .

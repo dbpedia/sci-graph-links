@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_913>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "913"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Women engaging in substance use who have been justice-involved are systemically isolated from the legal economy and are therefore underresourced. Utilizing a conservation of resources framework of stress, this study examined housing as a resource in 200 women exiting the criminal justice system who reported having a history of substance use. A general linear model was run to examine the relationship between the setting where participants spent the most time and CORE Loss scores. Women who had spent the majority of their time in independent house settings had significantly higher CORE-L scores compared to those who spent the majority of their time in precarious settings. This study highlights the importance of understanding housing within the context of working with underresourced populations, and the continued support necessary as women transition out of institutions and into the community.\n" .
+
+<#offset_281_304>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "criminal justice system" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_913> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999794874272"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Criminal_justice> .
+
+<#offset_206_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_913> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9122154499861471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(biology)> .
+
+<#offset_167_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conservation" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_913> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9386440388945245"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conservation_biology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_913> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_543_554>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "independent" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_913> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7034694289083111"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence> .
+
+<#offset_355_375>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "general linear model" ;
+        nif:beginIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_913> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_linear_model> .
+
+<#offset_475_479>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CORE" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_913> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988159742584005"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Congress_of_Racial_Equality> .

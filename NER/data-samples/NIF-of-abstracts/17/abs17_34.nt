@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_462_469>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dieting" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_553> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999949409"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dieting> .
+
+<#offset_131_142>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "attentional" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_553> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attention> .
+
+<#offset_75_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "attentional" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_553> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attention> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_553> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_553>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "553"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Prior research has demonstrated the benefits (i.e., task-relevant attentional selection) and costs (i.e., task-irrelevant attentional capture) of prior knowledge on search for an individual target or multiple targets from a category. This study investigated whether the level of experience with particular categories predicts the degree of task-relevant and task-irrelevant activation of item and category representations. Adults with varying levels of dieting experience (measured via 3 subscales of Disinhibition, Restraint, Hunger; Stunkard\n" .

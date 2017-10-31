@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_310_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "welfare" ;
+        nif:beginIndex          "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_649> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8768397552449159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Welfare_economics> .
+
+<#offset_209_219>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogenous" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_649> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9772413217693627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endogeny> .
+
+<#offset_0_649>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "649"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I discuss the debate between North and Thomas and Clark. I argue institutions do not cause growth, but institutional change does. I expound a theoretical model where the circulation of elites entails endogenous institutional change and growth. I prove a generation taken in isolation can increase its welfare by a unilateral reduction in institutional change, in societies where groups that compete for accession to the ruling class are relatively smaller in size; and by a move to more, in societies where those groups are relatively larger. I prove the former are dynamically efficient societies; and the latter, dynamically inefficient.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_649> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_429_441>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ruling class" ;
+        nif:beginIndex          "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_649> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7922140341723078"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bourgeoisie> .

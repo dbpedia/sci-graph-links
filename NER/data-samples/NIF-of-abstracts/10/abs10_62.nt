@@ -1,0 +1,349 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_62_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectroscopic" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999854481"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectroscopy> .
+
+<#offset_894_901>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channel" ;
+        nif:beginIndex          "894"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999615504193693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Channel_(communications)> .
+
+<#offset_226_238>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metamaterial" ;
+        nif:beginIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metamaterial> .
+
+<#offset_545_566>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relative permittivity" ;
+        nif:beginIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999595939346665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Permittivity> .
+
+<#offset_1105_1115>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dielectric" ;
+        nif:beginIndex          "1105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dielectric> .
+
+<#offset_51_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dielectric" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dielectric> .
+
+<#offset_258_267>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microwave" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microwave> .
+
+<#offset_142_151>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "terahertz" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Terahertz_radiation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1213> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1213>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1213"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The sensitivity in a lower microwave band dielectric spectroscopic system is relatively less compared to that of millimeter wave and terahertz system. This work reports modeling and development of an epsilon-negative metamaterial resonator-inspired microwave band-stop filter as a prototype device and its detection circuitry for the spectroscopic analysis of dielectric samples in S-band. The device structure consists of a diamond-shaped patch with a complementary open split horn-ring resonator, fabricated on a Neltech substrate of relative permittivity (ε r = 3.2). The measured transmission coefficient at 2.2 GHz and simulated result at 2.24 GHz demonstrate an excellent accuracy in the device fabrication. A low-cost connector-type microwave signal detection system was assembled for the real-time transduction of device signal into an equivalent DC voltage. Further, a single channel cavity developed using polydimethylsiloxane was placed over the resonator gap for analyzing the perturbation effect of electric field intensity on the resonance and circuit output DC level for different dielectric samples under test. The performed calibrations show linearity up to 82.5 �n the device response.\n" .
+
+<#offset_867_874>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "voltage" ;
+        nif:beginIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991956656"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Voltage> .
+
+<#offset_966_975>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonator" ;
+        nif:beginIndex          "966"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999321722749"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<#offset_838_844>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "signal" ;
+        nif:beginIndex          "838"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "844"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5759289837970027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Signal_processing> .
+
+<#offset_998_1010>  a           nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perturbation" ;
+        nif:beginIndex          "998"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999758147172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perturbation_theory> .
+
+<#offset_864_866>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DC" ;
+        nif:beginIndex          "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Direct_current> .
+
+<#offset_391_397>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S-band" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/S_band> .
+
+<#offset_13_24>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensitivity" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensitivity_(electronics)> .
+
+<#offset_1021_1035>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electric field" ;
+        nif:beginIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1035"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electric_field> .
+
+<#offset_658_661>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GHz" ;
+        nif:beginIndex          "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hertz> .
+
+<#offset_925_945>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "polydimethylsiloxane" ;
+        nif:beginIndex          "925"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "945"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polydimethylsiloxane> .
+
+<#offset_593_617>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transmission coefficient" ;
+        nif:beginIndex          "593"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transmission_coefficient> .
+
+<#offset_815_827>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transduction" ;
+        nif:beginIndex          "815"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transducer> .
+
+<#offset_1168_1177>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linearity" ;
+        nif:beginIndex          "1168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6245969841479846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linearity> .
+
+<#offset_805_814>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real-time" ;
+        nif:beginIndex          "805"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999409965"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real-time_computing> .
+
+<#offset_1116_1123>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "samples" ;
+        nif:beginIndex          "1116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998324256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(signal_processing)> .
+
+<#offset_1082_1084>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DC" ;
+        nif:beginIndex          "1082"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1084"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Direct_current> .
+
+<#offset_290_299>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prototype" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7055964153919727"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prototype> .
+
+<#offset_887_893>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "single" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9795867891535459"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Single_(music)> .
+
+<#offset_625_628>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GHz" ;
+        nif:beginIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hertz> .
+
+<#offset_759_775>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "signal detection" ;
+        nif:beginIndex          "759"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "775"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Detection_theory> .
+
+<#offset_369_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dielectric" ;
+        nif:beginIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dielectric> .
+
+<#offset_343_365>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectroscopic analysis" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectroscopy> .
+
+<#offset_268_284>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "band-stop filter" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Band-stop_filter> .
+
+<#offset_380_387>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "samples" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998324256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(signal_processing)> .
+
+<#offset_1053_1062>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonance" ;
+        nif:beginIndex          "1053"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1062"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<#offset_749_758>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microwave" ;
+        nif:beginIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microwave> .
+
+<#offset_122_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "millimeter wave" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Extremely_high_frequency> .
+
+<#offset_497_506>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonator" ;
+        nif:beginIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999321722749"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<#offset_36_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microwave" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1213> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microwave> .

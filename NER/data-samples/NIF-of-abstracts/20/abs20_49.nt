@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_52_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bouveret" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8024058846100135"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Le_Bouveret> .
+
+<#offset_0_304>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "304"^^xsd:nonNegativeInteger ;
+        nif:isString    "Résumé Les auteurs rapportent un cas de syndrome de Bouveret atypique responsable d’une obstruction antro-pylorique chez une femme de 82 ans. A propos de cette observation et des données de la littérature, ils discutent l’intérêt diagnostique et thérapeutique de l’endoscopie digestive dans ce syndrome.\n" .
+
+<#offset_294_302>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syndrome" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996476069799148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Syndrome> .
+
+<#offset_265_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endoscopie" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Endoscopie> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_304> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_40_48>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syndrome" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996476069799148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Syndrome> .

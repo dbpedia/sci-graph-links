@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_232_242>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e-commerce" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999600959"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-commerce> .
+
+<#offset_964_978>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social systems" ;
+        nif:beginIndex          "964"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "978"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9774388910478738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_system> .
+
+<#offset_213_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social networks" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9239739816888537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_network> .
+
+<#offset_96_109>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "system design" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9821858471317753"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Systems_design> .
+
+<#offset_85_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sociology" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999908333513181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sociology> .
+
+<#offset_912_924>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantitative" ;
+        nif:beginIndex          "912"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969216534998796"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantitative_research> .
+
+<#offset_802_815>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network model" ;
+        nif:beginIndex          "802"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Network_model> .
+
+<#offset_943_951>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temporal" ;
+        nif:beginIndex          "943"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999772790847011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_980> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_980>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "980"^^xsd:nonNegativeInteger ;
+        nif:isString    "Understanding the behavior of users in online systems is of essential importance for sociology, system design, e-commerce, and beyond. Most existing models assume that individuals in diverse systems, ranging from social networks to e-commerce platforms, tend to what is already popular. We propose a statistical time-aware framework to identify the users who differ from the usual behavior by being repeatedly and persistently among the first to collect the items that later become hugely popular. Since these users effectively discover future hits, we refer them as discoverers. We use the proposed framework to demonstrate that discoverers are present in a wide range of real systems. Once identified, discoverers can be used to predict the future success of new items. We finally introduce a simple network model which reproduces the discovery patterns observed in the real data. Our results open the door to quantitative study of detailed temporal patterns in social systems.\n" .
+
+<#offset_111_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e-commerce" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999600959"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-commerce> .
+
+<#offset_544_548>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hits" ;
+        nif:beginIndex          "544"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999153799344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_analytics> .

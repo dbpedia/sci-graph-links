@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_142_154>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real numbers" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_296> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999776605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_number> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_296> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_205_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sigma" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_296> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.97360493041011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sigma> .
+
+<#offset_0_296>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "296"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we show that if λ1 $\\lambda_{1}$, λ2 $\\lambda_{2}$, λ3 $\\lambda_{3}$, λ4 $\\lambda _{4}$, λ5 $\\lambda_{5}$ are nonzero real numbers not all of the same sign, η is real, 0<σ<1720 $0<\\sigma<\\frac{1}{720}$, and at least one of the ratios λi/λj $\\lambda_{i}/\\lambda_{j}$ ( 1≤i\n" .

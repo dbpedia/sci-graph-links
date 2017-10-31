@@ -1,0 +1,107 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_60_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8155675129218595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<#offset_0_458>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "458"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Peter van Inwagen defines a successful argument in philosophy as one that can be used to convert an audience of ideal agnostics in an ideal debate. Sarah McGrath and Thomas Kelly recently argue that van Inwagen’s definition cannot be correct since the idea of ideal agnostics is incoherent with regard to an absolute paradigm of a successful philosophical argument. This paper defends van Inwagen’s definition against McGrath and Kelly’s objection.\n" .
+
+<#offset_157_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sarah" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9439613090303705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sarah> .
+
+<#offset_427_434>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "McGrath" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Cricketer> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Athlete> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9968850063296127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glenn_McGrath> .
+
+<#offset_351_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophical argument" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999838507091593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Argument> .
+
+<#offset_326_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "paradigm" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992923977620566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paradigm> .
+
+<#offset_9_26>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Peter van Inwagen" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Peter_van_Inwagen> .
+
+<#offset_127_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "agnostics" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998545959093"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Agnosticism> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_458> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_163_170>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "McGrath" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Cricketer> , <http://dbpedia.org/ontology/Athlete> ;
+        itsrdf:taConfidence     "0.9968850063296127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glenn_McGrath> .
+
+<#offset_275_284>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "agnostics" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998545959093"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Agnosticism> .
+
+<#offset_175_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Thomas Kelly" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8719710197162647"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thomas_J._Kelly_(Irish_nationalist)> .

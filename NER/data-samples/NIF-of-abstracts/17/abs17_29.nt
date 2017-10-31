@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_84>  a       nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "84"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The mental lexicon plays a central role in reading comprehension (Perfetti " .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_84> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_52_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reading comprehension" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_84> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999524505"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reading_comprehension> .
+
+<#offset_13_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mental lexicon" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_84> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9796923793323455"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicon> .

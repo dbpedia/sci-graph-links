@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_120_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "musical" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_154> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.592987954754825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Musical_theatre> .
+
+<#offset_28_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corpora" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_154> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.611436574142904"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corpus_linguistics> .
+
+<#offset_47_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_154> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8898401143959486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_154> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_20_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "musical" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_154> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.592987954754825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Musical_theatre> .
+
+<#offset_0_154>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "154"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Studies of musical corpora have given empirical grounding to the various features that characterize particular musical styles and genres. Palmer\n" .

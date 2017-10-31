@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_110_120>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "accounting" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916960972432736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Accountancy> .
+
+<#offset_341_351>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "accounting" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916960972432736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Accountancy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_369> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_44_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ethics" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998465416470872"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethics> .
+
+<#offset_0_369>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "369"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper by Mescall et al. (J Bus Ethics, 2016) provides an opportunity to consider the meaning of “accounting professionalism” in the twenty-first century. To examine the paper, this discussion focuses on three areas, the research question Mescall et al. addresses, contributions of their paper, and what the paper tells us about accounting professionalism.\n" .

@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_711>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "711"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I argue that there are instances in which lying to an innocent and generally competent person respects her autonomy, contrary to arguments by Christine Korsgaard and Onora O’Neill. These authors say that respect for a person’s autonomy requires treating her in a way consistent with the possibility of consent, but I contend that the possibility of consent condition is unworkable. I maintain that lying can respect individual autonomy when being truthful to a person undermines her choices and lying gets her what she would reasonably see herself as having most reason to choose in the circumstances. I make my case by reflecting on lying invitations to a surprise party and on negotiation phenomena.\n" .
+
+<#offset_175_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Onora O'Neill" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Politician> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Onora_O'Neill,_Baroness_O'Neill_of_Bengarve> .
+
+<#offset_675_680>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "party" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "680"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997533927589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Party_(law)> .
+
+<#offset_116_124>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autonomy" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998312264111937"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autonomy> .
+
+<#offset_436_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autonomy" ;
+        nif:beginIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998312264111937"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autonomy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_711> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_151_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Christine Korsgaard" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Christine_Korsgaard> .
+
+<#offset_236_244>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autonomy" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998312264111937"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autonomy> .

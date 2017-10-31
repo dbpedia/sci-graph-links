@@ -1,0 +1,117 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://model.dbpedia-spotlight.org#offset_11_25>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language model" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_model> .
+
+<http://model.dbpedia-spotlight.org#offset_206_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PLSA" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probabilistic_latent_semantic_analysis> .
+
+<http://model.dbpedia-spotlight.org#offset_61_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recurrent neural network" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recurrent_neural_network> .
+
+<http://model.dbpedia-spotlight.org#offset_173_186>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.675335143011768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://model.dbpedia-spotlight.org#offset_320_329>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gradients" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999981035310875"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gradient> .
+
+<http://model.dbpedia-spotlight.org#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://model.dbpedia-spotlight.org#offset_105_113>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantic" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999950782767416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantics> .
+
+<http://model.dbpedia-spotlight.org#offset_335_359>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recurrent neural network" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recurrent_neural_network> .
+
+<http://model.dbpedia-spotlight.org#offset_0_478>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "478"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A language model based on features extracted from a recurrent neural network language model and semantic embedding of the left context of the current word based on probabilistic semantic analysis (PLSA) is developed. To calculate such embedding, the context is considered as a document. The effect of vanishing gradients in a recurrent neural network is reduced by this method. The experiment has shown that adding topic-based features reduces perplexity by 10�prefix=\n" .
+
+<http://model.dbpedia-spotlight.org#offset_187_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantic analysis" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988674961096217"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compiler> .
+
+<http://model.dbpedia-spotlight.org#offset_470_476>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prefix" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8529828326452736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Affix> .
+
+<http://model.dbpedia-spotlight.org#offset_86_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language model" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_478> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_model> .

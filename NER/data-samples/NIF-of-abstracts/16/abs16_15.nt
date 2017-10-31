@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_702_707>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "party" ;
+        nif:beginIndex          "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/PoliticalParty> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9927323057843368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communist_Party_of_China> .
+
+<#offset_71_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Chinese government" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/PoliticalParty> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.7380880932652303"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communist_Party_of_China> .
+
+<#offset_0_1417>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1417"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Fighting against corruption is an important policy of the new Chinese government. A series of anti-corruption policies has been promulgated since the end of 2012. In this paper, we study the impact of these policies on firms’ three public consumptions (TPCs): car expenses, banquet expenses, and overseas visit expenses. The empirical results show that the TPCs decrease sharply after the promulgation of the anti-corruption policies. The decline in the TPCs in state-owned enterprises (SOEs) is larger than that in private firms (non-SOEs). Further, the decline in the TPCs in firms with top managers with a political background (such as government work experience, army experience, or being party members) is larger than that in firms with top managers with a non-political background. The decrease in the TPCs in high-marketisation (high legal development) regions is not as sharp as that in low-marketisation (low legal development) regions since the TPCs in these economically well-developed (legally well-developed) regions were lower before the anti-corruption campaign. What is more, the effect of the anti-corruption policies also depends on the strength of their enforcement: that is, the higher the strength of the enforcement of the anti-corruption policies, the larger the decrease in the growth rate of the TPCs. All these results evidence a significant effect of the anti-corruption policies.\n" .
+
+<#offset_659_674>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "work experience" ;
+        nif:beginIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998789853571"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Work_experience> .
+
+<#offset_334_343>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992849882649458"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_496_500>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SOEs" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996738998184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Government-owned_corporation> .
+
+<#offset_471_494>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "state-owned enterprises" ;
+        nif:beginIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999926504963844"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Government-owned_corporation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1417> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1061_1085>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anti-corruption campaign" ;
+        nif:beginIndex          "1061"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9613339063352042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chongqing_gang_trials> .
+
+<#offset_26_36>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corruption" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6758522655834038"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Political_corruption> .

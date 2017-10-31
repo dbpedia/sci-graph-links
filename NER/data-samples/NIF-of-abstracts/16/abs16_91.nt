@@ -1,0 +1,101 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_269_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sweden" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999984120663714"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sweden> .
+
+<#offset_863_866>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IPV" ;
+        nif:beginIndex          "863"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999996732302031"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IPV> .
+
+<#offset_95_104>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9867365846087812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_1100_1114>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social workers" ;
+        nif:beginIndex          "1100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_work> .
+
+<#offset_0_1205>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1205"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Although much is known about the impact of intimate partner violence on children, few empirical studies have linked children’s experiences to typologies. This qualitative study, based on interviews with children 8–12 years of age living at women’s shelters in Sweden, explores how children describe the nature of the violence they have been exposed to with the aim of identifying patterns in the children’s experiences. The typologies developed by Johnson and colleagues and by Holtzworth-Munroe and colleagues are used as an analytical framework for analysis. Three main types of children’s experiences of intimate partner violence were identified: “Obedience-Demanding Violence,” “Chronic and Mean Violence,” and “Parenthood-Embedded Violence.” These the types can improve our understanding of the complex variety of children’s experiences of parental IPV by acknowledging how from children’s perspectives, experiences of IPV are closely connected to the perpetrator being their parent. The study provides examples of three different strategies that have implications for the factors that social workers may want to address when making judgments about custody, place of residence, and contact.\n" .
+
+<#offset_326_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "violence" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989843455296888"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Violence> .
+
+<#offset_616_641>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intimate partner violence" ;
+        nif:beginIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domestic_violence> .
+
+<#offset_52_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intimate partner violence" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domestic_violence> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1205> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_168_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "qualitative" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999850467846053"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Qualitative_research> .
+
+<#offset_933_936>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IPV" ;
+        nif:beginIndex          "933"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1205> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999996732302031"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IPV> .

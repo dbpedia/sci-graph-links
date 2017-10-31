@@ -1,0 +1,79 @@
+Abstract This article presents a novel framework XSS-Secure, which detects and alleviates the propagation of Cross-Site Scripting (XSS) worms from the Online Social Network (OSN)-based multimedia web applications on the cloud environment. It operates in two modes: training and detection mode. The former mode sanitizes the extracted untrusted variables of JavaScript code in a context-aware manner. This mode stores such sanitized code in sanitizer snapshot repository and OSN web server for further instrumentation in the detection mode. The detection mode compares the sanitized HTTP response (HRES) generated at the OSN web server with the sanitized response stored at the sanitizer snapshot repository. Any variation observed in this HRES message will indicate the injection of XSS worms from the remote OSN servers. XSS-Secure determines the context of such worms, perform the context-aware sanitization on them and finally sanitized HRES is transmitted to the OSN user. The prototype of our framework was developed in Java and integrated its components on the virtual machines of cloud environment. The detection and alleviation capability of our cloud-based framework was tested on the platforms of real world multimedia-based web applications including the OSN-based Web applications. Experimental outcomes reveal that our framework is capable enough to mitigate the dissemination of XSS worm from the platforms of non-OSN Web applications as well as OSN web sites with acceptable false negative and false positive rate.
+web applications    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Web_application       
+
+Web applications              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Web_application       
+
+context-aware                 0.9801774273098126^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Context_awareness     
+
+HTTP                          0.9999999848367908^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Hypertext_Transfer_Protocol
+
+OSN                           0.999999999891088^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/OSN                   
+
+false negative                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Type_I_and_type_II_errors
+
+web server                    0.9999995996351692^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Web_server            
+
+Java                          0.6477506639338793^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Java_(programming_language)
+
+virtual machines              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Virtual_machine       
+
+instrumentation               0.6222771973468757^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Instrumentation_(computer_programming)
+
+cloud                         0.9999999999989768^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Cloud_computing       
+
+sanitizer                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Disinfectant          
+
+OSN                           0.999999999891088^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/OSN                   
+
+worms                         0.9999999999998863^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_worm         
+
+servers                       0.6565596800239423^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Web_server            
+
+OSN                           0.999999999891088^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/OSN                   
+
+Cross-Site Scripting          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Cross-site_scripting  
+
+cloud                         0.9999999999989768^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Cloud_computing       
+
+web applications              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Web_application       
+
+propagation                   0.9717398889994365^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Radio_propagation     
+
+JavaScript                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/JavaScript            
+
+worms                         0.9999999999998863^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_worm         
+
+web server                    0.9999995996351692^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Web_server            
+
+OSN                           0.999999999891088^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/OSN                   
+
+OSN                           0.999999999891088^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/OSN                   
+
+context-aware                 0.9801774273098126^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Context_awareness     
+
+worms                         0.9999999999998863^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_worm         
+
+OSN                           0.999999999891088^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/OSN                   
+
+sanitization                  0.9999996466719436^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Disinfectant          
+
+Web applications              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Web_application       
+
+multimedia                    0.9798239221988873^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Web_2.0               
+
+false positive rate           0.9999999997453415^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Type_I_and_type_II_errors
+
+XSS                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Cross-site_scripting  
+
+variables                     0.9995015607757063^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Variable_(computer_science)
+
+prototype                     0.9800924902917998^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Prototype             
+
+XSS worm                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XSS_worm              
+
+cloud-based                   0.9999949257912976^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Cloud_computing       
+
+XSS                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Cross-site_scripting  
+
+sanitizer                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Disinfectant          
+

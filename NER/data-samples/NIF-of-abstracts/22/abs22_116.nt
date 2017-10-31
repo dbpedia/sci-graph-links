@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_30_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophers" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_912> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5097878929744257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosopher> .
+
+<#offset_184_195>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Brad Hooker" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_912> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brad_Hooker> .
+
+<#offset_0_912>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "912"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For a long time many philosophers felt the incoherence objection was a decisive objection to rule-consequentialism, but that position has recently become less secure, because Brad Hooker has offered a clever new way for rule-consequentialists to avoid the incoherence objection. Hooker’s response defeats traditional forms of the incoherence objection, but this paper argues that another version of the problem remains. Several possible solutions fail. One other does not, but it introduces other problems into the theory. I conclude that the new incoherence objection still poses a major challenge to rule-consequentialism, though not for the reasons usually assumed. It does not constitute a fatal objection to rule-consequentialism but instead highlights a theoretical drawback in the theory which must be taken into account during a more holistic evaluation of rule-consequentialism and its rivals.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_912> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_851_859>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holistic" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "859"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_912> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996604852875"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holism> .

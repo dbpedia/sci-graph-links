@@ -1,0 +1,420 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_542_561>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geopotential height" ;
+        nif:beginIndex          "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geopotential_height> .
+
+<#offset_899_902>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IMD" ;
+        nif:beginIndex          "899"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/GovernmentOrganization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India_Meteorological_Department> .
+
+<#offset_183_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "India" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.7286374193417119"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India> .
+
+<#offset_661_692>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "India Meteorological Department" ;
+        nif:beginIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/GovernmentOrganization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India_Meteorological_Department> .
+
+<#offset_1059_1063>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CMIP" ;
+        nif:beginIndex          "1059"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1063"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coupled_model_intercomparison_project> .
+
+<#offset_925_962>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Representative Concentration Pathways" ;
+        nif:beginIndex          "925"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Representative_Concentration_Pathways> .
+
+<#offset_174_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "basin" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.43008147630406507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sedimentary_basin> .
+
+<#offset_0_1454>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1454"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Evaluating the impact of climate change at river basin level has become essential for proper management of the water resources. In the present study, Godavari River basin in India is taken as study area to project the monthly monsoon precipitation using statistical downscaling. The downscaling method used is a regression based downscaling termed as fuzzy clustering with multiple regression. Among the atmospheric variables simulated by global circulation/climate model (GCM) mean sea level pressure, specific humidity and 500 hPa geopotential height are used as predictors. 1o × 1o gridded rainfall data over Godavari river basin are collected from India Meteorological Department (IMD). A statistical relationship is established between the predictors and predictand (monsoon rainfall) to project the monsoon rainfall for the future using the Canadian Earth System Model (CanESM2) over IMD grid points under the Representative Concentration Pathways 2.6, 4.5 and 8.5 (RCP 2.6, 4.5, 8.5) scenarios of Fifth Coupled Model Inter-Comparison Project (CMIP 5). Downscaling procedure is applied to all 25 IMD grid points over the basin to find out the spatial distribution of monsoon rainfall for the future scenarios. For 2.6 and 4.5 scenarios results show an increasing trend. For scenario 8.5 rainfall showed a mixed trend with rainfall decreasing in the first thirty years of prediction and then increasing gradually over the next sixty years.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1454> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_467_480>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "climate model" ;
+        nif:beginIndex          "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998556978575618"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_climate_model> .
+
+<#offset_512_529>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "specific humidity" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Humidity> .
+
+<#offset_981_984>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RCP" ;
+        nif:beginIndex          "981"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "984"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999082025439"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Representative_Concentration_Pathways> .
+
+<#offset_360_376>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuzzy clustering" ;
+        nif:beginIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuzzy_clustering> .
+
+<#offset_822_830>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rainfall" ;
+        nif:beginIndex          "822"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998652811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_1302_1310>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rainfall" ;
+        nif:beginIndex          "1302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998652811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_694_697>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IMD" ;
+        nif:beginIndex          "694"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India_Meteorological_Department> .
+
+<#offset_636_641>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "basin" ;
+        nif:beginIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.43008147630406507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sedimentary_basin> .
+
+<#offset_425_434>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variables" ;
+        nif:beginIndex          "425"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999969729890721"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<#offset_120_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "water resources" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.880707924582725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hydrology> .
+
+<#offset_382_401>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiple regression" ;
+        nif:beginIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_regression> .
+
+<#offset_1111_1114>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "IMD" ;
+        nif:beginIndex          "1111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India_Meteorological_Department> .
+
+<#offset_482_485>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GCM" ;
+        nif:beginIndex          "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_climate_model> .
+
+<#offset_602_610>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rainfall" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998652811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_321_331>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9052652945655876"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<#offset_814_821>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monsoon" ;
+        nif:beginIndex          "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999967917017636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monsoon> .
+
+<#offset_789_797>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rainfall" ;
+        nif:beginIndex          "789"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998652811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_492_510>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sea level pressure" ;
+        nif:beginIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmospheric_pressure> .
+
+<#offset_34_48>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "climate change" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999927272023831"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Climate_change> .
+
+<#offset_275_286>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "downscaling" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998913551484064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Downscaling> .
+
+<#offset_1337_1345>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rainfall" ;
+        nif:beginIndex          "1337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998652811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_903_907>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grid" ;
+        nif:beginIndex          "903"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "907"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995285481847"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grid_computing> .
+
+<#offset_292_303>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "downscaling" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998913551484064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Downscaling> .
+
+<#offset_856_864>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Canadian" ;
+        nif:beginIndex          "856"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9861616498988477"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<#offset_243_256>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "precipitation" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996380211"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_52_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "river basin" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Drainage_basin> .
+
+<#offset_1136_1141>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "basin" ;
+        nif:beginIndex          "1136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.43008147630406507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sedimentary_basin> .
+
+<#offset_865_870>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Earth" ;
+        nif:beginIndex          "865"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "870"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Planet> , <http://dbpedia.org/ontology/CelestialBody> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth> .
+
+<#offset_1115_1119>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grid" ;
+        nif:beginIndex          "1115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995285481847"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grid_computing> .
+
+<#offset_235_242>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monsoon" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999967917017636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monsoon> .
+
+<#offset_1190_1198>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rainfall" ;
+        nif:beginIndex          "1190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998652811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_338_349>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "downscaling" ;
+        nif:beginIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998913551484064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Downscaling> .
+
+<#offset_538_541>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hPa" ;
+        nif:beginIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pascal_(unit)> .
+
+<#offset_159_173>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Godavari River" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/BodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Stream> , <http://dbpedia.org/ontology/River> , <http://dbpedia.org/ontology/NaturalPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/BodyOfWater> , <http://schema.org/RiverBodyOfWater> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Godavari_River> .
+
+<#offset_1182_1189>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monsoon" ;
+        nif:beginIndex          "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999967917017636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monsoon> .
+
+<#offset_781_788>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monsoon" ;
+        nif:beginIndex          "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999967917017636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monsoon> .
+
+<#offset_621_635>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Godavari river" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "635"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1454> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/River> , <http://dbpedia.org/ontology/Stream> , <http://schema.org/BodyOfWater> , <http://dbpedia.org/ontology/BodyOfWater> , <http://dbpedia.org/ontology/Place> , <http://schema.org/RiverBodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/NaturalPlace> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Godavari_River> .

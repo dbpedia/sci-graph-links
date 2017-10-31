@@ -1,0 +1,434 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1719>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1719"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Antimicrobials are extensively used as growth promoters in animal feeds worldwide, but reliable estimates are lacking. We conducted an internet-based survey of commercial chicken and pig feed products officially approved for sale in Vietnam over the period March–June 2015. Information on the antimicrobial contents in feed products, alongside animal production data, was used to estimate in-feed antimicrobial consumption to produce one kilogram of live animal (chicken, pig), as well as to estimate country-wide antimicrobial consumption through animal feeds. A total of 1462 commercial feed formulations were examined. The survey-adjusted estimated antimicrobial contents were 25.7 and 62.3 mg/kg in chicken and pig feeds, respectively. Overall, it was estimated that 77.4 mg [95�I 48.1–106.8] and 286.6 mg [95�I 191.6–418.3] of in-feed antimicrobials were used to raise 1 kg of live chicken and pig, respectively. Bacitracin (15.5�eeds), chlortetracycline (11.4� and enramycin (10.8�were the most common antimicrobials present in chicken feed formulations, whereas bacitracin (24.8� chlortetracycline (23.9� and florfenicol (17.4�were the most common in pig feed formulations. Overall, 57�f the total quantitative usage consisted of antimicrobials regarded by WHO of importance for human medicine, including amoxicillin, colistin, tetracyclines, neomycin, lincomycin, and bacitracin. These figures confirm a very high magnitude of in-feed consumption of antimicrobials, especially in pig production. Results from this study should encourage further monitoring of antimicrobials used in animal production, and foster discussion about existing policies on inclusion of antimicrobials in animal feed rations.\n" .
+
+<#offset_1576_1590>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobials" ;
+        nif:beginIndex          "1576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_1078_1088>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bacitracin" ;
+        nif:beginIndex          "1078"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1088"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bacitracin> .
+
+<#offset_951_968>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "chlortetracycline" ;
+        nif:beginIndex          "951"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "968"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chlortetracycline> .
+
+<#offset_1214_1226>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantitative" ;
+        nif:beginIndex          "1214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9867328802307225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantitative_research> .
+
+<#offset_472_479>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chicken" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Bird> ;
+        itsrdf:taConfidence     "0.9999945319941046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chicken> .
+
+<#offset_1431_1440>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnitude" ;
+        nif:beginIndex          "1431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7861270063926041"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnitude_(mathematics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1719> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1359_1367>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "neomycin" ;
+        nif:beginIndex          "1359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neomycin> .
+
+<#offset_406_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobial" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibacterial> .
+
+<#offset_1017_1031>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobials" ;
+        nif:beginIndex          "1017"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1031"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_712_719>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chicken" ;
+        nif:beginIndex          "712"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999945319941046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chicken> .
+
+<#offset_724_727>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pig" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "727"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9986159390948539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_523_536>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobial" ;
+        nif:beginIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibacterial> .
+
+<#offset_1680_1694>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobials" ;
+        nif:beginIndex          "1680"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_908_911>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pig" ;
+        nif:beginIndex          "908"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9986159390948539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_1043_1055>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "chicken feed" ;
+        nif:beginIndex          "1043"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9999994317333198"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chicken> .
+
+<#offset_1452_1463>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumption" ;
+        nif:beginIndex          "1452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997773643625228"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumption_(economics)> .
+
+<#offset_1295_1309>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human medicine" ;
+        nif:beginIndex          "1295"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medicine> .
+
+<#offset_481_484>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pig" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9986159390948539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_927_937>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Bacitracin" ;
+        nif:beginIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "937"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bacitracin> .
+
+<#offset_1698_1709>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "animal feed" ;
+        nif:beginIndex          "1698"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998165875659777"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Animal_feed> .
+
+<#offset_1497_1500>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pig" ;
+        nif:beginIndex          "1497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9986159390948539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_242_249>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Vietnam" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.965263053181359"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vietnam> .
+
+<#offset_1246_1260>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobials" ;
+        nif:beginIndex          "1246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_447_455>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kilogram" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8430936951094663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gram> .
+
+<#offset_9_23>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Antimicrobials" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_537_548>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumption" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997773643625228"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumption_(economics)> .
+
+<#offset_302_315>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobial" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibacterial> .
+
+<#offset_849_863>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobials" ;
+        nif:beginIndex          "849"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_1096_1113>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chlortetracycline" ;
+        nif:beginIndex          "1096"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chlortetracycline> .
+
+<#offset_661_674>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobial" ;
+        nif:beginIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibacterial> .
+
+<#offset_557_569>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "animal feeds" ;
+        nif:beginIndex          "557"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998270971928415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Animal_feed> .
+
+<#offset_1467_1481>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobials" ;
+        nif:beginIndex          "1467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_68_80>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "animal feeds" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998270971928415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Animal_feed> .
+
+<#offset_1369_1379>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lincomycin" ;
+        nif:beginIndex          "1369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lincomycin> .
+
+<#offset_1125_1136>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "florfenicol" ;
+        nif:beginIndex          "1125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Florfenicol> .
+
+<#offset_1321_1332>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "amoxicillin" ;
+        nif:beginIndex          "1321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amoxicillin> .
+
+<#offset_1334_1342>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "colistin" ;
+        nif:beginIndex          "1334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colistin> .
+
+<#offset_1344_1357>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tetracyclines" ;
+        nif:beginIndex          "1344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tetracycline> .
+
+<#offset_1167_1170>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pig" ;
+        nif:beginIndex          "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9986159390948539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_896_903>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chicken" ;
+        nif:beginIndex          "896"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9999945319941046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chicken> .
+
+<#offset_1385_1395>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bacitracin" ;
+        nif:beginIndex          "1385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bacitracin> .
+
+<#offset_180_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chicken" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999945319941046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chicken> .
+
+<#offset_192_195>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pig" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9986159390948539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_420_431>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumption" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1719> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997773643625228"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumption_(economics)> .

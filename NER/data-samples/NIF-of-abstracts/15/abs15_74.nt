@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_407>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "407"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A data envelopment model is proposed to quantify the social dimension of firm performance. Corporate social responsibility activities are treated as netputs to production. Production of good outputs and unintended by-products are combined in the overall measurement of firm performance. Our model is illustrated using a sample of global firms and suggests strikingly low social performance levels.\n" .
+
+<#offset_69_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dimension" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986747994622307"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<#offset_223_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "by-products" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990954027679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/By-product> .
+
+<#offset_100_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Corporate social responsibility" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corporate_social_responsibility> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_407> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

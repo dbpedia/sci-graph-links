@@ -1,0 +1,107 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_324_343>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creditor protection" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bankruptcy> .
+
+<#offset_0_565>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "565"^^xsd:nonNegativeInteger ;
+        nif:isString    "In this article we examine the impact of cultural distance on the pricing of corporate bonds issued in the United States. We find that greater cultural differences between U.S. investors and foreign issuers increase the cost of debt. We also find that the cost of Rule 144a offers is less sensitive to cultural distance and creditor protection effects because of the different market structure and investor bases in the Yankee and Rule144a bond markets. Our results suggest that cultural differences influence bond pricing through an information asymmetry channel.\n" .
+
+<#offset_546_555>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymmetry" ;
+        nif:beginIndex          "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6076583333763637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymmetry> .
+
+<#offset_77_92>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corporate bonds" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973433024773981"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corporate_bond> .
+
+<#offset_264_273>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rule 144a" ;
+        nif:beginIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999975237557218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SEC_Rule_144A> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_565> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_172_176>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.8111082993210562"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_556_563>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channel" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9744474839036901"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_channel> .
+
+<#offset_377_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "market structure" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Market_structure> .
+
+<#offset_440_452>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bond markets" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bond_market> .
+
+<#offset_107_120>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9745734173920605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_228_232>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "debt" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_565> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9543313167262855"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Debt> .

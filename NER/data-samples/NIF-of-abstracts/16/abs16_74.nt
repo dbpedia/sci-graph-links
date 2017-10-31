@@ -1,0 +1,62 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_606_619>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_801> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9985172693372555"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_0_801>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "801"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Challenging conditions put young children at risk for maltreatment around the world, including in rural, southeastern Ohio. To combat these situations, several strategies are helpful in facilitating positive outcomes for young children. Specifically, when community entities and local school professionals work together, there is a greater likelihood of positive outcomes for children. This article describes meaningful partnerships that contribute to increased school success in rural settings and offers suggestions for developing effective school-community partnerships in other regions of the United States, as well as in other countries. The benefits of the practices described in this article may be felt across multiple layers of a community and are advantageous for all stakeholders.\n" .
+
+<#offset_489_494>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rural" ;
+        nif:beginIndex          "489"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_801> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8112051953834177"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rural_Canada> .
+
+<#offset_107_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rural" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_801> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8112051953834177"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rural_Canada> .
+
+<#offset_787_799>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stakeholders" ;
+        nif:beginIndex          "787"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_801> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9965847734861336"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stakeholder_(corporate)> .
+
+<#offset_127_131>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Ohio" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_801> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Region> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9988227647707859"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ohio> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_801> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

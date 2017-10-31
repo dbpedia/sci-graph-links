@@ -1,0 +1,231 @@
+Zusammenfassung In modernen Kryptosystemen gewinnen elliptische Kurven (ECs) auf der Basis von endlichen Körpern zunehmend an Bedeutung. Als elementare Einführung werden die ECs zuerst in der Domäne der reellen Zahlen erklärt und ihre Eigenschaften besprochen. Das Problem, von einem Kurvenpunkt ausgehend eine Tangente an eine EC zu legen, wird mittels der Nullstellen eines Polynoms vierten Grades allgemein gelöst. Aus drei Punkten auf einer EC wird das erzeugende Polynom der Kurve berechnet. Die Arithmetik mit EC-Punkten wird in herkömmlicher Weise mit dem Bild der Addition von EC-Punkten verknüpft und die Bedeutung der ganzzahligen Vielfachen eines EC-Punktes für die kryptografischen Zwecke erläutert. Dem Programm zur Synthese des Vielfachen eines EC-Punktes wird ein Analyseprogramm zur Seite gestellt, das von einem Vielfachen den Wert des angewendeten Faktors bestimmt, wobel von der Lösung des Tangentenproblems Gebrauch gemacht wird. In der Domäne der rationalen Zahlen wird die Funktionsweise der Programme demonstriert und gezeigt, dass unter diesen Umständen das Analyseprogramm immer zu einer eindeutigen Lösung kommt. Zur Beschränkung der Zahlenwerte, aber auch zur Verkürzung der Programmlaufzeiten, werden zwei Mechanismen ins Auge gefasst und auf alle Zwischenergebnisse mit rationalen Zahlen angewendet. Das eine Mal werden die rationalen Zahlen als Ganzes durch eine Restklassenrechnung auf die ganzen Zahlen in einem endlichen Körper zurückgeführt, wobei sich de facto die Umstände der traditionellen EC-Anwendungen ergeben. Für diesen Ansatz spricht, dass die theoretischen Grundlagen der endlichen Körper mathematisch bestens fundiert sind. Der alternative Vorschlag besteht darin, bei allen rationalen Zahlen die Zähler und Nenner unabhängig voneinander in eine ganzzahlige Restklasse zu projizieren und den rationalen Charakter bei allen Zahlen bewusst beizubehalten. Von dieser Variante wird erwartet, dass sie in Hinblick auf die vorgeführten, eindeutigen Lösungen bei der Punktanalyse in der Domäne der rationalen Zahlen von besonderem Vorteil sein kann, was allerdings noch genauer zu untersuchen ist. Schließlich wird ein lapidarer Vergleich mit den Exponentialfunktionen vorgenommen. Die Arbeit verwendet das Programmsystem Mathematica als Plattform, auf der auch die eigenen Programme unmittelbar ablauffähig sind. Die angegebenen Programmlaufzeiten wurden mit Hilfe einer Mathematica-Prozedur evaluiert, wobei Optimierungen lediglich andiskutiert bleiben.
+ganzzahligen        0.9999496507886774^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Ganze_Zahl         
+
+Wert                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Funktion_(Mathematik)
+
+Domäne                        0.9920148215736612^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Domain_(Internet)  
+
+Mechanismen                   0.9580651938981343^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Maschine           
+
+Vorteil                       0.9999999790613858^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Privileg           
+
+elliptische Kurven            0.999799991391736^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Elliptische_Kurve  
+
+Domäne                        0.9920148215736612^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Domain_(Internet)  
+
+Ganzes                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Ganzheit_(Philosophie)
+
+unabhängig                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Axiom              
+
+Programmsystem                0.9999999999918145^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Programmpaket      
+
+gefasst                       0.99940919165611^^http://www.w3.org/2001/XMLSchema#double             http://de.dbpedia.org/resource/Fassung_(Bemalung) 
+
+Nullstellen                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Nullstelle         
+
+Plattform                     0.9776205581926998^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Plattform_(Computer)
+
+mittels                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Mittelwert         
+
+Problem                       0.9999209583671238^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Problem            
+
+Vergleich                     0.9996748590610267^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Kernfusion         
+
+Optimierungen                 0.9999955850371096^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Compiler           
+
+In                            0.9999999999031388^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Indium             
+
+Lösung                        0.9999998506407448^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Lösung_(Chemie)    
+
+rationalen Zahlen             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Rationale_Zahl     
+
+Einführung                    0.9981392115439311^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Neobiota           
+
+rationalen Zahlen             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Rationale_Zahl     
+
+Addition                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Addition           
+
+immer                         0.9728252469327314^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Amoklauf_an_der_Virginia_Tech
+
+legen                         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Kastration         
+
+rationalen Zahlen             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Rationale_Zahl     
+
+Basis                         0.9999999940264388^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Potenz_(Mathematik)
+
+Als                           0.9794837201251366^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Als_(Dänemark)     
+
+erzeugende                    0.9999576383971249^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Untergruppe        
+
+Der                           0.9999999999790816^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Artikel_(Wortart)  
+
+kryptografischen              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Kryptographie      
+
+mathematisch                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Mathematik         
+
+ECs                           0.9999111792200005^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Enhanced_Chip_Set  
+
+Weise                         0.9999997708498802^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Weisheit           
+
+elementare                    0.981535197852333^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Elementare_Funktion
+
+Exponentialfunktionen         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Exponentialfunktion
+
+Domäne                        0.9920148215736612^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Domain_(Internet)  
+
+Funktionsweise                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Neurophysiologie   
+
+Kryptosystemen                0.9999999999995453^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Kryptosystem       
+
+Vielfachen                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Vielfaches         
+
+gewinnen                      0.9780044637286862^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Gewinnung_(Bergbau)
+
+Arithmetik                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Arithmetik         
+
+Polynoms                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Polynom            
+
+rationalen Zahlen             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Rationale_Zahl     
+
+dass                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Konjunktion_(Wortart)
+
+EC                            0.9966387502012036^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/EC-Nummer          
+
+evaluiert                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Evaluation         
+
+eigenen                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Eigentum           
+
+ganzen Zahlen                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Ganze_Zahl         
+
+Grundlagen                    0.9942830640177583^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Grundlagenforschung
+
+Kurve                         0.999999840195882^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Funktionsgraph     
+
+Zahlen                        0.9933524016362067^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Natürliche_Zahl    
+
+Faktors                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Produktionsfaktor  
+
+Auge                          0.9654221977734512^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Auge               
+
+Das                           0.8926778084944177^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Figuren_in_Tolkiens_Welt
+
+rationalen                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Rationale_Zahl     
+
+endlichen Körper              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Endlicher_Körper   
+
+Variante                      0.9980948355862573^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Alternative        
+
+dass                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Konjunktion_(Wortart)
+
+Zähler                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Bruchrechnung      
+
+reellen Zahlen                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Reelle_Zahl        
+
+Die Arbeit                    0.9909729606815724^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Die_Arbeit_(Deutschland)
+
+Polynom                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Polynom            
+
+ganzzahlige                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Ganze_Zahl         
+
+Grades                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Polynom            
+
+gelöst                        0.9999999998503881^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Lösung_(Chemie)    
+
+Punkten                       0.9349429594733116^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Pixel              
+
+de facto                      0.9999999659298743^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/De_jure/de_facto   
+
+ECs                           0.9999111792200005^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Enhanced_Chip_Set  
+
+Analyseprogramm               0.5016764247750088^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Analyseprogramm    
+
+traditionellen                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Tradition          
+
+endlichen Körper              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Endlicher_Körper   
+
+theoretischen                 0.9999999950264282^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Theorie            
+
+endlichen Körpern             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Endlicher_Körper   
+
+Tangente                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Tangente           
+
+Gebrauch                      0.8584132091297583^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Brauch             
+
+Mathematica                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Mathematica        
+
+Nenner                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Bruchrechnung      
+
+Eigenschaften                 0.9494479557213894^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Eigenschaft        
+
+In                            0.9999999999031388^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Indium             
+
+Programme                     0.9995900174591009^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Computerprogramm   
+
+Vorschlag                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Verzierung_(Musik) 
+
+rationalen Zahlen             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Rationale_Zahl     
+
+Vielfachen                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Vielfaches         
+
+Von                           0.9444526156262164^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Von_(Album)        
+
+Charakter                     0.7227162676720695^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Merkmal            
+
+unmittelbar                   0.9999999950962319^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Reichsdorf         
+
+wurden                        0.9550628644326183^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Szkieletor         
+
+genauer                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Standardabweichung 
+
+Verkürzung                    0.9999999257354403^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Retraktion_(Medizin)
+
+Vielfachen                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Vielfaches         
+
+Analyseprogramm               0.5016764247750088^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Analyseprogramm    
+
+Zwecke                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Zweck              
+
+Lösung                        0.9999998506407448^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Lösung_(Chemie)    
+
+Mal                           0.9999999963199571^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Zeichen            
+
+bewusst                       0.9999999997367013^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Bewusstsein        
+
+Restklasse                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Restklasse         
+
+EC                            0.9966387502012036^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/EC-Nummer          
+
+Bedeutung                     0.999989262133466^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Semantik           
+
+Bild                          0.9816601268536164^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Abbild             
+
+Programme                     0.9995900174591009^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Computerprogramm   
+
+bestens                       0.999995480142371^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Orderzusatz        
+
+Ansatz                        0.9999947528462019^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Ursprung_und_Ansatz
+
+Lösungen                      0.9999945115126235^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Lösung_(Chemie)    
+
+Zahlenwerte                   0.999999965614507^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Zahl               
+
+Bedeutung                     0.999989262133466^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Semantik           
+
+modernen                      0.9999999983667749^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Moderne            
+
+Synthese                      0.999156326291633^^http://www.w3.org/2001/XMLSchema#double            http://de.dbpedia.org/resource/Synthese           
+
+dass                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Konjunktion_(Wortart)
+
+Die                           0.9999996467168499^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Verschwörungstheorie
+
+Hilfe                         0.9999931831928703^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Hilfe              
+
+Aus                           0.9999997653772246^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Ausbildung         
+
+Das                           0.8926778084944177^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Figuren_in_Tolkiens_Welt
+
+Tangentenproblems             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://de.dbpedia.org/resource/Differentialrechnung
+
+Seite                         0.9402271672647632^^http://www.w3.org/2001/XMLSchema#double           http://de.dbpedia.org/resource/Papier             
+

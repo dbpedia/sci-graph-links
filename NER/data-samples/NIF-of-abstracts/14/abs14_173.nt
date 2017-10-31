@@ -1,0 +1,123 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_204_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markovian" ;
+        nif:beginIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989382593343783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_process> .
+
+<#offset_149_159>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resilience" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9740047731891117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resilience> .
+
+<#offset_555_566>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "illiquidity" ;
+        nif:beginIndex          "555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Market_liquidity> .
+
+<#offset_46_54>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "illiquid" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Market_liquidity> .
+
+<#offset_142_148>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999316964098732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_set> .
+
+<#offset_251_270>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamic programming" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_programming> .
+
+<#offset_225_240>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal control" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_control> .
+
+<#offset_0_568>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "568"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A utility maximization problem in an illiquid market is studied. The financial market is assumed to have temporary price impact with finite resilience. After the formulation of this problem as a Markovian stochastic optimal control problem a dynamic programming approach is used for its analysis. In particular, the dynamic programming principle is proved and the value function is shown to be the unique discontinuous viscosity solution. This characterization is utilized to obtain numerical results for the optimal strategy and the loss due to illiquidity.\n" .
+
+<#offset_78_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial market" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923627349323"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_market> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_568> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_11_39>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "utility maximization problem" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Utility_maximization_problem> .
+
+<#offset_428_446>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "viscosity solution" ;
+        nif:beginIndex          "428"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Viscosity_solution> .
+
+<#offset_379_387>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999740336424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<#offset_325_344>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamic programming" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_programming> .

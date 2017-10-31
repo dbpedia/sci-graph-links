@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_46_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antibiotic" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997158"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibacterial> .
+
+<#offset_225_227>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "US" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.8679567967876468"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_25_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chronic" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998115638677212"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chronic_(medicine)> .
+
+<#offset_101_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobial resistance" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9956175985371833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibiotic_resistance> .
+
+<#offset_0_372>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "372"^^xsd:nonNegativeInteger ;
+        nif:isString    "A global response to the chronic shortfall in antibiotic innovation is urgently needed to     combat antimicrobial resistance. Here, we introduce CARB-X, a new global public–private     partnership that will invest more than US$350 million in the next 5 years to accelerate the progression of a diverse portfolio of innovative antibacterial products into clinical trials.\n" .
+
+<#offset_303_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "portfolio" ;
+        nif:beginIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991857506640112"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Portfolio_(finance)> .
+
+<#offset_57_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "innovation" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994334256044"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Innovation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_372> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_327_340>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antibacterial" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996014890326982"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antibacterial> .
+
+<#offset_355_370>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clinical trials" ;
+        nif:beginIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999977804865428"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clinical_trial> .

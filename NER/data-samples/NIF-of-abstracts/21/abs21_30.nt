@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_214_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Liénard-Wiechert potentials" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_243> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liénard–Wiechert_potential> .
+
+<#offset_87_91>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Phys" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_243> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992262747994619"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PHY_(chip)> .
+
+<#offset_157_164>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Feynman" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_243> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999755863154748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Richard_Feynman> .
+
+<#offset_0_243>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "243"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In connection with the discussion and the measurements fulfilled in Ref. (Eur Phys J C 75:137, 2015), the full identity is demonstrated between the Feynman formula for the field of a moving charge and the Liénard-Wiechert potentials.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_243> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

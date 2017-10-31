@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_137_159>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nondestructive testing" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nondestructive_testing> .
+
+<#offset_122_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "layer-by-layer" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997027864549017"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Layer_by_layer> .
+
+<#offset_364_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nondestructive evaluation" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nondestructive_testing> .
+
+<#offset_0_445>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "445"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Peculiarities of additive technologies are considered, and the most typical flaws are listed. The possibility of layer-by-layer nondestructive testing of parts immediately in the course of additive manufacturing is demonstrated. Based on the review of domestic and international publications, possibilities that are offered by various physical methods of nondestructive evaluation are analyzed and potential of their usage is reviewed.\n" .
+
+<#offset_198_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "additive manufacturing" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999907245751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/3D_printing> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_445> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

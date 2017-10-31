@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_20_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holomorphic function" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holomorphic_function> .
+
+<#offset_0_674>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "674"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Let f be a holomorphic function in the disk U = {z: |z| < 1}, |f(z)| < 1 in U, let f(±1) = ±1 in the sense of angular limits, and let the angular Schwarzian derivatives S f (±1) exist. We establish an upper bound for the sum S f (−1) S f (1) under the assumption that the image f(U) does not contain open arcs of the pencil of circles arg[(1   w)/(1 − w)] = θ, −π/2 < θ < φ, with endpoints w = ±1 and $$\\operatorname{Re} f''\\left( 1 \\right)   f'\\left( 1 \\right)\\left( {1 - f'\\left( 1 \\right)} \\right) = - \\operatorname{Re} f''\\left( { - 1} \\right)   f'\\left( { - 1} \\right)\\left( {1 - f'\\left( { - 1} \\right)} \\right) = 0$$ This bound depends on φ and f′(±1) only.\n" .
+
+<#offset_210_221>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999605596493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_674> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_326_332>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pencil" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9484088889085095"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pencil> .
+
+<#offset_166_177>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "derivatives" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999168271677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Derivative> .

@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_213_225>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relativistic" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8072853342527295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theory_of_relativity> .
+
+<#offset_397_410>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophical" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8971601695659359"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy_of_science> .
+
+<#offset_272_282>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypothesis" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99693983289945"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypothesis> .
+
+<#offset_129_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clocks" ;
+        nif:beginIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9974051541090608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clock> .
+
+<#offset_56_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996462011730775"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<#offset_0_423>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "423"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper I discuss the concept of time in physics. I consider the thermal time hypothesis and I claim that thermal clocks and atomic clocks measure different physical times, whereby thermal time and relativistic time are not compatible with each other. This hypothesis opens the possibility of a new foundation of the theory of physical time, and new perspectives in theoretical and philosophical researches.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_423> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_93_103>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypothesis" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99693983289945"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypothesis> .
+
+<#offset_314_324>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foundation" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8123794855825793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foundation_(nonprofit)> .
+
+<#offset_140_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atomic clocks" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_423> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atomic_clock> .

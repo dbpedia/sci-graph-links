@@ -1,0 +1,125 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_706_712>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MATLAB" ;
+        nif:beginIndex          "706"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/MATLAB> .
+
+<#offset_274_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941514271984059"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_(mathematics)> .
+
+<#offset_494_498>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grid" ;
+        nif:beginIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6478477563248358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grid_computing> .
+
+<#offset_0_714>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "714"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Boundary layers often appear at the interface of two media. A typical example is the singularly perturbed Helmholz equation. It is shown that the modern finite difference methods solve such problems with a high efficiency under an appropriate choice of the grid. A convergence verification procedure is proposed that does not require majorant estimation. A superfast algorithm yielding an a posteriori asymptotically precise error estimate is described and a quasi-uniform rectangular grid resolving in detail all the segments of the solution is proposed. The algorithm guarantees good precision even on the moderate grids having N ~ 200 points in each direction. This algorithm is implemented in MATLAB.\n" .
+
+<#offset_678_687>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_569_578>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "569"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_94_114>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularly perturbed" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Singular_perturbation> .
+
+<#offset_366_375>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "superfast" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/MusicAlbum> , <http://dbpedia.org/ontology/Album> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/MusicalWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.5846544807196297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Superfast> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_714> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_45_54>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interface" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916189898212227"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protocol_(object-oriented_programming)> .
+
+<#offset_266_270>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grid" ;
+        nif:beginIndex          "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "270"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6478477563248358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grid_computing> .
+
+<#offset_376_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_595_604>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "precision" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.825756089519212"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Significant_figures> .
+
+<#offset_162_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite difference methods" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980014991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_difference_method> .

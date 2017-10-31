@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_520> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_53_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "archaeological" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999410663579944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Archaeology> .
+
+<#offset_0_520>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "520"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Visual presentation of data is essential in archaeological reports, but because of inadequate funding and/or available artistic talent, too few reports are illustrated sufficiently. This article describes a method whereby good quality line drawings can be produced inexpensively with only a modicum of illustrative skills. While the technique itself is not innovative, its widespread use would be. The purpose of this article is to provide a summary of the technique so that others may be encouraged to use it.\n" .

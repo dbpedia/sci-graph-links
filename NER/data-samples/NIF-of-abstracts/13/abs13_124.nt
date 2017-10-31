@@ -1,0 +1,117 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_147_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "art" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999174847179054"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Art> .
+
+<#offset_561_574>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "questionnaire" ;
+        nif:beginIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "574"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Questionnaire> .
+
+<#offset_0_731>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "731"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper presents a game designed to support teaching and learning of Portuguese History to 6th grade students. Firstly, a state of the art of mobile game-based learning for History is presented. Then we describe shortly the research carried out which aimed at the analysis of the games most played by students, followed by the identification of the learning principles proposed by Paul Gee and the game mechanics to propose a game structure. Data was collected from students in the 2nd cycle of the Portuguese Educational System (n = 508) through a questionnaire. Finally, we describe the game, that was developed based on those findings, related to a Portuguese historical event - the Republic Implementation in 1910.\n" .
+
+<#offset_410_424>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "game mechanics" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999236300738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Game_mechanics> .
+
+<#offset_675_685>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "historical" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983148200188554"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/History> .
+
+<#offset_398_401>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gee" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996929269017096"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gee_(navigation)> .
+
+<#offset_81_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Portuguese History" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/History_of_Portugal> .
+
+<#offset_664_674>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Portuguese" ;
+        nif:beginIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.5584591013137091"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Portugal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_731> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_393_397>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Paul" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Cleric> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/ChristianBishop> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.9964076283374235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paul_the_Apostle> .
+
+<#offset_511_540>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Portuguese Educational System" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Education_in_Portugal> .
+
+<#offset_698_706>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Republic" ;
+        nif:beginIndex          "698"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Book> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://purl.org/ontology/bibo/Book> , <http://schema.org/Book> ;
+        itsrdf:taConfidence     "0.6714370271526475"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Republic_(Plato)> .
+
+<#offset_161_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "game-based learning" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_731> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Educational_game> .

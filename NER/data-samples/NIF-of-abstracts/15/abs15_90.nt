@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_10_20>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatility" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999963224014"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatility_(finance)> .
+
+<#offset_309_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stresses" ;
+        nif:beginIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5506658680024122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<#offset_261_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "municipal bond" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Municipal_bond> .
+
+<#offset_0_523>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "523"^^xsd:nonNegativeInteger ;
+        nif:isString    "The price volatility of municipal bonds is a vital concern to bankers and regulators. Although great strides have recently been made in understanding bond price volatility, many significant refinements encompassing specific institutional characteristics of the municipal bond market are needed. This research stresses the taxability of the capital gains inherent in discount municipals to illustrate interesting patterns of price volatility dependent upon maturity. The impact of geographic segmentation is also discussed.\n" .
+
+<#offset_491_503>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "segmentation" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998544975802445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Market_segmentation> .
+
+<#offset_430_440>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatility" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999963224014"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatility_(finance)> .
+
+<#offset_340_353>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capital gains" ;
+        nif:beginIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999993023464647"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capital_gain> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_523> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_161_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatility" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999963224014"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatility_(finance)> .
+
+<#offset_24_39>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "municipal bonds" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Municipal_bond> .

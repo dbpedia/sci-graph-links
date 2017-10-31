@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_680>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "680"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Tenenberg, Roth, and Socha’s paper “From I-awareness to we-awareness in CSCW” is, or should be, of special significance to those in the CSCW and HCI communities with more than a passing interest in the theoretical issues that underpin our work. It can be argued, and I would be a proponent of this view, that fundamental intellectual disagreements too seldom get an airing in our community, perhaps because it is in large part conference driven. Because of this, underlying perspectival disagreements can appear rather arcane. One of the great merits of the contributions to this special issue, I hope and believe, is that they will appear less so after careful reading.\n" .
+
+<#offset_145_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CSCW" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer-supported_cooperative_work> .
+
+<#offset_81_85>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CSCW" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer-supported_cooperative_work> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_680> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_154_157>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HCI" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999498641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human–computer_interaction> .
+
+<#offset_483_495>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perspectival" ;
+        nif:beginIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9972519308779573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perspectivism> .

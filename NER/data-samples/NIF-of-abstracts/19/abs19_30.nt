@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_339>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "339"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We demonstrate that in the case of small but not zero absorption coefficient, isotropic metafilm can be replaced by an equivalent very thin film with frequency-dependent thickness. An algorithm which allows one to calculate this thickness is proposed. Using it, effective material parameters of reciprocal thin film are obtained.\n" .
+
+<#offset_63_85>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absorption coefficient" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999974824618"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attenuation_coefficient> .
+
+<#offset_315_324>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin film" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996417387394108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .
+
+<#offset_87_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isotropic" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990233742183026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isotropy> .
+
+<#offset_193_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991435402"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_304_314>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reciprocal" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9901056149599256"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multiplicative_inverse> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_339> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_97_105>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metafilm" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999953388"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metafilm> .
+
+<#offset_144_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin film" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996417387394108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .
