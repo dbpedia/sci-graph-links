@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1120>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1120"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Fuel sector is one of the powerful sectors in Turkish industry. The implementation of a new law for regulating the fuel sector had enforced the quality control of fuels sold to public. This resulted in several accredited fuel-testing laboratories to emerge. Thus, a scheme to evaluate their proficiency in measurements became an important requirement. The inter-laboratory comparison scheme LABKAR for gasoline, diesel oil, LPG, lubricating oil and biodiesel samples have evolved to fulfill this need. In this paper, LABKAR is introduced; the results obtained from the program are analyzed and discussed. The kernel densities of the participants’ results show that the use of robust mean as a consensus value is appropriate for fuel samples. Although the number of rounds is not enough to derive strict conclusions, it is seen that the performance of the scheme based on the standard deviations and coefficient of variations is improving in each round. It has been observed that the number of laboratories receiving “action” or “warning” is decreasing, which indicates that they are benefiting from the scheme.\n" .
+
+<#offset_458_467>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biodiesel" ;
+        nif:beginIndex          "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiesel> .
+
+<#offset_438_453>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lubricating oil" ;
+        nif:beginIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987775090179122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lubricant> .
+
+<#offset_421_431>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diesel oil" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diesel_fuel> .
+
+<#offset_433_436>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LPG" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999972953901"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liquefied_petroleum_gas> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1120> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_618_624>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kernel" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.973322981038657"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kernel_(computing)> .
+
+<#offset_411_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gasoline" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999478961157474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gasoline> .
+
+<#offset_884_903>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "standard deviations" ;
+        nif:beginIndex          "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1120> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standard_deviation> .

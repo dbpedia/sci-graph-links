@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_131_139>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cookbook" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992009521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cookbook> .
+
+<#offset_71_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "active learning" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Active_learning> .
+
+<#offset_0_492>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "492"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The teaching laboratory is an ideal environment for fostering active learning; yet, it is often criticized for being too “cookbook.” In introductory courses, the high student population often dictates that many students perform the same experiment simultaneously. By working in discussion groups, with individual bench work, we are able to turn this communal effort into a strength. This article describes the revision of a recipe-style experiment into a student-designed procedure.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_492> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

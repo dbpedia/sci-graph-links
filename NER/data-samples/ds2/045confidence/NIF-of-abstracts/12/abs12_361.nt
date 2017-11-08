@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_320_328>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999662700011898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle> .
+
+<#offset_59_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ternary" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6005357083671378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arity> .
+
+<#offset_73_77>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PTRs" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/Weapon> ;
+        itsrdf:taConfidence     "0.995361514650894"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PTRS-41> .
+
+<#offset_190_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PTRs" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Weapon> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Device> ;
+        itsrdf:taConfidence     "0.995361514650894"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PTRS-41> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_340> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_299_307>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infinity" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9576913051307708"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infinity> .
+
+<#offset_0_340>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "340"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We introduce a new notion of valuations on planar ternary rings(PTRs), which allows us to extend some results concerning the relations between orderings and valuations of fields to PTRs. Our concept generalizes van Maldeghem's notion of PTRs with valuation, coordinatizing the buildings at infinity of discrete triangle buildings.\n" .
+
+<#offset_246_250>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PTRs" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Weapon> , <http://dbpedia.org/ontology/Device> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.995361514650894"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PTRS-41> .

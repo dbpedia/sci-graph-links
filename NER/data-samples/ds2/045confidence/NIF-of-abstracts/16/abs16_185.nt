@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_190_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "achievement gap" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_904> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Achievement_gap_in_the_United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_904> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_904>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "904"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Policy research on educational equity from 1965 to 1975 challenged the ‘conventional wisdom’ about schools. Apparently families, not schools, produce education, and the black-white achievement gap is not explained by school differences. But these counter-intuitive conclusions are drawn from studies of individual differences in achievement, and the radical political perspective articulated by that mode of analysis belittles and distorts relationships that moderates find significant. A moderate-style statistical articulation, that focuses primarily on between-race and between-status differences, is available. It produces findings that are largely consistent with the “conventional wisdom” when applied to data from Coleman's (1966) study of schools. Despite measurement problems, schools and other environmental variables statistically explain the bulk of the black-white achievement gap.\n" .
+
+<#offset_40_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equity" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_904> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7716348834070846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equity_(economics)> .
+
+<#offset_887_902>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "achievement gap" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "902"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_904> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Achievement_gap_in_the_United_States> .

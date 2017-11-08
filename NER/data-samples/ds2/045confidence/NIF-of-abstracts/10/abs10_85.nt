@@ -1,0 +1,152 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_12_17>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dwarf" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.49272509896489114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Main_sequence> .
+
+<#offset_504_512>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tegument" ;
+        nif:beginIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tegument_(helminth)> .
+
+<#offset_329_338>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tapeworms" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cestoda> .
+
+<#offset_0_670>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "670"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The dwarf tapeworm,Hymenolepis nana, was studied by means of scanning and transmission electron microscopy after in vitro exposure to 1, 10, and 100 μg/ml of the anthelmintic praziquantel (Droncit®) for 5, 15, 30, and 60 min. The resulting vacuolization of the tegument was exclusively confined to the neck region of the tapeworms and was already observed after treatment for 5 min with 1 μg/ml. This vacuolization finally led to the disruption of the syncytial layer in the apical region of the tegument. The tegumental microtriches and the surface coat remained unaffected. Proglottids of the middle or posterior regions of the worms never showed destruction.\n" .
+
+<#offset_409_422>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vacuolization" ;
+        nif:beginIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999961634103"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vacuole> .
+
+<#offset_82_114>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transmission electron microscopy" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999922693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transmission_electron_microscopy> .
+
+<#offset_170_182>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anthelmintic" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anthelmintic> .
+
+<#offset_183_195>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "praziquantel" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Praziquantel> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_670> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_27_43>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hymenolepis nana" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hymenolepis_nana> .
+
+<#offset_529_541>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microtriches" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microtriches> .
+
+<#offset_157_159>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "μg" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999802819061184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microgram> .
+
+<#offset_460_469>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syncytial" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Syncytium> .
+
+<#offset_269_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tegument" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tegument_(helminth)> .
+
+<#offset_397_399>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "μg" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999802819061184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microgram> .
+
+<#offset_18_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tapeworm" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cestoda> .
+
+<#offset_248_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vacuolization" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999961634103"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vacuole> .

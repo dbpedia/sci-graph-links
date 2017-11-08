@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_528>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "528"^^xsd:nonNegativeInteger ;
+        nif:isString    "This paper considers the basic principles of the most widespread methods for determining typical states of a mode I through crack in specimens and structures of sheet metals that are fractured under conditions close to the plane stress state. The results of experimental investigations are presented which make it possible to judge of the relative advantages and disadvantages of these methods from the standpoint of their possible use in engineering assessments of the integrity and remaining strength of thin-wall structures.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_528> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_223_235>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plane stress" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plane_stress> .

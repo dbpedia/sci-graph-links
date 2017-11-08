@@ -1,0 +1,91 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_118_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Australia" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999999319110225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .
+
+<#offset_377_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Victoria" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/AdministrativeArea> ;
+        itsrdf:taConfidence     "0.9999997738172197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Victoria_(Australia)> .
+
+<#offset_43_57>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "waste disposal" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995197993316791"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Waste_management> .
+
+<#offset_718_730>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Metropolitan" ;
+        nif:beginIndex          "718"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8704793160802167"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metropolitan_borough> .
+
+<#offset_731_755>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Waste Disposal Authority" ;
+        nif:beginIndex          "731"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Waste_disposal_authority> .
+
+<#offset_357_372>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "New South Wales" ;
+        nif:beginIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9994310660091813"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_South_Wales> .
+
+<#offset_218_229>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "legislation" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993278391898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Legislation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_757> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_757>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "757"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Legislation and administration of waste disposal is primarily a State and Local Government responsibility in Australia. The legal and environmental principles that form the base of present and possibly future legislation and administration are described. Some problems are discussed and in particular that of legal retro-responsibility for wastes. New South Wales and Victoria have different legislative and administrative systems. Both are complex with many overlapping Acts. The role of the recently implemented Environment Planning and Assessment Act (1979) on siting waste facilities in N.S.W. in discussed. Control of disposal in Victoria is decentralized whereas in N.S.W. management is focussed in the Metropolitan Waste Disposal Authority.\n" .
+
+<#offset_644_652>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Victoria" ;
+        nif:beginIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_757> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Region> , <http://schema.org/AdministrativeArea> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999997738172197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Victoria_(Australia)> .

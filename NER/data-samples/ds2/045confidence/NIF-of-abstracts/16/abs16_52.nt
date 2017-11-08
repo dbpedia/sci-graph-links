@@ -1,0 +1,53 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_80_92>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Northwestern" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/University> , <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/EducationalOrganization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999766100412633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Northwestern_University> .
+
+<#offset_144_151>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "horizon" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973773728139754"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Horizon> .
+
+<#offset_93_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9955131979652764"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1419> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1419>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1419"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the research project nordwest2050, scientists and stakeholders from Northwestern Germany jointly develop a long-term strategy (time horizon 2050) to increase the regional resilience, with respect to uncertainties of both regional climate change and socio-economic developments. This roadmap is based upon sectoral adaptation strategies. As the first step in the development of the roadmap, framing scenarios for the external driving forces were built. These scenarios both incorporate the different regional climate projections in consistent regional developments and capture the most relevant socio-economic uncertainties from the sectors involved. The main difficulty in building the scenarios was the cross-sectoral integration of the different perspectives from the various sectors, which is necessary to be able to integrate the sectoral adaptation strategies in the regional roadmap. Therefore we built the framing scenarios with strong participation of stakeholders from all the sectors. We present the methodology used to build the scenarios and discuss the insights we drew from the process. Our findings support the thesis that it is important to integrate the stakeholders in the building of the scenarios to achieve acceptance and enable learning. Even more, their feedback should already be incorporated in the early stages of the process and the intermediate steps should be kept transparent.\n" .
+
+<#offset_242_256>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "climate change" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999720287797854"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Climate_change> .

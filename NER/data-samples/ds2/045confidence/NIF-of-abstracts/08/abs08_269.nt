@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_282_292>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994893187"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_212_222>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994893187"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_458_468>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption" ;
+        nif:beginIndex          "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999996262461984"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Encryption> .
+
+<#offset_0_715>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "715"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This is a literature survey of computational location privacy, meaning computation-based privacy mechanisms that treat location data as geometric information. This definition includes privacy-preserving algorithms like anonymity and obfuscation as well as privacy-breaking algorithms that exploit the geometric nature of the data. The survey omits non-computational techniques like manually inspecting geotagged photos, and it omits techniques like encryption or access control that treat location data as general symbols. The paper reviews studies of peoples’ attitudes about location privacy, computational threats on leaked location data, and computational countermeasures for mitigating these threats.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_715> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_411_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geotagged" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geotagging> .
+
+<#offset_472_486>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "access control" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999431566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Access_control> .

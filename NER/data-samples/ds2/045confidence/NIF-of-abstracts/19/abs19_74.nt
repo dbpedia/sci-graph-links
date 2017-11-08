@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_635>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "635"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Automatic thread labeling for news events can help people know different aspects of a news event. In this paper, we present a method to label threads of a news event. We use latent Dirichlet allocation (LDA) topic model to extract news threads from news corpus. Our method first selects the thread words subset then extracts phrases based on co-occurrence calculation. The extracted phrase is then used as a label of a news thread. Experimental results show that about 60�f generated labels visualize the meaningful aspects of a news event. These labels can help people fast to capture many different aspects of a news event.\n" .
+
+<#offset_351_364>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "co-occurrence" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_635> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996884412"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Co-occurrence> .
+
+<#offset_263_269>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corpus" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_635> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9773577355792532"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Text_corpus> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_635> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_183_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "latent Dirichlet allocation" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_635> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latent_Dirichlet_allocation> .
+
+<#offset_212_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LDA" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_635> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999941451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latent_Dirichlet_allocation> .
+
+<#offset_217_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "topic model" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_635> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Topic_model> .

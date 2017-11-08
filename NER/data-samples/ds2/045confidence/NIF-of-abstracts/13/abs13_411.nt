@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_949>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "949"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This qualitative inquiry into using microcomputers to access an on-line electronic encyclopedia revealed the salient issues for eighth-graders in using computer technology and what they valued in their videotex experience. Assigned to gather information both electronically and from traditional library materials to write a science theme, students with no prior computer experience exhibited very little technological apprehension. Nearly all the students preferred electronic search by computer to print search in books and periodicals. Underlying student reports appeared to be the perception that using a computer relieved them from the process of note-taking and some editing judgments that using print materials would require. Overall, middle-school students in this situation readily accommodate computers and videotex within their ongoing school context but assigned the new technology greater value than traditional learning media.\n" .
+
+<#offset_118_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "salient" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.971775132384236"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Salience_(language)> .
+
+<#offset_825_833>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "videotex" ;
+        nif:beginIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Videotex> .
+
+<#offset_211_219>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "videotex" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Videotex> .
+
+<#offset_304_311>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971363764282992"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_949> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_45_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microcomputers" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990675899775039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microcomputer> .
+
+<#offset_333_340>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996129632021776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .

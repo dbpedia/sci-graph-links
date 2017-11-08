@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_114_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.868542985993384"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library_(computing)> .
+
+<#offset_0_756>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "756"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This case study examines parent–carer perceptions of music in storytelling sessions provided in a public library to children under the age of 5, including what music activities and ideas parent–carers implemented in the home as a result of the sessions. Data were collected from parent–carer focus groups, along with interviews with the storyteller and observations by the researcher. Following a description of the storytelling sessions four themes that emerged from the focus group data are discussed: (1) music in storytelling sessions enhanced social interaction for children; (2) music focuses the children in storytelling sessions; (3) music is embedded in storytelling; and (4) sessions provided new ideas for music in the home and beyond.\n" .
+
+<#offset_481_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "focus group" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Focus_group> .
+
+<#offset_301_313>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "focus groups" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Focus_group> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_756> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

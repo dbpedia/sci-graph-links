@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_9_23>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Urban planning" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<#offset_0_324>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "324"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Urban planning in St. Mary’s City and Annapolis is argued to be guided by a baroque theory of power. The layouts of both cities use the same principles. Baltimore is argued to be built using a panoptic theory of power. Planning and building in these important Maryland cities was to promote and solidify hierarchy.\n" .
+
+<#offset_47_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Annapolis" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/City> ;
+        itsrdf:taConfidence     "0.9999554782777403"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annapolis,_Maryland> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_324> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_85_92>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "baroque" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8916002015232556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Baroque> .
+
+<#offset_202_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "panoptic" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999981329211"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Panopticon> .
+
+<#offset_269_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Maryland" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://schema.org/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9983779200728404"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Maryland> .
+
+<#offset_162_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Baltimore" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9978683871872139"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Baltimore> .

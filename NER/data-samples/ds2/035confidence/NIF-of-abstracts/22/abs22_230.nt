@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_88_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "induction" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9961425593974786"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inductive_reasoning> .
+
+<#offset_27_34>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Horwich" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.964373257821829"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Horwich> .
+
+<#offset_333_344>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rationality" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9533650847938047"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rationality> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_351> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_351>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "351"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An improvement on Horwich's so-called “pseudo-proof” of Russell's principle of induction is offered, which, we believe, avoids certain objections to the former. Although strictly independent of our other work in this area, a connection can be made and in the final section we comment on this and certain questions regarding rationality, etc.\n" .

@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_20_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bullying" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_760> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999812518424168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bullying> .
+
+<#offset_0_760>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "760"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Homophobic bullying is a serious concern for students, parents, teachers, and school officials. This article reviews evidence on the status of this problem and how it may be addressed in a multilevel and multidisciplinary manner growing out of a social–ecological perspective on homophobic bullying as a social phenomenon. The ecological framework developed by Urie Bronfenbrenner (1977, 1979) is applied to organize this effort, which includes micro-, exo-, and macro-systems in which behavior and development are embedded. The inherent fluidity of experience postulated by Bronfenbrenner’s ecological approach offers hope that as practices and policy to promote diversity move forward, they will reshape the social ecology of sexual minority youth.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_760> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_454_459>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "micro" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_760> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9884756245928445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microeconomics> .
+
+<#offset_719_733>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social ecology" ;
+        nif:beginIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_760> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_ecology> .
+
+<#offset_299_307>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bullying" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_760> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999812518424168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bullying> .
+
+<#offset_288_298>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homophobic" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_760> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9879714168800913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heterosexism> .
+
+<#offset_370_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Urie Bronfenbrenner" ;
+        nif:beginIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_760> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urie_Bronfenbrenner> .

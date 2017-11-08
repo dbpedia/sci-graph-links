@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_172_177>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "glass" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999802676006743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glass> .
+
+<#offset_18_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "case studies" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997569526453367"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Case_study> .
+
+<#offset_130_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal artefacts" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999950546"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metallurgy_in_pre-Columbian_Mesoamerica> .
+
+<#offset_0_354>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "354"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Several case studies of microanalysis of objects of cultural heritage are reviewed. These objects, including paintings, metal artefacts, paper and archaeological glass, present a variety of research questions. In all cases, their analysis was complex due to the different problems raised by each material and the interpretation of the results.\n" .
+
+<#offset_157_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "archaeological" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999715191832688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Archaeology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_354> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_62_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cultural heritage" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999966189404604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cultural_heritage> .
+
+<#offset_34_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microanalysis" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998472049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microanalysis> .

@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_411>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "411"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove that the Katětov order on Borel ideals (1) contains a copy of 𝓟(ω)/Fin $\\mathcal {P}(\\omega )/\\mathbf {Fin}$, consequently it has increasing and decreasing chains of lenght 𝔟; (2) the sequence F i n α (α < ω 1) is a strictly increasing chain; and (3) in the Cohen model, Katětov order does not contain any increasing nor decreasing chain of length 𝔠, answering a question of Hrušák (2011).\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_411> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_105_110>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "omega" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993374516328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Omega> .

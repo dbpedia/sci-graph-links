@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_282_297>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "demand deposits" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Demand_deposit> .
+
+<#offset_431_446>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "excess reserves" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Excess_reserves> .
+
+<#offset_0_668>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "668"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This econometric model is on an annual basis and has been estimated for the period 1953–1969 using the two-stages least-squares method. All behavioral equations are based on a partial adjustment mechanism. The behavior of the public is expressed by the demand for currency, demand deposits and time-and-savings deposits. The behavior of the banking system is described by a required reserves identity and by the demand for excess reserves, borrowed reserves and net foreign assets. The main instruments of monetary policy under the direct control of the central bank are explicitly included in the analysis. Some impact multipliers and elasticities are shown.\n" .
+
+<#offset_122_142>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "least-squares method" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Least_squares> .
+
+<#offset_562_574>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "central bank" ;
+        nif:beginIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "574"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999973852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_bank> .
+
+<#offset_470_488>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "net foreign assets" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Net_foreign_assets> .
+
+<#offset_514_529>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary policy" ;
+        nif:beginIndex          "514"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994232667"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .
+
+<#offset_644_656>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elasticities" ;
+        nif:beginIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(economics)> .
+
+<#offset_272_280>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "currency" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998273734376611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Currency> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_668> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_349_363>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "banking system" ;
+        nif:beginIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9853662583041978"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bank> .
+
+<#offset_13_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "econometric model" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_668> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Econometric_model> .

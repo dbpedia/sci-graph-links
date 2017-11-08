@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_288_296>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "proteins" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8545997008610594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein_folding> .
+
+<#offset_11_29>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular dynamics" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_dynamics> .
+
+<#offset_30_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5724562617891066"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .
+
+<#offset_102_107>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AMBER" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999918770754"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AMBER> .
+
+<#offset_263_266>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DNA" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981004589664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DNA> .
+
+<#offset_0_298>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "298"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A molecular dynamics simulation of the DNA dodecamer d(CGCATATATGCG) has been performed with AMBER 5.0 under low salt conditions. Both B → A and A → B transitions are observed. This may have biological significance for the formation of complexes between DNA and TATA-box binding proteins.\n" .
+
+<#offset_52_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dodecamer" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8492801294924728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dodecameric_protein> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_298> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_48_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DNA" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981004589664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DNA> .

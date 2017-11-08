@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_834_840>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "copula" ;
+        nif:beginIndex          "834"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1131> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999718057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copula_(probability_theory)> .
+
+<#offset_349_355>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "copula" ;
+        nif:beginIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1131> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999718057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copula_(probability_theory)> .
+
+<#offset_978_983>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Italy" ;
+        nif:beginIndex          "978"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "983"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1131> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9996232163413905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Italy> .
+
+<#offset_497_516>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial fragility" ;
+        nif:beginIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1131> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_fragility> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1131> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_132_138>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1131> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9650871102364111"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<#offset_912_931>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial fragility" ;
+        nif:beginIndex          "912"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1131> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_fragility> .
+
+<#offset_0_1131>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1131"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper is inspired by the stress–strength models in the reliability literature, in which given the strength (Y) and the stress (X) of a component, its reliability is measured by P(X < Y). In this literature, X and Y are typically modeled as independent. Since in many applications such an assumption might not be realistic, we propose a copula approach in order to take into account the dependence between X and Y. We then apply a copula-based approach to the measurement of household financial fragility. Specifically, we define as financially fragile those households whose yearly consumption (X) is higher than income (Y), so that P(X > Y) is the measure of interest and X and Y are clearly not independent. Modeling income and consumption as non-identically Dagum distributed variables and their dependence by a Frank copula, we show that the proposed method improves the estimation of household financial fragility. Using data from the 2008 wave of the Bank of Italy’s Survey on Household Income and Wealth we point out that neglecting the existing dependence in fact overestimates the actual household fragility.\n" .

@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_204_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chirality" ;
+        nif:beginIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9963255296829566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chirality> .
+
+<#offset_690_702>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photocurrent" ;
+        nif:beginIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999906218087418"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electric_current> .
+
+<#offset_585_594>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nanotubes" ;
+        nif:beginIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999975534889045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_nanotube> .
+
+<#offset_301_304>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CNT" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_nanotube> .
+
+<#offset_26_29>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CNT" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_nanotube> .
+
+<#offset_512_522>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmosphere" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8663623480858617"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmosphere> .
+
+<#offset_392_395>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CNT" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_nanotube> .
+
+<#offset_0_715>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "715"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Carbon Nanotube (CNT) is believed to be a promising photo detection material due to its potential distinct optical properties. Although much is known about how characteristics depend on nanotube chirality and diameter, relatively little is known about how the photoinduced current depends on CNT length. We showed here that photoinduced current generated on a large-area multiwalled CNT forests exhibits a strong dependence on nanotube length. Photoinduced current of MWNTs in different temperature and atmosphere pressure was also discussed. The results showed that the long nanotubes significantly reduced photoinduced current, due to more gas in nanotube network inhibiting the photocurrent generation.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_715> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

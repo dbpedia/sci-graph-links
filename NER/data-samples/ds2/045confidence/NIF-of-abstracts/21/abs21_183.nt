@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_260_272>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "double-blind" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999334947913406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blind_experiment> .
+
+<#offset_331_341>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manuscript" ;
+        nif:beginIndex          "331"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999150774251371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manuscript> .
+
+<#offset_37_43>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.8683650850171072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#offset_0_625>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "625"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For more than 20 years, the German Workshop on Medical Image Processing (Bildverarbeitung für die Medizin, BVM) is held annually and has been established recently as a European conference. In 2010, the workshop was held in Aachen, Germany. Based on a double-blind review process with at least three experts reviewing each manuscript, the best 20 papers have been invited contributing to this special issue. The thirteen submissions received have passed an international peer review process. Finally, eleven papers have been accepted for publication. This includes two invited papers by Scholl et al. and Wismueller.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_625> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_240_247>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999644353097197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#offset_116_119>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BVM" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9877253038639625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Target_Racing> .
+
+<#offset_232_238>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Aachen" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Town> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9706162678698884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aachen> .

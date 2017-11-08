@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_398_400>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cu" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copper> .
+
+<#offset_510_519>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear" ;
+        nif:beginIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999868162463983"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_50_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mining engineering" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mining_engineering> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_682> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_682>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "682"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Equipment sizing is a developed field of mining engineering, which considers all aspects related to productivity, and grade distribution. Current methods of equipment sizing consider block dilution, but do not analyze the impact of the selectivity changes on practical dig-limits. This research analyzed the impact of varying equipment sizes on a highly variable three destination, Au and Cu bench, in a sulfide/oxide deposit. The study shows that selectivity sizing profit and size relationships are nonlinear, and exhibit severe break points if insufficiently selective equipment is used. The proposed technique can be used for sizing mine equipment in complex deposits.\n" .
+
+<#offset_413_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sulfide" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_682> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9997499375017145"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sulfide> .

@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_882_893>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "882"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "893"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999898817232262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<#offset_480_491>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999898817232262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<#offset_821_854>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Atlantic multidecadal oscillation" ;
+        nif:beginIndex          "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atlantic_multidecadal_oscillation> .
+
+<#offset_771_789>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ocean heat content" ;
+        nif:beginIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "789"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ocean_heat_content> .
+
+<#offset_445_466>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autoregressive models" ;
+        nif:beginIndex          "445"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoregressive_model> .
+
+<#offset_212_225>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anthropogenic" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_impact_on_the_environment> .
+
+<#offset_1068_1085>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radiative forcing" ;
+        nif:beginIndex          "1068"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1085"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radiative_forcing> .
+
+<#offset_1143_1156>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anthropogenic" ;
+        nif:beginIndex          "1143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_impact_on_the_environment> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1208> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1208>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1208"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The recent hiatus in global temperature at the surface has been analysed by several studies, mainly using global climate models. The common accepted picture is that since the late 1990s, the increase in anthropogenic radiative forcings has been counterbalanced by other factors, e.g., a decrease in natural forcings, augmented ocean heat storage and negative phases of ocean–atmosphere-coupled oscillation patterns. Here, simple vector autoregressive models are used for forecasting the temperature hiatus in the period 2001–2014. This gives new insight into the problem of understanding the ocean contribution (in terms of heat uptake and atmosphere–ocean-coupled oscillations) to the appearance of this recent hiatus. In particular, considering data about the ocean heat content until a depth of 700 m and the Atlantic multidecadal oscillation is necessary for correctly forecasting the hiatus, so catching both trend and interannual variability. Our models also show that the ocean heat uptake is substantially driven by the natural component of the total radiative forcing at a decadal time scale, confining the importance of the anthropogenic influences to a longer range warming of the ocean.\n" .
+
+<#offset_115_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "global climate models" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_climate_model> .
+
+<#offset_438_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995690163995212"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .

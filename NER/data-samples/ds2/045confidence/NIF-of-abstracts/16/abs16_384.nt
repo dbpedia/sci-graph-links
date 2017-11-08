@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_601_612>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_699> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6667221168730457"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_(mathematics)> .
+
+<#offset_405_410>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ICSID" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_699> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Centre_for_Settlement_of_Investment_Disputes> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_699> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_699>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "699"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Though still relatively infrequent, the issuing of dissenting and concurring opinions is becoming more common in international investment arbitration. This paper reviews the reasons for delivering separate opinions envisaged in the bibliography on investment arbitration, comparing these with practices in the related area of commercial arbitration. Fourteen recent separate opinions appended to ICSID arbitration awards and decisions are then analysed to determine how the arbitrators themselves explain why they have taken the drastic step of issuing a separate opinion. Potential areas of convergence between investment arbitration and commercial arbitration practice will be addressed.\n" .

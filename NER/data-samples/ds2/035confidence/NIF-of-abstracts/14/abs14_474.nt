@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_423_445>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "touch-sensitive screen" ;
+        nif:beginIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Touchscreen> .
+
+<#offset_329_341>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Turbo Pascal" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turbo_Pascal> .
+
+<#offset_412_417>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mouse" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960605030967955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mouse_(computing)> .
+
+<#offset_0_824>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "824"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The programForecast conducts a session to obtain forecasts from subjects for successive values of an evolving chaotic time series. The user of Forecast can control the session by selecting a number of options for the time series, including both the type (Hénon, or logistic) and degree of chaos. Forecast was created in Turbo Pascal and has been run on a 386 AT with a mouse and on a PS/2 with either a mouse or a touch-sensitive screen. Single sessions conducted by Forecast have collected 600 forecasts at a rate of one per 2 sec from adults and, without alteration, 180 forecasts from young (3–5 years) children. Compared with three procedures using other display modes or response modes, Forecast collected about three times the number of forecasts in sessions that were only about a third to one half as long.\n" .
+
+<#offset_127_138>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_119_126>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chaotic" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999770725483"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chaos_theory> .
+
+<#offset_378_383>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mouse" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960605030967955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mouse_(computing)> .
+
+<#offset_368_370>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "AT" ;
+        nif:beginIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/InformationAppliance> ;
+        itsrdf:taConfidence     "0.999926274428001"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM_Personal_Computer/AT> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_824> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_393_397>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PS/2" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/InformationAppliance> ;
+        itsrdf:taConfidence     "0.9993401021851981"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IBM_Personal_System/2> .
+
+<#offset_668_681>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "display modes" ;
+        nif:beginIndex          "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_display_standard> .
+
+<#offset_226_237>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .

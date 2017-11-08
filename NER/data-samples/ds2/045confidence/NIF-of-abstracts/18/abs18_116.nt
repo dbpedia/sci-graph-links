@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_362_378>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corporate ethics" ;
+        nif:beginIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_ethics> .
+
+<#offset_0_403>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "403"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article is based on the study of two companies that differ in their definition of thics, one with a narrower definition than the other. The one with the narrower definition invited skepticism about its commitment to the spirit of ethics but was better to claims made against their own standards and language. The implications of these findings for corporate ethics programs are discussed.\n" .
+
+<#offset_244_250>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ethics" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998455823344903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_403> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_195_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skepticism" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9739856640081865"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skepticism> .

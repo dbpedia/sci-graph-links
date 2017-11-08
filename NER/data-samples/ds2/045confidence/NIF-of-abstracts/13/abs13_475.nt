@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_365_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear algebra" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_655> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997089731845569"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_algebra> .
+
+<#offset_89_103>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear algebra" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_655> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997089731845569"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_algebra> .
+
+<#offset_0_655>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "655"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this work, we examine students’ ways of thinking when presented with a novel linear algebra problem. Our intent was to explore how students employ and coordinate three modes of thinking, which we call computational, abstract, and geometric, following similar frameworks proposed by Hillel (2000) and Sierpinska (2000). However, the undergraduate honors linear algebra students in our study used the computational mode of thinking in a surprising variety of productive and reflective ways. This paper examines the solution strategies that the students employed to solve the problem, emphasizing their use of the computational mode of thinking.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_655> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_294_300>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hillel" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_655> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9763323752838604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hillel_the_Elder> .

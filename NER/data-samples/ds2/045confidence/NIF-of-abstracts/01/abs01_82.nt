@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_329>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "329"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, a system of quasilinear elliptic equations is investigated, which involves critical exponents and multiple Hardy-type terms. By variational methods and analytic techniques, the existence of positive solutions to the system is established. The conclusions are new even when the Hardy-type terms disappear.\n" .
+
+<#offset_48_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elliptic equations" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999982323180054"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elliptic_partial_differential_equation> .
+
+<#offset_99_117>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "critical exponents" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999896545"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Critical_exponent> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_329> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_36_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quasilinear" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999921556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<#offset_176_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9913672339677958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytic_function> .
+
+<#offset_152_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variational methods" ;
+        nif:beginIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999940974362"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calculus_of_variations> .

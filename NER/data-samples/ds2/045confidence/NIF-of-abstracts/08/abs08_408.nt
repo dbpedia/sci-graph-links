@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_328> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_59_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "limit cycle" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_328> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_cycle> .
+
+<#offset_0_328>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "328"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Conditions are established under which a standard limit cycle occurs in the system under consideration, or the trajectory closes under the influence of a stagnation domain. It is pointed out that when the solution falls into the stagnation domain it makes no sense to use the asymptotic method because of a large error\n" .

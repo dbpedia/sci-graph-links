@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_734_742>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999983435828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_protocol> .
+
+<#offset_729_732>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PPC" ;
+        nif:beginIndex          "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9069062046792087"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PowerPC> .
+
+<#offset_174_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "indistinguishability" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999616858713815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_indistinguishability> .
+
+<#offset_278_291>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptographic" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991189410382"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptography> .
+
+<#offset_369_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudorandomness" ;
+        nif:beginIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudorandomness> .
+
+<#offset_429_445>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudorandomness" ;
+        nif:beginIndex          "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudorandomness> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_840> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_657_668>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "session key" ;
+        nif:beginIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Session_key> .
+
+<#offset_689_697>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "697"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999983435828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_protocol> .
+
+<#offset_0_840>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "840"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, a general framework for designing and analyzing password-based security protocols is presented. First we introduce the concept of “weak computational indistinguishability” based on current progress of password-based security protocols. Then, we focus on cryptographic foundations for password-based security protocols, i.e., the theory of “weak pseudorandomness”. Furthermore, based on the theory of weak pseudorandomness, we present a modular approach to design and analysis of password-based security protocols. Finally, applying the modular approach, we design two kinds of password-based security protocols, i.e., password-based session key distribution (PSKD) protocol and protected password change (PPC) protocol. In addition to having forward secrecy and improved efficiency, new protocols are proved secure.\n" .

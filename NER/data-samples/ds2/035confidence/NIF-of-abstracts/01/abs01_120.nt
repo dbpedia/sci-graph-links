@@ -1,0 +1,187 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_296_316>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "principal components" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principal_component_analysis> .
+
+<#offset_1032_1043>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mahalanobis" ;
+        nif:beginIndex          "1032"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1043"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999959574097"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mahalanobis_distance> .
+
+<#offset_1154_1164>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "freshwater" ;
+        nif:beginIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997634085014911"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fresh_water> .
+
+<#offset_271_282>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mahalanobis" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999959574097"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mahalanobis_distance> .
+
+<#offset_380_388>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "outliers" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outlier> .
+
+<#offset_606_620>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "false positive" ;
+        nif:beginIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Type_I_and_type_II_errors> .
+
+<#offset_914_922>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "outliers" ;
+        nif:beginIndex          "914"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outlier> .
+
+<#offset_9_16>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Outlier" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outlier> .
+
+<#offset_0_1306>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1306"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Outlier detection is often a key task in a statistical analysis and helps guard against poor decision-making based on results that have been influenced by anomalous observations. For multivariate data sets, large Mahalanobis distances in raw data space or large Mahalanobis distances in principal components analysis, transformed data space, are routinely used to detect outliers. Detection in principal components analysis space can also utilise goodness of fit distances. For spatial applications, however, these global forms can only detect outliers in a non-spatial manner. This can result in false positive detections, such as when an observation’s spatial neighbours are similar, or false negative detections such as when its spatial neighbours are dissimilar. To avoid mis-classifications, we demonstrate that a local adaptation of various global methods can be used to detect multivariate spatial outliers. In particular, we account for local spatial effects via the use of geographically weighted data with either Mahalanobis distances or principal components analysis. Detection performance is assessed using simulated data as well as freshwater chemistry data collected over all of Great Britain. Results clearly show value in both geographically weighted methods to outlier detection.\n" .
+
+<#offset_1202_1215>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Great Britain" ;
+        nif:beginIndex          "1202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Island> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9543341681445553"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Great_Britain> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1306> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_698_712>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "false negative" ;
+        nif:beginIndex          "698"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Type_I_and_type_II_errors> .
+
+<#offset_192_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multivariate data" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_statistics> .
+
+<#offset_1287_1304>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "outlier detection" ;
+        nif:beginIndex          "1287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999898874421"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outlier> .
+
+<#offset_893_905>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multivariate" ;
+        nif:beginIndex          "893"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9177537030521296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_statistics> .
+
+<#offset_1165_1174>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemistry" ;
+        nif:beginIndex          "1165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9968287319427047"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemistry> .
+
+<#offset_553_561>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "outliers" ;
+        nif:beginIndex          "553"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outlier> .
+
+<#offset_52_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "statistical analysis" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999986553121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistics> .
+
+<#offset_222_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mahalanobis" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999959574097"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mahalanobis_distance> .
+
+<#offset_1057_1077>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "principal components" ;
+        nif:beginIndex          "1057"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1077"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principal_component_analysis> .
+
+<#offset_403_423>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "principal components" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1306> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principal_component_analysis> .

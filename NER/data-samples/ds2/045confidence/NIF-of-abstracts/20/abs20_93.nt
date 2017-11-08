@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_344_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9957507184935376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_0_362>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "362"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Ethical issues in linguistic fieldwork have received surprisingly little direct attention in recent years. This article reviews ethical models for fieldwork and outlines the responsibilities of linguists involved in fieldwork on endangered languages to individuals, communities, and knowledge systems, focusing on fieldwork in a North American context.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_362> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_238_258>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endangered languages" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999987512328355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endangered_language> .

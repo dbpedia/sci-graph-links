@@ -1,0 +1,136 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_198_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2001 Mars Odyssey" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2001_Mars_Odyssey> .
+
+<#offset_193_197>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NASA" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/GovernmentAgency> ;
+        itsrdf:taConfidence     "0.9999497611903244"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NASA> .
+
+<#offset_476_490>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "seasonal cycle" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999595218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Season> .
+
+<#offset_90_94>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Mars" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Planet> , <http://dbpedia.org/ontology/CelestialBody> ;
+        itsrdf:taConfidence     "0.9999999939032023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mars> .
+
+<#offset_0_492>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "492"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present the results of five-year observations of the southern seasonal cap of Mars based on neutron spectroscopy of the surface fulfilled by the Russian HEND instrument onboard the NASA 2001 Mars Odyssey spacecraft. The numerical modeling of the observational data allowed us to reconstruct the curves of the variations of the total mass of the southern seasonal cap of Mars for different years (three Martian years) and to find the year-to-year variations of the seasonal cycle.\n" .
+
+<#offset_157_164>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Russian" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.8347820401201492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Russia> .
+
+<#offset_104_124>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neutron spectroscopy" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999924066856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neutron_spectroscopy> .
+
+<#offset_345_349>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mass" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999051567654057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mass> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_492> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_375_378>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cap" ;
+        nif:beginIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9903366093279068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pileus_(mycology)> .
+
+<#offset_414_427>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Martian years" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Timekeeping_on_Mars> .
+
+<#offset_382_386>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mars" ;
+        nif:beginIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Planet> , <http://dbpedia.org/ontology/CelestialBody> ;
+        itsrdf:taConfidence     "0.9999999939032023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mars> .
+
+<#offset_232_250>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "numerical modeling" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5158043793343351"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_model> .
+
+<#offset_83_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cap" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9903366093279068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pileus_(mycology)> .
+
+<#offset_216_226>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spacecraft" ;
+        nif:beginIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_492> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9954749703312898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spacecraft> .

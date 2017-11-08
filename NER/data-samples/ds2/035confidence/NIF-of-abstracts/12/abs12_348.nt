@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_62_69>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1049> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999910227189"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#offset_0_1049>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1049"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Life safety in buildings is a primary concern of the society in all countries. Means of escape is one of the most important design aspects in building designs. Alternative means of escape is often required for any large room,where the maximum travel distance, the number of occupants, or the total floor area, exceeds the code prescribed limit. Whilst the definition of the alternative means of escape, and the purpose of providing alternative means of escape, are the same for all countries, the criterion to be satisfied as alternative means of escape varies from code to code. This paper examines the actual performance requirement for alternative means of escape, and proposes performance criteria to examine the alternative means of escape. Such an approach can be used in a performance-based fire safety design. This paper further examines situations where means of escape will exist only for a short time, after which the escape route will be affected by fire. A methodology is proposed,and examples are given to illustrate the use.\n" .
+
+<#offset_807_818>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fire safety" ;
+        nif:beginIndex          "807"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "818"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1049> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999981704377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fire_safety> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1049> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_979_990>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "methodology" ;
+        nif:beginIndex          "979"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1049> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999746599503525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methodology> .
+
+<#offset_14_20>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "safety" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1049> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986573276293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Safety> .

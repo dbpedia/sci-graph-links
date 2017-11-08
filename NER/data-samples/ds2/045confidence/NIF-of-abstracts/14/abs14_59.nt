@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_177_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nucleon" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nucleon> .
+
+<#offset_296_304>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hadronic" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8739411250271892"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hadron> .
+
+<#offset_133_139>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9807906764018117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .
+
+<#offset_230_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QCD" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum_chromodynamics> .
+
+<#offset_0_361>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Using $J/\\psi$ and open charm photoproduction data, we apply the vector meson dominance model to obtain constraints on the energy dependence of the inelastic $J/\\psi$-nucleon cross section. Predictions of short distance QCD are in accord with these constraints, while recently proposed hadronic models for $J/\\psi$ dissociation strongly violate them.\n" .
+
+<#offset_75_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector meson dominance" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_meson_dominance> .
+
+<#offset_325_337>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dissociation" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7101324405140305"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dissociation_(chemistry)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

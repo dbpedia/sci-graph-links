@@ -1,0 +1,82 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_668_675>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "suicide" ;
+        nif:beginIndex          "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999985639647"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suicide> .
+
+<#offset_619_638>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high-stakes testing" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High-stakes_testing> .
+
+<#offset_279_296>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "suicidal ideation" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999980503680737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suicidal_ideation> .
+
+<#offset_185_197>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "South Korean" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9986528636511136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/South_Korea> .
+
+<#offset_519_536>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "suicidal ideation" ;
+        nif:beginIndex          "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999980503680737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suicidal_ideation> .
+
+<#offset_0_721>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "721"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper offers a novel explanation for why even high-performing individuals may have a high suicidal tendency when preferences are reference-dependent. Using survey data of South Korean secondary school students, this paper demonstrates that the relationship between suicidal ideation and test performance is consistent with the reference-dependent explanation. When a student’s rank in the high-stakes College Scholastic Ability Test falls below her expectation, she exhibits a higher likelihood of having suicidal ideation. The findings highlight the potentially adverse consequences of disappointment in high-stakes testing and suggest that the risk of suicide may be significant among high achievers too.\n" .
+
+<#offset_198_214>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secondary school" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9436821400836778"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Secondary_school> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_721> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_415_446>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "College Scholastic Ability Test" ;
+        nif:beginIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_721> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/College_Scholastic_Ability_Test> .

@@ -1,0 +1,54 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_363_383>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "psychiatric disorder" ;
+        nif:beginIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9971849523765253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mental_disorder> .
+
+<#offset_194_199>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.999028144878902"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#offset_0_636>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "636"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This is a study of the onset time of psychiatric episodes of 103 English-speaking temporary residents in Japan. The onset time is defined as the interval between the time of arrival in Japan and the request for treatment. The best-fit model was composed of 13 factors and had a highly significant effect on onset time. The existence of a past history of psychiatric disorder was linked with a high vulnerability. Higher proficiency in the language and experience of having been married indicated a lower vulnerability. Vulnerability defined by onset time may share a certain common ground with liability defined by prevalence.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_636> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_235_243>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "best-fit" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999515387689"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Curve_fitting> .
+
+<#offset_114_119>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.999028144878902"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .

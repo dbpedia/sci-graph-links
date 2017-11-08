@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_440_450>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypotheses" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9970035623538124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypothesis> .
+
+<#offset_313_319>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.879097186043912"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linearity> .
+
+<#offset_371_384>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "progressivity" ;
+        nif:beginIndex          "371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Progressive_tax> .
+
+<#offset_367_370>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tax" ;
+        nif:beginIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9955210040960104"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tax> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_452> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_176_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tax reform" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tax_reform> .
+
+<#offset_0_452>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "452"^^xsd:nonNegativeInteger ;
+        nif:isString    "We exploit the common features of models such as union, search and efficiency wage models to develop a framework that can be used to analyze the effects of any revenue-neutral tax reform on employment. In particular, we show that taxes paid by workers are not equivalent to taxes paid by firms when taxes are non linear. Moreover, we show that the positive impact of tax progressivity on employment is attributable only to a limited set of hypotheses.\n" .

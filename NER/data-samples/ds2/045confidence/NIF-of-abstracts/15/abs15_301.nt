@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_103_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Centraide" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_932> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Way_of_Canada> .
+
+<#offset_329_349>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strategic management" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_932> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Strategic_management> .
+
+<#offset_143_159>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Greater Montreal" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_932> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greater_Montreal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_932> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_932>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "932"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract On the basis of a detailed, in-depth study of the operations and strategic decision-making of Centraide, a charitable organization in Greater Montreal, this paper suggests that dependency on the environment can be a stimulus to organizational adaptation. Two major changes over a 10-year period are studied to show that strategic management in high dependency situations requires a continual attention to the organization's relationships and interactions with the forces in its environment, and a continuous management of the process by which change takes place. The basic position advanced is that: strategy in philanthropic organizations is more effective in ensuring survival and growth when the search for autonomy is seen as irrelevant and when dependence is seen as an unavoidable fact that should shape behavior. A set of propositions helps conceptualize the findings and is offered as a guide for further research.\n" .
+
+<#offset_116_139>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "charitable organization" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_932> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7486691604335812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Charitable_organization> .

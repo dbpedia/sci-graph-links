@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_637>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "637"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper argues that Descartes conceives of theoretical reason in terms derived from practical reason, particularly in the role he gives to the passions. That the passions serve — under “normal” circumstances — to preserve the union of mind and body is a well-known feature of Descartes's defense of our native make-up. But they are equally important in our more purely theoretical endeavors. Some passions, most notably “wonder,” provide a crucial source of motivation in the search after truth, and also serve to reinforce memory. Our cognitive successes and failure scan also be tracked by passions and trains of passions.\n" .
+
+<#offset_548_557>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "557"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_637> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993643870504436"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognition> .
+
+<#offset_96_112>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "practical reason" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_637> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Practical_reason> .
+
+<#offset_536_542>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_637> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997547085132"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#offset_32_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Descartes" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_637> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991146543661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/René_Descartes> .
+
+<#offset_288_297>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Descartes" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_637> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991146543661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/René_Descartes> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_637> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

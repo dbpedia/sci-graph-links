@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_529_542>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noncombatants" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_695> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-combatant> .
+
+<#offset_576_596>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "moral responsibility" ;
+        nif:beginIndex          "576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_695> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moral_responsibility> .
+
+<#offset_416_432>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enemy combatants" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_695> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9293607573124192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unlawful_combatant> .
+
+<#offset_215_227>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "self-defense" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_695> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993052677451248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Self-defense> .
+
+<#offset_0_695>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "695"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper argues that certain central tenets of the traditional theory of the just war cannot be correct. It then advances an alternative account grounded in the same considerations of justice that govern self-defense at the individual level. The implications of this account are unorthodox. It implies that, with few exceptions, combatants who fight for an unjust cause act impermissibly when they attack enemy combatants, and that combatants who fight in a just war may, in certain circumstances, legitimately target noncombatants who bear a significant degree of moral responsibility for a wrong, when the prevention or rectification of that wrong constitutes a just cause for war.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_695> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_633_646>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rectification" ;
+        nif:beginIndex          "633"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "646"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_695> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9451732615745979"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rectifier> .
+
+<#offset_547_551>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bear" ;
+        nif:beginIndex          "547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_695> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9958385415458724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bear> .

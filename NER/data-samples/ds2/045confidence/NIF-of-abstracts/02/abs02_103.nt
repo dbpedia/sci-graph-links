@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_277_300>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atomic force microscope" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atomic_force_microscopy> .
+
+<#offset_0_532>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "532"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The procedure for the parameterization of complex surface structures is proposed on the basis of the analysis of spatial “series” formed by the projections on the coordinate axes of roughness profiles recorded during the surface scanning with the sensitive element of atomic force microscope. To extract parameters of thus obtained “spatial series,” flicker-noise spectroscopy is used that allows retrieval of information relevant to specific (“resonance”) and nonspecific (chaotic) components of analyzed complex signals.\n" .
+
+<#offset_373_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectroscopy" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998829860102"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectroscopy> .
+
+<#offset_172_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coordinate axes" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6630398255812385"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coordinate_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_532> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_454_463>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonance" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.930425606055926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nuclear_magnetic_resonance> .

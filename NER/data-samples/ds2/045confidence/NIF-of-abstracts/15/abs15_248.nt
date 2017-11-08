@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_588_595>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "surgeon" ;
+        nif:beginIndex          "588"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_628> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9901845004907843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surgery> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_628> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_345_364>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clinical governance" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_628> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clinical_governance> .
+
+<#offset_366_378>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "benchmarking" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_628> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999977420803159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Benchmarking> .
+
+<#offset_0_628>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "628"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The choice of instruments for the assessment of outcome in spinal surgery is bewildering. For day-to-day practice, however, consideration of the purpose for which information is required allows construction of simple strategies for data collection. Recommendations are made for short and convenient data sets for use in personal audit, clinical governance, benchmarking, patient selection and business planning. No simple data set can measure in detail every aspect of practice, but use of these recommendations will provide information that will be of great value to the spinal surgeon and ultimately to his patients.\n" .

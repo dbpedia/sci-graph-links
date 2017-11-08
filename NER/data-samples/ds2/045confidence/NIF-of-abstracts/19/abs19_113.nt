@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_399_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holograms" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holography> .
+
+<#offset_0_486>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "486"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The characteristics of optical recording and changes in the hologram parameters of the amorphous quaternary system Cu-As-Se-I are described. The dependence of the relative contrast of recording on the exposure and transparency properties of the film before and after erasure is the basis for discussion of these processes. Investigation into the dependence of diffraction efficiency of the holograms indicates that these quantities are determined by the thin film composition.\n" .
+
+<#offset_369_380>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diffraction" ;
+        nif:beginIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "380"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999975442713119"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffraction> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_486> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_96_105>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amorphous" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999993244107172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amorphous_solid> .
+
+<#offset_69_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hologram" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999232614"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holography> .
+
+<#offset_463_472>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin film" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999458282801"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_65_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ppm" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parts-per_notation> .
+
+<#offset_0_180>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "180"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The long-term effects of different cadmium (0.2 and 0.4 ppm) and salinity levels (30, 25, and 20 ‰ S) on growth and egg-mass production ofOphryotrocha labronica (La Greca\n" .
+
+<#offset_44_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cadmium" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999692543899"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cadmium> .
+
+<#offset_74_82>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "salinity" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996489720969334"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Salinity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_180> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

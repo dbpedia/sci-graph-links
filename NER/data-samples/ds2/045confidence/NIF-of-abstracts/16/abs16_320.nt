@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_136_144>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Feenberg" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_868> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Andrew_Feenberg> .
+
+<#offset_178_190>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mobile phone" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_868> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999955018624845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mobile_phone> .
+
+<#offset_0_868>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "868"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper takes a phenomenological approach to analysing people’s accounts of receiving phone calls, drawing on Heidegger and Feenberg. Accounts of calls received on a mobile phone are compared with those on landlines, charting progress from location-centred to person-centred phoning. A range of naturally-occurring contexts are discussed in terms of the experience of balancing the activities of talking on the phone with activities in the immediate environment, and the enchantment sustained or sacrificed. The study suggests that recipients’ enchantment with phoning is affected by their freedom and desire to project towards the caller and create shared spaces, and reveals some factors that impact on the transitions of attention required to do so. It concludes with the design implications of taking this view of interactions with and through phones.\n" .
+
+<#offset_122_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Heidegger" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_868> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Martin_Heidegger> .
+
+<#offset_28_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenomenological" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_868> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999888278495013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenomenology_(philosophy)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_868> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_218_227>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "landlines" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_868> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Landline> .

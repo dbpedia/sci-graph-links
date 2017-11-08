@@ -1,0 +1,110 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_72_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "birds" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999611014728585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bird> .
+
+<#offset_270_284>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Sterna hirundo" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Tern> .
+
+<#offset_0_449>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "449"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Eulimdana spp. were found in 13 of 32 species of charadriiform birds from North America and Iceland; 88 of 636 adult birds and seven of 72 juvenile birds harboured infections. Described are: E. andersoni n. sp. from Chlidonias niger; E. metcalforum n. sp. from Sterna hirundo; E. sonini n. sp. from Charadrius hiaticula; E. wongae n. sp. from Limosa fedoa; and E. bainae n. sp. from Numenius phaeopus. Eulimdana asperum Bartlett, Anderson,\n" .
+
+<#offset_58_71>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "charadriiform" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Charadriiformes> .
+
+<#offset_157_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "birds" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999611014728585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bird> .
+
+<#offset_83_96>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "North America" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Continent> ;
+        itsrdf:taConfidence     "0.9999945465990319"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/North_America> .
+
+<#offset_101_108>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Iceland" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.999763156535166"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iceland> .
+
+<#offset_47_54>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999949877747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_449> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_392_409>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Numenius phaeopus" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Whimbrel> .
+
+<#offset_126_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "birds" ;
+        nif:beginIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999611014728585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bird> .
+
+<#offset_308_328>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Charadrius hiaticula" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Bird> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Ringed_Plover> .

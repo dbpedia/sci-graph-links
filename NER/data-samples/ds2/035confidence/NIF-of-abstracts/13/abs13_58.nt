@@ -1,0 +1,96 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_205_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "USMLE" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999821273233802"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Medical_Licensing_Examination> .
+
+<#offset_741_760>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "medical examination" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8639367719373147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physical_examination> .
+
+<#offset_149_163>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evidence-based" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8618370687641713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evidence-based_medicine> .
+
+<#offset_96_112>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "medical resident" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Residency_(medicine)> .
+
+<#offset_0_762>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "762"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Despite the significance of the United States Medical Licensing Examination (USMLE) in medical resident selection, there are few reports of evidence-based medical school advising programs for the USMLE and similar exams. Here, we describe a reproducible 10-step evidence-based, student-led process for developing an exam advising program, centered around a local needs assessment, literature review, multi-year study behaviors survey linked to meaningful score outcomes, and intentional dissemination of data to students. Student leadership promoted improved response rates, dissemination of findings, and student-centered programming. This 10-step approach is generalizable to development of advising programs for any standardized medical examination.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_762> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_86_91>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "USMLE" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999821273233802"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Medical_Licensing_Examination> .
+
+<#offset_41_84>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United States Medical Licensing Examination" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Medical_Licensing_Examination> .
+
+<#offset_271_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evidence-based" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8618370687641713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evidence-based_medicine> .
+
+<#offset_164_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "medical school" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7104986875720988"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medical_school> .
+
+<#offset_390_407>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature review" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature_review> .

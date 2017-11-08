@@ -1,0 +1,140 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_54_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "faculties" ;
+        nif:beginIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986565970799559"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Faculty_(division)> .
+
+<#offset_67_73>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9998434365296814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<#offset_268_274>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Poland" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9997749932801765"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poland> .
+
+<#offset_583_597>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Southeast Asia" ;
+        nif:beginIndex          "583"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999979239067279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Southeast_Asia> .
+
+<#offset_241_247>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "France" ;
+        nif:beginIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999878225684359"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/France> .
+
+<#offset_297_309>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Parasitology" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999946084246"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitology> .
+
+<#offset_249_256>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9996651675389558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_651> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_651>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "651"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The results of a survey in different medical faculties in Europe, after the distribution of a dedicated questionnaire, are presented and compared with those obtained 10 years ago in a similar manner. In particular, the situation in France, Germany, Italy and Poland shows the decrease of Parasitology Departments in many Faculties, as well as the reduction of the number of hours dedicated to this discipline in independent courses. Additional information is provided from several other countries. European situation is compared with that of North, South America, China and Southeast Asia. Some suggestions are given to improve the scenario.\n" .
+
+<#offset_573_578>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "China" ;
+        nif:beginIndex          "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998283978145488"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/China> .
+
+<#offset_421_432>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "independent" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7070684051750535"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence_(probability_theory)> .
+
+<#offset_258_263>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Italy" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.999807842539318"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Italy> .
+
+<#offset_507_515>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European" ;
+        nif:beginIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9991322988356965"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<#offset_113_126>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "questionnaire" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998723865"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Questionnaire> .
+
+<#offset_558_571>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "South America" ;
+        nif:beginIndex          "558"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999998438149882"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/South_America> .

@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_175_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resistance" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999994275754"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_resistance_and_conductance> .
+
+<#offset_102_115>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semiconductor" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989732748005"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semiconductor> .
+
+<#offset_351_358>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "brazing" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brazing> .
+
+<#offset_0_372>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "372"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A method is described for measuring specific transient resistances of ohmic contacts to thin semiconductor layers by experimentally taking into account the spreading resistance. Studies are performed by this method on the way in which the specific transient resistances of AuGe-Ni and Au-Ni contacts to n-type gallium phosphide depend on the brazing temperature.\n" .
+
+<#offset_319_336>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gallium phosphide" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gallium_phosphide> .
+
+<#offset_79_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ohmic contacts" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ohmic_contact> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_372> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_359_370>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temperature" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999980487875455"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Temperature> .
+
+<#offset_312_318>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n-type" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_372> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997484679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doping_(semiconductor)> .

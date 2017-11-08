@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_163_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HERA" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_549> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999517968"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hadron_Elektron_Ring_Anlage> .
+
+<#offset_36_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meson" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_549> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991983383438604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meson> .
+
+<#offset_98_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GeV" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_549> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronvolt> .
+
+<#offset_337_348>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "charm quark" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_549> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Charm_quark> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_549> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_549>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "549"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Data for $D^{*\\pm}(2010)$ meson electroproduction in the range $10 < Q^2 < 1350 \\; {\\rm GeV}^2$ has recently been presented by the ZEUS collaboration at HERA. We use these results together with previously published data for $Q^2 > 1 \\; {\\rm GeV}^2$ to test whether one can distinguish between different theoretical schemes for charm quark electroproduction. We find that up to the largest $Q^2$ measured, it is not possible to make such a differentiation. Then we point out the regions where differences between the various schemes arise.\n" .
+
+<#offset_251_254>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GeV" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_549> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronvolt> .
+
+<#offset_141_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ZEUS" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_549> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998568635648"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ZEUS_(particle_detector)> .

@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_465>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "465"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary By a generalization of the transformation given by Eriksen some representations of the Dirac equation are derived, particularly cases including the well known ones of Foldy and Wouthuysen and of Cini and Touschek. A modification of the procedure gives a transformed Hamiltonianα iE (i=1, 2, 3), such thatΓ 5 as defined by Cini-Touschek, has exactly the same form (namely −σ pλ), as in their case. Some special features of this representation are discussed.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_465> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_203_207>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cini" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995562462648"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Child_In_Need_Institute> .
+
+<#offset_95_109>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dirac equation" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dirac_equation> .

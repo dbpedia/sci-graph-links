@@ -1,0 +1,45 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_363_366>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "HIV" ;
+        nif:beginIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9996317734404638"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HIV> .
+
+<#offset_524_537>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9997180603777707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_0_835>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "835"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The news media construct order by defining which events are sig-nificant and interpreting these events for the public. Sometimes, though, the media distort reality. The current study focuses on the media exaggeration of the threat posed by nonsexual HIV-related assaults. Although such assaults are widely perceived as serious threats, the likelihood of HIV being transmitted through a biting, spitting, or needlestick incident is quite small. Based on news accounts culled from 17 of the largest newspapers in the United States, the findings illustrate how headlines rely upon sensational language, negative stereotyping of offenders, and the cloak of “neutral and objective” court decisions to articulate a sense of order and morality while simultaneously exaggerating the threat people with HIV pose to the general public.\n" .
+
+<#offset_803_806>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HIV" ;
+        nif:beginIndex          "803"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9996317734404638"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HIV> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_835> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

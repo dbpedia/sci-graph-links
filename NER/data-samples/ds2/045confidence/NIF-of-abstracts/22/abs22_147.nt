@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_920_941>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "organ transplantation" ;
+        nif:beginIndex          "920"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "941"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_943> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Organ_transplantation> .
+
+<#offset_881_905>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychological evaluation" ;
+        nif:beginIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "905"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_943> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychological_evaluation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_943> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_943>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "943"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract There is far-reaching consent in the literature that public and consensual agreements on the basics of the different aspects of medical ethics are inalienable before the instigation of any innovative transplant procedure. In the case of a certain method and/or of an individual patient, however, the ultimate ethical evaluation can most likely never be entirely complete before this application. Ethical evaluation depends on the actual criteria used, the present knowledge regarding the risk-benefit-balance as well as on the ethical evaluation of the patient's and his family's own feelings and expectations which are not entirely conscious. In relation to the so-called “fundamental and constant ethical guidelines” and under a psychological perspective potential, ethical conflict constellations are presented which have to be dealt with in the process of ethical and psychological evaluation before living organ transplantation.\n" .
+
+<#offset_137_151>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "medical ethics" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_943> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9063044200484264"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medical_ethics> .
+
+<#offset_794_808>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "constellations" ;
+        nif:beginIndex          "794"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "808"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_943> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997687994979263"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constellation> .

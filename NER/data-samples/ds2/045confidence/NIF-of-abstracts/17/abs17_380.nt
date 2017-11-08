@@ -1,0 +1,96 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_163_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consonants" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consonant> .
+
+<#offset_621_629>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "formants" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formant> .
+
+<#offset_651_659>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syllable" ;
+        nif:beginIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Syllable> .
+
+<#offset_421_438>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "statistical power" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_power> .
+
+<#offset_178_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vowels" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vowel> .
+
+<#offset_478_486>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interact" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9956529284887498"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interaction> .
+
+<#offset_534_542>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phonetic" ;
+        nif:beginIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994526410473297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phonetics> .
+
+<#offset_444_449>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vowel" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9976014662650713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vowel> .
+
+<#offset_0_939>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "939"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Despite many attempts to define the major unit of speech perception, none has been generally accepted. In a unique study, Mermelstein (1978) claimed that consonants and vowels are the appropriate units because a single piece of information (duration, in this case) can be used for one distinction without affecting the other. In a replication, this apparent independence was found, instead, to reflect a lack of statistical power: The vowel and consonant judgments did interact. In another experiment, interdependence of two phonetic judgments was found in responses based on the fricative noise and the vocalic formants of a fricative-vowel syllable. These results show that each judgment made on speech signals must take into account other judgments that compete for information in the same signal. An account is proposed that takes segments as the primary units, with syllables imposing constraints on the shape they may take.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_939> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_59_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "speech perception" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_939> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Speech_perception> .

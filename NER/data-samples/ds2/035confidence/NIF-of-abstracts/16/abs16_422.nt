@@ -1,0 +1,53 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_67_81>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "North American" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Continent> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9579015589702575"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/North_America> .
+
+<#offset_166_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trust" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995876740310204"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trust_(social_sciences)> .
+
+<#offset_114_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abortion" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9765848803127078"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abortion> .
+
+<#offset_0_370>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "370"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article describes a dialogue process used in several North American cities to address conflict over abortion. Participants report increased empathy and trust toward advocates far different positions after spending a day in small and large group interactions. Limitations of the process and its applicability to other divisive social issues are considered.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_370> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_154_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empathy" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999952252"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empathy> .

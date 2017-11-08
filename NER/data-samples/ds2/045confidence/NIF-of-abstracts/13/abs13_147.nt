@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_722>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "722"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Instead of stressing good job prospects, which often fail to materialize automatically and promptly after graduation, colleges should hue more closely to their liberal arts roots. Hard sell though it might be, given prevailing attitudes lately, stress to young people that learning per se, not immediate employment at a fabulous salary, is what true education is really all about. Done seriously, good results of such a “holistic” approach could be almost guaranteed. Frustration and disillusionment would be reduced. Morale and productivity would increase. Social responsibility could be argued more convincingly. As an “institutional fringe benefit,” the overall image of postsecondary education would improve.\n" .
+
+<#offset_430_438>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holistic" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_722> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992097542356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holism> .
+
+<#offset_254_260>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_722> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9897252296931199"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(biology)> .
+
+<#offset_169_181>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "liberal arts" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_722> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999319857223187"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liberal_arts_education> .
+
+<#offset_683_706>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "postsecondary education" ;
+        nif:beginIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_722> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Higher_education> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_722> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_143_146>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hue" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_722> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999937817224304"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hue> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_110_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium point" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equilibrium_point> .
+
+<#offset_326_344>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "piecewise constant" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Step_function> .
+
+<#offset_247_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal control" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_control> .
+
+<#offset_0_756>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "756"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Under generic conditions a local feedback synthesis for the problem of time-optimally stabilizing an equilibrium point in dimension three is constructed. There exist two surfaces which are glued together along a singular are on which the optimal control is singular. Away from these surfaces the optimal controls are piecewise constant with at most two switchings. Bang-bang trajectories with two switchings but different switching orders intersect in a nontrivial cut-locus and optimality of trajectories ceases at this cut-locus. The construction is based on an earlier result by Krener and Schättler which gives the precise structure of the small-time reachable set for an associated system to which time has been added as an extra coordinate.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_756> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

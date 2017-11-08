@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_70_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chromospheric" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chromosphere> .
+
+<#offset_679_692>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chromospheric" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chromosphere> .
+
+<#offset_122_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acoustic waves" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7028596502340508"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sound> .
+
+<#offset_0_701>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "701"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The small phase-lag between velocities observed at different chromospheric levels is interpreted as being due to acoustic waves reflected by the very hot atmospheric layers of the chromosphere-corona transition zone. We consider first an isothermal slab, then a realistic solar atmospheric model and calculate weighting functions for velocities in Ca ii lines. It is shown that taking into account these functions and integrating over horizontal wave numbers leads to a good agreement with previous observations (Mein, 1977) in the case of 8498 and 8542 Ca ii lines. For the K line, the less good agreement shows that magnetoacoustic waves become important in the upper chromospheric layers.\n" .
+
+<#offset_247_257>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isothermal" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9733680329766368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isothermal_process> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_701> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_455_467>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wave numbers" ;
+        nif:beginIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "467"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9951148984066812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelength> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_125_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "blueprints" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999432597535"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blueprint> .
+
+<#offset_0_348>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "348"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper generalizes the notion of a blueprint as defined by M. Ronan and J. Tits in 1987. These more generalized blueprints can be used to achieve purely combinatorial constructions of affine buildings over p-adics field, depending only on the associated affine diagrams and the structure of the integers inside the appropriate fields.\n" .
+
+<#offset_308_316>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integers" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999527063431375"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_348> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_166_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "combinatorial" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999694554405584"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Combinatorics> .

@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_60_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999488412928507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<#offset_197_207>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plasticity" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plasticity_(physics)> .
+
+<#offset_509_522>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic range" ;
+        nif:beginIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_elasticity> .
+
+<#offset_147_156>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "von Mises" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Von_Mises_yield_criterion> .
+
+<#offset_158_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "yield criterion" ;
+        nif:beginIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yield_(engineering)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_845> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_175_193>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deformation theory" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deformation_theory> .
+
+<#offset_595_610>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "yield criterion" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yield_(engineering)> .
+
+<#offset_315_321>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Newton" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_845> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Scientist> ;
+        itsrdf:taConfidence     "0.9999999999606644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isaac_Newton> .
+
+<#offset_0_845>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "845"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary. A computational model is developed to estimate the stress distributions in rotating elastic-plastic solid and hollow shafts by the use of von Mises’ yield criterion, deformation theory of plasticity and a Swift-type hardening law. An efficient numerical solution procedure based on the shooting method and Newton iterations is designed and used throughout this work to treat shafts with fixed and free ends. The results of the computations are verified by comparison with analytical solutions in the elastic range as well as with analytical elastic-plastic solutions employing Tresca’s yield criterion available in the literature. The stresses, displacement and plastic strains are computed for nonlinearly hardening elastic-plastic solid and hollow shafts rotating at different speeds, and the results are presented in graphical form.\n" .

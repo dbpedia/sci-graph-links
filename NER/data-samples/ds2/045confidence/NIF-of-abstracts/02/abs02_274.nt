@@ -1,0 +1,142 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_278_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "light curves" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Light_curve> .
+
+<#offset_770_773>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sun" ;
+        nif:beginIndex          "770"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "773"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sun> .
+
+<#offset_294_306>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solar flares" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999963502989599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solar_flare> .
+
+<#offset_561_566>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "X-ray" ;
+        nif:beginIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999482658963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/X-ray> .
+
+<#offset_34_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hydrodynamic" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fluid_dynamics> .
+
+<#offset_67_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plasma" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plasma_(physics)> .
+
+<#offset_0_1014>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1014"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper discusses the hydrodynamic modeling of flaring plasma confined in magnetic loops and its objectives within the broader scope of flare physics. In particular, the Palermo-Harvard model is discussed along with its applications to the detailed fitting of X-ray light curves of solar flares and to the simulation of high-resolution Ca xix spectra in the impulsive phase. These two approaches provide complementary constraints on the relevant features of solar flares. The extension to the stellar case, with the fitting of the light curve of an X-ray flare which occurred on Proxima Centauri, demonstrates the feasibility of using this kind of model for stars too. Although the stellar observations do not provide the wealth of details available for the Sun, and, therefore, constrain the model more loosely, there are strong motivations to pursue this line of research: the wider range of physical parameters in stellar flares and the possibility of studying further the solar-stellar connection.\n" .
+
+<#offset_929_943>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stellar flares" ;
+        nif:beginIndex          "929"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9112903537135414"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flare_star> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1014> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_591_607>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Proxima Centauri" ;
+        nif:beginIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/CelestialBody> , <http://dbpedia.org/ontology/Star> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proxima_Centauri> .
+
+<#offset_543_554>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "light curve" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Light_curve> .
+
+<#offset_154_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999405583839"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<#offset_272_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "X-ray" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999482658963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/X-ray> .
+
+<#offset_470_482>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solar flares" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999963502989599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solar_flare> .
+
+<#offset_86_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999988975751358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_field> .
+
+<#offset_318_328>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1014> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9684971282994559"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_simulation> .

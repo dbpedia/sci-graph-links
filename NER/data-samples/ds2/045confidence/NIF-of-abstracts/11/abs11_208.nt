@@ -1,0 +1,91 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_138_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "choroid" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Choroid> .
+
+<#offset_524_535>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9494584979636498"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_648> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_342_351>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ischaemic" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ischemia> .
+
+<#offset_234_241>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "choroid" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Choroid> .
+
+<#offset_8_15>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "In vivo" ;
+        nif:beginIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/In_vivo> .
+
+<#offset_470_473>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IOP" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intraocular_pressure> .
+
+<#offset_48_62>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "rhesus monkeys" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rhesus_macaque> .
+
+<#offset_366_382>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "anterior segment" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anterior_segment_of_eyeball> .
+
+<#offset_0_648>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "648"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary In vivo studies on the temporal LPCA in rhesus monkeys have revealed the following:1.The LPCA invariably supplies a sector of the choroid posterior to the equator, starting almost immediately from the point where it joins the choroid after having pierced the sciera, and extending forward.2.Occlusion of one or both LPCAs produces no ischaemic damage to the anterior segment of the eye.3.Occlusion of one or both LPCAs seems to have no significant effect on the IOP. The ocular hypotony seen in such cases is in all probability primarily due to damage to the accompanying ciliary nerves. This subject however, requires further exploration.\n" .

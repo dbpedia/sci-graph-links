@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_581_595>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frontal system" ;
+        nif:beginIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994173030710493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surface_weather_analysis> .
+
+<#offset_419_429>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "helicopter" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999896843752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helicopter> .
+
+<#offset_108_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "New York City" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992934447643458"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_York_City> .
+
+<#offset_511_520>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban air" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999989674961"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_Air> .
+
+<#offset_0_710>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "710"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A two-day test period (10–11 March 1966) during which a slow moving synoptic cold front passed over New York City has been analyzed. As the front passed over the city it was destroyed near the surface by the urban roughness effect. The upper segment of the front passed over the city and rejoined the rest of the front downwind of the city. Evidence for the above phenomenon was seen in both the pibal wind and helicopter (temperature and SO2) soundings. Distortion of the front forced polluted surface urban air upwards, as within the warm sector of an occluding synoptic frontal system. The outward spreading of this air aloft produced increasing concentrations over the city at heights above 200 m.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_710> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_447_450>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SO2" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999999987494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sulfur_dioxide> .
+
+<#offset_85_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cold front" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980237383148309"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surface_weather_analysis> .

@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_499>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "499"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article considers the problem of uncertainty evaluation when there are repeated measurements of a small quantity known to be non-negative. A solution to this problem has recently been put forward by the Analytical Methods Committee of the Royal Society of Chemistry (Accred Qual Assur 13:29–32). The Bayesian statistical basis of this solution is explained and discussed. It is shown that the performance of this procedure can be poor in an important subset of measurement situations.\n" .
+
+<#offset_314_322>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bayesian" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5996108123593319"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bayesian_probability> .
+
+<#offset_293_298>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Assur" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/WorldHeritageSite> ;
+        itsrdf:taConfidence     "0.9649868597863909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Assur> .
+
+<#offset_253_266>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Royal Society" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999996025252011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Royal_Society> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_499> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

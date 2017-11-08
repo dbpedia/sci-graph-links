@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1480>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1480"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Sustainability is concerned with the impact of present actions on the ecosystems, societies, and environments of the future. Such concerns should be reflected in the strategic planning of sustainable corporations. Strategic intentions of this nature are operationalized through the adoption of a long-term focus and a more inclusive set of responsibilities focusing on ethical practices, employees, environment, and customers. A central hypothesis, that we test in this paper is that companies which attend to this set of responsibilities under the term superior sustainable practices, have higher financial performance compared to those that do not engage in such practices. The target population of this study consists of the top 100 sustainable global companies in 2008 which have been selected from a universe of 3,000 firms from the developed countries and emerging markets. We find significant higher mean sales growth, return on assets, profit before taxation, and cash flows from operations in some activity sectors of the sample companies compared to the control companies over the period of 2006–2010. Furthermore, our findings show that the higher financial performance of sustainable companies has increased and been sustained over the sample. Notwithstanding sample limitation, causal evidence reported in this paper suggests that, there is bi-directional relationship between corporate social responsibilities practices and corporate financial performance.\n" .
+
+<#offset_981_991>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cash flows" ;
+        nif:beginIndex          "981"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1480> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cash_flow> .
+
+<#offset_871_887>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "emerging markets" ;
+        nif:beginIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1480> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emerging_markets> .
+
+<#offset_79_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecosystems" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1480> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8867594972009065"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecosystem> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1480> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_847_866>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "developed countries" ;
+        nif:beginIndex          "847"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1480> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9919535425555376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developed_country> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_11_24>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dimensionless" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_322> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999445027931382"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimensionless_quantity> .
+
+<#offset_127_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "extruder" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_322> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8855442998780315"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Extrusion> .
+
+<#offset_0_322>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "322"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A dimensionless equation is derived for determining the energy dissipation between the screw rib and the sleeve of an extruder for a Newtonian model extrudate. The parameter ranges, within which the pressure at the exit from the screw and some geometrical parameters do not affect the dissipation, are indicated.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_322> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_65_71>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_322> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6342006670939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .

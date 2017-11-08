@@ -1,0 +1,25 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_144_148>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "BERI" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://schema.org/City> ;
+        itsrdf:taConfidence     "0.9890779569319489"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Beri,_Haryana> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_325> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_325>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "325"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusions Rockbursts occur under certain combinations of geologic and mining conditions. It is possible to assess burst prone rocks utilizing BERI during the planning, design and operating stages of the mine. The simplicity of the approach may encourage its use as a quantitative predictor in investigations on rockbursts.\n" .

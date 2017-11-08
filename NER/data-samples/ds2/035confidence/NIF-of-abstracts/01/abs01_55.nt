@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_105_116>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomials" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_206> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999685042924894"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polynomial> .
+
+<#offset_0_206>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "206"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As a generalization of the results of [3] and [22], we characterize those pairs (m,n) and those polynomials b{Z}[x] of prime degree for which equation (1) has only finitely many integer solutions.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_206> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_187_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_206> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999560690195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .

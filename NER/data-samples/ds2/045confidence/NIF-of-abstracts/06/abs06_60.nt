@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_286_294>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenetic" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenetics> .
+
+<#offset_243_259>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cluster analysis" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cluster_analysis> .
+
+<#offset_76_91>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "morphologically" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996027782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Morphology_(biology)> .
+
+<#offset_54_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999973281332356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_168_196>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Principal component analysis" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principal_component_analysis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_794> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_522_528>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "carica" ;
+        nif:beginIndex          "522"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.6494167110924072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carica> .
+
+<#offset_746_757>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subspecific" ;
+        nif:beginIndex          "746"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "757"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999937505208"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subspecies> .
+
+<#offset_318_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_794> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999973281332356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_0_794>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "794"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract 40 population samples of 17 GreekFritillaria species were examined morphologically using 22 attributes carefully selected, with a high discriminating ability. Principal component analysis with a nearest neighbour directed network and cluster analysis were used to evaluate the phenetic similarities among the species. The evidence presented here suggests: (1) A close relationship betweenF. erhartii andF. obliqua and their possible origin fromF. bithynica. (2) A strong alliance betweenF. rixii, F. euboeica, F. carica, andF. drenovskii (groupF. sibthorpiana). (3) A link between theF. epirotica andF. graeca group and some affinities betweenF. pontica, F. gussichiae, andF. graeca. Finally it is proposed thatF. tuntasia be reduced to subspecific status asF. obliqua subsp.tuntasia.\n" .

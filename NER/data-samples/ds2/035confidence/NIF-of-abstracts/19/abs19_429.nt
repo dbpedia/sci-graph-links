@@ -1,0 +1,81 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_560_565>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dance" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9481414392335029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dance> .
+
+<#offset_0_567>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "567"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract While it has often been said that trading is like dancing, exchanges have certainly been dancing with one another for some time, following the need to diversify and cope with the results of a challenging liberalisation process. The proposed merger between NYSE Euronext and Deutsche Börse would create the world’s biggest exchange by revenues and total value. This needs the approval of 47 regulators across the globe, including the US Department of Justice and the European Commission. These institutions would be well advised not to try to stop the dance.\n" .
+
+<#offset_213_227>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "liberalisation" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998839310881674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liberalization> .
+
+<#offset_442_444>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "US" ;
+        nif:beginIndex          "442"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.5596242833915476"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_dollar> .
+
+<#offset_283_297>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Deutsche Börse" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999945637228"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deutsche_Börse> .
+
+<#offset_459_466>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Justice" ;
+        nif:beginIndex          "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.992634096067177"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Department_of_Justice> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_567> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_265_278>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NYSE Euronext" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999628285572729"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NYSE_Euronext> .
+
+<#offset_475_494>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European Commission" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_567> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Commission> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_195_208>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polar diagram" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complex_plane> .
+
+<#offset_295_308>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fish-eye lens" ;
+        nif:beginIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fisheye_lens> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_441> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_124_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geometry" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999166293651498"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geometry> .
+
+<#offset_215_225>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grid cells" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999876081"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grid_cell> .
+
+<#offset_0_441>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "441"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A simple technique is described whereby view-factors can be estimated for a person at locations where the building geometry is complex. Procedures are outlined for the construction of a polar diagram whose grid cells give equal person view-factors: the diagram is designed to overlay a fish-eye lens photograph, enabling the estimation of view-factors of distinctive surfaces in the photograph image for standing and seated people.\n" .

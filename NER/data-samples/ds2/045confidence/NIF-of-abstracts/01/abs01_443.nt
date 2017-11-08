@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_319_341>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential equations" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999344237452028"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<#offset_431_449>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elimination theory" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elimination_theory> .
+
+<#offset_44_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algebraic differential equations" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algebraic_differential_equation> .
+
+<#offset_408_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999987777310258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<#offset_596_612>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer algebra" ;
+        nif:beginIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symbolic_computation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_632> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_475_479>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Ritt" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joseph_Ritt> .
+
+<#offset_13_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear systems" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_0_632>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "632"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For nonlinear systems described by algebraic differential equations (in terms of “state” or “latent” variables) we examine the converse to realization,elimination, which consists of deriving an externally equivalent representation not containing the state variables. The elimination in general yields not only differential equations but also differentialinequations. We show that the application of differential algebraic elimination theory (which goes back to J.F. Ritt and A. Seidenberg) leads to aneffective method for deriving the equivalent representation. Examples calculated by a computer algebra program are shown.\n" .

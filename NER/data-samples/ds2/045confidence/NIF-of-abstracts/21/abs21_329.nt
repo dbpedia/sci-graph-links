@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_411_423>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Persian Gulf" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999312205575739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Persian_Gulf> .
+
+<#offset_0_677>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "677"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In many sectors of the Alpine-Himalayan mountain system movement continues into recent times, but the rate of movement is usually uncertain. The Mesopotamian plains show the effect of movement on canal systems and on old culture levels. There is a regional up-warp of the mountains as a whole and a depression of the plains, but there is also continued growth of individual anticlines. The head of the Persian Gulf is now advancing and has inundated extensive areas which were under irrigated cultivation perhaps up to the 13th. century A.D. At Shaur an anticline was crossed by an old Sassanian canal which has since been “folded” at a rate of one metre per century.\n" .
+
+<#offset_308_318>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "depression" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999273348331947"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depression_(geology)> .
+
+<#offset_383_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anticlines" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anticline> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_677> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_563_572>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anticline" ;
+        nif:beginIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anticline> .
+
+<#offset_154_166>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mesopotamian" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999965923457887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mesopotamia> .
+
+<#offset_595_604>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sassanian" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999988913865997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sassanid_Empire> .

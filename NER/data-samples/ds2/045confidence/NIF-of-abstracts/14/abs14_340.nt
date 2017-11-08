@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_400_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Caporale" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_634> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997522337787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corporal> .
+
+<#offset_194_197>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GDP" ;
+        nif:beginIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_634> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999637727235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<#offset_248_251>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GDP" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_634> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999637727235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<#offset_270_274>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ARCH" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_634> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997689315"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoregressive_conditional_heteroskedasticity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_634> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_634>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "634"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper looks at the relationship between output variability and economic growth in Australia using the ARCH-M model. Quarterly data for growth rates of industrial production and of GDP are used for the analyses. However, the growth of GDP does not show any ARCH effects. The variability is found to be significantly negatively related to the growth rate of industrial production. Unlike Caporale and McKiernan (1998), our empirical results do not support Black's (1987) hypothesis, which is that there is a positive relationship between output variability and economic growth. Our results support the Keynesian position.\n" .
+
+<#offset_614_623>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Keynesian" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_634> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999490088747196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Keynesian_economics> .
+
+<#offset_96_105>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Australia" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_634> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9998802489106929"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .

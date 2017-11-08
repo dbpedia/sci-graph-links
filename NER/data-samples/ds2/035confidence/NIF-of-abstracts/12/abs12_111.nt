@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_65_69>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9731533337327976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+
+<#offset_0_568>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "568"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The notions that most people travel to the center of the city to work and that the farther out they live the longer it takes are only appropriate for middle-sized cities. In larger urban areas, many people work outside the center, and it is the speed of travel which most affects the time that it takes to get to work. As a result, those who live in the central cities of the twelve largest metropolitan areas spend the longest time getting to work and back, because the closer one is to the center and the larger the urban area, the slower the travel speeds.\n" .
+
+<#offset_189_200>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban areas" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9359549268880679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_area> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_568> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_391_417>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "largest metropolitan areas" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7696077363483688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/List_of_census_metropolitan_areas_and_agglomerations_in_Canada> .
+
+<#offset_526_536>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban area" ;
+        nif:beginIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8515566497439369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_area> .

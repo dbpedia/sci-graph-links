@@ -1,0 +1,25 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_277>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "277"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the 1940s, leading public intellectuals established a commission to reform the American press. Many of them initially favored heavy regulation of newspapers and other media. Though the men failed to change the press, their report lives on in schools of journalism.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_277> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_91_99>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9979462153611046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .

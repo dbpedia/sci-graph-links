@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_537_554>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial futures" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "554"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1060> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Futures_contract> .
+
+<#offset_683_708>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "artificial neural network" ;
+        nif:beginIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1060> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<#offset_509_522>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stock indexes" ;
+        nif:beginIndex          "509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1060> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_market_index> .
+
+<#offset_857_868>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "857"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1060> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999956103238"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1060> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1060>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1060"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Forecasting financial indicators (indexes/prices) is a complex and a quite difficult issue because they depend on many factors such as political events, financial ratios, and economic variables. Also, the psychological facts or decision-making styles of investors or experts are other major reasons for this difficulty. In this study, a generalized behavioral learning method (GBLM) was employed to forecast financial indicators, which are the indexes/prices of 34 different financial indicators (24 stock indexes, 2 forexes, 3 financial futures, and 5 commodities). The achieved results were compared with the reported results in the literature and the obtained results by artificial neural network, which is widely used and suggested for forecasting financial indicators. These results showed that GBLM can be successfully employed in short-term forecasting financial indicators by detecting hidden market behavior (pattern) from their previous values. Also, the results showed that GBLM has the ability to track the fluctuation and the main trend.\n" .
+
+<#offset_749_760>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1060> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999956103238"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<#offset_162_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial ratios" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1060> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_ratio> .

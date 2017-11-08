@@ -1,0 +1,141 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_768_778>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physiology" ;
+        nif:beginIndex          "768"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999098979057169"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physiology> .
+
+<#offset_580_605>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical receptive field" ;
+        nif:beginIndex          "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Receptive_field> .
+
+<#offset_0_806>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "806"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The extended classical receptive field (ECRF) of retinal ganglion cells has been modelled as a combination of three zero-mean Gaussians at three different scales that has been shown to be equivalent to a Biharmonic or Bi-Laplacian of Gaussian filter. It has also been shown that the ECRF can be approximated by a combination of Laplacian of Gaussian (LoG) and the Dirac-delta function. Zero-crossings detected with this operator are more informative than those detected by the traditional filters like LoG or Difference of Gaussians (DoG) that had been devised using the classical receptive field of the ganglion cells. We have also explained that such an additional information processing is not in contradiction with the recent experimental findings on the physiology of retinal ganglion cells.\n" .
+
+<#offset_350_358>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gaussian" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7230360115714045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gaussian_function> .
+
+<#offset_782_804>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "retinal ganglion cells" ;
+        nif:beginIndex          "782"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9823950162702987"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_ganglion_cell> .
+
+<#offset_58_80>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "retinal ganglion cells" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9823950162702987"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_ganglion_cell> .
+
+<#offset_385_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999971099669"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<#offset_164_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scales" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6611159281892292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scale_(music)> .
+
+<#offset_613_627>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ganglion cells" ;
+        nif:beginIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8564704833533995"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ganglion_cell> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_806> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_22_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical receptive field" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Receptive_field> .
+
+<#offset_337_346>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laplacian" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998764538825915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laplace_operator> .
+
+<#offset_498_505>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "filters" ;
+        nif:beginIndex          "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7566419769523347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Filter_bank> .
+
+<#offset_709_722>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "contradiction" ;
+        nif:beginIndex          "709"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9535690808261513"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Contradiction> .
+
+<#offset_543_546>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DoG" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Difference_of_Gaussians> .
+
+<#offset_243_258>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gaussian filter" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gaussian_filter> .

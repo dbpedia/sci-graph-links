@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_455>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "455"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper explains how organizational design/ enterprise engineering can be viewed as an operational work system that produces designs, models, and/or specifications along with the related understandings, discussions, and commitments. It applies a work system lens to visualize a typical work system that performs organizational design/ enterprise engineering. It uses the same lens to identify possibilities for research on the related topics.\n" .
+
+<#offset_56_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enterprise engineering" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enterprise_engineering> .
+
+<#offset_347_369>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enterprise engineering" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enterprise_engineering> .
+
+<#offset_388_392>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lens" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9648629002749268"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lens_(optics)> .
+
+<#offset_270_274>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lens" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_455> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9648629002749268"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lens_(optics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_455> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

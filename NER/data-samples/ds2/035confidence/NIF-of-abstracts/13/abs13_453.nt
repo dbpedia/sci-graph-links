@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_71_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "medical students" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_355> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5713823569417462"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medical_school> .
+
+<#offset_302_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subjective" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_355> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9850028767539203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subjectivity> .
+
+<#offset_0_355>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "355"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This study identifies strategies used by non-English speaking medical students to comprehend scientific biomedical publications. It also describes the relationship among self-reported proficiency (both in English and in topic matter), perceived difficulty of the publication, reading time and subjective perceptions of learning and satisfaction.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_355> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_113_123>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biomedical" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_355> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8954180822308908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medical_research> .
+
+<#offset_214_221>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_355> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9997767733015026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .

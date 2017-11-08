@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_27_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "longitudinal data" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Longitudinal_study> .
+
+<#offset_225_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marriage" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9173049014148785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Same-sex_marriage> .
+
+<#offset_0_543>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "543"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article uses longitudinal data from the Panel Study of Income Dynamics to explore how changes in marital status affect the economic status of married women in their middle years. Results demonstrate that when a marriage ends, the economic status of women declines considerably. Components of income change are discussed, with emphasis on the extent to which women can compensate for the loss of a spouse's income through increases in paid labor, by changes in living arrangements, and by the use of public and private transfers.\n" .
+
+<#offset_179_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "middle years" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997822329"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IB_Middle_Years_Programme> .
+
+<#offset_111_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marital status" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992114681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marital_status> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_543> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

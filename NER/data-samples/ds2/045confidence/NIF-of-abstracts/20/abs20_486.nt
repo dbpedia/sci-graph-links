@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_164_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decidable" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6074471691975302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursive_language> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_292> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_43_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "attribute grammar" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attribute_grammar> .
+
+<#offset_0_292>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "292"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is shown that any well-defined attribute grammar isk-visit for somek. Furthermore it is shown that given a well-defined grammarG and an integerk, it is decidable whetherG isk-visit. Finally we show that thek-visit grammars specify a proper hierarchy with respect to translations.\n" .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_580_588>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "affinity" ;
+        nif:beginIndex          "580"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_623> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4166095659333612"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dissociation_constant> .
+
+<#offset_120_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "micro" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_623> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999915476311922"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microeconomics> .
+
+<#offset_56_71>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "business ethics" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_623> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_ethics> .
+
+<#offset_265_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conscience" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_623> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.885293098568928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conscience> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_623> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_623>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "623"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As in the field of economics, the questions of business ethics can be divided into two distinguishable types — micro and macro. Micro-ethical questions arise primarily for subordinates in an organization and concern what should be done when the demands of conscience conflict with perceived occupational requirements. Macro-ethical questions arise principally for superiors and concern the setting of policy for the organization in general. The present article elaborates upon this distinction and advances a line argument for resolving micro-ethical problems when their affinity to macro-ethical issues is noted.\n" .

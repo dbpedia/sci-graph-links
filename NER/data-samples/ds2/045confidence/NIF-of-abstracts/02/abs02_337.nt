@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_121_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cosmic ray" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999969305"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cosmic_ray> .
+
+<#offset_74_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acceleration" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999971504637656"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acceleration> .
+
+<#offset_140_154>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermal energy" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7703728544390598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neutron_temperature> .
+
+<#offset_0_307>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "307"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Based on hydrodynamic numerical simulations and diffusive shock acceleration model, we calculated the ratio of cosmic ray (CR) to thermal energy. We found that the CR fraction can be less than ~0.1 in the intracluster medium, while it would be of order unity in the warm-hot intergalactic medium.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_307> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_215_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intracluster medium" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intracluster_medium> .
+
+<#offset_19_31>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hydrodynamic" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999944862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fluid_dynamics> .
+
+<#offset_285_305>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intergalactic medium" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outer_space> .

@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_441>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "441"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A bounding-surface plasticity model is formulated in stress space in a general enough manner to accommodate a considerable range of hardening mechanisms. Conditions are then established under which this formulation can be made equivalent to its strain-space analogue. Special cases of the hardening law are discussed next, followed by a new criterion to ensure nesting. Finally, correlations with experimental data are investigated.\n" .
+
+<#offset_61_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999522894177733"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<#offset_27_37>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plasticity" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999483943617549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plasticity_(physics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_441> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

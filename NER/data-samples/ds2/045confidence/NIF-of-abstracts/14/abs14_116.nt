@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_202_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real income" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_744> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997227127744768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_income> .
+
+<#offset_541_547>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axioms" ;
+        nif:beginIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_744> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999419249393693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Axiom> .
+
+<#offset_61_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real income" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_744> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997227127744768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_income> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_744> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_744>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "744"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The economic theory of the “true” cost of living and real income index numbers is described and illustrated geometrically in the logarithmic price-income space. Special attention is paid to the real income index evaluated at the geometric means of the prices in the two periods and to the cost of living index evaluated at the utility level which is associated with these geometric mean prices and geometric mean income. It is shown that this particular pair of index numbers is the only pair which satisfies a certain simple set of axioms. It is also shown how these index numbers can be approximated on the basis of observable price-quantity data. The approximation is accurate up to the second order in price and income log-changes.\n" .

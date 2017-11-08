@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_611>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "611"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Conflict, defined as clash, competition, or mutual interference of opposing or incompatible forces or qualities, may be positive. The appropriate amount of conflict may be a delicate balance not easily achieved. Thus, a key issue is conflict management. The major charter of this special issue is the presentation of work which suggests or demonstrates that conflict can be a positive force in the modern organization. It also is pointed out that conflict, positive or otherwise, and its resolution involves a broad spectrum of inquiry into the rights and obligations of those involved in the conflict\n" .
+
+<#offset_525_533>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectrum" ;
+        nif:beginIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "533"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5990541474704948"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radio_spectrum> .
+
+<#offset_242_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conflict management" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conflict_management> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_611> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_273_280>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "charter" ;
+        nif:beginIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9759543080431586"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Charter> .
+
+<#offset_385_399>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "positive force" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995329900513271"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Positive_Force> .
+
+<#offset_60_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interference" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.968952139519245"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interference_(wave_propagation)> .

@@ -1,0 +1,90 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_561_568>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "568"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999783064042508"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<#offset_0_949>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "949"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper is mainly concerned with how to increase rail transit ridership and how to coordinate with multimodity to optimize the entire public transportation systems. Three case cities, Montreal, Toronto and San Francisco, with metro systems are reviewed in different aspects, including urban planning, transport policy, flexible fare system, safety and security measure, special service, new technical application to improve the quality and value of its service for increasing revenues and profit, comtributing to the long-term development of public transit. Some conclusions can be drawn: 1) urban planning should be closely connected with urban transport planning; 2) the role of government is predominant to implement railtransit; 3) the facilifies of railtransit should be advanced, reliable and safe; 4) quality service should be match with rail facilities; 5) special service for the disabled, yound and senior should be advocated.\n" .
+
+<#offset_206_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Toronto" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/City> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999989399990388"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toronto> .
+
+<#offset_604_618>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban planning" ;
+        nif:beginIndex          "604"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999441826318"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<#offset_196_204>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Montreal" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/City> ;
+        itsrdf:taConfidence     "0.9999906373695387"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Montreal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_949> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_658_676>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transport planning" ;
+        nif:beginIndex          "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transportation_planning> .
+
+<#offset_218_231>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "San Francisco" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/City> ;
+        itsrdf:taConfidence     "0.9995214793133392"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/San_Francisco> .
+
+<#offset_297_311>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban planning" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999441826318"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<#offset_66_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_949> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999783064042508"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .

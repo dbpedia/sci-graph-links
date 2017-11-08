@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_117_123>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B-tree" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/B-tree> .
+
+<#offset_520_527>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strings" ;
+        nif:beginIndex          "520"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "527"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/String_(computer_science)> .
+
+<#offset_441_451>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999982776444"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_843_849>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "843"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.845485799175949"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_data_storage> .
+
+<#offset_742_749>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strings" ;
+        nif:beginIndex          "742"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "749"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/String_(computer_science)> .
+
+<#offset_340_347>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strings" ;
+        nif:beginIndex          "340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/String_(computer_science)> .
+
+<#offset_187_201>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_910> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_710_716>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B-tree" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/B-tree> .
+
+<#offset_0_910>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "910"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A wide range of applications require that large quantities of data be maintained in sort order on disk. The B-tree, and its variants, are an efficient general-purpose disk-based data structure that is almost universally used for this task. The B-trie has the potential to be a competitive alternative for the storage of data where strings are used as keys, but has not previously been thoroughly described or tested. We propose new algorithms for the insertion, deletion, and equality search of variable-length strings in a disk-resident B-trie, as well as novel splitting strategies which are a critical element of a practical implementation. We experimentally compare the B-trie against variants of B-tree on several large sets of strings with a range of characteristics. Our results demonstrate that, although the B-trie uses more memory, it is faster, more scalable, and requires less disk space.\n" .

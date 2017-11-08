@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_261_269>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "didactic" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1153> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9609449417864391"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Didactic_method> .
+
+<#offset_214_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moodle" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1153> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moodle> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1153> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_221_249>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virtual learning environment" ;
+        nif:beginIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1153> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virtual_learning_environment> .
+
+<#offset_0_1153>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1153"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article presents a techno-pedagogical lecturer training model that was validated in an intensive hybrid-mode workshop/course for lecturers. The aim of the course was to train lecturers how to use the Moodle virtual learning environment (VLE) as a didactic support in their classrooms. A research-action method was applied to the study, and the instruments used were interviews, questionnaires, blogs and opinion surveys, together with the planning and development of an online course by each participant as the end-product. The course was then analysed to see how each of the 16 participants had gradually appropriated the technology, without overlooking the pedagogical aspects. Some progressed from beginner to intermediate level, and others from intermediate to advanced level, while those already at advanced level developed sophisticated courses and sought ways of improving them on their own. In addition, the researchers found that the role of the university institution had been fundamental to the proper running of the course, and that constant communication between the facilitator and the lecturers/learners had been important.\n" .
+
+<#offset_251_254>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "VLE" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1153> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virtual_learning_environment> .

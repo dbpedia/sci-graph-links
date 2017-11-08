@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_96_114>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "video surveillance" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1330> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9906886426011825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surveillance> .
+
+<#offset_700_711>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smartphones" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1330> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smartphone> .
+
+<#offset_987_995>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interact" ;
+        nif:beginIndex          "987"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1330> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7097324731848251"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human–computer_interaction> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1330> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_182_198>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "crime prevention" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1330> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999432231659419"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Crime_prevention> .
+
+<#offset_0_1330>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1330"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Especially in urban environments, video cameras have become omnipresent. Supporters of video surveillance argue that it is an excellent tool for many applications including crime prevention and law enforcement. While this is certainly true, it must be questioned if sufficient efforts are made to protect the privacy of monitored people. Privacy concerns are often set aside when compared to public safety and security. One reaction to this situation is emerging: community-based efforts where citizens register and map surveillance cameras in their environment. Our study is inspired by this idea and proposes a user-specific and location-aware privacy awareness system. Using conventional smartphones, users not only can contribute to the camera maps, but also use community-collected data to be alerted of potential privacy violations. In our model, we define different levels of privacy awareness. For the highest level, we present a mechanism that allows users to directly interact with specially designed, trustworthy cameras. These cameras provide direct feedback about the tasks that are executed by the camera and how privacy-sensitive data is handled. A hardware security chip that is integrated into the camera is used to ensure authenticity, integrity and freshness of the provided camera status information.\n" .
+
+<#offset_529_549>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "surveillance cameras" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1330> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999960437"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Closed-circuit_television> .

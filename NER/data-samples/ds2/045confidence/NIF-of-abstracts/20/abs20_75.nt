@@ -1,0 +1,73 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_595>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "595"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The current study investigates Turkish politicians’ code mixing in their public speeches and the variation among the speakers as well as the historical and linguistic factors influencing this variation. It is hypothesized that the variation either consciously or unconsciously outlines the identity of the speaker in the direction that s/he wants to be identified by their audience. The findings are interpreted with reference to the language reform (a linguistic change during the transition from the Ottoman Empire to the Turkish Republic) that Turkish language went through in 1928.\n" .
+
+<#offset_533_549>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turkish Republic" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9862159523092402"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkey> .
+
+<#offset_40_47>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turkish" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9976937706865127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkish_language> .
+
+<#offset_61_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "code mixing" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999942182264502"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Code-switching> .
+
+<#offset_443_458>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language reform" ;
+        nif:beginIndex          "443"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_reform> .
+
+<#offset_511_525>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Ottoman Empire" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999692877864844"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ottoman_Empire> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_595> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_556_572>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turkish language" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkish_language> .

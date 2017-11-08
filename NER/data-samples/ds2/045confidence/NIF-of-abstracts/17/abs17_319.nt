@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_501_510>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vignettes" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_614> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994296393113644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vignette_(literature)> .
+
+<#offset_0_614>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "614"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A group model for providing short-term caregiver-infant psychoeducation is presented. The goal of this model is to modify over a brief and circumscribed period of time the perceptions and expectations of caregivers so that their interpersonal behaviors with their infants sustain and enhance adaptive interactive sequences. This model of intervention is derived from the intuitive behavior patterns of adaptive caregivers concerning the infant's emerging representational abilities. Specific vignettes exemplifying the stages of group development that occur with this model of intervention are discussed.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_614> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_65_80>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychoeducation" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_614> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychoeducation> .

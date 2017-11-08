@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_77_88>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plane trees" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999097626376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(graph_theory)> .
+
+<#offset_325_328>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ofO" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.5686996879491117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ofo_language> .
+
+<#offset_0_335>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "335"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract R. Kemp has shown that the average height of r-tuply rooted planted plane trees is $$\\sqrt {\\pi n} - \\frac{1}{2}(r - 2)   O(\\log (n)n^{1/2 - \\varepsilon } ), \\varepsilon > 0, n \\to \\infty ,$$ assuming that all such trees withn nodes are equally likely. We give a quite short proof of this result (with an error term ofO (1)).\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_335> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_314_324>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "error term" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994606385195082"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Errors_and_residuals_in_statistics> .

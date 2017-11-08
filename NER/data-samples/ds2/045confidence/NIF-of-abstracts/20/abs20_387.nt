@@ -1,0 +1,74 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_495_504>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Australia" ;
+        nif:beginIndex          "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998197396336558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .
+
+<#offset_741_748>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "748"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999946484635934"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<#offset_767_776>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Australia" ;
+        nif:beginIndex          "767"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998197396336558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .
+
+<#offset_301_310>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Australia" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998197396336558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .
+
+<#offset_0_899>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "899"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Recent research on the linguistic adjustment of minority-language speaking immigrants in several destinations has found that acquisition of destination language skills is inhibited by living in an area where many others speak the same minority language. This paper uses a unique data set for Australia (1988) that includes a variety of ethnic network variables to analyze the role of the language concentration measure. These ethnic variables, in particular, ethnic press, relatives in Australia, and spouse’s origin language, are highly statistically significant. Their inclusion in the equation eliminates the effect of the minority-language concentration variable. The model for analyzing the determinants of English reading and English writing skills in Australia is also shown to be very similar to the model for speaking fluency, including the effect of the ethnic network variables.\n" .
+
+<#offset_721_728>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999946484635934"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<#offset_244_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "minority language" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999786486797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minority_language> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_899> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

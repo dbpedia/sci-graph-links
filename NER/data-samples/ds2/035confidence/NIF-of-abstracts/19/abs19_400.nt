@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_573>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "573"^^xsd:nonNegativeInteger ;
+        nif:isString    "The cassette/screen/film/processing systems for general radiography equipped with sets of medical intensifying screens available from RENEX, Ltd. were studied. It was shown that at low anode voltage the combined systems equipped with the EU-YZ/EU-GZ universal screen set compatible with blue-sensitive and orthochromatic films were less effective than the blue systems equipped with EU-YZ screens. The combined systems were also shown to be less effective than the green systems equipped with EU-GZ screens. The latter were shown to be optimal for use in medical practice.\n" .
+
+<#offset_356_368>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "blue systems" ;
+        nif:beginIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999539561497"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blue_Systems> .
+
+<#offset_56_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radiography" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993320375281"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radiography> .
+
+<#offset_191_198>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "voltage" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971287948123944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Voltage> .
+
+<#offset_19_24>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "/film" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Film> .
+
+<#offset_306_320>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orthochromatic" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orthochromatic> .
+
+<#offset_185_190>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anode" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999984287342"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anode> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_573> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_4_12>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cassette" ;
+        nif:beginIndex          "4"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_573> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9694165155319205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compact_Cassette> .

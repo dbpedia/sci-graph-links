@@ -1,0 +1,98 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_424>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "424"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This is a review of the narrative medicine documentary, Our Curse. The writer and director of this Oscar-nominated Polish movie is a film student and a young father to a baby born with congenital central hypoventilation syndrome (CCHS). Using simple cinematography, the film is an autobiographical exploration of the fearful, tearful, and sometimes joyful days and nights in the lives of the child and his parents.\n" .
+
+<#offset_80_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "writer" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8415392668171914"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Writer> .
+
+<#offset_259_273>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cinematography" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9823085047395465"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cinematography> .
+
+<#offset_279_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "film" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6955434800515502"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Film> .
+
+<#offset_52_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "documentary" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999868319165013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Documentary_film> .
+
+<#offset_33_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "narrative medicine" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999827077205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Narrative_medicine> .
+
+<#offset_194_237>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "congenital central hypoventilation syndrome" ;
+        nif:beginIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ondine's_curse> .
+
+<#offset_142_146>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "film" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6955434800515502"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Film> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_424> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_290_306>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autobiographical" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9965329856808831"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autobiography> .
+
+<#offset_124_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Polish" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.6877109985103999"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poland> .

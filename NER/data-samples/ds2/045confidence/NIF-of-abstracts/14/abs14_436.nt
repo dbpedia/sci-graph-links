@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_546_558>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neoclassical" ;
+        nif:beginIndex          "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_814> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neoclassical_economics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_814> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_135_143>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_814> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9866301976416738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_system> .
+
+<#offset_0_814>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "814"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The application of Engel’s Curve in a single-product perspective may dramatically change the role of quality in affecting the dynamics of economic performance. This paper introduces a specification of preferences that regards quality as luxury, and quantity as necessary. The analysis is carried out by using a framework similar to Grossman’s and Helpman ’s (1991), while quality is defined as in Stokey (1988). The resulting consumer’s demand crucially depends on quality. Quality is potentially able to prevent the process, implied by neoclassical models, that leads the value of consumption goods to decline over time. By doing so, quality also affects the consumption bundle shares and the variety-specific consumption growth rates, thus influencing all dynamic quantitative variables of the economy.\n" .

@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_74_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domesticated" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996540001274785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domestication> .
+
+<#offset_87_91>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "rats" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9991140176473856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rat> .
+
+<#offset_231_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ambulation" ;
+        nif:beginIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998237347805169"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Walking> .
+
+<#offset_361_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lesions" ;
+        nif:beginIndex          "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998342879759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lesion> .
+
+<#offset_349_360>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hippocampal" ;
+        nif:beginIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> , <http://dbpedia.org/ontology/Brain> ;
+        itsrdf:taConfidence     "0.9993981163915437"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hippocampus> .
+
+<#offset_133_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "maze" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_370> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992066513618715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radial_arm_maze> .
+
+<#offset_0_370>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "370"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In both cross-sectional and longitudinal experiments, 15-day-old domesticated rats were shown to locomote persistently in a maze. Thirty-day olds displayed a within-trial decrement in activity typical of adult patterns of ambulation. These data are consistent with the conclusion that 15-day olds may be behaviorally similar to adults with hippocampal lesions.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_370> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

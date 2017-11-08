@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_101_105>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bird" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_734> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993848070376006"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bird> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_734> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_734>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "734"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Leonardo invented a new technique of representation which combines the building plan and a bird’s-eye perspective of the whole into a single system. Bird’s eye perspective may have developed out of cavalier perspective, and instances pre-dating Leonardo can be found, but not used in the same way as he employed it. Though not pre-axonometric, Leonardo took advantage of axonometric representation’s capacity to construct/deconstruct an object into its component parts in order to clarify fitting and functioning. This paper investigates the originality of the technique and special relationship with his research on centrally-planned churches, while examining it in the context of contemporary developments and architects.\n" .
+
+<#offset_381_392>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axonometric" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_734> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Axonometric_projection> .

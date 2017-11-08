@@ -1,0 +1,126 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_990_1004>  a           nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteorological" ;
+        nif:beginIndex          "990"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1004"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8390064512349494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weather> .
+
+<#offset_793_804>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "limit cycle" ;
+        nif:beginIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_cycle> .
+
+<#offset_216_230>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "snowshoe hares" ;
+        nif:beginIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Snowshoe_hare> .
+
+<#offset_960_971>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "971"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_675_679>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lynx" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9528967682187873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lynx> .
+
+<#offset_76_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canada lynx" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada_lynx> .
+
+<#offset_127_138>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "brush fires" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wildfire> .
+
+<#offset_425_441>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plant succession" ;
+        nif:beginIndex          "425"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecological_succession> .
+
+<#offset_0_1073>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1073"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This paper shows that there is a reasonable coincidence between the Canada lynx cycle and the occurrence of forest and brush fires. Fires set in motion plant succession, potentially leading to an increase in snowshoe hares (Grange, 1965). Snowfall is also correlated with the lynx cycle and tends to account for the variation not accounted for by fires. I conclude that Grange's (1949, 1965) hypothesis that fire and plant succession drive the snowshoe hare cycle deserves serious consideration, as do Butler's (1962) and Watt's (1968, 1973) suggestions that precipitation may drive or decisively modify furbearer ‘cycles’. On this evidence, the snowshoe hare-Canada lynx cycle seems likely to be a forced oscillation rather than a predator-prey, parasitehost, or herbivore-vegetation limit cycle, as proposed by several authors. Fire clearly appear to be a periodic phenomenon, not-withstanding the difficulty of showing periodicity in simple weather time series. Fire is itself a meteorological phenomenon, although complexly related to simple weather variables.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1073> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_452_465>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "snowshoe hare" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Snowshoe_hare> .
+
+<#offset_284_288>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lynx" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9528967682187873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lynx> .
+
+<#offset_567_580>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "precipitation" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999764014824298"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rain> .
+
+<#offset_160_176>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plant succession" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1073> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecological_succession> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_91_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kinematic" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_662> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kinematics> .
+
+<#offset_403_417>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bending moment" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_662> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9164899932730155"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bending_moment> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_662> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_662>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "662"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Integral equations are formulated for the acoustic emission plots on the basis of kinematic determination (planar cross sections) and the assumption that there is a single-valued relationship between the acoustic-emission parameters such as the total count rate and the strain. Finite formulas are obtained for degenerate kernels. Formulas are given for the stresses in bending in terms of the bending moment and the longitudinal force, as well as the strain in the outer fibers in any section. A layered composite is taken to consider characteristic cases where there may be a single acoustic emission source, two simultaneous ones, or two with delay.\n" .
+
+<#offset_439_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "force" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_662> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995687437966"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Force> .
+
+<#offset_9_27>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Integral equations" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_662> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integral_equation> .

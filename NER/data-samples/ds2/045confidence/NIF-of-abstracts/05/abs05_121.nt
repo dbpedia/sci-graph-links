@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_60>  a       nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "60"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Only seven species of the genus Cotylophoron Stiles " .
+
+<#offset_19_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_60> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999079526432764"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_60> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_34_39>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genus" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_60> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999955591516834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genus> .

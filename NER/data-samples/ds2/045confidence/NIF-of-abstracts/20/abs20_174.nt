@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_277_287>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metathesis" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999885812164234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metathesis_(linguistics)> .
+
+<#offset_30_36>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Venice" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9991608889970338"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Venice> .
+
+<#offset_0_402>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "402"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Franco-Italian V 13 (Venice, Manoscritto marciano francese XIII = 256) is part of a tradition of written linguistic mixing occuring in a series of manuscripts from Northern Italy during the thirteenth through fifteenth centuries. One frequent linguistic phenomenon is metathesis, which explains many of the hapax legomena in these texts, including this previously unexplained lexeme, borfolu.\n" .
+
+<#offset_68_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XIII" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6648175555264003"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XIII_(comics)> .
+
+<#offset_385_391>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexeme" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexeme> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_402> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_173_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Northern Italy" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7626121205360524"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Northern_Italy> .
+
+<#offset_316_330>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hapax legomena" ;
+        nif:beginIndex          "316"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hapax_legomenon> .

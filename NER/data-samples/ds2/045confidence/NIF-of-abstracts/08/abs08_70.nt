@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_209_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9970101930530517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_291_294>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DNA" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999855060276479"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DNA> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_766> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_487_502>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time complexity" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_766> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9247125567113845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_0_766>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "766"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We revisit the problem of indexing a string S[1..n] to support finding all substrings in S that match a given pattern P[1..m] with at most k errors. Previous solutions either require an index of size exponential in k or need Ω(m k ) time for searching. Motivated by the indexing of DNA, we investigate space efficient indexes that occupy only O(n) space. For k=1, we give an index to support matching in O(m occ log nlog log n) time. The previously best solution achieving this time complexity requires an index of O(nlog n) space. This new index can also be used to improve existing indexes for k≥2 errors. Among others, it can support 2-error matching in O(mlog nlog log n occ) time, and k-error matching, for any k>2, in O(m k−1log nlog log n occ) time.\n" .

@@ -1,0 +1,114 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_144_158>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "access control" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Access_control> .
+
+<#offset_1135_1145>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trade offs" ;
+        nif:beginIndex          "1135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trade-off> .
+
+<#offset_704_709>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trust" ;
+        nif:beginIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999926463047852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trust_(social_sciences)> .
+
+<#offset_210_217>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "privacy" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986501845812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Privacy> .
+
+<#offset_1047_1055>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "1047"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999989267963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<#offset_0_1626>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1626"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract With the ubiquitous collection of data and creation of large distributed repositories, enabling search over this data while respecting access control is critical. A related problem is that of ensuring privacy of the content owners while still maintaining an efficient index of distributed content. We address the problem of providing privacy-preserving search over distributed access-controlled content. Indexed documents can be easily reconstructed from conventional (inverted) indexes used in search. Currently, the need to avoid breaches of access-control through the index requires the index hosting site to be fully secured and trusted by all participating content providers. This level of trust is impractical in the increasingly common case where multiple competing organizations or individuals wish to selectively share content. We propose a solution that eliminates the need of such a trusted authority. The solution builds a centralized privacy-preserving index in conjunction with a distributed access-control enforcing search protocol. Two alternative methods to build the centralized index are proposed, allowing trade offs of efficiency and security. The new index provides strong and quantifiable privacy guarantees that hold even if the entire index is made public. Experiments on a real-life dataset validate performance of the scheme. The appeal of our solution is twofold: (a) content providers maintain complete control in defining access groups and ensuring its compliance, and (b) system implementors retain tunable knobs to balance privacy and efficiency concerns for their particular domains.\n" .
+
+<#offset_1519_1531>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "implementors" ;
+        nif:beginIndex          "1519"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9542827131020236"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Programming_language_implementation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1626> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1564_1571>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "privacy" ;
+        nif:beginIndex          "1564"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986501845812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Privacy> .
+
+<#offset_1617_1624>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domains" ;
+        nif:beginIndex          "1617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999940902514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domain_name> .
+
+<#offset_82_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "repositories" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8870688842242386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Institutional_repository> .
+
+<#offset_1221_1228>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "privacy" ;
+        nif:beginIndex          "1221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986501845812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Privacy> .
+
+<#offset_1318_1325>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dataset" ;
+        nif:beginIndex          "1318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_set> .

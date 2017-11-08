@@ -1,0 +1,361 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_582_601>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forest disturbances" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disturbance_(ecology)> .
+
+<#offset_1016_1033>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diffuse radiation" ;
+        nif:beginIndex          "1016"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1033"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998810836"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffuse_sky_radiation> .
+
+<#offset_883_889>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "883"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "889"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999006377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<#offset_715_730>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hardwood forest" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Temperate_broadleaf_and_mixed_forest> .
+
+<#offset_419_429>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "robustness" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8125463816494074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Robust_statistics> .
+
+<#offset_1558_1569>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uncertainty" ;
+        nif:beginIndex          "1558"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999467229213298"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uncertainty> .
+
+<#offset_910_934>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "forest tent caterpillars" ;
+        nif:beginIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "934"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forest_Tent_Caterpillar_Moth> .
+
+<#offset_99_110>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "terrestrial" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9974608455073206"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecoregion> .
+
+<#offset_0_1641>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1641"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Vegetation growth models are used with remotely sensed and meteorological data to monitor terrestrial carbon dynamics at a range of spatial and temporal scales. Many of these models are based on a light-use efficiency equation and two-component model of whole-plant growth and maintenance respiration that have been parameterized for distinct vegetation types and biomes. This study was designed to assess the robustness of these parameters for predicting interannual plant growth and carbon exchange, and more specifically to address inconsistencies that may arise during forest disturbances and the loss of canopy foliage. A model based on the MODIS MOD17 algorithm was parameterized for a mature upland hardwood forest by inverting CO2 flux tower observations during years when the canopy was not disturbed. This model was used to make predictions during a year when the canopy was 37�efoliated by forest tent caterpillars. Predictions improved after algorithms were modified to scale for the effects of diffuse radiation and loss of leaf area. Photosynthesis and respiration model parameters were found to be robust at daily and annual time scales regardless of canopy disturbance, and differences between modeled net ecosystem production and tower net ecosystem exchange were only approximately 2 g C m−2 d−1 and less than 23 g C m−2 y−1. Canopy disturbance events such as insect defoliations are common in temperate forests of North America, and failure to account for cyclical outbreaks of forest tent caterpillars in this stand could add an uncertainty of approximately 4–13�n long-term predictions of carbon sequestration.\n" .
+
+<#offset_1506_1530>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "forest tent caterpillars" ;
+        nif:beginIndex          "1506"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1530"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Insect> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forest_Tent_Caterpillar_Moth> .
+
+<#offset_1076_1087>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "respiration" ;
+        nif:beginIndex          "1076"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992823689632471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Respiration_(physiology)> .
+
+<#offset_1442_1455>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "North America" ;
+        nif:beginIndex          "1442"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Continent> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999949207676154"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/North_America> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1641> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_48_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "remotely sensed" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Remote_sensing> .
+
+<#offset_708_714>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upland" ;
+        nif:beginIndex          "708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "714"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999795010078427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forest> .
+
+<#offset_667_676>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "667"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_625_632>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foliage" ;
+        nif:beginIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<#offset_1421_1430>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temperate" ;
+        nif:beginIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999894732588201"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Temperate_climate> .
+
+<#offset_1175_1181>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "1175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999006377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<#offset_352_362>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vegetation" ;
+        nif:beginIndex          "352"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999942289151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vegetation> .
+
+<#offset_1619_1639>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon sequestration" ;
+        nif:beginIndex          "1619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8541454277551465"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_sink> .
+
+<#offset_68_82>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteorological" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99851328268083"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weather> .
+
+<#offset_618_624>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999006377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<#offset_1387_1393>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insect" ;
+        nif:beginIndex          "1387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<#offset_118_126>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999992300512841"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Population_dynamics> .
+
+<#offset_153_168>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temporal scales" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Temporal_scales> .
+
+<#offset_1154_1160>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scales" ;
+        nif:beginIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9334463146042283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scale_(ratio)> .
+
+<#offset_744_747>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CO2" ;
+        nif:beginIndex          "744"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "747"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.999999976166919"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_dioxide> .
+
+<#offset_1046_1050>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaf" ;
+        nif:beginIndex          "1046"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999790932181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<#offset_963_973>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_373_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biomes" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998947078039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biome> .
+
+<#offset_111_117>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_cycle> .
+
+<#offset_748_758>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flux tower" ;
+        nif:beginIndex          "748"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eddy_covariance> .
+
+<#offset_298_309>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "respiration" ;
+        nif:beginIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992823689632471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Respiration_(physiology)> .
+
+<#offset_1231_1240>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecosystem" ;
+        nif:beginIndex          "1231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecosystem> .
+
+<#offset_477_482>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plant" ;
+        nif:beginIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998220965994"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/C4_carbon_fixation> .
+
+<#offset_1057_1071>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Photosynthesis" ;
+        nif:beginIndex          "1057"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1071"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photosynthesis> .
+
+<#offset_794_800>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "794"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "800"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999006377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<#offset_1266_1275>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecosystem" ;
+        nif:beginIndex          "1266"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecosystem> .
+
+<#offset_494_500>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon" ;
+        nif:beginIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_cycle> .

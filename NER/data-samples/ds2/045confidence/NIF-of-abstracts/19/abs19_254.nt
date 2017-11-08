@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_577_586>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin film" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_588> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999106509034"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .
+
+<#offset_330_340>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin films" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_588> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999791064627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_588> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_588>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "588"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We could make a thin-film absorbent virtually transparent by enclosing it in a Fabry–Perot cavity. One requirement to realize the phenomenon is that the cavity consists of a pair of mirrors with optimal reflectivity. We calculate the reflectivity to give the highest transmittance through the cavity for various kinds of thin films. An empirical equation to reproduce the optimal reflectivity is given, in which the first term inversely depends on the film thickness and the second term is related to multiplication of the thickness and the dielectric constant of the thin film.\n" .
+
+<#offset_276_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transmittance" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_588> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transmittance> .
+
+<#offset_550_569>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dielectric constant" ;
+        nif:beginIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_588> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9967157454751294"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relative_permittivity> .

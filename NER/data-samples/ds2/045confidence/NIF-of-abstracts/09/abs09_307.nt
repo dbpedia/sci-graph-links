@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_295>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "295"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The paper presents an analytical solution for the elastic field in the vicitity of a semi-circular inhomogeneity, embedded at the free surface of an elastic half-plane. This bi-material system is loaded by uniform remote tension or a constant eigenstrain sustained by the inhomogeneity.\n" .
+
+<#offset_157_164>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_295> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6461303562901622"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(physics)> .
+
+<#offset_58_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_295> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6461303562901622"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(physics)> .
+
+<#offset_138_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "free surface" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_295> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Free_surface> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_295> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_165_175>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "half-plane" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_295> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999221116725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Half-space_(geometry)> .

@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_210_219>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "harmonics" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9191837057405816"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Harmonic> .
+
+<#offset_269_278>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonance" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993230371178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<#offset_139_144>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pulse" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973655342540905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pulse_wave> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_285> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_285>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "285"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove new estimates for the error of the averaging method for oscillation systems with slowly varying frequencies subjected to pulse action at fixed times. The main assumption is imposed not on all harmonics of the right-hand side of the system but only on resonance ones.\n" .
+
+<#offset_74_85>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oscillation" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8105279400525172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oscillation> .
+
+<#offset_114_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frequencies" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998121203443086"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency> .

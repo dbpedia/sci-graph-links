@@ -1,0 +1,15 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1055> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1055>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1055"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Intense regulatory focus on secure retention of electronic records has led to a need to ensure that records are trustworthy, i.e., able to provide irrefutable proof and accurate details of past events. In this paper, we analyze the requirements for a trustworthy index to support keyword-based search queries. We argue that trustworthy index entries must be durable—the index must be updated when new documents arrive, and not periodically deleted and rebuilt. To this end, we propose a scheme for efficiently updating an inverted index, based on judicious merging of the posting lists of terms. Through extensive simulations and experiments with two real world data sets and workloads, we demonstrate that the scheme achieves online update speed while maintaining good query performance. We also present and evaluate jump indexes, a novel trustworthy and efficient index for join operations on posting lists for multi-keyword queries. Jump indexes support insert, lookup and range queries in time logarithmic in the number of indexed documents.\n" .

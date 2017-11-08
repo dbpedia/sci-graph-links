@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_508_519>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sample path" ;
+        nif:beginIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sample_path> .
+
+<#offset_60_62>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "/1" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Year> , <http://dbpedia.org/ontology/TimePeriod> ;
+        itsrdf:taConfidence     "0.9999999993324309"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/1> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_577> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_467_469>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "/1" ;
+        nif:beginIndex          "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TimePeriod> , <http://dbpedia.org/ontology/Year> ;
+        itsrdf:taConfidence     "0.9999999993324309"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/1> .
+
+<#offset_0_577>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "577"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A simple random time change is used to analyze M/GI/1 queues with workload restrictions. The types of restrictions considered include workload bounds and rejection of jobs whose waiting times exceed a (possibly random) threshold. Load dependent service rates and vacations are also allowed and in each case the steady state distribution of the workload process for the system with workload restrictions is obtained in terms of that of the corresponding M/ GI/1 queue without restrictions. The novel sample path arguments used simplify and generalize previous results.\n" .

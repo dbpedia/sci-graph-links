@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_377>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "377"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present a new approach to the construction of orthonormal wavelets on the interval which allows to overcome the “non interacting boundaries” restriction of existing constructions, and therefore to construct wavelets for U0; 1T also at large scales in such a way that, in the range of validity of the existing constructions, the two approaches give the same result.\n" .
+
+<#offset_219_227>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wavelets" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_377> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999940846084197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelet> .
+
+<#offset_70_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wavelets" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_377> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999940846084197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelet> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_377> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_58_69>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orthonormal" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_377> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7215901815173812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orthonormal_basis> .

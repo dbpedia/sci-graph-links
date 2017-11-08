@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_918>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "918"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract At the invitation of the Editors, we wrote an article (entitled, “Minds, Brains, and Norms”) detailing our views on a variety of claims by those arguing for the explanatory power of neuroscience in matters of law and ethics. The Editors invited comments on our article from four distinguished academics (Walter Glannon, Carl Craver, Sarah Robins, and Thomas Nadelhoffer) and invited our reply to their critique of our views. In this reply to our commentators, we correct some potential misunderstandings of our views and further clarify our positions with discussions of the conceptual-empirical distinction, rule-following, explanations at the personal and subpersonal levels, memory, and lie detection. Although we acknowledge many of the criticisms advanced by our distinguished colleagues, we conclude that, in several important respects, their criticisms confirm the points made in our original article.\n" .
+
+<#offset_687_693>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "687"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_918> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999877218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_918> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_699_712>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lie detection" ;
+        nif:beginIndex          "699"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_918> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996259865081503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polygraph> .
+
+<#offset_226_232>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ethics" ;
+        nif:beginIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_918> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999783998949854"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethics> .
+
+<#offset_191_203>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neuroscience" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_918> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999762185329"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neuroscience> .

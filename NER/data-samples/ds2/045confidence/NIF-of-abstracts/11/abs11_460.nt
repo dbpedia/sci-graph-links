@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_87_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capsulotomy" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998583462"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capsulotomy> .
+
+<#offset_390_400>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anesthesia" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9823637949988341"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anesthesia> .
+
+<#offset_300_305>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laser" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.963773984443626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .
+
+<#offset_0_402>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "402"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We evaluated neodymium-doped yttrium-aluminum-garnet (Nd:YAG) laser posterior capsulotomy procedure with or without anesthesia in 35 pediatric eyes and 51 adult eyes. We concluded that Nd:YAG laser posterior capsulotomies in children are similar to adults in general aspects and that Nd:YAG laser capsulotomy can be performed safely and effectively in children under topical or no anesthesia.\n" .
+
+<#offset_125_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anesthesia" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9823637949988341"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anesthesia> .
+
+<#offset_197_200>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "YAG" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mineral> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999998378257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yttrium_aluminium_garnet> .
+
+<#offset_71_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laser" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.963773984443626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .
+
+<#offset_201_206>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laser" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.963773984443626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_402> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_66_69>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "YAG" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mineral> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999998378257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yttrium_aluminium_garnet> .
+
+<#offset_306_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capsulotomy" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998583462"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capsulotomy> .
+
+<#offset_296_299>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "YAG" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mineral> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999998378257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yttrium_aluminium_garnet> .

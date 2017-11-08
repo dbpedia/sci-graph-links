@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_451_462>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "petroglyphs" ;
+        nif:beginIndex          "451"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_782> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999827161291084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Petroglyph> .
+
+<#offset_0_782>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "782"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The digitization of antiquities is facilitating a renaissance for scholars who have unprecedented access to rich representations of objects. Cultural Heritage digitization is a central challenge, and its subtleties are intertwined with object properties and the constraints of physical access and handling. In this paper, we present the design and analysis of a system built for the digitization of Puerto Rican petroglyphic iconography. The petroglyphs exhibit unique properties (shape, size, surface) that determine system design choices. The 3D models obtained with the system support new scholarly and educational activities, including interactive surface lighting, feature highlighting and annotation through mark-up, and immersive viewing using large-scale displays.\n" .
+
+<#offset_408_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Puerto Rican" ;
+        nif:beginIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_782> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9888680359664556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Puerto_Rico> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_782> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_554_563>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3D models" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_782> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999860008665915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/3D_modeling> .
+
+<#offset_434_445>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iconography" ;
+        nif:beginIndex          "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_782> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999922198333274"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iconography> .

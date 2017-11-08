@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_679_688>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Brazilian" ;
+        nif:beginIndex          "679"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9993704931710652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brazil> .
+
+<#offset_0_762>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "762"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The introduction of quality systems in laboratories at universities is a difficult task. Test services for external customers are provided to generate additional budget, and there may be a clear awareness about the need for systematic QA/QC actions. However, offering services is not of the highest priority within most university environments. The staff performance is commonly evaluated on basis of published papers and teaching activities, giving little or no weight for the test services. Therefore, implementation of a quality system is often pushed back to a lower priority leading to postponement. The efforts for creating a quality system in a laboratory from a Brazilian university are described in this paper, along with the results produced.\n" .
+
+<#offset_244_246>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QA" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999389054283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quality_assurance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_762> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_98_102>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9841973613517186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_(assessment)> .
+
+<#offset_247_249>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QC" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999977652578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quality_control> .

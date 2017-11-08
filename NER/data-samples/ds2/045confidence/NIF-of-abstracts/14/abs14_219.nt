@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_557> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_177_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability distributions" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995642693248354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability_distribution> .
+
+<#offset_0_557>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "557"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract After introducing the main topic of this paper (the study of purchase incidence and brand choice decisions) we explain basic concepts of hazard models and describe the probability distributions considered in the empirical study presented later. After a review of pure purchase incidence (product category) models as well as integrated models that include brand choice as well, we specify and discuss properties of one-state and multi-state hazard models, respectively. Our conclusions are based on applying hazard models to household scanner data.\n" .

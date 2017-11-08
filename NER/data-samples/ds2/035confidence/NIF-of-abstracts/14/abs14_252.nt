@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_400_414>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "business cycle" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_cycle> .
+
+<#offset_101_107>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Harvey" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8613753394562105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/List_of_Farscape_characters> .
+
+<#offset_432_441>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997262815096241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_68_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "component model" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Component-based_software_engineering> .
+
+<#offset_640_649>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frequency" ;
+        nif:beginIndex          "640"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "649"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973764170965742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_651> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_556_579>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gross domestic products" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<#offset_0_651>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "651"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper focuses on temporal aggregation of the cyclical component model as introduced by Harvey (1989). More specifically, it provides the properties of the aggregate process for any generic period of aggregation. As a consequence, the exact link between aggregate and disaggregate parameters can be easily derived. The cyclical model is important due to its relevance in the analysis of business cycle. Given this, two empirical applications are presented in order to compare the estimated parameters of the quarterly models for German and US gross domestic products with those of the corresponding models aggregated to annual frequency.\n" .
+
+<#offset_31_39>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temporal" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996775035004659"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time> .
+
+<#offset_553_555>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "US" ;
+        nif:beginIndex          "553"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.8920645551629934"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .

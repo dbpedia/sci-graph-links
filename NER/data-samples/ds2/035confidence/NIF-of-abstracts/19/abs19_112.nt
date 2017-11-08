@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_481>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "481"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The well known concepts of screens and roundings are not always sufficient if one intends to derive statements in connection with the generation of arithmetics in spaces which are more general than those considered in [5]. In this paper the concept of the screen therefore is generalized to the concept of the (Si)-screen and instead of roundings the conversions are introduced as mappings between (Si)-screens. The properties of (Si)-screens and conversions are studied.\n" .
+
+<#offset_48_57>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "roundings" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999021156"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rounding> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_481> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_346_355>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "roundings" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999021156"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rounding> .
+
+<#offset_157_168>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetics" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999951683"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arithmetic> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_515>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "515"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We report on a study of inclusiveπ 0 and η meson production inπ   p andK   p interactions at 250 GeV/c beam momentum. The Feynman-x spectrum ofπ 0 is very similar in shape and normalization to that of negatively charged particles produced in the same experiment. The results are compared with data at other energies and with FRITIOF model predictions. This model overestimates the η cross section by a factor of 2.5. It reproduces theπ 0 cross section correctly, but predicts a too hardπ 0 x distribution.\n" .
+
+<#offset_52_57>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meson" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6879458994116964"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meson> .
+
+<#offset_141_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectrum" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6496783266476992"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electromagnetic_spectrum> .
+
+<#offset_106_109>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GeV" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronvolt> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_515> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_117_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "momentum" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999270094089967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Momentum> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_93_106>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trade secrets" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_460> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trade_secret> .
+
+<#offset_246_256>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymmetric" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_460> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6688129521041984"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public-key_cryptography> .
+
+<#offset_67_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "patent" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_460> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981666132138"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Patent> .
+
+<#offset_172_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "patent" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_460> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981666132138"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Patent> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_460> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_460>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "460"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper analyzes the effects on growth of strengthened patent protections, where trade secrets are introduced as an additional protection method. Strengthening patent protection decreases the amount of common knowledge, which has two asymmetric effects on incentives to innovate. First, as competitors cannot freely use technological information, it helps successful innovators earn higher profits. Second, less disclosure of information reduces R\n" .

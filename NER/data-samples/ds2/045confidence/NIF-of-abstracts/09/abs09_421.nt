@@ -1,0 +1,125 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_217_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semiconductor" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985493847345369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semiconductor> .
+
+<#offset_33_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic media" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_storage> .
+
+<#offset_475_489>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CMP technology" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/UBM_plc> .
+
+<#offset_168_182>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic heads" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998887189499472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disk_read-and-write_head> .
+
+<#offset_737_745>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic" ;
+        nif:beginIndex          "737"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "745"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7899348662073338"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetism> .
+
+<#offset_0_855>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "855"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  As the data density on magnetic media is tending to double each year, there is increasing pressure in the magnetic recording industry to produce more compact magnetic heads. Contrary to the situation in the semiconductor industry, this decrease in feature size, is not accompanied by decreasing layer thickness. Therefore special solutions had to be found. One of the most elegant methods to achieve this, is to use chemical mechanical polishing (CMP). However the CMP technology as developed in the IC industry needs to be adapted to cope with typical magnetic heads characteristics like thick layers, stiff substrates and cleaning of heterogeneous surfaces. The adapted CMP technology proved to offer a versatile toolbox for magnetic head manufacture and is also superbly adaptable, for future use in other areas of Micro System Technologies.\n" .
+
+<#offset_510_512>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IC" ;
+        nif:beginIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integrated_circuit> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_855> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_682_696>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CMP technology" ;
+        nif:beginIndex          "682"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/UBM_plc> .
+
+<#offset_563_577>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic heads" ;
+        nif:beginIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998887189499472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disk_read-and-write_head> .
+
+<#offset_426_455>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemical mechanical polishing" ;
+        nif:beginIndex          "426"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical-mechanical_planarization> .
+
+<#offset_116_134>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic recording" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_storage> .
+
+<#offset_619_629>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substrates" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9723680014436766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wafer_(electronics)> .
+
+<#offset_457_460>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CMP" ;
+        nif:beginIndex          "457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5713453987281512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Certificate_Management_Protocol> .

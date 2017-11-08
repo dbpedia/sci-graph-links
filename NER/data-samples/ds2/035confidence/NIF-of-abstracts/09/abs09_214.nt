@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_537_565>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "direct numerical simulations" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Direct_numerical_simulation> .
+
+<#offset_123_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9563657663114836"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_elasticity> .
+
+<#offset_0_587>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "587"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The work presented here reconsiders the classical stability problem for the deformation experienced by a stretched elastic strip when its ends are subjected to small twisting moments. Singular perturbation methods enable us to describe analytically the wrinkling instability that occurs when the strip is very thin. In this case the localised structure of the instability pattern is controlled by the solution of a second-order boundary value problem with variable coefficients. The theoretical results obtained are confirmed by direct numerical simulations of the full problem.\n" .
+
+<#offset_48_57>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9968762638426494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<#offset_473_485>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_84_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deformation" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987081994217679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deformation_(mechanics)> .
+
+<#offset_201_221>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perturbation methods" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perturbation_theory> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_587> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

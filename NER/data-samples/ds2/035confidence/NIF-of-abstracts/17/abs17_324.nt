@@ -1,0 +1,98 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_97_110>  a             nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9907481653144795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_115_121>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999943842405742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<#offset_154_160>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prison" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999909198320005"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prison> .
+
+<#offset_399_415>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "British Columbia" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999602504900851"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/British_Columbia> .
+
+<#offset_416_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "penitentiaries" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prison> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_709> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_709>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "709"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article examines the under-researched phenomenon of prisoner politicization in the United States and Canada, surveying a period between the prison turbulence of the 1960s to the current era of administrative control. The theoretical grounds for the concept of prisoner politicization are delineated, and a measure of politicization is constructed based on research undertaken at three British Columbia penitentiaries, involving direct interviews with prisoners. The decline of prisoner politicization over the past decade is related to innovative penal strategies that re-individualize prisoner orientations and discourage potential alliances between prisoners and non-prisoner activist groups.\n" .
+
+<#offset_192_203>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "current era" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Era> .
+
+<#offset_161_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "turbulence" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999479948915639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turbulence> .
+
+<#offset_692_700>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "activist" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "700"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999731639222114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Activism> .
+
+<#offset_123_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "surveying" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.907193182469774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surveying> .

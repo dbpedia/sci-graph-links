@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_824> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_824>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "824"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we present two new list fusion strategies for the collection fusion problem in web metasearch. The new approaches fall in the category of isolated methods since they consider as input the lists obtained by different search engines only, plus a fuzzy degree of relevance in one of the methods. In the latter case, we employ a recently proposed approach for the representation of fuzzy preferences, namely, RL-preference relations. A remarkable contribution of the approaches is that the result of the fusion is an ordered list of indistinguishable groups of documents. This kind of output represents a good compromise between understandability and accuracy of the result. We have illustrated the performance of the method by means of several experiments and a comparison with other web metasearchers.\n" .
+
+<#offset_107_117>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metasearch" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metasearch_engine> .
+
+<#offset_240_254>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "search engines" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_824> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_search_engine> .

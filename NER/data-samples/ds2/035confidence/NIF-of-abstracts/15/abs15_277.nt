@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_110_114>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "John" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7426235423374021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gospel_of_John> .
+
+<#offset_222_237>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "residue classes" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<#offset_180_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prime elements" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9600986565894328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integral_domain> .
+
+<#offset_62_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arithmetical" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9947943250323207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arithmetic> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_244> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_75_84>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semigroup" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999794511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semigroup> .
+
+<#offset_0_244>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "244"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We study the distribution of elements in an additive arithmetical semigroup (G, ∂) (as introduced by John Knopfmacher) in whose canonical decomposition the degrees of the prime elements belong to a given union of residue classes modk.\n" .

@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_201_211>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e-learning" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999934316293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-learning> .
+
+<#offset_286_305>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pervasive computing" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ubiquitous_computing> .
+
+<#offset_546_561>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mobile learning" ;
+        nif:beginIndex          "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/MLearning> .
+
+<#offset_879_891>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "just-in-time" ;
+        nif:beginIndex          "879"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "891"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987083195927707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Just-in-time_compilation> .
+
+<#offset_0_973>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "973"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Pervasive learning as key technology for tomorrow’s learning will enhance and modernise education — not just in academic teaching. Pervasive learning can be regarded as the latest evolutionof e-learning made possible through recent highly mobile techniques. Through the use of pervasive computing and the use of omnipresent technologies, the presence of these technologies is becoming less conspicuous. Such development leads towards a new organisation of the whole learning environment, called a pervasive campus. This further advances mobile learning for an effectively organised blended learning. In this paper, we propose an architecture with related components and services that facilitates the implementation of pervasive campus applications in dynamic and complex environments, such as those encountered in pervasive communities. We describe scalable, efficient (just-in-time) techniques for the synergistic integration of services into a pervasive campus.\n" .
+
+<#offset_638_650>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "638"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999471246287059"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_973> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_591_607>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "blended learning" ;
+        nif:beginIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blended_learning> .

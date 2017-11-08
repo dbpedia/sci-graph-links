@@ -1,0 +1,132 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1222_1228>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hybrid" ;
+        nif:beginIndex          "1222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9732700267765068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_vehicle> .
+
+<#offset_1835_1849>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet radio" ;
+        nif:beginIndex          "1835"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet_radio> .
+
+<#offset_1961_1973>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "1961"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999064762094"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#offset_1633_1645>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "1633"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999064762094"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#offset_1229_1244>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "overlay network" ;
+        nif:beginIndex          "1229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Overlay_network> .
+
+<#offset_633_645>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IP multicast" ;
+        nif:beginIndex          "633"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IP_multicast> .
+
+<#offset_1317_1326>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multicast" ;
+        nif:beginIndex          "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997944876424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multicast> .
+
+<#offset_0_1975>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1975"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Internet broadcasting - the simultaneous distribution of live content streams to a large audience - has a number of interesting applications ranging from real-time broadcasts of audio/video streams for online concerts or sporting events to efficient and reliable large-scale software distribution. We identify three fundamental requirements for scalable broadcasting services: an efficient infrastructure for large-scale broadcasting, an ability to adapt the infrastructure to suit the requirements of a wide range of applications, and ease of deployment of the infrastructure. Although solutions such as the network-layer IP multicast approach and a slew of overlay distribution networks exist today, none of these technologies satisfactorily addresses all of the above concerns. In this paper, we argue that an application-customizable hybrid overlay is well suited to meet these challenges. To this end, we propose an architecture called scattercast that relies on a network of strategically located agents called ScatterCast proXies or SCXs. These agents collaboratively provide the broadcast service for a session. Clients locate a nearby SCX and tap into the session via that SCX. Scattercast constructs a hybrid overlay network composed of unicast links between SCXs that interconnect locally scoped multicast regions. Rather than define a single standardized service model for transmitting data on top of the overlay, scattercast builds a customizable transport framework that provides adaptability by leveraging application-defined semantics to drive the distribution of content. We demonstrate the ability of our architecture to provide efficient distribution via a set of simulation experiments. Finally, we present our experience with the adaptability of the framework by describing two applications, a real-time Internet radio and an online slide-presentation tool, both of which we have built on top of a prototype implementation of the architecture.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1975> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1257_1264>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unicast" ;
+        nif:beginIndex          "1257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unicast> .
+
+<#offset_10_18>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998467660707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet_protocol_suite> .
+
+<#offset_848_854>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hybrid" ;
+        nif:beginIndex          "848"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9732700267765068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_vehicle> .
+
+<#offset_1551_1560>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantics" ;
+        nif:beginIndex          "1551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999665306"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_Web> .
+
+<#offset_931_943>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "931"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999064762094"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#offset_1693_1703>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "1693"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1975> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999669174637309"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .

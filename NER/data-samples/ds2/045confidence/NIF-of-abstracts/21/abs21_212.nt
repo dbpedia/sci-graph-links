@@ -1,0 +1,81 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_49_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operant" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999989469757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operant_conditioning> .
+
+<#offset_136_147>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Skinner box" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operant_conditioning_chamber> .
+
+<#offset_240_250>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "extinction" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9886191145047267"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Extinction_(psychology)> .
+
+<#offset_14_18>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pigs" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.961539193258393"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pig> .
+
+<#offset_0_260>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "260"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Sated pigs, having a previous history of operant responding according to a CRF schedule, resumed responing when put back in the Skinner box after 1 mg/kg diazepam. This effect did not appear to be related to the disinhibition of an extinction process.\n" .
+
+<#offset_162_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diazepam" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "0.9999999551092184"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diazepam> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_260> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_220_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disinhibition" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973772335307896"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disinhibition> .
+
+<#offset_83_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CRF" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9998805718263637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corticotropin-releasing_hormone> .

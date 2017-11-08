@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_47_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychoanalysis" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999554176767725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychoanalysis> .
+
+<#offset_0_411>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "411"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This essay reviews the application of psychoanalysis to dramatic art. Four major areas are covered; studies of playwrights, studies of individual plays, studies of audience response, and studies of acting. Based on his studies of acting in live theatrical productions, the author offers three theorems to underscore the central role of unconscious enactment in the evolution of theatrical performance.\n" .
+
+<#offset_120_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "playwrights" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999274008630571"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Playwright> .
+
+<#offset_302_310>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorems" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999957974524"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_411> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_314_324>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "underscore" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9661610699075168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Underscore> .
+
+<#offset_374_383>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999984918541355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .
+
+<#offset_74_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "art" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987357149899848"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Art> .
+
+<#offset_345_356>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unconscious" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996750509396497"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unconscious_mind> .

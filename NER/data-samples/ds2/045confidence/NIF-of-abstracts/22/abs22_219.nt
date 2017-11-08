@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_32_45>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Lewis Carroll" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Writer> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lewis_Carroll> .
+
+<#offset_0_683>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "683"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Pavel Florensky solves Lewis Carroll’s ‘Barbershop’ paradox to support his reasoning in a previous chapter. Our discussion includes a) the problem (which we also refer to as the p paradox), b) Carroll’s solution, c) Bertrand Russell’s solution, d) Florensky’s solution and then e) a material example proffered by Florensky. Both Russell and Florensky disagree with Carroll’s solution, yet, (ostensibly) unbeknownst to themselves they offer the same solution, which is ‘p implies not-q’. Given Florensky’s material example, the solution seems to tell us something about the logic of belief. We ask whether Florensky’s example has reverse implications for Russell’s solution.\n" .
+
+<#offset_61_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "paradox" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998040039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paradox> .
+
+<#offset_189_196>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "paradox" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998040039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paradox> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_683> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_9_24>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pavel Florensky" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pavel_Florensky> .
+
+<#offset_582_587>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logic" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941636052158962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logic> .
+
+<#offset_225_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bertrand Russell" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bertrand_Russell> .

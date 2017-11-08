@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_52_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architectural pattern" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_278> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Architectural_pattern> .
+
+<#offset_239_250>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematics" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_278> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990477243317072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics> .
+
+<#offset_0_278>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "278"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Nikos Salingaros posits the importance of architectural pattern in man’s intellectual development, examining how twentieth century architectural attitudes towards decoration and pattern have impoverished man’s experience of both mathematics and the built environment.\n" .
+
+<#offset_259_276>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "built environment" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_278> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Built_environment> .
+
+<#offset_10_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nikos Salingaros" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_278> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nikos_Salingaros> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_278> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

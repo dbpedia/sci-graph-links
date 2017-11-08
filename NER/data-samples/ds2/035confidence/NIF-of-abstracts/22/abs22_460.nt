@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_607_611>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tick" ;
+        nif:beginIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_788> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Arachnid> ;
+        itsrdf:taConfidence     "0.9999752696722728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tick> .
+
+<#offset_9_20>  a               nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Mario Bunge" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_788> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Philosopher> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mario_Bunge> .
+
+<#offset_160_174>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudo-science" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_788> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudoscience> .
+
+<#offset_434_438>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gold" ;
+        nif:beginIndex          "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_788> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999893286264803"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gold> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_788> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_63_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_788> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9002851662920585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy_of_science> .
+
+<#offset_456_460>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "muck" ;
+        nif:beginIndex          "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_788> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6458864778236146"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Muck_(soil)> .
+
+<#offset_0_788>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "788"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Mario Bunge has repeatedly discussed contributions to philosophy and to science that are worthless at best and dangerous at worst, especially cases of pseudo-science. He clearly gives his reason in his latest essay on this matter: “The fact that science can be faked to the point of deceiving science lovers suggests the need for a rigorous sifting device”. Moreover, this sifting has its rewards, as “sometimes intellectual gold comes mixed with muck”. Furthermore, the sifting device is a demarcation of science, which answers interesting questions: what is valuable in science and what makes it tick? The question is under dispute. So before coming to it we should admit a few preliminary ideas that are more difficult to contest than ideas that purport to demarcate science.\n" .

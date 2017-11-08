@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_208_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_737> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9517780583638003"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<#offset_642_668>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technological unemployment" ;
+        nif:beginIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_737> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technological_unemployment> .
+
+<#offset_0_737>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "737"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The U.S. doctrine of employment-at-will, modified legislatively for protected groups, is being less harshly applied to managerial personnel. Comparable compensation is not otherwise available in the U.S. to workers displaced by technology. Nine pairs of arguments are presented to show how fundamentally management and labor disagree about a company's responsibility for its former employees. These arguments, born of years of labor-management debate, are kaleidoscopic claims about which side has what power. Ultimately, however, not even both together can solve without creative public intervention the emerging problem of massive technological unemployment — the other side of the corporate dream of profit without payrolls.\n" .
+
+<#offset_13_17>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_737> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9517780583638003"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_737> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

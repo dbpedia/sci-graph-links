@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_922>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "922"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The ability of the self-employed to create additional job opportunities is a fundamental concern given the huge increases in public resources targeted at new venture creation in the U.K. and other countries since 1979. This study initially concentrates on identifying differences in the personal and demographic characteristics of women and men in four potential labour market states, namely; unemployment; waged employment; single self-employment, and; job creating self-employment. It then goes on to consider labour market transitions over a four year period between 1991 and 1995. The key findings are firstly that women entrepreneurs are better educated than their male counterparts and secondly that flows into self-employment were considerably higher for men than women. Furthermore, proportionately, three times as many male self-employed in 1991 had gone on to become job creating self-employed by 1995.\n" .
+
+<#offset_191_195>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "U.K." ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_922> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999843675994692"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_922> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_372_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labour market" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_922> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Labour_economics> .
+
+<#offset_521_534>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labour market" ;
+        nif:beginIndex          "521"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_922> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Labour_economics> .

@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_171_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ergodic theory" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ergodic_theory> .
+
+<#offset_29_39>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Kolmogorov" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Andrey_Kolmogorov> .
+
+<#offset_0_318>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "318"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the framework of Kolmogorov’s algorithmic approach to the substantiation of probability and information theories, the stability property of asymptotic laws of ergodic theory and universal compression schemes under minor violations of algorithmic randomness is studied. Examples of unstable laws are given.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_318> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_152_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9659699139296221"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<#offset_246_268>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithmic randomness" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithmically_random_sequence> .
+
+<#offset_88_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.805827219025114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .

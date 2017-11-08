@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_471_484>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1119> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8889682707523602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_model> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1119> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1119>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1119"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Music recommendation is a critical technology enabling users to overcome the overload of songs in the music sites. Although existing methods of similar retrieval or sequence prediction have attained success to some extend, one important factor has not been considered in the previous work, that is, users may change their music interest in different sessions. How to define the users’ current interest is still a problem. In this paper, we propose a topic-based probabilistic model for addressing this problem by developing session-aware latent topics to model the users’ listening behavior. The model is designed based on the insight that users’ listening behavior is subjected to not only their personal interest, but also to their special interest in the session. Specifically, when making recommendation, our model estimates the probability of the song selection based on the mixture of the two aspects with a weight-based scheme. We have conducted experiments on a real music dataset from Last.fm. The empirical results demonstrate that our model performs much better than other state-of-the-art methods.\n" .
+
+<#offset_1003_1010>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Last.fm" ;
+        nif:beginIndex          "1003"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1010"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1119> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/WebPage> , <http://dbpedia.org/ontology/Website> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Last.fm> .

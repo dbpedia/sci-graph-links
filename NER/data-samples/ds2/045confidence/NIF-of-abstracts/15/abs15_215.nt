@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_316> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_316>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "316"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A method is described for determining the spatial resolution capabilities of a scintillation camera. A special phantom was used, and a comparison between the MTF curves and the results derived from using this phantom shows that the latter is a good and a quick way to check scintillation camera performance.\n" .
+
+<#offset_166_169>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MTF" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999983466050848"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optical_transfer_function> .

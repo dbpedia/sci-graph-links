@@ -1,0 +1,115 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_383_392>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "attractor" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attractor> .
+
+<#offset_305_313>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Poincaré" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999837270367"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Henri_Poincaré> .
+
+<#offset_42_53>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3-manifolds" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7612676343570703"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manifold> .
+
+<#offset_417_419>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "C2" ;
+        nif:beginIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/SoccerLeague> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/SportsLeague> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.8324919139048144"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lega_Pro_Seconda_Divisione> .
+
+<#offset_430_440>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "3-manifold" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9125571705433241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manifold> .
+
+<#offset_372_382>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999975125524785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_action> .
+
+<#offset_453_463>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperbolic" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5492162656056961"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperbolic_geometry> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_465> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_220_235>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive sets" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999492843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_set> .
+
+<#offset_0_465>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "465"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. In the context of C r -flows on 3-manifolds (r ≥ 1), the notion of singular hyperbolicity, inspired on the Lorenz Attractor, is the right generalization of hyperbolicity (in the sense of Smale) for C1-robustly transitive sets with singularities. We estabish conditions (on the associated linear Poincaré flow and on the nature of the singular set) under which a transitive attractor with singularities of a C2-flow on a 3-manifold is singular hyperbolic.\n" .
+
+<#offset_117_133>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lorenz Attractor" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lorenz_system> .
+
+<#offset_241_254>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularities" ;
+        nif:beginIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8018226001145347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Singularity_theory> .
+
+<#offset_398_411>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularities" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_465> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8018226001145347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Singularity_theory> .

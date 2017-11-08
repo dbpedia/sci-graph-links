@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_39_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parton" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999396039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parton_(particle_physics)> .
+
+<#offset_256_276>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recurrence relations" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recurrence_relation> .
+
+<#offset_181_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "KNO" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.6870094226820534"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kno> .
+
+<#offset_230_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularity" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99805894172188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_singularity> .
+
+<#offset_0_291>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "291"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We show that solutions to the parton branching equations scale in the KNO sense and that the asymptotic distributions are completely determined by the branching equations. KNO distributions are found to have a Diracdelta singularity. We also find recurrence relations forC-moments.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_291> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_79_82>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "KNO" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.6870094226820534"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kno> .
+
+<#offset_102_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9978522276140713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptote> .

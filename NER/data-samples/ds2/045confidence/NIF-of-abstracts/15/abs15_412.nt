@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_488>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "488"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Marketing managers began adopting the Economic Order Quantity (EOQ) method of inventory control from the manufacturing industry almost thirty years ago. A new approach, “Just-In-Time” inventory, pioneered by Japanese firms, should be considered. This approach consists of at least two significant phases: one, technical, based on instantaneous communication flow and the computer; and secondly, behavioral, emphasizing improved cooperation between members of the channel system.\n" .
+
+<#offset_47_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Economic Order Quantity" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_488> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_order_quantity> .
+
+<#offset_72_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EOQ" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_488> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_order_quantity> .
+
+<#offset_179_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Just-In-Time" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_488> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Just_in_time_(business)> .
+
+<#offset_87_104>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inventory control" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_488> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999943955231"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inventory_control> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_488> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_217_225>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japanese" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_488> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.7446733725752004"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .

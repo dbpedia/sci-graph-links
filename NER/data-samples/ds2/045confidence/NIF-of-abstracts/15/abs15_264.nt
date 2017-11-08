@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_108_123>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cournot duopoly" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cournot_competition> .
+
+<#offset_686_699>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laissez-faire" ;
+        nif:beginIndex          "686"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996889269489312"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laissez-faire> .
+
+<#offset_659_675>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "export subsidies" ;
+        nif:beginIndex          "659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Export_subsidy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_702> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_702>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "702"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper examines the strategic export policies in a reciprocal market model of an international Cournot duopoly where two firms in domestic and foreign countries reciprocally supply their products to other countries through overseas production as well as export. It also considers the fact that the firms must incur export costs in addition to production costs. Thus, this paper shows, among others, that the effects of export policies on firms' output and export choices do not depend on the slopes of firms' reaction curves. It is also shown that firms' total outputs are independent of the export policies, and the optimal domestic and foreign export subsidies are zero (laissez-faire).\n" .

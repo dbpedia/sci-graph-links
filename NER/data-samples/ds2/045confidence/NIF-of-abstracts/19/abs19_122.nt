@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_130_140>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creativity" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996930360953054"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creativity> .
+
+<#offset_638_643>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Italy" ;
+        nif:beginIndex          "638"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.999970433515983"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Italy> .
+
+<#offset_605_607>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EU" ;
+        nif:beginIndex          "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988289542988193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Union> .
+
+<#offset_565_579>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Music Room" ;
+        nif:beginIndex          "565"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Film> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://schema.org/Movie> ;
+        itsrdf:taConfidence     "0.9999951425885762"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jalsaghar> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_645> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_378_386>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metaphor" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997085689498"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metaphor> .
+
+<#offset_554_563>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999485567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_0_645>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "645"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we reflect on our experience of designing, developing and evaluating interactive spaces for collaborative creativity. In particular, we are interested in designing spaces which allow everybody to compose and play original music. The Music Room is an interactive installation where couples can compose original music by moving in the space. Following the metaphor of love, the music is automatically generated and modulated in terms of pleasantness and intensity, according to the proxemics cues extracted from the visual tracking algorithm. The Music Room was exhibited during the EU Researchers’ Night in Trento, Italy.\n" .
+
+<#offset_253_267>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "The Music Room" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Film> , <http://schema.org/Movie> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9999951425885762"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jalsaghar> .
+
+<#offset_504_513>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "proxemics" ;
+        nif:beginIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proxemics> .
+
+<#offset_630_636>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Trento" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9960203645207533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trento> .

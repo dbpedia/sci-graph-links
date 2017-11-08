@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_704_717>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public sector" ;
+        nif:beginIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990281977663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_sector> .
+
+<#offset_179_190>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "econometric" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Econometrics> .
+
+<#offset_0_789>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "789"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Corruption has been found to have complex effects on firm innovation. Limited theoretical and empirical evidence to date has been rather inconclusive. This study employs econometric estimation techniques to analyze data from small and medium manufacturing enterprises in Vietnam to assess the impact of petty corruption on firm innovation. The empirical results tend to support the “greasing” impact of corruption on innovation. Specifically, informal payments by Vietnamese firms are shown to encourage overall innovation, product improvement, innovation and new innovation. In view of the commonplace business practice of paying small informal fees to speed up transactions in the inefficient public sector in Vietnam, this finding is not entirely unexpected, though troubling.\n" .
+
+<#offset_103_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical evidence" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994347584951826"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_280_287>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Vietnam" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.6170253310038486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vietnam> .
+
+<#offset_721_728>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Vietnam" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.6170253310038486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vietnam> .
+
+<#offset_473_483>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Vietnamese" ;
+        nif:beginIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/EthnicGroup> ;
+        itsrdf:taConfidence     "0.7314685005189263"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vietnamese_people> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_789> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

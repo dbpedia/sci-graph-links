@@ -1,0 +1,159 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1723_1730>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "referee" ;
+        nif:beginIndex          "1723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6262388651248963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Referee> .
+
+<#offset_1040_1053>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "1040"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1053"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990473489362678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Randomized_algorithm> .
+
+<#offset_1758_1769>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "1758"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999924967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_210_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication complexity" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication_complexity> .
+
+<#offset_196_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990473489362678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Randomized_algorithm> .
+
+<#offset_1201_1217>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nondeterministic" ;
+        nif:beginIndex          "1201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6965369840399597"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-deterministic_Turing_machine> .
+
+<#offset_1323_1330>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pointer" ;
+        nif:beginIndex          "1323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999115516"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pointer_(computer_programming)> .
+
+<#offset_0_2201>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2201"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we study the one-way multiparty communication model, in which every party speaks exactly once in its turn. For every k, we prove a tight lower bound of Ω(n 1/(k−1)}) on the probabilistic communication complexity of pointer jumping in a k-layered tree, where the pointers of the i-th layer reside on the forehead of the i-th party to speak. The lower bound remains nontrivial even for k = (logn)1/2−ɛ parties, for any constant ɛ > 0. Previous to our work a lower bound was known only for k =3 (Wigderson, see [7]), and in restricted models for k>3 [2},24,18,4,13]. Our results have the following consequences to other models and problems, extending previous work in several directions. The one-way model is strong enough to capture general (not one-way) multiparty protocols with a bounded number of rounds. Thus we generalize two problem areas previously studied in the 2-party model (cf. [30,21,29]). The first is a rounds hierarchy: we give an exponential separation between the power of r and 2r rounds in general probabilistic k-party protocols, for any k and r. The second is the relative power of determinism and nondeterminism: we prove an exponential separation between nondeterministic and deterministic communication complexity for general k-party protocols with r rounds, for any k,r. The pointer jumping function is weak enough to be a special case of the well-studied disjointness function. Thus we obtain a lower bound of Ω(n 1/(k−1)) on the probabilistic complexity of k-set disjointness in the one-way model, which was known only for k = 3 parties. Our result also extends a similar lower bound for the weaker simultaneous model, in which parties simultaneously send one message to a referee [12]. Finally, we infer an exponential separation between the power of any two different orders in which parties send messages in the one-way model, for every k. Previous results [29, 7] separated orders based on who speaks first. Our lower bound technique, which handles functions of high discrepancy over cylinder intersections, provides a “party-elimination” induction, based on a restricted form of a direct-product result, specific to the pointer jumping function.\n" .
+
+<#offset_2175_2182>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pointer" ;
+        nif:beginIndex          "2175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999115516"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pointer_(computer_programming)> .
+
+<#offset_238_245>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pointer" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999115516"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pointer_(computer_programming)> .
+
+<#offset_1170_1181>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "1170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999924967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_1479_1492>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "1479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990473489362678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Randomized_algorithm> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_2201> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1222_1235>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deterministic" ;
+        nif:beginIndex          "1222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998831610253567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deterministic_algorithm> .
+
+<#offset_969_980>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "969"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "980"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999924967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_1126_1137>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "determinism" ;
+        nif:beginIndex          "1126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9198777001956269"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deterministic_algorithm> .
+
+<#offset_1142_1156>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nondeterminism" ;
+        nif:beginIndex          "1142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982160034331979"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nondeterministic_algorithm> .
+
+<#offset_1236_1260>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication complexity" ;
+        nif:beginIndex          "1236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_2201> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication_complexity> .

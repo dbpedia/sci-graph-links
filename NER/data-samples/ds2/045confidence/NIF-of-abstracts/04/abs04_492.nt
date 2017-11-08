@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_430_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fluid dynamics" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_765> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999936312755595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fluid_dynamics> .
+
+<#offset_391_402>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_765> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998747397867357"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<#offset_93_104>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "attenuation" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_765> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9457234798820383"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attenuation> .
+
+<#offset_0_765>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "765"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract On the basis of the results of simultaneous observations of parameters of currents, attenuation factor of light, and temperature performed aboard a moving vessel, we established the main characteristics and features of the circulation of waters and the structure of transparency and temperature fields in the surface layer of the northwest part of the Black Sea. We investigate the correlation between the variability of fluid dynamics and redistribution of transparency and temperature fields. The measured currents are compared with those calculated using the actual field of atmospheric pressure during the time of observation. It is shown that the results obtained in the areas of steady currents in the west and central regions are in good agreement.\n" .
+
+<#offset_587_607>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmospheric pressure" ;
+        nif:beginIndex          "587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_765> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999613191321902"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmospheric_pressure> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_765> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_361_370>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Black Sea" ;
+        nif:beginIndex          "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_765> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998990458426273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Black_Sea> .

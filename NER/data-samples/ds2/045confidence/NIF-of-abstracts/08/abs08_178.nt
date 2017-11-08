@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_760_772>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intelligence" ;
+        nif:beginIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_792> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9597415387142226"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intelligence> .
+
+<#offset_209_223>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cyber security" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_792> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_security> .
+
+<#offset_621_628>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_792> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999330018476"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#offset_416_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cyber security" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_792> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_security> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_792> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_111_123>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intelligence" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_792> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9597415387142226"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intelligence> .
+
+<#offset_0_792>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "792"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The last couple of years we have seen an increase in interests and initiatives in establishing threat intelligence sharing communities, and on the development of standards and platforms for automated cyber security information sharing. These initiatives are focused on helping organisations to increase their resilience to new attacks and threats. In this paper we will investigate how we can leverage from cyber security information sharing infrastructures to gain early insight into the large scale effects of cyber threats and incidents. In particular we focus on those that might have a disruptive effect on society. Furthermore, in this paper we will discuss what information needs to be shared and how this can be done using the dominant threat intelligence sharing standards.\n" .

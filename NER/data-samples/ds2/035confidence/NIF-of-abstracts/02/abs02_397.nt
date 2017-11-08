@@ -1,0 +1,134 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_198_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995296817540679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermodynamic_equilibrium> .
+
+<#offset_311_319>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecule" ;
+        nif:beginIndex          "311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999037072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .
+
+<#offset_32_34>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "VN" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Automobile> ;
+        itsrdf:taConfidence     "0.9999978039336623"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holden_VN_Commodore> .
+
+<#offset_0_481>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "481"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The semiempirical CNDO/VN−1 method presented for calculating the excited states of molecules permits both the ground state and excited states to be considered with one parametrization. The equilibrium geometry is calculated for the ground state1A1 and excited states3A2,1A2, and3A1 of the formaldehyde molecule. The results of calculation are in good agreement with experimental data. The frequencies of electronic transitions are calculated for radiation and absorption.\n" .
+
+<#offset_469_479>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absorption" ;
+        nif:beginIndex          "469"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9645740421045029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Absorption_(electromagnetic_radiation)> .
+
+<#offset_27_31>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CNDO" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CNDO/2> .
+
+<#offset_413_435>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electronic transitions" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5926201605095293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_electronic_transition> .
+
+<#offset_455_464>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radiation" ;
+        nif:beginIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9411283790038392"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electromagnetic_radiation> .
+
+<#offset_398_409>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frequencies" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998965423235628"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_481> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_210_218>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geometry" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6846855262179294"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geometry> .
+
+<#offset_298_310>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "formaldehyde" ;
+        nif:beginIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formaldehyde> .
+
+<#offset_92_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecules" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999218727"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .
+
+<#offset_13_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semiempirical" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950944213624875"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_chemistry> .
+
+<#offset_177_192>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parametrization" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9537060313812974"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parametrization> .

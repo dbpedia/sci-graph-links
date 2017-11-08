@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_401_415>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steganographic" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steganography> .
+
+<#offset_416_426>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993747803977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_373_400>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Least Significant Bit (LSB)" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Least_significant_bit> .
+
+<#offset_262_278>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unicity distance" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unicity_distance> .
+
+<#offset_0_428>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "428"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The difficulty of extracting hidden information, which is essentially a kind of secrecy, is analyzed by information-theoretic method. The relations between key rate, message rate, hiding capacity and difficulty of extraction are studied in the terms of unicity distance of stego-key, and the theoretic conclusion is used to analyze the actual extracting attack on Least Significant Bit (LSB) steganographic algorithms.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_428> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_113_134>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "information-theoretic" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_theory> .
+
+<#offset_175_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "message rate" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999708212172408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Message_register> .

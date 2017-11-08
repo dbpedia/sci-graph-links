@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_48_71>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "principal-agent problem" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_558> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principal–agent_problem> .
+
+<#offset_79_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal control" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_558> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_control> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_558> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_130_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equity" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_558> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9825503077381343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock> .
+
+<#offset_0_558>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "558"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The present study examines the dynamic principal-agent problem, in an optimal control framework, with an emphasis on the equity issues. It is demonstrated that (a) cooperative solutions will not be sustainable even if both the workers and the management have full information, and (b) most of the conventional incentive schemes can at best make cooperative behavior enduring if it can be obtained in the first instance. As such, any inference that cooperation will be a result of organizational mechanisms of this nature appears to be indefensible.\n" .

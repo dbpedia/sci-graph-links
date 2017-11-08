@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_924>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "924"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Mathematical models are presented for studying the value of leadership in a team whose composition is changing over time. The models are based on a leader's role of achieving cooperation among the interacting members so that they perform their tasks better and hence improve overall team performance. Three different approaches, modified from Kauffman's NK model, are proposed. Each model includes controllable parameters whose values reflect the amount of interaction among the workers as well as the skill and variance of the leader in achieving cooperation. Computer simulations are used to show how the skill level and variance of the leader affect the expected performance of the team. Managerial insights into the value of the leader—such as the fact that finding a more skillful leader can be more important to team performance than controlling the amount of interaction among the team members—are provided.\n" .
+
+<#offset_521_529>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "521"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999959020258141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_9_28>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mathematical models" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_model> .
+
+<#offset_632_640>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "632"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "640"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999959020258141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_570_590>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computer simulations" ;
+        nif:beginIndex          "570"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999773195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_simulation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_924> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_363_371>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NK model" ;
+        nif:beginIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999366196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NK_model> .

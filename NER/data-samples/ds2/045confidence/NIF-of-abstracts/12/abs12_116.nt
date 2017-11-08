@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_523>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "523"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The desirable orientation of buildings is the direction which performs the best throughout the year in relation to human comfort conditions. Those situations can be evaluated with the use of the Bioclimatic Chart. From the radiation vectors occurring during the underheated and overheated periods the most heat balanced orientation direction can be calculated. The method is varified by model experiments. The results indicate that in the New York-New Jersey area the optimum exposure is 18 degrees East of South.\n" .
+
+<#offset_242_249>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vectors" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9949919671898612"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_523> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_232_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radiation" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995617358962988"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radiation> .
+
+<#offset_204_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bioclimatic" ;
+        nif:beginIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_523> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Green_building> .

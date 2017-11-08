@@ -1,0 +1,424 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1159_1172>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lake Opinicon" ;
+        nif:beginIndex          "1159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Lake> , <http://schema.org/LakeBodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/BodyOfWater> , <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/BodyOfWater> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.8998007318010415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opinicon_Lake> .
+
+<#offset_752_758>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon" ;
+        nif:beginIndex          "752"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "758"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7109770488573517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_cycle> .
+
+<#offset_517_524>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "stomach" ;
+        nif:beginIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999926999408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stomach> .
+
+<#offset_470_486>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lepomis gibbosus" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pumpkinseed> .
+
+<#offset_1301_1310>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "1301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_607_620>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "zebra mussels" ;
+        nif:beginIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mollusca> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_1638_1645>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pelagic" ;
+        nif:beginIndex          "1638"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9628785749295399"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pelagic_zone> .
+
+<#offset_0_1674>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1674"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Populations of invasive species tend to have fewer parasites in their introduced ranges than in their native ranges and are also thought to have fewer parasites than native prey. This ‘release’ from parasites has unstudied implications for native predators feeding on exotic prey. In particular, shifts from native to exotic prey should reduce levels of trophically transmitted parasites. We tested this hypothesis in native populations of pumpkinseed sunfish (Lepomis gibbosus) in Lake Opinicon, where fish stomach contents were studied intensively in the 1970s, prior to the appearance of exotic zebra mussels (Dreissena polymorpha) in the mid-1990s. Zebra mussels were common in stomachs of present-day pumpkinseeds, and stable isotopes of carbon and nitrogen confirmed their importance in long-term diets. Because historical parasite data were not available in Lake Opinicon, we also surveyed stomach contents and parasites in pumpkinseed in both Lake Opinicon and an ecologically similar, neighboring lake where zebra mussels were absent. Stomach contents of pumpkinseed in the companion lake did not differ from those of pre-invasion fish from Lake Opinicon. The companion lake, therefore, served as a surrogate “pre-invasion” reference to assess effects of zebra mussel consumption on parasites in pumpkinseed. Trophically transmitted parasites were less species-rich and abundant in Lake Opinicon, where fish fed on zebra mussels, although factors other than zebra mussel consumption may contribute to these differences. Predation on zebra mussels has clearly contributed to a novel trophic coupling between littoral and pelagic food webs in Lake Opinicon.\n" .
+
+<#offset_1659_1672>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Lake Opinicon" ;
+        nif:beginIndex          "1659"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Lake> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/BodyOfWater> , <http://schema.org/BodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/LakeBodyOfWater> ;
+        itsrdf:taConfidence     "0.8998007318010415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opinicon_Lake> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1674> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_874_887>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lake Opinicon" ;
+        nif:beginIndex          "874"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/LakeBodyOfWater> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Lake> , <http://dbpedia.org/ontology/BodyOfWater> , <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/BodyOfWater> ;
+        itsrdf:taConfidence     "0.8998007318010415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opinicon_Lake> .
+
+<#offset_715_727>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pumpkinseeds" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "727"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pumpkinseed> .
+
+<#offset_512_516>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fish" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995519602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fish> .
+
+<#offset_491_504>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Lake Opinicon" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/BodyOfWater> , <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/LakeBodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/BodyOfWater> , <http://dbpedia.org/ontology/Lake> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.8998007318010415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opinicon_Lake> .
+
+<#offset_1026_1039>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "zebra mussels" ;
+        nif:beginIndex          "1026"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1039"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mollusca> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_662_675>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Zebra mussels" ;
+        nif:beginIndex          "662"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mollusca> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_1433_1446>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "zebra mussels" ;
+        nif:beginIndex          "1433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mollusca> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_387_396>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_256_265>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "predators" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999932240371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Predation> .
+
+<#offset_763_771>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nitrogen" ;
+        nif:beginIndex          "763"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986355899395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nitrogen> .
+
+<#offset_733_748>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stable isotopes" ;
+        nif:beginIndex          "733"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "748"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999547526"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stable_isotope> .
+
+<#offset_1149_1153>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fish" ;
+        nif:beginIndex          "1149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995519602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fish> .
+
+<#offset_1625_1633>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "littoral" ;
+        nif:beginIndex          "1625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Littoral_zone> .
+
+<#offset_1551_1564>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "zebra mussels" ;
+        nif:beginIndex          "1551"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1564"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mollusca> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_1314_1325>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pumpkinseed" ;
+        nif:beginIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Fish> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pumpkinseed> .
+
+<#offset_449_468>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pumpkinseed sunfish" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9979966619450922"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pumpkinseed> .
+
+<#offset_1073_1084>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pumpkinseed" ;
+        nif:beginIndex          "1073"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1084"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Fish> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pumpkinseed> .
+
+<#offset_160_169>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_363_374>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trophically" ;
+        nif:beginIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9740700895962494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/trophic_level> .
+
+<#offset_1476_1488>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "zebra mussel" ;
+        nif:beginIndex          "1476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mollusca> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_960_973>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Lake Opinicon" ;
+        nif:beginIndex          "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "973"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/LakeBodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/BodyOfWater> , <http://schema.org/BodyOfWater> , <http://dbpedia.org/ontology/Lake> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.8998007318010415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opinicon_Lake> .
+
+<#offset_927_936>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_1273_1285>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "zebra mussel" ;
+        nif:beginIndex          "1273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mollusca> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_940_951>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pumpkinseed" ;
+        nif:beginIndex          "940"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pumpkinseed> .
+
+<#offset_1400_1413>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lake Opinicon" ;
+        nif:beginIndex          "1400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Lake> , <http://dbpedia.org/ontology/BodyOfWater> , <http://schema.org/BodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/LakeBodyOfWater> ;
+        itsrdf:taConfidence     "0.8998007318010415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opinicon_Lake> .
+
+<#offset_1351_1360>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "1351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_622_642>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dreissena polymorpha" ;
+        nif:beginIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mollusca> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zebra_mussel> .
+
+<#offset_1646_1655>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "food webs" ;
+        nif:beginIndex          "1646"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.919993845891601"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Food_chain> .
+
+<#offset_906_913>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "stomach" ;
+        nif:beginIndex          "906"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "913"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999926999408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stomach> .
+
+<#offset_1421_1425>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fish" ;
+        nif:beginIndex          "1421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995519602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fish> .
+
+<#offset_1600_1607>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trophic" ;
+        nif:beginIndex          "1600"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977252467052709"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trophic_level> .
+
+<#offset_208_217>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_24_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invasive species" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996664428"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invasive_species> .
+
+<#offset_838_846>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasite" ;
+        nif:beginIndex          "838"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "846"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<#offset_60_69>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasites" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998087787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .

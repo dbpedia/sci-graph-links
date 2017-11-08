@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_476_495>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmospheric warming" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_warming> .
+
+<#offset_45_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "blood" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998201486823126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blood> .
+
+<#offset_146_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bank" ;
+        nif:beginIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.984450833040276"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bank> .
+
+<#offset_154_160>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Leiden" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9960078881624802"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leiden> .
+
+<#offset_162_177>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Netherlands" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999961499062457"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<#offset_51_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sedimentation" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7825273574055975"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sediment> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_909> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_579_582>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BSR" ;
+        nif:beginIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9463795391051739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Birmingham_Sound_Reproducers> .
+
+<#offset_212_226>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteorological" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_909> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9152432932736749"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weather> .
+
+<#offset_0_909>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "909"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract During the period from 1955 to 1966 blood sedimentation rate (Westergren method) patterns of a group of healthy male donors at the blood bank in Leiden, The Netherlands, were studied and correlated with meteorological factors. Values of 1–2 mm/1st hr were most frequent; the percentage of donors with these values varied considerably between donor days. If strong atmospheric cooling preceded the donor day the percentage of donors with 1–2 mm/1st hr was high and if atmospheric warming preceded the donor day it was low. The highest percentage of donors with these low BSR values was observed in winter and the lowest in summer. The greatest difference between average winter and summer values was 23�n 1958.The yearly average percentage of 1 to 2 mm/1st hr was 29.9�n 1955; it increased to 59�n 1958, decreased to 30.7�n 1960, increased again to 39.3�n 1963 and decreased gradually to 22.9�n 1966.\n" .

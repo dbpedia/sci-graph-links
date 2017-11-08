@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_289>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "289"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A mathematical apparatus for describing the context-free grammars of artificial languages is presented: the syntax of the language to describe them is defined, as well as logical and generative semantics, and examples are provided to show how the suggested apparatus can be used.\n" .
+
+<#offset_53_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "context-free grammars" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_289> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Context-free_grammar> .
+
+<#offset_192_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "generative semantics" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_289> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Generative_semantics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_289> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

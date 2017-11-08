@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_99_117>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "developing country" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998855109945"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developing_country> .
+
+<#offset_47_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intellectual property" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_855> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intellectual_property> .
+
+<#offset_0_855>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "855"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This study investigates the effect of intellectual property rights (IPR) enforcement in a developing country on imitation, innovation, economic growth, and welfare using a North–South quality ladder model. Unlike existing studies, this study explicitly distinguishes IPR protection and IPR enforcement by incorporating illegal imitation and seizure activity into the model. The four main results are, first, a higher seizure rate does not always decrease imitation rate in the South. Second, a higher seizure rate does not always encourage innovation in the North. Third, although a sufficiently high seizure rate is required to enhance economic growth, such a policy reform would deteriorates welfare in both the North and South. Finally, unlike seizure, prohibiting imports of illegal imitations from the South always lowers illegal imitation.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_855> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

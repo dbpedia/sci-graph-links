@@ -1,0 +1,53 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_137_147>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "centennial" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9884268787273501"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Century> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_266> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_254_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metallurgy" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999819347052995"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metallurgy> .
+
+<#offset_42_55>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999913790238247"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_0_266>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "266"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The first school of mines in the United States was founded at Columbia University almost 100 years ago. As the School nears its centennial, we take a brief look into its past and a thorough look at its present research activity with emphasis on metallurgy.\n" .
+
+<#offset_71_90>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Columbia University" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://schema.org/EducationalOrganization> ;
+        itsrdf:taConfidence     "0.9992397110355641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Columbia_University> .

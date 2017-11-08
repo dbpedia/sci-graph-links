@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_438_449>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmospheres" ;
+        nif:beginIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_533> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8116013769409613"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmosphere> .
+
+<#offset_83_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_533> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992246530597686"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<#offset_228_238>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmosphere" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_533> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7351521869822596"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmosphere_of_Earth> .
+
+<#offset_332_335>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gas" ;
+        nif:beginIndex          "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_533> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9966574815619836"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gas> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_533> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_533>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "533"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Based on the analysis of patent information, the scientific and technical literature, and research performed at the Saratov Institute of Glass, a classification is proposed for the types of protective nitrogen-hydrogen atmosphere depending on methods of its production. The methods are considered, and the main methods for gas refinement from impurities are listed. A comparative analysis of the methods for producing protective atmospheres is carried out, and the advantages and disadvantages of each method are discussed.\n" .
+
+<#offset_34_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "patent" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_533> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997696811206039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Patent> .
+
+<#offset_125_132>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Saratov" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_533> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.99932308770609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saratov> .

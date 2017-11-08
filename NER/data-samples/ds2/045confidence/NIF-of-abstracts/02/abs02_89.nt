@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_67_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "supernovae" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_352> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997573965921012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supernova> .
+
+<#offset_239_249>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scattering" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_352> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999969107074632"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scattering> .
+
+<#offset_335_345>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scattering" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_352> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999969107074632"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scattering> .
+
+<#offset_0_352>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "352"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We combine an accurate treatment of continuum transfer in supernovae envelopes with a line transfer treatment using Sobolev's approximation to analyze the influence of some physical parameters (the continuum opacity, the ratio of scattering over absorption and the temperature profile) on the emergent intensity of a resonant scattering line.\n" .
+
+<#offset_217_224>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "opacity" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_352> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995679039922"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Opacity_(optics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_352> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_83_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "approximation" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_274> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9904432245877776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Approximation> .
+
+<#offset_153_155>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "c0" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_274> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999921908511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequence_space> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_274> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_274>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "274"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The leading twist contribution to χ c0,2 → ωω decays in the color-singlet approximation is considered. It is shown that the prediction for Br(χ c0 → ωω) is in good agreement with the experimental data, while Br(χ c2 → ωω) differs from the experiment significantly.\n" .
+
+<#offset_222_224>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "c2" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_274> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7121733123058925"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon> .

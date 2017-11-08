@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_546_552>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997882299161511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<#offset_253_269>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secondary school" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "269"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7050580216499556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Secondary_school> .
+
+<#offset_170_176>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997882299161511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_702> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_373_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Test" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9974509316349466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Test_(assessment)> .
+
+<#offset_0_702>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "702"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article reports two studies that aim at further distinguishing intellectual styles from abilities by taking into account the confounding effects of age and gender on the relationship between these two constructs. Two independent groups of secondary school students responded to the Thinking Styles Inventory-Revised and took the Sternberg Triarchic Abilities Test (Level H). Both sets of results suggested that although statistically significant relationships could be identified between thinking styles and abilities, when age and gender were put under control, styles and abilities became fundamentally independent. Implications of this finding for students and teachers are discussed.\n" .

@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_317_332>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parameter space" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_350> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parameter_space> .
+
+<#offset_0_350>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "350"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The stability of the triangular libration points in the case when the first and the second order resonances appear was investigated. It was proved that the first order resonances do not cause instability. The second order resonances may lead to instability. Domains of the instability in the two-dimensional parameter space were determined.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_350> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_41_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "libration" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_350> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999871376134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Libration> .

@@ -1,0 +1,54 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_354>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "354"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Practically all the governments of countries in South East Asia have observed with close attention, and in some cases with deep mistrust and concern, recent developments of Japan’s foreign and foreign trade policies. Memories of the Imperlalist period of the Japanese Empire are still over-shadowing the relations of these countries with Japan.\n" .
+
+<#offset_57_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "South East Asia" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998698180900889"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Southeast_Asia> .
+
+<#offset_268_283>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japanese Empire" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9823985376171617"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empire_of_Japan> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_354> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_182_187>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9826385431010182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#offset_347_352>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9826385431010182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .

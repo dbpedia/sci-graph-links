@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_321_326>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyads" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1082> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999967060205928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dyad_(sociology)> .
+
+<#offset_485_505>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symbolic mathematics" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1082> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symbolic_computation> .
+
+<#offset_447_452>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyads" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1082> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999967060205928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dyad_(sociology)> .
+
+<#offset_0_1082>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1082"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This study investigated the effects of cooperative group composition, student ability, and learning accountability on achievement, interaction, and instructional efficiency during computer-based instruction. A total of 125 sixth- and seventh-grade students were randomly assigned to heterogeneous or homogeneous dyads. Groups were designated as having either group or individual account-ability for mastery of lesson content. Cooperative dyads completed a tutorial on a novel symbolic mathematics topic, featuring basic symbol learning and application of the symbols. Indicators of ongoing cooperation were collected during instruction. Five days later, students completed a posttest. Low-ability students interacted more and completed the instruction more efficiently in heterogeneous than in homogeneous groups. High-ability students completed the instruction more efficiently in homogeneous than in heterogeneous groups. Cooperation was significantly related to achievement for heterogeneous ability groups, but not for either homogeneous high- or low-ability students.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1082> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

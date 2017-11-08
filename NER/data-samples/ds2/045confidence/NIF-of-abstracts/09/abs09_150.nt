@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_161_168>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entropy" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999035416114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropy> .
+
+<#offset_449_456>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "airfoil" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Airfoil> .
+
+<#offset_427_436>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vorticity" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vorticity> .
+
+<#offset_0_515>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "515"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary In a recent paper the TSD-Euler equation for transonic flow has been derived. This equation is similar in some respects to the TSD equation but has both entropy and vorticity terms retained. In this paper the existence of multiple solutions for the TSD-Euler equation is examined and it is found that such solutions exist for a small range of Mach numbers and airfoil thickness. It is found also that the addition of a vorticity flux on the airfoil surface can enhance the appearance of multiple solutions.\n" .
+
+<#offset_53_62>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transonic" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999875325987229"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transonic> .
+
+<#offset_437_441>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flux" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994030783282101"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flux> .
+
+<#offset_368_375>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "airfoil" ;
+        nif:beginIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Airfoil> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_515> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_173_182>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vorticity" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vorticity> .
+
+<#offset_351_363>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mach numbers" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mach_number> .

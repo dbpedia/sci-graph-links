@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_120_133>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UK government" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997722796902738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Government_of_the_United_Kingdom> .
+
+<#offset_0_627>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "627"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper examines funding issues for UK Technology-based Small Firms (TBSFs). TBSFs are the cry of today and UK government like other countries is trying to increase the mass of TBSFs by various means. However, it is reported that TBSFs face many impediments to their successful development. Finance is believed as the main barrier at the early stages of TBSFs development. This paper is attempting to follow up and report if the funding situation for UK TBSFs has improved. The findings reported in this paper suggest that nearly 80�ample firms were finance constrained at the early stages of business development.\n" .
+
+<#offset_48_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9990559069146964"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<#offset_463_465>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9990559069146396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_627> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_181_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mass" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9884497276449049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mass> .
+
+<#offset_562_569>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finance" ;
+        nif:beginIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996068488338034"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finance> .
+
+<#offset_605_625>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "business development" ;
+        nif:beginIndex          "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_development> .

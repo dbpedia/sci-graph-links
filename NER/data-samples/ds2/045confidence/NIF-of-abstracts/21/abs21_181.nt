@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_47_49>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "C4" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9950352977951751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complement_component_4> .
+
+<#offset_85_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "KB" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9878469012885783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kilobyte> .
+
+<#offset_256_265>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diffusion" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6952256216436234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffusion> .
+
+<#offset_12_21>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antigenic" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antigen> .
+
+<#offset_0_425>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "425"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The antigenic relationship between the C4-inactivating substance produced by KB cell cultures and the first component of human complement was studied. The antigenic identity of the two substances has been demonstrated applying Ouchterlony's double diffusion method and a special haemagglutination-inhibition method developed by the authors. The site of synthesis of human C1 and its subcomponents has been discussed.\n" .
+
+<#offset_163_172>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antigenic" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antigen> .
+
+<#offset_88_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cell cultures" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999985789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_culture> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_425> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

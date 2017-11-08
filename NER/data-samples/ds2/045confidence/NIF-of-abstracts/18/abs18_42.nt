@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_709_719>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federalism" ;
+        nif:beginIndex          "709"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.658878254303893"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federation> .
+
+<#offset_358_378>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heterogeneous agents" ;
+        nif:beginIndex          "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heterogeneity_in_economics> .
+
+<#offset_0_778>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "778"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Occupational Safety and Health Act (OSH Act) gives states the option to enforce federal occupational safety and health standards on their own instead of relying on the federal Occupational Health and Safety Administration (OSHA). This legislative provision provides an opportunity to analyze a homogenous set of regulatory standards enforced by heterogeneous agents engaged in interjurisdictional competition. This study finds important differences in the effectiveness of enforcement options measured by occupational mortality. State-administered OSHA programs are associated with fewer workplace fatalities than states regulated at the federal level. This finding is consistent with regulatory federalism and government-as-facilitator models of OSHA enforcement.\n" .
+
+<#offset_760_764>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSHA" ;
+        nif:beginIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://schema.org/GovernmentOrganization> ;
+        itsrdf:taConfidence     "0.9915330080371856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Occupational_Safety_and_Health_Administration> .
+
+<#offset_49_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "OSH Act" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Occupational_Safety_and_Health_Act> .
+
+<#offset_236_240>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSHA" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://schema.org/GovernmentOrganization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/GovernmentAgency> ;
+        itsrdf:taConfidence     "0.9915330080371856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Occupational_Safety_and_Health_Administration> .
+
+<#offset_531_540>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mortality" ;
+        nif:beginIndex          "531"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8395253768733537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mortality_rate> .
+
+<#offset_93_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7555748387979548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_778> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_651_658>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7555748387979548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<#offset_181_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7555748387979548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<#offset_561_565>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSHA" ;
+        nif:beginIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9915330080371856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Occupational_Safety_and_Health_Administration> .

@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_153_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite element" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_element_method> .
+
+<#offset_79_88>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gyroscope" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999359259866"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gyroscope> .
+
+<#offset_168_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8612400813261314"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_520> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_306_323>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "harmonic analysis" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9934492100824043"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Harmonic_analysis> .
+
+<#offset_52_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lateral axis" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flight_control_surfaces> .
+
+<#offset_508_518>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capacitors" ;
+        nif:beginIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capacitor> .
+
+<#offset_251_265>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modal analysis" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999949926122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modal_analysis> .
+
+<#offset_0_520>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "520"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper proposes a method to simulate a lateral axis micromachined gyroscope in the presence of two kinds of fabrication imperfections using finite element simulation. Non-ideal performances caused by lateral over-etching are simulated by modal analysis. Beam width variations are simulated by harmonic analysis. Simulation and discussion of the asymmetric motion caused by beam width variations show the advantage of our design with doubly decoupled structure and special arrangement of sensing capacitors.\n" .

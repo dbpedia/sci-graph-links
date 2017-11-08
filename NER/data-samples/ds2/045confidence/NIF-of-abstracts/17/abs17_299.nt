@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1205_1221>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Nordic countries" ;
+        nif:beginIndex          "1205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.999169608460121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nordic_countries> .
+
+<#offset_363_372>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive" ;
+        nif:beginIndex          "363"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998976189760829"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognition> .
+
+<#offset_454_464>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "depression" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9886093698724314"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depression_(mood)> .
+
+<#offset_396_407>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "self-esteem" ;
+        nif:beginIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Self-esteem> .
+
+<#offset_526_535>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive" ;
+        nif:beginIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998976189760829"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognition> .
+
+<#offset_437_452>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "negative affect" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999270580513"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Affect_(psychology)> .
+
+<#offset_264_273>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Norwegian" ;
+        nif:beginIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9607580755558072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Norway> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1335> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1335>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1335"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The study explores and distinguishes links between parental status (childless persons, parents with residential children, and empty nest parents) and a range of psychological well-being outcomes in midlife and old age. Data are from the first wave of the Norwegian Life Course, Ageing and Generation (NorLAG) study (n = 5,189). We separate outcomes into cognitive (life satisfaction and self-esteem) and affective (positive and negative affect, depression, loneliness) components. Parental status has a net effect on cognitive well-being among women, as childless women report significantly lower life satisfaction and self-esteem than both mothers with residential children and empty nest mothers. However, motherhood is inconsequential for affective well-being. Among men, parental status is unrelated to any of the well-being aspects. Parental status effects are not modified by age, marital status, and education. The results demonstrate the importance of investigating the effect of parental status and other objective circumstances on a range of psychological well-being outcomes. Furthermore, the results reviewed and presented indicate somewhat more positive effects of parenthood in the Nordic countries than in the US, highlighting the role of social policies in shaping the impact of parental status on well-being.\n" .
+
+<#offset_628_639>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "self-esteem" ;
+        nif:beginIndex          "628"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1335> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Self-esteem> .

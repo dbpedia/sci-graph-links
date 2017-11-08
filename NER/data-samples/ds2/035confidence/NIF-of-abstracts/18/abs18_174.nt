@@ -1,0 +1,82 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_89_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trisomy" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trisomy> .
+
+<#offset_304_318>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "translocations" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chromosomal_translocation> .
+
+<#offset_256_263>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trisomy" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trisomy> .
+
+<#offset_0_361>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Minor abnormalities are described in an 11-month-old female in which a “de novo” trisomy 1q32→1qter and a monosomy 3p25→ter has been produced. The amount of the exceeding material in this case is less than that found in previous reports of partial trisomy 1q and in cases of parental 1q balanced translocations which has originated recurrent abortions.\n" .
+
+<#offset_114_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monosomy" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monosomy> .
+
+<#offset_350_359>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "abortions" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.999995833643009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abortion> .
+
+<#offset_80_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "de novo" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999985300910911"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mutation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_128_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ter" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987995617438429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transport_express_régional> .

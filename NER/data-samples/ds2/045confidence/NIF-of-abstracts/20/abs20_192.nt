@@ -1,0 +1,62 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_806>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "806"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The present study examined the language and literacy skills and their relations to each other in multilingual children, who have a broad range of oral and written language proficiency in each language that they “know”. Reading and vocabulary skills were tested in 50 Canadian children (ages 6–10 years) who were Urdu–English speakers, learning Arabic. Reading skills were related to within-language oral proficiency and across languages with similar and different orthographies. The results suggest the need for hybrid models of language acquisition that combine language-general and language-specific components. The results also are discussed in terms of the need to consider the language and literacy skills of multilingual individuals in current theories of language and literacy acquisition.\n" .
+
+<#offset_228_235>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Reading" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reading_(process)> .
+
+<#offset_361_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Reading" ;
+        nif:beginIndex          "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reading_(process)> .
+
+<#offset_276_284>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canadian" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.8438498747033286"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_806> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_353_359>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Arabic" ;
+        nif:beginIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.6047221109032205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arabic_language> .
+
+<#offset_538_558>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language acquisition" ;
+        nif:beginIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_806> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_acquisition> .

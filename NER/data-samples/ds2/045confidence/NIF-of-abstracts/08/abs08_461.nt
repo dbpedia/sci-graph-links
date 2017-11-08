@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_377_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptography" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_516> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999914744848492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptography> .
+
+<#offset_0_516>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "516"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Although the sealed second-price or Vickrey auctions have some nice theoretical properties, they are fairly seldom utilized in practice. It has been suggested that they are vulnerable to bid-taker cheating and that the revelation of bids after the bidding makes the bidders reluctant to reveal their true valuations. We outline procedures based on modern mathematical cryptography that are instrumental in avoiding some of these difficulties and thereby will improve the properties of the Vickrey auctions.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_516> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

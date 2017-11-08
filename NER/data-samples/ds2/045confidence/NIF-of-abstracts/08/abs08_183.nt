@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_110_120>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multimedia" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_560> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999974485863993"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multimedia> .
+
+<#offset_0_560>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "560"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present a compression scheme that is useful for interactive video applications such as browsing a multimedia database. The focus of our approach the development of a compression scheme (and a corresponding retrieval scheme) that is optimal for any data rate. To browse a multimedia database, such a compression scheme is essential. We use a multiresolution setting, but eliminate the need for wavelets. This results in much better compression. We show experimental results and explain in detail how to extend our approach to multidimensional data.\n" .
+
+<#offset_283_293>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multimedia" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_560> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999974485863993"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multimedia> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_560> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_405_413>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wavelets" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_560> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971307300231512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelet> .

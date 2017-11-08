@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_52_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health care" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1302> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999982279949574"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<#offset_953_958>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "actor" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1302> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916816257462089"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Actor> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1302> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_857_869>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quasi-market" ;
+        nif:beginIndex          "857"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1302> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999865830206"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quasi-market> .
+
+<#offset_0_1302>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1302"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Quasi-markets have been created within the health care sector in many countries. One commonly used market model is the purchaser–provider split, which implies that purchasers use contracts to control the providers. A hierarchical organizational solution is replaced by a contractual relation. This article shows that creating quasi-markets in public organizations is complicated by the need to balance the market actors’ (the sub-units) autonomy and the efficiency of the entire public organization. The market actors have limited opportunities to work as autonomous units. The initial aim when creating market actors is to reduce their complexity by giving them distinct responsibilities and authorities. Reducing complexity in some parts of the organization, however, seems to cause problems in other parts. In the article, this effect is called quasi-market externalities or “overflows.” The overflows result in less autonomy for the market actor because the market frame has to be changed. Fiscal pressures, volatile political actors and strong professions are sources of overflow and subsequent changes in the market frame. The conclusion is that it is difficult, perhaps impossible, to create and maintain contractual relationships when both parties are dependent on the same principal.\n" .

@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_313_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polarimeters" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polarimeter> .
+
+<#offset_227_239>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solar flares" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999568418142718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solar_flare> .
+
+<#offset_45_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polarimetry" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7132184247708139"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polarimetry> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_417> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_417>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "417"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The scientific motivation for X-ray polarimetry is discussed with particular emphasis on the information that might be obtained on the binary X-ray pulsars in addition to a number of other classes of objects including solar flares. Detailed discussions are given for Thomson-scattering and Bragg-crystal polarimeters with numerical estimates for the sensitivity of various existing and proposed instruments.\n" .
+
+<#offset_151_164>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "X-ray pulsars" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/X-ray_pulsar> .
+
+<#offset_39_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "X-ray" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999453475990592"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/X-ray> .
+
+<#offset_144_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.986449579600084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_star> .

@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_752_760>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "752"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_813> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996448423"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<#offset_801_811>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "token ring" ;
+        nif:beginIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_813> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Token_ring> .
+
+<#offset_620_642>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication protocol" ;
+        nif:beginIndex          "620"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "642"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_813> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<#offset_420_435>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "message passing" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_813> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Message_passing> .
+
+<#offset_0_813>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "813"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A self-stabilizing system has the property that it will converge to a desirable state when started from any state. Most previous researchers assumed that processes in self-stabilizing systems may communicate through shared variables while those that studied meassage passing systems allowed messages with unbounded size. This paper discusses the development of self-stabilizing systems which communicate through message passing, and in which messages may be lost in transit. The systems presented all use fixed size message headers. First, a selfstabilizing version of theAlternating Bit Protocol, a fundamental communication protocol for transmitting data across an unreliable communication medium, is presented. Secondly, the alternating-bit protocol is used to construct a self-stabilizing token ring.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_813> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_474_481>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_813> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7482123564107537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .

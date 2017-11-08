@@ -1,0 +1,134 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_871_878>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "routing" ;
+        nif:beginIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "878"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999707319747718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Routing> .
+
+<#offset_344_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability distribution" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999515694"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability_distribution> .
+
+<#offset_600_613>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real networks" ;
+        nif:beginIndex          "600"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RealNetworks> .
+
+<#offset_57_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "small-world networks" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Small-world_network> .
+
+<#offset_0_1654>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1654"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we study decentralized routing in small-world networks that combine a wide variation in node degrees with a notion of spatial embedding. Specifically, we consider a variant of J. Kleinberg’s grid-based small-world model in which (1) the number of long-range edges of each node is not fixed, but is drawn from a power-law probability distribution with exponent parameter $$\\alpha \\ge 0$$ α≥0 and constant mean, and (2) the long-range edges are considered to be bidirectional for the purposes of routing. This model is motivated by empirical observations indicating that several real networks have degrees that follow a power-law distribution. The measured power-law exponent $$\\alpha $$ α for these networks is often in the range between 2 and 3. For the small-world model we consider, we show that when $$2 < \\alpha < 3$$ 2<α<3 the standard greedy routing algorithm, in which a node forwards the message to its neighbor that is closest to the target in the grid, finishes in an expected number of $$O(\\log ^{\\alpha -1} n\\cdot \\log \\log n)$$ O(logα-1n·loglogn) steps, for any source–target pair. This is asymptotically smaller than the $$O(\\log ^2 n)$$ O(log2n) steps needed in Kleinberg’s original model with the same average degree, and approaches $$O(\\log n)$$ O(logn) as $$\\alpha $$ α approaches 2. Further, we show that when $$0\\le \\alpha < 2$$ 0≤α<2 or $$\\alpha \\ge 3$$ α≥3 the expected number of steps is $$O(\\log ^2 n)$$ O(log2n) , while for $$\\alpha = 2$$ α=2 it is $$O(\\log ^{4/3} n)$$ O(log4/3n) . We complement these results with lower bounds that match the upper bounds within at most a $$\\log \\log n$$ loglogn factor.\n" .
+
+<#offset_334_343>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law" ;
+        nif:beginIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_225_236>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "small-world" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Small-world_network> .
+
+<#offset_777_788>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "small-world" ;
+        nif:beginIndex          "777"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Small-world_network> .
+
+<#offset_678_687>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_879_888>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "879"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1654> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1044_1048>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cdot" ;
+        nif:beginIndex          "1044"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1048"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/GovernmentOrganization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.8155712409814867"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colorado_Department_of_Transportation> .
+
+<#offset_517_524>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "routing" ;
+        nif:beginIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999707319747718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Routing> .
+
+<#offset_46_53>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "routing" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999707319747718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Routing> .
+
+<#offset_641_650>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law" ;
+        nif:beginIndex          "641"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .

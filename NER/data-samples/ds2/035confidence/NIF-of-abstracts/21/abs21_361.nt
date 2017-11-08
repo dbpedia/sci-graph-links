@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_32_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteor shower" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994095961748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteor_shower> .
+
+<#offset_398_403>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Adolf" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Politician> , <http://dbpedia.org/ontology/President> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9996874646086039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adolf_Hitler> .
+
+<#offset_356_363>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "painter" ;
+        nif:beginIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998359800133166"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Painting> .
+
+<#offset_301_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "astronomers" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9911980479931376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Astronomer> .
+
+<#offset_385_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "engraver" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991590471069705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Engraving> .
+
+<#offset_0_412>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "412"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The world's most famous meteor shower picture (Fig. 1) is of the storm that took place in the early morning of Wednesday, 13 November 1833. The picture was, however, produce 54 years after the event, being first published in April 1888. It had a biblical origin and was only taken over by the astronomers in the mid 1920s. The artist was the Swiss painter Karl Jauslin and the engraver was Adolf Völlmy.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_412> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_350_355>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Swiss" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999848869755441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Switzerland> .
+
+<#offset_254_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biblical" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_412> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9953071730728649"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bible> .

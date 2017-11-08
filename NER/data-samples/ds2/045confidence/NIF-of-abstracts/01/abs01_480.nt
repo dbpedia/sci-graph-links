@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_56_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Einstein" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999978646707238"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_relativity> .
+
+<#offset_275_282>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "torsion" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999740794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Torsion_tensor> .
+
+<#offset_403_416>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularities" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993016176732238"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gravitational_singularity> .
+
+<#offset_0_506>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The necessity for the cosmological term in the Einstein and other theories of gravitation is emphasized; in these theories a “compensation” interpretation of the gravitational field as a calibration field is of fundamental importance and it leads, in particular, to torsion and nonlinearities for spinor and other fields. In conjunction with these ideas, the importance of allowing for exposed singularities is pointed out and their analogy with the latest elementary particle models is stressed.\n" .
+
+<#offset_171_190>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gravitational field" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9423296606149539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gravitational_field> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_196_207>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calibration" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999645646992785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calibration> .
+
+<#offset_306_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spinor" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999702176002195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spinor> .
+
+<#offset_466_485>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elementary particle" ;
+        nif:beginIndex          "466"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9936384963871273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elementary_particle> .

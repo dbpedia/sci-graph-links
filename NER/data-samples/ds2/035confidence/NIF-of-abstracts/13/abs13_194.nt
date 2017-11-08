@@ -1,0 +1,97 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_245_258>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "undergraduate" ;
+        nif:beginIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999735417764956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Undergraduate_education> .
+
+<#offset_282_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Calculus" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996314273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calculus> .
+
+<#offset_87_108>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "completeness property" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998304324544732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Completeness_(order_theory)> .
+
+<#offset_64_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real numbers" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6837190065993319"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_number> .
+
+<#offset_462_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999022882379874"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics> .
+
+<#offset_447_457>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "praxeology" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Praxeology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_702> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_410_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Didactics" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Didactic_method> .
+
+<#offset_0_702>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "702"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper focuses on teaching and learning the set of real numbers R and its completeness property at the university level. It studies, in particular, the opportunities for understanding this property that students are offered in four undergraduate correlative courses in Calculus and Analysis. The theoretical framework used in the study draws on concepts developed in the Anthropological Theory of Didactics, especially the notions of praxeology and mathematical organization. The paper shows different expectations concerning the same notion (R and its completeness) through different school levels, and intends to bring up some reflections about the transition from Calculus to Analysis.\n" .
+
+<#offset_384_406>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Anthropological Theory" ;
+        nif:beginIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/PeriodicalLiterature> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/AcademicJournal> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anthropological_Theory> .
+
+<#offset_680_688>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Calculus" ;
+        nif:beginIndex          "680"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "688"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996314273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calculus> .

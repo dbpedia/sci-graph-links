@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_330_341>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "terrestrial" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5230745564094302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Terrestrial_animal> .
+
+<#offset_301_310>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power law" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999800945771133"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_57_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999459593042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_182_189>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadrat" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980700486815428"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrat> .
+
+<#offset_0_361>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Crowding effect in natural populations of three species ofSargassum, subtidal marine macrophytic algae, was investigated by harvesting all plants within a 1×1 m or 0.5×0.5m quadrat located at depths of 3–5m in Tanabe Bay (33°41′N and 135°20′E).Sargassum populations conformed to the same 3/2 power law that holds in many terrestrial plant populations.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_253_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sargassum" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sargassum> .
+
+<#offset_78_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subtidal" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999972308281401"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Littoral_zone> .
+
+<#offset_106_111>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algae" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999780597937763"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algae> .
+
+<#offset_87_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marine" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.984543941092912"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marine_(ocean)> .

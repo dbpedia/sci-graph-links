@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_717>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "717"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The ISO-standard for LCA distinguishes four phases, of which the last one, the interpretation, is the least elaborated. It can be regarded as containing procedural steps (like a completeness check) as well as numerical steps (like a sensitivity check). This paper provides five examples of techniques that can be used for the numerical steps. These are the contribution analysis, the perturbation analysis, the uncertainty analysis, the comparative analysis, and the discernibility analysis. All five techniques are described at a non-technical level with respect to basic concept, possibilities, tabular and graphical representation, restriction and warnings, and all are illustrated with a simple example.\n" .
+
+<#offset_420_440>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uncertainty analysis" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_717> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9517425633577126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uncertainty_analysis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_717> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_393_414>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perturbation analysis" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_717> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999543547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perturbation_theory> .

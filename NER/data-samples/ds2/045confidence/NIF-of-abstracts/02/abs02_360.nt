@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_35_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hartree-Fock" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_381> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hartree–Fock_method> .
+
+<#offset_369_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_381> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9854830071503817"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<#offset_0_381>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "381"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The famous sum rule due to Hartree-Fock is used to produce an extremely simple approximation for evaluating the nuclear single-particle energy eigenvalues with the experimental total binding energies as the only input data. Comparison of the predicted spectra (for 4 ≤A ≤90) with experiment and literature results provides support for the method and associated philosophy.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_381> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_144_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_381> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999015637335494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .
+
+<#offset_151_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalues" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_381> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999603801"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .

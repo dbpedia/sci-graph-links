@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_371>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "371"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  This paper is devoted to a general concept of openness and closedness with respect to arbitrary fuzzy relations – along with appropriate opening and closure operators. It is shown that the proposed framework unifies existing concepts, in particular, the one for fuzzy preorderings as well as the triangular norm-based approach to fuzzy mathematical morphology.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_371> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_159_176>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "closure operators" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Closure_operator> .
+
+<#offset_69_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "closedness" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Closed_set> .
+
+<#offset_346_369>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical morphology" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "369"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_morphology> .

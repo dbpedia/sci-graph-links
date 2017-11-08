@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_201_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LDCs" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999548177253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Least_developed_country> .
+
+<#offset_33_55>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Special Drawing Rights" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Special_drawing_rights> .
+
+<#offset_0_343>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "343"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The introduction of the Special Drawing Rights (SDRs) has not fulfilled the wishes of the LDCs. Whereas the industrialised countries look upon SDRs simply as international liquidity reserves, LDCs aim at the linking of SDRs with development aid. Is their concept really as out of place as the industrialised countries maintain it is?\n" .
+
+<#offset_181_190>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "liquidity" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9978667583339859"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Market_liquidity> .
+
+<#offset_99_103>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LDCs" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999548177253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Least_developed_country> .
+
+<#offset_117_141>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "industrialised countries" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989729373964197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developed_country> .
+
+<#offset_238_253>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "development aid" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7272954266887279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Development_aid> .
+
+<#offset_302_326>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "industrialised countries" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989729373964197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developed_country> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_343> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

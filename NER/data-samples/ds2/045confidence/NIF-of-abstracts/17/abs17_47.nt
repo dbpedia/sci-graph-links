@@ -1,0 +1,134 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_940_953>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microsaccades" ;
+        nif:beginIndex          "940"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "953"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsaccade> .
+
+<#offset_366_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microsaccades" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsaccade> .
+
+<#offset_276_288>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "visual field" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Visual_field> .
+
+<#offset_130_143>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eye movements" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saccade> .
+
+<#offset_1230_1243>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "visual system" ;
+        nif:beginIndex          "1230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Visual_system> .
+
+<#offset_518_528>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oculomotor" ;
+        nif:beginIndex          "518"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> , <http://dbpedia.org/ontology/Nerve> ;
+        itsrdf:taConfidence     "0.999976908828226"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oculomotor_nerve> .
+
+<#offset_559_572>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microsaccades" ;
+        nif:beginIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsaccade> .
+
+<#offset_87_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oculomotor" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Nerve> , <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.999976908828226"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oculomotor_nerve> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1273> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1273>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1273"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Eyes never stop moving. Even when asked to maintain the eyes at fixation, the oculomotor system produces small and rapid eye movements called microsaccades, at a frequency of about 1.5–2 s−1. The frequency of microsaccades changes when a stimulus is presented in the visual field, showing a stereotyped response pattern consisting of an early inhibition of microsaccades followed by a rebound, before the baseline is reached again. Although this pattern of response has generally been considered as a sort of oculomotor reflex, directional biases in microsaccades have been recently linked to the orienting of spatial attention. In the present study, we show for the first time that regardless of any spatial bias, the pattern of absolute microsaccadic frequency is different for oddball stimuli compared to that elicited by standard stimuli. In a visual-oddball task, the oddball stimuli caused an initial prolonged inhibition of microsaccades, particularly when oddballs had to be explicitly recognized and remembered. The present findings suggest that high-order cognitive processes, other than spatial attention, can influence the frequency of microsaccades. Finally, we also introduce a new method for exploring the visual system response to oddball stimuli.\n" .
+
+<#offset_529_535>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reflex" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999861302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reflex> .
+
+<#offset_151_164>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microsaccades" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsaccade> .
+
+<#offset_1157_1170>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microsaccades" ;
+        nif:beginIndex          "1157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsaccade> .
+
+<#offset_218_231>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microsaccades" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsaccade> .
+
+<#offset_1075_1084>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive" ;
+        nif:beginIndex          "1075"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1084"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990073689938"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognition> .

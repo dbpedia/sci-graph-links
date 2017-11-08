@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_420>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "420"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary. In standard first-passage percolation on ${\\Bbb Z}^d$ (with $d\\geq 2$), the time-minimizing paths from a point to a plane at distance $L$ are expected to have transverse fluctuations of order $L^\\xi$. It has been conjectured that $\\xi(d)\\geq 1/2$ with the inequality strict (superdiffusivity) at least for low $d$ and with $\\xi(2)=2/3$. We prove (versions of) $\\xi(d)\\geq 1/2$ for all $d$ and $\\xi(2)\\geq 3/5$.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_420> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_144_146>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "L$" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9535285394487732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economy_of_Second_Life> .
+
+<#offset_35_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "percolation" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999983460350599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Percolation_theory> .

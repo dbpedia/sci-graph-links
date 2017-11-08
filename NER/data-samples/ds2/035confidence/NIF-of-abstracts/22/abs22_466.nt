@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_139_148>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "illusions" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_550> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.989686950044176"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Illusion> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_550> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_550>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "550"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Two approaches to the analysis of the twisted cord illusion are discussed. One suggests that the illusion is produced by embedded illusions (e.g., Zollner’s illusion); the other points to nonillusion features such as the lines of the cord strands. A number of novel variations of the illusion are presented, and four experiments using these variations are described in an attempt to discern which of the two approaches was more viable. The implications of these remits for various theories, including a multicomponent theory, are discussed.\n" .

@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_202_207>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "curve" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999294231680892"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Curve> .
+
+<#offset_60_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algebraic curve" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algebraic_curve> .
+
+<#offset_167_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dual" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999819258238464"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dual_space> .
+
+<#offset_39_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dual" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999819258238464"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dual_space> .
+
+<#offset_180_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "duals" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950915784370236"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Duality_(mathematics)> .
+
+<#offset_142_152>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "osculating" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8663525054600372"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Osculate> .
+
+<#offset_49_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "projective" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4333932152518287"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Projective_module> .
+
+<#offset_87_110>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "positive characteristic" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Characteristic_(algebra)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_373> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_373>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "373"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper studies the strict dual of a projective algebraic curve, mainly in positive characteristic. Inclusion relations among the osculating spaces of the dual and the duals of those of the curve are obtained and shown to be optimal in several cases. As a consequence, a characterization of the non-reflexive curves that coincide with their bidual is obtained.\n" .

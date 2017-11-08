@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_828>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "828"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As in international schooling contexts, talk about data-driven practice has become ubiquitous in schooling dialogues in the USA, and with the pending reauthorization of the No Child Left Behind Act (the main driver of increased data use in American schools), educators in the USA should expect even greater calls for formalized data use. Yet, the field lacks readily accessible tools that allow school district leaders and evaluators to examine educator perceptions related to data-informed practice. This paper outlines the process used in the development, testing, and validation of one instrument that district leaders and evaluators may use to learn more about the ways in which data are used and perceived in their respective contexts. Potential applications as well as limitations of the instrument are outlined.\n" .
+
+<#offset_249_257>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_828> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9998207016289925"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_285_288>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "USA" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_828> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999883573641641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_133_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "USA" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_828> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999883573641641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_182_206>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "No Child Left Behind Act" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_828> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/No_Child_Left_Behind_Act> .
+
+<#offset_614_622>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "district" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_828> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.992041771619879"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/District> .
+
+<#offset_404_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "school district" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_828> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7911176473277279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/School_district> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_828> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

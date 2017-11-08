@@ -1,0 +1,125 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_999>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "999"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Recognition of same-sex relationships is receiving increasing national attention in the United States. This paper discusses the current availability of employee rights in the United States on the basis of marital status to same-sex couples, and both the direct and indirect economic consequences to organizations of providing such rights. Despite legal recognition in some states and by many employers in the private sector, the availability of marital rights in the workplace for same-sex couples remains tenuous, at most. Although the direct economic consequences of same-sex relationships remain a matter of debate, the indirect economic advantages are several, including being an employer of choice and having a favorable reputation in the consumer, stockholder, and applicant marketplace. Employers should counterbalance indirect economic benefits with opposition to same-sex relationships, including product boycotts. The issue cannot be ignored from a legal or economic perspective.\n" .
+
+<#offset_24_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "same-sex relationships" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990300339040168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Same-sex_relationship> .
+
+<#offset_97_110>  a             nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9979831789097191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_184_197>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9979831789097191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_490_506>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "same-sex couples" ;
+        nif:beginIndex          "490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9203684722992124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Same-sex_marriage> .
+
+<#offset_232_248>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "same-sex couples" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9203684722992124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Same-sex_marriage> .
+
+<#offset_790_801>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marketplace" ;
+        nif:beginIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "801"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8257441060022872"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marketplace> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_999> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_214_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marital status" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999714305"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marital_status> .
+
+<#offset_923_931>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "boycotts" ;
+        nif:beginIndex          "923"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999771482637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boycott> .
+
+<#offset_881_903>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "same-sex relationships" ;
+        nif:beginIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990300339040168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Same-sex_relationship> .
+
+<#offset_578_600>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "same-sex relationships" ;
+        nif:beginIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990300339040168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Same-sex_relationship> .
+
+<#offset_418_432>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "private sector" ;
+        nif:beginIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999880437828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Private_sector> .
+
+<#offset_454_468>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marital rights" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marital_life_estate> .

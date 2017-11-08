@@ -1,0 +1,81 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_882>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "882"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Languages differ with respect to how aspects of motion events tend to be lexicalized. English typically conflates MOTION with MANNER, but Japanese and Spanish typically do not. We report a set of experiments that assessed the effect of this cross-linguistic difference on participants' decisions in a similarity-judgment task about scenes containing novel animations as stimuli. In Experiment 1, which required participants to encode the stimuli briefly into memory, we observed a language effect; in Experiment 2, which required participants to analyze the same stimuli, but not remember them, the language effect disappeared. Hence, these experiments reveal a task-dependent effect, which, we argue, points to working memory as the source of the language effect observed in Experiment 1 and, potentially, other experiments that have shown a linguistic relativity effect.\n" .
+
+<#offset_147_155>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japanese" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9998006469669211"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japanese_language> .
+
+<#offset_82_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexicalized" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997540954"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicalisation> .
+
+<#offset_95_102>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999634343993786"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<#offset_852_873>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linguistic relativity" ;
+        nif:beginIndex          "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linguistic_relativity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_882> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_721_735>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "working memory" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995277192376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Working_memory> .
+
+<#offset_160_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Spanish" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9898240017871908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanish_language> .
+
+<#offset_468_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998430553"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .

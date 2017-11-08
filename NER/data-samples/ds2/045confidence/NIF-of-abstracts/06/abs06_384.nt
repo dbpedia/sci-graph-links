@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_256_268>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biogeography" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biogeography> .
+
+<#offset_246_254>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxonomy" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998917740956427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taxonomy_(biology)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_505> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_224_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corals" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9998477809956887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coral> .
+
+<#offset_285_302>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular biology" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999996362"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_biology> .
+
+<#offset_270_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "palaeontology" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paleontology> .
+
+<#offset_23_29>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Darwin" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999996958877"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Charles_Darwin> .
+
+<#offset_0_505>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "505"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Recipients of Darwin Medals from the International Society of Reef Studies are requested to write an overview of the work that led to their award. This account is a personal perspective of thirty-five years work on corals. The fields of taxonomy, biogeography, palaeontology, molecular biology, and evolution are presented in an historical context. Emphasis is given to the changing relevance of these fields to today’s world of information technology and the ever-increasing conservation needs.\n" .
+
+<#offset_308_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_505> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995138698492286"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .

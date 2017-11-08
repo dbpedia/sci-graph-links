@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_875> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_455_476>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantic differential" ;
+        nif:beginIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantic_differential> .
+
+<#offset_0_875>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "875"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Imagination plays a key role in various domains in helping to create innovative ideas, drawings, poems, movies, products, etc. In product design domain, the personal characteristics of imagination are crucial abilities for conceiving novel ideas during design processes. This study focuses on personal characteristic differences and similarities between expert and novice designers for triggering imagination during four design stages. Using the semantic differential method, this study conducted a questionnaire with ten-paired personal characteristics, and analyzed several identical and different characteristics of expert and novice designers in the process of product design. In sum, the similarities and differentials of personal characteristics between expert and novice designers within four product design stages will be concluded at the end of this paper.\n" .

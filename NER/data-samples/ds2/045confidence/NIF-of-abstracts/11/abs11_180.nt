@@ -1,0 +1,54 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_11_31>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrophysiological" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_367> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9666595617900027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrophysiology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_367> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_353_359>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rabbit" ;
+        nif:beginIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_367> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.898826278610969"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rabbit> .
+
+<#offset_221_231>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "emmetropic" ;
+        nif:beginIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_367> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9397197946076364"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Refractive_error> .
+
+<#offset_201_207>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "rabbit" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_367> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.898826278610969"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rabbit> .
+
+<#offset_0_367>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "367"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary An electrophysiological method was employed to measure the minima visibilia (single line acuity) of single tectal units. According to the minima visibilia determined at different distances the rabbit's eye has an emmetropic refractive state. By applying drugs preventing accommodation it was shown that no measurable accommodation occurs in the rabbit's eye.\n" .

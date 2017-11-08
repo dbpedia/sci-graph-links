@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_837_847>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-linear" ;
+        nif:beginIndex          "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "847"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9845912184138023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_1217_1230>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neo-Piagetian" ;
+        nif:beginIndex          "1217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neo-Piagetian_theories_of_cognitive_development> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1262> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1262>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1262"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper explored (1) the developmental trend of student level of reasoning across grade level in pattern generalization; (2) the mediatory role of task variables in the developmental trend of student level of reasoning within and across tasks; and (3) developmental trend of student level of reasoning associated with strategy use across grade level. A test designed to measure student level of reasoning was given to a sample of 1232 students from grades 4 to 11 from 5 schools in Lebanon. The Structure of the Learned Outcomes or Responses (SOLO) was used as a theoretical model. Results show that student level of reasoning exhibited an increasing trend across clusters of grade levels and that there were several SOLO levels in each cluster of grade levels. Type of task (immediate, near, far) and function type (linear, non-linear) seem to mediate the development of level of reasoning across grade level but the complexity of the task (simple, more complex) did not. Students used several strategies in each cluster of grade levels and the developmental trends of student level of reasoning associated with strategy use were not uniform and varied across clusters of grade levels, thus supporting a neo-Piagetian interpretation of the results.\n" .
+
+<#offset_494_501>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lebanon" ;
+        nif:beginIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1262> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9998065552866703"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lebanon> .

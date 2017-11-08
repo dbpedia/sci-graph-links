@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_71_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995930994944557"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library_(computing)> .
+
+<#offset_453_470>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complex structure" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986796440649901"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complex_manifold> .
+
+<#offset_327_338>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cartography" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999729182608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartography> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_577> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_577>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "577"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We analyze web-downloaded data on people sharing their music library. By attributing to each music group usual music genres (Rock, Pop ...), and analysing correlations between music groups of different genres with percolation-idea based methods, we probe the reality of these subdivisions and construct a music genre cartography, with a tree representation. We also discuss an alternative objective way to classify music, that is based on the complex structure of the groups audience. Finally, a link is drawn with the theory of hidden variables in complex networks.\n" .
+
+<#offset_559_575>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complex networks" ;
+        nif:beginIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9877423056244655"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complex_system> .
+
+<#offset_539_555>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hidden variables" ;
+        nif:beginIndex          "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999398824"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hidden_variable_theory> .

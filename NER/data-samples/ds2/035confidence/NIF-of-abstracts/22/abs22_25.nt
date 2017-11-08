@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_78_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Poststructuralism" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Post-structuralism> .
+
+<#offset_0_778>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "778"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract First I would like to thank Clarence Joldersma for his review of our Poststructuralism, Philosophy, Pedagogy (Marshall, 2004-PPP). In particular, I would thank him for his opening sentence: “[t]his book is a response to a lack.” It is the notion of a lack, noted again later in his review, which I wish to take up mainly in this response. Rather than defending or elaborating our particular contributions to PPP—the latter would be a great indignity to my colleagues as I would not write over them—I will take the opportunity to develop the theme of a lack, as I believe that Joldersma has raised a very important issue. But first I will respond briefly to some of Joldersma’s general and opening statements about the book, and my philosophical position in particular.\n" .
+
+<#offset_97_107>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Philosophy" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999934085738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<#offset_109_117>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pedagogy" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pedagogy> .
+
+<#offset_740_753>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophical" ;
+        nif:beginIndex          "740"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999904955255147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_778> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_134_137>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PPP" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/PoliticalParty> ;
+        itsrdf:taConfidence     "0.9686771953956035"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pakistan_Peoples_Party> .
+
+<#offset_119_127>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Marshall" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/FictionalCharacter> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9996994040263957"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marshall_Eriksen> .

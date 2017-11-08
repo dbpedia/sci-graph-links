@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_894_909>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "palliative care" ;
+        nif:beginIndex          "894"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_911> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Palliative_care> .
+
+<#offset_0_911>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "911"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Death and the dying process often present various transitions, which have a significant impact on one’s physical and psychological states of being. Dance/movement therapy, drawing from a strong theoretical base, as well as a rich body of experiential work, offers integrative support to individuals experiencing physical degradation and confronting their mortality. Dance/movement therapists are equipped with specific techniques, deep body knowledge and a philosophical frame to enable them to skillfully work with individuals who feel disconnected from their bodies as a result of the physical degeneration often accompanying one’s transition to death. This research, steeped in the experiences of those confronting death, demonstrates the innate qualities of dance/movement therapy deemed useful to individuals moving into the final stages of life as well as to the entire field of palliative care.\n" .
+
+<#offset_364_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mortality" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_911> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960656500703501"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Death> .
+
+<#offset_771_776>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dance" ;
+        nif:beginIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "776"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_911> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996954161957016"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_911> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

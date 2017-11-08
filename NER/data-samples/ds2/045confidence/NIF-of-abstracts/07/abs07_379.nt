@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_141_148>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_366> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9539437202090899"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_149_157>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genetics" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_366> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999928326769157"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genetics> .
+
+<#offset_0_366>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "366"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. The state of knowledge concerning the influences of tree size, xylem dysfunction, growth conditions and within-species and between species genetics is reviewed. It is concluded that high plant hydraulic conductance is necessary for high productivity in forest trees, and this being the case, the implications for commercial forestry require further study.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_366> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_203_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hydraulic" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_366> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9022737753478282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hydraulics> .
+
+<#offset_73_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xylem" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_366> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Xylem> .

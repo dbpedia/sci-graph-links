@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_970_990>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental policy" ;
+        nif:beginIndex          "970"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1133> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999983644455427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environmental_policy> .
+
+<#offset_25_34>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Australia" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1133> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999966410353661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1133> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1067_1077>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "accounting" ;
+        nif:beginIndex          "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1077"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1133> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998905882565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Accountability> .
+
+<#offset_69_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "irrigation" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1133> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982825575964585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Irrigation> .
+
+<#offset_0_1133>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1133"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Water reform in Australia has demanded that water usage for irrigation operates in an environmentally sustainable manner. It has resulted in the need to reduce allocations in some local communities, and to date government policy has relied on economic instruments to take the lead in developing equitable processes to do this. A series of community-based justice studies were undertaken and demonstrated that it is possible to derive a package of actions, which reflect the fairness judgments of the vast majority of the community. However, the implementation of these actions within the decision-making process has proven to be a more complex matter. This paper discusses four professional, methodological, and ethical challenges for all justice researchers. It concludes by noting the applicability of this form of research in other natural resource allocation dilemmas. Therefore it is imperative that justice researchers confidently insert themselves in to environmental policy debates. Only in this way will the social criteria for “triple bottom line” accounting for sustainable development be adequately represented.\n" .
+
+<#offset_1082_1105>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainable development" ;
+        nif:beginIndex          "1082"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1133> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6391367554202715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainable_development> .
+
+<#offset_1047_1060>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triple bottom" ;
+        nif:beginIndex          "1047"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1133> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Double_bottom> .

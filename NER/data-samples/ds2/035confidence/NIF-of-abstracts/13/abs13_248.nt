@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_585>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "585"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The study investigated the relationship between children’s hair-Al concentrations and children’s behavioral performance in school. Hair-Al levels of 102 children drawn from a general school population were correlated with teachers’ ratings of the children on the Walker Problem Behavior Identification Checklist (WPBIC). Increasing hair-Al values correlated significantly with increased scores on the WPBIC total scale score. A continuing reexamination of Al exposure in the young is needed in order to determine the margin of safety regarding potentially toxic levels of Al.\n" .
+
+<#offset_536_542>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "safety" ;
+        nif:beginIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_585> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9886008097841151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Safety> .
+
+<#offset_448_461>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reexamination" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_585> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999900887815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reexamination> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_585> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_565_570>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "toxic" ;
+        nif:beginIndex          "565"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_585> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997716466563307"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toxicity> .
+
+<#offset_241_248>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ratings" ;
+        nif:beginIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_585> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.911755954479406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nielsen_ratings> .

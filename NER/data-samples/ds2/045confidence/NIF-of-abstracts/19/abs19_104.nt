@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_201_208>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "painter" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_342> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992689587291504"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Painting> .
+
+<#offset_240_246>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marble" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_342> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9616631689190591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marble> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_342> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_323_330>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_342> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9964904616308774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<#offset_214_217>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oil" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_342> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7992244441160595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oil_paint> .
+
+<#offset_226_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sculptor" ;
+        nif:beginIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_342> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999911015607"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sculpture> .
+
+<#offset_0_342>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "342"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Comments are made on the concepts of beauty and art, and their relationship with physical phenomena. Experimental physicists have means at their disposal to produce objects of art just as the painter uses oil and the sculptor uses marble to produce objects of art. Several new photographs of “log-art” or artistic science are shown.\n" .

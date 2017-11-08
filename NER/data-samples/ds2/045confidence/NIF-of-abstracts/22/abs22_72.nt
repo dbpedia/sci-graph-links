@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_456>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "456"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  In this paper we describe conditional probabilities as difference set. The main idea is that a system is in same state and from this state is can get to another state if there are fulfield some properties. In other words we have a partial binary operation ⊖ such that the operation ⊖ can be interpreted as a change of a state. If we put some logical questions about change of states on this we get the structure which is called a difference set.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_456> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_36_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8286795843823546"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conditional_probability> .
+
+<#offset_440_454>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "difference set" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999960433001"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Difference_set> .
+
+<#offset_249_265>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary operation" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_operation> .
+
+<#offset_65_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "difference set" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999960433001"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Difference_set> .

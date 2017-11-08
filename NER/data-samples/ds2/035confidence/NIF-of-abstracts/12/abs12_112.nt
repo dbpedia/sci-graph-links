@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_683>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "683"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The burden on health-related issues due to unplanned urban policies is higher despite the present knowledge of interventions and availability of current technologies. This burden could increase substantially, given the rapid growth in urban populations and the application of partial or misguided solutions to urban transport problems. Part of the reason is the failure to consider holistically the health, social and environment consequences and the related costs of individual travel choices and government policies in the field of traffic and mobility. Urban transport-related issues and its impact on health, environment, costs and benefits are discussed in this paper.\n" .
+
+<#offset_325_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transport" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999560257048"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transport> .
+
+<#offset_391_403>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holistically" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999952514145"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holism> .
+
+<#offset_408_414>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9927857896296207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health> .
+
+<#offset_614_620>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9927857896296207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_683> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_795_799>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NGOs" ;
+        nif:beginIndex          "795"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-governmental_organization> .
+
+<#offset_864_874>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vernacular" ;
+        nif:beginIndex          "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993775909052"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vernacular> .
+
+<#offset_333_348>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "common alphabet" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_script> .
+
+<#offset_0_1472>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1472"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Ecuador is implementing a programme of indigenous bilingual intercultural education. Work began systematically in 1978 through a research centre of the Catholic University, and throughout the 1980s the government has become increasingly committed to the principle of indigenous education. In 1980 agreement was reached on a common alphabet for all indigenous languages. In the same year the government accepted that vernacular languages might be used for education, and the “Macac” educational model was devised by the Catholic University's research centre. By 1984 there were 300 bilingual primary schools, but the government then suspended its experiment. This was restored four years later, with the addition of secondary education and teacher training colleges. What is stressed by NGOs active in promoting indigenous education is not only its use of vernacular languages, but the need for intercultural exchange, recognizing in a modified curriculum the cultural values of the indigenous population and their socioeconomic reality. This change has not been understood by all government agencies, although a new Directorate for Bilingual Intercultural Education was established in 1988 to provide education for people of all ages in indigenous communities. The traditional Spanish-language formal education system has exercised a restricting influence on innovation, and the response of the dominant Spanish-speaking majority has generally been indifference.\n" .
+
+<#offset_425_435>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vernacular" ;
+        nif:beginIndex          "425"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993775909052"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vernacular> .
+
+<#offset_1286_1302>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Spanish-language" ;
+        nif:beginIndex          "1286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999999999881766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanish_language> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1472> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1023_1036>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "socioeconomic" ;
+        nif:beginIndex          "1023"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6031985193346296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Socioeconomics> .
+
+<#offset_528_547>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Catholic University" ;
+        nif:beginIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/CollegeOrUniversity> , <http://schema.org/EducationalOrganization> ;
+        itsrdf:taConfidence     "0.9791910766249712"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Catholic_University_of_America> .
+
+<#offset_161_180>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Catholic University" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://dbpedia.org/ontology/University> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/EducationalOrganization> ;
+        itsrdf:taConfidence     "0.9791910766249712"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Catholic_University_of_America> .
+
+<#offset_9_16>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ecuador" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999999744195524"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecuador> .

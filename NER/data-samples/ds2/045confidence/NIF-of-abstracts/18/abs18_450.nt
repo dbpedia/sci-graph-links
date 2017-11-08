@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_255_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power law" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999886882"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_476_487>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "487"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997104791610373"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_538> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_192_203>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8227162690910157"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exponential_distribution> .
+
+<#offset_0_538>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "538"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. The effects of saving and spending patterns on holding time distribution of money are investigated based on the ideal gas-like models. We show the steady-state distribution obeys an exponential law when the saving factor is set uniformly, and a power law when the saving factor is set diversely. The power distribution can also be obtained by proposing a new model where the preferential spending behavior is considered. The association of the distribution with the probability of money to be exchanged has also been discussed.\n" .

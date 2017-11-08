@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_268>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "268"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Discrete invariant imbedding is combined with frontracking to give a method for the numerical solution of free boundary problems in one dimension which requires only marginally more effort than that required to solve analogous problems with fixed boundaries.\n" .
+
+<#offset_115_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "free boundary problems" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_268> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9455378086348096"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Obstacle_problem> .
+
+<#offset_18_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invariant" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_268> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998478234342664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invariant_(mathematics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_268> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

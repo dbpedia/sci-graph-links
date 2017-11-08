@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_513_530>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "statistical tests" ;
+        nif:beginIndex          "513"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "530"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_901> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7736242071732584"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_hypothesis_testing> .
+
+<#offset_0_901>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "901"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In an earlier paper, cf. [7], the first author developed methods for evaluation of pseudo-random number generators based on ideas of computer simulation. More precisely, pseudo-random numbers of the tested generator are used to model certain distributions which can be compared with theoretical ones or with distributions modeled by means of well-known canonical generators. But this method can fail if essentially different generators produce simulations that cannot be distinguished by means of simple statistical tests developed in [7]. In the present paper two critical types of distributions, named geometric and arthmetic, are constructed that illustrate the circumstances above. Also it is shown how the subinterval method derived from the tests in [7] can serve to detect the described critical types of distributions. Additional aspects of old and new methods are shortly discussed.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_901> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_142_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer simulation" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_901> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987225375034828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_simulation> .
+
+<#offset_92_123>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudo-random number generators" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_901> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudorandom_number_generator> .
+
+<#offset_179_192>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudo-random" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_901> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6798162760381646"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudorandom_number_generator> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_515_536>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "situational awareness" ;
+        nif:beginIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Situation_awareness> .
+
+<#offset_0_1176>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1176"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract With a major change in the attack landscape, away from well-known attack vectors towards unique and highly tailored attacks, limitations of common rule- and signature-based security systems become more and more obvious. Novel security mechanisms can provide the means to extend existing solutions in order to provide a more sophisticated security approach. As critical infrastructures get increasingly accessible from public networks they show up on attackers’ radars. As a consequence, establishing cyber situational awareness on a higher level through incident information sharing is vital for assessing the increased risk to national security in the cyber space. But legal obligations and economical considerations limit the motivation of companies to pursue information sharing initiatives. To support companies and governmental initiatives, novel security mechanisms should inherently address limiting factors. One novel approach, AECID, is presented that accounts for the limitations of many common intrusion and anomaly detection mechanisms; and which further provides the features to support privacy-aware information sharing for cyber situational awareness.\n" .
+
+<#offset_1028_1045>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anomaly detection" ;
+        nif:beginIndex          "1028"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1045"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anomaly_detection> .
+
+<#offset_1153_1174>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "situational awareness" ;
+        nif:beginIndex          "1153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1176> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Situation_awareness> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1176> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

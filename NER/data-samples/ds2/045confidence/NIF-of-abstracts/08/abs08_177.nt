@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1100_1118>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reliable multicast" ;
+        nif:beginIndex          "1100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1147> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reliable_multicast> .
+
+<#offset_25_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "maximum throughput" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1147> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Throughput> .
+
+<#offset_123_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxonomy" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1147> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9888797343128752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taxonomy_(biology)> .
+
+<#offset_135_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reliable multicast" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1147> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reliable_multicast> .
+
+<#offset_691_700>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deadlocks" ;
+        nif:beginIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "700"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1147> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deadlock> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1147> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_66_84>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reliable multicast" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1147> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reliable_multicast> .
+
+<#offset_0_1147>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1147"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We analyze the maximum throughput that known classes of reliable multicast transport protocols can attain. A new taxonomy of reliable multicast transport protocols is introduced based on the premise that the mechanisms used to release data at the source after correct delivery should be decoupled from the mechanisms used to pace the transmission of data and to effect error recovery. Receiver-initiated protocols, which are based entirely on negative acknowledgments (naks) sent from the receivers to the sender, have been proposed to avoid the implosion of acknowledgements (acks) to the source. However, these protocols are shown to require infinite buffers in order to prevent deadlocks. Two other solutions to the ack-implosion problem are tree-based protocols and ring-based protocols. The first organize the receivers in a tree and send acks along the tree; the latter send acks to the sender along a ring of receivers. These two classes of protocols are shown to operate correctly with finite buffers. It is shown that tree-based protocols constitute the most scalable class of all reliable multicast protocols proposed to date.\n" .

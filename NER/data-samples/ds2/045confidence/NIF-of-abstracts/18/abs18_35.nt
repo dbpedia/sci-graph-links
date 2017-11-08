@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_163_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antiperspirants" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_764> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deodorant> .
+
+<#offset_0_764>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "764"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper reports the results of a formal content analysis of claims made in advertisements found in 16 consumer magazines for four product categories — antiperspirants, skin lotions, prepared foods, and pet foods — before (1970), during (1976), and after (1984) the spurt of regulatory activity in the US. The results suggest that significant changes were evident in types of claims made and the manner in which advertising claims were presented. If causality can be claimed, one can conclude that the regulatory program was moderately successful. In 1976 consumers were provided less information, but it was of better quality than in 1970. However by 1984 the various trends seem to suggest that advertisers are returning to their pre-regulation ways.\n" .
+
+<#offset_185_192>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lotions" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_764> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lotion> .
+
+<#offset_52_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "content analysis" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_764> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Content_analysis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_764> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_461_470>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "causality" ;
+        nif:beginIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_764> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989553884687"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Causality> .
+
+<#offset_214_223>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pet foods" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_764> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pet_food> .

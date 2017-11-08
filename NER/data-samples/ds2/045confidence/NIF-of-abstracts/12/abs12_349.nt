@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_447_456>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flashover" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998489219701852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flashover> .
+
+<#offset_692_706>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer model" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824991256278"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_simulation> .
+
+<#offset_120_131>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "New Zealand" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9994440106927811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Zealand> .
+
+<#offset_0_708>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "708"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Fire hazards in residential buildings were investigated by conducting a range of fire experiments on a typical New Zealand dwelling built for this purpose. Hazards evaluated ranged from limited liquid-fuel fires to larger-scale burns using items of furniture. The effectiveness of detection and suppression devices was also tested. A series of experiments in a three-bedroom dwelling were conducted and included both a nonflashover and a flashover fire, and a selection of experimental results were analyzed to determine smoke and gas movement together with temperature rises in the various rooms. These results were compared to the predictions of the CFAST fire and smoke transport computer model.\n" .
+
+<#offset_9_21>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fire hazards" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9798405452465441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fire_safety> .
+
+<#offset_661_666>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CFAST" ;
+        nif:beginIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999973852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CompactFlash> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_708> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

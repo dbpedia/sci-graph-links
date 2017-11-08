@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_281_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bus Stop" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7553270339233924"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bus_stop> .
+
+<#offset_0_506>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Samuel Beckett\"s Waiting for Godot is one of the truly great plays of the 20th century. While the enigmatic figure of Godot has attracted the bulk of critical interest, less has been said about the act of waiting which is also at the centre of Gao Xingjian\"s Chezhan (The Bus Stop) and Patrick White\"s Signal Driver. This paper examines the dramaturgy of waiting in the three plays and identifies similarities and differences in dramatic technique, thematic concern and theatrical representation.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_350_360>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dramaturgy" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997776145299"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dramaturgy> .

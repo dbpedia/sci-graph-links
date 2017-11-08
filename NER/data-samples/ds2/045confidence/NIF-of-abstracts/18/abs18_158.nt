@@ -1,0 +1,106 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_172_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear operators" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_map> .
+
+<#offset_30_36>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "i.i.d." ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independent_and_identically_distributed_random_variables> .
+
+<#offset_662_668>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hudson" ;
+        nif:beginIndex          "662"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Stream> , <http://dbpedia.org/ontology/BodyOfWater> , <http://dbpedia.org/ontology/NaturalPlace> , <http://schema.org/BodyOfWater> , <http://schema.org/Place> , <http://schema.org/RiverBodyOfWater> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/River> ;
+        itsrdf:taConfidence     "0.6118765587438029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hudson_River> .
+
+<#offset_793_802>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "793"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "802"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991751749979554"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<#offset_0_1020>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1020"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Let X, X 1,X 2,... be i.i.d. d-dimensional random vectors with partial sums S n . We identify the collection of random vectors X for which there exist non-singular linear operators T n and vectors υ n∈ℝ d such that {ℒ(T n (S n −υ n )),n>=1} is tight and has only full weak subsequential limits. The proof is constructive, providing a specific sequence {T n }. The random vector X is said to be in the generalized domain of attraction (GDOA) of a necessarily operator-stable law γ if there exist {T n } and {υ n } such that ℒ(T n (S n −υ n ))→γ. We characterize the GDOA of every operator-stable law, thereby extending previous results of Hahn and Klass; Hudson, Mason, and Veeh; and Jurek. The characterization assumes a particularly nice form in the case of a stable limit. When γ is symmetric stable, all marginals of X must be in the domain of attraction of a stable law. However, if γ is a nonsymmetric stable law then X may be in the GDOA of γ even if no marginal is in the domain of attraction of any law.\n" .
+
+<#offset_120_134>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random vectors" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999765904163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_element> .
+
+<#offset_71_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partial sums" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Series_(mathematics)> .
+
+<#offset_159_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-singular" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.757181028276609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_singularity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1020> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_372_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random vector" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999841975"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_random_variable> .
+
+<#offset_197_204>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vectors" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999958380863269"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_space> .
+
+<#offset_51_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random vectors" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1020> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999765904163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_element> .

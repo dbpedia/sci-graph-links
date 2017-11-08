@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_252_266>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nanotechnology" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989116890389275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nanotechnology> .
+
+<#offset_0_332>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "332"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper provides a description of the recent evolution in the US of an emerging technology known asDNA Computation or more generally asBiomolecular Computation from its early stages to its development and extension into other areas such as nanotechnology, emerging as a viable sub-discipline of science and engineering.\n" .
+
+<#offset_57_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985391111116109"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .
+
+<#offset_83_102>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "emerging technology" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emerging_technologies> .
+
+<#offset_74_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "US" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9973009573558524"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_332> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_307_314>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998921495313243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .

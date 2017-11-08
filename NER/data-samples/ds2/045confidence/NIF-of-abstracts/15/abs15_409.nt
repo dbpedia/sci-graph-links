@@ -1,0 +1,35 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_78_89>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Netherlands" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9998436734264433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<#offset_0_633>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "633"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  In 1995, an audit of laboratory quality systems in hospitals in the Netherlands was started. The audit consisted of the assessment of three levels of the Dutch hospital system: the organization and management as described in a quality manual, the capability and function of professionals and the performance in external quality assessment programmes. Our laboratory was the first to be audited by the Coordinating Committee for the Promotion of Quality Control of Laboratory Investigation in Health Care (CCKLtest) and here we present a description of our quality system, paying particular attention to the quality manual.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_633> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_164_169>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9637574165512258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .

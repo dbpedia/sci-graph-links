@@ -1,0 +1,97 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_40_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XX" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852434277940109"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XY_sex-determination_system> .
+
+<#offset_8_12>  a               nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "A 45" ;
+        nif:beginIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Road> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999678131927604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bundesautobahn_45> .
+
+<#offset_29_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "q11" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999957364083"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/List_of_bus_routes_in_Queens> .
+
+<#offset_244_255>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monozygotic" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999988063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Twin> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_257> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_166_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "translocation" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999934289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chromosomal_translocation> .
+
+<#offset_0_257>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "257"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A 45,XX,t(22;22)(p11;q11) or 45,XX,i(22q) chromosomal rearrangement was found in a woman with a history of recurrent abortion. A twin sister did not have the translocation even though marker studies indicate that the twins are probably monozygotic.\n" .
+
+<#offset_13_15>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XX" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852434277940109"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XY_sex-determination_system> .
+
+<#offset_45_48>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "22q" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chromosome_22_(human)> .
+
+<#offset_225_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "twins" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988526187025674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Twin> .
+
+<#offset_50_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chromosomal rearrangement" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_257> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chromosomal_rearrangement> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_305_318>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychotherapy" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999524337124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychotherapy> .
+
+<#offset_153_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychodynamic psychotherapy" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychodynamic_psychotherapy> .
+
+<#offset_96_109>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychotherapy" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999524337124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychotherapy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_441> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_17_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychotherapy" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_441> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999524337124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychotherapy> .
+
+<#offset_0_441>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "441"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Because psychotherapy supervision skills are learned primarily through experience as a psychotherapy supervisee, today’s diminished training in psychodynamic psychotherapy can negatively influence future instruction in this important treatment modality. The author discusses role preparation for psychotherapy supervisors, suggests minimum standards for supervisor proficiency, and recommends ongoing instructional skills training.\n" .

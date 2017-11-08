@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_696>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "696"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article introduces a feasible estimation method for a large class of semi and nonparametric models. We present the family of generalized structured models which we wish to estimate. After highlighting the main idea of the theoretical smooth backfitting estimators, we introduce a general estimation procedure. We consider modifications and practical issues, and discuss inference, cross validation, and asymptotic theory applying the theoretical framework of Mammen and Nielsen (Biometrika 90: 551–566, 2003). An extensive simulation study shows excellent performance of our method. Furthermore, real data applications from environmetrics and biometrics demonstrate its usefulness.\n" .
+
+<#offset_493_503>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Biometrika" ;
+        nif:beginIndex          "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/AcademicJournal> , <http://dbpedia.org/ontology/PeriodicalLiterature> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biometrika> .
+
+<#offset_92_105>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonparametric" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999947457354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<#offset_267_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimators" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9962979944555195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<#offset_417_434>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic theory" ;
+        nif:beginIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8551157468667907"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_theory> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_696> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_395_411>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cross validation" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross-validation_(statistics)> .
+
+<#offset_537_547>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999772337130143"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .

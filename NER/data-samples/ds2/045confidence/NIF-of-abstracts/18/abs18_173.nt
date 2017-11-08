@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_37_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "momentum" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_570> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986918104919003"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Momentum> .
+
+<#offset_345_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web 2.0" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_570> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999504325"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_2.0> .
+
+<#offset_128_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_570> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9962246678823795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_570> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_570>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "570"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Web 2.0 has gained enormous momentum in recent years, and has reached most areas in entertainment, research, business, science, and beyond. It is characterized by a move from a read-only Web to a read-write Web, where users contribute content in a variety of forms. However, there is at the same time a host of legal issues arising for Web 2.0, visible via the huge number of law suits that have already been filed in this context. This paper tries to pinpoint core legal issues, the way they are so far treated, and what is needed for improving the situation.\n" .
+
+<#offset_9_16>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web 2.0" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_570> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999504325"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_2.0> .

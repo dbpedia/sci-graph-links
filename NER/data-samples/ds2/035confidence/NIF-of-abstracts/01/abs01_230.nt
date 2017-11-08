@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_112_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "functional equation" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_263> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9946560340669441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Functional_equation> .
+
+<#offset_178_189>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unit square" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_263> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999988063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unit_square> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_263> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_263>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "263"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We characterize the class of copulas that can be constructed from the diagonal section by means of the functional equation C(x,y) |x−y|=C(x∨y,x∨y), for all (x,y) in the unit square such that C(x,y)>0. Some statistical properties of this class are given.\n" .
+
+<#offset_79_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diagonal" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_263> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8569674935857114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diagonal_matrix> .
+
+<#offset_38_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "copulas" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_263> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9289552566302643"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copula_(linguistics)> .

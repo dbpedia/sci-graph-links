@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_86_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "learning styles" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1070> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Learning_styles> .
+
+<#offset_0_1070>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1070"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Teaching abroad exposes medical educators to unfamiliar teaching methods and learning styles that can enhance their overall teaching repertoire. Based on the author’s experience teaching residents for one month at a community hospital in Japan and a review of the non-English speaking background (NESB) educational literature, pedagogical principles and lessons for successful international NESB instruction are outlined. These methods include understanding the dissimilar linguistic, cultural, and academic backgrounds of the learners, emphasizing pace and clarity of speech, presenting a conceptual framework instead of detailed discourse on subjects, and regular visual reinforcement of spoken words. The limitations introduced by the language barrier and the use of interpreters are briefly discussed. As society and institutions of higher learning become more global and multicultural, clinician–educators may benefit from teaching in other countries in order to enhance their teaching skills with NESB learners, both abroad and in their own institutions.\n" .
+
+<#offset_682_695>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reinforcement" ;
+        nif:beginIndex          "682"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1070> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994730955246"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reinforcement> .
+
+<#offset_247_252>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1070> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998999344178524"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1070> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_818_825>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1070> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999423608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#offset_225_243>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "community hospital" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1070> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997368566147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hospital> .

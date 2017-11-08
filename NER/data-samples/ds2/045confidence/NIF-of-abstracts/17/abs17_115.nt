@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_23_48>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "supervised classification" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supervised_learning> .
+
+<#offset_1372_1377>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SPEED" ;
+        nif:beginIndex          "1372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/TelevisionStation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/TelevisionStation> ;
+        itsrdf:taConfidence     "0.9996558630064517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Speed_(TV_channel)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1399> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_191_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semisupervised" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semi-supervised_learning> .
+
+<#offset_0_1399>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1399"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In a standard supervised classification paradigm, stimuli are presented sequentially, participants make a classification, and feedback follows immediately. In this article, we use a semisupervised classification paradigm, in which feedback is given after a prespecified percentage of trials only. In Experiment 1, feedback was given in 100�0�25�and 50�f the trials. Previous research reported by Ashby, Queller, and Berretty (1999) indicated that in an information-integration task, perfect accuracy was obtained supervised (100�but not unsupervised (0� Our results show that in both the 100�nd 50�onditions, participants were able to achieve maximum accuracy. However, in the 0�nd the 25�onditions, participants failed to learn. To discover the influence of the no-feedback trials on the learning process, the 50�ondition was replicated in Experiment 2, substituting unrelated filler trials for the no-feedback trials. The results indicated that accuracy rates were similar, suggesting no impact of the no-feedback trials on the learning process. The possibility of ever learning in a 25�etting was also researched in Experiment 2. Using twice as many trials, the results showed that all but 2 participants succeeded, suggesting that only the total number of feedback trials is important. The impact of the semisupervised learning results for ALCOVE, COVIS, and SPEED models is discussed.\n" .
+
+<#offset_1317_1331>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semisupervised" ;
+        nif:beginIndex          "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semi-supervised_learning> .

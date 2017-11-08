@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_145_158>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "straight-edge" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999835180455834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Straightedge> .
+
+<#offset_390_403>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Alfred Tarski" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.9999992130483092"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alfred_Tarski> .
+
+<#offset_0_622>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "622"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For one hundred years it has been known that the number π is transcendental and, consequently, that it is impossible to construct, with straight-edge and compass, a square with the same area as a given circle. (For some history, see [7].) In this article we show how a close examination of the origins of the circle-squaring problem can be used to motivate a version of it, due to Alfred Tarski. The new version is still unresolved, but there are a number of partial results. We survey some of these and indicate how one in particular can be applied in contemporary work on characterizations of Lebesgue measure.\n" .
+
+<#offset_211_217>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "circle" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998879016011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<#offset_70_84>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transcendental" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999090614479"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transcendental_number> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_622> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_58_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "number π" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pi> .
+
+<#offset_163_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compass" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9003540034159658"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compass_(drafting)> .
+
+<#offset_604_620>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lebesgue measure" ;
+        nif:beginIndex          "604"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lebesgue_measure> .

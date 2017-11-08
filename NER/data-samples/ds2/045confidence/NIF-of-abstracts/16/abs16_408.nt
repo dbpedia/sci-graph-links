@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1715>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1715"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Work investigates the everyday experience of urban landscapes to explore the individual meanings associated with landscape encounters aiming to provide greater clarity regarding the role/functioning of everyday environmental elements within the urban scene. In particular, it explores the concept and formation of ‘loops’, i.e. the reflexive cycles of sensory input and construction of meaning associated with engagement in the landscape, how they are specific to individual experience and the subsequent positive, meaningful outcomes. Ideas are developed through the presentation of two researched case studies involving the collection of qualitative data which involve - residents’ perceptions of street trees in a residential environment in SW England and - user experience of the central canal-scape of Birmingham, UK. It considers how users react to these landscapes, how their use supports individuals in terms of their personal identities and their requirements to engender a highly positive interaction. The study uses data derived from a variety of methodologies, including survey questionnaires, interviews, walking-and-talking methods, as well as self-narrated walking to present a range of information. The findings suggest that a shift change is required in the ways that we evaluate users’ experiences of the environment to consider impact in the specific context of individual identities, to embrace methodologies which are capable of revealing their deep meaning and importance of these elements to the individual. Ideas are summarised to help explain the formation of perception loops that are associated with high levels of interaction/synergy between the environment and the individual.\n" .
+
+<#offset_816_826>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Birmingham" ;
+        nif:beginIndex          "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/City> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.946396306038458"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Birmingham> .
+
+<#offset_341_350>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reflexive" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7887585952106633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reflexivity_(social_theory)> .
+
+<#offset_828_830>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "830"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.7844060026037588"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<#offset_1663_1670>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synergy" ;
+        nif:beginIndex          "1663"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998988221920643"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synergy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1715> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_756_763>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "England" ;
+        nif:beginIndex          "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999444389341549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/England> .
+
+<#offset_649_665>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "qualitative data" ;
+        nif:beginIndex          "649"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "665"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1715> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9606129790169203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Level_of_measurement> .

@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_78_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamiltonian" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9869003455584002"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamiltonian_(quantum_mechanics)> .
+
+<#offset_134_147>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wave function" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999994033675882"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wave_function> .
+
+<#offset_167_183>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenomenological" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999959770708162"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenomenology_(science)> .
+
+<#offset_38_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expectation values" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9896465977928244"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Expected_value> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_375> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_375>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "375"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A technique of approximating expectation values of realistic nuclear Hamiltonian with the antisymmetrised molecular dynamics wave function is investigated. A phenomenological and a semi-realistic nucleon-nucleon potentials are used. Some of the ground-state properties of selected few-nucleon systems are calculated. The results are compared with experimental data.\n" .
+
+<#offset_115_133>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular dynamics" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_dynamics> .

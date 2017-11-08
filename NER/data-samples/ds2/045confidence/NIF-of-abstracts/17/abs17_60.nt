@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_186_198>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999996683220659"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#offset_1106_1113>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cockpit" ;
+        nif:beginIndex          "1106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9554532897997939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cockpit> .
+
+<#offset_1058_1065>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anxiety" ;
+        nif:beginIndex          "1058"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997420730466207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anxiety> .
+
+<#offset_471_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GUI" ;
+        nif:beginIndex          "471"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999929514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graphical_user_interface> .
+
+<#offset_668_671>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GUI" ;
+        nif:beginIndex          "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999929514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graphical_user_interface> .
+
+<#offset_1016_1023>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anxiety" ;
+        nif:beginIndex          "1016"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997420730466207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anxiety> .
+
+<#offset_0_1183>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1183"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We describe an Affect and Belief Adaptive Interface System (ABAIS) designed to compensate for performance biases caused by users’ affective states and active beliefs. The ABAIS architecture implements an adaptive methodology consisting of four steps: sensing/inferring user affective state and performance-relevant beliefs; identifying their potential impact on performance; selecting a compensatory strategy; and implementing this strategy in terms of specific GUI adaptations. ABAIS provides a generic adaptive framework for integrating a variety of user assessment methods (e.g. knowledge-based, self-reports, diagnostic tasks, physiological sensing), and GUI adaptation strategies (e.g. content- and format-based). The ABAIS performance bias prediction is based on empirical findings from emotion research combined with detailed knowledge of the task context. The initial ABAIS prototype was demonstrated in the context of an Air Force combat task, used a knowledge-based approach to assess the pilot’s anxiety level, and adapted to the pilot’s anxiety and belief states by modifying selected cockpit instrument displays in response to detected changes in these states.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1183> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_939_948>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Air Force" ;
+        nif:beginIndex          "939"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "948"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1183> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MilitaryUnit> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9969121874569725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Air_Force> .

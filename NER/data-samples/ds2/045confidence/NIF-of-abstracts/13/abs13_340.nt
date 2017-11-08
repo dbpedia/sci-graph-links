@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_448_464>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service learning" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Service-learning> .
+
+<#offset_166_182>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service learning" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Service-learning> .
+
+<#offset_0_498>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "498"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Service learning provides many challenges and opportunities for the instructor who wishes to test its potential. This paper looks at some of the promise for service learning in the undergraduate Business Ethics course and describes one experience with this project. Quotations from student journals and reflective papers are utilized to present the student's perspective on the project. Some suggestions are offered for insuring effective service learning in courses like Business Ethics.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_498> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_711>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "711"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper describes a protocol to protect data collected by mobile agents roaming through a set of potentially malicious hosts. This protocol is based on an original secure cryptographic technique that assures the integrity of a sequence of data segments regardless of the order of each segment in the sequence. The protocol allows each host to update the data it previously submitted in a way that is suitable for free competition scenarios like comparative shopping or distributed auction and for highly dynamic environments like stock markets. The set of hosts can be visited several times in random order and a short message digest allows for the integrity verification of all the collected data.\n" .
+
+<#offset_183_196>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptographic" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.890375415071558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_hash_function> .
+
+<#offset_32_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9945571596891292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<#offset_631_645>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "message digest" ;
+        nif:beginIndex          "631"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_hash_function> .
+
+<#offset_143_151>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9945571596891292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<#offset_326_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9945571596891292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_711> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_542_555>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stock markets" ;
+        nif:beginIndex          "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999985535055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_market> .

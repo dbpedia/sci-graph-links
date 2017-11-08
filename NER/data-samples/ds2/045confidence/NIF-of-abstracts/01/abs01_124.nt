@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_247_258>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8276621265481308"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_(mathematics)> .
+
+<#offset_0_371>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "371"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This note contains iterative procedures which bound the solution of characteristic initial-value problems with hyperbolic differential equationz st =f(s, t, z) with the aid of interval-analytical methods and possibilities for speeding up convergence. The method applied is a generalization of the proceeding for ordinary differential equations described in [5].\n" .
+
+<#offset_321_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordinary differential equations" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999965867801"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordinary_differential_equation> .
+
+<#offset_131_143>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999642730352742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_371> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_120_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperbolic" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995536988281"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperbolic_partial_differential_equation> .

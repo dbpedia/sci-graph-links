@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_407>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "407"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The object of this paper is to prove an existence result on best proximity pair. For this purpose, the class of factorizable multifunctions in approximately weakly compact, convex subset of metrizable topological vector space is used. As consequence, our theorem generalizes the result of Basha and Veeramani[10]. Finally, certain known results have also been obtained as corollaries in this work.\n" .
+
+<#offset_210_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "topological vector space" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Topological_vector_space> .
+
+<#offset_182_195>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex subset" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_set> .
+
+<#offset_166_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weakly compact" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weak_topology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_407> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_264_271>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9730791816828189"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#offset_199_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metrizable" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metrization_theorem> .

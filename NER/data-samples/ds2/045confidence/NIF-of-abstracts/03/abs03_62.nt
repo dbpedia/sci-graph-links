@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_121_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "zinc" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998648338055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zinc> .
+
+<#offset_324_328>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "zinc" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998648338055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zinc> .
+
+<#offset_218_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9218088234470575"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .
+
+<#offset_112_120>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "divalent" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7341704596144178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Divalent> .
+
+<#offset_85_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "force field" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999952140858838"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Force_field_(chemistry)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_369> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_369>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "369"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract   In the recent paper by Obst and Bradaczek [1], which compares two sets of force field parameters for divalent zinc, several errors were made. Clarifying these errors leads to another interpretation of their simulation results, which, in contrast to their original conclusions, substantiates the parameter set for zinc ion developed by Stote and Karplus [2].\n" .

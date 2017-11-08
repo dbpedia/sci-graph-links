@@ -1,0 +1,101 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_903>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "903"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The June 1992 United Nations Conference on Environment and Development (UNCED) was the largest and most well attended United Nations conference of all time. The litmus test for the long-term will be whether the promises and pledges made at Rio can be taken forward by way of a process that gradually moves human society towards a more equitable and environmentally sustainable form of development. This paper focuses on two organisations that look set to play an important role in that process: the World Bank's experimental Global Environment Facility and the nascent United Nations Commission on Sustainable Development. It is argued that both these bodies must find a way to respond to the conflicting demands of developed and developing nations if their efforts are not to be stymied by the same kind of international disagreements which characterised the negotiations preceding the Summit.\n" .
+
+<#offset_577_591>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United Nations" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999999997373834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Nations> .
+
+<#offset_533_560>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Global Environment Facility" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Non-ProfitOrganisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_Environment_Facility> .
+
+<#offset_738_756>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "developing nations" ;
+        nif:beginIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999211740508634"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developing_country> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_903> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_507_517>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "World Bank" ;
+        nif:beginIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "517"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999865206211899"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_Bank> .
+
+<#offset_320_327>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999318441747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#offset_22_36>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United Nations" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999999997373834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Nations> .
+
+<#offset_80_85>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UNCED" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth_Summit> .
+
+<#offset_169_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "litmus test" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.991964368322581"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Litmus> .
+
+<#offset_126_140>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United Nations" ;
+        nif:beginIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_903> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999999997373834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Nations> .

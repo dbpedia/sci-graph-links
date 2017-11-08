@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_24_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weighted networks" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996887254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weighted_network> .
+
+<#offset_1208_1216>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "topology" ;
+        nif:beginIndex          "1208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999832453583722"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Topology> .
+
+<#offset_816_831>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "degree sequence" ;
+        nif:beginIndex          "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Degree_(graph_theory)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1557> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_283_298>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "degree sequence" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Degree_(graph_theory)> .
+
+<#offset_414_429>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "degree sequence" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Degree_(graph_theory)> .
+
+<#offset_146_159>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "systemic risk" ;
+        nif:beginIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1557> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Systemic_risk> .
+
+<#offset_0_1557>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1557"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Reconstructing weighted networks from partial information is necessary in many important circumstances, e.g. for a correct estimation of systemic risk. It has been shown that, in order to achieve an accurate reconstruction, it is crucial to reliably replicate the empirical degree sequence, which is however unknown in many realistic situations. More recently, it has been found that the knowledge of the degree sequence can be replaced by the knowledge of the strength sequence, which is typically accessible, complemented by that of the total number of links, thus considerably relaxing the observational requirements. Here we further relax these requirements and devise a procedure valid when even the the total number of links is unavailable. We assume that, apart from the heterogeneity induced by the degree sequence itself, the network is homogeneous, so that its (global) link density can be estimated by sampling subsets of nodes with representative density. We show that the best way of sampling nodes is the random selection scheme, any other procedure being biased towards unrealistically large, or small, link densities. We then introduce our core technique for reconstructing both the topology and the link weights of the unknown network in detail. When tested on real economic and financial data sets, our method achieves a remarkable accuracy and is very robust with respect to the sampled subsets, thus representing a reliable practical tool whenever the available topological information is restricted to small portions of nodes.\n" .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_233_240>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "salient" ;
+        nif:beginIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_796> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998550333344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Salience_(neuroscience)> .
+
+<#offset_167_176>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_796> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9967046393913604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<#offset_241_247>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "family" ;
+        nif:beginIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_796> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999861501344908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Family> .
+
+<#offset_0_796>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "796"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We examine the effects of new technologies for digital photography on people’s longer term storage and access to collections of personal photos. We report an empirical study of parents’ ability to retrieve photos related to salient family events from more than a year ago. Performance was relatively poor with people failing to find almost 40�f pictures. We analyze participants’ organizational and access strategies to identify reasons for this poor performance. Possible reasons for retrieval failure include: storing too many pictures, rudimentary organization, use of multiple storage systems, failure to maintain collections and participants’ false beliefs about their ability to access photos. We conclude by exploring the technical and theoretical implications of these findings.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_796> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_56_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital photography" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_796> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_photography> .

@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_887>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "887"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The argument from silence is a pattern of reasoning in which the failure of a known source to mention a particular fact or event is used as the ground of an inference, usually to the conclusion that the supposed fact is untrue or the supposed event did not actually happen. Such arguments are widely used in historical work, but they are also widely contested. This paper surveys some inadequate attempts to model this sort of argument, offers a new analysis using a Bayesian probabilistic framework that isolates the most problematic step in such arguments, illustrates a key problem besetting many uses of the argument, diagnoses the attraction of the argument in terms of a known human cognitive bias affecting the critical step, and suggests a standard that must be met in order for any argument from silence to have more than a very weak influence on historical reasoning.\n" .
+
+<#offset_166_175>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inference" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999864254287"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inference> .
+
+<#offset_476_484>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bayesian" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9976844043441891"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bayesian_inference> .
+
+<#offset_485_498>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999949059989746"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_865_875>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "historical" ;
+        nif:beginIndex          "865"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "875"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8388042653104241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Historical_revisionism_(negationism)> .
+
+<#offset_317_327>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "historical" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8388042653104241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Historical_revisionism_(negationism)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_887> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_698_712>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive bias" ;
+        nif:beginIndex          "698"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998289013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognitive_bias> .

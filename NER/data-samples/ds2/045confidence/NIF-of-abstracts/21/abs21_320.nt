@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_170_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic formula" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_380> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996839035776487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<#offset_0_380>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "380"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An integer is called y-rough if it is composed solely of primes $$> y$$ >y . Let $$\\lfloor {.}\\rfloor $$ ⌊.⌋ be the floor function. In this paper, we exhibit an asymptotic formula for the counting function of integers $$n \\leqslant x$$ n⩽x such that $$\\lfloor {n^c}\\rfloor $$ ⌊nc⌋ is y-rough uniformly for a range of y that depends on $$1< c < 2229/1949$$ 1\n<2229/1949 .\n" .
+
+<#offset_218_226>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integers" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_380> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999978033998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<#offset_197_214>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "counting function" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_380> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999849933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enumerative_combinatorics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_380> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_125_139>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "floor function" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_380> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floor_and_ceiling_functions> .
+
+<#offset_12_19>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_380> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999932721835"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .

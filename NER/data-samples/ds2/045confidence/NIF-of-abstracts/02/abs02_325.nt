@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_23_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iron" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998534613149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iron> .
+
+<#offset_272_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DMF" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimethylformamide> .
+
+<#offset_165_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IR" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999883143079367"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infrared_spectroscopy> .
+
+<#offset_82_90>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pyridine" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999999976694"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pyridine> .
+
+<#offset_276_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solvent" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999883818306"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solvent> .
+
+<#offset_247_265>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cyclic voltammetry" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cyclic_voltammetry> .
+
+<#offset_142_163>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "X-ray crystallography" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999928751421137"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/X-ray_crystallography> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_351> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_351>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "351"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A mononuclear iron(III) complex with 2,6-bis(3,4,5-trimethyl-N-pyrazolyl)pyridine (btmpp) has been synthesized, and characterized by X-ray crystallography, IR, UV–Vis and TGA–DTA methods. The Fe(III/II) couple was characterized by way of cyclic voltammetry using DMF solvent, where the complex was observed to have an irreversible behaviour.\n" .

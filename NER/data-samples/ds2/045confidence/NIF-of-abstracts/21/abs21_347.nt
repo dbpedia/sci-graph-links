@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_449>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "449"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The life and work of Sadi Carnot are presented against the historical and political background existing in Europe before and after his birth. His achievements are analyzed and shown to reflect the influence that his family and education had on his development as a scientist, engineer, and military officer. In spite of his short life, the scientific consequences of his work have set the foundations of thermodynamics as we know it today.\n" .
+
+<#offset_116_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Continent> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9992994649437102"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<#offset_30_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sadi Carnot" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995906705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nicolas_Léonard_Sadi_Carnot> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_449> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_413_427>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermodynamics" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9784212724152743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermodynamics> .

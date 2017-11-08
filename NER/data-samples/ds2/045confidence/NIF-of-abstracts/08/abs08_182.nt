@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_671_685>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secret sharing" ;
+        nif:beginIndex          "671"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1017> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Secret_sharing> .
+
+<#offset_0_1017>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1017"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Electronic identity card information in online sensor network environment is closely related to privacy issues because of their characteristics, and this should be widely considered as an issue related to personal privacy rather than simply from the viewpoint of security. Even if system security has been established, if personal privacy is infringed, most people will not use electronic identification (eID) cards. In the present paper, a method of reinforcing personal information protection for eID cards was considered. As a major solution, the problem was approached from the viewpoint of not storing any personal information per se in eID cards using the secret sharing technique, and a structure in which no information whatsoever on the original can be known from only the secret share in the card was proposed. With these characteristics, the proposed scheme ensures safety even when eID cards have been lost, as well as against power analysis attacks, client masquerading, skimming, and sniffing.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1017> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_9_33>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Electronic identity card" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1017> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronic_identity_card> .

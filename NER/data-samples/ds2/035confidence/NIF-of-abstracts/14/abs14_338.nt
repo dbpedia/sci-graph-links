@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_45_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence rate" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rate_of_convergence> .
+
+<#offset_0_284>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "284"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Sharp estimates are derived for the convergence rate of Fourier series in terms of Bessel functions of the first kind for some classes of functions characterized by a generalized modulus of continuity. The Kolmogorov N-width of these classes of functions are also estimated.\n" .
+
+<#offset_92_108>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bessel functions" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bessel_function> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_284> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_215_225>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Kolmogorov" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.999999093034048"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Andrey_Kolmogorov> .
+
+<#offset_199_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuity" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999914076625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuous_function> .
+
+<#offset_188_195>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulus" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.710007400407193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complex_number> .
+
+<#offset_65_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fourier series" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fourier_series> .

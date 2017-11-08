@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_604>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "604"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper investigates reactions of potential jurors to sexual harassment incidents. Email and face-to-face incidents are compared to determine the importance of context on decision-making. The paper considers juror decision-making for both guilt and level of award to randomly assigned scenarios involving multiple levels of harassment. Results found that email harassment was perceived more harshly, consistent with a context-based hypothesis. The paper concludes with organizational implications for better handling sexual harassment awareness training as well as Internet usage guidelines.\n" .
+
+<#offset_444_454>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypothesis" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998580256703"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypothesis> .
+
+<#offset_56_62>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "jurors" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989373976593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jury> .
+
+<#offset_367_372>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "email" ;
+        nif:beginIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995237515688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Email> .
+
+<#offset_66_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sexual harassment" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sexual_harassment> .
+
+<#offset_577_591>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet usage" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.999999927284196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet_access> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_604> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_529_546>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sexual harassment" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sexual_harassment> .

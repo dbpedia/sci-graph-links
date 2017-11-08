@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_116_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperbolic space" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950818210564822"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperbolic_space> .
+
+<#offset_156_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subset" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9945928976420791"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subset> .
+
+<#offset_0_197>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "197"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this work we give a local classification of connected ruled Weingarten hypersurfaces M n , n ≥ 3 in the hyperbolic space $${{\\mathbb{H}}^{n 1} \\subset {\\mathbb{L}}^{n 2}}$$ Hn 1⊂Ln 2 .\n" .
+
+<#offset_83_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypersurfaces" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypersurface> .
+
+<#offset_72_82>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Weingarten" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9602203073032408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weingarten,_Württemberg> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_197> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

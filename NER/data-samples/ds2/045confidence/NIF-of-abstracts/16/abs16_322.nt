@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_429>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "429"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article describes the evolution of extra-mural team projects in the Wharton School's new MBA curriculum, emphasizing both the benefits of doing community service and the value these projects have in providing real work opportunities for “learning teams”; five- or six-person student groups that do collective tasks in Foundations of Leadership and other required courses throughout the first of a two-year program.\n" .
+
+<#offset_103_106>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MBA" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999816964"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Master_of_Business_Administration> .
+
+<#offset_82_96>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Wharton School" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/University> , <http://schema.org/EducationalOrganization> , <http://dbpedia.org/ontology/EducationalInstitution> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wharton_School_of_the_University_of_Pennsylvania> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_429> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_36_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999582450805167"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .

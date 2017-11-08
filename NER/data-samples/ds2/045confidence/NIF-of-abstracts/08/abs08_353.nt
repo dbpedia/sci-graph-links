@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1395_1415>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gaussian-distributed" ;
+        nif:beginIndex          "1395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Normal_distribution> .
+
+<#offset_404_416>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprints" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8881516217372933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fingerprint> .
+
+<#offset_133_140>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9803176456633015"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signal> .
+
+<#offset_1241_1253>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprints" ;
+        nif:beginIndex          "1241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8881516217372933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fingerprint> .
+
+<#offset_0_1646>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1646"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Digital fingerprinting of multimedia data involves embedding information in the content signal and offers protection to the digital rights of the content by allowing illegitimate usage of the content to be identified by authorized parties. One potential threat to fingerprinting is collusion, whereby a group of adversaries combine their individual copies in an attempt to remove the underlying fingerprints. Former studies indicate that collusion attacks based on a few dozen independent copies can confound a fingerprinting system that employs orthogonal modulation. However, in practice an adversary is more likely to collude with some users than with other users due to geographic or social circumstances. To take advantage of prior knowledge of the collusion pattern, we propose a two-tier group-oriented fingerprinting scheme where users likely to collude with each other are assigned correlated fingerprints. Additionally, we extend our construction to represent the natural social and geographic hierarchical relationships between users by developing a more flexible tree-structure-based fingerprinting system. We also propose a multistage colluder identification scheme by taking advantage of the hierarchial nature of the fingerprints. We evaluate the performance of the proposed fingerprinting scheme by studying the collusion resistance of a fingerprinting system employing Gaussian-distributed fingerprints. Our results show that the group-oriented fingerprinting system provides the superior collusion resistance over a system employing orthogonal modulation when knowledge of the potential collusion pattern is available.\n" .
+
+<#offset_566_576>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulation" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999974426146"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1646> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1571_1581>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulation" ;
+        nif:beginIndex          "1571"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999974426146"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulation> .
+
+<#offset_1416_1428>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprints" ;
+        nif:beginIndex          "1416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8881516217372933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fingerprint> .
+
+<#offset_555_565>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orthogonal" ;
+        nif:beginIndex          "555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999969748274"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orthogonality> .
+
+<#offset_1560_1570>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orthogonal" ;
+        nif:beginIndex          "1560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999969748274"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orthogonality> .
+
+<#offset_911_923>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprints" ;
+        nif:beginIndex          "911"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "923"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1646> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8881516217372933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fingerprint> .

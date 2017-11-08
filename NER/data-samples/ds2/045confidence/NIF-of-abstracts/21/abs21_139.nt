@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_72_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tourism" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999964841147023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tourism> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_544> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_544>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "544"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper creates a framework for the study of the history of tourism for climate and health. It traces the ways in which people have both moved away from detrimental health conditions and towards places thought to provide climatic cures. It brings to light the complex issues that have affected the course of the tourist trade. In this way it helps to explain that the modern geographical distribution of the highly fashionable resort areas of the world owe a great deal to past and present interpretations of the HippocraticCorpus.\n" .

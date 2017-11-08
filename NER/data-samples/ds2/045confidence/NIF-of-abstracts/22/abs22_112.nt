@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_63_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "belief functions" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dempster–Shafer_theory> .
+
+<#offset_0_556>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "556"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  The nature of a contradiction (conflict) between two belief functions is investigated. Alternative ways of distributing the contradiction among nonempty subsets of frame of discernment are studied. The paper employes a new approach to understanding contradictions and introduces an original notion of potential contradiction. A method of an associative combination of generalized belief functions – minC combination and its derivation – is presented as part of the new approach. A proportionalization of generalized results is suggested as well.\n" .
+
+<#offset_409_413>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "minC" ;
+        nif:beginIndex          "409"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8492801294924728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/MinC> .
+
+<#offset_351_362>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "associative" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9981595837337505"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Associative_property> .
+
+<#offset_390_406>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "belief functions" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dempster–Shafer_theory> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_556> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_37_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scheduling" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999980767521797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Job_shop_scheduling> .
+
+<#offset_566_581>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "distance matrix" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "581"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Distance_matrix> .
+
+<#offset_610_625>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial time" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981822142595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_737_753>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Elsevier Science" ;
+        nif:beginIndex          "737"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "753"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Publisher> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elsevier> .
+
+<#offset_635_644>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "635"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_685_717>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mathematical Programming Society" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_Optimization_Society> .
+
+<#offset_0_759>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "759"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper a one-machine scheduling model is analyzed wheren different jobs are classified intoK groups depending on which additional resource they require. The change-over time from one job to another consists of the removal time or of the set-up time of the two jobs. It is sequence-dependent in the sense that the change-over time is determined by whether or not the two jobs belong to the same group. The objective is to minimize the makespan. This problem can be modeled as an asymmetric Traveling Salesman Problem (TSP) with a specially structured distance matrix. For this problem we give a polynomial time solution algorithm that runs in O(n logn) time. © 1998 The Mathematical Programming Society, Inc. Published by Elsevier Science B.V.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_759> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_450_458>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "makespan" ;
+        nif:beginIndex          "450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_759> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Job_shop_scheduling> .

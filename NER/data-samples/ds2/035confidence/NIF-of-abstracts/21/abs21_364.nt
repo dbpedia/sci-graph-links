@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_127_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gas" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7927822324576834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_gas> .
+
+<#offset_169_175>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Continent> ;
+        itsrdf:taConfidence     "0.9991276606707592"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<#offset_0_379>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "379"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The uprising and military confrontation in Libya that began in February 2011 has led to a disruption of the country’s gas exports to Europe. An analysis of how Europe has compensated for these missing gas volumes shows that the disruption has not affected security of supply. However, this situation would change if the North African uprising were to spread to Algeria.\n" .
+
+<#offset_142_148>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9991276606707592"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<#offset_52_57>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Libya" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9578203389409373"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Libya> .
+
+<#offset_329_342>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "North African" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9894454773411288"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/North_Africa> .
+
+<#offset_370_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Algeria" ;
+        nif:beginIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9991863054277874"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algeria> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_379> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_210_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gas" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7927822324576834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_gas> .
+
+<#offset_13_21>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uprising" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8003979409436284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bahraini_uprising_(2011–present)> .
+
+<#offset_343_351>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uprising" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8003979409436284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bahraini_uprising_(2011–present)> .

@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_50_58>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrete" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969184007141445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrete_mathematics> .
+
+<#offset_0_329>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "329"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The combinatorial problem of clusterwise discrete linear approximation is defined as finding a given number of clusters of observations such that the overall sum of error sum of squares within those clusters becomes a minimum. The FORTRAN implementation of a heuristic solution method and a numerical example are given.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_329> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_268_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heuristic" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9358797830045583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heuristic_(computer_science)> .
+
+<#offset_240_247>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FORTRAN" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fortran> .
+
+<#offset_13_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "combinatorial" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983508636653049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Combinatorial_optimization> .
+
+<#offset_59_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear approximation" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_329> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999920188154083"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_approximation> .

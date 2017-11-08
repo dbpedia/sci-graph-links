@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_182_192>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bit vector" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bit_array> .
+
+<#offset_351_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotically optimal" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotically_optimal_algorithm> .
+
+<#offset_79_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bit vector" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bit_array> .
+
+<#offset_495_505>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bit vector" ;
+        nif:beginIndex          "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bit_array> .
+
+<#offset_243_257>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structure" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999987682031"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<#offset_218_224>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9035404426054408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_memory> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_632> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_111_115>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bits" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999885047775096"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bit> .
+
+<#offset_207_216>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "read-only" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_632> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9797995888062153"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Read-only_memory> .
+
+<#offset_0_632>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "632"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider the problem of supporting rank and select operations on a bit vector of length m with n 1-bits. The problem is considered in the succinct index model, where the bit vector is stored in “read-only” memory and an additional data structure, called the index is created during pre-processing to help answer the above queries. We give asymptotically optimal density-sensitive trade-offs, involving both m and n, that relate the size of the index to the number of accesses to the bit vector (and processing time) needed to answer the above queries. The results are particularly interesting for the case where n=o(m).\n" .

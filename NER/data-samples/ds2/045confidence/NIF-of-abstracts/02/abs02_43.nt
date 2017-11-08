@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_615>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "615"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As applied to the dynamics of machines with rheonomic constraints, the dynamic stability conditions are studied within the frequency range of parametric resonances, with due account taken of impulse and slow variations of parameters. A modification is suggested for the conditional oscillator method, and the level of dissipation is determined on its basis, which is necessary to suppress parametric resonances and eliminate the amplitude modulation of oscillations within the kinematic cycle. Given properly selected parameters, the stability conditions are demonstrated to be independent of dissipation.\n" .
+
+<#offset_486_495>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kinematic" ;
+        nif:beginIndex          "486"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kinematics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_615> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_448_458>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulation" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999920482053534"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulation> .
+
+<#offset_279_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999595618820719"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Causality> .
+
+<#offset_27_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6189832814045908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamics_(mechanics)> .
+
+<#offset_291_301>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oscillator" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993328384471829"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oscillation> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_933_943>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "speciesism" ;
+        nif:beginIndex          "933"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "943"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1115> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Speciesism> .
+
+<#offset_495_502>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1115> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994419286165982"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_0_1115>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1115"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is commonly believed that we humans are justified in exploiting animals because we are “higher” beings:persons who have highly complex, autonomous lives as moral agents. However, there are many “marginal” humans who are not and never will be persons. Those who think it is permissible to exploit animal nonpersons but wrong to do the same to human nonpersons must show that there is a morally relevant difference between the two groups. Speciesists, who believe that membership in a species whose normal adults are persons is sufficient for a right to life, attempt to do just this. As the failure of the best arguments which can be marshalled on their behalf indicates, they are unable to justify their view. I conclude that, although there is a morally relevant difference between human nonpersons and most animal nonpersons, this difference is not an indication of superior moral status. We would do better to abandon speciesism and the assumption thatpersonhood is morally paramount for a view which implies that both human and nonhuman nonpersons are morally considerable and have a right to life.\n" .
+
+<#offset_168_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "moral agents" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1115> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moral_agency> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1115> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

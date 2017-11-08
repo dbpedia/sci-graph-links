@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_399_403>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CSCW" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer-supported_cooperative_work> .
+
+<#offset_95_115>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communicative action" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communicative_action> .
+
+<#offset_312_319>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9894768809827736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<#offset_0_414>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "414"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper discusses Sharrock's and Button's criticism of our attempt to use Habermas' communicative action theory to analyze group work platforms. We demonstrate that they misconstrue our goals of the paper, misinterpret our analysis of Habermas' action types, and misunderstand the concept of critical science. At the end we question the usefulness of these types of debates in furthering CSCW research.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_414> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,63 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_24_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999972434546059"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<#offset_270_293>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Southeast United States" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Southeastern_United_States> .
+
+<#offset_0_849>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "849"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This study uses correlation and multiple regression techniques to document differences in annual temperature trends between the National Climatic Data Center (NCDC) Climate Division Database (CDD) and the United States Historical Climate Network (USHCN) for the Southeast United States. Results indicate that an increase (decrease) in elevation and a northward (southward) shift in mean station location in the CDD correspond with decreases (increases) in temperature. Although the movement of station locations in the CDD showed only modest impacts on trends, the effects of the movements are statistically significant, and explain some of the variances in the temperature trends. Results therefore suggest that climate divisions with more rugged terrain and greater shifts in elevation are more susceptible to spuriously generated trends.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_849> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_40_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiple regression" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_regression> .
+
+<#offset_213_226>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999725552576968"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_136_165>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "National Climatic Data Center" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://schema.org/GovernmentOrganization> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Climatic_Data_Center> .

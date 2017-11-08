@@ -1,0 +1,97 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_520>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "520"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The aim of this review paper is to illustrate the application of the so-called nuclear techniques, i.e. MeV ion beam techniques, to the analysis of thin solid films. First a brief description of the basic interaction processes between an energetic ion and solid matter is given in order to clarify the fundamental basis of the different techniques. Then the main features and an application overview of Rutherford backscattering spectrometry (RBS), nuclear reaction analysis (NRA) and channeling are presented.\n" .
+
+<#offset_452_455>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RBS" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rutherford_backscattering_spectrometry> .
+
+<#offset_88_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nuclear" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9188419983117515"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atomic_nucleus> .
+
+<#offset_113_116>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MeV" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronvolt> .
+
+<#offset_458_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nuclear reaction" ;
+        nif:beginIndex          "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999931447616386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nuclear_reaction> .
+
+<#offset_257_260>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ion" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993290722242776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_520> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_485_488>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NRA" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9998709528440726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Rifle_Association> .
+
+<#offset_412_450>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rutherford backscattering spectrometry" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rutherford_backscattering_spectrometry> .
+
+<#offset_494_504>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "channeling" ;
+        nif:beginIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987434779302916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Channelling_(physics)> .
+
+<#offset_117_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ion beam" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_beam> .

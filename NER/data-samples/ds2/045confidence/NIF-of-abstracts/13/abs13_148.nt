@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_249_263>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "apprenticeship" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_985> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999223007044038"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apprenticeship> .
+
+<#offset_822_833>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rationality" ;
+        nif:beginIndex          "822"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_985> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999678238431634"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rationality> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_985> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_985>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "985"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The aim of the empirical study presented in this paper is to explore how students link academic knowledge with workplace experience. I carried out a research study with a group of 36 business school students entering a 3-year masters level apprenticeship programme. In an introductory statistics course, I designed and implemented a four-step learning activity, based on an Exploratory Data Analysis approach and inspired by an authentic workplace situation. I report the findings of qualitative research based on the recorded discussions between students and the reports they wrote at each step in the experience. I found that three different forms of rationality—technical, pragmatic and scientific—led them to shape the problem differently. I observed that they hardly used statistical tools because pragmatic rationality which is linked to their experience as salespersons prevails, although access to a managerial approach suggests the use of more statistical knowledge.\n" .
+
+<#offset_383_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Exploratory Data Analysis" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_985> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exploratory_data_analysis> .

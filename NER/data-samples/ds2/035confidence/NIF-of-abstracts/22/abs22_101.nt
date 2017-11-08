@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_318_326>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coercive" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999961895583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coercion> .
+
+<#offset_127_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Illinois" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://schema.org/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Region> ;
+        itsrdf:taConfidence     "0.9631068112900021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Illinois> .
+
+<#offset_410_422>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "moral rights" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9511280068181597"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_and_legal_rights> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_544> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_544>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "544"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In his article entitled “Workfare: Servitude or Success Formula?” Patrick J. Keleher Jr. discusses Project Chance, an Illinois public aid program under which refusal of an aid recipient to participate in job training and work internships can result in termination of public assistance. Despite that seemingly coercive aspect of Project Chance, Keleher defends the program as consistent with the basic moral rights of welfare recipients. In my commentary I present reasons why I am not convinced by Keleher's defense of Project Chance.\n" .
+
+<#offset_34_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Workfare" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Workfare> .
+
+<#offset_276_293>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public assistance" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Welfare> .
+
+<#offset_426_433>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "welfare" ;
+        nif:beginIndex          "426"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999914522250427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Welfare> .
+
+<#offset_235_246>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internships" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999950809417369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internship> .

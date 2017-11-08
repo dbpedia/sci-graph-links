@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_393>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "393"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The paper considers arguments for and against correction and elimination of the basic conceptual categories as well as theories of social science. It is argued that some correction of at least some basic social notions is called for. A great part of the paper consists in a conceptual investigation of such notion of correction in terms of different notions of corrective explanation.\n" .
+
+<#offset_139_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social science" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999638577637752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_science> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_393> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

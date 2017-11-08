@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_496_514>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fourier transforms" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_560> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fourier_transform> .
+
+<#offset_223_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kinematics" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_560> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983496968820296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kinematics> .
+
+<#offset_0_560>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "560"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A method is proposed for approximately computing the post collisional interaction of the two escaping electrons in otherwise standard first order ionisation calculations. At intermediate energies and in asymmetric kinematics the effects are found to be very small. The interactions of these electrons with the residual ion are considered through the use of distorted waves. For the slow one the latter are used in the calculations but for the fast one their effect is investigated using Fourier transforms. These interactions play a significant role.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_560> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

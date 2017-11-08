@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_365_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "active sites" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999429292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Active_site> .
+
+<#offset_0_517>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "517"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Molecular dynamics simulations are conducted to predict thermal and mechanical properties of a family of thermoset polymers. We focus on the effect of cross-linkers on density, glass transition temperature, elastic constants, and strength. The polymers are composed of the epoxy resin DGEBA (EPON825) and a series of cross-linkers with different number of active sites and rigidity 33DDS, 44DDS, APB133, TREN, and TAPA. Our simulations quantify effects of cross-linkers on thermal and mechanical properties.\n" .
+
+<#offset_216_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic constants" ;
+        nif:beginIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8927037213337066"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elastic_modulus> .
+
+<#offset_253_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polymers" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polymer> .
+
+<#offset_282_293>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "epoxy resin" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Epoxy> .
+
+<#offset_186_214>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "glass transition temperature" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glass_transition> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_517> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_124_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polymers" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polymer> .
+
+<#offset_114_123>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermoset" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermosetting_polymer> .
+
+<#offset_9_27>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Molecular dynamics" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_dynamics> .

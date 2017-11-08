@@ -1,0 +1,99 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_82_92>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "space-time" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spacetime> .
+
+<#offset_695_711>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-stationarity" ;
+        nif:beginIndex          "695"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "711"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stationary_process> .
+
+<#offset_0_807>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "807"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The past two decades have witnessed an increasing interest in the use of space-time models for a wide range of environmental problems. The fundamental tool used to embody both the temporal and spatial components of the phenomenon in question is the covariance model. The empirical estimation of space-time covariance models can prove highly complex if simplifying assumptions are not employed. For this reason, many studies assume both spatiotemporal stationarity, and the separability of spatial and temporal components. This second assumption is often unrealistic from the empirical point of view. This paper proposes the use of a model in which non-separability arises from temporal non-stationarity. The model is used to analyze tropospheric ozone data from the Emilia-Romagna Region of Italy.\n" .
+
+<#offset_315_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "covariance" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999860165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Covariance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_807> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_304_314>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "space-time" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spacetime> .
+
+<#offset_460_472>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stationarity" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stationary_process> .
+
+<#offset_775_789>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Emilia-Romagna" ;
+        nif:beginIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "789"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Region> ;
+        itsrdf:taConfidence     "0.920325588502955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emilia-Romagna> .
+
+<#offset_258_268>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "covariance" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999860165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Covariance> .
+
+<#offset_800_805>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Italy" ;
+        nif:beginIndex          "800"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9881825553234157"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Italy> .
+
+<#offset_742_760>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tropospheric ozone" ;
+        nif:beginIndex          "742"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_807> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9635182036630373"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ozone> .

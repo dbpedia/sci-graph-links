@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_412_417>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "epoch" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1172> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7352591999949504"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Epoch_(reference_date)> .
+
+<#offset_0_1172>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1172"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An elegant and simple solution to determine the distributions of queue length at different epochs and the waiting time for the model $$GI^{X}/M/c$$ GIX/M/c is presented. In the past, the model $$GI^{X}/M/c$$ GIX/M/c has been extensively analyzed using various techniques by many authors. The purpose of this paper is to present a simple and effective derivation of the analytic solution for pre-arrival epoch probabilities as a linear combination of specific geometric terms (except for the boundary probabilities when the number of servers is greater than the maximum batch size) involving the roots of the underlying characteristic equation. The solution is then leveraged to compute the waiting-time distributions of both first and arbitrary customers of an incoming batch. Numerical examples with various arrival patterns and batch size distributions are also presented. The method that is being proposed here not only gives an alternate solution to the existing methods, but it is also analytically simple, easy to implement, and computationally efficient. It is hoped that the results obtained will prove beneficial to both theoreticians and practitioners.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1172> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_378_386>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1172> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8672280383632173"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytic_geometry> .
+
+<#offset_437_455>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear combination" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1172> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999971578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_combination> .
+
+<#offset_628_651>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "characteristic equation" ;
+        nif:beginIndex          "628"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1172> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8647109061767104"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_differential_equation> .

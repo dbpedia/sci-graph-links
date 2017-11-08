@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_480_496>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear system" ;
+        nif:beginIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_380_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language loss" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5782535651093715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_attrition> .
+
+<#offset_89_103>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language death" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_death> .
+
+<#offset_500_518>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reaction–diffusion" ;
+        nif:beginIndex          "500"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reaction–diffusion_system> .
+
+<#offset_0_1062>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1062"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The extinction of many of the world’s minority languages is of great concern as language death can lead to the irrevocable loss of cultural information. This often occurs through a process of language shift, where individuals switch from speaking one language to a different, more dominant, language. To prevent the loss of language, it is necessary to determine whether language loss is inevitable or if languages can coexist. We address this question by constructing a nonlinear system of reaction–diffusion equations to model the spread of two competing languages, u and v, which vary temporally and spatially. Language u is assumed to confer a relative status advantage to its speakers, thus individuals may convert from language v to language u. The four constant system equilibria are found. Instability and stability conditions are found for each equilibrium. We conclude that the coexistence of both languages u and v is globally stable, subject to certain constraints on the growth rate of each language and the initial values of both u and v.\n" .
+
+<#offset_13_23>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "extinction" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6162564116468257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Extinction> .
+
+<#offset_201_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language shift" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_shift> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1062> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_863_874>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "863"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "874"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1062> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6403867897301608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_equilibrium> .

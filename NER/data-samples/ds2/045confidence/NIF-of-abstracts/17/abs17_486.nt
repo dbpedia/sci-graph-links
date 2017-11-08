@@ -1,0 +1,82 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1376_1399>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrimination learning" ;
+        nif:beginIndex          "1376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrimination_learning> .
+
+<#offset_0_1401>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1401"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Since the observations of O. Pfungst the use of human-provided cues by animals has been well-known in the behavioural sciences (“Clever Hans effect”). It has recently been shown that rhesus monkeys (Macaca mulatta) are unable to use the direction of gazing by the experimenter as a cue for finding food, although after some training they learned to respond to pointing by hand. Direction of gaze is used by chimpanzees, however. Dogs (Canis familiaris) are believed to be sensitive to human gestural communication but their ability has never been formally tested. In three experiments we examined whether dogs can respond to cues given by humans. We found that dogs are able to utilize pointing, bowing, nodding, head-turning and glancing gestures of humans as cues for finding hidden food. Dogs were also able to generalize from one person (owner) to another familiar person (experimenter) in using the same gestures as cues. Baseline trials were run to test the possibility that odour cues alone could be responsible for the dogs’ performance. During training individual performance showed limited variability, probably because some dogs already “knew” some of the cues from their earlier experiences with humans. We suggest that the phenomenon of dogs responding to cues given by humans is better analysed as a case of interspecific communication than in terms of discrimination learning.\n" .
+
+<#offset_444_460>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Canis familiaris" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dog> .
+
+<#offset_115_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "behavioural sciences" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991125743120164"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychology> .
+
+<#offset_138_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Clever Hans" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clever_Hans> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1401> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_208_222>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Macaca mulatta" ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rhesus_macaque> .
+
+<#offset_416_427>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "chimpanzees" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999743588891327"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chimpanzee> .
+
+<#offset_192_206>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rhesus monkeys" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rhesus_macaque> .

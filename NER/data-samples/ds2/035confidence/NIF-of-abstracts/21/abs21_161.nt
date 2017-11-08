@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_148_163>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Federal Reserve" ;
+        nif:beginIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999934884786487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_Reserve_System> .
+
+<#offset_303_318>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Federal Reserve" ;
+        nif:beginIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999934884786487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_Reserve_System> .
+
+<#offset_205_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bundesbank" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deutsche_Bundesbank> .
+
+<#offset_124_138>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal system" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6932247239118163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/States_of_Germany> .
+
+<#offset_0_458>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "458"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We meet in Germany a little more than one year after the start of a new monetary institution, modeled in part as a federal system like the Federal Reserve with policy operations like those of the Bundesbank. For the past five years, one of my main occupations has been the early history of the Federal Reserve. I have looked in detail at its voluminous records of its formative years. My talk today is a brief summary of some things I have learned.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_458> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_20_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9991700759714716"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#offset_81_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_458> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996104943102802"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .

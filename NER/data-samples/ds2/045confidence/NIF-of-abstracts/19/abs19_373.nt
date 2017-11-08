@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_627>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "627"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Representation of film texts for scholars and students has been fraught with difficulties imposed by the very nature of the text. The time-varying image track presented hurdles to close significant challenges to formulation of units of meaning and analysis. The digital environment offers opportunities for addressing these problems. We offer here a model of the film document as a bundle of time-varying signals. We demonstrate using this model to construct a system for close analysis of film texts, including precise measurement of attributes. Finally, we consider some consequence for the pedagogical environment.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_627> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_271_278>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.921365089805617"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signal> .
+
+<#offset_178_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hurdles" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_627> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9368368840406874"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hurdling> .

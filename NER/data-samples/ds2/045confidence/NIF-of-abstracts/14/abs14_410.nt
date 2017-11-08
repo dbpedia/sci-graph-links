@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_92_109>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "utility functions" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Utility> .
+
+<#offset_0_615>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "615"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A class of demand systems based on simple parametric specification of the indirect utility functions, but allowing for the parsimonious imposition of global regularity, is proposed. Demand systems in this class are completely flexible in rank, that is, can be potentially specified to acquire as large a rank as required in empirical work. They also exhibit a clear and reasonable homothetic asymptotic behaviour, as income approaches infinity. In an empirical application using Australian data, several examples from this class are estimated and compared with some popular alternatives in the literature.\n" .
+
+<#offset_390_400>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homothetic" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982876272802874"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homothetic_transformation> .
+
+<#offset_444_452>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infinity" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5617081756542361"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infinity> .
+
+<#offset_488_498>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Australian" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.869321834067584"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .
+
+<#offset_401_411>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7005116525783884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptote> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_615> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

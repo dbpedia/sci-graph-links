@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_727_743>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "hearing impaired" ;
+        nif:beginIndex          "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deafness> .
+
+<#offset_168_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mobile application" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9021411423235877"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Application_software> .
+
+<#offset_564_576>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "564"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9143938985505928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_architecture> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_910> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_32_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9143938985505928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_architecture> .
+
+<#offset_141_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_910> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9143938985505928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_architecture> .
+
+<#offset_0_910>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "910"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper presents an architecture developed in order to watch a movie in a cinema and follow subtitles in the mobile device. This architecture consists of a mobile application intended to display subtitles in an ordinary cinema, as well as a server containing the subtitles of those movies available at each cinema. The mobile device will connect to this server to download the desired subtitle. Once downloaded, the device is synchronized with the film running, using timestamps provided by the server, and will display the subtitles accordingly. This architecture can be used by any person interested in the movie subtitles, such as people who want to read the subtitles in another language, like a tourist, or by hearing impaired people. It must be pointed out that it is difficult to access movies at cinemas, as there are very few movie theaters where films are shown with subtitles regularly.\n" .

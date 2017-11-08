@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_46_54>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_274> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9970830094162717"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_274> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_274>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "274"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We are at an important time-point in American History where diversity is about to enter its second generation of activity. Diversity 5.0 describes where we are today, and where we need to be to truly emerge as a diverse society in America that values one another.ᅟ\n" .
+
+<#offset_229_236>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_274> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9883768742434396"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#offset_32_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time-point" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_274> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9441480433850973"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_point> .

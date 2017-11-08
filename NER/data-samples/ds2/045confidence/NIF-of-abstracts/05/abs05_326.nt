@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_297_300>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CML" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.8663181558792891"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chronic_myelogenous_leukemia> .
+
+<#offset_852_858>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "858"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999967031"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1057> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_371_383>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999855262005166"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#offset_23_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human rights" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999955098147294"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_rights> .
+
+<#offset_165_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "life cycle assessment" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Life-cycle_assessment> .
+
+<#offset_794_814>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensitivity analysis" ;
+        nif:beginIndex          "794"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensitivity_analysis> .
+
+<#offset_289_295>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Leiden" ;
+        nif:beginIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9894916158140871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leiden> .
+
+<#offset_0_1057>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1057"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract International human rights conventions and international environmental laws and conventions have been used to deduce criteria for a valuation procedure for life cycle assessment. The valuation procedure relates to the impact oriented assessment of the Centrum voor Milieukunde in Leiden (CML). The panel method is suitable for comparison LCAs of two systems, or optimization LCAs. The method consists of four steps. Step one is the normalization of the results of the impact assessment. In step two, a panel of experts values the results by three qualitative criteria (time, space, hazard). In step three, a ranking diagram technique is used for a formalized priority setting and a preliminary identification of the product causing the most environmental burdens. Step four includes a sensitivity analysis and a plausibility check based on an energy and waste analysis. Discrepancies between the plausibility check and step three may cause a reevaluation of parts of the valuation, impact assessment, inventory table or goal definition of the LCA.\n" .

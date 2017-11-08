@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_183_193>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequencing" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_706> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7465374981532071"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequencing> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_706> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_9_24>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Suburban sprawl" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_706> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999977831"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suburb> .
+
+<#offset_0_706>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "706"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Suburban sprawl is often criticized on the grounds that it results in low density land uses. A model is developed and calibrated in which a planning agency can influence the sequencing and densities of two phases of suburban development on the urban fringe. In this model an Ogawa-Fujita accessibility function plays an important role in determining rents per unit of built space and hence land values at any location. If the planner opts for a continuous rather than discontinuous development pattern, the result is lower densities but higher property values. It is concluded that planning efforts to limit sprawl are more consistent with tax base considerations than with concerns over density.\n" .

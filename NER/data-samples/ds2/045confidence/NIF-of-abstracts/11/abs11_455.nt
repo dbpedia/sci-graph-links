@@ -1,0 +1,126 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_786>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "786"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The eye and its associated tissues including the lacrimal system and lids have evolved several defence mechanisms to prevent microbial invasion. Included among this armory are several host-defence peptides. These multifunctional molecules are being studied not only for their endogenous antimicrobial properties but also for their potential therapeutic effects. Here the current knowledge of host-defence peptide expression in the eye will be summarised. The role of these peptides in eye disease will be discussed with the primary focus being on infectious keratitis, inflammatory conditions including dry eye and wound healing. Finally the potential of using host-defence peptides and their mimetics/derivatives for the treatment and prevention of eye diseases is addressed.\n" .
+
+<#offset_58_73>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "lacrimal system" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lacrimal_apparatus> .
+
+<#offset_624_637>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wound healing" ;
+        nif:beginIndex          "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wound_healing> .
+
+<#offset_414_421>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "peptide" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Peptide> .
+
+<#offset_296_309>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimicrobial" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999983206650465"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimicrobial> .
+
+<#offset_285_295>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogenous" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.63580823262323"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toll-like_receptor> .
+
+<#offset_104_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "defence mechanisms" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999975669157907"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Defence_mechanisms> .
+
+<#offset_238_247>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecules" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992316028962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_786> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_612_619>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dry eye" ;
+        nif:beginIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Keratoconjunctivitis_sicca> .
+
+<#offset_482_490>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "peptides" ;
+        nif:beginIndex          "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Peptide> .
+
+<#offset_567_576>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "keratitis" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Keratitis> .
+
+<#offset_206_214>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "peptides" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Peptide> .
+
+<#offset_683_691>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "peptides" ;
+        nif:beginIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Peptide> .

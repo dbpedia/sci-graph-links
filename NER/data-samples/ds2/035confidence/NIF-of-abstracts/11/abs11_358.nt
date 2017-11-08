@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_323>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "323"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Childhood retinal detachment while not common is usually severe, more often accompanied by severe myopia and more often hereditary and syndromal in nature than is retinal detachment which occurs in the middle aged to elderly individual. — 6 of these syndromes, are presented and their clinical features described.\n" .
+
+<#offset_129_139>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hereditary" ;
+        nif:beginIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_323> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8399305985450651"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heredity> .
+
+<#offset_172_190>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "retinal detachment" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_323> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_detachment> .
+
+<#offset_19_37>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "retinal detachment" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_323> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_detachment> .
+
+<#offset_107_113>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "myopia" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_323> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.999999999996362"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Myopia> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_323> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_259_268>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syndromes" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_323> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Syndrome> .
+
+<#offset_144_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "syndromal" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_323> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Syndrome> .

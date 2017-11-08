@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_172_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vacuum chamber" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vacuum_chamber> .
+
+<#offset_258_276>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electric discharge" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8779795970456555"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrostatic_discharge> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_502> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_502>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "502"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract New vacuum gauges with emitters based on carbon nanotubes (CNTs) are described. The relation between the field emission from CNTs and the residual pressure in the vacuum chamber is considered. The operation of the proposed pressure sensor obeys the electric discharge theory based on the Paschen law, whereby the pressure is determined by measuring the discharge current as a function of the concentration of a gas (air) ionized as a result of the collisions with electrons emitted from CNTs.\n" .
+
+<#offset_430_437>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ionized" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968654828663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ionization> .
+
+<#offset_13_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vacuum gauges" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pressure_measurement> .
+
+<#offset_50_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon nanotubes" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_nanotube> .

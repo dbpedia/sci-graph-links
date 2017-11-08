@@ -1,0 +1,107 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_347_355>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scandium" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scandium> .
+
+<#offset_95_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EDTA" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethylenediaminetetraacetic_acid> .
+
+<#offset_17_26>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "titration" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Titration> .
+
+<#offset_0_440>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "440"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The back titration procedure making use of mercuric nitrate as back titrant for excess EDTA in alkaline media, has been successfully applied for the determination of small amounts of scandium or palladium in the order of 0.045 to 7 or 0.1 to 4mg, respectively. Simple procedures are given for the analysis of binary or ternary mixtures of scandium or palladium with some other metals, yielding results of quite reasonable accuracy.\n" .
+
+<#offset_385_391>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metals" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999679608528961"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_440> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_51_67>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "mercuric nitrate" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mercury(II)_nitrate> .
+
+<#offset_103_111>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alkaline" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9022023360712753"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Base_(chemistry)> .
+
+<#offset_327_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ternary" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4374421064142567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ternary_numeral_system> .
+
+<#offset_317_323>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8926766974529717"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<#offset_76_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "titrant" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Titration> .
+
+<#offset_191_199>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scandium" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scandium> .

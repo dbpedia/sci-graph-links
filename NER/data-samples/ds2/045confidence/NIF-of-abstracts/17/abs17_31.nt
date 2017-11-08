@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_567_600>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Zung self-rating depression scale" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zung_Self-Rating_Depression_Scale> .
+
+<#offset_1073_1081>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "1073"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1081"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916557584895138"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_1164_1171>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anxiety" ;
+        nif:beginIndex          "1164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999987494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anxiety> .
+
+<#offset_115_128>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "breast cancer" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999759621722782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breast_cancer> .
+
+<#offset_502_510>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "502"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9879364400057513"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytic_function> .
+
+<#offset_647_650>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SAS" ;
+        nif:beginIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9897400533112255"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SAS_(software)> .
+
+<#offset_602_605>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SDS" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9967660849792103"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sodium_dodecyl_sulfate> .
+
+<#offset_65_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "typology" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Personality_type> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1388> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1388>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1388"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Goals of workThe purpose of this study was to develop a typology of family functioning in the families of breast cancer patients. Patients and methodsSeventy-four families (189 individuals: 74 patients, 54 spouses, 46 offspring, and 15 other relatives) completed self-report questionnaires. Perception of family functioning was assessed using the family relationship index (FRI) and its three dimensions (cohesiveness, expressiveness, and conflict) and was classified into groups by a cluster analytic approach. Psychological distress was assessed using the Zung self-rating depression scale (SDS) and the Zung self-rating anxiety scale (SAS). Main resultsCluster analysis yielded three groups of patients and their family members: one cluster with high cohesiveness, high expressiveness, and low conflict (“supportive” type: n=64); a second group with low cohesiveness, low expressiveness, and high conflict (“conflictive” type: n=65); and a third group with limited cohesiveness, limited expressiveness, and low conflict (“intermediate” type: n=60). Analysis of variance revealed that conflictive families manifested the highest level of depression and anxiety among these clusters. ConclusionsTypology of family functioning can identify psychologically at-risk families. A family-focused approach can help to reduce psychological distress, especially in conflictive families.\n" .
+
+<#offset_1149_1159>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "depression" ;
+        nif:beginIndex          "1149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6351938283876649"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Depression_(mood)> .
+
+<#offset_615_645>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Zung self-rating anxiety scale" ;
+        nif:beginIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1388> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zung_Self-Rating_Anxiety_Scale> .

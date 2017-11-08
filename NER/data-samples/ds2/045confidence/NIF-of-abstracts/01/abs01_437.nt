@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_47_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical models" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_550> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999911699287413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_model> .
+
+<#offset_243_257>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parametrically" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_550> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999963163544042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parameter> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_550> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_550>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "550"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper reports the construction of mathematical models to study the phenomenon of self-regulation (autostabilization) of temperature in the bioreactor of a continuous type with one or two biological objects. These models have been parametrically identified and their adequacy proved on the basis of experimental data. They have been used to find the boundaries of the existence of this phenomenon and to analyze its basic occurrences. The performed calculation experiments have shown how to use this phenomenon in practical applications.\n" .
+
+<#offset_152_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bioreactor" ;
+        nif:beginIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_550> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999365544245377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bioreactor> .

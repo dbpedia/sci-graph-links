@@ -1,0 +1,141 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1191_1201>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "robustness" ;
+        nif:beginIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998148394014"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Robust_statistics> .
+
+<#offset_1080_1096>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substitutability" ;
+        nif:beginIndex          "1080"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1096"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999989464236614"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Substitute_good> .
+
+<#offset_489_499>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scheduling" ;
+        nif:beginIndex          "489"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983602261860196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scheduling_(computing)> .
+
+<#offset_85_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deterministic" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994513097277"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Determinism> .
+
+<#offset_1275_1286>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "methodology" ;
+        nif:beginIndex          "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999725686866997"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methodology> .
+
+<#offset_1111_1119>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reactive" ;
+        nif:beginIndex          "1111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7891519220007035"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AC_power> .
+
+<#offset_99_120>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operating environment" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999275815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operating_environment> .
+
+<#offset_314_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absenteeism" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Absenteeism> .
+
+<#offset_0_1362>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1362"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Organisations usually construct personnel rosters under the assumption of a deterministic operating environment. In the short term, however, organisations operate in a stochastic environment as operational variability arises. This variability leads to the occurrence of unexpected events such as employee absenteeism and/or a demand for personnel that is higher or lower than expected. In order to deal with these uncertainties, organisations need to adopt proactive and reactive scheduling strategies to protect the personnel roster and to respond to this operational variability, respectively. In this paper, we discuss a proactive approach that exploits the concept of employee substitutability to improve the flexibility of a personnel shift roster to respond to schedule disruptions. We propose a pre-emptive programming approach to construct a medium-term personnel shift roster that maximises the employee substitutability value. Moreover, we assess different proactive strategies to introduce robustness with respect to the definition and formulation of employee substitutability and different reactive strategies that impact the decision freedom for schedule recovery. The robustness of the generated personnel shift rosters is evaluated using a three-step methodology of roster construction, daily simulation and optimisation, and evaluation.\n" .
+
+<#offset_177_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999382980623"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic> .
+
+<#offset_1010_1020>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "robustness" ;
+        nif:beginIndex          "1010"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1020"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998148394014"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Robust_statistics> .
+
+<#offset_480_488>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reactive" ;
+        nif:beginIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7891519220007035"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AC_power> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1362> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1317_1327>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "1317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999033414314981"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .
+
+<#offset_922_938>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substitutability" ;
+        nif:beginIndex          "922"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "938"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999989464236614"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Substitute_good> .
+
+<#offset_690_706>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substitutability" ;
+        nif:beginIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999989464236614"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Substitute_good> .

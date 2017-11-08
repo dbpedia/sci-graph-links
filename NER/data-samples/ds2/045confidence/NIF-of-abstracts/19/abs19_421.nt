@@ -1,0 +1,25 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_339_343>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "folk" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "0.9984271821814203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Folk_music> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_472> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_472>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "472"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Young children can learn about their own feelings and moods through listening to music, by singing songs, and by expressively moving to music. Music and song provide an enjoyable way to introduce young children to the songs and tales of other cultures as well as familiarizing children with words in other languages. A listing of folk songs suitable for early childhood classrooms is provided to support teachers' use of music with children's singing and moving.\n" .

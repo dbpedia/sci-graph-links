@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_268_279>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9953030500762452"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rate_of_convergence> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_481> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_190_197>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entropy" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.948904547367953"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropy> .
+
+<#offset_0_481>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "481"^^xsd:nonNegativeInteger ;
+        nif:isString    "We introduce and formalize a class of multi-round (dynamic) procedures for collective estimation and choice among options. A technique is developed for investigating models of this class by entropy functions of a special form. Methods are proposed for the analysis of convergence, stability, accuracy, completeness, and adequacy of the proposed procedures. The analysis identifies a certain type of sufficiently simple models that have the best characteristics in the given class.\n" .

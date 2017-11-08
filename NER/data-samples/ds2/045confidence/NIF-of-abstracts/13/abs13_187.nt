@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1067>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1067"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Learning is often identified with the acquisition, encoding, or construction of new knowledge, while retrieval is often considered only a means of assessing knowledge, not a process that contributes to learning. Here, we make the case that retrieval is the key process for understanding and for promoting learning. We provide an overview of recent research showing that active retrieval enhances learning, and we highlight ways researchers have sought to extend research on active retrieval to meaningful learning—the learning of complex educational materials as assessed on measures of inference making and knowledge application. However, many students lack metacognitive awareness of the benefits of practicing active retrieval. We describe two approaches to addressing this problem: classroom quizzing and a computer-based learning program that guides students to practice retrieval. Retrieval processes must be considered in any analysis of learning, and incorporating retrieval into educational activities represents a powerful way to enhance learning.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1067> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_668_681>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metacognitive" ;
+        nif:beginIndex          "668"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1067> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metacognition> .

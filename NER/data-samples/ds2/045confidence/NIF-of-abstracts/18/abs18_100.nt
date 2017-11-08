@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_88_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subfamily" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_240> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9343040601526382"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subfamily> .
+
+<#offset_213_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_240> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999505617483406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#offset_0_240>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "240"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we consider families of compact convex sets in ℝ d such that any subfamily of size at most d has a nonempty intersection. We prove some analogues of the central point theorem and Tverberg’s theorem for such families.\n" .
+
+<#offset_55_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex sets" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_240> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_set> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_240> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_190_197>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_240> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999505617483406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .

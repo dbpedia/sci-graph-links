@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_334>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "334"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Some real and interval algorithms for the numerical solution of a class of nonlinear algebraic equations are described. These algorithms are based upon the symmetric single-step [2] and Newton [10], [11], [8] methods. Convergence theorems and numerical results which illustrate the effectiveness of the algorithms are given.\n" .
+
+<#offset_312_322>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999988581351"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_195_201>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Newton" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.999999520037251"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isaac_Newton> .
+
+<#offset_94_113>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algebraic equations" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999836302892"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algebraic_equation> .
+
+<#offset_165_174>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9111502853434205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_334> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_84_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9503602708818724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_135_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999988581351"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_32_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999988581351"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .

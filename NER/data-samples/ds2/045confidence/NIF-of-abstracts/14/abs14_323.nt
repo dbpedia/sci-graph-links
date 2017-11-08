@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1285>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1285"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper presents and analyses appraisal methods used for the assessment of potential investments in Nodal Centers for Goods (also called Freight Villages), which constitute an essential element of the Trans-European Network for Intermodal Transport. A methodological procedure is applied to identify the underlying factors that influence the choice of an appraisal method, without assessing or comparing the appraisal methods themselves. Following this procedure, issues addressed by the methods are grouped into three broad dimensions and with the use of non-parametric statistical tests, existing relationships are identified between nodal centres' characteristics, the appraisal methods, as well as the actors involved in the decision process. On applying the above procedure to European Nodal Centres for goods, it is found that the choice of appraisal method and the decision criteria for the investment are linked primarily to the nodal centre's size, catchment area, and the support or absence of political approval for the investment. The results of the analysis can be particularly useful at the policy making level, serving as non-formal \"qualitative guidelines\" to identify the appraisal method to be applied, as well as the options and impacts to be considered.\n" .
+
+<#offset_111_116>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Nodal" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9948591113583682"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NODAL> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1285> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_567_593>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-parametric statistical" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<#offset_802_807>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nodal" ;
+        nif:beginIndex          "802"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.99485911120896"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NODAL> .

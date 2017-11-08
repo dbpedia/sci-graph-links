@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_526_545>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential attack" ;
+        nif:beginIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_cryptanalysis> .
+
+<#offset_568_575>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entropy" ;
+        nif:beginIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998675646194466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropy_(information_theory)> .
+
+<#offset_372_390>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genetic algorithms" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genetic_algorithm> .
+
+<#offset_0_596>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "596"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The security of digital medical images has attracted much attention recently, especially when these images are sent through the communication networks. An image encryption technique tries to convert an image to another image that is hard to understand. In this communication, we propose an encryption method for gray scale medical images based on the features of genetic algorithms. Performance analysis show that the proposed scheme has good statistical character, key sensitivity and can resist brute-force attack, differential attack, plaintext attack and entropy attack efficiently.\n" .
+
+<#offset_25_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9912087492346525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_596> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_299_309>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9901520842117811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Encryption> .
+
+<#offset_170_180>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9901520842117811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Encryption> .
+
+<#offset_506_524>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "brute-force attack" ;
+        nif:beginIndex          "506"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "524"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brute-force_attack> .
+
+<#offset_547_556>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plaintext" ;
+        nif:beginIndex          "547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "556"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_596> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plaintext> .

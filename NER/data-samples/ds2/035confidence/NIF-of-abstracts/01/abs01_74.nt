@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_112_116>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wave" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998062760370194"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wave> .
+
+<#offset_231_252>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical problems" ;
+        nif:beginIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8617360557930235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/List_of_unsolved_problems_in_mathematics> .
+
+<#offset_59_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "emergent" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9913556902110299"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emergence> .
+
+<#offset_201_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "incidence" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8811507309510576"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Incidence_(epidemiology)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_285> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_285>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "285"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A two-step procedure is developed which allows the emergent modes to be determined when a discontinuity wave strikes obliquely on a boundary. Although the procedure is straightforward, oblique incidence gives rise to a few mathematical problems, which are discussed in detail.\n" .
+
+<#offset_98_111>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discontinuity" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999742543758701"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classification_of_discontinuities> .

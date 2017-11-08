@@ -1,0 +1,43 @@
+Abstract OpenDocument and Open XML are both new open file formats for office documents. OpenDocument is an ISO standard, promoted by OpenOffice.org and Sun StarOffice. Open XML is the new format for Microsoft Office 2007 documents, an ECMA standard. These two formats share the same basic principles: XML files within a ZIP archive, with an open schema, in contrast to good-old proprietary formats (MS Word, Excel, PowerPoint, ...). However, both of them suffer from many security issues, similar to previous Office formats: malicious people can still embed and hide malware (Trojan horses and viruses) thanks to macros, scripts, OLE objects and similar features. This paper shows the security issues with technical details, including XML and ZIP obfuscation techniques that may be used to bypass antiviruses, and describes how to design a filter to get rid of unwanted parts in a safe way.
+Open XML            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Office_Open_XML       
+
+Excel                         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Microsoft_Excel       
+
+schema                        0.9999999204854961^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/XML_schema            
+
+StarOffice                    0.9999567776212135^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/OpenOffice            
+
+Sun                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Sun_Microsystems      
+
+ISO                           0.9999999983688213^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/International_Organization_for_Standardization
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+macros                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Macro_(computer_science)
+
+viruses                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Computer_virus        
+
+malware                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Malware               
+
+PowerPoint                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Microsoft_PowerPoint  
+
+OpenDocument                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/OpenDocument          
+
+Trojan horses                 0.9999999999997726^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Trojan_horse_(computing)
+
+Microsoft Office 2007         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Microsoft_Office_2007 
+
+ECMA                          0.8853109915013491^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Ecma_International    
+
+OpenDocument                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/OpenDocument          
+
+OLE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Object_Linking_and_Embedding
+
+OpenOffice.org                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/OpenOffice            
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+MS                            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Microsoft             
+
+Open XML                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Office_Open_XML       
+

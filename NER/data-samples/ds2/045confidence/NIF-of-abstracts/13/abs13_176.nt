@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1015_1036>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematics education" ;
+        nif:beginIndex          "1015"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1132> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics_education> .
+
+<#offset_0_1132>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1132"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Research on identity has been a growing domain in the contexts of teacher education and mathematics education; however, identity work has been explored to a much lesser extent, with a future orientation overlooked. In addition, earlier studies have not provided sufficient knowledge on how different elementary teacher education programs might facilitate pre-service teachers’ identity work. In this study, we compare future-oriented mathematical identity work through a narrative framework considering six pre-service teachers undergoing two different teacher education programs. All pre-service teachers reported having had negative experiences with mathematics during their school years. Based on the results we conclude that despite the striking similarities in pre-service teachers’ mathematical backgrounds, the ways in which these cases are conducting their identity work differ substantially. It seems that the main reasons for these differences are different emphases and pedagogical practices in mathematics education courses. Additionally, we further elaborate on our earlier conceptualisation of identity work.\n" .
+
+<#offset_97_118>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematics education" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1132> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics_education> .
+
+<#offset_661_672>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematics" ;
+        nif:beginIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1132> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997260721936579"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1132> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

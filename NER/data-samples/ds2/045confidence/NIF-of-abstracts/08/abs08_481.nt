@@ -1,0 +1,244 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_816_819>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lfp" ;
+        nif:beginIndex          "816"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989757727765499"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Local_field_potential> .
+
+<#offset_994_997>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sql" ;
+        nif:beginIndex          "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999999998611884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SQL> .
+
+<#offset_1274_1292>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "query optimization" ;
+        nif:beginIndex          "1274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_optimization> .
+
+<#offset_382_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ath" ;
+        nif:beginIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9981760206249877"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ath> .
+
+<#offset_1018_1030>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1030"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971919539531637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_optimization> .
+
+<#offset_672_675>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dtd" ;
+        nif:beginIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<#offset_508_511>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lfp" ;
+        nif:beginIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989757727765499"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Local_field_potential> .
+
+<#offset_0_1510>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1510"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We study the problem of evaluating xpath queries over xml data that is stored in an rdbms via schema-based shredding. The interaction between recursion (descendants-axis) in xpath queries and recursion in dtds makes it challenging to answer xpath queries using rdbms. We present a new approach to translating xpath queries into sql queries based on a notion of extended XP ath expressions and a simple least fixpoint (lfp) operator. Extended xpath expressions are a mild extension of xpath, and the lfp operator takes a single input relation and is already supported by most commercial rdbms. We show that extended xpath expressions are capable of capturing both dtd recursion and xpath queries in a uniform framework. Furthermore, they can be translated into an equivalent sequence of sql queries with the lfp operator. We present algorithms for rewriting xpath queries over a (possibly recursive) dtd into extended xpath expressions and for translating extended xpath expressions to sql queries, as well as optimization techniques. The novelty of our approach consists in its capability to answer a large class of xpath queries by means of only low-end rdbms features already available in most rdbms, as well as its flexibility to accommodate existing relational query optimization techniques. In addition, these translation algorithms provide a solution to query answering for certain (possibly recursive) xml views of xml data. Our experimental results verify the effectiveness of our techniques.\n" .
+
+<#offset_270_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdbms" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981999356181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relational_database> .
+
+<#offset_337_340>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sql" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9999999998611884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SQL> .
+
+<#offset_214_218>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dtds" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Document_Type_Definition> .
+
+<#offset_1407_1416>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive" ;
+        nif:beginIndex          "1407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994716764285599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<#offset_427_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lfp" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989757727765499"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Local_field_potential> .
+
+<#offset_841_851>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "841"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999854481"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_1205_1210>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdbms" ;
+        nif:beginIndex          "1205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981999356181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relational_database> .
+
+<#offset_897_906>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive" ;
+        nif:beginIndex          "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "906"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994716764285599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<#offset_795_798>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sql" ;
+        nif:beginIndex          "795"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999999998611884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SQL> .
+
+<#offset_201_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursion" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995946366858329"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<#offset_417_425>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fixpoint" ;
+        nif:beginIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fixed_point_(mathematics)> .
+
+<#offset_676_685>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursion" ;
+        nif:beginIndex          "676"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "685"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995946366858329"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1510> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_595_600>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdbms" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981999356181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relational_database> .
+
+<#offset_908_911>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dtd" ;
+        nif:beginIndex          "908"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<#offset_151_160>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursion" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995946366858329"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion_(computer_science)> .
+
+<#offset_1336_1346>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "1336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999854481"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_93_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdbms" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981999356181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relational_database> .
+
+<#offset_1164_1169>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rdbms" ;
+        nif:beginIndex          "1164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981999356181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relational_database> .

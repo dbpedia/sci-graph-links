@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_297>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "297"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The main purpose of this paper is to deal with error behaviour of partitioned Runge-Kutta methods for one-parameter multiple stiff singular perturbation problems whose stiffness is caused by a small parameter ε and some other factors and to present some quantitative convergence results.\n" .
+
+<#offset_111_124>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "one-parameter" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986807986436"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/One-parameter_group> .
+
+<#offset_87_106>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Runge-Kutta methods" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Runge–Kutta_methods> .
+
+<#offset_75_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partitioned" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9504219528477754"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_of_a_set> .
+
+<#offset_263_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantitative" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6360249512532772"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_297> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_140_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singular perturbation" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Singular_perturbation> .
+
+<#offset_276_287>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9647223437535255"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_of_a_sequence> .
+
+<#offset_177_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stiffness" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_297> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9970645420554374"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stiffness> .

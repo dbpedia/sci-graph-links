@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_302_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "product data management" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Product_data_management> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_445> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_445>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "445"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper discusses the competitive pressures forcing major organisations to co-operate ever more closely in designing, manufacturing and supporting new products and major assets. It explains the resulting business and integration issues and presents a potential solution based on the use of product data management technology, supported by business consultancy and flexible commercial models that share investment costs and benefits.\n" .

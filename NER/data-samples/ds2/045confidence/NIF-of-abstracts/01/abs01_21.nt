@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_68_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rayleigh" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Scientist> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9920430240716085"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/John_Strutt,_3rd_Baron_Rayleigh> .
+
+<#offset_35_53>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "periodic solutions" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Periodic_function> .
+
+<#offset_146_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tau" ;
+        nif:beginIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9848224065849248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tau> .
+
+<#offset_0_304>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "304"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The existence of positive periodic solutions for a kind of Rayleigh equation with a deviating argument $$ x''(t)   f(x'(t))   g(t,x(t - \\tau (t))) = p(t) $$ is studied. Using the coincidence degree theory, some sufficient conditions on the existence of positive periodic solutions are obtained.\n" .
+
+<#offset_271_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "periodic solutions" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_304> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Periodic_function> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_304> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

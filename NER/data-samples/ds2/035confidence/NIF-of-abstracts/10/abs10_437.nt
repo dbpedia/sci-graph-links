@@ -1,0 +1,114 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_640_651>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "640"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9689947414052115"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_754_759>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "754"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "759"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9610300169465789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<#offset_393_411>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "massively parallel" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999962148761496"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Massively_parallel_(computing)> .
+
+<#offset_287_292>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9610300169465789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<#offset_186_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9610300169465789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<#offset_0_809>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "809"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We investigate operating system noise, which we identify as one of the main reasons for a lack of synchronicity in parallel applications. Using a microbenchmark, we measure the noise on several contemporary platforms and find that, even with a general-purpose operating system, noise can be limited if certain precautions are taken. We then inject artificially generated noise into a massively parallel system and measure its influence on the performance of collective operations. Our experiments indicate that on extreme-scale platforms, the performance is correlated with the largest interruption to the application, even if the probability of such an interruption on a single process is extremely small. We demonstrate that synchronizing the noise can significantly reduce its negative influence.\n" .
+
+<#offset_41_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9610300169465789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<#offset_380_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9610300169465789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<#offset_269_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operating system" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998661041422"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operating_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_809> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_24_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operating system" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998661041422"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operating_system> .
+
+<#offset_681_687>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "single" ;
+        nif:beginIndex          "681"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971826339110871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Single_(music)> .
+
+<#offset_107_120>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synchronicity" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996632596"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synchronicity> .

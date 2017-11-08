@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_172_183>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photoresist" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photoresist> .
+
+<#offset_37_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microstructure" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995393633792"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microstructure> .
+
+<#offset_64_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aspect ratio" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999984270272514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aspect_ratio> .
+
+<#offset_302_315>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "micromachines" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999944293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Micromachinery> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_331> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_320_322>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IC" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999995282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integrated_circuit> .
+
+<#offset_134_143>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polyimide" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polyimide> .
+
+<#offset_0_331>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "331"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  A method for fabricating a microstructure with a high aspect ratio has been developed. It uses a combination of fluorinated polyimide and silicone-based positive photoresist, which reduces the number of process steps and the turn-around time. This fabrication method is applicable to optical micromachines and IC probes.\n" .

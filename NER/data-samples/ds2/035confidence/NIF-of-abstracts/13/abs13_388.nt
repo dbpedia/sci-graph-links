@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_782_790>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "doctoral" ;
+        nif:beginIndex          "782"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_869> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8033357855938839"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doctorate> .
+
+<#offset_699_704>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coach" ;
+        nif:beginIndex          "699"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_869> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999214882280296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coaching> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_869> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_869>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "869"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Doctoral students receive many kinds of assistance from faculty members, but much of this support falls short of mentoring. This paper takes the perspective that it is more important to find out what kinds of help students receive from faculty than to assume that students are taken care of by mentors, as distinct from advisors or role models. The findings here are based on both survey and interview data collected through the Acadia Institute’s project on Professional Values and Ethical Issues in the Graduate Education of Scientists and Engineers. The paper describes various kinds of assistance that students receive (or do not receive) from faculty members in their roles as teacher/coach, sponsor, and counselor, It concludes with a section on advisors assigned to doctoral students, notably the extent of their contact with and influence on students.\n" .
+
+<#offset_341_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "role models" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_869> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998750582"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Role_model> .
+
+<#offset_438_444>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Acadia" ;
+        nif:beginIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_869> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://schema.org/EducationalOrganization> , <http://schema.org/CollegeOrUniversity> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9563504042452557"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acadia_University> .

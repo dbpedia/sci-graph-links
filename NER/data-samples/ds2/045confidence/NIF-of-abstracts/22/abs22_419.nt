@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_767_778>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concurrency" ;
+        nif:beginIndex          "767"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "778"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999713653309324"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concurrency_(computer_science)> .
+
+<#offset_676_689>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "676"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999756287049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_25_34>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "causation" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999977263"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Causality> .
+
+<#offset_269_278>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantics" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999838908794711"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantics> .
+
+<#offset_88_103>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complex systems" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9721505617445733"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complex_systems> .
+
+<#offset_561_569>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concrete" ;
+        nif:beginIndex          "561"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "569"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999949505991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_and_concrete> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1021> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_936_946>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "936"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990651873527434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy_of_science> .
+
+<#offset_908_931>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "artificial intelligence" ;
+        nif:beginIndex          "908"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "931"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1021> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999970699491"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<#offset_0_1021>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1021"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The language of causation is natural for the specification of requirements for complex systems. The paper provides a vocabulary of causal specification expressions, suitable for describing and analysing such systems. The notation is given a syntax and partial semantics. It covers many of the commonly used modes of causal language including necessary and sufficient cause, prevention and enabling conditions. The concept of condition splitting is introduced, enabling a specification at an abstract level to treat two conditions as identical, while a concrete refinement of it may view them as separate. A number of other issues are examined, including: repetitive, probabilistic and hidden causes; causal agents; the validation of causal descriptions; and concurrency. Possible approaches to development of causal specifications are discussed. The work is placed in the context of related work in artificial intelligence and philosophy. The detailed framework of the paper is supported by a realistic example.\n" .

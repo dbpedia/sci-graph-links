@@ -1,0 +1,151 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_777_785>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "database" ;
+        nif:beginIndex          "777"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999613475522326"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .
+
+<#offset_412_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996976397847566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_network> .
+
+<#offset_317_335>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "feature extraction" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Feature_extraction> .
+
+<#offset_55_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pattern recognition" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pattern_recognition> .
+
+<#offset_768_771>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ORL" ;
+        nif:beginIndex          "768"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "771"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/SportsTeam> , <http://dbpedia.org/ontology/SoccerClub> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/SportsTeam> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.7109449816678994"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orlando_City_Soccer_Club> .
+
+<#offset_504_520>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "face recognition" ;
+        nif:beginIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999982497340025"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Facial_recognition_system> .
+
+<#offset_433_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "translation" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986437569672685"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Translation_(geometry)> .
+
+<#offset_449_459>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "distortion" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.989653213816343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Distortion> .
+
+<#offset_0_787>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "787"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this article, we propose a shift-invariant pattern recognition mechanism using a feature-sharing hypercolumn model (FSHCM). To improve the recognition rate and to reduce the memory requirements of the hypercolumn model (HCM), a shared map is constructed to replace a set of local neighborhood maps in the feature extraction and feature integration layers. The shared maps increase the ability of the network to deal with translation and distortion variations in the input image. The proposed face recognition system employed a FSHCM neural network to perform feature extraction and use a linear support vector machine for a recognition task. The effectiveness of the proposed approach is verified by measuring the recognition accuracy using the misaligned ORL face database.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_787> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_186_192>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9689525799793886"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#offset_571_589>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "feature extraction" ;
+        nif:beginIndex          "571"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Feature_extraction> .
+
+<#offset_545_559>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neural network" ;
+        nif:beginIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999998959197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<#offset_232_235>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HCM" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8613639546373705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_resource_management> .
+
+<#offset_600_606>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear" ;
+        nif:beginIndex          "600"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990019246691363"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linearity> .
+
+<#offset_607_629>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "support vector machine" ;
+        nif:beginIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Support_vector_machine> .
+
+<#offset_292_304>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neighborhood" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998256239934917"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neighbourhood_(mathematics)> .

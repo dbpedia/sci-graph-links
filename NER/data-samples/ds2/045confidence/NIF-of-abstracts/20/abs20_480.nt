@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_304_316>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Latin square" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_square> .
+
+<#offset_218_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Latin square" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_square> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_351> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_84_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Latin square" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_square> .
+
+<#offset_0_351>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "351"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A square array is avoidable if for each set of n symbols there is an n × n Latin square on these symbols which differs from the array in every cell. The main result of this paper is that for m ≥ 2 any partial Latin square of order 4m − 1 is avoidable, thus concluding the proof that any partial Latin square of order at least 4 is avoidable.\n" .

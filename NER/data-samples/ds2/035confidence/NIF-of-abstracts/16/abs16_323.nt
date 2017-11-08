@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_486>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "486"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As the LHC prepares to start taking data, this review is intended to provide a QCD theorist’s understanding and views on jet finding at hadron colliders, including recent developments. My hope is that it will serve both as a primer for the newcomer to jets and as a quick reference for those with some experience of the subject. It is devoted to the questions of how one defines jets, how jets relate to partons, and to the emerging subject of how best to use jets at the LHC.\n" .
+
+<#offset_234_240>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primer" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9915085504729538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primer_(textbook)> .
+
+<#offset_481_484>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LHC" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Large_Hadron_Collider> .
+
+<#offset_88_91>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QCD" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum_chromodynamics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_486> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_16_19>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LHC" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Large_Hadron_Collider> .
+
+<#offset_130_133>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "jet" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7906714838161712"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jet_engine> .
+
+<#offset_413_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partons" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parton_(particle_physics)> .
+
+<#offset_145_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hadron colliders" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_486> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Large_Hadron_Collider> .

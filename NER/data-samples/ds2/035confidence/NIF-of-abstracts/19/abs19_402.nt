@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_437_451>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total pressure" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999834993236026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stagnation_pressure> .
+
+<#offset_55_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "terminal" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9462001293153463"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_terminal> .
+
+<#offset_128_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "film" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8363734635575065"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photographic_film> .
+
+<#offset_278_282>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "film" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8363734635575065"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photographic_film> .
+
+<#offset_0_490>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "490"^^xsd:nonNegativeInteger ;
+        nif:isString    "An effective tube with a diameter of 25.6 mm possessed terminal sections of smaller diameters (16.8 and 21.4 mm). When a steady film flow is realized in the terminal sections, only nonsteady regimes are possible primarily in the basic median section (pulsed regime or nonsteady film). Pressure losses related to the pulsed regime are determined by computational means using the principle of additivity on the basis of measured values of total pressure losses in the variable-diameter tube.\n" .
+
+<#offset_157_165>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "terminal" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9462001293153463"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_terminal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_490> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_234_251>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coupling constant" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998224866697193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coupling_constant> .
+
+<#offset_191_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compactly supported" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Support_(mathematics)> .
+
+<#offset_455_466>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalues" ;
+        nif:beginIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999663487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<#offset_268_279>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meromorphic" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meromorphic_function> .
+
+<#offset_280_291>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multivalued" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999962483"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivalued_function> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_502> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_502>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "502"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the semi-classical regime we study the resonances of the operatorP t =h 2Δ V t·δV in some small neighborhood of the first spectral band ofP 0. HereV is a periodic potential, δV a compactly supported potential andt a small coupling constant. We construct a meromorphic multivalued continuation of the resolvent ofP t , and define the resonances to be the poles of this continuation. We compute these resonances and study the way they turn into eigenvalues whent crosses a certain threshold.\n" .

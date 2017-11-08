@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_297_308>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vocal tract" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vocal_tract> .
+
+<#offset_314_323>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999993747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_167_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvectors" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<#offset_225_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999993747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_135_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear combination" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999157012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_combination> .
+
+<#offset_0_482>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "482"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is found that the articulation process is accompanied by active variations of the pharynx width. To describe the latter, a linear combination of two width eigenvectors with varying coefficients is proposed. A new algorithm is constructed for calculating the cross-section areas of the vocal tract. The algorithm takes into account not only the anatomic parameters and the shape of the tract in the saggital plane but also the parameters in the lateral and axial planes.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_482> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_193_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998423732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_94_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pharynx" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999318447"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pharynx> .
+
+<#offset_468_480>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axial planes" ;
+        nif:beginIndex          "468"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transverse_plane> .

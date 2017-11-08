@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_317>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "317"^^xsd:nonNegativeInteger ;
+        nif:isString    "In the present work, results of investigation into the composite polymer material structure obtained with the help of mathematical methods of image processing are presented. The suggested methods of image construction and processing allow the type, concentration, and modifying effect of the filler to be identified.\n" .
+
+<#offset_65_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polymer" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999911619284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polymer> .
+
+<#offset_55_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "composite" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999753028180448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Composite_material> .
+
+<#offset_249_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concentration" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986687882067716"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concentration> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_317> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_118_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6458923129490854"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics> .
+
+<#offset_142_158>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "image processing" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985113623444685"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Image_processing> .

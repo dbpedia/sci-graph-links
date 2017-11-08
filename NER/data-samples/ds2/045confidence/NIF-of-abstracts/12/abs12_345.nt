@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_753>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "753"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Many countries have introduced, or are planning to introduce in the near future, performance/objective-based codes. In a performance/objective-based code, the level of safety provided to the occupants in a building by a particular fire safety design will be assessed by the use of engineering analysis of fire development and occupant evacuation. Central to this performance-based approach is the use of suitable design fires that can characterize typical fire growth in a fire compartment. This paper gives a description of what features of design fires are needed and how they can help analyze fire hazards to the occupants in a building as a result of smoke movement, untenable condition in the stairs, and occupant response and evacuation.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_753> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_240_251>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fire safety" ;
+        nif:beginIndex          "240"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_753> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999977915215881"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fire_safety> .

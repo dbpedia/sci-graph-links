@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_385_392>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bitumen" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997903466002"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asphalt> .
+
+<#offset_398_403>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997021162006"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<#offset_22_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISO/IEC 17025" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ISO/IEC_17025> .
+
+<#offset_99_108>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "normative" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6804930320902209"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Norm_(social)> .
+
+<#offset_188_211>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "measurement uncertainty" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999941541629254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uncertainty> .
+
+<#offset_852_870>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "market distortions" ;
+        nif:beginIndex          "852"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "870"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Market_distortion> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_960> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_960>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "960"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract According to ISO/IEC 17025, accreditation bodies generally accept that test procedures in normative documents have been validated. This contribution investigates, with respect to measurement uncertainty, the methodical basis of this practice in general and examines specifically two very different groups of products: asphalt, with its major components mineral aggregates and bitumen, and metal wire cloth. The author concludes that both the general and the specific situations are incoherent. The practice of accepting standardised test procedures a priori as validated does not have a sound basis in all cases. Both the concept, and the practical application, of validation or fitness for purpose vary in different product groups. The impact of this situation on the practice of accreditation should be taken into account in order to reduce market distortions in single-product groups. Laboratories face fundamental consequences from this practice.\n" .
+
+<#offset_529_546>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "standardised test" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standardized_test> .
+
+<#offset_327_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asphalt" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_960> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.997973734640358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asphalt> .

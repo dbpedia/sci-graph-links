@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1992_1997>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cloud" ;
+        nif:beginIndex          "1992"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_3245> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<#offset_301_309>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_3245> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.984015628385142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .
+
+<#offset_1911_1933>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virtual infrastructure" ;
+        nif:beginIndex          "1911"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_3245> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/VMware_Infrastructure> .
+
+<#offset_0_3245>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "3245"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Today, manufacturing companies have to face multifaceted challenges, like shortened technology and innovation cycles, and the necessity to offer customized products at the cost of a large-scale production. One appropriate solution to address these challenges is represented by the Industrial Internet of Things (IIoT). This proceeding digitized connection of industrial manufacturing, also known as “Industry 4.0”, comes along with extensive organizational consequences and opportunities for established manufacturers. Existing value chains will change providing opportunities for innovative business models (BM). Although academic literature agrees on the emergence of novel BMs, recent research mainly addressed technological challenges and benefits, whereas systematic and comprehensive examinations of novel IIoT-triggered BM types have a backlog. Consequently, we aim at systematically analyzing existing literature regarding novel BMs emerging due to the IIoT. Hence, we present a comprehensive overview of novel, innovative BMs relevant for the IIoT. Further, we assign these innovate BMs to three generic BM types. In doing so, we contribute to both academic literature and managerial practice. A systematic literature review is chosen as research method, since it is systematic, transparent, and replicable for the synthesis, evaluation, and discussion of relevant literature. It revealed 13 articles in leading business journals, conference proceedings, collected editions as well as reports of research institutions published between 2007 and 2015. They were analyzed in depth in order to develop topical categories inductively, which allows novel concepts to emerge from this process. The results show that novel IIoT-triggered BMs can be grouped into three main categories: Cloud-based BMs, Service-oriented BMs, and Process-oriented BMs. Cloud-based BMs provide an online platform, offer virtual infrastructure, or grant access to software via the internet. Hence, the cloud acts as a medium that supplies customers with several values without being in need of physically possessing any hardware. Service-oriented BMs are primarily based on data, which are utilized in order to offer various services to customers, e. g. increased availability, availability on demand, and predictive maintenance. Process-oriented BMs aim at optimizing processes, e. g. by reducing downtimes, which primarily appeals to manufacturing companies. Our findings contribute to theory by systematically synthesizing previous works studying novel, IIoT-related BMs from several perspectives and with various objectives. Thereby, we provide three generic BM types, which put themselves forward for future BM research in the context of the IIoT. From a practical perspective, our findings are highly relevant as they facilitate companies’ comprehension of innovative BMs emerging from the IIoT. By providing a comprehensive and illustrative overview of future business concepts, we enable managerial decision makers to oversee the range of different BM conceptualizations that can be put on the daily agenda in order to increase their respective companies’ future competitiveness in the context of a digitized and connected industrial environment.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_3245> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_2296_2318>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "predictive maintenance" ;
+        nif:beginIndex          "2296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_3245> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Predictive_maintenance> .
+
+<#offset_785_811>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "comprehensive examinations" ;
+        nif:beginIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "811"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_3245> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Comprehensive_examination> .

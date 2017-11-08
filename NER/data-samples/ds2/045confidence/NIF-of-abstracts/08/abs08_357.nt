@@ -1,0 +1,134 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_811_814>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CSP" ;
+        nif:beginIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5879459170753627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communicating_sequential_processes> .
+
+<#offset_365_379>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption key" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Key_(cryptography)> .
+
+<#offset_818_821>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PSP" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/InformationAppliance> , <http://dbpedia.org/ontology/Device> ;
+        itsrdf:taConfidence     "0.9999962003304855"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PlayStation_Portable> .
+
+<#offset_435_439>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PACS" ;
+        nif:beginIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Picture_archiving_and_communication_system> .
+
+<#offset_403_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cloud" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6842309548310134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<#offset_906_920>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption key" ;
+        nif:beginIndex          "906"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Key_(cryptography)> .
+
+<#offset_0_1019>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1019"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the environment like the Cloud computing or the picture archiving and communications systems (PACS) of the hospital, the user’s data is stored in the storage of a third party. In such entrusted management environment, security is an important issue for the user’s private data. The most basic solution is to encrypt user’s private data. However, if the encryption key is directly managed by cloud service provider (CSP) or PACS service provider (PSP), there is latent threat when it comes to the data loss or leakage which may be committed by malicious insiders. The ownership-guaranteed security framework (OGSF) divides encryption key into a single mandatory fragment and multiple optional fragments while mandating user to store the mandatory fragment in the user’s personal device and mandating CSP or PSP to manage the optional fragments. Because of this division of the management on the encryption key, the OGSF can resolve both threat from the malicious insider and the user’s mistake in same time.\n" .
+
+<#offset_106_110>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PACS" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Picture_archiving_and_communication_system> .
+
+<#offset_458_461>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PSP" ;
+        nif:beginIndex          "458"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/InformationAppliance> ;
+        itsrdf:taConfidence     "0.9999962003304855"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PlayStation_Portable> .
+
+<#offset_37_52>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cloud computing" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1019> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_872_880>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "division" ;
+        nif:beginIndex          "872"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9974574334469514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Division_(mathematics)> .
+
+<#offset_634_648>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption key" ;
+        nif:beginIndex          "634"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Key_(cryptography)> .
+
+<#offset_781_796>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "personal device" ;
+        nif:beginIndex          "781"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999961588628"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heraldic_badge> .
+
+<#offset_427_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CSP" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1019> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5879459170753627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communicating_sequential_processes> .

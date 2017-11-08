@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_187_200>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polarizations" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_202> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998995491466935"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polarization_(waves)> .
+
+<#offset_93_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "proton" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_202> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999988210959"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proton> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_202> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_106_113>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperon" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_202> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999987473416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperon> .
+
+<#offset_0_202>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "202"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We point out a sensitive way of analyzing the gluon polarization inside a polarized proton using hyperon production at largep T inPP collisions, by using initial and final state polarizations.\n" .
+
+<#offset_55_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gluon" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_202> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999944578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gluon> .

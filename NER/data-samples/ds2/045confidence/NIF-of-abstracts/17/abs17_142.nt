@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_41_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "titration" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Titration> .
+
+<#offset_38_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pH" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995593462761848"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PH> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_678> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_678>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "678"^^xsd:nonNegativeInteger ;
+        nif:isString    "The author has modified a traditional pH titration laboratory experiment to an inquiry-based approach she learned in a PACT (Partnership for the Advancement of Chemical Technology) NSF-funded short course on analytical problem solving during the summer of 1996. In this modification, students are given an initial handout and asked to complete a short, attention-getting exercise. They must continue to work on logical, short exercises given to them one-at-a-time, in handout format, in order to complete the entire laboratory experiment. The inquiry-based approach is intended to increase students’ comprehension of what they are doing in laboratory and why they are doing it.\n" .
+
+<#offset_219_234>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "problem solving" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Problem_solving> .

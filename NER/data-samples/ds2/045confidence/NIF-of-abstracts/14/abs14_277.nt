@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_953_972>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial portfolio" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "972"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_974> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Portfolio_(finance)> .
+
+<#offset_370_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expected return" ;
+        nif:beginIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_974> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Expected_return> .
+
+<#offset_36_55>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "latent class models" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_974> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latent_class_model> .
+
+<#offset_197_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expected return" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_974> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Expected_return> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_974> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_884_896>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stock market" ;
+        nif:beginIndex          "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_974> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999507424503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_market> .
+
+<#offset_0_974>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "974"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I exploit the potential of latent class models for proposing an innovative framework for financial data analysis. By stressing the latent nature of the most important financial variables, expected return and risk, I am able to introduce a new methodological dimension in the analysis of financial phenomena. In my proposal, (i) I provide innovative measures of expected return and risk, (ii) I suggest a financial data classification consistent with the latent risk-return profile, and (iii) I propose a set of statistical methods for detecting and testing the number of groups of the new data classification. The results lead to an improvement in both risk measurement theory and practice and, if compared to traditional methods, allow for new insights into the analysis of financial data. Finally, I illustrate the potentiality of my proposal by investigating the European stock market and detailing the steps for the appropriate choice of a financial portfolio.\n" .

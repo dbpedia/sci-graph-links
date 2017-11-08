@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_185_196>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fire safety" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999504909982976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fire_safety> .
+
+<#offset_460_473>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Building Code" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Building_code> .
+
+<#offset_0_489>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "489"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract “Every building should be executed and arranged in such a way or by the use of such materials that, taking into consideration its purpose and location, it will give reasonable fire safety for persons staying in the building, including proper facilities for saving the occupants and for fire extinguishment to be carried out, and also to give reasonable safety against spread of fire to adjoining buildings and activities on adjoining sites.” — Danish Building Code, Chapter 6.1.1\n" .
+
+<#offset_453_459>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Danish" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9485703129851449"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Denmark> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_489> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_362_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "safety" ;
+        nif:beginIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9963434070248446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Safety> .

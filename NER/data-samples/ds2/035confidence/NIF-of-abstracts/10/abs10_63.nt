@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_64_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999865256656"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_19_34>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sorting network" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorting_network> .
+
+<#offset_163_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disjoint" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990885335579422"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disjoint_sets> .
+
+<#offset_202_211>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999865256656"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_0_385>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "385"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We give a sorting network withcn logn comparisons. The algorithm can be performed inc logn parallel steps as well, where in a parallel step we comparen/2 disjoint pairs. In thei-th step of the algorithm we compare the contents of registersR j(i) , andR k(i) , wherej(i), k(i) are absolute constants then change their contents or not according to the result of the comparison.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_385> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

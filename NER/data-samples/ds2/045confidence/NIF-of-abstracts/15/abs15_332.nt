@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_433_435>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BT" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/BT_Group> .
+
+<#offset_0_1224>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1224"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Corporations are looking to harness the flexibility and ubiquity of IP as a means of automating key business transactions and increasing efficiency. As part of this ‘eRevolution’ corporate businesses are looking at migrating new applications on to their existing IP infrastructures. Computer/telephony integration and unified messaging are applications that will drive forward the integration of voice and data networks for BT's corporate customers, enabling the use of a flexible, shared IP infrastructure for voice and data. While ‘voice over IP’ is widely seen as the ‘obvious way forward’ there are many issues to be resolved before this can deliver the anticipated benefits. This paper provides an insight into the building blocks required to enable the development/deployment of shared infrastructure, for quality of service (QoS) capable, unified, IP network solutions. It highlights the detailed understanding and careful design approach required (particularly in the complex area of network QoS) to engineer custom voice solutions as part of a unified IP network design based on today's technology. Emerging protocols and technology, which may turn the unified network dream into reaility, are identified.\n" .
+
+<#offset_327_344>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unified messaging" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unified_messaging> .
+
+<#offset_301_310>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "telephony" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999022293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telephony> .
+
+<#offset_841_844>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QoS" ;
+        nif:beginIndex          "841"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "844"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quality_of_service> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1224> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1009_1012>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QoS" ;
+        nif:beginIndex          "1009"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1012"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quality_of_service> .
+
+<#offset_867_884>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "network solutions" ;
+        nif:beginIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "884"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Network_Solutions> .

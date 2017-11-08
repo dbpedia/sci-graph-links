@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_514>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "514"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Astar forest is a forest all of whose components are stars. Thestar arboricity, st(G) of a graphG is the minimum number of star forests whose union covers all the edges ofG. Thearboricity, A(G), of a graphG is the minimum number of forests whose union covers all the edges ofG. Clearlyst(G)≥A(G). In fact, Algor and Alon have given examples which show that in some casesst(G) can be as large asA(G) Ω(logΔ) (where Δ is the maximum degree of a vertex inG). We show that for any graphG, st(G)≤A(G) O(logΔ).\n" .
+
+<#offset_432_446>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "maximum degree" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6457092093608655"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Degree_(graph_theory)> .
+
+<#offset_452_458>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertex" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7446540366297789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_514> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_77_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arboricity" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arboricity> .
+
+<#offset_132_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "star" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_514> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8845719736643581"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Star_(graph_theory)> .

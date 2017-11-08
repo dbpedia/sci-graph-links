@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_656> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_486_496>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elasticity" ;
+        nif:beginIndex          "486"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_656> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9932024724699782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(economics)> .
+
+<#offset_0_656>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "656"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This paper explores anew the factor substitution assumptions of manpower planning activities. It finds several flaws in the oft-repeated argument that manpower planning studies should be abandoned in favor of rate of return analysis because the planning approach depends upon the assumption of fixed-coefficient production functions and the latter approach does not. For one thing, the choice of methodological approach depends upon matters other than the observed value of the elasticity of substitution. For another, it is not clear that factor substitutability has necessarily been ignored in either the theory or practice of manpower planning.\n" .

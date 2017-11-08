@@ -1,0 +1,63 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1182_1196>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vacuum cleaner" ;
+        nif:beginIndex          "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vacuum_cleaner> .
+
+<#offset_975_1008>  a           nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "collaborative product development" ;
+        nif:beginIndex          "975"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1008"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Collaborative_product_development> .
+
+<#offset_910_913>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PBS" ;
+        nif:beginIndex          "910"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "913"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/BroadcastNetwork> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.997916421263981"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PBS> .
+
+<#offset_1035_1038>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PBS" ;
+        nif:beginIndex          "1035"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1038"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/BroadcastNetwork> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Broadcaster> ;
+        itsrdf:taConfidence     "0.997916421263981"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PBS> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1341> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1341>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1341"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Design is an integral component of product development, which includes manufacturing. In order to avoid costly reworks and delays, and to reduce the lead-time in product development, effective communication of design concepts among the various stakeholders such as customers, designers and engineers is of utmost importance. In this respect, functional representations provide a methodology, which can be used to describe a design or product effectively. However, function is not the only type of information that needs to be communicated among the various stakeholders during a design process. Other types of information such as design specifications and constraints, which are non-functional, also need to be taken into account. This non-functional information cannot be adequately expressed using existing functional representations. Accordingly, in this work, a novel purpose-behaviour-structure (PBS) representation scheme to capture vital design knowledge for collaborative product development is proposed. The proposed PBS representation scheme can be used by designers working in a collaborative environment for product development. A case study on the design of a vacuum cleaner is used to illustrate the functionality of the PBS representation scheme. The details of the representation scheme are presented in this paper.\n" .
+
+<#offset_1244_1247>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PBS" ;
+        nif:beginIndex          "1244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1341> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Broadcaster> , <http://dbpedia.org/ontology/BroadcastNetwork> ;
+        itsrdf:taConfidence     "0.997916421263981"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PBS> .

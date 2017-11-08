@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_379>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "379"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Aerodynamics of circular plate- and circular ring- shaped squeeze film hearings is analyzed in detail, yielding analytic expressions for the pressure distribution of these bearings. Several formulae for these bearings are modified using the developed method. The paper also gives numerical results of pressure distribution and load-bearing capacities of these bearings.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_379> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_121_141>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic expressions" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytical_expression> .

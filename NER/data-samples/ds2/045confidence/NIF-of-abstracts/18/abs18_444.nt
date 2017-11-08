@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_300_311>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holographic" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999587317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holographic_principle> .
+
+<#offset_253_259>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999197309387191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .
+
+<#offset_0_391>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "391"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this letter, we use the Parikh–Wilczek tunneling model of Hawking radiation to illustrate that a reformulation of Verlinde’s entropic gravity is needed to derive Newton’s law for a temperature-varying screen, required by the conservation of energy. Furthermore, the entropy stored in the holographic screen is shown to be additive and its temperature dependence can be obtained.\n" .
+
+<#offset_174_180>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Newton" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9999999128260166"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isaac_Newton> .
+
+<#offset_278_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entropy" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997477289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropy> .
+
+<#offset_137_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entropic gravity" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropic_gravity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_391> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_70_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hawking radiation" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hawking_radiation> .
+
+<#offset_51_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tunneling" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998994880507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum_tunnelling> .

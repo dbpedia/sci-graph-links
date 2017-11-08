@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_339_349>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homologous" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_795> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996455912283554"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homology_(biology)> .
+
+<#offset_270_275>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_795> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.815256331608058"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<#offset_0_795>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "795"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The lack of women in senior management functions in sport may in part be attributed to dominant discursive managerial practices in sport organizations. The purpose of this study is to explore ways in which the discourses and their subtexts used by directors of Dutch national sport organizations to talk about their work, sustain homologous reproduction. Close reading of the transcripts of interviews by both researchers followed by a continuous cycle of data reduction and verification and researcher agreement enabled four dominant discursive themes to emerge. We show how an overlap of various discursive practices related to instrumentality, relationality, emotionality/passion and homogeneity strengthen the gendered nature of senior managerial work in large sport organizations.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_795> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

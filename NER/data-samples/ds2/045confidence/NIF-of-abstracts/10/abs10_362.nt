@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_164_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fermion" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fermion> .
+
+<#offset_16_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "standard model" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standard_Model> .
+
+<#offset_114_129>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "renormalization" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Renormalization> .
+
+<#offset_0_313>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "313"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the standard model, if the ratios of Yukawa couplings to gauge couplings are bounded functions of the renormalization point, then the fourth-generation fermion massesm U , m D , andm L (in GeV) are constrained to lie within a domain approximately given by (m U /213)4.8 (m D /209)4.8 (m L /161)2.4<1.\n" .
+
+<#offset_49_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Yukawa couplings" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yukawa_interaction> .
+
+<#offset_201_204>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GeV" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronvolt> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_313> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_69_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gauge" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999971145144"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gauge_theory> .

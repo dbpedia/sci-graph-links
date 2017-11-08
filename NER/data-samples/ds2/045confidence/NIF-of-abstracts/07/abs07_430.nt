@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_56_62>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_432> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996722272013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<#offset_106_117>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "illuminance" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_432> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Illuminance> .
+
+<#offset_423_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_432> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9949688296548471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_432> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_206_211>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_432> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9998308087117297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#offset_0_432>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "432"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A simple model for diffused light conditions in canopy gaps is presented. The vertical changes of illuminance in gaps calculated from the model agreed with the changes observed in a beech forest in Japan. The illuminance in a given sized gap in the forest could be estimated from the model. Size distribution of gaps in the forest suggested that most gaps were too small for the frequent occurrence of pioneer tree species.\n" .
+
+<#offset_217_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "illuminance" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_432> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Illuminance> .

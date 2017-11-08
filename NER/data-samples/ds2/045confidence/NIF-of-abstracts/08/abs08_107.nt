@@ -1,0 +1,96 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_606_614>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989720633519141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .
+
+<#offset_365_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SIP" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Session_Initiation_Protocol> .
+
+<#offset_0_616>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "616"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary User experience and the resulting economics dictate the migration of real time communications such as voice and video from dedicated VoIP networks to the Web and to the full integration with other rich Internet applications. This leads to adopting the Web architecture and protocols and security and renouncing various network application protocols such as SIP and XMPP. The key objective is to make communications accessible to millions of Web developers and enable Web sites with communications. This will be a transformational development for telecommunications, to be gradually absorbed by the Internet.\n" .
+
+<#offset_8_23>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "User experience" ;
+        nif:beginIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/User_experience> .
+
+<#offset_449_463>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web developers" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.941545801356625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_development> .
+
+<#offset_205_231>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rich Internet applications" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rich_Internet_application> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_616> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_264_276>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "264"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8873022132462001"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#offset_373_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XMPP" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XMPP> .
+
+<#offset_554_572>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "telecommunications" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7519303220344126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telecommunications_network> .
+
+<#offset_141_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "VoIP" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_616> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Voice_over_IP> .

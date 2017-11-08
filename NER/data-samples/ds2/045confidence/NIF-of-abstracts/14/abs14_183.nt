@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_165_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stock markets" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999865655477"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_market> .
+
+<#offset_322_332>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression" ;
+        nif:beginIndex          "322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9457107148938214"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<#offset_0_374>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "374"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper provides evidence that forecasts based on global stock returns transmission yield better returns in day trading, for both developed and emerging stock markets. The study investigates the performance of global stock market price transmission information in forecasting stock prices using support vector regression for six global markets—USA (Dow Jones, S\n" .
+
+<#offset_120_131>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "day trading" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5661667057609635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Day_trading> .
+
+<#offset_229_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stock market" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999276669780647"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock_market> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_374> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_276_287>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998745189206193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<#offset_315_321>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7764809963765552"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .
+
+<#offset_361_370>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dow Jones" ;
+        nif:beginIndex          "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.7746269063030048"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dow_Jones_&_Company> .

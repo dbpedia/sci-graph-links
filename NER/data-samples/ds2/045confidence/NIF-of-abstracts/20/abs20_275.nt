@@ -1,0 +1,55 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_287_314>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European Science Foundation" ;
+        nif:beginIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Science_Foundation> .
+
+<#offset_469_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "469"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9557797020817793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dutch_language> .
+
+<#offset_489_497>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Moroccan" ;
+        nif:beginIndex          "489"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9024386690670739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Morocco> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_654> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_479_485>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_654> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.995306691015998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<#offset_0_654>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "654"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary In this paper, we study the linguistic means that are acquired by two adult learners of a second language in order to express spatial concepts, and attempt to define the linguistic and communicational factors determining the observed acquisition. The data analysed come from the European Science Foundation’s second language data base (Feldweg 1993), and they allow us to adopt both a longitudinal and a cross-linguistic approach: we compare the acquisition of Dutch and French by Moroccan learners. The results obtained are briefly compared and contrasted with those of previous work in a similar framework, in particular Carroll/Becker (1993).\n" .

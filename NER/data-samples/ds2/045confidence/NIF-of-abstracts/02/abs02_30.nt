@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_123_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perturbation" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9872357715433115"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perturbation_theory> .
+
+<#offset_36_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hydrogen" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9143873020573877"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hydrogen> .
+
+<#offset_0_288>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "288"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Existence of resonances in hydrogen Stark effect is proved. It is also proved that the divergent time-independent perturbation expansions are Borel summable to the resonances, and a simple application of the Borel-Padé method for computing their position and width is indicated.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_288> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

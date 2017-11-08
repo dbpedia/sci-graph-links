@@ -1,0 +1,91 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1110_1130>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Red-winged Blackbird" ;
+        nif:beginIndex          "1110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Red-winged_Blackbird> .
+
+<#offset_1012_1023>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trespassing" ;
+        nif:beginIndex          "1012"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1023"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997828406911635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trespass> .
+
+<#offset_837_845>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "redwings" ;
+        nif:beginIndex          "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "845"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999999519105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Redwing> .
+
+<#offset_980_988>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "redwings" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "988"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999999999519105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Redwing> .
+
+<#offset_805_816>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trespassing" ;
+        nif:beginIndex          "805"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997828406911635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trespass> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1181> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1088_1102>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrimination" ;
+        nif:beginIndex          "1088"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999759122972"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrimination> .
+
+<#offset_1160_1171>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "associative" ;
+        nif:beginIndex          "1160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999893944430694"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Learning> .
+
+<#offset_0_1181>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1181"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Two experiments were conducted to deterine whether territorial male Red-winged Blackbirds discriminate among neighbor, stranger, and self songs. In the first experiment, recordings of the three classes of songs were played to territorial males. Responses to playback of stranger song, as measured by song rate, intensity of Song Spread display, and closest approach, were significantly stronger than to playback of neighbor song. In addition, stranger song elicited significantly more intense Song Spread displays than did self song. In the second experiment, territorial males were removed from their territories and each was replaced with speakers broadcasting recorded songs of a stranger, and of the removed male. Broadcasts of the removed male's own songs were more effective in discouraging trespassing by neighboring male redwings than were broadcasts of songs of a stranger. However, the two broadcasts did not differ in their ability to deter nonneighboring male redwings from flying through or trespassing within the speaker territory. We suggest that neighbor-stranger discrimination in the Red-winged Blackbird develops as a consequence of associative learing.\n" .
+
+<#offset_76_97>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Red-winged Blackbirds" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1181> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Red-winged_Blackbird> .

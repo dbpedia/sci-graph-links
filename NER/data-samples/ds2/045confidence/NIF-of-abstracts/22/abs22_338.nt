@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_760_766>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ethics" ;
+        nif:beginIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1092> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999995582403793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethics> .
+
+<#offset_931_944>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mental health" ;
+        nif:beginIndex          "931"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "944"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1092> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9294591606713976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mental_health> .
+
+<#offset_0_1092>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1092"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusions The conclusions set forth in this paper are of a highly tentative and even exploratory nature. I am willing to be demonstrated to be wrong at any point and excited by the realization that some of my hunches have been sufficiently “far out” to prompt confirmatory or invalidating research of a more precise variety. Yet I am willing to stand by my observations as to the relationship between the ethical perspective of the poor to the following seemingly unrelated events: (1) the implosion of these ethical perspectives into the middle classes, (2) through contemporary political uses of the poor by the upper classes, (3) professional interaction with the poverty community, (4) the unconscious moral identification of the middle classes with the ethics of the poor, (5) the transformation of thekinds of emotional disorder from one level of affluence to another by reason of the criterion of work as an indication of mental health, and (6) the ethical issue involved in economic determination of the use of medical and ministerial time in the care of the emotionally disturbed.\n" .
+
+<#offset_669_676>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "poverty" ;
+        nif:beginIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1092> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999961346"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poverty> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1092> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_492_501>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "implosion" ;
+        nif:beginIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1092> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7672167122836748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nuclear_weapon_design> .

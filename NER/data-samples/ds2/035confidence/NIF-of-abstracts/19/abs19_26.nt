@@ -1,0 +1,90 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_282_292>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "news media" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9640567539816831"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/News_media> .
+
+<#offset_526_537>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999438049727619"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<#offset_296_315>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "macroeconomic model" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Macroeconomic_model> .
+
+<#offset_0_563>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "563"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The interdependence of the U.S. and the world economy has been a central problem in politics during the 1980s. The politically cognizant have had to become economically cognizant. This paper examines news reports about the economy to determine what may be learned from the news media. A macroeconomic model is developed which is consistent with the statements found in the news reports. The connectedness of economic relationships as presented is estimated. The focus of attention in the news stories is reported. An upper bound on learning is assessed.\n" .
+
+<#offset_178_187>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cognizant" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999650656838"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognizant> .
+
+<#offset_400_413>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "connectedness" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999587995217946"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpersonal_relationship> .
+
+<#offset_13_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interdependence" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991019308"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interdependence> .
+
+<#offset_136_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognizant" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9999999650656838"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognizant> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_563> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_36_40>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9966103036509076"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .

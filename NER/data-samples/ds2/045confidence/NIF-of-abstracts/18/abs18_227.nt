@@ -1,0 +1,138 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://model.dbpedia-spotlight.org#offset_12_15>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "red" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.979497235210188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Red_blood_cell> .
+
+<http://model.dbpedia-spotlight.org#offset_0_472>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "472"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The red complex formed between hafnium(IV) and 1-(2-pyridylazo)-2-naphthol (1 ∶ 2) at pH 4.0 is used for Spectrophotometric determination of hafnium., the absorbance being measured at 545 nm. Beer's law is obeyed for hafnium concentration of 0.2 to 3.6μg per ml. Molar absorptivity is 3.86×104 and Sandell sensitivity is 0.0046μg per cm2. Hafnium has been determined in the presence of 6-fold amounts of zirconium. The relative standard deviation is ± 1.0�prefix=\n" .
+
+<http://model.dbpedia-spotlight.org#offset_72_82>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "2-naphthol" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2-Naphthol> .
+
+<http://model.dbpedia-spotlight.org#offset_412_421>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "zirconium" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "421"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999985261638"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zirconium> .
+
+<http://model.dbpedia-spotlight.org#offset_113_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Spectrophotometric" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993573660647846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectrophotometry> .
+
+<http://model.dbpedia-spotlight.org#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://model.dbpedia-spotlight.org#offset_347_354>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hafnium" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hafnium> .
+
+<http://model.dbpedia-spotlight.org#offset_427_454>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relative standard deviation" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relative_standard_deviation> .
+
+<http://model.dbpedia-spotlight.org#offset_39_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hafnium" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hafnium> .
+
+<http://model.dbpedia-spotlight.org#offset_225_232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hafnium" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hafnium> .
+
+<http://model.dbpedia-spotlight.org#offset_196_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nm" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999984165697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nanometre> .
+
+<http://model.dbpedia-spotlight.org#offset_149_156>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hafnium" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hafnium> .
+
+<http://model.dbpedia-spotlight.org#offset_94_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pH" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999802992212"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PH> .
+
+<http://model.dbpedia-spotlight.org#offset_277_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absorptivity" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://model.dbpedia-spotlight.org#offset_0_472> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998705610634"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Absorbance> .

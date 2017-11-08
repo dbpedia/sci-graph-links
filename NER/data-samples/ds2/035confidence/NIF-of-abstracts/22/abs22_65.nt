@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_324>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "324"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  The principle approach to the construction of approximating formulas is discussed. We suggest the generalized definition of normal forms in predicate BL-logic and prove the conditional equivalence between a formula and each of its normal forms. Some mutual relations between normal forms will be also established.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_324> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_150_159>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "predicate" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990754662572975"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Predicate_(mathematical_logic)> .
+
+<#offset_183_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999262169776392"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Material_conditional> .

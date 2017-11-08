@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_494>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "494"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A description of the water quality in Lake Kinneret watershed is given Water of high quality is supplied by the Jordan tributaries. Suspended matter and soluble components are introduced into the water along the intensively cultivated Hula valley. The suspended matter introduced is very high in organic matter and nutrients. A partial purification of the water occurs downstream, in the Jordan canyon. The nutrient contents in the river are highly correlated with the suspended load.\n" .
+
+<#offset_478_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "suspended load" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suspended_load> .
+
+<#offset_30_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "water quality" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996266442910344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Water_quality> .
+
+<#offset_305_319>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "organic matter" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "319"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999192596603074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Organic_matter> .
+
+<#offset_244_255>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hula valley" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hula_Valley> .
+
+<#offset_47_60>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Lake Kinneret" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/LakeBodyOfWater> , <http://schema.org/BodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/BodyOfWater> , <http://dbpedia.org/ontology/Lake> , <http://dbpedia.org/ontology/NaturalPlace> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sea_of_Galilee> .
+
+<#offset_61_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "watershed" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999880921097473"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Drainage_basin> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_494> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_324_333>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nutrients" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999357050282487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nutrient> .
+
+<#offset_404_410>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canyon" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999885304130286"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canyon> .
+
+<#offset_121_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Jordan" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/NaturalPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/River> , <http://schema.org/BodyOfWater> , <http://dbpedia.org/ontology/BodyOfWater> , <http://schema.org/RiverBodyOfWater> , <http://dbpedia.org/ontology/Stream> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9884012218898721"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jordan_River> .
+
+<#offset_397_403>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Jordan" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/River> , <http://schema.org/BodyOfWater> , <http://dbpedia.org/ontology/NaturalPlace> , <http://dbpedia.org/ontology/BodyOfWater> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Stream> , <http://schema.org/RiverBodyOfWater> ;
+        itsrdf:taConfidence     "0.9884012218898721"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jordan_River> .

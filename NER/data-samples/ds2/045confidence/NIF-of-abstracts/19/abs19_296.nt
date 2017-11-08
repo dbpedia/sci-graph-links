@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_641>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "641"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We derive a novel thin-film equation for linear viscoelastic media describable by generalized Maxwell or Jeffreys models. As a first application of this equation we discuss the shape of a liquid rim near a dewetting front. Although the dynamics of the liquid is equivalent to that of a phenomenological model recently proposed by Herminghaus et al. (S. Herminghaus, R. Seemann, K. Jacobs, Phys. Rev. Lett. 89, 056101 (2002)), the liquid rim profile in our model always shows oscillatory behaviour, contrary to that obtained in the former. This difference in behaviour is attributed to a different treatment of slip in both models.\n" .
+
+<#offset_296_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenomenological" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969343991515605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenomenology_(science)> .
+
+<#offset_216_225>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dewetting" ;
+        nif:beginIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999069248177"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dewetting> .
+
+<#offset_246_254>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9296263135942013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_641> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_58_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "viscoelastic" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_641> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Viscoelasticity> .

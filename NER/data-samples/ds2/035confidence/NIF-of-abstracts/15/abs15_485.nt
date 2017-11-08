@@ -1,0 +1,114 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_613_623>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conjecture" ;
+        nif:beginIndex          "613"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999896467052091"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conjecture> .
+
+<#offset_259_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "poset" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partially_ordered_set> .
+
+<#offset_168_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "poset" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partially_ordered_set> .
+
+<#offset_840_853>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rank function" ;
+        nif:beginIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Matroid_rank> .
+
+<#offset_89_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graded poset" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graded_poset> .
+
+<#offset_48_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markov chains" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<#offset_439_463>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transition probabilities" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999975099172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<#offset_669_676>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lattice" ;
+        nif:beginIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999041377851"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lattice_(order)> .
+
+<#offset_0_870>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "870"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider two types of discrete-time Markov chains where the state space is a graded poset and the transitions are taken along the covering relations in the poset. The first type of Markov chain goes only in one direction, either up or down in the poset (an up chain or down chain). The second type toggles between two adjacent rank levels (an up-and-down chain). We introduce two compatibility concepts between the up-directed transition probabilities (an up rule) and the down-directed (a down rule), and we relate these to compatibility between up-and-down chains. This framework is used to prove a conjecture about a limit shape for a process on Young’s lattice. Finally, we settle the questions whether the reverse of an up chain is a down chain for some down rule and whether there exists an up or down chain at all if the rank function is not bounded.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_870> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_193_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markov chain" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<#offset_34_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrete-time" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5867758575429649"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrete_time> .
+
+<#offset_861_868>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bounded" ;
+        nif:beginIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "868"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9519602952195322"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bounded_set> .

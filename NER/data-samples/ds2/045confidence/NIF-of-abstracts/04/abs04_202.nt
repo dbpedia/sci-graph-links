@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_181_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypergraph" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<#offset_48_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uniform hypergraphs" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<#offset_0_362>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "362"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We give upper bounds for the size of 3-uniform hypergraphs avoiding a given odd cycle using the definition of a cycle due to Berge. In particular, we show that a 3-uniform hypergraph containing no cycle of length 2k 1 has less than 4k 4 n 1 1/k  O(n) edges. Constructions show that these bounds are best possible (up to constant factor) for k=1,2,3, 5.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_362> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

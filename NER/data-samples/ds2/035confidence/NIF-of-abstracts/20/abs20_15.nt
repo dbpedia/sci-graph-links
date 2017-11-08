@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_386_394>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognates" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognate> .
+
+<#offset_249_257>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognates" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognate> .
+
+<#offset_0_624>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "624"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Spanish-English bilinguals were asked to determine whether a string of letters formed a word in their languages. Three separate conditions were used: two conditions blocked by language and a mixed-language condition. Some of the words were cognates, words with the same spelling and meaning in the two languages. There were no differences between blocked and mixed conditions; cognates were responded to with equal facility in all conditions, and there was an interaction of Cognates and Noncognates by Weak and Strong Language. These results were interpreted as supporting a direct graphemic lexical access model.\n" .
+
+<#offset_602_616>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lexical access" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lexicon> .
+
+<#offset_592_601>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graphemic" ;
+        nif:beginIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9592528362637698"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grapheme> .
+
+<#offset_484_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cognates" ;
+        nif:beginIndex          "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognate> .
+
+<#offset_25_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bilinguals" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multilingualism> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_624> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_185_193>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_624> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.624098804723611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language> .

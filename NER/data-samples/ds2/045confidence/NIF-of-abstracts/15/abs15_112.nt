@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_299> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_42_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainability" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_299> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997229295402448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainability> .
+
+<#offset_0_299>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "299"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For successful implementation of sustainability in industry, robust assessments of products and processes are necessary that quantify environmental aspects under consideration of costs. Challenges exist as sustainability needs vary greatly according to region, sector and experience level.\n" .
+
+<#offset_215_229>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainability" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_299> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997229295402448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainability> .

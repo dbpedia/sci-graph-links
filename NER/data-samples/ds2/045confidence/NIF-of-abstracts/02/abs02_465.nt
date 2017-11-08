@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_98_114>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperbolic space" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990797120361904"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperbolic_space> .
+
+<#offset_0_290>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "290"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We investigate the problem of finding smooth hypersurfaces of constant mean curvature in hyperbolic space, which can be represented as radial graphs over a subdomain of the upper hemisphere. Our approach is variational and our main results are proved via rearrangement techniques.\n" .
+
+<#offset_85_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "curvature" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999157586044004"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Curvature> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_290> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_54_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypersurfaces" ;
+        nif:beginIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999929514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypersurface> .

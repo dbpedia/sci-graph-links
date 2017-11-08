@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_252_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.627587555110026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<#offset_445_461>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear equations" ;
+        nif:beginIndex          "445"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9909360472576939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_programming> .
+
+<#offset_17_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "traveling salesman problem" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Travelling_salesman_problem> .
+
+<#offset_462_468>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulo" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998853140908141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<#offset_270_274>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "P=NP" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/P_versus_NP_problem> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_496> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_49_68>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle inequality" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999956799"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle_inequality> .
+
+<#offset_0_496>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "496"^^xsd:nonNegativeInteger ;
+        nif:isString    "We show that the traveling salesman problem with triangle inequality cannot be approximated with a ratio better than $$ \\frac{{117}} {{116}} $$ when the edge lengths are allowed to be asymmetric and $$ \\frac{{220}} {{219}} $$ when the edge lengths are symmetric, unless P=NP. The best previous lower bounds were $$ \\frac{{2805}} {{2804}} $$ and $$ \\frac{{3813}} {{3812}} $$ respectively. The reduction is from Håstad’s maximum satisfiability of linear equations modulo 2, and is nonconstructive.\n" .
+
+<#offset_427_441>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "satisfiability" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "441"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_496> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999936108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boolean_satisfiability_problem> .

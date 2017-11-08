@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_84_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consciousness" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999895550502"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consciousness> .
+
+<#offset_0_197>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "197"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Experiential dance/movement therapy (DMT) emphasizes the receptive mode of consciousness, which cannot be measured directly but appears to correlate with measured hypnotizability (Goodman\n" .
+
+<#offset_22_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dance" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983625643836654"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dance> .
+
+<#offset_172_187>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypnotizability" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999260751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypnosis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_197> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_46_49>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DMT" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_197> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "0.9992311504916159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimethyltryptamine> .

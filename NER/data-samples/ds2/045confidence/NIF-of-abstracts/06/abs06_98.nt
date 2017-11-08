@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_474_485>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photoperiod" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "485"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_704> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9793656319377776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photoperiodism> .
+
+<#offset_60_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Chile" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_704> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9998929408162724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chile> .
+
+<#offset_235_239>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flux" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_704> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999320123371388"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flux> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_704> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_704>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "704"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Seasonality of conceptions in human populations in Chile was studied for a period of 30 years (1945–1974). Clear seasonal conception courses exist in the country, exception made of the northern and southern extremes. Seasonal flux is concentrated mainly in January, but also secondary increases in April and June were observed. Along the 30-year period a general pattern of decreasing seasonality is observed. Conception is significantly related to temperature and photoperiod in this country, the maximum rates of conceptions being observed in coincidence with the maximum temperatures and photoperiods. Nonclimatic factors which may be affecting seasonality of conceptions are also discussed.\n" .

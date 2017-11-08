@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_39_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "South Africa" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_581> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.934906465409623"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/South_Africa> .
+
+<#offset_246_253>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_581> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999948738182521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<#offset_14_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tertiary institutions" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_581> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9661869191464434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tertiary_education> .
+
+<#offset_381_388>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_581> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999987309165684"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<#offset_406_423>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physical sciences" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_581> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9503927111585386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outline_of_physical_science> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_581> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_581>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "581"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Many tertiary institutions in South Africa have implemented schemes to help redress the unfair school educational system. This paper describes one such initiative to increase access and success of educationally disadvantaged students in science. The background of the College of Science and the success of its first intake of students is described with an emphasis on the physics component of the physical sciences course. Sixty six percent of the students passed all three courses in their first year with the most educationally disadvantaged showing the greatest gains.\n" .

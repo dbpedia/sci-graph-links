@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1070_1077>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arousal" ;
+        nif:beginIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1077"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arousal> .
+
+<#offset_587_595>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "saccades" ;
+        nif:beginIndex          "587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saccade> .
+
+<#offset_0_1261>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1261"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In an attempt to investigate the impact of positive emotions on visual attention within the context of Fredrickson’s (1998) broaden-and-build model, eye tracking was used in two studies to measure visual attentional preferences of college students (n=58, n=26) to emotional pictures. Half of each sample experienced induced positive mood immediately before viewing slides of three similarly-valenced images, in varying central-peripheral arrays. Attentional breadth was determined by measuring the percentage viewing time to peripheral images as well as by the number of visual saccades participants made per slide. Consistent with Fredrickson’s theory, the first study showed that individuals induced into positive mood fixated more on peripheral stimuli than did control participants; however, this only held true for highly-valenced positive stimuli. Participants under induced positive mood also made more frequent saccades for slides of neutral and positive valence. A second study showed that these effects were not simply due to differences in emotional arousal between stimuli. Selective attentional broadening to positive stimuli may act both to facilitate later building of resources as well as to maintain current positive affective states.\n" .
+
+<#offset_158_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eye tracking" ;
+        nif:beginIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eye_tracking> .
+
+<#offset_928_936>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "saccades" ;
+        nif:beginIndex          "928"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "936"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saccade> .
+
+<#offset_972_979>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "valence" ;
+        nif:beginIndex          "972"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "979"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Valence_(psychology)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1261> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_133_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "broaden-and-build" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Broaden-and-build> .

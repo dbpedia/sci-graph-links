@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_47_53>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "copper" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_271> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999469682444849"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copper> .
+
+<#offset_90_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "beans" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_271> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973797535546165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bean> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_271> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_271>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "271"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The concentration dependent uptake of copper by cell suspension cultures of bush beans could be shown to be multiphasic. Whereas uptake periods of 1 and 4 h resulted in triphasic patterns, the third phase disappeared when the uptake period was extended to 24 h.\n" .

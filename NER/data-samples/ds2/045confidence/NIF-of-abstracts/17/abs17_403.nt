@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_85>  a       nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "85"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Past research indicates that Self-Oriented Perfectionism (SOP: P. L. Hewitt " .
+
+<#offset_67_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SOP" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_85> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/TelevisionShow> ;
+        itsrdf:taConfidence     "0.9418613398905873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SOP_(Philippine_TV_series)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_85> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_52_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Perfectionism" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_85> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9567584317234333"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perfectionism_(psychology)> .

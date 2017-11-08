@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1188_1207>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diffusion processes" ;
+        nif:beginIndex          "1188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999871840693145"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_diffusion> .
+
+<#offset_0_1209>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1209"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article synthesizes recent advances in the study of astronomy and worldview in architectural and urban planning in Mesoamerica. Throughout most of this cultural area, the practice of orienting civic and ceremonial buildings followed similar principles, although regional and time-dependent variations are present. Analysis of alignment data has revealed the existence of distinct and widespread orientation groups; most refer to sunrises and sunsets on particular dates, although two groups can be related to lunar and Venus extremes. Astronomically relevant directions frequently dominate considerable parts of urban layouts. The orientation and the location of important buildings often were conditioned by astronomical criteria and beliefs about specific landscape features; particularly notable are structures that were aligned to prominent mountaintops on the local horizon. Based on a variety of contextual data, I interpret the uses and significance of orientations in terms of agricultural concerns, cosmological concepts, and political ideology. I outline the evolution of orientation practices, drawing attention to pan-Mesoamerican trends, regional patterns, and diffusion processes.\n" .
+
+<#offset_533_538>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Venus" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Planet> , <http://dbpedia.org/ontology/CelestialBody> ;
+        itsrdf:taConfidence     "0.9999781041095259"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Venus> .
+
+<#offset_129_140>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mesoamerica" ;
+        nif:beginIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999653409475144"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mesoamerica> .
+
+<#offset_1083_1092>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "1083"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994386517285"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .
+
+<#offset_111_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban planning" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999997860607"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1209> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_66_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "astronomy" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999872707123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Astronomy> .
+
+<#offset_523_528>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lunar" ;
+        nif:beginIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/CelestialBody> , <http://dbpedia.org/ontology/Planet> ;
+        itsrdf:taConfidence     "0.8284041275034564"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Moon> .
+
+<#offset_885_892>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "horizon" ;
+        nif:beginIndex          "885"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1209> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991629046101"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Horizon> .

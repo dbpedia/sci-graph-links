@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_130_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laminar" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_594> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999488684366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laminar_flow> .
+
+<#offset_64_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reflux" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_594> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999840042052"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reflux> .
+
+<#offset_0_594>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "594"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A theoretically obtained relationship between specific reflux density and film thickness in an ascending cocurrent flow (laminar wave-free flow of liquid over a vertical plane) is examined. A diagram for determination of the film thickness in constant-diameter tubes for a water-air system, and correction curves for this diagram are presented. A diagram is constructed for determination of the film thickness in variable-diameter tubes, which is more general — not constrained by specific properties of the liquid and gaseous phases. Examples of the use of the diagram are presented.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_594> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

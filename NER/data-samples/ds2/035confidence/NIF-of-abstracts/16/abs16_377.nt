@@ -1,0 +1,73 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_253_259>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999345710191557"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<#offset_0_282>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "282"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Paper presented at the conference 'Literary Histories and the Development of Identities' sponsored by the Social Sciences and Humanities Research Council of Canada involving members of the I.C.L.A. Coordinating Committee at Queen's University, Canada, in the Fall of 2001.\n" .
+
+<#offset_115_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Social Sciences" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986091865489"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_science> .
+
+<#offset_53_62>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Histories" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://purl.org/ontology/bibo/Book> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Book> , <http://dbpedia.org/ontology/Work> , <http://schema.org/Book> ;
+        itsrdf:taConfidence     "0.8341552365102248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Histories_(Herodotus)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_282> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_233_238>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Queen" ;
+        nif:beginIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/BritishRoyalty> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Royalty> ;
+        itsrdf:taConfidence     "0.5934021072920813"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elizabeth_II> .
+
+<#offset_135_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Humanities" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998729685848975"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Humanities> .
+
+<#offset_166_172>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999345710191557"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .

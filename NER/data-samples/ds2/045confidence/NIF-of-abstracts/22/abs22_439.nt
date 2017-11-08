@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_513>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "513"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Moore held that to call something good is to ascribe a property to it. But he denied that the property could be expressed in non-evaluative terms. Can one accept this view of the meaning of ‘good’ without falling into skepticism about whether anything can be, or be known to be, good? I suggest a way of doing this. The strategy combines the idea that ‘good’ is semantically entangled, as opposed to semantically isolated, with the idea that rational agents have a generic disposition to follow reasons.\n" .
+
+<#offset_227_237>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skepticism" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_513> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9959828943825809"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skepticism> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_513> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_451_466>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rational agents" ;
+        nif:beginIndex          "451"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_513> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999854460447287"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rational_agent> .

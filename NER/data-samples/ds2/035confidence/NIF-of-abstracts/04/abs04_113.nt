@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_242_248>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "circle" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99996978331401"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circle> .
+
+<#offset_146_155>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear" ;
+        nif:beginIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9928860006037812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_0_414>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "414"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This investigation concerns the application of a special method of successive approximations to the solution of a practically motivated, nonlinear problem of the bending of a uniformly loaded circular plate supported on a concentric circle. Numerical results are obtained for a range of plate-radius/support-radius ratios, and the former are found to be in good agreement with the results of experiments.\n" .
+
+<#offset_231_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concentric" ;
+        nif:beginIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994994827377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concentric> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_414> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

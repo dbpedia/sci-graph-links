@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_83_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electron gas" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998123599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Free_electron_model> .
+
+<#offset_31_35>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spin" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999984566443"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spin_(physics)> .
+
+<#offset_243_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hartree-Fock method" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hartree–Fock_method> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_825> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_825>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "825"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Collective effects of spin ordering in a quasi-one-dimensional degenerate electron gas are discussed. The total energy of the quasi-one-dimensional system, as well as the exchange contribution per particle, has been calculated by the Hartree-Fock method. It has been shown that spontaneous polarization can be observed in the system when a universal parameter related to the density of the particles satisfies the inequality r s ≥ 0.476. A comparative analysis of one-, two-, and three-dimensional systems has been performed. A general expression has been obtained for the total energy per particle as a function of the degree of polarization and dimension of the system. According to this expression, the possibility of spontaneous polarization in the system is closely correlated with the dimension of the system.\n" .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_49_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holographic interferometry" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holographic_interferometry> .
+
+<#offset_33_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photography" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999498005959551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photography> .
+
+<#offset_338_349>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holographic" ;
+        nif:beginIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9922772753408176"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holographic_interferometry> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_531> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_285_296>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photography" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_531> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999498005959551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photography> .
+
+<#offset_0_531>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "531"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Two techniques, speckle photography and holographic interferometry, were used to test three-dimensional finite-element calculations in an internally pressurized cylinder with an external part-circular crack. Opening displacements along the crack line were measured by speckle photography. Radial displacements were obtained from holographic fringe patterns. Good agreement between experimental and numerical data is obtained. Stress-intensity factor variations along the crack front are calculated from numerical results.\n" .

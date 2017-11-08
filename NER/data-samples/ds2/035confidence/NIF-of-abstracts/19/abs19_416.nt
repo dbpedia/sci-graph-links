@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_255_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variances" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999561652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_0_359>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "359"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The goal of this paper is to show that in large samples the variances of the direction-of-arrival (DOA) estimates provided by the element-space MUSIC (i.e., MUSIC applied directly to the sensor output data) are always less than the corresponding variances associated with the beam-space MUSIC (i.e., MUSIC applied to spatially filtered sensor data).\n" .
+
+<#offset_69_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variances" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999561652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_57_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "samples" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9338135854794496"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sample_(statistics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_359> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_196_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensor" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9951009554168512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensor> .
+
+<#offset_345_351>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensor" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9951009554168512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensor> .
+
+<#offset_108_111>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "DOA" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Single> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/MusicalWork> ;
+        itsrdf:taConfidence     "0.8148336203378279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DOA_(song)> .

@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_284_291>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_526> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999686233427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_526> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_526>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "526"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As a result of the proliferation of Human Resource Information Systems among organizations, employee data are being used in nontraditional ways. Although these uses increase efficiency, they can conflict with the rights and interests of employees, external stakeholders, and society at large. Yet the ethical concerns associated with automated data bases larely have been ignored. This paper examines these issues within the context of three ethical theories. Implications and suggestions for managers are discussed.\n" .

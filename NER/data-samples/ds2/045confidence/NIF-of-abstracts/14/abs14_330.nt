@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_27_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "longitudinal data" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Longitudinal_study> .
+
+<#offset_0_543>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "543"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article uses longitudinal data from the Panel Study of Income Dynamics to explore how changes in marital status affect the economic status of married women in their middle years. Results demonstrate that when a marriage ends, the economic status of women declines considerably. Components of income change are discussed, with emphasis on the extent to which women can compensate for the loss of a spouse's income through increases in paid labor, by changes in living arrangements, and by the use of public and private transfers.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_543> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

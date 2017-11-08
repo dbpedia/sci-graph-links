@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_263_265>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BT" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9604705461181594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/BT_Group> .
+
+<#offset_135_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Region> ;
+        itsrdf:taConfidence     "0.7055489609520347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Hampshire> .
+
+<#offset_174_176>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Region> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.7055489609520347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Hampshire> .
+
+<#offset_0_449>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "449"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Some hydrologic, climatologic and artificially generated time series are analyzed for periodic components using a nonharmonic (NH) method of spectral estimation. The NH spectra are compared with those obtained by using the traditional Blackman and Tukey (BT) and Fast Fourier Transform (FFT) methods and with the relatively recent Maximum Entropy (ME) and Autoregressive Moving Average (ARMA) methods. The NH method appears to be promising.\n" .
+
+<#offset_149_168>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectral estimation" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectral_density_estimation> .
+
+<#offset_339_354>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Maximum Entropy" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principle_of_maximum_entropy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_449> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_65_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_414_416>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/Region> ;
+        itsrdf:taConfidence     "0.7055489609520347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Hampshire> .
+
+<#offset_395_399>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ARMA" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "399"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoregressive–moving-average_model> .
+
+<#offset_271_299>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fast Fourier Transform (FFT)" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_449> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fast_Fourier_transform> .

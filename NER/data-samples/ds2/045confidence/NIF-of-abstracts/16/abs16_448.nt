@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_57_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sociopsychological" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_816> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_psychology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_816> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_816>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "816"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Empirical studies of attitudes towards, and the sociopsychological characteristics of single women have been neglected by social scientists. As a minority group, subject to normative judgements of their sex-role behavior, single women are vulnerable to prejudicial evaluations by married people of both sexes. The present study investigated aspects of the social environment which have positive or negative consequences for single women. A survey was conducted of N=48 male and female married subjects in an Australian city. Major findings were that (a) married people have little or no contact with single women; (b) males tend to be more negative in their evaluations of single women than females; and (c) most females can allow for the possibility of a major sex role other than that involving marriage.\n" .
+
+<#offset_182_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "normative" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_816> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997166501120064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Norm_(social)> .
+
+<#offset_517_527>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Australian" ;
+        nif:beginIndex          "517"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "527"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_816> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9917843121039697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Australia> .

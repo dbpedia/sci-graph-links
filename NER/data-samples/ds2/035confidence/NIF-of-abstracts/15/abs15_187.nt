@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_196_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canonical" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995970841310939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canonical_ensemble> .
+
+<#offset_100_110>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuity" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999841182331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuous_function> .
+
+<#offset_206_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markov" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9847773918075486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<#offset_280_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuity" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999841182331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuous_function> .
+
+<#offset_35_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transition probabilities" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998788465023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<#offset_144_152>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "overline" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991342243444"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Overline> .
+
+<#offset_0_434>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "434"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We consider chains whose transition probabilities depend on the whole past, with summable continuity rates. We show that Ornstein's $\\overline d$-distance between one such chain and its canonical Markov approximations of different orders is at worst proportional to the continuity rate of the chain. The result generalizes previous bounds obtained by X. Bressaud and ourselves, while relying on a similar coupling argument.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_434> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

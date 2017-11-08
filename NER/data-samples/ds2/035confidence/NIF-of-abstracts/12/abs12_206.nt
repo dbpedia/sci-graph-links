@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_326_342>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "functional model" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_864> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991059231728293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_model> .
+
+<#offset_481_486>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "(RED)" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_864> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Product_Red> .
+
+<#offset_678_687>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variables" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_864> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8294288008381568"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variable_(mathematics)> .
+
+<#offset_534_547>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "failure modes" ;
+        nif:beginIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_864> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999733973"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Failure_causes> .
+
+<#offset_154_163>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variables" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_864> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8294288008381568"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variable_(mathematics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_864> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_864>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "864"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The objective of this article is to introduce a method that will mitigate product risks during the conceptual design phase by identifying design variables that affect product failures. By using this comprehensive, step-by-step process that combines existing techniques in a new way, designers can begin with a simple functional model and emerge from the conceptual design phase with specific components selected with many risks already mitigated. The risk in early design (RED) method plays a significant role in identifying failure modes by functions, and these modes are then analyzed through modeling equations or lifespan analyses, in such a manner that emphasizes variables under the designers’ control. With the valuable insight this method provides, informed decisions can be made early in the process, thereby eliminating costly changes later on.\n" .

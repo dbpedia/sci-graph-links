@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_46_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pareto optimal" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pareto_efficiency> .
+
+<#offset_130_143>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilistic" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9659913921993839"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_304_314>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integrable" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9802390312409853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integral> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_316> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_316>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "316"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove the existence of comonotone Pareto optimal allocations satisfying utility constraints when decision makers have probabilistic sophisticated variational preferences and thus representing criteria in the class of law invariant robust utilities. The total endowment is only required to be integrable.\n" .
+
+<#offset_271_280>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endowment" ;
+        nif:beginIndex          "271"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9308635322050427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capital_(economics)> .
+
+<#offset_233_242>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invariant" ;
+        nif:beginIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993510541825249"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invariant_(mathematics)> .

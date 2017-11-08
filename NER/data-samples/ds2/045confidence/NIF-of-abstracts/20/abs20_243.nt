@@ -1,0 +1,25 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_190_199>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Menopause" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_581> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999998902027929"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Menopause> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_581> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_581>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "581"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract BackgroundSymptom scales for aging women have clinically been used for years and the interest in measuring health-related quality of life (HRQoL) has increased in recent years. The Menopause Rating Scale (MRS) is a formally validated scale according to the requirements for quality of life instruments. The aim of this paper is to review the current state of the instrument particularly concerning versions of the scale in different languages. MRS versions availableThe translations were performed following international methodological recommendations for the linguistic\n" .

@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_812>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "812"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Generalizations from the experimental current-voltage characteristics of corona discharge for helium and synthetic air at the positive and negative polarities of a star-shaped discharge electrode at different gas pressures are presented. Similar generalizations are performed for current-voltage characteristics obtained for dried air and a coaxial system of electrodes at various temperatures and atmospheric pressure. The generalization consists in reducing the family of the current-voltage characteristics to a single generalized equation that geometrically represents a segment bisector. Some aspects of the application of similarity methods for corona discharge are considered. Townsend’s structure of the characteristics is confirmed, and this fact can serve as a basis for its wide application.\n" .
+
+<#offset_592_600>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bisector" ;
+        nif:beginIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bisection> .
+
+<#offset_103_109>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "helium" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986062441103"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helium> .
+
+<#offset_195_204>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrode" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999998843407"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrode> .
+
+<#offset_82_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corona discharge" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corona_discharge> .
+
+<#offset_407_427>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmospheric pressure" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9360954158640634"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmosphere_(unit)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_812> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_368_378>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrodes" ;
+        nif:beginIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999085958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrode> .
+
+<#offset_660_676>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corona discharge" ;
+        nif:beginIndex          "660"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Corona_discharge> .

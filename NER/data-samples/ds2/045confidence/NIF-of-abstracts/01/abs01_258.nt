@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_179>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "179"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We show thatn random points chosen independently and uniformly from a triangle are in convex position with probability $$\\frac{{2^n (3n - 3)!}}{{((n - 1)!)^3 (2n)!}}$$ .\n" .
+
+<#offset_95_110>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex position" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_179> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_position> .
+
+<#offset_116_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_179> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9309696510702908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_179> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_79_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_179> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997420197755154"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle> .

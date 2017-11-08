@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_292>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "292"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the steel industry, steel slabs are produced by continuous casting to allow fast processing. A complex stress state leads to crack formation in such steel slabs. The stress components relevant for failure were identified by neutron diffraction under simulated casting conditions.\n" .
+
+<#offset_161_166>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steel" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996295119739862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steel> .
+
+<#offset_16_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steel industry" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999529895871313"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steel> .
+
+<#offset_178_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999498998963707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<#offset_115_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999498998963707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<#offset_32_37>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steel" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996295119739862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steel> .
+
+<#offset_60_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuous casting" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999980000098"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuous_casting> .
+
+<#offset_137_142>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "crack" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995944656508319"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fracture> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_292> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_236_255>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neutron diffraction" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neutron_diffraction> .

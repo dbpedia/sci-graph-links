@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1108>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1108"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A geodemographic classification provides a set of categorical summaries of the built and socio-economic characteristics of small geographic areas. Many classifications, including that developed in this paper, are created entirely from data extracted from a single decennial census of population. Such classifications are often criticised as becoming less useful over time because of the changing composition of small geographic areas. This paper presents a methodology for exploring the veracity of this assertion, by examining changes in UK census-based geodemographic indicators over time, as well as a substantive interpretation of the overall results. We present an innovative methodology that classifies both 2001 and 2011 census data inputs utilising a unified geography and set of attributes to create a classification that spans both census periods. Through this classification, we examine the temporal stability of the clusters and whether other secondary data sources and internal measures might usefully indicate local uncertainties in such a classification during an intercensal period.\n" .
+
+<#offset_548_550>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1108> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999928922626612"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<#offset_776_785>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geography" ;
+        nif:beginIndex          "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1108> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999723741"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geography> .
+
+<#offset_283_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "census" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1108> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9867676006278644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Census> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1108> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_737_743>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "census" ;
+        nif:beginIndex          "737"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1108> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9867676006278644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Census> .
+
+<#offset_851_857>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "census" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "857"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1108> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9867676006278644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Census> .

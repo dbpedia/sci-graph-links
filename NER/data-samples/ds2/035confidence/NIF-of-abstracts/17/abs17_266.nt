@@ -1,0 +1,82 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_388_392>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mask" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9972263805551428"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mask> .
+
+<#offset_137_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foreign body" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foreign_body> .
+
+<#offset_243_252>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dysphagia" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dysphagia> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_430> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_9_18>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dysphagia" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dysphagia> .
+
+<#offset_331_351>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cognitive impairment" ;
+        nif:beginIndex          "331"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.937506950310145"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Delirium> .
+
+<#offset_53_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "developmental disabilities" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9937930160372416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developmental_disability> .
+
+<#offset_291_317>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "developmental disabilities" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_430> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9937930160372416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developmental_disability> .
+
+<#offset_0_430>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "430"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Dysphagia is common in children with severe developmental disabilities. The nature of these difficulties can predispose them to foreign body ingestion. This article presents a case that highlights the need for vigilance in diagnosing dysphagia in children with multiple and complex developmental disabilities where severe cognitive impairment and an inability to communicate may mask the presence of underlying problems.\n" .

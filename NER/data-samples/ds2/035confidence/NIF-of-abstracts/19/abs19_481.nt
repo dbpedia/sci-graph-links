@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_274_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MSc" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_446> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.992712701344817"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Master_of_Science> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_446> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_414_422>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "catalyst" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_446> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999642044690123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Catalysis> .
+
+<#offset_0_446>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "446"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Compared to elite athletes, elite performers, especially musicians and dancers, invariably lack expert medical backup even though their needs are just as great as the sportspeople. In some countries, this is now being realised and addressed. It is hoped that a new MSc in Performing Arts Medicine, recently introduced in the UK, will go some way towards correcting this, and its syllabus has provided the catalyst for this themed issue.\n" .
+
+<#offset_334_336>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_446> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999645049241203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_268_278>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_363> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994100187486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_96_112>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "impact parameter" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_363> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999985846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Impact_parameter> .
+
+<#offset_0_363>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "363"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The second level trigger in LHCb (level 1) is based on the ability to reconstruct high impact parameter tracks in the vertex detector. The feasibility to reconstruct tracks using only the vertex detector in a time window of less than 1.7 ms is shown. Several algorithms under study to improve the performance of the vertex trigger are briefly described.\n" .
+
+<#offset_37_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LHCb" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_363> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999813554"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/LHCb> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_363> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

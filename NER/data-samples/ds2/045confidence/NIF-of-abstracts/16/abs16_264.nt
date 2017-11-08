@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_234_242>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8322061262229307"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_analysis> .
+
+<#offset_0_307>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "307"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We investigate finite sections of Gabor frames and study the asymptotic behavior of their lower Riesz bound. From a numerical point of view, these sets of time-frequency shifts are linearly dependent, whereas from a rigorous analytic point of view, they are conjectured to be linearly independent.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_307> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_190_208>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linearly dependent" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_independence> .
+
+<#offset_285_305>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linearly independent" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999895977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_independence> .
+
+<#offset_70_80>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8513723831039223"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .

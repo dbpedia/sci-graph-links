@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1283>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1283"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A system for “anchored discussion” is compared with a system for traditional forum discussion (Blackboard), and their collaborative and communicative affordances for the collaborative processing of academic texts are investigated. Results show that discussion in the system for anchored discussion is more directed at processing the meaning of texts than discussion in the traditional forum, which is more oriented towards the sharing of personal opinions and experiences. This difference in orientation produces a more constructive collaboration in the system for anchored discussion, versus a more debate-like collaboration in the forum discussion. Additionally, while messages in the traditional forum resemble usual discussion or email conversation and contain social and regulative comments, discussion in the system for anchored discussion is seen to be more efficient and “to-the-point.” We conclude that for collaborative text comprehension by undergraduate students, anchored discussion might be more suitable than traditional forum discussion. Finally, the observed differences can be explained by the stronger defined collaborative context in the system for anchored discussion, which focuses participants’ collaborative intentions and their frames of reference.\n" .
+
+<#offset_743_748>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "email" ;
+        nif:beginIndex          "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "748"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1283> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998224156046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Email> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1283> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_961_974>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "undergraduate" ;
+        nif:beginIndex          "961"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "974"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1283> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996505091989317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Undergraduate_education> .
+
+<#offset_104_114>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Blackboard" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1283> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8540930300755053"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blackboard_Learning_System> .

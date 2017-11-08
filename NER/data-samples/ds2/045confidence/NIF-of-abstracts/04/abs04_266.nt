@@ -1,0 +1,135 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_711>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "711"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Mud volcanism is an abundant, global phenomenon whereby fluid-rich, low-density sediments extrude both on land and offshore. Methane, which generally exceeds 90 vol�f the gas phase, is emitted at high rates during and after emplacement of the mud domes and is known for its high global warming potential (GWP). This comprehensive estimate of the annual contribution of mud volcano degassing assesses the significance of mud volcanism for the accumulation of greenhouse gases in the atmosphere. A first-order estimate for the earlier, pre-anthropogenic volume of methane released through mud volcanoes further supports their profound effect on the Earth's climate since at least the Paleozoic (570 Ma).\n" .
+
+<#offset_656_661>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Earth" ;
+        nif:beginIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Planet> , <http://dbpedia.org/ontology/CelestialBody> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth> .
+
+<#offset_13_22>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volcanism" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5989935807205591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volcano> .
+
+<#offset_467_483>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "greenhouse gases" ;
+        nif:beginIndex          "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9627346336735324"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greenhouse_gas> .
+
+<#offset_491_501>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atmosphere" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999263201587987"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atmosphere> .
+
+<#offset_433_442>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volcanism" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5989935807205591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volcano> .
+
+<#offset_314_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GWP" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global-warming_potential> .
+
+<#offset_288_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "global warming potential" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global-warming_potential> .
+
+<#offset_691_700>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Paleozoic" ;
+        nif:beginIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "700"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paleozoic> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_711> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_596_609>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mud volcanoes" ;
+        nif:beginIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mud_volcano> .
+
+<#offset_571_578>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "methane" ;
+        nif:beginIndex          "571"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999964752533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methane> .
+
+<#offset_89_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sediments" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998585928224867"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sediment> .
+
+<#offset_378_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mud volcano" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mud_volcano> .
+
+<#offset_134_141>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Methane" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_711> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methane> .

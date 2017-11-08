@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_467_479>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social norms" ;
+        nif:beginIndex          "467"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_642> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989056401282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Norm_(social)> .
+
+<#offset_0_642>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "642"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper reports on a diary study of rendezvousing as performed by university students. The study compares students’ experience of communication before and during rendezvous. During rendezvous, students rated several aspects of the experience of communication lower than before rendezvous. This impairment of experience is attributed to the cumulative effects of the following aspects of the context of use: noise, multiple task performance, conflict with social norms, incomplete network coverage, time pressure and conflict with preferred life paths. User performance goals for context-aware communication systems are discussed.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_642> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

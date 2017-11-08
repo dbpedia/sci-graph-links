@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_70_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99998249445085"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_280_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxonomic" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993253069013275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taxonomy_(biology)> .
+
+<#offset_237_242>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genus" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998520024674468"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genus> .
+
+<#offset_0_298>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "298"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary.  The bisamide aglairubine was isolated from different Aglaia species. The original structure was revised on the basis of FDMS and 2D-NMR data. Since all isolates were obtained from species belonging to the section Amoora of the genus Aglaia, aglairubine might serve as a taxonomic marker.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_298> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_139_145>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2D-NMR" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999843474161977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Two-dimensional_nuclear_magnetic_resonance_spectroscopy> .
+
+<#offset_190_197>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99998249445085"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<#offset_223_229>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Amoora" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> ;
+        itsrdf:taConfidence     "0.9999999961091248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amoora> .

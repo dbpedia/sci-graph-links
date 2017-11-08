@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_501_514>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonparametric" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999634670764"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<#offset_380_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bootstrap" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999993458716652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bootstrapping_(statistics)> .
+
+<#offset_333_343>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999973991419608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_theory_(statistics)> .
+
+<#offset_19_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonparametric" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999634670764"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<#offset_556_567>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_0_919>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "919"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A general nonparametric approach to identify similarities in a set of simultaneously observed time series is proposed. The trends are estimated via local polynomial regression and classified according to standard clustering procedures. The equality of the trends is checked using several nonparametric test statistics whose asymptotic distributions are approximated by a bootstrap procedure. Once the estimated trends are removed from the model, the residual series are grouped by means of a nonparametric cluster method specifically designed for time series. Such a method is based on a disparity measure between local linear smoothers of the spectra of the series. The performance of the proposed methodology is illustrated by means of its application to a particular financial data example. The dependence of the observations is a crucial factor in this work and is taken into account throughout the study.\n" .
+
+<#offset_297_315>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonparametric test" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_919> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_103_114>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_163_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial regression" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_919> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polynomial_regression> .

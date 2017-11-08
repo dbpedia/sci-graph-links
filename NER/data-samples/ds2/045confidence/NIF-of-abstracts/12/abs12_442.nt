@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_300_311>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "testability" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993883360860846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Testability> .
+
+<#offset_560_572>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partial scan" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scan_chain> .
+
+<#offset_19_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "testability" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993883360860846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Testability> .
+
+<#offset_0_653>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "653"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Improving testability during the early stages of the design flow can have several benefits, including significantly improved fault coverage, reduced test hardware overheads, and reduced design iteration times. This paper presents an overview of high-level design methodologies that consider testability during the early (behavior and architecture) stages of the design flow, and their testability benefits. The topics reviewed include behavioral and RTL test synthesis approaches that generate easily testable implementations targeting ATPG (full and partial scan) and BIST methodologies, and techniques to use high-level information for ATPG.\n" .
+
+<#offset_343_355>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7548061292287813"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_architecture> .
+
+<#offset_394_405>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "testability" ;
+        nif:beginIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993883360860846"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Testability> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_653> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_134_148>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fault coverage" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fault_coverage> .
+
+<#offset_459_462>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RTL" ;
+        nif:beginIndex          "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999993747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Register-transfer_level> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_39_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogenous growth" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endogenous_growth_theory> .
+
+<#offset_645_658>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-monotonic" ;
+        nif:beginIndex          "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999970441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-monotonic_logic> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1071> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1071>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1071"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I develop a stylized model of endogenous growth in which the level of financial depth influences an economy’s long-run growth. Financial depth is defined within the model as the ease with which investors can issue equity in the market on new units of capital. I assume that agents differ in the cost of undertaking investment projects and that there is a fixed distribution of such costs across the population. I theoretically identify channels through which financial depth influences growth, both positively and negatively. When considering a specific distribution of costs, I show that the net effect of financial depth on growth is non-monotonic. It depends on the shape of the distribution, as well as the level or stage of financial depth. The results of this paper help to rationalize some findings in the recent empirical literature on the non-monotonic effect of financial depth on long-run growth. The model is even capable of obtaining a negative effect of excessive financial depth on growth, a result that is also found in the empirical literature.\n" .
+
+<#offset_857_870>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-monotonic" ;
+        nif:beginIndex          "857"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "870"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999970441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-monotonic_logic> .
+
+<#offset_223_229>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equity" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1071> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9705352686914404"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equity_(finance)> .

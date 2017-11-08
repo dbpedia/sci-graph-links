@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_449_469>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semiconductor lasers" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_535> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9766970606971717"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .
+
+<#offset_430_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photodetectors" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_535> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photodetector> .
+
+<#offset_0_535>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "535"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A unit is described for measuring the play of the precision spindles of instruments such as theodolites. The unit differs from similar devices not only in its high sensitivity (0.01 μm), but also in the fact that the readings of the counter are not influenced by external fields. It is found that the coordinates u of displacements can potentially be measured with a high degree of accuracy by using coordinate-sensitive photodetectors and semiconductor lasers. Angular positioning is measured with a minimum error of ±0.06°.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_535> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_101_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theodolites" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_535> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theodolite> .
+
+<#offset_69_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spindles" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_535> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8329517407689149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spindle_(tool)> .

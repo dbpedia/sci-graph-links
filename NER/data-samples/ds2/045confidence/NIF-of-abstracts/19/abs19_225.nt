@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_123_129>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vortex" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999695886907525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abrikosov_vortex> .
+
+<#offset_234_245>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resistivity" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8037673884169559"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_resistivity_and_conductivity> .
+
+<#offset_80_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "superconducting" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999893134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Superconductivity> .
+
+<#offset_0_521>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "521"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider quantum slips of phase at a round hole punctured in a thin superconducting film and show that virtual vortex pairs provide an efficient pathway for these processes. Specifically, in the limit when the normalstate resistivity of the film is large, the presence of the film causes at most a logarithmic interaction between phase slips. This is in contrast to the nearly linear confining interaction (and the consequent nearly activated behavior of the resistance) obtained when vortices are neglected.\n" .
+
+<#offset_21_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantum" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988721304071061"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum> .
+
+<#offset_497_505>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vortices" ;
+        nif:beginIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.973797537530188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abrikosov_vortex> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_521> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

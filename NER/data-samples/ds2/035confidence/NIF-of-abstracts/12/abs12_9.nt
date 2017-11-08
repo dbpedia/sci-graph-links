@@ -1,0 +1,91 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_494>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "494"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In Germany, the need for coordination and integration of transport services has been seen as a pre-condition to improving public transportation. A major step in this direction,which attracted world-wide attention, has been the institution of the Transport Federation (Verkehrs verbund). The paper discusses the operation of the Hamburg Transit Federation and considers a number of factors which have created a favorable climate for the development of public transportation in Germany.\n" .
+
+<#offset_429_436>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "climate" ;
+        nif:beginIndex          "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8645566764981728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Climate> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_494> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_131_152>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transportation" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999945241598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<#offset_66_75>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transport" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999598145623692"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transport> .
+
+<#offset_485_492>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9996786816930243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#offset_460_481>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transportation" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999945241598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<#offset_286_293>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "verbund" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999999992593871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Verbund> .
+
+<#offset_337_344>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hamburg" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/City> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/City> ;
+        itsrdf:taConfidence     "0.9990980100252284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamburg> .
+
+<#offset_12_19>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9996786816930243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .

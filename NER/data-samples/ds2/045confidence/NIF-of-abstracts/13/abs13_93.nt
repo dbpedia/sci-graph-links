@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1297_1314>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social simulation" ;
+        nif:beginIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999939045665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_simulation> .
+
+<#offset_709_717>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pedagogy" ;
+        nif:beginIndex          "709"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pedagogy> .
+
+<#offset_1337_1347>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation" ;
+        nif:beginIndex          "1337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995573070284214"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .
+
+<#offset_20_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "requirements engineering" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1489> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Requirements_engineering> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1489> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1489>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1489"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The use of requirements engineering (RE) in industry is hampered by a poor understanding of its practices and their benefits. Teaching RE at the university level is therefore an important endeavor. Shortly before students become engineers and enter the workforce, this education could ideally be provided as an integrated part of developing the requisite business skills for understanding RE. Because much social wisdom is packed into RE methods, it is unrealistic to expect students with little organizational experience to understand and appreciate this body of knowledge; hence, the necessity of an experiential approach. The course described in this paper uses an active, affective, experiential pedagogy giving students the opportunity to experience a simulated work environment that demonstrates the social/design–problem complexities and richness of a development organization in the throes of creating a new product. Emotional and technical debriefing is conducted after each meaningful experience so that students and faculty, alike can better understand the professional relevancies of what they have just experienced. This includes an examination of the many forces encountered in industrial settings but not normally discussed in academic settings. The course uses a low-tech social simulation, rather than software simulation, so that students learn through interaction with real people, and are therefore confronted with the complexity of true social relationships.\n" .

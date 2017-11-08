@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_354_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital images" ;
+        nif:beginIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_527> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_image> .
+
+<#offset_52_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_527> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9265018665788344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signal> .
+
+<#offset_289_296>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cabinet" ;
+        nif:beginIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_527> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8640143037661216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cabinet_(government)> .
+
+<#offset_104_111>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cabinet" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_527> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8640143037661216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cabinet_(government)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_527> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_507_512>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_527> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9131235211107954"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<#offset_0_527>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "527"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Designers currently keep both physical and digital collections of visual materials separately. Cabinet is an appliance prototype for merging the collections. Its design was built on a study of current design practice, and explorations in visual and inspirational interaction. The Cabinet provides an effortless interface for adding physical and digital images, organizing them into piles and narrative layouts, and reusing images. The prototype was evaluated in three one-month trials at prominent Dutch design firms.\n" .

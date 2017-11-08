@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_621_628>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ontario" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1124> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9191345867188538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ontario> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1124> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_630_636>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1124> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999956750935172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<#offset_0_1124>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1124"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Current thinking encourages teachers to incorporate a range of assessment practices that are responsive to student thinking and promote student learning. At the same time, teachers are situated in a landscape of accountability, where they are often seen as technicians who implement prescribed curriculum, policies, and procedures with success measured by externally created assessments. This paper considers how teachers navigate this difficult terrain as they incorporate new assessment practices in their classrooms. We report on a two-year project undertaken with 42 teachers of mathematics (Grades 4–12) in Ontario, Canada. Using an analytic framework adapted from Windschitl (Review of Educational Research, 72(2), 131–175.2002), we explore the dilemmas these teachers identified as they met in communities of practice. Our findings highlight the need for coherence in the assessment messages communicated to teachers and provide evidence of the critical role of ongoing collaboration and dialogue to support the development of teachers’ professional judgement and enable change in their assessment practice.\n" .

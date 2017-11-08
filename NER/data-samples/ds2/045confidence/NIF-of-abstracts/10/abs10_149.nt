@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_494>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "494"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We report two cases of a membranous stenosis of the hepatic portion of the inferior vena cava. Membranotomy was performed with a specially designed instrument similar to a Tubbs' dilator following balloon membranotomy. During the procedures, ultrasonographic observations were made and this technique was confirmed to be effective for proper placing of a balloon and a dilator in the stenotic portion. Follow-up evaluation of the procedures was also feasible with this ultrasonic aid.\n" .
+
+<#offset_478_488>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ultrasonic" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999892776379673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medical_ultrasonography> .
+
+<#offset_45_53>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "stenosis" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999901495471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stenosis> .
+
+<#offset_206_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "balloon" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852542762988045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Balloon> .
+
+<#offset_364_371>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "balloon" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852542762988045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Balloon> .
+
+<#offset_84_102>  a             nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "inferior vena cava" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Vein> , <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999999998295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inferior_vena_cava> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_494> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_393_401>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stenotic" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stenosis> .

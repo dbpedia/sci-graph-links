@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1382>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1382"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article analyzes the trend of increasing employer involvement in social issues through human resource policies that influence employee behavior off the job and away from the workplace. Many employers are increasingly acting as “social arbiters”—regulators of the private conduct, personal behaviors, and habits of their employees. Relying on historical perspectives from (1) an exchange transaction economic view of the employment relationship, and (2) the origins and nature of the corporate form, a framework is developed to analyze the conditions under which employer involvement in employee personal matters may be appropriate. Our criteria generally guide an employer to act conservatively in invoking mandatory policies that affect employees' personal lives unless there is a clear individual employee performance problem or the personal behavior imposes harm on employees or customers. Two tests should be satisfied for mandatory programs: (1) the policy must have a discernible impact on the employee's performance on the current job based on individually based data, or (2) the behavior poses an immediate danger to or has an established discernible impact on the safety of co-workers or customers. The difficulties that may arise in administering specific polices such as no smoking, drug and medical testing, child care, and fitness policies are discussed.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1382> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1299_1306>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smoking" ;
+        nif:beginIndex          "1299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1382> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999789465481913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smoking> .
+
+<#offset_1334_1344>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "child care" ;
+        nif:beginIndex          "1334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1382> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999968463271"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Child_care> .

@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_75_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Boltzmann equations" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_588> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boltzmann_equation> .
+
+<#offset_0_588>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "588"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The effects of the production and loss mechanisms that affect the Boltzmann equations are considered by the inclusion of a reactive term. The necessary elements to develop a proper form for this term are revised and the curent trends analyzed. Although no accurate theoretical treatment of the problem is possible due to the many body nature of it, important relations can be derived which, besides being representative of the quantitative aspects of the matter, are illustrative of the qualitative features of the phenomenon. The overall procedure is detailed in this revision.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_588> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

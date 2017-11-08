@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_80_88>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Kiribati" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999999282700881"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kiribati> .
+
+<#offset_441_458>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural selection" ;
+        nif:beginIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_selection> .
+
+<#offset_57_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "shellfish" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999716998856282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Shellfish> .
+
+<#offset_179_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal foraging theory" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_foraging_theory> .
+
+<#offset_90_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Micronesia" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9929280168794572"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Micronesia> .
+
+<#offset_0_920>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "920"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The prey choice model, previously applied among shellfish gatherers in Kiribati, Micronesia, has shown that they are foraging in a manner that matches the predictions of optimal foraging theory by maximizing their net energy return rates. Similar conclusions can be drawn subsequent to testing the patch choice model, including patch switching; patch sampling; and the analysis of risk. In light of these results, it is argued that natural selection probably never encouraged the persistence of conservation because individuals have nearly always benefited from short-term goals to ensure greater fitness. However, the possibility remains that as a result of changed circumstances brought about by increasing human population, more efficient extractive technologies, and expanding market opportunities, genuine, as opposed to epiphenomenal conservation, may become established in heavily impacted environments.\n" .
+
+<#offset_835_848>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "epiphenomenal" ;
+        nif:beginIndex          "835"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "848"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9624460123533521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Epiphenomenon> .
+
+<#offset_227_240>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy return" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_920> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(physics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_920> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_59_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "El Niño-Southern Oscillation (ENSO)" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1117> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/El_Niño–Southern_Oscillation> .
+
+<#offset_478_488>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Meridional" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1117> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Zonal_and_meridional> .
+
+<#offset_0_1117>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1117"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We study here the potential predictability of the El Niño-Southern Oscillation (ENSO) state, represented by the Niño3.4, the Niño1 2 and the Niño4 Indexes. We choose the predictors among a variety of Teleconnection Indexes. We use a linear statistical relationship and focus on leads from one season to one year. Highest potential predictability levels are scored by the tropical predictors, in particular, the equatorial Pacific Warm Water Volume Index or the Pacific Meridional Mode Index. Moreover, our analysis finds and explores interesting potential predictors for the Niño1 2 and Niño4 conditions that were never pointed at before and test their prediction skill in a series seasonal hindcast experiments. Finally, we compare the results obtained for the potential predictability of the recent 1980–2012 years with those obtained for the 1950–1979 period using the same methodology. We find statistically significant differences in the linear relationship between the Niño3.4 Index and the South Tropical Zonal Gradient Index in the recent 1980–2012 period as compared with the earlier 1950–1979 one.\n" .
+
+<#offset_431_438>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pacific" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1117> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999166738042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pacific_Ocean> .
+
+<#offset_470_477>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pacific" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1117> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999166738042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pacific_Ocean> .
+
+<#offset_700_708>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hindcast" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "708"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1117> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999423396292"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hindcast> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1117> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

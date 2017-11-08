@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_258_272>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "false positive" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Type_I_and_type_II_errors> .
+
+<#offset_0_615>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "615"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Considering the uncertainty of measurement when assessing compliance with reference values given in compositional specifications and statutory limits is still a controversial matter. In theory, assessing compliance requires considering both type I (false positive) and type II (false negative) errors. The more the concentration of the analyte in the sample under investigation is close to the allowed concentration limit, the more critical it is to consider both types of errors. This paper describes how this could be done. The matter is discussed in the light of the most recent literature information.\n" .
+
+<#offset_287_301>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "false negative" ;
+        nif:beginIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Type_I_and_type_II_errors> .
+
+<#offset_345_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analyte" ;
+        nif:beginIndex          "345"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analyte> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_615> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

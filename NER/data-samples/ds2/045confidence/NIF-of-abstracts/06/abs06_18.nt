@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_585_591>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "island" ;
+        nif:beginIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996199408309068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Island> .
+
+<#offset_602_607>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rural" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999541446951633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rural_area> .
+
+<#offset_452_458>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Ibadan" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/City> ;
+        itsrdf:taConfidence     "0.9997968075357481"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ibadan> .
+
+<#offset_632_643>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evaporation" ;
+        nif:beginIndex          "632"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_645> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9759648359400337"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evaporation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_645> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_645>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "645"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Not much is known about the extreme conditions of urban temperature in tropical cities. Also, the concept, heat-island has been hardly related to the other climatic parameters that have some links with temperature. In view of the points mentioned above, this study examined the maximum temperature records as well as the conditions of temperature at 1000 and 1600 Local Zone Time (LZT). The results revealed that for the humid tropical city of Ibadan, heat islands was best indicated by the minimum temperature. Also, some level of relationship was found to exist between heat island and urban/rural difference in potential evaporation.\n" .

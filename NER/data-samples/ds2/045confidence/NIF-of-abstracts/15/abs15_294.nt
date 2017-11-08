@@ -1,0 +1,91 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_700_707>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Croatia" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9989094747166092"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Croatia> .
+
+<#offset_407_415>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Croatian" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9866156590692493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Croatia> .
+
+<#offset_592_599>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "t-tests" ;
+        nif:beginIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998331077"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Student's_t-test> .
+
+<#offset_0_789>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "789"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper evaluates the quality of human resource management (HRM) in Croatia because excellent human resource (HR) policies, programs and activities enable enterprises to maximize their workforce productivity. The research was conducted in enterprises with more than 200 employees. The value of HRM was assessed using the HR audit approach. Fifty-five HR indicators were analyzed from the top 10 Croatian HR enterprises to serve as benchmarks for the final sample of 80 enterprises. Results indicate Croatian enterprises have deficient HR practices, on average. Independent sample t-tests showed 61.82�f HR indicators were significantly better in the benchmark firms. Consequently, HRM in Croatia can not be considered solid ground for achieving competitiveness through people.\n" .
+
+<#offset_45_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human resource management" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999975966603"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_resource_management> .
+
+<#offset_197_219>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "workforce productivity" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Workforce_productivity> .
+
+<#offset_730_742>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solid ground" ;
+        nif:beginIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9882392782105794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solid_Ground_(Seattle)> .
+
+<#offset_80_87>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Croatia" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9989094747166092"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Croatia> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_789> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_511_519>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Croatian" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_789> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9866156590680155"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Croatia> .

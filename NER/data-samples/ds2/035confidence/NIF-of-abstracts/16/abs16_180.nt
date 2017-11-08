@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_377_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "surgical" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8938033419342728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surgery> .
+
+<#offset_344_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "colleges" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998865567516044"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/College> .
+
+<#offset_0_490>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "490"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusions In this editorial I have raised a number of considerations and posed several questions. This is well and good, but the provision of the right answers is what mattes. In this respect, I am as much at a loss as any body, but I am convinced of the need for dialogue and discussions at the national and international levels and between colleges and institutions on how surgical practice in all its aspects should be redirected to meet the changing medical scenario of this century.\n" .
+
+<#offset_170_176>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mattes" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9116975564548006"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Matte_(filmmaking)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_490> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

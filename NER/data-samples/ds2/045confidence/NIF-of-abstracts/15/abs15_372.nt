@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_390_396>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bridge" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "396"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9919120712592736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bridge> .
+
+<#offset_0_812>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "812"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The results of two observational studies of clinical directorates (CDs) are presented. The paper exposes fresh perspectives about the management of hospitals and CDs, and suggests that the most important axis on which hospital decision-making rests continues to be profession rather than the CD, even though CDs are designed at least in part to mitigate professional tribalism and bridge professional divides. In empiricising social structural and cultural theories it seems clear that changes to the prescribed organisational framework, which CDs represent, have had negligible effects on behaviour. This being the case, the paper questions the benefits alleged to have accrued from establishing CDs and calls for more effective, micro-behavioural change strategies than merely altering the structure.\n" .
+
+<#offset_301_303>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CD" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9875575964257536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compact_disc> .
+
+<#offset_28_49>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "observational studies" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Observational_study> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_812> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_376_385>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tribalism" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "385"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_812> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999744491707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tribalism> .

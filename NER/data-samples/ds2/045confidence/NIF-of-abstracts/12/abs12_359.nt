@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_475>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "475"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this article constructions are given for weak buildings of spherical type. The buildings are constructed as point-line geometries according to a pattern found within the appropriate Coxeter complexes. In all the examples constructed here there is at least one point of the geometry on no lines of more than two points. We show that this is true in all weak spherical buildings, and discuss to what further extent all weak buildings follow the given construction.\n" .
+
+<#offset_194_201>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Coxeter" ;
+        nif:beginIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8253168186710548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coxeter_group> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_475> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_285_293>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geometry" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997872717576253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geometry> .

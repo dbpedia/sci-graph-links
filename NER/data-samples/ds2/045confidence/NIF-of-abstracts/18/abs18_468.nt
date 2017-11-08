@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_310_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Poisson" ;
+        nif:beginIndex          "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_358> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998193103629"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poisson_distribution> .
+
+<#offset_319_327>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rayleigh" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_358> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999884324"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rayleigh_distribution> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_358> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_358>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "358"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is proved that biased estimates of parameters are always more effective than unbiased estimates in the case of asymmetric distribution laws of random quantities. Expressions are obtained for the root mean square deviation of a biased estimate of a parameter from its value for the cases of normal, Poisson, Rayleigh, and gamma distribution laws.\n" .
+
+<#offset_333_351>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gamma distribution" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_358> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gamma_distribution> .

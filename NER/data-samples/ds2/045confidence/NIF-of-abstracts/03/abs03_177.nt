@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_420_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ionization" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973781464205608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ionization> .
+
+<#offset_86_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9191330712871696"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<#offset_0_532>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "532"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Threshold law for the processe A q  →A( q 4)  5e has been derived within the classical theory. For neutral targets (q=0) the threshold exponent assumes value 5.08, consistent with previous calculations for ionizations of lower orders. The method fails forq<−4. The results are compared with recent experimental measurements, which considerably underestimate theoretical findings. An empirical formula forn-fold ionization is provided, which predicts values for the threshold exponent κ=7.8 and 12.5 forn=5, 6 respectively.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_532> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_392_409>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical formula" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986721131624179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .

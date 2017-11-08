@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_106_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental management" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_248> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environmental_resources_management> .
+
+<#offset_191_200>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "detergent" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_248> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999699298"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Detergent> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_248> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_248>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "248"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Background and ObjectiveIn the OMNIITOX project 11 partners have the common objective to improve environmental management tools for the assessment of (eco)toxicological impacts. The detergent case study aims at: i) comparing three Procter\n" .

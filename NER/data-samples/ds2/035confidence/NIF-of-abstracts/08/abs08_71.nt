@@ -1,0 +1,258 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_573_582>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hierarchy" ;
+        nif:beginIndex          "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998401563"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hierarchy> .
+
+<#offset_927_934>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compact" ;
+        nif:beginIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "934"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998988465679026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compact_space> .
+
+<#offset_1388_1394>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "single" ;
+        nif:beginIndex          "1388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8991038790373928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Single_(music)> .
+
+<#offset_9_12>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XML" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<#offset_1638_1641>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XML" ;
+        nif:beginIndex          "1638"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<#offset_1277_1280>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XML" ;
+        nif:beginIndex          "1277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<#offset_1251_1262>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "declarative" ;
+        nif:beginIndex          "1251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999967322992"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Declarative_programming> .
+
+<#offset_801_805>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "node" ;
+        nif:beginIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "805"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992209979048059"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<#offset_0_1653>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1653"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract XML documents contain substantial redundancy in their structure part, because each path from the root node to a leaf node is explicitly represented and typically large sets of such path instances belong to a path class, i.e., the nodes of the path instances are labeled by the same sequence of element (or attribute) names. To save storage space and I/O cost, we want to get rid of this structural redundancy to the extent possible. While all known methods for the physical representation (storage) of XML documents proceed from the root via the element/attribute hierarchy (internal nodes) down to the leaves (values), we follow an upside-down approach which explicitly stores the values and only reconstructs the internal nodes, if needed. The cornerstones for such a solution are suitable node labels and a path synopsis which efficiently represents all path classes of an XML document. As a solution, we propose a compact internal storage format for native XML database systems where the inner structure of the stored documents is virtualized. Because this elementless storage format provides an efficient reconstruction of a document using its path synopsis, all processing properties are preserved and the semantics of navigational and declarative operations of XML languages remains unchanged. Adjusted indexes support the full spectrum of so-called content-and-structure single path queries. Apart from greatly reduced storage consumption, our approach demonstrates its superiority, compared to competing methods, not only for a substantial fraction of those queries, but also for storing, reconstructing, and navigating XML documents.\n" .
+
+<#offset_542_546>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "root" ;
+        nif:beginIndex          "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5818983233789725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Root> .
+
+<#offset_511_514>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XML" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .
+
+<#offset_106_115>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "root node" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<#offset_1344_1352>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectrum" ;
+        nif:beginIndex          "1344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7855166073647257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectrum> .
+
+<#offset_1221_1230>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semantics" ;
+        nif:beginIndex          "1221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999891208182751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semantics> .
+
+<#offset_121_130>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaf node" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<#offset_724_738>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal nodes" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<#offset_291_299>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequence" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999992042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequence> .
+
+<#offset_970_982>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XML database" ;
+        nif:beginIndex          "970"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML_database> .
+
+<#offset_1444_1455>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumption" ;
+        nif:beginIndex          "1444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9914729572018535"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumption_(economics)> .
+
+<#offset_584_598>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "internal nodes" ;
+        nif:beginIndex          "584"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<#offset_239_244>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nodes" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999992428178547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Node_(computer_science)> .
+
+<#offset_974_990>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "database systems" ;
+        nif:beginIndex          "974"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996081173846093"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1653> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_612_618>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaves" ;
+        nif:beginIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(data_structure)> .
+
+<#offset_43_53>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "redundancy" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6938195377540833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_redundancy> .
+
+<#offset_359_362>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "I/O" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Input/output> .
+
+<#offset_1044_1055>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virtualized" ;
+        nif:beginIndex          "1044"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999854665493296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virtual_machine> .
+
+<#offset_407_417>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "redundancy" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6938195377540833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_redundancy> .
+
+<#offset_885_888>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XML" ;
+        nif:beginIndex          "885"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "888"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XML> .

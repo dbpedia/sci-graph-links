@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_73_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrical phenomena" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_301> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6508369769444942"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_phenomena> .
+
+<#offset_0_301>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "301"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Short-pulse optical sources have allowed the study of ultrafast electrical phenomena in the circuits and devices which will become future electronic systems. In this paper techniques for the generation, propagation and detection of electrical signals in the femtosecond regime are presented.\n" .
+
+<#offset_63_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ultrafast" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_301> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999960335574876"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ultrashort_pulse> .
+
+<#offset_21_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optical" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_301> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999205779766067"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_301> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_212_223>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "propagation" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_301> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7965623603812425"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffraction> .
+
+<#offset_147_157>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electronic" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_301> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969982558462962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electron> .
+
+<#offset_267_278>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "femtosecond" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_301> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999952347594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Femtosecond> .

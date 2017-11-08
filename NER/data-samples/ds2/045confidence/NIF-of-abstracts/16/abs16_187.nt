@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_137_148>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subfamilies" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_929> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9253094007604132"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subfamily> .
+
+<#offset_688_693>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Omega" ;
+        nif:beginIndex          "688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_929> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999913662805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Omega> .
+
+<#offset_262_273>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subfamilies" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_929> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9253094007604132"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subfamily> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_929> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_883_899>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Boolean function" ;
+        nif:beginIndex          "883"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "899"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_929> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boolean_function> .
+
+<#offset_0_929>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "929"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Inclusion-Exclusion formula expresses the size of a union of a family of sets in terms of the sizes of intersections of all subfamilies. This paper considers approximating the size of the union when intersection sizes are known for only some of the subfamilies, or when these quantities are given to within some error, or both. In particular, we consider the case when allk-wise intersections are given for everyk≤K. It turns out that the answer changes in a significant way aroundK=√n: ifK≤O(√n) then any approximation may err by a factor of θ(n/K 2), while ifK≥ Ω(√n) it is shown how to approximate the size of the union to within a multiplicative factor of $$1 \\pm e^{ - \\Omega (K/\\sqrt n )} $$ . When the sizes of all intersections are only given approximately, good bounds are derived on how well the size of the union may be approximated. Several applications for Boolean function are mentioned in conclusion.\n" .

@@ -1,0 +1,143 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_70_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exchange-rate" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exchange_rate> .
+
+<#offset_167_174>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "buoyant" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994922904004"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Buoyancy> .
+
+<#offset_0_739>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "739"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Since the 1990s many emerging countries have adopted a fixed exchange-rate peg vis-à-vis a reserve currency in order to cope with economic imbalances such as buoyant inflation, high unemployment or staggering economic growth. However, after a period of economic stabilisation and prosperity, overheating effects showed up in several countries that were often coupled with difficulties in the banking and/or the real estate sector. Sticking with a fixed peg, the likelihood of a currency crisis increased. The case of Argentina shows that even with a currency board it is difficult to restore confidence if a crisis has already been developing for several years. This article presents an economic analysis of the Argentina crisis.\n" .
+
+<#offset_30_48>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "emerging countries" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994478733680114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Emerging_markets> .
+
+<#offset_100_116>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reserve currency" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reserve_currency> .
+
+<#offset_526_535>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Argentina" ;
+        nif:beginIndex          "526"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999521712519759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Argentina> .
+
+<#offset_420_431>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real estate" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999752155931241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_estate_bubble> .
+
+<#offset_175_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflation" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_739> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_487_502>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "currency crisis" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "502"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Currency_crisis> .
+
+<#offset_218_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "economic growth" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999371890224873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_growth> .
+
+<#offset_721_730>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Argentina" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999521712519759"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Argentina> .
+
+<#offset_456_465>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fixed peg" ;
+        nif:beginIndex          "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fixed_exchange_rate> .
+
+<#offset_401_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "banking" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999742529790359"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bank_run> .
+
+<#offset_191_203>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unemployment" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unemployment> .
+
+<#offset_559_573>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "currency board" ;
+        nif:beginIndex          "559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "573"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_739> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9936368419004731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .

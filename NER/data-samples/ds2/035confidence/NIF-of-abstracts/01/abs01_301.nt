@@ -1,0 +1,98 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_77_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hybrid" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8414815361369014"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_algorithm> .
+
+<#offset_90_111>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential equation" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9088446958658644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<#offset_333_335>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "h4" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "0.9979500254015873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Histone_H4> .
+
+<#offset_448_452>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bede" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Saint> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Cleric> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "0.9999859985447533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bede> .
+
+<#offset_36_55>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "numerical algorithm" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Numerical_analysis> .
+
+<#offset_0_611>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "611"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we employ a numerical algorithm to solve first-order hybrid fuzzy differential equation (HFDE) based on the high order Runge–Kutta method. It is assumed that the user will evaluate both $$f$$ f and $$f'$$ f′ readily, instead of the evaluations of $$f$$ f only when solving the HFDE. We present a $$O(h^4)$$ O(h4) method that requires only three evaluations of $$f$$ f . Moreover, we consider the characterization theorem of Bede to solve the HFDE numerically. The convergence of the method will be proven and numerical examples are shown with a comparison to the conventional solutions.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_611> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_437_444>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999983778821"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#offset_65_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "first-order" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9678620965110105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordinary_differential_equation> .
+
+<#offset_488_499>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "499"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.73383016511808"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_(mathematics)> .
+
+<#offset_143_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Runge–Kutta method" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Runge–Kutta_methods> .

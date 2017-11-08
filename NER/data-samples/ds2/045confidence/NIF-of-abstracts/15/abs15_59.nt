@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_537_543>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_803> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9672563716910677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<#offset_736_742>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "736"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_803> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9672563716910677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<#offset_723_732>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "interplay" ;
+        nif:beginIndex          "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_803> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999601921696931"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interplay_Entertainment> .
+
+<#offset_129_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "129"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_803> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9672563716910677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_803> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_787_801>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender pay gap" ;
+        nif:beginIndex          "787"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "801"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_803> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender_pay_gap> .
+
+<#offset_23_29>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_803> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9651309223969736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_language> .
+
+<#offset_0_803>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "803"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Using a large German linked employer–employee data set and methods of competing risks analysis, this paper investigates gender differences in job separation rates to employment and nonemployment. In line with descriptive evidence, we find lower job-to-job and higher job-to-nonemployment transition probabilities for women than men when controlling for individual and workplace characteristics and unobserved plant heterogeneity. These differences vanish once we allow these characteristics to affect separations differently by gender. When additionally controlling for wages, we find that both separation rates are considerably lower and also significantly less wage-elastic for women than for men, suggesting an interplay of gender differences in transition behaviour and the gender pay gap.\n" .

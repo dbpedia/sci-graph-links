@@ -1,0 +1,99 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_680>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "680"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A spectrophotometric method has been developed for the determination of palladium with 2-mercaptomethyl-benzimidazole. This involves extraction of the palladium complex into iso-amyl alcohol in presence of 0.3 to 2N hydrochloric acid and 0.45 to 1.4M ammonium sulfate. The color is very stable and is highly selective for palladium. At 380 nm it obeys Berr's law in the concentration range of 1 to 9μg of Pd per ml; the optimum range being 4 to 8μg. The sensitivity and molar absorptivity of the reaction are 0.019μg of palladium per cm2 and 5600±70 respectively. The continuous variation and molar ratio methods indicate that palladium forms 1∶2 complex with the ligand.\n" .
+
+<#offset_259_275>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ammonium sulfate" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium_sulfate> .
+
+<#offset_413_415>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pd" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Palladium> .
+
+<#offset_10_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectrophotometric" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9831319180612192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectrophotometry> .
+
+<#offset_191_198>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alcohol" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9961107176418845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethanol> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_680> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_224_241>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hydrochloric acid" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999998759412924"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hydrochloric_acid> .
+
+<#offset_672_678>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ligand" ;
+        nif:beginIndex          "672"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997252189"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ligand> .
+
+<#offset_348_350>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nm" ;
+        nif:beginIndex          "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nanometre> .
+
+<#offset_601_606>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molar" ;
+        nif:beginIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8789579248147418"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molar_concentration> .
+
+<#offset_478_496>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molar absorptivity" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "496"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_680> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molar_absorptivity> .

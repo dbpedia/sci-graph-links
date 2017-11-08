@@ -1,0 +1,203 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_201_213>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "conjunctival" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conjunctiva> .
+
+<#offset_44_46>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "μg" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999976657818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microgram> .
+
+<#offset_330_335>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "blood" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5563752132523506"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blood> .
+
+<#offset_685_691>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "irides" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "691"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iris_(anatomy)> .
+
+<#offset_86_92>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "rabbit" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.999999818592999"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rabbit> .
+
+<#offset_336_343>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protein" ;
+        nif:beginIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protein> .
+
+<#offset_988_1002>  a           nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensory nerves" ;
+        nif:beginIndex          "988"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1002"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> , <http://dbpedia.org/ontology/Nerve> ;
+        itsrdf:taConfidence     "0.9965976857258807"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Afferent_nerve_fiber> .
+
+<#offset_183_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dilation" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vasodilation> .
+
+<#offset_0_1004>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1004"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Injection of Shigella endotoxin (2 μg) into the vitreous chamber of a normal rabbit eye induces an infiltration of polymorphonuclear leucocytes, miosis, a moderately intense dilation of iris, conjunctival and limbal vessels, and a breakdown in the blood-aqueous and blood-vitreal barriers. Significant amounts of soluble blood protein and prostaglandin-like (PG) material are found in the aqueous and vitreous humours withdrawn at 24 h. Endotoxin injected into the sensory denervated eye elicits similar vascular changes which appear to occur less rapidly than in normal eyes. Conversely, the levels of aqueous and vitreal PG-like material, as well as the capacity of excised irides to form PG from exogenous precursors, seems greater in the denervated eyes. If PG is an important mediator of ocular changes in the early phases, the results suggest that the action of this inflammatory autacoid in facilitating the ocular changes is less effective in eyes deprived of functional sensory nerves.\n" .
+
+<#offset_31_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endotoxin" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipopolysaccharide> .
+
+<#offset_771_773>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PG" ;
+        nif:beginIndex          "771"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "773"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prostaglandin> .
+
+<#offset_368_370>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PG" ;
+        nif:beginIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "370"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prostaglandin> .
+
+<#offset_419_426>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "humours" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9959644216680281"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Humorism> .
+
+<#offset_57_65>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "vitreous" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vitreous_humour> .
+
+<#offset_22_30>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Shigella" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999998869953"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Shigella> .
+
+<#offset_410_418>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "vitreous" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vitreous_humour> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1004> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_700_702>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PG" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prostaglandin> .
+
+<#offset_154_160>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "miosis" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Miosis> .
+
+<#offset_708_717>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exogenous" ;
+        nif:beginIndex          "708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "717"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999991310915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exogeny> .
+
+<#offset_195_199>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iris" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iris_(anatomy)> .
+
+<#offset_142_152>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leucocytes" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1004> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/White_blood_cell> .

@@ -1,0 +1,43 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_865_877>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "865"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "877"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1063> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999170086"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_19_37>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vehicle automation" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1063> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vehicular_automation> .
+
+<#offset_848_851>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CTS" ;
+        nif:beginIndex          "848"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1063> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Automobile> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.5610892254894112"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cadillac_CTS> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1063> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1063>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1063"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Thanks to vehicle automation, a new generation of urban transport systems that can supply car-like quality of service with Public Transport-like impacts was made possible. They are called Advanced Public Transport Systems and consist of small automated collective vehicles running on demand. A pre-design method for a first dimensioning of such systems was developed by simulating nearly 3 000 scenarios with Dial-A-Ride software and performing statistical regressions on the results. The method needs as input: network length, expected demand, vehicle top speed, maximum waiting time, and vehicle capacity. In six steps the method gives: number of vehicles, average waiting time, vehicle⋅kilometers, commercial speed, occupancy rate, and costs. The regressions are given for 20-place vehicles, 15 km/h top speed, and 1 000 s waiting time CTS. All the R 2 coefficients are higher than 0.75 and in most cases than 0.85. Empirical validations, made by comparing pre-design regressions with other system data, showed that the method gives accurate results.\n" .

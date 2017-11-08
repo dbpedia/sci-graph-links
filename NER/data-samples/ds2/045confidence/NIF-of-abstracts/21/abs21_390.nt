@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_395_422>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Three Billy Goats Gruff" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Three_Billy_Goats_Gruff> .
+
+<#offset_227_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bridge" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7816197743632279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bridge> .
+
+<#offset_0_425>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "425"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A favorite book of Julia, age three, wasThe Little Engine That Could. When her teacher asked her if she could eat nicely with the class next door, she replied, “I think I can, I think I can.” As Jenny tramped across a bridge on a bike, she called to her mom, “Hey, mom, trip trap trip trap; I hope there's no ugly troll down there.” One of her favorite bedtime stories at age four was “The Three Billy Goats Gruff.”\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_425> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

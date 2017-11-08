@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_156_178>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gamma-ray spectroscopy" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gamma_spectroscopy> .
+
+<#offset_0_815>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "815"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Alpha-particle-induced reactions on the target element gold were investigated from 30 to 75 MeV, using stacked-foil activation technique and Ge(Li) gamma-ray spectroscopy method. Six excitation functions for reactions of the type197Au(α,xn),x=1–3,197Au(α, 2pn) and197Au(α, αxn),x=1–3, were studied, of which five new data points and a new reaction were added to the existing data. The experimental cross-section were compared with the predictions of pre-equilibrium hybrid model, as well as the more recent index model using the initial exciton number,n 0=4(4p0h). It was observed that both models show better agreement in respect of (α,xn)-type reactions. However, they are equally bad for the reactions emitting protons and alpha-particles, and for which some direct reaction contributions are indicated.\n" .
+
+<#offset_474_480>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hybrid" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9519617365316558"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_vehicle> .
+
+<#offset_722_729>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protons" ;
+        nif:beginIndex          "722"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999984084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proton> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_815> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_100_103>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MeV" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronvolt> .
+
+<#offset_63_67>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gold" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999963052832797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gold> .
+
+<#offset_545_552>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exciton" ;
+        nif:beginIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exciton> .

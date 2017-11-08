@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_882_896>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "German testing" ;
+        nif:beginIndex          "882"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1398> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Event> , <http://schema.org/Event> , <http://dbpedia.org/ontology/MilitaryConflict> ;
+        itsrdf:taConfidence     "0.9999999978288088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operation_Hydra_(1943)> .
+
+<#offset_396_398>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "EA" ;
+        nif:beginIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1398> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9444751261910257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronic_Arts> .
+
+<#offset_287_301>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European Union" ;
+        nif:beginIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1398> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999434661835954"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Union> .
+
+<#offset_0_1398>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1398"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  Since 1989 testing laboratories in Europe have had the possibility to confirm their competence in carrying out certain testing procedures by means of accreditation. Over the years an independent European Accreditation system has been developed, which many member states of the European Union have joined. The existing accreditation organizations joined to form the unified organization EA (European Cooperation for Accreditation) in 1997. Members of this organization are, inter alia, one representative of the accreditation authorities of each of the member states. The German accreditation system is different to the European system in that it is split. Here, we differentiate between the sector established by law and that which is not. Both sectors, however, pursue the same goal. Because of this double certification of competence and the resulting multiple reviews, German testing laboratories face a considerably greater load in comparison to their European colleagues. Several authorities are already working on the removal of this split accreditation system. The efforts must, however, be concentrated and brought into line. Efforts by the DAP and DACH for flexible accreditation and the creation of a standardized registration authority for testing laboratories in the field of workplace measures are examples of how the German accreditation system could develop in the future.\n" .
+
+<#offset_45_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1398> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9862171971205335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Union> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1398> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1159_1162>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DAP" ;
+        nif:beginIndex          "1159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1398> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/PoliticalParty> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9672656182431955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_Workers'_Party> .
+
+<#offset_400_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European Cooperation" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1398> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9917556770854179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Union> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_723_733>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creativity" ;
+        nif:beginIndex          "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creativity> .
+
+<#offset_545_561>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine learning" ;
+        nif:beginIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<#offset_566_589>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "artificial intelligence" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_840> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998853005602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_840> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_840>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "840"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Teaching artistic skills to children presents a unique challenge: High-level creative and social elements of an artistic discipline are often the most engaging and the most likely to sustain student enthusiasm, but these skills rely on low-level sensorimotor capabilities, and in some cases rote knowledge, which are often tedious to develop. We hypothesize that computer-based learning can play a critical role in connecting “bottom-up” (sensorimotor-first) learning in the arts to “top-down” (creativity-first) learning, by employing machine learning and artificial intelligence techniques that can play the role of the sensorimotor expert. This approach allows learners to experience components of higher-level creativity and social interaction even before developing the prerequisite sensorimotor skills or academic knowledge.\n" .

@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1114>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1114"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Internet of Things (IoT) is a latest concept of machine-to-machine communication, that also gave birth to several information security problems. Many traditional software solutions fail to address these security issues such as trustworthiness of remote entities. Remote attestation is a technique given by  Trusted Computing Group (TCG) to monitor and verify this trustworthiness. In this regard, various remote validation methods have been proposed. However, static techniques cannot provide resistance to recent attacks e.g. the latest Heartbleed bug, and the recent high profile glibc attack on Linux operating system. In this research, we have designed and implemented a lightweight Linux kernel security module for IoT devices that is  scalable enough to monitor multiple applications in the kernel space. The newly built technique can measure and report multiple application’s static and dynamic behavior simultaneously. Verification of behavior of applications is performed via machine learning techniques. The result shows that deviating behavior can be detected successfully by the verifier.\n" .
+
+<#offset_611_616>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linux" ;
+        nif:beginIndex          "611"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9882398546819451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linux_kernel> .
+
+<#offset_320_337>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Trusted Computing" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trusted_Computing> .
+
+<#offset_595_600>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "glibc" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GNU_C_Library> .
+
+<#offset_998_1014>  a           nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine learning" ;
+        nif:beginIndex          "998"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<#offset_700_712>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Linux kernel" ;
+        nif:beginIndex          "700"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9999988579786232"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linux_kernel> .
+
+<#offset_617_633>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operating system" ;
+        nif:beginIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operating_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1114> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_13_21>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8921825104126189"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .
+
+<#offset_713_728>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "security module" ;
+        nif:beginIndex          "713"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8704218328834665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hardware_security_module> .
+
+<#offset_473_490>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "static techniques" ;
+        nif:beginIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_logic_(digital_electronics)> .
+
+<#offset_810_822>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kernel space" ;
+        nif:beginIndex          "810"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "822"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1114> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998920317521363"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kernel_(computing)> .

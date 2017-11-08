@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_488_498>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_823> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991989740878466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technology> .
+
+<#offset_268_281>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "buying centre" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_823> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999897975158"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Buying_center> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_823> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_823>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "823"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An organization’s effectiveness depends on its ability to adapt its structures to new situations. This holds crucially true for small companies, constrained by their resources and capacities. The interest of five small local companies for setting up a united buying centre with which respond to the ever-changing market is described. Greater and better knowledge of the potential suppliers’ pool, improved purchasing prices, greater negotiating power, access to more appropriate technology and improved overall operations, all figured amongst the advantages of this initiative. However, despite the apparent importance of these advantages, the study pinpoints a number of obstacles and a range of behavioural traits amongst the members involved that would make the project unfeasible as a tool for achieving them.\n" .

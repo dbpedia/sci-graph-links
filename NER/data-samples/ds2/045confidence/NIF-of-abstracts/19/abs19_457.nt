@@ -1,0 +1,35 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_242_253>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "gangsta rap" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_497> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/TopicalConcept> , <http://dbpedia.org/ontology/Genre> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gangsta_rap> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_497> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_205_216>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gangsta rap" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_497> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MusicGenre> , <http://dbpedia.org/ontology/Genre> , <http://dbpedia.org/ontology/TopicalConcept> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gangsta_rap> .
+
+<#offset_0_497>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "497"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Richard Majors and others provide, using the term “cool pose,” an invaluable way of understanding black manhood. This article expands that category by exploring notions of manhood as presented in gangsta rap music. It is argued that gangsta rap provides a notion of manhood that, on one level, mimics the dangerous norms and principles espoused by white America. On another level, it offers creative ways of surviving against the odds. In the long run, this forced duplicity is damaging.\n" .

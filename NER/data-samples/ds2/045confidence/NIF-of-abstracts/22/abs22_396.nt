@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_238>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "238"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A Hewlett-Packard on-line minicomputer controller for a new primate laboratory was integrated with existing equipment in digital-logic controlled rat and pigeon laboratories so as to maximize the utility of the separate systems.\n" .
+
+<#offset_35_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "minicomputer" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999808722"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minicomputer> .
+
+<#offset_69_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primate" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "0.9998334961693606"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primate> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_238> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_11_26>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hewlett-Packard" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.99999932674774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hewlett-Packard> .

@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_83_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "piracy" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8770666397098511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copyright_infringement> .
+
+<#offset_93_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9560734194531186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signal> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_373> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_373>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "373"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A sliding-window dynamic frameproof code is a scheme for discouraging the piracy of digital broadcasts through the use of digital fingerprinting. In this paper, we formally define sliding-window dynamic frameproof codes and provide optimal constructions for a certain class of these schemes. We also discuss bounds on the number of users such schemes can support.\n" .
+
+<#offset_131_138>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9560734194531186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signal> .

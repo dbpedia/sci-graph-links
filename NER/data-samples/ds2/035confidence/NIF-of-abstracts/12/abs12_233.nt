@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_433>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "433"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The object of this paper is the construction of balanced incomplete block designs with k=7. This paper continues the work begun by Hanani, who solved the construction problem for designs with a block size of 7, and with λ=6, 7, 21 and 42. The construction problem is solved here for designs with λ > 2 except for v=253, λ= 4,5 ; also for λ= 2, the number of unconstructed designs is reduced to 9 (1 nonexistent, 8 unknown).\n" .
+
+<#offset_203_213>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "block size" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8270083451729344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Block_size_(cryptography)> .
+
+<#offset_57_90>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "balanced incomplete block designs" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Block_design> .
+
+<#offset_140_146>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hanani" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_433> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996641703315"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hanani> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_433> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

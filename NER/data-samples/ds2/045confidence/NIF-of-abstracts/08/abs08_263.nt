@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1097_1107>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heuristics" ;
+        nif:beginIndex          "1097"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998266093976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heuristic> .
+
+<#offset_1118_1136>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear programming" ;
+        nif:beginIndex          "1118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_programming> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1434> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_470_490>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spatial epidemiology" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1434> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spatial_epidemiology> .
+
+<#offset_0_1434>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1434"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Given the large volumes of detailed data now being collected, there is a high demand for the release of this data for research purposes. In particular, organizations are faced with the conflicting goals of (a) releasing this data and (b) protecting the privacy of the individuals to whom the data pertains. Especially, there is a conflict between the need to release precise geographic information (which is essential to many healthcare research fields such as spatial epidemiology) and the requirement to censor or generalize the same information for the sake of privacy protection. Ultimately, the challenge is to anonymize data in order to comply with government privacy policies while reducing the loss in geographic information as much as possible. In this paper, we present novel component approaches used to configure the Voronoi-Based Aggregation System (VBAS) as well as an in-depth comparison of their effectiveness. VBAS is a system which protects privacy by enforcing k-anonymity via the aggregation of regions of fine granularity into larger regions. We additionally discuss heuristics rooted in linear programming which we have also integrated in our system. Based on extensive comparisons, we highlight the strengths and weaknesses of the different approaches we tested. This enables us to make recommendations on how to satisfy user requirements via the selection of specific combinations of such approaches.\n" .

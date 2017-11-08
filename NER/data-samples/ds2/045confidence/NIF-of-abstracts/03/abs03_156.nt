@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_284_286>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "C6" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7831287404467461"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/C_(musical_note)> .
+
+<#offset_59_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "T1" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.737255297194019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thoracic_spinal_nerve_1> .
+
+<#offset_39_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992509743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_0_374>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "374"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Pressure broadening and shift coefficients of the T1 6P1/2-7P1/2, 3/2 two-photon line, perturbed by noble gases, are measured by Doppler-free two-photon absorption. The experimental results are compared with theoretical values estimated with the Lindholm approximation using C6 constants calculated as well from the Unsöld formula as from fits to pseudopotentials.\n" .
+
+<#offset_109_120>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noble gases" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noble_gas> .
+
+<#offset_356_372>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudopotentials" ;
+        nif:beginIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudopotential> .
+
+<#offset_151_172>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "two-photon absorption" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Two-photon_absorption> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_374> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

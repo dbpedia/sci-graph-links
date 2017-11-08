@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_902>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "902"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In wireless networks, the betweenness of a node has been considered an indication of that node’s importance in efficiently and reliably delivering messages. In a large wireless network, however, the cost of computing the betweenness of every node is impractically high. In this paper, we introduce a new representation of a node’s vicinity, called the expanded ego network (shortly, x-ego network) of that node. We also propose an approach that calculates the x-ego betweenness of a node (i.e., the betweenness of that node in its x-ego network) and use it as an estimate of the true betweenness in the entire network. Furthermore, we develop an algorithm that quickly computes x-ego betweenness by exploiting structural properties of x-ego networks. Our evaluation results show the benefits and effectiveness of the above approach using trace data obtained from real-world wireless networks.\n" .
+
+<#offset_655_664>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "655"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "664"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_902> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_177_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wireless" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_902> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9854339924702274"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wireless> .
+
+<#offset_12_29>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wireless networks" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_902> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7026416655486599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wireless_network> .
+
+<#offset_883_900>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wireless networks" ;
+        nif:beginIndex          "883"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_902> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7026416655486599"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wireless_network> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_902> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_370_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ego" ;
+        nif:beginIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_902> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999979583877043"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Id,_ego_and_super-ego> .

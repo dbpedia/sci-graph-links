@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_422_433>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resistivity" ;
+        nif:beginIndex          "422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9838050380030565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_resistance_and_conductance> .
+
+<#offset_234_243>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reactance" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_reactance> .
+
+<#offset_498_507>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "impedance" ;
+        nif:beginIndex          "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "507"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999714961523"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_impedance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_702> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_72_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HTSC" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High-temperature_superconductivity> .
+
+<#offset_0_702>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "702"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The origin of the peak in the real part of the conductivity of HTSC films nearT c as a function of temperature and frequency has been analyzed in our experimental setup. It is shown that the peak is the result of a parasitic reactance in the measurement circuit related to the series and parallel equivalent schemes of the measurement circuit. It is demonstrated that the top of the peak is reached when the film resistivity becomes equal to the value of the imaginary part of the circuit impedance. Thus, its location at the temperature scale is determined by the resistance curve. Simultaneously the peak height becomes correspondingly equal to half the inverse value of the imaginary part.\n" .
+
+<#offset_224_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parasitic" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_702> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960028071152028"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitic_capacitance> .

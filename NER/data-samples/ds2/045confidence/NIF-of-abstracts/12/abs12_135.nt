@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_502_513>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high school" ;
+        nif:beginIndex          "502"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_590> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998337582190838"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High_school> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_590> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_590>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "590"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Digital heritage systems attract considerable research attention due to spatiotemporal and budget advantages. In this study, I generated visual exhibits for a memorial hall, targeting young visitors and aiming to inspire them to engage with their cultural heritage by providing an intriguing and participatory experience. The framework is based on visual narratives, which were developed using Maya, Unity and JanusVR. Responses gained from 50 participants, including 30 undergraduates and 20 high school students, showed increased motivation and efficient information conveyance.\n" .

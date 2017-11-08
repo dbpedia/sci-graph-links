@@ -1,0 +1,114 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_496_509>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deterministic" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8526326623787928"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deterministic_algorithm> .
+
+<#offset_838_849>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "838"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.991108188685615"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_344_352>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991794084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_84_88>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gene" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998772373038463"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene> .
+
+<#offset_776_787>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "787"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.991108188685615"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_73_83>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9716886077474134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic> .
+
+<#offset_387_398>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8756954402661978"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermodynamic_equilibrium> .
+
+<#offset_953_958>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genes" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8258558427769069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gene> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_980> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_980>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "980"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Migration has in the past been introduced deterministically into stochastic gene frequency models. Migration at rate m then reduces the between-population variability by a factor of (1 − m)2 each generation. We show that with stochastic migration, whether of fixed or variable numbers of individuals, a positive term Δm is added to the variance. As a result of the Δ m term, the equilibrium value of the between-population variability is increased compared to the corresponding value for deterministic migration by a factor of approximately (1 − m)−2 for small m. An equivalent result is derived for mutation, using the infinite allele model for a single population. We show in addition that these results may be derived much more simply by use of identity-by-descent probability methods, but only if a modified definition of the probability of identity-by-descent is used, involving the sampling with instead of without replacement of pairs of genes from the population.\n" .
+
+<#offset_608_616>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mutation" ;
+        nif:beginIndex          "608"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999892907"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mutation> .
+
+<#offset_637_643>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "allele" ;
+        nif:beginIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9923732443836216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Allele> .
+
+<#offset_234_244>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_980> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9716886077474134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic> .

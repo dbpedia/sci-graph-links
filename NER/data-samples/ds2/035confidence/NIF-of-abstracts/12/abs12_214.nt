@@ -1,0 +1,98 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_104_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biological attack" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988348532602707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biological_warfare> .
+
+<#offset_380_393>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cyanobacteria" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Bacteria> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cyanobacteria> .
+
+<#offset_489_497>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biofilms" ;
+        nif:beginIndex          "489"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biofilm> .
+
+<#offset_411_418>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "culture" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "418"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9974811931901715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microbiological_culture> .
+
+<#offset_327_347>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular techniques" ;
+        nif:beginIndex          "327"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9181510586837225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_biology> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_555> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_555>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "555"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Growing concern for the preservation of cultural heritage has led to a greater interest in the biological attack on these buildings. The importance of cyanobacteria as deteriogens is emphasized and the traditional and more modern molecular methods used to detect these microorganisms are discussed. The development of molecular techniques for the rapid identification of cyanobacteria without need for culture and isolation is fundamental if our knowledge of these communities in biofilms on the surfaces of historic buildings is to be extended.\n" .
+
+<#offset_160_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cyanobacteria" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Bacteria> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cyanobacteria> .
+
+<#offset_278_292>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microorganisms" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microorganism> .
+
+<#offset_239_248>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8277495981510314"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_biology> .
+
+<#offset_49_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cultural heritage" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_555> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999975239381301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cultural_heritage> .

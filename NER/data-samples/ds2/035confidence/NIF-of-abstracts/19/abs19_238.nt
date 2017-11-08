@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_327>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "327"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The set of payoffs associated to pure uniform equilibria of a repeated game with public observation is characterized in terms of the one shot-game. The key of the result is first, a study of the effect of undetectable deviations and second, the definition of new types of punishments using approachability techniques.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_327> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_71_84>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "repeated game" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_327> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Repeated_game> .
+
+<#offset_55_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibria" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_327> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8346337433166809"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nash_equilibrium> .

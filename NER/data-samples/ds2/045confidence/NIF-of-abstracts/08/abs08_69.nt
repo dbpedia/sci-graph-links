@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_60_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5927049782586916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory_management> .
+
+<#offset_661_676>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "range searching" ;
+        nif:beginIndex          "661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Range_searching> .
+
+<#offset_99_114>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "range searching" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Range_searching> .
+
+<#offset_67_82>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data structures" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997967279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_structure> .
+
+<#offset_299_309>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disk block" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Block_(data_storage)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_805> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_805>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "805"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we present two linear-size external memory data structures for approximate range searching. Our first structure, the BAR-B-tree, stores a set of N points in ℝ d and can report all points inside a query range Q by accessing O(log  B N ε γ  k ε /B) disk blocks, where B is the disk block size, γ=1−d for convex queries and γ=−d otherwise, and k ε is the number of points lying within a distance of ε⋅diam (Q) to the query range Q. Our second structure, the object-BAR-B-tree, is able to store objects of arbitrary shapes of constant complexity and provides similar query guarantees. In addition, both structures can support other types of range searching queries such as range aggregation and nearest-neighbor. Finally, we present I/O-efficient algorithms to build these structures.\n" .
+
+<#offset_326_332>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6580139123735657"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_set> .
+
+<#offset_767_777>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "767"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "777"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.675836394696535"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .

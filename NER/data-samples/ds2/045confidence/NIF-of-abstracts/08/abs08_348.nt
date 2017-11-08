@@ -1,0 +1,132 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1612_1632>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential privacy" ;
+        nif:beginIndex          "1612"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1632"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_privacy> .
+
+<#offset_758_769>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "758"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999529336"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<#offset_715_735>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential privacy" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_privacy> .
+
+<#offset_1182_1188>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertex" ;
+        nif:beginIndex          "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9860146977148151"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<#offset_0_1750>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1750"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract With the increasing prevalence of information networks, research on privacy-preserving network data publishing has received substantial attention recently. There are two streams of relevant research, targeting different privacy requirements. A large body of existing works focus on preventing node re-identification against adversaries with structural background knowledge, while some other studies aim to thwart edge disclosure. In general, the line of research on preventing edge disclosure is less fruitful, largely due to lack of a formal privacy model. The recent emergence of differential privacy has shown great promise for rigorous prevention of edge disclosure. Yet recent research indicates that differential privacy is vulnerable to data correlation, which hinders its application to network data that may be inherently correlated. In this paper, we show that differential privacy could be tuned to provide provable privacy guarantees even in the correlated setting by introducing an extra parameter, which measures the extent of correlation. We subsequently provide a holistic solution for non-interactive network data publication. First, we generate a private vertex labeling for a given network dataset to make the corresponding adjacency matrix form dense clusters. Next, we adaptively identify dense regions of the adjacency matrix by a data-dependent partitioning process. Finally, we reconstruct a noisy adjacency matrix by a novel use of the exponential mechanism. To our best knowledge, this is the first work providing a practical solution for publishing real-life network data via differential privacy. Extensive experiments demonstrate that our approach performs well on different types of real-life network datasets.\n" .
+
+<#offset_1089_1097>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holistic" ;
+        nif:beginIndex          "1089"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999841606951"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holism> .
+
+<#offset_880_900>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential privacy" ;
+        nif:beginIndex          "880"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "900"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_privacy> .
+
+<#offset_307_324>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "re-identification" ;
+        nif:beginIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997983195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Re-identification> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1750> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1470_1481>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "1470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9968086093001736"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<#offset_1431_1447>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "adjacency matrix" ;
+        nif:beginIndex          "1431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997986144739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adjacency_matrix> .
+
+<#offset_1050_1061>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "1050"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1061"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999529336"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<#offset_1340_1356>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "adjacency matrix" ;
+        nif:beginIndex          "1340"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997986144739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adjacency_matrix> .
+
+<#offset_1252_1268>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "adjacency matrix" ;
+        nif:beginIndex          "1252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997986144739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adjacency_matrix> .
+
+<#offset_591_611>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential privacy" ;
+        nif:beginIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1750> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_privacy> .

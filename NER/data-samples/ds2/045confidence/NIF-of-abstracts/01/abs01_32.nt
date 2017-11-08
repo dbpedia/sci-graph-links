@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1194_1208>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal design" ;
+        nif:beginIndex          "1194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1303> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_design> .
+
+<#offset_0_1303>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1303"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An approach for designing optimal repetitive structures under arbitrary static loading is presented. It is shown that the analysis of such infinite structures can be reduced to the analysis of the repeating module under transformed loading and boundary conditions. Consequently, both the design parameters and the analysis variables constitute a relatively small set which facilitates the optimization process. The approach hinges on the representative cell method. It is based on formulating the analysis equations and the continuity conditions for a sequence of typical modules. Then, by means of the discrete Fourier transform this problem translates into a boundary value problem of a representative cell in transformed variables, which can be solved by any appropriate analytical or numerical method. The real structural response any-where in the structure is then obtained by the inverse transform. The sensitivities can also be calculated on the basis of the sensitivities of the representative cell. The method is illustrated by the design for minimum compliance with a volume constraint of an infinite plane truss. It is shown that by employing this analysis method within an optimal design scheme one can incorporate a reduced analysis problem in an intrinsically small design space.\n" .
+
+<#offset_253_272>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "boundary conditions" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1303> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boundary_value_problem> .
+
+<#offset_612_638>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrete Fourier transform" ;
+        nif:beginIndex          "612"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "638"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1303> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9963737481850441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fast_Fourier_transform> .
+
+<#offset_398_410>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1303> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1303> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_797_813>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "numerical method" ;
+        nif:beginIndex          "797"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1303> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Numerical_analysis> .
+
+<#offset_1126_1131>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "truss" ;
+        nif:beginIndex          "1126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1303> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999536098596"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Truss> .

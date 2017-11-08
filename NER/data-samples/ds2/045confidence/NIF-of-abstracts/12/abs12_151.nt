@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_426>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "426"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Shape grammars are frequently used in analyzing style in architecture and other areas of design. But this is a more subtle task than is usually realized, and some grammatical approaches to design analysis are logically suspect. We examine the framework articulated by Stiny and Mitchell in 1978, fill in the operational gaps, and propose a more comprehensively considered approach to using grammars to compute style.\n" .
+
+<#offset_66_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_426> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9426070938558044"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_426> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

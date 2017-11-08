@@ -1,0 +1,335 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_405_416>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperplasia" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperplasia> .
+
+<#offset_782_785>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "RPE" ;
+        nif:beginIndex          "782"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_pigment_epithelium> .
+
+<#offset_1216_1236>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "retinal degeneration" ;
+        nif:beginIndex          "1216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9104052616999815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Progressive_retinal_atrophy> .
+
+<#offset_822_840>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autoimmune disease" ;
+        nif:beginIndex          "822"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.8622467637349015"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoimmune_disease> .
+
+<#offset_33_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eye disease" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diabetic_retinopathy> .
+
+<#offset_125_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homozygous" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979715424796974"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dominance_(genetics)> .
+
+<#offset_716_734>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photoreceptor cell" ;
+        nif:beginIndex          "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photoreceptor_cell> .
+
+<#offset_0_1238>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1238"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We have found a complex eye disease in the SJL/N mouse. This animal is closely related to the SJL/J mouse, which is homozygous for retinal degeneration (rd) and which also suffers from extraocular reticulum cell sarcomas at around 200 days of age. In the SJL/N animal, a high incidence of subretinal tumor is present at 9 days after birth. Furthermore, we have observed an extensive neuroretinal hyperplasia, a phenomenon that is termed “hyperplastic neuroretinopathy”, and that is probably the consequence of elevated levels of cytokines in the animals. In addition to these anomalies, the SJL/N mouse shows progressive dystrophy of the retinal pigment epithelium (RPE) from day 4 onwards, and accelerated photoreceptor cell degeneration is completed by day 16. The early RPE dystrophy appears to be a secondary autoimmune disease, since cells in this structure and in the choroid develop MHC class II antigens, whereas we suspect that the accelerated photoreceptor cell loss is induced by a soluble toxic agent. The F1 progeny derived from cross-breeding the SJL/N and Balb/c  /  strains also shows a high incidence of subretinal tumor and hyperplastic neuroretinopathy, but neither the RPE dystrophy nor retinal degeneration.\n" .
+
+<#offset_962_980>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photoreceptor cell" ;
+        nif:beginIndex          "962"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "980"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photoreceptor_cell> .
+
+<#offset_912_920>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antigens" ;
+        nif:beginIndex          "912"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "920"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antigen> .
+
+<#offset_606_611>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mouse" ;
+        nif:beginIndex          "606"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999996421698328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mouse> .
+
+<#offset_447_459>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperplastic" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperplasia> .
+
+<#offset_1027_1029>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "F1" ;
+        nif:beginIndex          "1027"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999983506314"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/F1_hybrid> .
+
+<#offset_899_911>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MHC class II" ;
+        nif:beginIndex          "899"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999961714240819"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Major_histocompatibility_complex> .
+
+<#offset_1151_1163>  a          nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "hyperplastic" ;
+        nif:beginIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperplasia> .
+
+<#offset_309_314>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tumor" ;
+        nif:beginIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9495866930569037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tumor> .
+
+<#offset_618_629>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "progressive" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7309707691442395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Progressivism> .
+
+<#offset_221_229>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sarcomas" ;
+        nif:beginIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sarcoma> .
+
+<#offset_109_114>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "mouse" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999996421698328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mouse> .
+
+<#offset_1141_1146>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tumor" ;
+        nif:beginIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9495866930569037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tumor> .
+
+<#offset_58_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mouse" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9999996421698328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mouse> .
+
+<#offset_538_547>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cytokines" ;
+        nif:beginIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cytokine> .
+
+<#offset_1198_1201>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RPE" ;
+        nif:beginIndex          "1198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_pigment_epithelium> .
+
+<#offset_848_853>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cells" ;
+        nif:beginIndex          "848"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1238> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_675_678>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "RPE" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_pigment_epithelium> .
+
+<#offset_1051_1065>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cross-breeding" ;
+        nif:beginIndex          "1051"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999331863906503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_(biology)> .
+
+<#offset_883_890>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "choroid" ;
+        nif:beginIndex          "883"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "890"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Choroid> .
+
+<#offset_140_160>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "retinal degeneration" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9104052616999815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Progressive_retinal_atrophy> .
+
+<#offset_285_294>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "incidence" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994447794456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Incidence_(epidemiology)> .
+
+<#offset_206_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reticulum" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9078715450304318"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reticulum_(anatomy)> .
+
+<#offset_1002_1009>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "soluble" ;
+        nif:beginIndex          "1002"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998242401"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solubility> .
+
+<#offset_1117_1126>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "incidence" ;
+        nif:beginIndex          "1117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994447794456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Incidence_(epidemiology)> .
+
+<#offset_216_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cell" ;
+        nif:beginIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<#offset_1091_1098>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strains" ;
+        nif:beginIndex          "1091"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1098"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7692113368580936"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Congenic> .
+
+<#offset_647_673>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "retinal pigment epithelium" ;
+        nif:beginIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1238> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_pigment_epithelium> .

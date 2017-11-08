@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_339>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "339"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We will prove some cases of Vojta’s conjecture on blowups of $${\\mathbb{P}^n}$$, using Schmidt’s subspace theorem. The results can be stated as inequalities of greatest common divisors. Moreover, from Vojta’s conjecture on one further blowup at an infinitely near point, we derive a still-open special case of the abc-conjecture.\n" .
+
+<#offset_218_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conjecture" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998549348806539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conjecture> .
+
+<#offset_45_55>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conjecture" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998549348806539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conjecture> .
+
+<#offset_244_250>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "blowup" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999989405069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blowing_up> .
+
+<#offset_169_193>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "greatest common divisors" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greatest_common_divisor> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_339> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_106_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subspace theorem" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subspace_theorem> .

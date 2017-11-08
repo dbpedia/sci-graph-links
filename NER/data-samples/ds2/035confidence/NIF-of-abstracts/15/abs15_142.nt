@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_387>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "387"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The collective memory of the work of undergraduate student clubs is often fleeting, perhaps even more so than the memory of some academic faculty committees! Unlike fraternal organizations, with which members still identify long after they leave their student years, undergraduate students in preprofessional clubs more naturally dis-identify with their organizations once they\n" .
+
+<#offset_123_129>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9984960746909052"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#offset_46_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "undergraduate" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999914951980452"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Undergraduate_education> .
+
+<#offset_174_197>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fraternal organizations" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989976260170302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fraternity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_387> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_276_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "undergraduate" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999914951980452"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Undergraduate_education> .
+
+<#offset_13_30>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "collective memory" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996118731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Collective_memory> .

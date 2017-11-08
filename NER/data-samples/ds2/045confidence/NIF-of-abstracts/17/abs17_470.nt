@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_84_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "young offenders" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1038> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993927108461147"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Juvenile_delinquency> .
+
+<#offset_14_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "longitudinal study" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1038> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Longitudinal_study> .
+
+<#offset_228_235>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1038> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9845143865565413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<#offset_0_1038>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1038"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This longitudinal study examined stability and change of delinquency among young offenders after their release. The sample consists of male Germans (N = 2405) who were incarcerated in five juvenile prisons in different federal states. Standardized interviews were repeatedly conducted with the prisoners during imprisonment and after release to gather information about personal and social risk as well as protective factors. Based on official criminal records, delinquency was registered up to eight years after the first incarceration. The time interval between release and recidivism, severity of offending and the kind of punishment was observed. Applying of Trajectory Analysis according to Nagin (2005) three distinct developmental trajectories can be identified differing in both level of and change in offending over time: Occasional offenders, high level offenders and age-limited offenders. The groups differ in personal and social factors. Results are discussed with regard to offender treatment and prison aftercare.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1038> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_585_595>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recidivism" ;
+        nif:beginIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1038> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recidivism> .

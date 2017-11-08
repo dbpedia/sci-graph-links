@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_258_277>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gamma distributions" ;
+        nif:beginIndex          "258"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gamma_distribution> .
+
+<#offset_0_400>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "400"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we essentially compute the set of x,y>0 such that the mapping $z\\longmapsto(1-r re^{z})^{x}(\\frac{\\lambda}{\\lambda-z})^{y}$ is a Laplace transform. If X and Y are two independent random variables which have respectively Bernoulli and Gamma distributions, we denote by μ the distribution of X Y. The above problem is equivalent to finding the set of x>0 such that μ *x exists.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_400> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_203_219>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random variables" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_variable> .
+
+<#offset_153_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laplace transform" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laplace_transform> .
+
+<#offset_244_253>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bernoulli" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_400> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999928832"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bernoulli_distribution> .

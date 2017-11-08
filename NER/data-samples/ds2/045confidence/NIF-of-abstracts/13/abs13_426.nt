@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_113_131>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Government Chemist" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999999956231"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/LGC> .
+
+<#offset_0_318>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "318"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  This paper examines some questions which arose from the competition organised by the Laboratory of the Government Chemist in conjunction with the Nuffield Curriculum Projects Centre and from years of experience in higher education. It goes on to indicate the ways that some of these problems may be tackled.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_318> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_224_240>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "higher education" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999857055447363"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Higher_education> .

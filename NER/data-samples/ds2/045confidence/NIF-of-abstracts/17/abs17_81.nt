@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_225_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_752> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999903736359733"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle> .
+
+<#offset_2_10>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle" ;
+        nif:beginIndex          "2"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "10"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_752> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999903736359733"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle> .
+
+<#offset_103_106>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cap" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_752> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7871771884784354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cap_(sport)> .
+
+<#offset_474_479>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Erdős" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_752> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paul_Erdős> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_752> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_752>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "752"^^xsd:nonNegativeInteger ;
+        nif:isString    "A triangle is a family of three sets A,B,C such that A∩B, B∩C, C∩A are each nonempty, and $$ A \\cap B \\cap C = \\emptyset $$. Let $$ {\\user1{\\mathcal{A}}} $$ be a family of r-element subsets of an n-element set, containing no triangle. Our main result implies that for r ≥ 3 and n ≥ 3r/2, we have $$ {\\left| {\\user1{\\mathcal{A}}} \\right|} \\leqslant {\\left( {\\begin{array}{*{20}c} {{n - 1}} \\\\ {{r - 1}} \\\\ \\end{array} } \\right)}. $$ This settles a longstanding conjecture of Erdős [7], by improving on earlier results of Bermond, Chvátal, Frankl, and Füredi. We also show that equality holds if and only if $$ {\\user1{\\mathcal{A}}} $$ consists of all r-element subsets containing a fixed element. Analogous results are obtained for nonuniform families.\n" .
+
+<#offset_96_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cap" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_752> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7871771884784354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cap_(sport)> .

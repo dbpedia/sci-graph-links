@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1162>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1162"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This is the second paper in a two-part series on value capture South Africa. Value capture is a broad term used to describe the process of extracting the additional value that accrues to a property following specific public investment. As the increased value results from public action, the value capture is usually undertaken by a public agency to bring about or pay for a public purpose. The value capture process comprises four key elements, namely, the creation of the value, the calculation of the additional value created, the capturing of this value and finally the use of the funds resulting from the captured value. While the previous paper addressed the first two components, this paper focuses on the last two, namely the capture and use of value in the current legal context. The paper concludes that legally, value capture is possible in South Africa, but that the legislation is vague and inconsistent at times. Furthermore, the paper finds that value capture is most successful when the policy objectives are clear, the mechanisms are correctly defined, favourable market conditions prevail and solid administrative systems are in place.\n" .
+
+<#offset_72_84>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "South Africa" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1162> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.5866153946615611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/South_Africa> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1162> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_887_898>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "legislation" ;
+        nif:beginIndex          "887"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "898"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1162> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999874544302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Legislation> .
+
+<#offset_860_872>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "South Africa" ;
+        nif:beginIndex          "860"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "872"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1162> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.5866153946615611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/South_Africa> .

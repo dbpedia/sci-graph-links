@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_255_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadratic" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5784030944366525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_form> .
+
+<#offset_216_224>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interval" ;
+        nif:beginIndex          "216"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9691875103570529"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spacetime> .
+
+<#offset_301_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coordinates" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5468242355823385"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coordinate_system> .
+
+<#offset_66_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Einstein" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9682528726060795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_relativity> .
+
+<#offset_293_300>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acyclic" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9755565406636024"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<#offset_272_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differentials" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9243850504412169"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_form> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_401> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_401>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "401"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The problem is formulated in this article of finding all Einstein spaces in which the equations of the geodesics admit a complete separation of variables. The problem is completely solved in the case of the interval ds2=gijdxidxj i=0,...3, being quadratic in the differentials of the acyclic coordinates xν ν=2, 3, and it is shown that this kind of space can be subdivided into five classes.\n" .
+
+<#offset_112_121>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geodesics" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998670285297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geodesic> .
+
+<#offset_153_162>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variables" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_401> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9842270970172697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variable_(mathematics)> .

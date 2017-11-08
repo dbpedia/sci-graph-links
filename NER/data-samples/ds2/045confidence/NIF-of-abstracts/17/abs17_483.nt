@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1189>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1189"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We investigated systematic changes in 3-year-olds’ effortful persistence in a dyadic problem-solving context and explored their correlates (i.e., parenting behavior and demographic characteristics at 3 years) and consequences (i.e., child externalizing behavior at 3, 6, and 10 years) within a sample of 241 middle-income families (118 girls). Results indicated that children may be grouped into three classes based on their behavioral profiles of persistence. Children who were highly persistent over the course of the task were more likely to have higher levels of IQ and mothers who were observed to be more behaviorally responsive than those who showed consistently low levels of task-related behavior. Additionally, children who demonstrated stably low levels of persistence were rated by teachers to display more externalizing behavior at 6 and 10 years than those in the other groups. Profiles of persistence did not predict concurrent levels of child externalizing behavior at the age of 3 years. The findings are discussed with respect to expanding the scope of research on child self-regulation by defining it as a time based construct and tracking its dynamic changes.\n" .
+
+<#offset_576_578>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IQ" ;
+        nif:beginIndex          "576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1189> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999704315319"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intelligence_quotient> .
+
+<#offset_941_951>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concurrent" ;
+        nif:beginIndex          "941"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "951"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1189> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996022332604036"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concurrency_(computer_science)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1189> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_87_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyadic" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1189> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9405035176548525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dyad_(sociology)> .

@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_181_189>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "keywords" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9902613211601543"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Index_term> .
+
+<#offset_251_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vegetation" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960582463295953"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vegetation> .
+
+<#offset_0_420>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "420"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An index is presented of all papers, notices, obituaries etc. which appeared in Volumes 1–50 of Vegetatio. A main listing of 924 articles is accompanied by 5 categories of keywords: keywords as such, a code for the discipline, a code for the vegetation type, a code for the geographic area and Latin names of taxa and syntaxa. The main list is followed by indices covering these categories and an author index.\n" .
+
+<#offset_303_308>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Latin" ;
+        nif:beginIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9995083832746664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin> .
+
+<#offset_318_322>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxa" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992119103364538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taxon> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_420> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_191_199>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "keywords" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9902613211601543"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Index_term> .
+
+<#offset_55_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "obituaries" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994502455057"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Obituary> .

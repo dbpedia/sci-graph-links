@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_86_97>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Philippines" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_468> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999872471938464"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philippines> .
+
+<#offset_62_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "higher education" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_468> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999479461103411"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Higher_education> .
+
+<#offset_0_468>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "468"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper explains the current reforms in basic and higher education in the Philippines. Specifically, internal and external enablers in the educational environment were reviewed as justifications of the reforms both at the national level as well at the individual teacher. The reforms were treated in the light of four perspectives in the measurement of quality namely; the reputational view, the resources view, the outcomes view and the value-added view.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_468> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

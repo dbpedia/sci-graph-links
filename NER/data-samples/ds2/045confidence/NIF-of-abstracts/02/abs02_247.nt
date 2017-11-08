@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_296_303>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protons" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997158"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proton> .
+
+<#offset_68_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "proton" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999851419831"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proton> .
+
+<#offset_0_425>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "425"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For the $$d(\\vec e,e'\\vec p)$$ reaction dependences of the proton polarization on the deuteron electromagnetic current and on the final-state interaction are studied. The possibility of separation of the structure functions contributing to this observable is discussed. Polarizations of protons in $$d(\\vec e,e'\\vec p)$$ are calculated for the kinematics of a proposed measurement in the MIT-Bates research program.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_425> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_95_103>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deuteron" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deuterium> .
+
+<#offset_353_363>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kinematics" ;
+        nif:beginIndex          "353"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_425> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999988247888125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kinematics> .

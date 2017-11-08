@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_36_44>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "momentum" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9817464480306353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Momentum> .
+
+<#offset_113_119>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nuclei" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999973128196311"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atomic_nucleus> .
+
+<#offset_93_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protons" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999966092332"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Proton> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_125> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_125>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "125"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We have studied transverse momentum distributions for exclusiveρ 0 muoproduction on protons and heavier nuclei at 2\n" .

@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_11_36>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semi-structured interview" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9946106986759023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Structured_interview> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_619> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_619>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "619"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A semi-structured interview based upon Coddington's life event questionnaire was revised and modified to measure life changes in children of possible importance for the development of physical and mental illness. A normal population of 193 children was investigated in 1981–83 and followed up after six years. The life events during the intervening period are described and correlated to child behavioural symptom load and family function before and after. Both the life event load and the adjustment ability of the child make significant contributions to the prediction of child disturbance in the follow-up.\n" .
+
+<#offset_48_58>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Coddington" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/OfficeHolder> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.995726007854556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/William_Coddington> .
+
+<#offset_206_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mental illness" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999732175428193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mental_disorder> .

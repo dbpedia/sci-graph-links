@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_411>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "411"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This essay reviews the application of psychoanalysis to dramatic art. Four major areas are covered; studies of playwrights, studies of individual plays, studies of audience response, and studies of acting. Based on his studies of acting in live theatrical productions, the author offers three theorems to underscore the central role of unconscious enactment in the evolution of theatrical performance.\n" .
+
+<#offset_47_61>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychoanalysis" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999554176767725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychoanalysis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_411> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_374_383>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999984918541355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .

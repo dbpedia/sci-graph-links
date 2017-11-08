@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_635_654>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regulatory policies" ;
+        nif:beginIndex          "635"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "654"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997238210012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regulation> .
+
+<#offset_0_726>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "726"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we study the supply of quality in imperfectly competitive markets, and explore the role of regulation in markets where firms may use both quality and price to compete for customers. In a model where firms first choose qualities and then prices, we find that quality decisions have strategic effects: firms react to quality disadvantages by price reductions. Because of this strategic effect, firms do not have the correct incentive to set socially efficient quality levels. Price and quality competition results in a socially suboptimal quality level. Efficiency can be restored by lump-sum transfers and price regulatory policies. Simple price regulation may result in lower price and higher quality.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_726> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_70_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "competitive markets" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993890507352483"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perfect_competition> .

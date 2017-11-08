@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_466_479>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fiscal policy" ;
+        nif:beginIndex          "466"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiscal_policy> .
+
+<#offset_0_604>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "604"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This paper examines the use of monetary and fiscal policy in a small country model under floating exchange rates. The government attempts to achieve a target level of economic activity and either an investment spending (output composition) or current account target. However, a choice may have to be made between the latter two objectives because a trade-off exists between them as the monetary-fiscal policy mix changes. It is shown that either monetary or fiscal policy can be assigned to the GNP target, and the second policy to one of the other targets, although the path may be oscillatory.\n" .
+
+<#offset_503_506>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GNP" ;
+        nif:beginIndex          "503"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.631692526953155"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Measures_of_national_income_and_output> .
+
+<#offset_52_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fiscal policy" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiscal_policy> .
+
+<#offset_251_266>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "current account" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999781412046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Current_account> .
+
+<#offset_207_226>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "investment spending" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fixed_investment> .
+
+<#offset_454_462>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "462"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992072822564776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .
+
+<#offset_357_366>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trade-off" ;
+        nif:beginIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999827196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trade-off> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_604> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_591_602>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oscillatory" ;
+        nif:beginIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9949902227965048"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oscillation> .
+
+<#offset_97_120>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "floating exchange rates" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floating_exchange_rate> .
+
+<#offset_39_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_604> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992072822564776"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .

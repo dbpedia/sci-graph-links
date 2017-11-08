@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1092> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_1092>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1092"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Communication is the grounding principle of nowadays complex applications where the functionalities of the overall system are much more powerful then the ones of the isolated components. The task of keeping the communication system operable is highly critical due to the configuration complexity and the need for manual administration. Autonomous configuration mechanisms offer a compelling solution for the communication problem. We present an architecture for the autonomous configuration of secure, layer independent, end-to-end connections in this paper. The Extensible Security Adaptation Framework (Esaf) separates the particularities of communication setups strictly from the communication usage by the applications. Applications are unaware of the utilized security mechanisms and the complex configuration thereof. Protocols and security primitives can be easily introduced into the system whereas others might be disabled due to vulnerabilities without the need to modify existing programs. Moreover the setup can adapt to changing environments dynamically during runtime.\n" .
+
+<#offset_454_466>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1092> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9936987454330322"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .

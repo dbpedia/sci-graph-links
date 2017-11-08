@@ -1,0 +1,96 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_255_267>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "no-arbitrage" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999453302864665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arbitrage> .
+
+<#offset_355_359>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CAPM" ;
+        nif:beginIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capital_asset_pricing_model> .
+
+<#offset_283_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "density" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8969293661692087"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Density> .
+
+<#offset_0_361>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We consider the standard discrete-time model of a frictionless financial market and show that the law of one price holds if and only if there exists a martingale density process with strictly positive initial value. In contrast to the classical no-arbitrage criteria, this density process may change its sign. We also give an application to the CAPM.\n" .
+
+<#offset_35_48>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrete-time" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.627788767186807"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrete_time> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_161_171>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "martingale" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999916459675"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Martingale_(probability_theory)> .
+
+<#offset_172_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "density" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8969293661692087"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Density> .
+
+<#offset_73_89>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial market" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995672342633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_market> .
+
+<#offset_108_111>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "law" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9502942485253875"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Law> .
+
+<#offset_60_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frictionless" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982295757717651"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frictionless_market> .

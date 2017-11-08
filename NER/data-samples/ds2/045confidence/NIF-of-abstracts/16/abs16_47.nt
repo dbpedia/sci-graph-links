@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_276_296>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "critical race theory" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Critical_race_theory> .
+
+<#offset_411_417>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "racism" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995732203652722"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Racism> .
+
+<#offset_603_618>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "white supremacy" ;
+        nif:beginIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997798543000479"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/White_supremacy> .
+
+<#offset_0_838>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "838"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this theoretical essay, I argue that the current incidences of backlash to diversity are best understood as a dynamic of complicated, historic and intertwined desires for racial diversity and white entitlement to property. I frame this argument in the theories of critical race theory and settler colonialism, each of which provide necessary but incomplete analytic tools for understanding systemic racism and property rights. Situating universities and colleges as white settler property established on seizure contextualizes both the ways in which the desire for diversity is connected to white supremacy and leads to subsequent backlash to the presence of people of color, particularly those in positions of authority. I close with a discussion of the tension between property rights and potential cultural transformation.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_838> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_369_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9500725603246989"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytic_philosophy> .
+
+<#offset_301_320>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "settler colonialism" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "320"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Settler_colonialism> .

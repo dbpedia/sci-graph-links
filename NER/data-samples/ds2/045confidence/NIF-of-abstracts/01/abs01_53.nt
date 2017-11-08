@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_314_327>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "observability" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999142801"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Observability> .
+
+<#offset_169_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear systems" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_0_399>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "399"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The left-invertibility and the general construction of reduced inverse systems are studied and described in a unified vector-space approach for both linear and nonlinear systems. The order of reduced inverse systems is calculated by means of intrinsic invariants, which reflect some properties related to observability. The uniqueness of the reduced inverse is described by a factor space.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_399> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

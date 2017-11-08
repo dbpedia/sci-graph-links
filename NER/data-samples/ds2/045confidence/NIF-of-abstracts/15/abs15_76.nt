@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_84_95>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absenteeism" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Absenteeism> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_670> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_379_400>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strategic complements" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_670> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Strategic_complements> .
+
+<#offset_0_670>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "670"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. This paper studies the effects of complementarities in work attendance on absenteeism. It investigates the case where workers, who turn up for work, cover the workload of absent colleagues. Thus, externalities arise from workers being absent from work. The effort workers exert in the workplace is negatively related to worker turnout. Attendance levels of workers are strategic complements, as workers are more likely to turn up when turnout is high. Firms increase wages and improve working conditions in response. In contrast to the more standard shirking literature, the firm sets employment levels higher. Workers may benefit from draconian firing rules.\n" .

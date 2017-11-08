@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_132_150>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "persuasive writing" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_922> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Persuasive_writing> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_922> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_922>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "922"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The purpose of the study was to investigate the effects of revising goals focused on content and audience awareness on the persuasive writing of fifth- and eighth-grade students. Students were randomly assigned to three different goal conditions: a general goal; a goal to improve content; and a goal to improve content and communication with an audience. Final drafts of essays were scored for elements of persuasive discourse relevant to content and audience and for overall persuasiveness. Students in the audience goal group were more likely than both other groups to consider opposing positions and rebut them. Students in both the content and audience goal groups wrote essays that were more persuasive than essays by students in the general goal group. The results also indicate that eighth-grade students wrote more persuasively than fifth-grade students and that girls wrote more persuasively than boys.\n" .

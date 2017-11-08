@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_15_22>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997454917155965"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<#offset_30_43>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.7170495959731948"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_622_628>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equity" ;
+        nif:beginIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8766485517019503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equity_(finance)> .
+
+<#offset_407_411>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Muni" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/PublicTransitSystem> ;
+        itsrdf:taConfidence     "0.999994592796337"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/San_Francisco_Municipal_Railway> .
+
+<#offset_186_199>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "San Francisco" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/City> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999414015905457"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/San_Francisco> .
+
+<#offset_260_267>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997454917155965"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<#offset_0_838>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "838"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Urban transit in the United States is going through a crisis of rising costs, increasing fares, falling patronage, and concomitant service reductions; typical of the pattern is San Francisco’s Municipal Railway, the agency in charge of all the City’s transit. From a basic fare of 15c in 1969, two increases brought the fare to 25c by 1972, and cut sharply into a previously stable patronage. The “Muni”, in an effort to reduce costs and meet its budgeted deficit, attempted to reduce service by ten to fifteen percent. From an analysis of the data which could be obtained, it appears that neither efficiency not equity in the City would have been served by the proposed cutbacks. The analysis draws from a variety of sources and methods in exploring the interactions within the transportation system and within the city budget.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_838> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

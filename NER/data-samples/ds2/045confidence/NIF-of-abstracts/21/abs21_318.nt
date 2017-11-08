@@ -1,0 +1,62 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_70_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pension" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999622308246805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pension> .
+
+<#offset_487_492>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9984467738968507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#offset_47_58>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public debt" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999934789885312"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Government_debt> .
+
+<#offset_500_513>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "500"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "513"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9968469961877867"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_0_515>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "515"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We analyze the problem of harmonizing public debt and public pension schemes in a multi-jurisdictional setting. Our main findings are that harmonization seems to be necessary on efficiency grounds if households can freely migrate between the jurisdictions. On the other hand, harmonization is unnecessary if households are immobile or if migration is prohibited on political grounds. This suggests that harmonization is an important issue for EC member states but not for, say, Japan or the United States.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_515> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_452_454>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EC" ;
+        nif:beginIndex          "452"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_515> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8681418004181596"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Commission> .

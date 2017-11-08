@@ -1,0 +1,25 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_359> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_108_111>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "DOA" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Single> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/MusicalWork> ;
+        itsrdf:taConfidence     "0.8148336203378279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DOA_(song)> .
+
+<#offset_0_359>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "359"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The goal of this paper is to show that in large samples the variances of the direction-of-arrival (DOA) estimates provided by the element-space MUSIC (i.e., MUSIC applied directly to the sensor output data) are always less than the corresponding variances associated with the beam-space MUSIC (i.e., MUSIC applied to spatially filtered sensor data).\n" .

@@ -1,0 +1,125 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_239_257>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "initial conditions" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9700603184858029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boundary_value_problem> .
+
+<#offset_583_587>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ODEs" ;
+        nif:beginIndex          "583"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordinary_differential_equation> .
+
+<#offset_450_456>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "MATLAB" ;
+        nif:beginIndex          "450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/MATLAB> .
+
+<#offset_461_465>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "AMPL" ;
+        nif:beginIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/AMPL> .
+
+<#offset_382_393>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5889622389058486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Causality> .
+
+<#offset_640_659>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "global optimization" ;
+        nif:beginIndex          "640"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "659"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_optimization> .
+
+<#offset_0_905>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "905"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The computation of the error bounds for approximate solutions of initial value problems for ordinary differential equations has a long and successful history. This paper presents a new scheme to compute such bounds with uncertain initial conditions using preconditioned defect estimates and optimization techniques. These bounds are based on the newly developed concept of conditional differential inequalities. The scheme is implemented in MATLAB and AMPL. The resulting enclosures are compared with the packages VALENCIA-IVP, VNODE-LP and VSPODE for bounding solutions of ODEs. The current prototype uses heuristics to solve the global optimization subproblems. Hence the bounds obtained in the numerical experiments are not fully rigorous. The latter can be achieved by using rigorous global optimization and rounding error control, but the effect on the bounds is likely to be marginal only.\n" .
+
+<#offset_300_312>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#offset_616_626>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heuristics" ;
+        nif:beginIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.839578117384222"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heuristic> .
+
+<#offset_821_835>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rounding error" ;
+        nif:beginIndex          "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "835"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989118964785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/round-off_error> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_905> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_101_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordinary differential equations" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordinary_differential_equation> .
+
+<#offset_797_816>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "global optimization" ;
+        nif:beginIndex          "797"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "816"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Global_optimization> .
+
+<#offset_394_406>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_905> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994248583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .

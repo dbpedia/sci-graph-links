@@ -1,0 +1,126 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_210_214>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "euro" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euro> .
+
+<#offset_601_610>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflation" ;
+        nif:beginIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "610"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7491215399542793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflation> .
+
+<#offset_245_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Slovenian economy" ;
+        nif:beginIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economy_of_Slovenia> .
+
+<#offset_574_587>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exchange rate" ;
+        nif:beginIndex          "574"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999997234454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exchange_rate> .
+
+<#offset_372_375>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ERM" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Exchange_Rate_Mechanism> .
+
+<#offset_0_683>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "683"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper overviews the joint strategy of the Bank of Slovenia and of the Government of Slovenian for the policy management in the Exchange Rate Mechanism II (ERM II) and the eventual adoption of the euro. The current prospects of the Slovenian economy are favorable for early entry into ERM II so that the currency union can be acceded as soon as possible. The ERM II-connected risks, in particular an asymmetric credit financed demand boom, require a new policy mix to be set in place. While the monetary policy will focus on the tight management of the nominal exchange rate, the role of inflation restraint and shock absorption will rely on fiscal and income policies.\n" .
+
+<#offset_169_175>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ERM II" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Exchange_Rate_Mechanism> .
+
+<#offset_508_523>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary policy" ;
+        nif:beginIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "523"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980728944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .
+
+<#offset_317_331>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "currency union" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Currency_union> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_683> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_64_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Slovenia" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998458633093665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Slovenia> .
+
+<#offset_98_107>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Slovenian" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9996247427228809"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Slovenia> .
+
+<#offset_298_304>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ERM II" ;
+        nif:beginIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Exchange_Rate_Mechanism> .
+
+<#offset_141_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Exchange Rate Mechanism II" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Exchange_Rate_Mechanism> .

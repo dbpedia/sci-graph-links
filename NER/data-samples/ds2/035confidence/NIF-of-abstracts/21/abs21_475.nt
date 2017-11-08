@@ -1,0 +1,73 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_281_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bus Stop" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7553270339233924"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bus_stop> .
+
+<#offset_0_506>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Samuel Beckett\"s Waiting for Godot is one of the truly great plays of the 20th century. While the enigmatic figure of Godot has attracted the bulk of critical interest, less has been said about the act of waiting which is also at the centre of Gao Xingjian\"s Chezhan (The Bus Stop) and Patrick White\"s Signal Driver. This paper examines the dramaturgy of waiting in the three plays and identifies similarities and differences in dramatic technique, thematic concern and theatrical representation.\n" .
+
+<#offset_350_360>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dramaturgy" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "360"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997776145299"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dramaturgy> .
+
+<#offset_9_15>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Samuel" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "15"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Religious> ;
+        itsrdf:taConfidence     "0.9877697938522311"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Samuel> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_253_256>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gao" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Town> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9929653889293697"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gao> .
+
+<#offset_38_43>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Godot" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Play> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9999999997891678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Waiting_for_Godot> .
+
+<#offset_127_132>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Godot" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Play> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9999999997891678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Waiting_for_Godot> .

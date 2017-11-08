@@ -1,0 +1,81 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_32_51>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy conservation" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.622478631660061"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Efficient_energy_use> .
+
+<#offset_620_626>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "620"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "626"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9616644024273744"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_963> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_59_76>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "built environment" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Built_environment> .
+
+<#offset_543_559>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laminar air flow" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laminar_flow> .
+
+<#offset_416_429>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9166384811826391"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#offset_902_904>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CO" ;
+        nif:beginIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.7914712461251142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_monoxide> .
+
+<#offset_909_912>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CO2" ;
+        nif:beginIndex          "909"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_963> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999691398081236"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_dioxide> .
+
+<#offset_0_963>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "963"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The increased need for energy conservation in the built environment has heightened the interest in reducing the flow of outside air into buildings for ventilation and odor dilution purposes. The current criteria used to determine the amount of ventilation that a building will need is based on a limited amount of data from the past. This paper describes a new test facility to evaluate and improve for the United States Department of Energy the criteria for the ventilation of occupied spaces. The test space is 3 × 3.7 × 2.4 m with laminar air flow from floor to ceiling. Auxiliary test facilities consist of binary and force-choice dilution olfactometers and an external sniffing port from which the odor of the chamber can be observed without disturbing or seeing the chamber occupants. Subjective odor responses are compared to environmental parameters measured with a gas Chromatograph, CO and CO2 instruments and particulate monitoring equipment.\n" .

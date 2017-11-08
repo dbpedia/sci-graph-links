@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_560_582>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical functions" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_987> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<#offset_437_446>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "roguelike" ;
+        nif:beginIndex          "437"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_987> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Roguelike> .
+
+<#offset_0_987>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "987"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper identifies and reviews a set of useful tools afforded to games designers by procedural functions — a toolset of design elements, which can inform games designers working with generative systems. It includes a discussion on procedural rhetoric and the motivations behind generative systems, as well as detailed analyses of specific games titles which use those to a lesser and greater degree. This paper examines the ‘roguelike paradigm’ (a genre that emerged from an outstanding procedurally generative game), and considers various natural mathematical functions, which can be levied by games designers. This is followed by a programmatic description of various procedural function methodologies based on the findings of these analyses, in accordance with what has been reported in literature. These analyses are not confined to computer games — examples of useful tools for modular, generative games design are also cited from trans-media games and other art-forms.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_987> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_849_863>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer games" ;
+        nif:beginIndex          "849"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_987> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9655304413161436"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/PC_game> .
+
+<#offset_254_262>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rhetoric" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_987> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999756111041"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rhetoric> .

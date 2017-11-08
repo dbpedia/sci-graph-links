@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_176_182>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "copula" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999954712198704"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copula_(probability_theory)> .
+
+<#offset_0_506>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The problem of finding the best-possible lower bound on the distribution of a non-decreasing function of n dependent risks is solved when n=2 and a lower bound on the copula of the portfolio is provided. The problem gets much more complicated in arbitrary dimensions. When no information on the structure of dependence of the random vector is available, we provide a bound on the distribution function of the sum of risks which we prove to be better than the one generally used in the literature.\n" .
+
+<#offset_317_327>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dependence" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8121397218211369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence_(probability_theory)> .
+
+<#offset_335_348>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random vector" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_random_variable> .
+
+<#offset_87_110>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-decreasing function" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monotonic_function> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_190_199>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "portfolio" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999949291790344"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Portfolio_(finance)> .
+
+<#offset_389_410>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "distribution function" ;
+        nif:beginIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9884834976920301"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cumulative_distribution_function> .
+
+<#offset_494_504>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "494"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979644730258472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .

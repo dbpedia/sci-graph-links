@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_435_451>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cross-validation" ;
+        nif:beginIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross-validation_(statistics)> .
+
+<#offset_591_597>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "591"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "597"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9927794050349998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_language> .
+
+<#offset_267_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "standard deviation" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standard_deviation> .
+
+<#offset_157_164>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dataset" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_set> .
+
+<#offset_579_586>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9955141652747305"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<#offset_0_625>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "625"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. A system for automatically identifying the script used in a handwritten document image is described. The system was developed using a 496-document dataset representing six scripts, eight languages, and 279 writers. Documents were characterized by the mean, standard deviation, and skew of five connected component features. A linear discriminant analysis was used to classify new documents, and tested using writer-sensitive cross-validation. Classification accuracy averaged 88�cross the six scripts. The same method, applied within the Roman subcorpus, discriminated English and German documents with 85�ccuracy.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_625> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_554_563>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subcorpus" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7380424647728622"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subcorpus> .
+
+<#offset_304_323>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "connected component" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5848967952758647"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Connected_space> .
+
+<#offset_336_364>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear discriminant analysis" ;
+        nif:beginIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_discriminant_analysis> .

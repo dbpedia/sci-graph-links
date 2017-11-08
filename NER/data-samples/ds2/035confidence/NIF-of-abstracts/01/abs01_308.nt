@@ -1,0 +1,71 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_79_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilateral triangle" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9679033553064579"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equilateral_triangle> .
+
+<#offset_46_54>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lyapunov" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9878321745164149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lyapunov_stability> .
+
+<#offset_217_224>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997568893673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#offset_192_200>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lagrange" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> ;
+        itsrdf:taConfidence     "0.9999965751459101"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joseph_Louis_Lagrange> .
+
+<#offset_70_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lagrange" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9999965751459101"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joseph_Louis_Lagrange> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_266> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_154_161>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_266> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997568893673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#offset_0_266>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "266"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider the relation between the Lyapunov instability of Lagrange equilateral triangle solutions and their orbital instability. We present a theorem on the orbital instability of Lagrange solutions. This theorem is extended to the planarn-body problem.\n" .

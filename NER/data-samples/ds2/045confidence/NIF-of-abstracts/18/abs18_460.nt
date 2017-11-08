@@ -1,0 +1,63 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_718_739>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intellectual property" ;
+        nif:beginIndex          "718"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intellectual_property> .
+
+<#offset_58_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6029717127618354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<#offset_794_798>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "794"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.897744871307883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1548> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_828_831>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NSF" ;
+        nif:beginIndex          "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Science_Foundation> .
+
+<#offset_0_1548>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1548"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Co-authorship has become common practice in most science and engineering disciplines and, with the growth of co-authoring, has come a fragmentation of norms and practices, some of them discipline-based, some institution-based. It becomes increasingly important to understand these practices, in part to reduce the likelihood of misunderstanding in collaborations among authors from different disciplines and fields. Moreover, there is also evidence of widespread satisfaction with collaborative and co-authoring experiences. In some cases the dissatisfactions are more in the realm of bruised feelings and miscommunication but in others there is clear exploitation and even legal disputes about, for example, intellectual property. Our paper is part of a multiyear study funded by the U.S. National Science Foundation (NSF) and draws its data from a representative national survey of scientists working in 108 Carnegie Doctoral/Research Universities—Very High Research Activity (n = 641). The paper tests hypotheses about the determinants of collaboration effectiveness. Results indicate that having an explicit discussion about co-authorship reduces the odds of a bad collaboration on a recent scholarly article. Having co-authors from different universities also reduces the odds of a bad collaboration, while large numbers of co-authors have the reverse effect. The results shed some systematic, empirical light on research collaboration practices, including not only norms and business-as-usual, but also routinely bad collaborations.\n" .
+
+<#offset_799_826>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "National Science Foundation" ;
+        nif:beginIndex          "799"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/GovernmentAgency> ;
+        itsrdf:taConfidence     "0.9999999876716857"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Science_Foundation> .

@@ -1,0 +1,53 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_674>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "674"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Michael Walzer is currently at the School of Social Science, Institute for Advanced Study, in Princeton, New Jersey. Professor Walzer has written Just and Unjust Wars; The Revolution of the Saints and has edited Toward A Global Civil Society. In this interview, he discusses some of the current concerns about education, political theory and the current state of the art of toleration, and acceptance and accommodation of different racial, ethnic, social and minority groups. He has published extensively and his work has been translated in several other languages. In this interview, he responds to questions about his work, his writings and his current concerns.\n" .
+
+<#offset_330_346>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "political theory" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997267922058"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Political_philosophy> .
+
+<#offset_9_23>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Michael Walzer" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Michael_Walzer> .
+
+<#offset_177_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Revolution" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9667802854135197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_Revolution> .
+
+<#offset_103_124>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Princeton, New Jersey" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9999999982668442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Princeton,_New_Jersey> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_674> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

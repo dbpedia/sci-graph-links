@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_683>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "683"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Identity claims often look nonsensical because they apparently declaredistinct things to be identical. I argue that this appearance is notjust an artefact of grammar. We should be fictionalists about such claims,seeing them against the background of speakers' pretense that their wordssecure reference to a plurality of objects that are then declared to beidentical from within the pretense. I argue that it is the resultinginterpretative tension – arising from the fact that two things cannever be identical – that allows us to understand the real point ofsuch statements. This view also offers a new solution to Fege's puzzleof the informativeness of identity statements.\n" .
+
+<#offset_316_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plurality" ;
+        nif:beginIndex          "316"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994194112118499"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plural> .
+
+<#offset_155_163>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "artefact" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9702077150764576"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Document> .
+
+<#offset_167_174>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grammar" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992378591349"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grammar> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_683> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

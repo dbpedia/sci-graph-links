@@ -1,0 +1,62 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_412_420>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "420"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9592658413364672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_system> .
+
+<#offset_282_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japanese" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.857030422623114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#offset_0_431>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "431"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A dynamical model of optimal economic growth is used for the comparison of catalogs of real econometric data and synthetic growth scenarios. The model is calibrated on a database of the Tokyo Institute of Technology. Special attention is paid to the aggregated data of the Japanese manufacturing industry in the period 1960–92. A description of an algorithm modeling optimal trends in the technological dynamics is given.\n" .
+
+<#offset_357_366>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "366"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_431> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_101_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "econometric" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Econometrics> .
+
+<#offset_195_200>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Tokyo" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/City> ;
+        itsrdf:taConfidence     "0.9868805206662679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tokyo> .

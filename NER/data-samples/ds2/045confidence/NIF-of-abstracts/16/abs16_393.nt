@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_117_119>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hα" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_467> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/H-alpha> .
+
+<#offset_0_467>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "467"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Two examples of sudden brightenings in local regions of active prominences as observed at the center of the Hα line are described. The origin of the brightenings is discussed in terms of Doppler shifts along the line of sight, Doppler brightenings and intrinsic changes of physical conditions. It is shown that the two examples presented here have common characteristics and the origin may probably be attributed to intrinsic changes of physical conditions.\n" .
+
+<#offset_196_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Doppler shifts" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_467> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doppler_effect> .
+
+<#offset_236_243>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Doppler" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_467> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999767301840177"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Doppler_effect> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_467> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_286>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "286"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present the structure of symplectic cobordism ring MSp * in dimensions up to 51 and give a construction of an infinite series of elements Γ i , i = 1, 3,4, , . . . , of order four in this ring, where dim Γ i  = 8i   95. The key element of the series is Γ1 in dimension 103.\n" .
+
+<#offset_37_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symplectic" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8196062631575973"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symplectic_manifold> .
+
+<#offset_63_66>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MSp" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9170931994742052"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Member_of_the_Scottish_Parliament> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_286> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_122_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infinite series" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998935129994045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Series_(mathematics)> .
+
+<#offset_48_62>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cobordism ring" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cobordism> .

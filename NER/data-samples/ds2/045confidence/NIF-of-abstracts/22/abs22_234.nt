@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_71_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "God" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989135922834456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/God> .
+
+<#offset_0_348>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "348"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In a previous issue of this journal Michael Veber argued that God could not answer certain prayers because doing so would be immoral. In this article I attempt to demonstrate that Veber’s argument is simply the logical problem of evil applied to a possible world. Because of this, his argument is susceptible to a Plantinga-style defense.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_348> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

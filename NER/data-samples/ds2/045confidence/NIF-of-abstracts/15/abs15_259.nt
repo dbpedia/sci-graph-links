@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_630>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "630"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper discusses the case of inter-firm cost sharing in fixed-capital investment in business-related network. Such cooperation among individual firms differs in nature from the collusive conduct in pricing or production in the sense that decisions on short-term production remain independent. The model in this paper stylized a common network that reduces each member firm's variable cost of production. Firms benefit from pooling their investment in this network thanks to cost subadditivity of the investment. Different dues-assignment rules are found to affect firms' incentive in achieving collective efficiency.\n" .
+
+<#offset_53_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cost sharing" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_630> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cost_sharing> .
+
+<#offset_492_505>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subadditivity" ;
+        nif:beginIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_630> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999999261"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subadditivity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_630> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

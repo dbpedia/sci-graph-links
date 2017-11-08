@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_199_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "EMU" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996852934093549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_and_Monetary_Union_of_the_European_Union> .
+
+<#offset_743_752>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflation" ;
+        nif:beginIndex          "743"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "752"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997518756903209"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflation> .
+
+<#offset_651_666>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary policy" ;
+        nif:beginIndex          "651"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995482885308"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .
+
+<#offset_589_602>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fiscal policy" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "602"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiscal_policy> .
+
+<#offset_0_849>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "849"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article explores the policy and wealth consequences of alternative institutional arrangements through which fiscal policy interacts with monetary policy in a monetary union such as the EMU. The central issue of the article is the design of the appropriate monetary and fiscal institutions through a comparison of alternative arrangements to distribute power over monetary and fiscal authorities between the central authority of the union and the individual members of the union and evaluating their performance. The main results of this article reveal that delegation of the fiscal policy to a council of country representatives and the monetary policy to a council of governors is the appropriate institutional design to reduce inflation bias and better stabilize regional, idiosyncratic supply and demand shocks in a monetary union.\n" .
+
+<#offset_151_166>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monetary policy" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995482885308"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monetary_policy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_849> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_122_135>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fiscal policy" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_849> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiscal_policy> .

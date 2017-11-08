@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_558> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_72_96>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monopolistic competition" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_558> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monopolistic_competition> .
+
+<#offset_114_134>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trade liberalization" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_558> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Free_trade> .
+
+<#offset_0_558>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "558"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The main purpose of this study is to illustrate, with a simple monopolistic competition trade model, how trade liberalization (i.e., a decline in trade costs) can affect domestic entrepreneurs’ decision between providing domestic or foreign brands, and thus the degree of foreign brand penetration. It is shown that, as trade costs decrease, more entrepreneurs choose to provide foreign brands. Furthermore, the shift to foreign brands is shown to magnify the negative impact of trade liberalization on the profits of firms selling domestic brands.\n" .
+
+<#offset_488_508>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trade liberalization" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_558> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Free_trade> .

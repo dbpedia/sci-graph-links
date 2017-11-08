@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_413_428>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quality control" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999944309934"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quality_control> .
+
+<#offset_64_78>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interest group" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Advocacy_group> .
+
+<#offset_193_210>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular imaging" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_imaging> .
+
+<#offset_0_701>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "701"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Managers of Molecular Imaging Laboratories (MOMIL) interest group in the World Molecular Imaging Society provides a forum for exchanging information between researchers who manage molecular imaging laboratories and institutional core facilities. This information exchange includes operational procedures for acquiring and analyzing imaging results, including considerations for quality assurance and quality control, and animal handling and care for imaging studies. MOMIL also exchanges administrative policies, interactions with collaborators and clients, and industry relations. In addition to this comprehensive review of MOMIL, more information is available at http://www.wmis.org/.\n" .
+
+<#offset_9_21>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Managers" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996616596154"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Managers> .
+
+<#offset_391_408>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quality assurance" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_701> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999668521950956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quality_assurance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_701> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

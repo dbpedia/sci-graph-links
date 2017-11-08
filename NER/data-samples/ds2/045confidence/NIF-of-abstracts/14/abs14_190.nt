@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_329_344>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal control" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_control> .
+
+<#offset_0_636>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "636"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We investigate optimal consumption policies in the liquidity risk model introduced by Pham and Tankov (Math. Finance 18:613–627, 2008). Our main result is to derive smoothness C 1 results for the value functions of the portfolio/consumption choice problem. As an important consequence, we can prove the existence of the optimal control (portfolio/consumption strategy) which we characterize both in feedback form in terms of the derivatives of the value functions and as the solution of a second-order ODE. Finally, numerical illustrations of the behavior of optimal consumption strategies between two trading dates are given.\n" .
+
+<#offset_511_514>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ODE" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordinary_differential_equation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_636> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_60_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "liquidity risk" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liquidity_risk> .

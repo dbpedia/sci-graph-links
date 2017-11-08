@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_385>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "385"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper outlines the strategy and issues for the commercialisation of HARMST-LIGA process technologies. Part of this strategy is the setting up of an international HARMST-LIGA Commercialisation Group to identify and bring together people and organisations to advance industrial up-take and drive development and manufacturing of new product for the growing global markets.\n" .
+
+<#offset_324_337>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manufacturing" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995813786441341"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manufacturing> .
+
+<#offset_188_205>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Commercialisation" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Commercialization> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_385> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_279_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "industrial" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9285516957400909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Industry> .

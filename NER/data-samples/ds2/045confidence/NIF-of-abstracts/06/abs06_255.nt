@@ -1,0 +1,142 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_520>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "520"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Analysis of stomach contents of samples of clupeid fishes (Japanese anchovy, half-fin anchovy, zunas' scaled sardine, rednosed glassnose and tapertail anchovy) collected from the catches of a 1982–1984 fishery resource survey showed they are zooplanktonivorous. Similar food groups, such as copepoda. Chaetognatha, Amphipoda and Mysidacea were found in the stomach. Dietary similarity coefficients were studied to evaluate the degree of similarity in the dietary species-pairs. Seasonal variation is discussed.\n" .
+
+<#offset_118_125>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sardine" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998021122192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sardine> .
+
+<#offset_300_308>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "copepoda" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Crustacean> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copepod> .
+
+<#offset_52_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clupeid" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Clupeidae> .
+
+<#offset_338_347>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mysidacea" ;
+        nif:beginIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Crustacean> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mysidacea> .
+
+<#offset_95_102>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anchovy" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Fish> ;
+        itsrdf:taConfidence     "0.9999997754724429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anchovy> .
+
+<#offset_21_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stomach" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999860868811492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stomach> .
+
+<#offset_310_322>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Chaetognatha" ;
+        nif:beginIndex          "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chaetognatha> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_520> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_324_333>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Amphipoda" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Crustacean> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amphipoda> .
+
+<#offset_366_373>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stomach" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999860868811492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stomach> .
+
+<#offset_160_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anchovy" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999997754724429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anchovy> .
+
+<#offset_68_84>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japanese anchovy" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Fish> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.999999970464899"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anchovy> .
+
+<#offset_279_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "food groups" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9242250739920223"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Food_group> .
+
+<#offset_394_406>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989201077288"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .

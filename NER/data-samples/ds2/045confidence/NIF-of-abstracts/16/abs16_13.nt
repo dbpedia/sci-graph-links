@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_518> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_518>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "518"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The relatively new concept of debt-for-nature swaps is intended to take account of the connection between the indebtedness of developing countries and the destruction of the environment taking place there, the consequences of which are increasingly also perceived as a threat in the industrial countries. The idea has now been put to the test in practive in a number of cases. Against that background, the authors of this article point out the areas of potential and the limitations of debt-for-nature swaps.\n" .
+
+<#offset_135_155>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "developing countries" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_518> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998842222214"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developing_country> .

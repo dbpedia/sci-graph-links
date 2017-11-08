@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_736>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "736"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider a repeated family bargaining model that links the topics of employment and households. A key aspect of the model is that marital bargaining power is determined endogenously. We show that: (1) the efficiency of household decisions is sometimes inversely related to the prevailing degree of gender discrimination in labor markets; (2) women who are discriminated against have difficulty enforcing cooperative household outcomes because they may be extremely limited to credibly punish opportunistic behavior by their male partners; (3) the likelihood that sharing rules such as “equal sharing” are maintained throughout a marriage relationship is highest when men and women face equal opportunities in labor markets.\n" .
+
+<#offset_150_166>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bargaining power" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99989713336678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bargaining_power> .
+
+<#offset_721_734>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labor markets" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Labour_economics> .
+
+<#offset_181_193>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogenously" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endogeny> .
+
+<#offset_335_348>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labor markets" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Labour_economics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_736> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_310_331>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender discrimination" ;
+        nif:beginIndex          "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9875316332657924"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrimination> .

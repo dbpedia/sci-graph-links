@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_753>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "753"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The classical theory of plasticity cannot explain some phenomena which can be observed in complex loading histories. Therefore it becomes necessary to introduce different yield mechanisms interacting in inelastic deformations. This is particularly true when nonisothermic processes shall be taken into account. In this paper a general mechanical and thermodynamical frame is scetched for the formulation of such generalized constitutive laws based on previous papers. Within this frame a fundamental scheme is developed for a constitutive law of an elastic-plastic body with two different yield mechanisms. A simplified version is applied in order to explain the appearence of concave yield surfaces which may be obtained after total unloading.\n" .
+
+<#offset_534_550>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "constitutive law" ;
+        nif:beginIndex          "534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_753> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constitutive_equation> .
+
+<#offset_12_21>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "21"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_753> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7168189796723227"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<#offset_693_707>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "yield surfaces" ;
+        nif:beginIndex          "693"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_753> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yield_surface> .
+
+<#offset_432_449>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "constitutive laws" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_753> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constitutive_equation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_753> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_32_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plasticity" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_753> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999997442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plasticity_(physics)> .

@@ -1,0 +1,72 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_618_625>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "society" ;
+        nif:beginIndex          "618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1163> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997353394642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Society> .
+
+<#offset_610_617>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Chinese" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1163> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9390100740691188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/China> .
+
+<#offset_0_1163>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1163"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Lao She’s novel Cat Country, published in 1932, was one of the greatest satirical allegories in world literature, which nearly helped the author win the Nobel Prize for Literature in the year 1966. This essay tries to point out that the novel is a full-scale exposition of the then cultural and political darkness. It forewarns the numb national people that the whole civilization would soon be destroyed, or rather self-destroyed, even without any foreign invasion. Most of the “national flaws” which led to the complete destruction of Cat Country still persist, to different degrees, in the current Chinese society. The future of our community is contingent on whether we could face and get rid of those “weaknesses.” But to begin with, the national people have to be awakened to the sordid reality that they have been indulging in for centuries. The essay concludes that Cat Country still bears with it the penetrating satirical power even in the contemporary world, 75 years after its first publication, for the novel has exposed many despicable defects in human nature, which could not be confined to only one single era, or one particular culture.\n" .
+
+<#offset_931_940>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "satirical" ;
+        nif:beginIndex          "931"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1163> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981742085607"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Satire> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1163> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_81_90>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "satirical" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1163> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981742085607"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Satire> .
+
+<#offset_162_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nobel Prize" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1163> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Award> ;
+        itsrdf:taConfidence     "0.5779857565805852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nobel_Prize> .
+
+<#offset_9_16>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lao She" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "16"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1163> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lao_She> .

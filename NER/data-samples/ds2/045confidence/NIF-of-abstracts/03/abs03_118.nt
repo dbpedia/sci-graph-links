@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_168>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "168"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We note that the exactly solvable electron-phonon Hamiltonian presented in that paper can be solved by a more direct route via the Lang-Firsov transformation.\n" .
+
+<#offset_34_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solvable" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997758449212678"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solvable_group> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_168> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_59_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamiltonian" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990987569911454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamiltonian_mechanics> .

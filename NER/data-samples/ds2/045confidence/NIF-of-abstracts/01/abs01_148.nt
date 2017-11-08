@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_57_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quorum" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852672285717858"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quorum> .
+
+<#offset_0_429>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "429"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Deterministic and stochastic models describing quorum sensing by Staphylococcus aureus within an endosome, and the subsequent escape via the production of virulence factors, are developed and analysed. Particular attention is given to a biologically-relevant asymptotic limit of the problem, for which the solutions, including the endosome escape time, can be explicitly characterised in terms of the model parameters.\n" .
+
+<#offset_75_96>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Staphylococcus aureus" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bacteria> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Staphylococcus_aureus> .
+
+<#offset_341_349>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endosome" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998126441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endosome> .
+
+<#offset_165_182>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virulence factors" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8536354916468148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virulence_factor> .
+
+<#offset_107_115>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endosome" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998126441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endosome> .
+
+<#offset_269_285>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic limit" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptote> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_429> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_28_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic models" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9843397221130242"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_process> .

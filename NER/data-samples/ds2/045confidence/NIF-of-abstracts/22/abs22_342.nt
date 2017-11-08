@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_966>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "966"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Constrained instrumentalist theories of punishment – those that seek to justify punishment by its good effects, but limit its scope – are an attractive alternative to pure retributivism or utilitarianism. One way in which we may be able to limit the scope of instrumental punishment is by justifying punishment through the concept of duty. This strategy is most clearly pursued in Victor Tadros’ influential ‘Duty View’ of punishment. In this paper, I show that the Duty View as it stands cannot find any moral distinction between the permissible punishment of the guilty and the permissible punishment of the innocent in extreme circumstances, therefore undermining one the key pillars of its intuitive appeal. I canvass several ways to respond to this problem, arguing that a rights (or claims) forfeiture theory which employs the distinction between rights forfeiture and rights infringement (or claims forfeiture and infringement) is the best solution.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_966> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_181_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "retributivism" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_966> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retributive_justice> .
+
+<#offset_198_212>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "utilitarianism" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_966> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Utilitarianism> .

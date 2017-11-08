@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_461>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "461"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract George Bowles and Thomas Gilbert claim that illatives such as ‘so’, ‘therefore’, and ‘hence’ convey the meaning that the premise confers upon the conclusion a probability greater than 1/2. This claim is false, for there are straightforward uses of these illatives that do not convey the meaning that the probability is greater than 1/2. In addition, because Bowles' and Gilbert's claim is false, a revision of their definition of argument is required.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_461> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_313_324>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971112348691954"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_168_179>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971112348691954"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_27_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Thomas Gilbert" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9290259771715064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thomas_Gilbert_(sea_captain)> .

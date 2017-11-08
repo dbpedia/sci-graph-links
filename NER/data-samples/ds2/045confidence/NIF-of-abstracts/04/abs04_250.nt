@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_344_348>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SiO2" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9861498796461087"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silicon_dioxide> .
+
+<#offset_0_371>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "371"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A survey is given on the transmission spectrum minima due to different oxide bonds on the surface of and in the silicon crystal. Methods are described for the investigation of the oxygen content of thin silicon slices. The oxygen concentration values of a few samples are determined and the bulk absorption cross-sections of different SiO2 groups are estimated.\n" .
+
+<#offset_189_195>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oxygen" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993382023633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oxygen> .
+
+<#offset_121_128>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "silicon" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999741543865"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silicon> .
+
+<#offset_212_219>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "silicon" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999741543865"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silicon> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_371> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_232_238>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oxygen" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_371> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993382023633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oxygen> .

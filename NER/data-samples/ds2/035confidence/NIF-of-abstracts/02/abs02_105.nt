@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_87_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evaporation" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_207> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5451710114151836"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hawking_radiation> .
+
+<#offset_37_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QCD matter" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_207> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/QCD_matter> .
+
+<#offset_169_186>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ultrarelativistic" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_207> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999845386"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ultrarelativistic_limit> .
+
+<#offset_187_194>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nuclear" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_207> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9984973440163096"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Atomic_nucleus> .
+
+<#offset_65_73>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dilepton" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_207> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bilepton> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_207> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_207>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "207"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract To probe the mixed phase of QCD matter we study thermal dilepton emission and evaporation of hadrons with largeP T in the framework of hydrodynamical model for ultrarelativistic nuclear collisions.\n" .
+
+<#offset_144_158>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hydrodynamical" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_207> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fluid_dynamics> .

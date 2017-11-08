@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_253_259>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marine" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.686992580979036"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marine_biology> .
+
+<#offset_602_611>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fisheries" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "611"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986125157438303"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fishery> .
+
+<#offset_0_622>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "622"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper examines aspects of job satisfaction among small-scale fishers in Guinea-Bissau, West Africa. The willingness of fishers to change métier or occupation is a central aspect of study, and gains relevance from the global degradation of marine environments. The author concludes that small-scale fishers are generally satisfied with the extent to which their and needs of self-realization and social life are met. They also express satisfaction with the state of the natural environment. However, fishers are less pleased with the fulfillment of basic needs and with the performance of fisheries managers.\n" .
+
+<#offset_40_56>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "job satisfaction" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Job_satisfaction> .
+
+<#offset_388_404>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "self-realization" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997913585834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Self-actualization> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_622> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_101_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "West Africa" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9781864982525459"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/West_Africa> .
+
+<#offset_86_99>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Guinea-Bissau" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_622> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999898371995919"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Guinea-Bissau> .

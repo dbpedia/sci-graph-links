@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_162_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infinity" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.985061183839448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infinity> .
+
+<#offset_22_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9681835118493727"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<#offset_0_452>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "452"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary. We study the asymptotic behaviour of disconnection and non-intersection exponents for planar Brownian motionwhen the number of considered paths tends to infinity. In particular, if η n (respectively ξ (n, p)) denotes the disconnection exponent for n paths (respectively the non-intersection exponent for n paths versus p paths), then we show that lim n →∞ η n /n = 1 2 and that for a > 0 and b > 0,lim n →∞ ξ ([na],[nb])/n = (√ a   √ b) 2 /2.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_452> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

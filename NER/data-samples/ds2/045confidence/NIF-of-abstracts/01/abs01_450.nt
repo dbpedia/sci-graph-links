@@ -1,0 +1,52 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_477_483>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Matrix" ;
+        nif:beginIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_769> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/Movie> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Film> ;
+        itsrdf:taConfidence     "0.902868203362506"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Matrix> .
+
+<#offset_351_377>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Algebraic Riccati Equation" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "377"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_769> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algebraic_Riccati_equation> .
+
+<#offset_0_769>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "769"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Adaptive stabilization of a class of linear systems with matched and unmatched uncertainties is considered in this paper. The proposed controller indeed stabilizes the uncertain system for any positive values of its non-adaptive gain that may be tuned to enhance dynamic response of system. The performance of uncertain system along with the Algebraic Riccati Equation that arises from the adaptive stabilizing controller is now formulated as a multi-objective Linear Matrix Inequality optimization problem. The decay rate and a factor governing the ultimate bound of the system states are considered to characterize the closed loop system performance. Finally, the effectiveness of the proposed controller is illustrated via stabilizing a mass-spring system.\n" .
+
+<#offset_495_515>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization problem" ;
+        nif:beginIndex          "495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_769> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999931233121492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_optimization> .
+
+<#offset_46_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear systems" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_769> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999730956516324"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_769> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

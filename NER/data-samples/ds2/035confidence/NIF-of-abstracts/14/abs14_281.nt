@@ -1,0 +1,303 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1089_1095>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "1089"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9865385100389029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#offset_1314_1330>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial assets" ;
+        nif:beginIndex          "1314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8074065813804182"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_instrument> .
+
+<#offset_576_587>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calibration" ;
+        nif:beginIndex          "576"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "587"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calibration> .
+
+<#offset_1481_1497>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial market" ;
+        nif:beginIndex          "1481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_market> .
+
+<#offset_177_185>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998684654279699"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_system> .
+
+<#offset_814_820>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "814"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9865385100389029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#offset_325_343>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic process" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_process> .
+
+<#offset_1203_1214>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calibration" ;
+        nif:beginIndex          "1203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calibration> .
+
+<#offset_0_1714>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1714"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract If a given dynamical process contains an inherently unpredictable component, it may be modeled as a stochastic process. Typical examples from financial markets are the dynamics of prices (e.g. prices of stocks or commodities) or fundamental rates (exchange rates etc.). The unknown future value of the corresponding stochastic process is usually estimated as the expected value under a suitable measure, which may be determined from distribution of past (historical) values. The predictive power of this estimation is limited by the simplifying assumptions of common calibration methods. Here we propose a novel method of “intelligent” calibration, using learning (2-layer) neural networks in order to dynamically adapt the parameters of a stochastic model to the most recent time series of fixed length (memory depth) to the past. The process parameters are determined by the weights of the intermediate layer of the neural network. The final layer combines these parameters in a meaningful manner yielding the forecasting value for the stochastic process. On each actual finite memory, the neural network is trained by back-propagation, obtaining a much more flexible and realistic parameter calibration than an analogous fit to an autoregressive models could do. In the context of processes related to financial assets, the final combination of the output layer relates to their market-price-of-risk. The back propagation is limited to the typical memory length of the financial market (for example 10 previous business days). We demonstrate the learning efficiency of the new algorithm by tracking the next-day forecasts with one typical examples each, for the asset classes of currencies and stocks.\n" .
+
+<#offset_1422_1433>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "propagation" ;
+        nif:beginIndex          "1422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9595917162436339"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wave_propagation> .
+
+<#offset_1460_1466>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "1460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9865385100389029"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<#offset_927_941>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neural network" ;
+        nif:beginIndex          "927"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "941"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<#offset_151_168>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial markets" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999920121471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_market> .
+
+<#offset_488_504>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "predictive power" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Predictive_power> .
+
+<#offset_683_698>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neural networks" ;
+        nif:beginIndex          "683"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<#offset_645_656>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calibration" ;
+        nif:beginIndex          "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calibration> .
+
+<#offset_1706_1712>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stocks" ;
+        nif:beginIndex          "1706"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999996362"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock> .
+
+<#offset_749_765>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic model" ;
+        nif:beginIndex          "749"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "765"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_calculus> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1714> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_785_796>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "785"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_1021_1032>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<#offset_1674_1687>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asset classes" ;
+        nif:beginIndex          "1674"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1687"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995897486572688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asset_allocation> .
+
+<#offset_1047_1065>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic process" ;
+        nif:beginIndex          "1047"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1065"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_process> .
+
+<#offset_464_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "historical" ;
+        nif:beginIndex          "464"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971710894548834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/History> .
+
+<#offset_1130_1146>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "back-propagation" ;
+        nif:beginIndex          "1130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Backpropagation> .
+
+<#offset_1589_1598>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "1589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<#offset_1243_1264>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autoregressive models" ;
+        nif:beginIndex          "1243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoregressive_model> .
+
+<#offset_1101_1115>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neural network" ;
+        nif:beginIndex          "1101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<#offset_212_218>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stocks" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999996362"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stock> .
+
+<#offset_1082_1088>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite" ;
+        nif:beginIndex          "1082"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1088"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999183005837331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_set> .
+
+<#offset_109_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic process" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_process> .
+
+<#offset_222_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "commodities" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983579665010563"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Commodity> .
+
+<#offset_257_271>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exchange rates" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exchange_rate> .
+
+<#offset_1691_1701>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "currencies" ;
+        nif:beginIndex          "1691"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1701"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1714> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6573468447905798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foreign_exchange_market> .

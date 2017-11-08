@@ -1,0 +1,199 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_962>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "962"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract AbstractFingerprint similarity is a common method for comparing chemical structures. Similarity is an appealing approach because, with many fingerprint types, it provides intuitive results: a chemist looking at two molecules can understand why they have been determined to be similar. This transparency is partially lost with the fuzzier similarity methods that are often used for scaffold hopping and tends to vanish completely when molecular fingerprints are used as inputs to machine-learning (ML) models. Here we present similarity maps, a straightforward and general strategy to visualize the atomic contributions to the similarity between two molecules or the predicted probability of a ML model. We show the application of similarity maps to a set of dopamine D3 receptor ligands using atom-pair and circular fingerprints as well as two popular ML methods: random forests and naïve Bayes. An open-source implementation of the method is provided.\n" .
+
+<#offset_767_787>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "dopamine D3 receptor" ;
+        nif:beginIndex          "767"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "787"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Protein> , <http://dbpedia.org/ontology/Biomolecule> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dopamine_receptor_D3> .
+
+<#offset_873_887>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random forests" ;
+        nif:beginIndex          "873"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_forest> .
+
+<#offset_685_696>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999047347410933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<#offset_201_208>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemist" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9782150436120545"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemistry> .
+
+<#offset_224_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecules" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993152815775"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .
+
+<#offset_658_667>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecules" ;
+        nif:beginIndex          "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "667"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993152815775"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .
+
+<#offset_908_919>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open-source" ;
+        nif:beginIndex          "908"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "919"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990477203516583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_source> .
+
+<#offset_488_504>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "machine-learning" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machine_learning> .
+
+<#offset_73_92>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemical structures" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical_structure> .
+
+<#offset_892_903>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "naïve Bayes" ;
+        nif:beginIndex          "892"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Naive_Bayes_classifier> .
+
+<#offset_861_863>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ML" ;
+        nif:beginIndex          "861"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "863"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/ProgrammingLanguage> ;
+        itsrdf:taConfidence     "0.9999636976781566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ML_(programming_language)> .
+
+<#offset_390_398>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scaffold" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8690327441586054"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scaffolding> .
+
+<#offset_825_837>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprints" ;
+        nif:beginIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9448566260417547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_hash_function> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_962> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_453_465>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprints" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9448566260417547"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_hash_function> .
+
+<#offset_149_160>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fingerprint" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993835302604538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fingerprint> .
+
+<#offset_506_508>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ML" ;
+        nif:beginIndex          "506"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9999636976781566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ML_(programming_language)> .
+
+<#offset_702_704>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ML" ;
+        nif:beginIndex          "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Software> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.9999636976781566"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ML_(programming_language)> .
+
+<#offset_788_795>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ligands" ;
+        nif:beginIndex          "788"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999962448854395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ligand> .
+
+<#offset_443_452>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular" ;
+        nif:beginIndex          "443"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992866168402351"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .
+
+<#offset_299_311>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transparency" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_962> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969214701075799"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transparency_and_translucency> .

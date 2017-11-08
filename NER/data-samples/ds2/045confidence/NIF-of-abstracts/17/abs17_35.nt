@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_90_114>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "total quality management" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_592> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Total_quality_management> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_592> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_387_416>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "standard operating procedures" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_592> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standard_operating_procedure> .
+
+<#offset_64_77>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human factors" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_592> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999970932549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_factors_and_ergonomics> .
+
+<#offset_0_592>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "592"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  There is a growing awareness of the importance of the human factors involved in total quality management. Tools to monitor and improve the knowledge and skills of all those involved in production processes in medical laboratories are recognized and applied. The effect of providing written information and verbal presentations concerning specific items (such as documentation, standard operating procedures, etc.) was monitored through an external questionnaire. Not only the level of information but also the employees' perception of their own work gained in depth and positivity.\n" .
+
+<#offset_219_239>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "medical laboratories" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_592> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Medical_laboratory> .

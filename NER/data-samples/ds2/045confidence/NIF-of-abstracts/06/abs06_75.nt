@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_118_137>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "population dynamics" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999737976870143"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Population_dynamics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_244> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_105_117>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "baleen whale" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Baleen_whale> .
+
+<#offset_0_244>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "244"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This paper studies the delay equation x k 1=λx k F(x k−β), which has been employed as a model of baleen whale population dynamics. The two main questions discussed are (a) stability of equilibria, and (b) optimal exploitation policies.\n" .

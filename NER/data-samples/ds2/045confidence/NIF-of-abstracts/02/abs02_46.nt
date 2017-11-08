@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_275>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "275"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract IfP is an elliptic self-adjoint perturbation of the Laplacian Δ on ℝ3, and the coefficients ofP−Δ decay super-exponentially, then we show thatP has infinitely many resonances. The resonances are defined here as the poles of the meromorphic continuation of (P−λ2)−1.\n" .
+
+<#offset_237_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meromorphic continuation" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999801157176"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/analytic_continuation> .
+
+<#offset_88_100>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998401749067"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_61_70>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laplacian" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999930035575956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laplace_operator> .
+
+<#offset_41_53>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perturbation" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9004955612321793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perturbation_theory> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_275> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_28_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "self-adjoint" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999033266296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Self-adjoint_operator> .

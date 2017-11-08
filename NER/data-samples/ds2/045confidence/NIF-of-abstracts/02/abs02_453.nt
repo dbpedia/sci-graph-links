@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_134_147>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "teleportation" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.950947807403334"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum_teleportation> .
+
+<#offset_189_207>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homodyne detection" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homodyne_detection> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_325> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_285_298>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "teleportation" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.950947807403334"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum_teleportation> .
+
+<#offset_0_325>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "325"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A strategy for teleporting coherent states with the entanglement fidelity is considered in the general case of an asymmetric teleportation scheme. It is shown that the nonbalanced homodyne detection with the subsequent coherent displacement is required to provide the average teleportation fidelity of entanglement.\n" .

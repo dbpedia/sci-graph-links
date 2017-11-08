@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_57_74>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conservation laws" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991339759191016"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conservation_law> .
+
+<#offset_186_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conservation law" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conservation_law> .
+
+<#offset_111_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "numerical method" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998437135516243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Numerical_analysis> .
+
+<#offset_224_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flux" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_502> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999536663318"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flux> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_502> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_502>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "502"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A well-balanced, large-time-stepping method for conservation laws with source terms is presented. The numerical method is based on a local reformulation of the balance law as a conservation law with a discontinuous flux function, and the approximate solution of this equation by a front tracking method. This yields an unconditionally stable method which is particularly well suited to calculate stationary states. The viability of this approach is demonstrated by several numerical examples.\n" .

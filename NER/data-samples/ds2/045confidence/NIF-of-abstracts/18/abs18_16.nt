@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_265_280>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Brownian motion" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999873768257244"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brownian_motion> .
+
+<#offset_170_181>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularity" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994911041033909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_singularity> .
+
+<#offset_90_105>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Newtonian fluid" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Newtonian_fluid> .
+
+<#offset_0_324>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "324"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is pointed out that the Horton–Rogers–Lapwood problem becomes singular when a Newtonian fluid is replaced by a standard power-law fluid. It is shown how this singularity can be removed. When this is done, the nanofluid effects due to thermophoresis and Brownian motion become independent of the power-law index.\n" .
+
+<#offset_246_260>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermophoresis" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999996577742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermophoresis> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_324> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_307_316>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law" ;
+        nif:beginIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "316"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998225926855927"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_132_147>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law fluid" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_324> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power-law_fluid> .

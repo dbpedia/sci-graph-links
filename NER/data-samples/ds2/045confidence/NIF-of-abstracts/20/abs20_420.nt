@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_503>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "503"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A Roman dominating function on a graph G is a function f : V(G) → {0, 1, 2} satisfying the condition that every vertex u for which f (u) = 0 is adjacent to at least one vertex v for which f (v) = 2. The weight of a Roman dominating function is the value $${f(V(G))=\\sum_{u \\in V(G)}f(u)}$$. The Roman domination number, γ R (G), of G is the minimum weight of a Roman dominating function on G. In this paper, we study graphs for which contracting any edge decreases the Roman domination number.\n" .
+
+<#offset_42_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_503> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997541812924851"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<#offset_178_184>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertex" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_503> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9295126191802795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<#offset_310_327>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domination number" ;
+        nif:beginIndex          "310"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_503> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dominating_set> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_503> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_484_501>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domination number" ;
+        nif:beginIndex          "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_503> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dominating_set> .
+
+<#offset_121_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertex" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_503> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9295126191802795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .

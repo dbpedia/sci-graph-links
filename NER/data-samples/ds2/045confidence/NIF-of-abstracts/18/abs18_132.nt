@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_642_651>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power law" ;
+        nif:beginIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999775639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_532_547>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exact solutions" ;
+        nif:beginIndex          "532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992364948883172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exact_solutions_in_general_relativity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_678> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_36_47>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deformation" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999995910659612"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deformation_(mechanics)> .
+
+<#offset_0_678>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "678"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We study the inhomogeneous deformation of a wedge of an incompressible generalized power-law Neo-Hookean material. We find solutions which have a “boundary layer structure”, in the sense that adjacent to the boundary the solution is inhomogeneous, while in the core region the solution is homogeneous. It is found that such solutions have an associated pressure field that is bounded. Inhomogeneous solutions are also possible when the pressure varies logarithmically with the radial coordinate. We also establish explicit exact solutions for specific values of the parameter. The results reduce to the Neo-Hookean solution when the power law exponent is set to unity.\n" .
+
+<#offset_92_101>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<#offset_156_170>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "boundary layer" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998897806"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boundary_layer> .
+
+<#offset_65_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "incompressible" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_678> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7047970744864734"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compressibility> .

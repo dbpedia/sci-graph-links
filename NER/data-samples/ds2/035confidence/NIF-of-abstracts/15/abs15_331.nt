@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_182_188>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "assets" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999977059050191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asset> .
+
+<#offset_302_325>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "product data management" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Product_data_management> .
+
+<#offset_130_143>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manufacturing" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999505472595275"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manufacturing> .
+
+<#offset_326_336>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7793065208729125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_technology> .
+
+<#offset_0_445>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "445"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper discusses the competitive pressures forcing major organisations to co-operate ever more closely in designing, manufacturing and supporting new products and major assets. It explains the resulting business and integration issues and presents a potential solution based on the use of product data management technology, supported by business consultancy and flexible commercial models that share investment costs and benefits.\n" .
+
+<#offset_414_424>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "investment" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997681106995824"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Investment> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_445> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_351_371>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "business consultancy" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9072841528012651"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management_consulting> .

@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_627_640>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenfunction" ;
+        nif:beginIndex          "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "640"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenfunction> .
+
+<#offset_157_166>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999973151716"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<#offset_372_381>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laplacian" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999872671"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laplace_operator> .
+
+<#offset_46_60>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenfunctions" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999601081078794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenfunction> .
+
+<#offset_250_258>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geometry" ;
+        nif:beginIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9108952916285898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geometry> .
+
+<#offset_88_98>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalue" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<#offset_30_41>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalues" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_735> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_167_177>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalue" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<#offset_0_735>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "735"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We study the higher eigenvalues and eigenfunctions for the so-called $\\infty$-eigenvalue problem. The problem arises as an asymptotic limit of the nonlinear eigenvalue problems for the p-Laplace operators and is very closely related to the geometry of the underlying domain. We are able to prove several properties that are known in the linear case p = 2 of the Laplacian, but are unknown for other values of p. In particular, we establish the validity of the Payne-Pólya-Weinberger conjecture regarding the ratio of the first two eigenvalues and the Payne nodal conjecture, which deals with the zero set of a second eigenfunction. The limit problem also exhibits phenomena that are not encountered for any $1 < p < \\infty$.\n" .
+
+<#offset_541_552>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalues" ;
+        nif:beginIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<#offset_133_149>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic limit" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_735> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptote> .

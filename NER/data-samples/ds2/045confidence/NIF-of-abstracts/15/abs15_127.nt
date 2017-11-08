@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_608_628>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capacity utilization" ;
+        nif:beginIndex          "608"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capacity_utilization> .
+
+<#offset_741_746>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "macro" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999926380951"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Macroeconomics> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1057> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_916_921>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "macro" ;
+        nif:beginIndex          "916"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "921"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999926380951"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Macroeconomics> .
+
+<#offset_1000_1022>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "employment projections" ;
+        nif:beginIndex          "1000"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1057> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999982979944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ten-year_occupational_employment_projections> .
+
+<#offset_0_1057>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1057"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary To confirm on a more disaggregated level earlier macro-economic studies in the field, an attempt is made in this paper to find out whether a vintage model of the clay-clay type also provides a framework for a plausible explanation of long-run sectoral developments of production capacity, labour requirements and employment. Nine sectors are considered, comprising the total enterprises sector. For this total enterprises sector an (amended) clay-clay vintage model is also (re-)estimated. The results indicate that in the process of adjustments, real labour costs are the strategic variable, though capacity utilization is also recognized as a factor affecting employment directly and indirectly. Projections of employment with the macro vintage model are satisfactory. Specifically, they are more satisfactory than the extrapolations for either manufacturing or non-manufacturing taken separately, and the macro projections compete fairly well with those based on an overall aggregation of employment projections over all nine sectors considered.\n" .

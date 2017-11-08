@@ -1,0 +1,44 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_590_601>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bad manners" ;
+        nif:beginIndex          "590"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Band> ;
+        itsrdf:taConfidence     "0.9999818555761457"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bad_Manners> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1307> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_801_815>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Viking society" ;
+        nif:beginIndex          "801"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "815"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6761139507393307"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Vikings_(reenactment)> .
+
+<#offset_0_1307>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1307"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusion So why be a good engineer? There are basically three reasons: 1) possible detection and the harm that dishonorable acts might cause, 2) a common responsibility to the professional engineering community, and 3) a negative impact on one’s own integrity when one behaves badly. But what if, in the face of these arguments, one is still not convinced? I must admit that there appears to be no knock-down ethical argument available to change the mind of a person set on behaving badly. There remains the option to act in whatever way one may wish. Engineers must realize however that bad manners and/or immorality and/or illegality, even if undetected, will most likely result in harm to themselves and thus rational behavior should result in honorable conduct of professional duties. While the Viking society of northern Europe was in many ways cruel and crude, they had a very simple code of honor. Their goal was to live life so that when they died, others would say “He was a good man”. The definition of what they meant by a “good man” might be quite different by contemporary standards but the principle is important. If engineers conduct their professional lives so as to uphold the exemplary values of engineering, the greatest professional honor would be to be remembered as a good engineer.\n" .
+
+<#offset_828_834>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "828"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1307> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9929969574627933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .

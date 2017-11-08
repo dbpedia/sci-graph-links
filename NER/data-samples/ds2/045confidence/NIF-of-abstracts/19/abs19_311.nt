@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_82_90>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holistic" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_336> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999499643488058"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holism> .
+
+<#offset_312_317>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dance" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_336> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977229825242142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_336> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_12_27>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anthropological" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_336> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9126929774046902"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anthropology> .
+
+<#offset_0_336>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "336"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An anthropological perspective, because of its comparative, cultural and holistic approaches, is critical to working effectively with the unserved and the underserved people of other cultures. Recognizing different cultural patterns can lead to adaptations that could enhance the theory and practice of dance/movement therapy.\n" .

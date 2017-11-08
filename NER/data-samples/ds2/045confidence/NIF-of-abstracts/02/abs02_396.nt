@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_961>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "961"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Since the introduction of endoscopic papillotomy (EPT), stone clearance by conventional means has become possible in approximately 85�f cases of choledocholithiasis. Several endoscopic therapies for any remaining stones have been introduced. Laser therapy under direct visual control via the insertion of a cholangioscope, by either peroral transpapillary cholangioscopy (POCS) or percutaneous transhepatic cholangioscopy (PTCS) has proven highly effective, raising the success rate of biliary stone clearance to almost 100�POCS is technically more difficult and thus has a lower success rate, but is far less time-consuming and causes fewer complications than PTCS. The technical equipment employed for POCS should be further improved. In selected patients, laser application via PTCS is an uncomplicated but highly efficient method; however, the rate of complications and the time needed to establish a transhepatic tract continue to cause problems.\n" .
+
+<#offset_350_364>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transpapillary" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_961> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6525696908794549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transpapillary> .
+
+<#offset_154_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "choledocholithiasis" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_961> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gallstone> .
+
+<#offset_35_45>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endoscopic" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_961> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995432063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endoscopy> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_961> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_183_193>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endoscopic" ;
+        nif:beginIndex          "183"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_961> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995432063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endoscopy> .
+
+<#offset_390_402>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "percutaneous" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_961> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Percutaneous> .
+
+<#offset_768_773>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laser" ;
+        nif:beginIndex          "768"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "773"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_961> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989441581557166"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .

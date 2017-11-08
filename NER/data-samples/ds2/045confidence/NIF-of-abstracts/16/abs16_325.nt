@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_506>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A qualitative study of a supervision course included pre-and post-interviews of the participants in addition to in-class participant observation. In an effort to be consistent with a postmodern perspective, the data were reviewed by the four members of the research team, each of whom shares his or her analysis, or story. Common themes which emerged in response to the focus on student change include greater awareness of isomorphic processes, ethical and legal issues, and evaluative processes.\n" .
+
+<#offset_192_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "postmodern" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999735308379512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Postmodernism> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_432_442>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isomorphic" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "442"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995076671406486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isomorphism> .
+
+<#offset_130_153>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "participant observation" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Participant_observation> .

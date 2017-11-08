@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_12_34>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absorption coefficient" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999754314191331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attenuation_coefficient> .
+
+<#offset_115_128>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "singularities" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999572593487663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_singularity> .
+
+<#offset_67_81>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic field" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9949150729316727"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_field> .
+
+<#offset_543_558>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "selection rules" ;
+        nif:beginIndex          "543"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "558"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Selection_rule> .
+
+<#offset_386_401>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "selection rules" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Selection_rule> .
+
+<#offset_104_107>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ofM" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9996268441089775"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Franciscan> .
+
+<#offset_0_579>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "579"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The absorption coefficient for two-photon transitions in a magnetic field is given for the case ofM 0-type singularities in second-order perturbation theory. States belonging to the two bands between which the transitions occur and states associated with other bands of the crystal are considered, as well as intermediate states. Correspondingly, two types of transitions, with selection rules Δn = ± 1 (inter-intra) and Δn = 0 (inter-inter), are shown to occur and explicit expressions for the transition probabilities are given. The selection rules are also discussed.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_579> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_39_49>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "two-photon" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998528030530528"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Two-photon_excitation_microscopy> .
+
+<#offset_503_527>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transition probabilities" ;
+        nif:beginIndex          "503"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "527"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_579> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998181614435777"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .

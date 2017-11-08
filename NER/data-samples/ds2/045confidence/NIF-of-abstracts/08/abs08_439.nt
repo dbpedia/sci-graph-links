@@ -1,0 +1,33 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_34_52>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mass customization" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_912> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mass_customization> .
+
+<#offset_0_912>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "912"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Motivated by advances in mass customization in business practice, explosion in the number of internet of things devices, and the lack of published research on privacy differentiation and customization, we propose a contextual information relevance model of privacy. We acknowledge the existence of individual differences with respect to unique security and privacy protection needs. We observe and argue that it is unfair and socially inefficient to treat privacy in a uniform (or less differentiated) manner whereby a large proportion of the population remain unsatisfied by a common policy. Our research results provide quantifiable means to measure and evaluate the customized privacy. We show that with privacy differentiation, the social planner will observe increases in demand and overall social welfare. Our results also show that business practitioners could profit from privacy customization.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_912> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_805_819>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social welfare" ;
+        nif:beginIndex          "805"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_912> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5909242604823929"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Welfare_economics> .

@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_499>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "499"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article considers the problem of uncertainty evaluation when there are repeated measurements of a small quantity known to be non-negative. A solution to this problem has recently been put forward by the Analytical Methods Committee of the Royal Society of Chemistry (Accred Qual Assur 13:29–32). The Bayesian statistical basis of this solution is explained and discussed. It is shown that the performance of this procedure can be poor in an important subset of measurement situations.\n" .
+
+<#offset_47_58>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uncertainty" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852743144514401"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uncertainty> .
+
+<#offset_293_298>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Assur" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "298"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/WorldHeritageSite> ;
+        itsrdf:taConfidence     "0.9649868597863909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Assur> .
+
+<#offset_253_266>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Royal Society" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999996025252011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Royal_Society> .
+
+<#offset_314_334>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bayesian statistical" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bayesian_statistics> .
+
+<#offset_465_471>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subset" ;
+        nif:beginIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "471"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9912611765298605"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subset> .
+
+<#offset_270_279>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Chemistry" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997450834572861"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemistry> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_499> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_139_151>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-negative" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_499> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998303128026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sign_(mathematics)> .

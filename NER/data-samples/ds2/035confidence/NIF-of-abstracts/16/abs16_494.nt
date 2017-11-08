@@ -1,0 +1,34 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_99_111>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "universities" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_553> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999544068932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/University> .
+
+<#offset_94_98>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_553> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9872022243756983"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_553> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_553>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "553"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper provides an overview of the context within which the teaching function in U.S. universities is carried out. It includes a conceptual scheme for the evaluation of instruction and suggests ways of analyzing evaluation in terms of (a) those components of the scheme which pertain to the instructor and his institutional context, and of (b) those which pertain to the institution and its societal context. The paper ends with advice for university administrators wishing to devise and implement evaluation for instructional improvement.\n" .

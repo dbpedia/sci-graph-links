@@ -1,0 +1,99 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_435>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "435"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary When an eye movement intervenes between the presentation of a target and a mask, the mask has its effect on material projected on the same retinal position. Davidson, Fox, and Dick (1973) reported, however, that the mask appears to be positioned in real space, a suggestion which implies integration of visible information across the eye movement. The present note argues that their conclusion does not follow from their data.\n" .
+
+<#offset_165_173>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Davidson" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://schema.org/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.35527237415884916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Davidson_County,_Tennessee> .
+
+<#offset_257_267>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real space" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7429159132965132"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Position_and_momentum_space> .
+
+<#offset_83_87>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mask" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8929185198170289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mask> .
+
+<#offset_224_228>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mask" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8929185198170289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mask> .
+
+<#offset_147_154>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "retinal" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9638269439011411"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retina> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_435> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_93_97>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mask" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8929185198170289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mask> .
+
+<#offset_175_178>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Fox" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Broadcaster> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/BroadcastNetwork> ;
+        itsrdf:taConfidence     "0.9783568445355502"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fox_Broadcasting_Company> .
+
+<#offset_16_28>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eye movement" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saccade> .
+
+<#offset_342_354>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eye movement" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saccade> .

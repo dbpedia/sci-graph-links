@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_170_177>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modular" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989169970898"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<#offset_190_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer arithmetic" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arithmetic_logic_unit> .
+
+<#offset_121_140>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer arithmetic" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arithmetic_logic_unit> .
+
+<#offset_52_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vectors" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999382824987"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_space> .
+
+<#offset_41_50>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intervals" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9966140034493666"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interval_(mathematics)> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_500> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_64_72>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "matrices" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Matrix_(mathematics)> .
+
+<#offset_267_289>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "numerical computations" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Numerical_analysis> .
+
+<#offset_0_500>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "500"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Mathematical structures such as intervals, vectors and matrices are only insufficiently considered by the usual computer arithmetic. In this paper a general and modular concept for computer arithmetic is proposed which finally covers all spaces occurring in numerical computations (see figure 1). The operations are performed following a uniform construction principle. It induces a set of mapping properties between real and rounded operations which by the way guarantees optimal accuracy.\n" .
