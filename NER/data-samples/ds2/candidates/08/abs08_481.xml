@@ -1,0 +1,276 @@
+<annotation text="Abstract We study the problem of evaluating xpath queries over xml data that is stored in an rdbms via schema-based shredding. The interaction between recursion (descendants-axis) in xpath queries and recursion in dtds makes it challenging to answer xpath queries using rdbms. We present a new approach to translating xpath queries into sql queries based on a notion of extended XP ath expressions and a simple least fixpoint (lfp) operator. Extended xpath expressions are a mild extension of xpath, and the lfp operator takes a single input relation and is already supported by most commercial rdbms. We show that extended xpath expressions are capable of capturing both dtd recursion and xpath queries in a uniform framework. Furthermore, they can be translated into an equivalent sequence of sql queries with the lfp operator. We present algorithms for rewriting xpath queries over a (possibly recursive) dtd into extended xpath expressions and for translating extended xpath expressions to sql queries, as well as optimization techniques. The novelty of our approach consists in its capability to answer a large class of xpath queries by means of only low-end rdbms features already available in most rdbms, as well as its flexibility to accommodate existing relational query optimization techniques. In addition, these translation algorithms provide a solution to query answering for certain (possibly recursive) xml views of xml data. Our experimental results verify the effectiveness of our techniques.">
+  <surfaceForm name="shredding" offset="116">
+    <resource label="Shred guitar" uri="Shred_guitar" contextualScore="0.9646243570834551" percentageOfSecondRank="0.0054467728797371745" support="128" priorScore="1.064706843035577E-6" finalScore="0.9945115823540337" types=""/>
+  </surfaceForm>
+  <surfaceForm name="single" offset="529">
+    <resource label="Single (music)" uri="Single_(music)" contextualScore="0.3762848171177313" percentageOfSecondRank="2.502204024825643E-4" support="34782" priorScore="2.893174485504956E-4" finalScore="0.99970900616466" types=""/>
+  </surfaceForm>
+  <surfaceForm name="mild" offset="475">
+    <resource label="Mild hybrid" uri="Mild_hybrid" contextualScore="0.512450325660848" percentageOfSecondRank="0.0" support="43" priorScore="3.576749550822642E-7" finalScore="0.13215107812737892" types=""/>
+    <resource label="Mild ale" uri="Mild_ale" contextualScore="0.21671217242097937" percentageOfSecondRank="0.528552693682485" support="57" priorScore="4.741272660392804E-7" finalScore="0.25002441517546287" types=""/>
+    <resource label="Temperate climate" uri="Temperate_climate" contextualScore="0.27083363418511264" percentageOfSecondRank="0.4046852503286198" support="3043" priorScore="2.5311741588728602E-5" finalScore="0.6178243832025841" types=""/>
+  </surfaceForm>
+  <surfaceForm name="recursive" offset="897">
+    <resource label="Recursion (computer science)" uri="Recursion_(computer_science)" contextualScore="0.9999458985694664" percentageOfSecondRank="5.285982958500666E-4" support="332" priorScore="2.761583374123528E-6" finalScore="0.9994716764285599" types=""/>
+  </surfaceForm>
+  <surfaceForm name="rdbms" offset="595">
+    <resource label="Relational database" uri="Relational_database" contextualScore="0.9999994894351569" percentageOfSecondRank="1.7129320174583174E-6" support="628" priorScore="5.2237179486432994E-6" finalScore="0.9999981999356181" types=""/>
+  </surfaceForm>
+  <surfaceForm name="dtds" offset="214">
+    <resource label="Document Type Definition" uri="Document_Type_Definition" contextualScore="1.0" percentageOfSecondRank="0.0" support="155" priorScore="1.289293442738394E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Extended" offset="442">
+    <resource label="DCI (Wizards of the Coast)" uri="DCI_(Wizards_of_the_Coast)" contextualScore="0.9964892792384779" percentageOfSecondRank="0.0" support="364" priorScore="3.027760084882422E-6" finalScore="0.9999896940365867" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="318">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="recursion" offset="676">
+    <resource label="Recursion (computer science)" uri="Recursion_(computer_science)" contextualScore="0.9999459129256321" percentageOfSecondRank="4.0552770025135824E-4" support="332" priorScore="2.761583374123528E-6" finalScore="0.9995946366858329" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="44">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="recursion" offset="201">
+    <resource label="Recursion (computer science)" uri="Recursion_(computer_science)" contextualScore="0.9999459129256321" percentageOfSecondRank="4.0552770025135824E-4" support="332" priorScore="2.761583374123528E-6" finalScore="0.9995946366858329" types=""/>
+  </surfaceForm>
+  <surfaceForm name="features" offset="1170">
+    <resource label="Software feature" uri="Software_feature" contextualScore="0.9999998319817819" percentageOfSecondRank="1.0105466728052696E-8" support="230" priorScore="1.9131451085795523E-6" finalScore="0.9999999824271982" types=""/>
+  </surfaceForm>
+  <surfaceForm name="translating" offset="306">
+    <resource label="Program transformation" uri="Program_transformation" contextualScore="0.9998251891315548" percentageOfSecondRank="0.0010550056374534844" support="41" priorScore="3.4103891065983327E-7" finalScore="0.9984736694490991" types=""/>
+  </surfaceForm>
+  <surfaceForm name="experimental" offset="1445">
+    <resource label="Experiment" uri="Experiment" contextualScore="0.9999793555074861" percentageOfSecondRank="1.3626301305753207E-7" support="1933" priorScore="1.6078736934279456E-5" finalScore="0.9999998508285555" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="866">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="rdbms" offset="1164">
+    <resource label="Relational database" uri="Relational_database" contextualScore="0.9999994894351569" percentageOfSecondRank="1.7129320174583174E-6" support="628" priorScore="5.2237179486432994E-6" finalScore="0.9999981999356181" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ath" offset="382">
+    <resource label="Ath" uri="Ath" contextualScore="0.3862607587230501" percentageOfSecondRank="0.0018272805632373948" support="91" priorScore="7.569400212206055E-7" finalScore="0.9981760206249877" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Settlement"/>
+  </surfaceForm>
+  <surfaceForm name="expressions" offset="457">
+    <resource label="Expression (computer science)" uri="Expression_(computer_science)" contextualScore="0.9999915580673853" percentageOfSecondRank="2.8111909091377884E-6" support="372" priorScore="3.094304262572146E-6" finalScore="0.9999971886878438" types=""/>
+  </surfaceForm>
+  <surfaceForm name="large" offset="1110">
+    <resource label="Data mining" uri="Data_mining" contextualScore="1.0" percentageOfSecondRank="2.8744279093302255E-18" support="851" priorScore="7.078636901744344E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sql" offset="337">
+    <resource label="SQL" uri="SQL" contextualScore="0.999999541631942" percentageOfSecondRank="1.3871398862087735E-10" support="2354" priorScore="1.958062428520116E-5" finalScore="0.9999999998611884" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="expressions" offset="932">
+    <resource label="Expression (computer science)" uri="Expression_(computer_science)" contextualScore="0.9999915580673853" percentageOfSecondRank="2.8111909091377884E-6" support="372" priorScore="3.094304262572146E-6" finalScore="0.9999971886878438" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sql" offset="795">
+    <resource label="SQL" uri="SQL" contextualScore="0.999999541631942" percentageOfSecondRank="1.3871398862087735E-10" support="2354" priorScore="1.958062428520116E-5" finalScore="0.9999999998611884" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="notion" offset="360">
+    <resource label="Urban legend" uri="Urban_legend" contextualScore="0.03413104527931462" percentageOfSecondRank="0.0" support="1180" priorScore="9.815266209234225E-6" finalScore="0.4809558349564774" types=""/>
+  </surfaceForm>
+  <surfaceForm name="rdbms" offset="270">
+    <resource label="Relational database" uri="Relational_database" contextualScore="0.9999994894351569" percentageOfSecondRank="1.7129320174583174E-6" support="628" priorScore="5.2237179486432994E-6" finalScore="0.9999981999356181" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xml" offset="1418">
+    <resource label="XML" uri="XML" contextualScore="1.0" percentageOfSecondRank="0.0" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="lfp" offset="508">
+    <resource label="Local field potential" uri="Local_field_potential" contextualScore="0.9978852445079961" percentageOfSecondRank="5.940179945950263E-4" support="46" priorScore="3.826290217159105E-7" finalScore="0.9989757727765499" types=""/>
+  </surfaceForm>
+  <surfaceForm name="query optimization" offset="1274">
+    <resource label="Query optimization" uri="Query_optimization" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="690">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="algorithms" offset="1336">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9999993185488213" percentageOfSecondRank="1.4506322231057748E-11" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999999999854481" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="830">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.834831748407947" percentageOfSecondRank="0.10100248911742513" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9031394210183282" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="expressions" offset="386">
+    <resource label="Expression (computer science)" uri="Expression_(computer_science)" contextualScore="0.9999915580673853" percentageOfSecondRank="2.8111909091377884E-6" support="372" priorScore="3.094304262572146E-6" finalScore="0.9999971886878438" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="926">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="451">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="supported" offset="566">
+    <resource label="Support (mathematics)" uri="Support_(mathematics)" contextualScore="0.7247356575909165" percentageOfSecondRank="0.07381458345030956" support="355" priorScore="2.952897884981483E-6" finalScore="0.931257557796253" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="250">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="algorithms" offset="841">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9999993185488213" percentageOfSecondRank="1.4506322231057748E-11" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999999999854481" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="1305">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9995639150208965" percentageOfSecondRank="0.002778034540975067" support="342" priorScore="2.844763596235682E-6" finalScore="0.9972296517127242" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sql" offset="994">
+    <resource label="SQL" uri="SQL" contextualScore="0.999999541631942" percentageOfSecondRank="1.3871398862087735E-10" support="2354" priorScore="1.958062428520116E-5" finalScore="0.9999999998611884" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="optimization" offset="1018">
+    <resource label="Query optimization" uri="Query_optimization" contextualScore="0.9999973006135914" percentageOfSecondRank="0.0027320239344470016" support="62" priorScore="5.157173770953576E-7" finalScore="0.9971919539531637" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xml" offset="63">
+    <resource label="XML" uri="XML" contextualScore="1.0" percentageOfSecondRank="0.0" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fixpoint" offset="417">
+    <resource label="Fixed point (mathematics)" uri="Fixed_point_(mathematics)" contextualScore="1.0" percentageOfSecondRank="0.0" support="626" priorScore="5.207081904220869E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="recursive" offset="1407">
+    <resource label="Recursion (computer science)" uri="Recursion_(computer_science)" contextualScore="0.9999458985694664" percentageOfSecondRank="5.285982958500666E-4" support="332" priorScore="2.761583374123528E-6" finalScore="0.9994716764285599" types=""/>
+  </surfaceForm>
+  <surfaceForm name="rdbms" offset="1205">
+    <resource label="Relational database" uri="Relational_database" contextualScore="0.9999994894351569" percentageOfSecondRank="1.7129320174583174E-6" support="628" priorScore="5.2237179486432994E-6" finalScore="0.9999981999356181" types=""/>
+  </surfaceForm>
+  <surfaceForm name="translating" offset="952">
+    <resource label="Program transformation" uri="Program_transformation" contextualScore="0.9998251891315548" percentageOfSecondRank="0.0010550056374534844" support="41" priorScore="3.4103891065983327E-7" finalScore="0.9984736694490991" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="1125">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="interaction" offset="131">
+    <resource label="Interaction" uri="Interaction" contextualScore="0.9994930782443846" percentageOfSecondRank="8.531064744106801E-6" support="458" priorScore="3.809654172736674E-6" finalScore="0.9999794206806467" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="9">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.834831748407947" percentageOfSecondRank="0.10100248911742513" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9031394210183282" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="493">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="extension" offset="480">
+    <resource label="Filename extension" uri="Filename_extension" contextualScore="0.9111116452344955" percentageOfSecondRank="0.029721184980612242" support="409" priorScore="3.402071084387117E-6" finalScore="0.9702176929514204" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="183">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="translation" offset="1324">
+    <resource label="Translation (geometry)" uri="Translation_(geometry)" contextualScore="0.998943822431068" percentageOfSecondRank="0.01738422500283905" support="504" priorScore="4.192283194452584E-6" finalScore="0.9788548646637014" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="349">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.9983829272796805" percentageOfSecondRank="2.689657570953141E-4" support="3570" priorScore="2.969533929403914E-5" finalScore="0.9996178325320756" types=""/>
+  </surfaceForm>
+  <surfaceForm name="relation" offset="542">
+    <resource label="Binary relation" uri="Binary_relation" contextualScore="0.0028761116475639237" percentageOfSecondRank="1.3320086823817419E-4" support="971" priorScore="8.076799567090197E-6" finalScore="0.2678441402391446" types=""/>
+    <resource label="Relational model" uri="Relational_model" contextualScore="0.9971189940345709" percentageOfSecondRank="0.3658472306787246" support="293" priorScore="2.4371805078861255E-6" finalScore="0.732120179623163" types=""/>
+  </surfaceForm>
+  <surfaceForm name="dtd" offset="672">
+    <resource label="XML" uri="XML" contextualScore="1.0" percentageOfSecondRank="2.583426410361661E-15" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="277">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.834831748407947" percentageOfSecondRank="0.10100248911742513" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9031394210183282" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="sequence" offset="783">
+    <resource label="Sequence" uri="Sequence" contextualScore="0.9999858880207592" percentageOfSecondRank="1.5106476946929844E-7" support="2901" priorScore="2.4130582434736008E-5" finalScore="0.9999998173486968" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="1043">
+    <resource label="The Miami Herald" uri="The_Miami_Herald" contextualScore="0.8223970328199434" percentageOfSecondRank="0.013102083599096988" support="1081" priorScore="8.991782010323897E-6" finalScore="0.44158180069076675" types="Schema:CreativeWork, DBpedia:Work, DBpedia:WrittenWork, DBpedia:PeriodicalLiterature, DBpedia:Newspaper"/>
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.17535407086029584" percentageOfSecondRank="0.7996540078965552" support="6340" priorScore="5.273626081910593E-5" finalScore="0.5522160788668125" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="expressions" offset="979">
+    <resource label="Expression (computer science)" uri="Expression_(computer_science)" contextualScore="0.9999915580673853" percentageOfSecondRank="2.8111909091377884E-6" support="372" priorScore="3.094304262572146E-6" finalScore="0.9999971886878438" types=""/>
+  </surfaceForm>
+  <surfaceForm name="provide" offset="1347">
+    <resource label="Income" uri="Income" contextualScore="0.994959798720175" percentageOfSecondRank="0.002028882837619422" support="4277" priorScore="3.557618099736846E-5" finalScore="0.9979752251730013" types=""/>
+  </surfaceForm>
+  <surfaceForm name="answer" offset="1101">
+    <resource label="Answer" uri="Answer" contextualScore="0.05195669690533226" percentageOfSecondRank="0.07723787874697975" support="122" priorScore="1.0147987097682844E-6" finalScore="0.1463780074091768" types=""/>
+    <resource label="Fugue" uri="Fugue" contextualScore="0.9157254250856077" percentageOfSecondRank="0.17401856153539083" support="1074" priorScore="8.933555854845388E-6" finalScore="0.8411631846491694" types=""/>
+  </surfaceForm>
+  <surfaceForm name="lfp" offset="816">
+    <resource label="Local field potential" uri="Local_field_potential" contextualScore="0.9978852445079961" percentageOfSecondRank="5.940179945950263E-4" support="46" priorScore="3.826290217159105E-7" finalScore="0.9989757727765499" types=""/>
+  </surfaceForm>
+  <surfaceForm name="novelty" offset="1047">
+    <resource label="Novelty" uri="Novelty" contextualScore="0.180607916681593" percentageOfSecondRank="0.09863745966221596" support="61" priorScore="5.073993548841422E-7" finalScore="0.1448999582703047" types=""/>
+    <resource label="Novelty (patent)" uri="Novelty_(patent)" contextualScore="0.17688145741826253" percentageOfSecondRank="0.4355602843263115" support="143" priorScore="1.1894771762038086E-6" finalScore="0.3326748638123054" types=""/>
+    <resource label="Novelty item" uri="Novelty_item" contextualScore="0.6383271255869388" percentageOfSecondRank="0.6722187525987554" support="96" priorScore="7.985301322766828E-7" finalScore="0.4948907814996313" types=""/>
+  </surfaceForm>
+  <surfaceForm name="commercial" offset="584">
+    <resource label="Advertising" uri="Advertising" contextualScore="0.8382408166384572" percentageOfSecondRank="0.01689778835397131" support="7721" priorScore="6.422344949279445E-5" finalScore="0.980619331796437" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9997927145427786" percentageOfSecondRank="2.9697197969598617E-5" support="626" priorScore="5.207081904220869E-6" finalScore="0.9999703036521164" types=""/>
+  </surfaceForm>
+  <surfaceForm name="uniform" offset="709">
+    <resource label="Uniform distribution (continuous)" uri="Uniform_distribution_(continuous)" contextualScore="0.9999997100757548" percentageOfSecondRank="7.913357715752756E-6" support="296" priorScore="2.462134574519772E-6" finalScore="0.9999920694360311" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="1441">
+    <resource label="Christian" uri="Christian" contextualScore="0.5359273988611863" percentageOfSecondRank="0.0011750573370059398" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9984768510943283" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="127">
+    <resource label="The Miami Herald" uri="The_Miami_Herald" contextualScore="0.8223970328199434" percentageOfSecondRank="0.013102083599096988" support="1081" priorScore="8.991782010323897E-6" finalScore="0.44158180069076675" types="Schema:CreativeWork, DBpedia:Work, DBpedia:WrittenWork, DBpedia:PeriodicalLiterature, DBpedia:Newspaper"/>
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.17535407086029584" percentageOfSecondRank="0.7996540078965552" support="6340" priorScore="5.273626081910593E-5" finalScore="0.5522160788668125" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="xml" offset="1431">
+    <resource label="XML" uri="XML" contextualScore="1.0" percentageOfSecondRank="0.0" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="expressions" offset="630">
+    <resource label="Expression (computer science)" uri="Expression_(computer_science)" contextualScore="0.9999915580673853" percentageOfSecondRank="2.8111909091377884E-6" support="372" priorScore="3.094304262572146E-6" finalScore="0.9999971886878438" types=""/>
+  </surfaceForm>
+  <surfaceForm name="rdbms" offset="93">
+    <resource label="Relational database" uri="Relational_database" contextualScore="0.9999994894351569" percentageOfSecondRank="1.7129320174583174E-6" support="628" priorScore="5.2237179486432994E-6" finalScore="0.9999981999356181" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="973">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="translated" offset="753">
+    <resource label="Translation (geometry)" uri="Translation_(geometry)" contextualScore="0.9989436173487057" percentageOfSecondRank="0.03740971141955344" support="504" priorScore="4.192283194452584E-6" finalScore="0.948357486911475" types=""/>
+  </surfaceForm>
+  <surfaceForm name="XP" offset="379">
+    <resource label="Microsoft Windows" uri="Microsoft_Windows" contextualScore="0.7081671336924494" percentageOfSecondRank="2.032153262478572E-5" support="18828" priorScore="1.566117221927644E-4" finalScore="0.3255005765997039" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software"/>
+    <resource label="Windows XP" uri="Windows_XP" contextualScore="0.2910117817654907" percentageOfSecondRank="0.48258568964395393" support="2515" priorScore="2.0919825861206845E-5" finalScore="0.6744928073599827" types=""/>
+  </surfaceForm>
+  <surfaceForm name="class" offset="1116">
+    <resource label="Class (computer programming)" uri="Class_(computer_programming)" contextualScore="0.9999999999998863" percentageOfSecondRank="8.562552044546464E-15" support="1879" priorScore="1.562956373487382E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="addition" offset="1308">
+    <resource label="Addition" uri="Addition" contextualScore="0.9999444075584453" percentageOfSecondRank="4.077057809547973E-7" support="727" priorScore="6.047202147553629E-6" finalScore="0.9999991941102572" types=""/>
+  </surfaceForm>
+  <surfaceForm name="existing" offset="1254">
+    <resource label="Existence" uri="Existence" contextualScore="0.9999999996362021" percentageOfSecondRank="7.622619339601687E-12" support="1006" priorScore="8.367930344482738E-6" finalScore="0.999999999992383" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="602">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.834831748407947" percentageOfSecondRank="0.10100248911742513" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9031394210183282" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="67">
+    <resource label="Data" uri="Data" contextualScore="0.07942985795161323" percentageOfSecondRank="0.013608674422389652" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9865740302754124" types=""/>
+  </surfaceForm>
+  <surfaceForm name="recursion" offset="151">
+    <resource label="Recursion (computer science)" uri="Recursion_(computer_science)" contextualScore="0.9999459129256321" percentageOfSecondRank="4.0552770025135824E-4" support="332" priorScore="2.761583374123528E-6" finalScore="0.9995946366858329" types=""/>
+  </surfaceForm>
+  <surfaceForm name="answer" offset="243">
+    <resource label="Answer" uri="Answer" contextualScore="0.05195669690533226" percentageOfSecondRank="0.07723787874697975" support="122" priorScore="1.0147987097682844E-6" finalScore="0.1463780074091768" types=""/>
+    <resource label="Fugue" uri="Fugue" contextualScore="0.9157254250856077" percentageOfSecondRank="0.17401856153539083" support="1074" priorScore="8.933555854845388E-6" finalScore="0.8411631846491694" types=""/>
+  </surfaceForm>
+  <surfaceForm name="rewriting" offset="856">
+    <resource label="Rewriting" uri="Rewriting" contextualScore="0.9999999999882903" percentageOfSecondRank="5.0759475927862996E-14" support="164" priorScore="1.364155642639333E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="1435">
+    <resource label="Data" uri="Data" contextualScore="0.07942985795161323" percentageOfSecondRank="0.013608674422389652" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9865740302754124" types=""/>
+  </surfaceForm>
+  <surfaceForm name="xpath" offset="624">
+    <resource label="XPath" uri="XPath" contextualScore="1.0" percentageOfSecondRank="0.0" support="181" priorScore="1.5055620202299956E-6" finalScore="1.0" types="Schema:CreativeWork, DBpedia:Work, DBpedia:Software, DBpedia:ProgrammingLanguage"/>
+  </surfaceForm>
+  <surfaceForm name="dtd" offset="908">
+    <resource label="XML" uri="XML" contextualScore="1.0" percentageOfSecondRank="2.583426410361661E-15" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="lfp" offset="427">
+    <resource label="Local field potential" uri="Local_field_potential" contextualScore="0.9978852445079961" percentageOfSecondRank="5.940179945950263E-4" support="46" priorScore="3.826290217159105E-7" finalScore="0.9989757727765499" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simple" offset="404">
+    <resource label="Simple polygon" uri="Simple_polygon" contextualScore="0.9998229333131716" percentageOfSecondRank="0.009491283152191008" support="74" priorScore="6.15533643629943E-7" finalScore="0.9905504430552058" types=""/>
+  </surfaceForm>
+  <surfaceForm name="capturing" offset="657">
+    <resource label="Digital imaging" uri="Digital_imaging" contextualScore="0.3203461336198329" percentageOfSecondRank="0.05076205560788336" support="152" priorScore="1.2643393761047477E-6" finalScore="0.48651699680423877" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solution" offset="1357">
+    <resource label="Equation" uri="Equation" contextualScore="0.9999949700152541" percentageOfSecondRank="0.003381115047577778" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.9966302716421265" types=""/>
+  </surfaceForm>
+</annotation>

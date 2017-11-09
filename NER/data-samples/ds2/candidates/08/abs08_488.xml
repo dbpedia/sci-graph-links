@@ -1,0 +1,255 @@
+<annotation text="Abstract When users issue a query to a database, they have expectations about the results. If what they search for is unavailable in the database, the system will return an empty result or, worse, erroneous mismatch results. We call this problem the MisMatch problem. In this paper, we solve the MisMatch problem in the context of XML keyword search. Our solution is based on two novel concepts that we introduce: target node type and Distinguishability. Target Node Type represents the type of node a query result intends to match, and Distinguishability is used to measure the importance of the query keywords. Using these concepts, we develop a low-cost post-processing algorithm on the results of query evaluation to detect the MisMatch problem and generate helpful suggestions to users. Our approach has three noteworthy features: (1) for queries with the MisMatch problem, it generates the explanation, suggested queries and their sample results as the output to users, helping users judge whether the MisMatch problem is solved without reading all query results; (2) it is portable as it can work with any lowest common ancestor-based matching semantics (for XML data without ID references) or minimal Steiner tree-based matching semantics (for XML data with ID references) which return tree structures as results. It is orthogonal to the choice of result retrieval method adopted; (3) it is lightweight in the way that it occupies a very small proportion of the whole query evaluation time. Extensive experiments on three real datasets verify the effectiveness, efficiency and scalability of our approach. A search engine called XClear has been built and is available at http://xclear.comp.nus.edu.sg.">
+  <surfaceForm name="We" offset="225">
+    <resource label="Montana" uri="Montana" contextualScore="0.2954050266717928" percentageOfSecondRank="4.746576727741753E-4" support="14470" priorScore="1.203617813962875E-4" finalScore="0.24545487001188318" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.7029591603362843" percentageOfSecondRank="0.325352959706768" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.7544264242535403" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="1170">
+    <resource label="Data" uri="Data" contextualScore="0.8736065950161903" percentageOfSecondRank="1.6988445878822012E-4" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9998301443961378" types=""/>
+  </surfaceForm>
+  <surfaceForm name="post-processing" offset="657">
+    <resource label="Image processing" uri="Image_processing" contextualScore="1.0" percentageOfSecondRank="1.4722302235096986E-19" support="604" priorScore="5.024085415574129E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="matching" offset="1228">
+    <resource label="Pattern matching" uri="Pattern_matching" contextualScore="0.9999999999998863" percentageOfSecondRank="3.564167832368589E-12" support="204" priorScore="1.696876531087951E-6" finalScore="0.999999999996362" types=""/>
+  </surfaceForm>
+  <surfaceForm name="node" offset="495">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999995586193627" percentageOfSecondRank="8.241093949225735E-6" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999901354358343" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solve" offset="286">
+    <resource label="Problem solving" uri="Problem_solving" contextualScore="0.9999999999179181" percentageOfSecondRank="3.924524633985485E-11" support="370" priorScore="3.0776682181497147E-6" finalScore="0.9999999999606644" types=""/>
+  </surfaceForm>
+  <surfaceForm name="http" offset="1679">
+    <resource label="Hypertext Transfer Protocol" uri="Hypertext_Transfer_Protocol" contextualScore="1.0" percentageOfSecondRank="0.0" support="1766" priorScore="1.4689627225006477E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="node" offset="421">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999995586193627" percentageOfSecondRank="8.241093949225735E-6" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999901354358343" types=""/>
+  </surfaceForm>
+  <surfaceForm name="XML" offset="331">
+    <resource label="XML" uri="XML" contextualScore="0.9999999999213287" percentageOfSecondRank="1.0274243135470545E-15" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="keywords" offset="603">
+    <resource label="Index term" uri="Index_term" contextualScore="0.9920598451539893" percentageOfSecondRank="0.005505922053533361" support="165" priorScore="1.3724736648505485E-6" finalScore="0.9944407663969408" types=""/>
+  </surfaceForm>
+  <surfaceForm name="proportion" offset="1452">
+    <resource label="Ratio" uri="Ratio" contextualScore="0.9702103571611188" percentageOfSecondRank="0.10988137686069314" support="1787" priorScore="1.4864305691442002E-5" finalScore="0.9009971830561689" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="367">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.9479528242122043" percentageOfSecondRank="0.023906435769721228" support="3570" priorScore="2.969533929403914E-5" finalScore="0.9755678739552438" types=""/>
+  </surfaceForm>
+  <surfaceForm name="reading" offset="1043">
+    <resource label="Vocabulary" uri="Vocabulary" contextualScore="0.9972775829380413" percentageOfSecondRank="2.697439609610553E-6" support="953" priorScore="7.92707516728832E-6" finalScore="0.41522655137699643" types=""/>
+    <resource label="Reading (process)" uri="Reading_(process)" contextualScore="0.002718687486179626" percentageOfSecondRank="0.7100653316748922" support="1693" priorScore="1.408241160358775E-5" finalScore="0.5847723200308426" types=""/>
+  </surfaceForm>
+  <surfaceForm name="represents" offset="472">
+    <resource label="Mathematical problem" uri="Mathematical_problem" contextualScore="0.692230334471871" percentageOfSecondRank="0.01054948097207266" support="67" priorScore="5.573074881514349E-7" finalScore="0.3866310806547279" types=""/>
+    <resource label="Representation (mathematics)" uri="Representation_(mathematics)" contextualScore="0.3070959455748948" percentageOfSecondRank="0.6345624797535157" support="119" priorScore="9.89844643134638E-7" finalScore="0.6092876477741133" types=""/>
+  </surfaceForm>
+  <surfaceForm name="detect" offset="721">
+    <resource label="Sensor" uri="Sensor" contextualScore="0.9999997864074658" percentageOfSecondRank="4.1679635326037413E-8" support="2019" priorScore="1.6794086844443985E-5" finalScore="0.9999999536066764" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimal" offset="1201">
+    <resource label="Maxima and minima" uri="Maxima_and_minima" contextualScore="0.9999999858705452" percentageOfSecondRank="4.254402077756406E-9" support="704" priorScore="5.855887636695674E-6" finalScore="0.9999999957376531" types=""/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="1356">
+    <resource label="Return statement" uri="Return_statement" contextualScore="0.9999910730430753" percentageOfSecondRank="6.414063307404911E-6" support="100" priorScore="8.318022211215446E-7" finalScore="0.9999892777015744" types=""/>
+  </surfaceForm>
+  <surfaceForm name="expectations" offset="59">
+    <resource label="Expected value" uri="Expected_value" contextualScore="0.9997732613789508" percentageOfSecondRank="4.112902003180404E-6" support="1599" priorScore="1.3300517515733497E-5" finalScore="0.9999958870578665" types=""/>
+  </surfaceForm>
+  <surfaceForm name="It" offset="1322">
+    <resource label="Wikipedia" uri="Wikipedia" contextualScore="0.9999999998610747" percentageOfSecondRank="9.189499478020793E-11" support="21139" priorScore="1.758346715228833E-4" finalScore="0.999999999906322" types="Schema:CreativeWork, DBpedia:Work, Schema:WebPage, DBpedia:Website"/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="673">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="1.0" percentageOfSecondRank="1.5969605874728212E-32" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="retrieval" offset="1363">
+    <resource label="Information retrieval" uri="Information_retrieval" contextualScore="1.0" percentageOfSecondRank="2.2931289221811386E-16" support="683" priorScore="5.681209170260149E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Type" offset="467">
+    <resource label="Data type" uri="Data_type" contextualScore="1.0" percentageOfSecondRank="8.26678240103077E-27" support="1375" priorScore="1.1437280540421237E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree structures" offset="1294">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999972291423963" percentageOfSecondRank="2.341748955706308E-6" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999976582564748" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solved" offset="1028">
+    <resource label="Partial differential equation" uri="Partial_differential_equation" contextualScore="0.99779319039519" percentageOfSecondRank="5.864252600126055E-4" support="1232" priorScore="1.0247803364217429E-5" finalScore="0.9994050234494707" types=""/>
+  </surfaceForm>
+  <surfaceForm name="semantics" offset="1237">
+    <resource label="Semantics" uri="Semantics" contextualScore="0.012564726468338368" percentageOfSecondRank="0.017715826756863104" support="2369" priorScore="1.970539461836939E-5" finalScore="0.9825925604257228" types=""/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="508">
+    <resource label="Return statement" uri="Return_statement" contextualScore="0.9999910730430753" percentageOfSecondRank="6.414063307404911E-6" support="100" priorScore="8.318022211215446E-7" finalScore="0.9999892777015744" types=""/>
+  </surfaceForm>
+  <surfaceForm name="suggested" offset="909">
+    <resource label="Suggestion" uri="Suggestion" contextualScore="0.9993307122153319" percentageOfSecondRank="0.0012436264746173357" support="126" priorScore="1.048070798613146E-6" finalScore="0.9987567052601795" types=""/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="179">
+    <resource label="Return statement" uri="Return_statement" contextualScore="0.9999910730430753" percentageOfSecondRank="6.414063307404911E-6" support="100" priorScore="8.318022211215446E-7" finalScore="0.9999892777015744" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="351">
+    <resource label="Christian" uri="Christian" contextualScore="0.7712399561961185" percentageOfSecondRank="4.052389881201999E-4" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9995948107865503" types=""/>
+  </surfaceForm>
+  <surfaceForm name="suggestions" offset="770">
+    <resource label="Suggestion" uri="Suggestion" contextualScore="0.9999999997278337" percentageOfSecondRank="5.6801717454731634E-12" support="126" priorScore="1.048070798613146E-6" finalScore="0.9999999999943157" types=""/>
+  </surfaceForm>
+  <surfaceForm name="type" offset="487">
+    <resource label="Data type" uri="Data_type" contextualScore="0.997933284190213" percentageOfSecondRank="1.2737910081769274E-4" support="1375" priorScore="1.1437280540421237E-5" finalScore="0.9998726371225191" types=""/>
+  </surfaceForm>
+  <surfaceForm name="references" offset="1186">
+    <resource label="Reference (computer science)" uri="Reference_(computer_science)" contextualScore="0.033824384382166006" percentageOfSecondRank="4.1419752985601084E-6" support="416" priorScore="3.4602972398656253E-6" finalScore="0.22313072747405885" types=""/>
+    <resource label="Citation" uri="Citation" contextualScore="0.9661755081834019" percentageOfSecondRank="0.2872181984958081" support="551" priorScore="4.583230238379711E-6" finalScore="0.7768683483240892" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="268">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999979831520579" percentageOfSecondRank="1.2839306965124469E-5" support="342" priorScore="2.844763596235682E-6" finalScore="0.999987160826663" types=""/>
+  </surfaceForm>
+  <surfaceForm name="search engine" offset="1616">
+    <resource label="Web search engine" uri="Web_search_engine" contextualScore="0.9976405912850296" percentageOfSecondRank="2.2347640406838406E-7" support="2304" priorScore="1.9164723174640385E-5" finalScore="0.9999997481855052" types=""/>
+  </surfaceForm>
+  <surfaceForm name="XML" offset="1252">
+    <resource label="XML" uri="XML" contextualScore="0.9999999999213287" percentageOfSecondRank="1.0274243135470545E-15" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="792">
+    <resource label="Christian" uri="Christian" contextualScore="0.7712399561961185" percentageOfSecondRank="4.052389881201999E-4" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9995948107865503" types=""/>
+  </surfaceForm>
+  <surfaceForm name="return" offset="1287">
+    <resource label="Return on investment" uri="Return_on_investment" contextualScore="0.9748061204404754" percentageOfSecondRank="0.06294645717549281" support="318" priorScore="2.645131063166512E-6" finalScore="0.9403943281073743" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstract and concrete" uri="Abstract_and_concrete" contextualScore="0.6813526861576271" percentageOfSecondRank="4.0915023394850575E-5" support="269" priorScore="2.2375479748169547E-6" finalScore="0.2344840247090842" types=""/>
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.3186135342750271" percentageOfSecondRank="0.30631230570723517" support="626" priorScore="5.207081904220869E-6" finalScore="0.7655063813635928" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ID" offset="1183">
+    <resource label="Identifier" uri="Identifier" contextualScore="0.9999999999993179" percentageOfSecondRank="2.041853039326368E-12" support="355" priorScore="2.952897884981483E-6" finalScore="0.9999999999979536" types=""/>
+  </surfaceForm>
+  <surfaceForm name="database" offset="137">
+    <resource label="Database" uri="Database" contextualScore="0.11476062671384235" percentageOfSecondRank="0.0031952896624867543" support="6366" priorScore="5.295252939659753E-5" finalScore="0.996814887693938" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generate" offset="753">
+    <resource label="Automatic programming" uri="Automatic_programming" contextualScore="0.9999911252516992" percentageOfSecondRank="2.077148346253808E-5" support="92" priorScore="7.65258043431821E-7" finalScore="0.999977905572109" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Target" offset="455">
+    <resource label="Target Corporation" uri="Target_Corporation" contextualScore="0.026357879636605346" percentageOfSecondRank="0.03356783378214165" support="1962" priorScore="1.6319959578404706E-5" finalScore="0.9674870293735538" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:Company"/>
+  </surfaceForm>
+  <surfaceForm name="type" offset="426">
+    <resource label="Data type" uri="Data_type" contextualScore="0.997933284190213" percentageOfSecondRank="1.2737910081769274E-4" support="1375" priorScore="1.1437280540421237E-5" finalScore="0.9998726371225191" types=""/>
+  </surfaceForm>
+  <surfaceForm name="judge" offset="990">
+    <resource label="Judge" uri="Judge" contextualScore="0.957041499271458" percentageOfSecondRank="2.6457139013440395E-5" support="7189" priorScore="5.979826167642784E-5" finalScore="0.9999731215154314" types=""/>
+  </surfaceForm>
+  <surfaceForm name="If" offset="91">
+    <resource label="If (magazine)" uri="If_(magazine)" contextualScore="0.12563917858234652" percentageOfSecondRank="0.09444071019040536" support="187" priorScore="1.5554701534972884E-6" finalScore="0.8826089156971593" types=""/>
+  </surfaceForm>
+  <surfaceForm name="orthogonal" offset="1328">
+    <resource label="Orthogonality" uri="Orthogonality" contextualScore="0.9999989677029005" percentageOfSecondRank="2.6613051976800486E-9" support="1243" priorScore="1.03393016085408E-5" finalScore="0.9999999952101462" types=""/>
+  </surfaceForm>
+  <surfaceForm name="match" offset="526">
+    <resource label="Professional wrestling match types" uri="Professional_wrestling_match_types" contextualScore="0.018873579434008095" percentageOfSecondRank="0.07077921997939818" support="7170" priorScore="5.9640219254414746E-5" finalScore="0.2235367637267773" types=""/>
+    <resource label="Match" uri="Match" contextualScore="0.9693952243148601" percentageOfSecondRank="0.2962920111175909" support="510" priorScore="4.242191327719877E-6" finalScore="0.7544474887581804" types=""/>
+  </surfaceForm>
+  <surfaceForm name="common" offset="1120">
+    <resource label="Common law" uri="Common_law" contextualScore="0.9877491863106859" percentageOfSecondRank="0.002789699985599712" support="5578" priorScore="4.639792789415975E-5" finalScore="0.9949543636958725" types=""/>
+  </surfaceForm>
+  <surfaceForm name="XML" offset="1166">
+    <resource label="XML" uri="XML" contextualScore="0.9999999999213287" percentageOfSecondRank="1.0274243135470545E-15" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="scalability" offset="1585">
+    <resource label="Scalability" uri="Scalability" contextualScore="1.0" percentageOfSecondRank="0.0" support="329" priorScore="2.7366293074898814E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="users" offset="969">
+    <resource label="User (computing)" uri="User_(computing)" contextualScore="0.14614817260501575" percentageOfSecondRank="0.08066160979935397" support="1600" priorScore="1.3308835537944714E-5" finalScore="0.9253580233453258" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generates" offset="882">
+    <resource label="Generating set of a group" uri="Generating_set_of_a_group" contextualScore="0.14540717869159925" percentageOfSecondRank="0.05277997590565825" support="501" priorScore="4.167329127818938E-6" finalScore="0.3113796404546816" types=""/>
+    <resource label="Electric generator" uri="Electric_generator" contextualScore="0.7668654044757356" percentageOfSecondRank="0.4633941713656271" support="1845" priorScore="1.5346750979692496E-5" finalScore="0.671954158458754" types=""/>
+  </surfaceForm>
+  <surfaceForm name="choice" offset="1346">
+    <resource label="Utility" uri="Utility" contextualScore="0.9999980291839942" percentageOfSecondRank="4.1132953743949785E-7" support="1608" priorScore="1.3375379715634437E-5" finalScore="0.9999995222589182" types=""/>
+  </surfaceForm>
+  <surfaceForm name="matching" offset="1142">
+    <resource label="Pattern matching" uri="Pattern_matching" contextualScore="0.9999999999998863" percentageOfSecondRank="3.564167832368589E-12" support="204" priorScore="1.696876531087951E-6" finalScore="0.999999999996362" types=""/>
+  </surfaceForm>
+  <surfaceForm name="features" offset="826">
+    <resource label="Software feature" uri="Software_feature" contextualScore="0.9984445754281422" percentageOfSecondRank="7.385890659840446E-4" support="230" priorScore="1.9131451085795523E-6" finalScore="0.9992618701726647" types=""/>
+  </surfaceForm>
+  <surfaceForm name="real" offset="1530">
+    <resource label="Real number" uri="Real_number" contextualScore="0.8963651165186136" percentageOfSecondRank="0.004736086262799521" support="4619" priorScore="3.842094459360414E-5" finalScore="0.9952862002624026" types=""/>
+  </surfaceForm>
+  <surfaceForm name="measure" offset="567">
+    <resource label="Measurement" uri="Measurement" contextualScore="0.9988147342466805" percentageOfSecondRank="0.02975023230501042" support="1249" priorScore="1.038920974180809E-5" finalScore="0.971108126070022" types=""/>
+  </surfaceForm>
+  <surfaceForm name="semantics" offset="1151">
+    <resource label="Semantics" uri="Semantics" contextualScore="0.012564726468338368" percentageOfSecondRank="0.017715826756863104" support="2369" priorScore="1.970539461836939E-5" finalScore="0.9825925604257228" types=""/>
+  </surfaceForm>
+  <surfaceForm name="users" offset="984">
+    <resource label="User (computing)" uri="User_(computing)" contextualScore="0.14614817260501575" percentageOfSecondRank="0.08066160979935397" support="1600" priorScore="1.3308835537944714E-5" finalScore="0.9253580233453258" types=""/>
+  </surfaceForm>
+  <surfaceForm name="system" offset="151">
+    <resource label="System" uri="System" contextualScore="0.9999976862249633" percentageOfSecondRank="3.579209533946738E-9" support="7337" priorScore="6.1029328963687726E-5" finalScore="0.9999999964104518" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Steiner" offset="1209">
+    <resource label="Jakob Steiner" uri="Jakob_Steiner" contextualScore="0.999897466281316" percentageOfSecondRank="0.004988822956620801" support="44" priorScore="3.659929772934796E-7" finalScore="0.9932889113115801" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:Scientist"/>
+  </surfaceForm>
+  <surfaceForm name="target" offset="414">
+    <resource label="Target market" uri="Target_market" contextualScore="0.9995041439723729" percentageOfSecondRank="0.0010944159731546559" support="106" priorScore="8.817103543888372E-7" finalScore="0.9989061612245146" types=""/>
+  </surfaceForm>
+  <surfaceForm name="datasets" offset="1535">
+    <resource label="Data set" uri="Data_set" contextualScore="1.0" percentageOfSecondRank="1.9652037811325682E-19" support="437" priorScore="3.6349757063011495E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="keyword search" offset="335">
+    <resource label="Search algorithm" uri="Search_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="213" priorScore="1.7717387309888898E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="call" offset="228">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999999535471045" percentageOfSecondRank="3.821769763087804E-9" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999999961783033" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="1256">
+    <resource label="Data" uri="Data" contextualScore="0.8736065950161903" percentageOfSecondRank="1.6988445878822012E-4" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9998301443961378" types=""/>
+  </surfaceForm>
+  <surfaceForm name="users" offset="785">
+    <resource label="User (computing)" uri="User_(computing)" contextualScore="0.14614817260501575" percentageOfSecondRank="0.08066160979935397" support="1600" priorScore="1.3308835537944714E-5" finalScore="0.9253580233453258" types=""/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="1373">
+    <resource label="Method (computer programming)" uri="Method_(computer_programming)" contextualScore="0.09494333258112224" percentageOfSecondRank="7.592055702146404E-9" support="940" priorScore="7.818940878542519E-6" finalScore="0.48566349729263447" types=""/>
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.905056579206388" percentageOfSecondRank="0.9442524460520008" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.5143364990191284" types=""/>
+  </surfaceForm>
+  <surfaceForm name="database" offset="39">
+    <resource label="Database" uri="Database" contextualScore="0.11476062671384235" percentageOfSecondRank="0.0031952896624867543" support="6366" priorScore="5.295252939659753E-5" finalScore="0.996814887693938" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="1493">
+    <resource label="Time" uri="Time" contextualScore="0.6545772301353329" percentageOfSecondRank="1.380284157438752E-4" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9998619906324935" types=""/>
+  </surfaceForm>
+  <surfaceForm name="called" offset="1630">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999999535471045" percentageOfSecondRank="1.093026152243121E-8" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999999890696928" types=""/>
+  </surfaceForm>
+  <surfaceForm name="portable" offset="1080">
+    <resource label="Software portability" uri="Software_portability" contextualScore="0.9998964285843238" percentageOfSecondRank="3.108185304010826E-5" support="116" priorScore="9.648905765009916E-7" finalScore="0.9999673016180195" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solution" offset="355">
+    <resource label="Solution" uri="Solution" contextualScore="1.9860336839314175E-4" percentageOfSecondRank="0.008552868133581257" support="3434" priorScore="2.856408827331384E-5" finalScore="0.11863380961459646" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9954605242558897" percentageOfSecondRank="0.13475731973732613" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.8803515077759175" types=""/>
+  </surfaceForm>
+  <surfaceForm name="empty" offset="173">
+    <resource label="Empty set" uri="Empty_set" contextualScore="0.996420381295773" percentageOfSecondRank="5.231976616143915E-5" support="488" priorScore="4.0591948390731375E-6" finalScore="0.9999466477133111" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sample" offset="937">
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="0.9999847278943206" percentageOfSecondRank="1.2768962358656965E-4" support="904" priorScore="7.519492078938762E-6" finalScore="0.9998723265892362" types=""/>
+  </surfaceForm>
+  <surfaceForm name="context" offset="320">
+    <resource label="Context (language use)" uri="Context_(language_use)" contextualScore="0.9999999967710664" percentageOfSecondRank="3.751907691972324E-11" support="218" priorScore="1.8133288420449672E-6" finalScore="0.9999999999624833" types=""/>
+  </surfaceForm>
+  <surfaceForm name="references" offset="1269">
+    <resource label="Reference (computer science)" uri="Reference_(computer_science)" contextualScore="0.033824384382166006" percentageOfSecondRank="4.1419752985601084E-6" support="416" priorScore="3.4602972398656253E-6" finalScore="0.22313072747405885" types=""/>
+    <resource label="Citation" uri="Citation" contextualScore="0.9661755081834019" percentageOfSecondRank="0.2872181984958081" support="551" priorScore="4.583230238379711E-6" finalScore="0.7768683483240892" types=""/>
+  </surfaceForm>
+  <surfaceForm name="return" offset="163">
+    <resource label="Return on investment" uri="Return_on_investment" contextualScore="0.9748061204404754" percentageOfSecondRank="0.06294645717549281" support="318" priorScore="2.645131063166512E-6" finalScore="0.9403943281073743" types=""/>
+  </surfaceForm>
+  <surfaceForm name="users" offset="14">
+    <resource label="User (computing)" uri="User_(computing)" contextualScore="0.14614817260501575" percentageOfSecondRank="0.08066160979935397" support="1600" priorScore="1.3308835537944714E-5" finalScore="0.9253580233453258" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ID" offset="1266">
+    <resource label="Identifier" uri="Identifier" contextualScore="0.9999999999993179" percentageOfSecondRank="2.041853039326368E-12" support="355" priorScore="2.952897884981483E-6" finalScore="0.9999999999979536" types=""/>
+  </surfaceForm>
+  <surfaceForm name="develop" offset="638">
+    <resource label="Software development" uri="Software_development" contextualScore="0.9999999984418082" percentageOfSecondRank="5.945406259010664E-10" support="1137" priorScore="9.45759125415196E-6" finalScore="0.9999999994040536" types=""/>
+  </surfaceForm>
+</annotation>

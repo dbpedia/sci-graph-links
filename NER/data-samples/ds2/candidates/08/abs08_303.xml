@@ -1,0 +1,287 @@
+<annotation text="Abstract. Tree patterns form a natural basis to query tree-structured data such as XML and LDAP. To improve the efficiency of tree pattern matching, it is essential to quickly identify and eliminate redundant nodes in the pattern. In this paper, we study tree pattern minimization both in the absence and in the presence of integrity constraints (ICs) on the underlying tree-structured database. In the absence of ICs, we develop a polynomial-time query minimization algorithm called CIM, whose efficiency stems from two key properties: (i) a node cannot be redundant unless its children are; and (ii) the order of elimination of redundant nodes is immaterial. When ICs are considered for minimization, we develop a technique for query minimization based on three fundamental operations: augmentation (an adaptation of the well-known chase procedure), minimization (based on homomorphism techniques), and reduction. We show the surprising result that the algorithm, referred to as ACIM, obtained by first augmenting the tree pattern using ICs, and then applying CIM, always finds the unique minimal equivalent query. While ACIM is polynomial time, it can be expensive in practice because of its inherent non-locality. We then present a fast algorithm, CDM, that identifies and eliminates local redundancies due to ICs, based on propagating ”information labels” up the tree pattern. CDM can be applied prior to ACIM for improving the minimization efficiency. We complement our analytical results with an experimental study that shows the effectiveness of our tree pattern minimization techniques.">
+  <surfaceForm name="fundamental" offset="764">
+    <resource label="Greatest common divisor" uri="Greatest_common_divisor" contextualScore="0.9999667684759311" percentageOfSecondRank="9.327516222678554E-4" support="304" priorScore="2.5286787522094954E-6" finalScore="0.9986062764614666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="pattern matching" offset="131">
+    <resource label="Pattern matching" uri="Pattern_matching" contextualScore="1.0" percentageOfSecondRank="0.0" support="204" priorScore="1.696876531087951E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="prior" offset="1401">
+    <resource label="Prior probability" uri="Prior_probability" contextualScore="0.9999999999998863" percentageOfSecondRank="1.4344493257682903E-12" support="462" priorScore="3.842926261581536E-6" finalScore="0.9999999999985221" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="689">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="866">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.9370767751396664" percentageOfSecondRank="0.03354234441376475" support="3570" priorScore="2.969533929403914E-5" finalScore="0.967087208919872" types=""/>
+  </surfaceForm>
+  <surfaceForm name="order" offset="606">
+    <resource label="Order theory" uri="Order_theory" contextualScore="0.9585398176885733" percentageOfSecondRank="0.023321091523989076" support="329" priorScore="2.7366293074898814E-6" finalScore="0.9771420857417092" types=""/>
+  </surfaceForm>
+  <surfaceForm name="redundancies" offset="1294">
+    <resource label="Redundancy (engineering)" uri="Redundancy_(engineering)" contextualScore="0.9999998903135807" percentageOfSecondRank="1.1147995370431314E-6" support="230" priorScore="1.9131451085795523E-6" finalScore="0.999998884425335" types=""/>
+  </surfaceForm>
+  <surfaceForm name="basis" offset="39">
+    <resource label="Basis (linear algebra)" uri="Basis_(linear_algebra)" contextualScore="0.029761555491680174" percentageOfSecondRank="1.0717893296287626E-5" support="1826" priorScore="1.5188708557679404E-5" finalScore="0.42842443404115593" types=""/>
+    <resource label="Eigenvalues and eigenvectors" uri="Eigenvalues_and_eigenvectors" contextualScore="0.970025375305041" percentageOfSecondRank="0.749556663315499" support="3392" priorScore="2.821473134044279E-5" finalScore="0.5715704429150356" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="268">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="polynomial-time" offset="432">
+    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.9959295093463362" percentageOfSecondRank="8.736177982054345E-5" support="639" priorScore="5.315216192966669E-6" finalScore="0.9999126458515475" types=""/>
+  </surfaceForm>
+  <surfaceForm name="augmenting" offset="1005">
+    <resource label="Breast augmentation" uri="Breast_augmentation" contextualScore="0.9999993927976472" percentageOfSecondRank="3.7089788084058237E-7" support="135" priorScore="1.1229329985140852E-6" finalScore="0.9999996284521566" types=""/>
+  </surfaceForm>
+  <surfaceForm name="stems" offset="506">
+    <resource label="Plant stem" uri="Plant_stem" contextualScore="0.3412444838131831" percentageOfSecondRank="0.007503934253417932" support="1502" priorScore="1.2493669361245599E-5" finalScore="0.9922133520950265" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Tree" offset="10">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="1.0" percentageOfSecondRank="5.533188264328058E-15" support="1130" priorScore="9.399365098673454E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="LDAP" offset="91">
+    <resource label="Lightweight Directory Access Protocol" uri="Lightweight_Directory_Access_Protocol" contextualScore="1.0" percentageOfSecondRank="0.0" support="320" priorScore="2.6617671075889427E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="finds" offset="1074">
+    <resource label="Artifact (archaeology)" uri="Artifact_(archaeology)" contextualScore="0.023397675072899755" percentageOfSecondRank="0.007347006542244057" support="2122" priorScore="1.7650843132199175E-5" finalScore="0.1805979905558161" types=""/>
+    <resource label="Archaeological record" uri="Archaeological_record" contextualScore="0.8730705374084059" percentageOfSecondRank="0.877594204318611" support="162" priorScore="1.3475195982169022E-6" finalScore="0.20578758344927484" types=""/>
+    <resource label="Archaeology" uri="Archaeology" contextualScore="0.07974553029723756" percentageOfSecondRank="0.33610184985002806" support="10554" priorScore="8.778840641716782E-5" finalScore="0.6122774496513461" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="955">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="1.0" percentageOfSecondRank="1.2148611498211286E-22" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="1218">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.9401688909819716" percentageOfSecondRank="0.039489806771293955" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9618940207112584" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="essential" offset="155">
+    <resource label="Essence" uri="Essence" contextualScore="0.999999661697473" percentageOfSecondRank="3.145570901517078E-7" support="411" priorScore="3.418707128809548E-6" finalScore="0.9999996773395262" types=""/>
+  </surfaceForm>
+  <surfaceForm name="analytical" offset="1476">
+    <resource label="Analysis" uri="Analysis" contextualScore="0.9990670130867527" percentageOfSecondRank="0.001060145742436437" support="621" priorScore="5.165491793164792E-6" finalScore="0.9984042849252436" types=""/>
+  </surfaceForm>
+  <surfaceForm name="database" offset="386">
+    <resource label="Database" uri="Database" contextualScore="0.8209476128609011" percentageOfSecondRank="9.034561834977067E-5" support="6366" priorScore="5.295252939659753E-5" finalScore="0.9999096625432442" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree" offset="1368">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999650167366759" percentageOfSecondRank="4.987316722257426E-5" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999499482508162" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree-structured" offset="54">
+    <resource label="Tree structure" uri="Tree_structure" contextualScore="0.9999999914435875" percentageOfSecondRank="1.0527471701178529E-9" support="191" priorScore="1.5887422423421501E-6" finalScore="0.9999999989472599" types=""/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="939">
+    <resource label="Resultant" uri="Resultant" contextualScore="0.9999993821118868" percentageOfSecondRank="1.9879299710637456E-6" support="70" priorScore="5.822615547850812E-7" finalScore="0.999997093676842" types=""/>
+  </surfaceForm>
+  <surfaceForm name="homomorphism" offset="875">
+    <resource label="Homomorphism" uri="Homomorphism" contextualScore="0.9566190562343712" percentageOfSecondRank="9.716928723302674E-4" support="573" priorScore="4.766226727026451E-6" finalScore="0.9989202801920856" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="231">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999999995635562" percentageOfSecondRank="2.1205073535638653E-11" support="342" priorScore="2.844763596235682E-6" finalScore="0.9999999999635065" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ICs" offset="414">
+    <resource label="Integrated circuit" uri="Integrated_circuit" contextualScore="1.0" percentageOfSecondRank="0.0" support="2755" priorScore="2.2916151191898552E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree" offset="1020">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999650167366759" percentageOfSecondRank="4.987316722257426E-5" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999499482508162" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="396">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999999995635562" percentageOfSecondRank="2.1205073535638653E-11" support="342" priorScore="2.844763596235682E-6" finalScore="0.9999999999635065" types=""/>
+  </surfaceForm>
+  <surfaceForm name="redundant" offset="558">
+    <resource label="Redundancy (information theory)" uri="Redundancy_(information_theory)" contextualScore="0.9977324446733525" percentageOfSecondRank="0.03979474423324085" support="88" priorScore="7.319859545869592E-7" finalScore="0.9617282163296155" types=""/>
+  </surfaceForm>
+  <surfaceForm name="called" offset="477">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="1.0" percentageOfSecondRank="1.2792726640938394E-14" support="1697" priorScore="1.4115683692432612E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="XML" offset="83">
+    <resource label="XML" uri="XML" contextualScore="0.9999999995480948" percentageOfSecondRank="5.901587398663995E-15" support="5074" priorScore="4.2205644699707173E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="1458">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.9401688909819716" percentageOfSecondRank="0.039489806771293955" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9618940207112584" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="852">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="redundant" offset="630">
+    <resource label="Redundancy (information theory)" uri="Redundancy_(information_theory)" contextualScore="0.9977324446733525" percentageOfSecondRank="0.03979474423324085" support="88" priorScore="7.319859545869592E-7" finalScore="0.9617282163296155" types=""/>
+  </surfaceForm>
+  <surfaceForm name="local" offset="1288">
+    <resource label="Local ring" uri="Local_ring" contextualScore="0.9999472535692591" percentageOfSecondRank="6.811488267420885E-5" support="270" priorScore="2.2458659970281704E-6" finalScore="0.9999255621400792" types=""/>
+  </surfaceForm>
+  <surfaceForm name="natural" offset="31">
+    <resource label="Nature" uri="Nature" contextualScore="0.9954045829163969" percentageOfSecondRank="5.589062722311054E-4" support="3417" priorScore="2.842268189572318E-5" finalScore="0.9993858721613692" types=""/>
+  </surfaceForm>
+  <surfaceForm name="chase" offset="834">
+    <resource label="Hunting" uri="Hunting" contextualScore="0.7908847659723627" percentageOfSecondRank="0.015764858014724253" support="5168" priorScore="4.298753878756142E-5" finalScore="0.9836936101163637" types=""/>
+  </surfaceForm>
+  <surfaceForm name="adaptation" offset="805">
+    <resource label="Adaptation" uri="Adaptation" contextualScore="0.9999811827325769" percentageOfSecondRank="1.6458280045245644E-7" support="1364" priorScore="1.1345782296097868E-5" finalScore="0.9999998353836326" types=""/>
+  </surfaceForm>
+  <surfaceForm name="integrity constraints" offset="324">
+    <resource label="Integrity constraints" uri="Integrity_constraints" contextualScore="1.0" percentageOfSecondRank="0.0" support="51" priorScore="4.2421913277198773E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree" offset="255">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999650167366759" percentageOfSecondRank="4.987316722257426E-5" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999499482508162" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="1241">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="1.0" percentageOfSecondRank="1.2148611498211286E-22" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="inherent" offset="1195">
+    <resource label="Inherence" uri="Inherence" contextualScore="0.9714979883793338" percentageOfSecondRank="0.008302145805500465" support="35" priorScore="2.911307773925406E-7" finalScore="0.9890337860899321" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree" offset="126">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999650167366759" percentageOfSecondRank="4.987316722257426E-5" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999499482508162" types=""/>
+  </surfaceForm>
+  <surfaceForm name="CDM" offset="1382">
+    <resource label="Clean Development Mechanism" uri="Clean_Development_Mechanism" contextualScore="0.9999941577768952" percentageOfSecondRank="4.4174336415627425E-7" support="193" priorScore="1.605378286764581E-6" finalScore="0.9999995582166842" types=""/>
+  </surfaceForm>
+  <surfaceForm name="surprising" offset="928">
+    <resource label="Surprise (emotion)" uri="Surprise_(emotion)" contextualScore="0.9999999259941915" percentageOfSecondRank="0.0" support="76" priorScore="6.321696880523739E-7" finalScore="0.999999998963176" types=""/>
+  </surfaceForm>
+  <surfaceForm name="complement" offset="1461">
+    <resource label="Complement (set theory)" uri="Complement_(set_theory)" contextualScore="0.018725942239554906" percentageOfSecondRank="1.391721929925353E-4" support="426" priorScore="3.5434774619777796E-6" finalScore="0.14381499449672833" types=""/>
+    <resource label="Lattice (order)" uri="Lattice_(order)" contextualScore="0.9812359951591129" percentageOfSecondRank="0.16797617596713063" support="1093" priorScore="9.091598276858483E-6" finalScore="0.8561630461504842" types=""/>
+  </surfaceForm>
+  <surfaceForm name="experimental" offset="1503">
+    <resource label="Experiment" uri="Experiment" contextualScore="0.9999999938252131" percentageOfSecondRank="3.632595647280224E-10" support="1933" priorScore="1.6078736934279456E-5" finalScore="0.9999999995960707" types=""/>
+  </surfaceForm>
+  <surfaceForm name="To" offset="97">
+    <resource label="Johnnie To" uri="Johnnie_To" contextualScore="0.9707012363661035" percentageOfSecondRank="0.006080047083591342" support="139" priorScore="1.156205087358947E-6" finalScore="0.9922464134981032" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:Artist"/>
+  </surfaceForm>
+  <surfaceForm name="identifies" offset="1262">
+    <resource label="Identity (social science)" uri="Identity_(social_science)" contextualScore="0.9586487861667271" percentageOfSecondRank="0.03561996349995734" support="1295" priorScore="1.0771838763524003E-5" finalScore="0.9654090189086721" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimal" offset="1091">
+    <resource label="Maxima and minima" uri="Maxima_and_minima" contextualScore="0.9999970544471534" percentageOfSecondRank="8.842413776633349E-7" support="704" priorScore="5.855887636695674E-6" finalScore="0.9999990929852195" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ICs" offset="666">
+    <resource label="Integrated circuit" uri="Integrated_circuit" contextualScore="1.0" percentageOfSecondRank="0.0" support="2755" priorScore="2.2916151191898552E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="develop" offset="422">
+    <resource label="Software development" uri="Software_development" contextualScore="0.993498987061668" percentageOfSecondRank="0.0033323033259933105" support="1137" priorScore="9.45759125415196E-6" finalScore="0.9961642837277006" types=""/>
+  </surfaceForm>
+  <surfaceForm name="improve" offset="100">
+    <resource label="Human enhancement" uri="Human_enhancement" contextualScore="0.7505211873918383" percentageOfSecondRank="0.07756155679958295" support="150" priorScore="1.2477033316823169E-6" finalScore="0.9280211254921078" types=""/>
+  </surfaceForm>
+  <surfaceForm name="CIM" offset="1062">
+    <resource label="Common Information Model (computing)" uri="Common_Information_Model_(computing)" contextualScore="0.9989158003808472" percentageOfSecondRank="4.780531973710546E-5" support="40" priorScore="3.3272088844861784E-7" finalScore="0.9999521719311086" types=""/>
+  </surfaceForm>
+  <surfaceForm name="nodes" offset="209">
+    <resource label="Vertex (graph theory)" uri="Vertex_(graph_theory)" contextualScore="0.986237574961592" percentageOfSecondRank="0.0064344797955937" support="1948" priorScore="1.620350726744769E-5" finalScore="0.9935345382709309" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="1433">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="nodes" offset="640">
+    <resource label="Vertex (graph theory)" uri="Vertex_(graph_theory)" contextualScore="0.986237574961592" percentageOfSecondRank="0.0064344797955937" support="1948" priorScore="1.620350726744769E-5" finalScore="0.9935345382709309" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fast" offset="1236">
+    <resource label="Fasting" uri="Fasting" contextualScore="0.7677857085350648" percentageOfSecondRank="9.763812618866831E-4" support="1470" priorScore="1.2227492650486705E-5" finalScore="0.9981582591335066" types=""/>
+  </surfaceForm>
+  <surfaceForm name="redundant" offset="199">
+    <resource label="Redundancy (information theory)" uri="Redundancy_(information_theory)" contextualScore="0.9977324446733525" percentageOfSecondRank="0.03979474423324085" support="88" priorScore="7.319859545869592E-7" finalScore="0.9617282163296155" types=""/>
+  </surfaceForm>
+  <surfaceForm name="propagating" offset="1328">
+    <resource label="Wave propagation" uri="Wave_propagation" contextualScore="0.9857734812345295" percentageOfSecondRank="0.002543938359149087" support="343" priorScore="2.853081618446898E-6" finalScore="0.9974625168415867" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="736">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="916">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.9401688909819716" percentageOfSecondRank="0.039489806771293955" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9618940207112584" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="tree" offset="1558">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9999650167366759" percentageOfSecondRank="4.987316722257426E-5" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9999499482508162" types=""/>
+  </surfaceForm>
+  <surfaceForm name="procedure" offset="840">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9999855206205064" percentageOfSecondRank="4.976559633310055E-6" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999950234650807" types=""/>
+  </surfaceForm>
+  <surfaceForm name="node" offset="543">
+    <resource label="Tree (data structure)" uri="Tree_(data_structure)" contextualScore="0.9998767892900216" percentageOfSecondRank="0.0027759389153873206" support="1130" priorScore="9.399365098673454E-6" finalScore="0.9971958998110907" types=""/>
+  </surfaceForm>
+  <surfaceForm name="CDM" offset="1252">
+    <resource label="Clean Development Mechanism" uri="Clean_Development_Mechanism" contextualScore="0.9999941577768952" percentageOfSecondRank="4.4174336415627425E-7" support="193" priorScore="1.605378286764581E-6" finalScore="0.9999995582166842" types=""/>
+  </surfaceForm>
+  <surfaceForm name="identify" offset="176">
+    <resource label="Identifier" uri="Identifier" contextualScore="0.999999455800128" percentageOfSecondRank="1.0053459023877056E-6" support="355" priorScore="2.952897884981483E-6" finalScore="0.9999989815530127" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="70">
+    <resource label="Data" uri="Data" contextualScore="4.921535918935869E-4" percentageOfSecondRank="7.897677951171933E-9" support="7263" priorScore="6.041379532005778E-5" finalScore="0.2954486245539658" types=""/>
+    <resource label="Data mining" uri="Data_mining" contextualScore="0.9995078439792108" percentageOfSecondRank="0.4193429121438831" support="851" priorScore="7.078636901744344E-6" finalScore="0.7045513731077272" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9958891989913503" percentageOfSecondRank="5.903791044431687E-4" support="626" priorScore="5.207081904220869E-6" finalScore="0.9994092211907484" types=""/>
+  </surfaceForm>
+  <surfaceForm name="presence" offset="312">
+    <resource label="Omnipresence" uri="Omnipresence" contextualScore="0.8301154144524971" percentageOfSecondRank="0.026807106105857688" support="121" priorScore="1.006480687557069E-6" finalScore="0.2129546834968885" types=""/>
+    <resource label="Presence information" uri="Presence_information" contextualScore="0.16680571258483914" percentageOfSecondRank="0.2727180354915613" support="69" priorScore="5.739435325738657E-7" finalScore="0.7808602871205338" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="467">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="1.0" percentageOfSecondRank="1.2148611498211286E-22" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="key" offset="521">
+    <resource label="Unique key" uri="Unique_key" contextualScore="0.9999999086308022" percentageOfSecondRank="1.0827064577152351E-5" support="212" priorScore="1.7634207087776744E-6" finalScore="0.9999890310105196" types=""/>
+  </surfaceForm>
+  <surfaceForm name="augmentation" offset="788">
+    <resource label="Breast augmentation" uri="Breast_augmentation" contextualScore="0.9924231715763153" percentageOfSecondRank="0.025446816135444278" support="135" priorScore="1.1229329985140852E-6" finalScore="0.9751751224805278" types=""/>
+  </surfaceForm>
+  <surfaceForm name="immaterial" offset="649">
+    <resource label="Subjective idealism" uri="Subjective_idealism" contextualScore="0.09839210914142857" percentageOfSecondRank="0.07698694394746679" support="64" priorScore="5.323534215177885E-7" finalScore="0.13013638022779558" types=""/>
+    <resource label="Hylomorphism" uri="Hylomorphism" contextualScore="0.8947092513216656" percentageOfSecondRank="0.1513579940387903" support="93" priorScore="7.735760656430365E-7" finalScore="0.8597919195100061" types=""/>
+  </surfaceForm>
+  <surfaceForm name="referred" offset="966">
+    <resource label="European Court of Justice" uri="European_Court_of_Justice" contextualScore="0.9237849259873983" percentageOfSecondRank="0.0035391050189638464" support="913" priorScore="7.594354278839702E-6" finalScore="0.9959413564587389" types=""/>
+  </surfaceForm>
+  <surfaceForm name="elimination" offset="615">
+    <resource label="Elimination theory" uri="Elimination_theory" contextualScore="0.9999999086077238" percentageOfSecondRank="8.777251210834618E-6" support="30" priorScore="2.495406663364634E-7" finalScore="0.9999864402967269" types=""/>
+  </surfaceForm>
+  <surfaceForm name="CIM" offset="484">
+    <resource label="Common Information Model (computing)" uri="Common_Information_Model_(computing)" contextualScore="0.9989158003808472" percentageOfSecondRank="4.780531973710546E-5" support="40" priorScore="3.3272088844861784E-7" finalScore="0.9999521719311086" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="1571">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="1319">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.9370767751396664" percentageOfSecondRank="0.03354234441376475" support="3570" priorScore="2.969533929403914E-5" finalScore="0.967087208919872" types=""/>
+  </surfaceForm>
+  <surfaceForm name="polynomial time" offset="1131">
+    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.9959295093463362" percentageOfSecondRank="2.984860810535297E-4" support="639" priorScore="5.315216192966669E-6" finalScore="0.9997016029863519" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ICs" offset="1314">
+    <resource label="Integrated circuit" uri="Integrated_circuit" contextualScore="1.0" percentageOfSecondRank="0.0" support="2755" priorScore="2.2916151191898552E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="non-locality" offset="1204">
+    <resource label="Aharonov–Bohm effect" uri="Aharonov–Bohm_effect" contextualScore="0.10376784841096827" percentageOfSecondRank="0.012770407336238467" support="69" priorScore="5.739435325738657E-7" finalScore="0.2681994263899493" types=""/>
+    <resource label="Action at a distance (physics)" uri="Action_at_a_distance_(physics)" contextualScore="0.8954964605466367" percentageOfSecondRank="0.36821585178442334" support="76" priorScore="6.321696880523739E-7" finalScore="0.7283755576796028" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ICs" offset="1039">
+    <resource label="Integrated circuit" uri="Integrated_circuit" contextualScore="1.0" percentageOfSecondRank="0.0" support="2755" priorScore="2.2916151191898552E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree-structured" offset="370">
+    <resource label="Tree structure" uri="Tree_structure" contextualScore="0.9999999914435875" percentageOfSecondRank="1.0527471701178529E-9" support="191" priorScore="1.5887422423421501E-6" finalScore="0.9999999989472599" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ii" offset="598">
+    <resource label="Supertonic" uri="Supertonic" contextualScore="0.9999998649899544" percentageOfSecondRank="3.325962040115621E-7" support="96" priorScore="7.985301322766828E-7" finalScore="0.9999996673785161" types=""/>
+  </surfaceForm>
+  <surfaceForm name="operations" offset="776">
+    <resource label="Operation (mathematics)" uri="Operation_(mathematics)" contextualScore="0.968561494257406" percentageOfSecondRank="0.002566086530672602" support="526" priorScore="4.375279683099324E-6" finalScore="0.9974403839000137" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="749">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.9370767751396664" percentageOfSecondRank="0.03354234441376475" support="3570" priorScore="2.969533929403914E-5" finalScore="0.967087208919872" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ICs" offset="347">
+    <resource label="Integrated circuit" uri="Integrated_circuit" contextualScore="1.0" percentageOfSecondRank="0.0" support="2755" priorScore="2.2916151191898552E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="reduction" offset="905">
+    <resource label="Reduction (complexity)" uri="Reduction_(complexity)" contextualScore="0.9999999975458422" percentageOfSecondRank="3.1716343311813386E-7" support="171" priorScore="1.422381798117841E-6" finalScore="0.9999996828346914" types=""/>
+  </surfaceForm>
+  <surfaceForm name="minimization" offset="454">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999821813781195" percentageOfSecondRank="1.4165419567286015E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999985834236697" types=""/>
+  </surfaceForm>
+  <surfaceForm name="eliminate" offset="189">
+    <resource label="Elimination reaction" uri="Elimination_reaction" contextualScore="0.6516633833128516" percentageOfSecondRank="0.019629009115583" support="259" priorScore="2.1543677527048004E-6" finalScore="0.4342925884943409" types=""/>
+    <resource label="Genocide" uri="Genocide" contextualScore="0.18683451097982653" percentageOfSecondRank="0.7796079086887654" support="4635" priorScore="3.855403294898359E-5" finalScore="0.5570653961486669" types=""/>
+  </surfaceForm>
+  <surfaceForm name="develop" offset="706">
+    <resource label="Software development" uri="Software_development" contextualScore="0.993498987061668" percentageOfSecondRank="0.0033323033259933105" support="1137" priorScore="9.45759125415196E-6" finalScore="0.9961642837277006" types=""/>
+  </surfaceForm>
+</annotation>

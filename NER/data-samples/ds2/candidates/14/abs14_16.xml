@@ -1,0 +1,280 @@
+<annotation text="Abstract Given a time series of intra-day tick-by-tick price data, how can realized variance be estimated? The obvious estimator—the sum of squared returns between trades—is biased by microstructure effects such as bid–ask bounce and so in the past, practitioners were advised to drop most of the data and sample at most every five minutes or so. Recently, however, numerous alternative estimators have been developed that make more efficient use of the available data and improve substantially over those based on sparsely sampled returns. Yet, from a practical viewpoint, the choice of which particular estimator to use is not a trivial one because the study of their relative merits has primarily focused on the speed of convergence to their asymptotic distributions, which in itself is not necessarily a reliable guide to finite sample performance (especially when the assumptions on the price or noise process are violated). In this paper we compare a comprehensive set of nineteen realized variance estimators using simulated data from an artificial “zero-intelligence” market that has been shown to mimic some key properties of actual markets. In evaluating the competing estimators, we concentrate on efficiency but also pay attention to implementation, practicality, and robustness. One of our key findings is that for scenarios frequently encountered in practice, the best variance estimator is not always the one suggested by theory. In fact, an ad hoc implementation of a subsampling estimator, realized kernel, or maximum likelihood realized variance, delivers the best overall result. We make firm practical recommendations on choosing and implementing a realized variance estimator, as well as data sampling.">
+  <surfaceForm name="estimator" offset="605">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.851747226581945E-8" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999614825591" types=""/>
+  </surfaceForm>
+  <surfaceForm name="concentrate" offset="1194">
+    <resource label="Attention" uri="Attention" contextualScore="0.9999999929730166" percentageOfSecondRank="2.5439152449276976E-9" support="1766" priorScore="1.4689627225006477E-5" finalScore="0.9999999974561433" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="297">
+    <resource label="Data" uri="Data" contextualScore="0.03813150556183586" percentageOfSecondRank="0.029619403537660124" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9712326431819275" types=""/>
+  </surfaceForm>
+  <surfaceForm name="microstructure" offset="184">
+    <resource label="Microstructure" uri="Microstructure" contextualScore="0.9534360206036495" percentageOfSecondRank="1.327212720272892E-4" support="167" priorScore="1.3891097092729794E-6" finalScore="0.9998672940724019" types=""/>
+  </surfaceForm>
+  <surfaceForm name="variance" offset="1383">
+    <resource label="Variance" uri="Variance" contextualScore="0.9999999413761332" percentageOfSecondRank="4.39188640685165E-11" support="2398" priorScore="1.994661726249464E-5" finalScore="0.99999999995282" types=""/>
+  </surfaceForm>
+  <surfaceForm name="maximum likelihood" offset="1527">
+    <resource label="Maximum likelihood" uri="Maximum_likelihood" contextualScore="1.0" percentageOfSecondRank="0.0" support="518" priorScore="4.308735505409601E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sample" offset="306">
+    <resource label="Sample (statistics)" uri="Sample_(statistics)" contextualScore="0.0561045836336365" percentageOfSecondRank="3.49622550162311E-8" support="1079" priorScore="8.975145965901466E-6" finalScore="0.33205660977303697" types=""/>
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="0.9438935839437015" percentageOfSecondRank="0.49713287144238977" support="904" priorScore="7.519492078938762E-6" finalScore="0.6679433786174757" types=""/>
+  </surfaceForm>
+  <surfaceForm name="choice" offset="578">
+    <resource label="Utility" uri="Utility" contextualScore="0.9999999999446345" percentageOfSecondRank="1.1826563352120275E-11" support="1608" priorScore="1.3375379715634437E-5" finalScore="0.9999999999881766" types=""/>
+  </surfaceForm>
+  <surfaceForm name="variance" offset="84">
+    <resource label="Variance" uri="Variance" contextualScore="0.9999999413761332" percentageOfSecondRank="4.39188640685165E-11" support="2398" priorScore="1.994661726249464E-5" finalScore="0.99999999995282" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimator" offset="1392">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.851747226581945E-8" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999614825591" types=""/>
+  </surfaceForm>
+  <surfaceForm name="violated" offset="919">
+    <resource label="Rape" uri="Rape" contextualScore="0.9997932574566818" percentageOfSecondRank="8.04755453627334E-6" support="7031" priorScore="5.84840141670558E-5" finalScore="0.9999861655964825" types="DBpedia:Disease"/>
+  </surfaceForm>
+  <surfaceForm name="One" offset="1292">
+    <resource label="1 (number)" uri="1_(number)" contextualScore="0.9999972047692567" percentageOfSecondRank="1.6884418421094351E-6" support="692" priorScore="5.756071370161089E-6" finalScore="0.999998311538154" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simulated" offset="1022">
+    <resource label="Monte Carlo method" uri="Monte_Carlo_method" contextualScore="0.9999913917568967" percentageOfSecondRank="2.681937119691378E-4" support="623" priorScore="5.1821278375872225E-6" finalScore="0.9997318100901913" types=""/>
+  </surfaceForm>
+  <surfaceForm name="bounce" offset="223">
+    <resource label="Switch" uri="Switch" contextualScore="0.6403056186938835" percentageOfSecondRank="0.02627551336340379" support="1240" priorScore="1.0314347541907152E-5" finalScore="0.9743963996329156" types=""/>
+  </surfaceForm>
+  <surfaceForm name="alternative" offset="375">
+    <resource label="Alternative medicine" uri="Alternative_medicine" contextualScore="0.9882619076604814" percentageOfSecondRank="0.0023440226318579968" support="1436" priorScore="1.194467989530538E-5" finalScore="0.9976613881788323" types=""/>
+  </surfaceForm>
+  <surfaceForm name="biased" offset="174">
+    <resource label="Bias of an estimator" uri="Bias_of_an_estimator" contextualScore="0.9999999188457911" percentageOfSecondRank="7.445881465598075E-8" support="236" priorScore="1.9630532418468453E-6" finalScore="0.9999998735038469" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimator" offset="1687">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.851747226581945E-8" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999614825591" types=""/>
+  </surfaceForm>
+  <surfaceForm name="implementation" offset="1464">
+    <resource label="Implementation" uri="Implementation" contextualScore="0.9999998137823414" percentageOfSecondRank="4.798926502714413E-9" support="371" priorScore="3.0859862403609303E-6" finalScore="0.9999999952010512" types=""/>
+  </surfaceForm>
+  <surfaceForm name="realized" offset="1546">
+    <resource label="Realization (probability)" uri="Realization_(probability)" contextualScore="0.9443983314046762" percentageOfSecondRank="0.09154418740923018" support="24" priorScore="1.996325330691707E-7" finalScore="0.9148488496422543" types=""/>
+  </surfaceForm>
+  <surfaceForm name="variance" offset="996">
+    <resource label="Variance" uri="Variance" contextualScore="0.9999999413761332" percentageOfSecondRank="4.39188640685165E-11" support="2398" priorScore="1.994661726249464E-5" finalScore="0.99999999995282" types=""/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="1591">
+    <resource label="Result" uri="Result" contextualScore="0.17517039498574105" percentageOfSecondRank="5.340161156322645E-7" support="147" priorScore="1.2227492650486706E-6" finalScore="0.4899449995782549" types=""/>
+    <resource label="Resultant" uri="Resultant" contextualScore="0.8248292345427061" percentageOfSecondRank="0.96057358054918" support="70" priorScore="5.822615547850812E-7" finalScore="0.5100546272552521" types=""/>
+  </surfaceForm>
+  <surfaceForm name="process" offset="907">
+    <resource label="Stochastic process" uri="Stochastic_process" contextualScore="1.0" percentageOfSecondRank="1.2256519612259755E-13" support="747" priorScore="6.2135625917779375E-6" finalScore="0.9999999999998863" types=""/>
+  </surfaceForm>
+  <surfaceForm name="improve" offset="473">
+    <resource label="Kaizen" uri="Kaizen" contextualScore="0.9999964121466991" percentageOfSecondRank="1.5368180163907175E-5" support="105" priorScore="8.733923321776218E-7" finalScore="0.9999846310655411" types=""/>
+  </surfaceForm>
+  <surfaceForm name="encountered" offset="1349">
+    <resource label="Uncontacted peoples" uri="Uncontacted_peoples" contextualScore="0.18236344581767874" percentageOfSecondRank="0.3695663475574354" support="112" priorScore="9.316184876561299E-7" finalScore="0.2436542052735325" types=""/>
+    <resource label="Meeting engagement" uri="Meeting_engagement" contextualScore="0.4869227749348011" percentageOfSecondRank="0.39949047135501337" support="35" priorScore="2.911307773925406E-7" finalScore="0.6099124328224725" types=""/>
+  </surfaceForm>
+  <surfaceForm name="noise" offset="901">
+    <resource label="Noise" uri="Noise" contextualScore="0.9999998454236567" percentageOfSecondRank="1.6005632918799683E-8" support="1745" priorScore="1.4514948758570952E-5" finalScore="0.9999999839244539" types=""/>
+  </surfaceForm>
+  <surfaceForm name="comprehensive" offset="957">
+    <resource label="Understanding" uri="Understanding" contextualScore="0.9999999764886527" percentageOfSecondRank="1.0264138765337143E-8" support="414" priorScore="3.4436611954431944E-6" finalScore="0.9999999826136446" types=""/>
+  </surfaceForm>
+  <surfaceForm name="mimic" offset="1106">
+    <resource label="Mimicry" uri="Mimicry" contextualScore="0.9595876377304128" percentageOfSecondRank="7.290606222576605E-5" support="1047" priorScore="8.70896925514257E-6" finalScore="0.9998990512406156" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="1709">
+    <resource label="Data" uri="Data" contextualScore="0.03813150556183586" percentageOfSecondRank="0.029619403537660124" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9712326431819275" types=""/>
+  </surfaceForm>
+  <surfaceForm name="squared" offset="140">
+    <resource label="Exponentiation" uri="Exponentiation" contextualScore="0.9999846686962163" percentageOfSecondRank="4.0122179486158215E-6" support="908" priorScore="7.552764167783625E-6" finalScore="0.9999956008210932" types=""/>
+  </surfaceForm>
+  <surfaceForm name="implementation" offset="1246">
+    <resource label="Implementation" uri="Implementation" contextualScore="0.9999998137823414" percentageOfSecondRank="4.798926502714413E-9" support="371" priorScore="3.0859862403609303E-6" finalScore="0.9999999952010512" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="506">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.9951088557226664" percentageOfSecondRank="4.7157993192548943E-4" support="3570" priorScore="2.969533929403914E-5" finalScore="0.9993071751943292" types=""/>
+  </surfaceForm>
+  <surfaceForm name="suggested" offset="1424">
+    <resource label="Suggestion" uri="Suggestion" contextualScore="0.9883981832734858" percentageOfSecondRank="0.021816890960505233" support="126" priorScore="1.048070798613146E-6" finalScore="0.9786406114458782" types=""/>
+  </surfaceForm>
+  <surfaceForm name="key" offset="1117">
+    <resource label="Key (cryptography)" uri="Key_(cryptography)" contextualScore="0.738739607277904" percentageOfSecondRank="3.652165884289018E-4" support="2189" priorScore="1.820815062035061E-5" finalScore="0.9993932442629531" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="464">
+    <resource label="Data" uri="Data" contextualScore="0.03813150556183586" percentageOfSecondRank="0.029619403537660124" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9712326431819275" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimators" offset="1179">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.67327187017764E-9" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999963267783" types=""/>
+  </surfaceForm>
+  <surfaceForm name="variance" offset="1678">
+    <resource label="Variance" uri="Variance" contextualScore="0.9999999413761332" percentageOfSecondRank="4.39188640685165E-11" support="2398" priorScore="1.994661726249464E-5" finalScore="0.99999999995282" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="61">
+    <resource label="Data" uri="Data" contextualScore="0.03813150556183586" percentageOfSecondRank="0.029619403537660124" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9712326431819275" types=""/>
+  </surfaceForm>
+  <surfaceForm name="market" offset="1076">
+    <resource label="Financial market" uri="Financial_market" contextualScore="0.8841312994594064" percentageOfSecondRank="0.025952922841176743" support="612" priorScore="5.0906295932638526E-6" finalScore="0.2985658744000025" types=""/>
+    <resource label="Market" uri="Market" contextualScore="0.005735812626958102" percentageOfSecondRank="0.4332640604432318" support="4908" priorScore="4.082485301264541E-5" finalScore="0.689108332905729" types=""/>
+  </surfaceForm>
+  <surfaceForm name="finite" offset="826">
+    <resource label="Finite set" uri="Finite_set" contextualScore="0.9999404013436198" percentageOfSecondRank="7.23725741936848E-7" support="901" priorScore="7.494538012305117E-6" finalScore="0.9999991069043412" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data" offset="1032">
+    <resource label="Data" uri="Data" contextualScore="0.03813150556183586" percentageOfSecondRank="0.029619403537660124" support="7263" priorScore="6.041379532005778E-5" finalScore="0.9712326431819275" types=""/>
+  </surfaceForm>
+  <surfaceForm name="key" offset="1303">
+    <resource label="Key (cryptography)" uri="Key_(cryptography)" contextualScore="0.738739607277904" percentageOfSecondRank="3.652165884289018E-4" support="2189" priorScore="1.820815062035061E-5" finalScore="0.9993932442629531" types=""/>
+  </surfaceForm>
+  <surfaceForm name="returns" offset="532">
+    <resource label="Return on investment" uri="Return_on_investment" contextualScore="0.9963091450169868" percentageOfSecondRank="0.011046775849368508" support="318" priorScore="2.645131063166512E-6" finalScore="0.9890664982172779" types=""/>
+  </surfaceForm>
+  <surfaceForm name="actual" offset="1135">
+    <resource label="Horsepower" uri="Horsepower" contextualScore="0.31991365795267424" percentageOfSecondRank="3.0403514286296703E-4" support="2472" priorScore="2.0562150906124582E-5" finalScore="0.4118166894175642" types=""/>
+    <resource label="Damages" uri="Damages" contextualScore="0.6725706864941804" percentageOfSecondRank="0.7003136912284977" support="1679" priorScore="1.3965959292630733E-5" finalScore="0.5880460350491663" types=""/>
+  </surfaceForm>
+  <surfaceForm name="returns" offset="148">
+    <resource label="Return on investment" uri="Return_on_investment" contextualScore="0.9963091450169868" percentageOfSecondRank="0.011046775849368508" support="318" priorScore="2.645131063166512E-6" finalScore="0.9890664982172779" types=""/>
+  </surfaceForm>
+  <surfaceForm name="firm" offset="1607">
+    <resource label="Business" uri="Business" contextualScore="0.994351200002493" percentageOfSecondRank="6.099503619783798E-4" support="7541" priorScore="6.272620549477568E-5" finalScore="0.9993441406520359" types=""/>
+  </surfaceForm>
+  <surfaceForm name="convergence" offset="724">
+    <resource label="Convergence of random variables" uri="Convergence_of_random_variables" contextualScore="0.992684324063457" percentageOfSecondRank="0.02880704094791982" support="231" priorScore="1.921463130790768E-6" finalScore="0.9719974838377644" types=""/>
+  </surfaceForm>
+  <surfaceForm name="distributions" offset="756">
+    <resource label="Probability distribution" uri="Probability_distribution" contextualScore="1.0" percentageOfSecondRank="4.521602632163862E-17" support="2395" priorScore="1.9921663195860992E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="930">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999999999995453" percentageOfSecondRank="2.6906225950621655E-12" support="342" priorScore="2.844763596235682E-6" finalScore="0.9999999999972715" types=""/>
+  </surfaceForm>
+  <surfaceForm name="markets" offset="1142">
+    <resource label="Financial market" uri="Financial_market" contextualScore="0.21231241410613896" percentageOfSecondRank="0.10637611137752233" support="612" priorScore="5.0906295932638526E-6" finalScore="0.20908017546001095" types=""/>
+    <resource label="Market" uri="Market" contextualScore="0.0013773793852050614" percentageOfSecondRank="0.8553704371309073" support="4908" priorScore="4.082485301264541E-5" finalScore="0.2444323142161774" types=""/>
+    <resource label="Marketing" uri="Marketing" contextualScore="0.654488363130338" percentageOfSecondRank="0.46653702813506165" support="6343" priorScore="5.276121488573957E-5" finalScore="0.5239290763120621" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="1445">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999999999995453" percentageOfSecondRank="2.6906225950621655E-12" support="342" priorScore="2.844763596235682E-6" finalScore="0.9999999999972715" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ad hoc" offset="1457">
+    <resource label="Ad hoc" uri="Ad_hoc" contextualScore="0.9982099087663656" percentageOfSecondRank="2.735150557668622E-6" support="661" priorScore="5.498212681613409E-6" finalScore="0.9999972641038448" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sampled" offset="524">
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="0.943895313558869" percentageOfSecondRank="0.02364868895636212" support="904" priorScore="7.519492078938762E-6" finalScore="0.9768976513021733" types=""/>
+  </surfaceForm>
+  <surfaceForm name="realized" offset="75">
+    <resource label="Realization (probability)" uri="Realization_(probability)" contextualScore="0.9443983314046762" percentageOfSecondRank="0.09154418740923018" support="24" priorScore="1.996325330691707E-7" finalScore="0.9148488496422543" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sampling" offset="1714">
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="0.943895313558869" percentageOfSecondRank="0.0011291151225850458" support="904" priorScore="7.519492078938762E-6" finalScore="0.9988721583405382" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="1151">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999999999995453" percentageOfSecondRank="2.6906225950621655E-12" support="342" priorScore="2.844763596235682E-6" finalScore="0.9999999999972715" types=""/>
+  </surfaceForm>
+  <surfaceForm name="variance" offset="1555">
+    <resource label="Variance" uri="Variance" contextualScore="0.9999999413761332" percentageOfSecondRank="4.39188640685165E-11" support="2398" priorScore="1.994661726249464E-5" finalScore="0.99999999995282" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9996539080732334" percentageOfSecondRank="3.79915010359082E-5" support="626" priorScore="5.207081904220869E-6" finalScore="0.9999524274585088" types=""/>
+  </surfaceForm>
+  <surfaceForm name="relative" offset="670">
+    <resource label="Poverty" uri="Poverty" contextualScore="0.032422953367306245" percentageOfSecondRank="0.1423177306262224" support="5782" priorScore="4.8094804425247704E-5" finalScore="0.22689137855532243" types=""/>
+    <resource label="Relativism" uri="Relativism" contextualScore="0.8833951070347399" percentageOfSecondRank="0.30635256820872636" support="373" priorScore="3.102622284783361E-6" finalScore="0.7406217610055587" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimated" offset="96">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="1.1362654318416144E-6" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999988637358318" types=""/>
+  </surfaceForm>
+  <surfaceForm name="subsampling" offset="1484">
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="1.0" percentageOfSecondRank="5.2112244123674114E-23" support="904" priorScore="7.519492078938762E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="asymptotic" offset="745">
+    <resource label="Asymptote" uri="Asymptote" contextualScore="0.002230579670017015" percentageOfSecondRank="0.2783916405900772" support="305" priorScore="2.536996774420711E-6" finalScore="0.7661598096195646" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fact" offset="1448">
+    <resource label="Bayesian inference" uri="Bayesian_inference" contextualScore="1.0" percentageOfSecondRank="1.693274471307609E-17" support="498" priorScore="4.142375061185292E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="developed" offset="408">
+    <resource label="Software development" uri="Software_development" contextualScore="0.9922069373675974" percentageOfSecondRank="0.003503376978410989" support="1137" priorScore="9.45759125415196E-6" finalScore="0.9957417816477789" types=""/>
+  </surfaceForm>
+  <surfaceForm name="performance" offset="840">
+    <resource label="Computer performance" uri="Computer_performance" contextualScore="0.9830195656419226" percentageOfSecondRank="0.011635537300294652" support="201" priorScore="1.6719224644543046E-6" finalScore="0.9770464329133617" types=""/>
+  </surfaceForm>
+  <surfaceForm name="realized" offset="987">
+    <resource label="Realization (probability)" uri="Realization_(probability)" contextualScore="0.9443983314046762" percentageOfSecondRank="0.09154418740923018" support="24" priorScore="1.996325330691707E-7" finalScore="0.9148488496422543" types=""/>
+  </surfaceForm>
+  <surfaceForm name="artificial" offset="1045">
+    <resource label="Simulation" uri="Simulation" contextualScore="0.9999897174748196" percentageOfSecondRank="6.808327420913389E-5" support="2114" priorScore="1.7584298954509453E-5" finalScore="0.9999319213607756" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimators" offset="387">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.67327187017764E-9" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999963267783" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sample" offset="833">
+    <resource label="Sample (statistics)" uri="Sample_(statistics)" contextualScore="0.0561045836336365" percentageOfSecondRank="3.49622550162311E-8" support="1079" priorScore="8.975145965901466E-6" finalScore="0.33205660977303697" types=""/>
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="0.9438935839437015" percentageOfSecondRank="0.49713287144238977" support="904" priorScore="7.519492078938762E-6" finalScore="0.6679433786174757" types=""/>
+  </surfaceForm>
+  <surfaceForm name="implementing" offset="1654">
+    <resource label="Implementation" uri="Implementation" contextualScore="1.0" percentageOfSecondRank="0.0" support="371" priorScore="3.0859862403609303E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="findings" offset="1307">
+    <resource label="Feature (archaeology)" uri="Feature_(archaeology)" contextualScore="0.999980658247676" percentageOfSecondRank="8.497953386778468E-6" support="137" priorScore="1.139569042936516E-6" finalScore="0.9999909195885991" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimator" offset="1496">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.851747226581945E-8" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999614825591" types=""/>
+  </surfaceForm>
+  <surfaceForm name="guide" offset="817">
+    <resource label="Guide book" uri="Guide_book" contextualScore="0.3419896187302313" percentageOfSecondRank="0.10442071601556847" support="269" priorScore="2.2375479748169547E-6" finalScore="0.30578060416608754" types=""/>
+    <resource label="Sheet music" uri="Sheet_music" contextualScore="0.6300758135537288" percentageOfSecondRank="0.46754161920097403" support="1093" priorScore="9.091598276858483E-6" finalScore="0.6540179346785531" types=""/>
+  </surfaceForm>
+  <surfaceForm name="assumptions" offset="873">
+    <resource label="Economics" uri="Economics" contextualScore="0.0035689903782016685" percentageOfSecondRank="0.006750444343664113" support="13254" priorScore="1.1024706638744951E-4" finalScore="0.13914614164536845" types=""/>
+    <resource label="Axiom" uri="Axiom" contextualScore="0.9938189289201197" percentageOfSecondRank="0.1618179788561019" support="2059" priorScore="1.7126807732892604E-5" finalScore="0.8598929651018903" types=""/>
+  </surfaceForm>
+  <surfaceForm name="numerous" offset="366">
+    <resource label="Glossary of botanical terms" uri="Glossary_of_botanical_terms" contextualScore="0.08810304871470585" percentageOfSecondRank="2.059895318339482E-6" support="536" priorScore="4.458459905211479E-6" finalScore="0.1497657623361647" types=""/>
+    <resource label="Rover V8 engine" uri="Rover_V8_engine" contextualScore="0.9118726325555503" percentageOfSecondRank="0.17614657962225347" support="147" priorScore="1.2227492650486706E-6" finalScore="0.8502337238528137" types="DBpedia:Device, DBpedia:AutomobileEngine"/>
+  </surfaceForm>
+  <surfaceForm name="realized" offset="1669">
+    <resource label="Realization (probability)" uri="Realization_(probability)" contextualScore="0.9443983314046762" percentageOfSecondRank="0.09154418740923018" support="24" priorScore="1.996325330691707E-7" finalScore="0.9148488496422543" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimators" offset="1005">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.999998800946892" percentageOfSecondRank="3.67327187017764E-9" support="923" priorScore="7.677534500951857E-6" finalScore="0.9999999963267783" types=""/>
+  </surfaceForm>
+  <surfaceForm name="recommendations" offset="1622">
+    <resource label="Best practice" uri="Best_practice" contextualScore="0.9999998933767585" percentageOfSecondRank="3.040797313938238E-7" support="368" priorScore="3.061032173727284E-6" finalScore="0.9999996694153288" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sum" offset="133">
+    <resource label="Series (mathematics)" uri="Series_(mathematics)" contextualScore="0.19364679903259202" percentageOfSecondRank="0.31760054035803464" support="1374" priorScore="1.1428962518210022E-5" finalScore="0.3074007895191971" types=""/>
+    <resource label="Summation" uri="Summation" contextualScore="0.05828278539383838" percentageOfSecondRank="0.5167139688620933" support="589" priorScore="4.8993150824058975E-6" finalScore="0.5949148040184681" types=""/>
+  </surfaceForm>
+  <surfaceForm name="compare" offset="947">
+    <resource label="Comparison shopping website" uri="Comparison_shopping_website" contextualScore="0.9999998879295681" percentageOfSecondRank="4.0325154327275864E-8" support="107" priorScore="8.900283766000527E-7" finalScore="0.999999959646403" types=""/>
+  </surfaceForm>
+  <surfaceForm name="advised" offset="269">
+    <resource label="Miranda warning" uri="Miranda_warning" contextualScore="0.6827928523778023" percentageOfSecondRank="0.009058889513826275" support="307" priorScore="2.553632818843142E-6" finalScore="0.3645513694010033" types=""/>
+    <resource label="Advice (constitutional)" uri="Advice_(constitutional)" contextualScore="0.24938916150773574" percentageOfSecondRank="0.5766883833321903" support="265" priorScore="2.204275885972093E-6" finalScore="0.6321461987747556" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="1599">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.8909761490435989" percentageOfSecondRank="0.07484444841147207" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.9285465533528214" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="focused" offset="700">
+    <resource label="Focus (optics)" uri="Focus_(optics)" contextualScore="0.8850940743706986" percentageOfSecondRank="0.006409522328909778" support="1003" priorScore="8.342976277849091E-6" finalScore="0.993630816406778" types=""/>
+  </surfaceForm>
+  <surfaceForm name="viewpoint" offset="563">
+    <resource label="Perspective (cognitive)" uri="Perspective_(cognitive)" contextualScore="0.9860754325317325" percentageOfSecondRank="0.024563546702273488" support="208" priorScore="1.7301486199328126E-6" finalScore="0.9759769703331718" types=""/>
+  </surfaceForm>
+  <surfaceForm name="speed" offset="715">
+    <resource label="Speed of light" uri="Speed_of_light" contextualScore="0.5897279454217861" percentageOfSecondRank="0.252942739082274" support="2256" priorScore="1.8765458108502044E-5" finalScore="0.36553044119234046" types=""/>
+    <resource label="Speed" uri="Speed" contextualScore="0.022676780204848448" percentageOfSecondRank="0.6744069621859815" support="1709" priorScore="1.4215499958967196E-5" finalScore="0.5420027693776062" types=""/>
+  </surfaceForm>
+  <surfaceForm name="robustness" offset="1280">
+    <resource label="Robust statistics" uri="Robust_statistics" contextualScore="1.0" percentageOfSecondRank="1.1431624600783547E-19" support="371" priorScore="3.0859862403609303E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="drop" offset="280">
+    <resource label="Glossary of professional wrestling terms" uri="Glossary_of_professional_wrestling_terms" contextualScore="6.608085209878524E-4" percentageOfSecondRank="0.21736159726217857" support="9555" priorScore="7.947870222816359E-5" finalScore="0.10066721429614586" types=""/>
+    <resource label="Drop (music)" uri="Drop_(music)" contextualScore="0.8349721639137823" percentageOfSecondRank="0.3282100337547067" support="36" priorScore="2.99448799603756E-7" finalScore="0.30671583420079473" types=""/>
+    <resource label="Drop (liquid)" uri="Drop_(liquid)" contextualScore="0.08445348586445596" percentageOfSecondRank="0.539278346503979" support="352" priorScore="2.927943818347837E-6" finalScore="0.5687523635784097" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time series" offset="17">
+    <resource label="Time series" uri="Time_series" contextualScore="1.0" percentageOfSecondRank="7.509846566394694E-37" support="739" priorScore="6.147018414088214E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+</annotation>

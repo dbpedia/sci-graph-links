@@ -1,0 +1,428 @@
+<annotation text="Abstract A notion of a universal construction suited to distributed computing has been introduced by Herlihy in his celebrated paper “Wait-free synchronization” (ACM Trans Program Lang Syst 13(1):124–149, 1991). A universal construction is an algorithm that can be used to wait-free implement any object defined by a sequential specification. Herlihy’s paper shows that the basic system model, which supports only atomic read/write registers, has to be enriched with consensus objects to allow the design of universal constructions. The generalized notion of a k -universal construction has been recently introduced by Gafni and Guerraoui (Proceedings of 22nd international conference on concurrency theory (CONCUR’11), Springer LNCS 6901, pp 17–27, 2011). A k-universal construction is an algorithm that can be used to simultaneously implement k objects (instead of just one object), with the guarantee that at least one of the k constructed objects progresses forever. While Herlihy’s universal construction relies on atomic registers and consensus objects, a k-universal construction relies on atomic registers and k-simultaneous consensus objects (which are wait-free equivalent to k-set agreement objects in the read/write system model). This paper significantly extends the universality results introduced by Herlihy and Gafni–Guerraoui. In particular, we present a k-universal construction which satisfies the following five desired properties, which are not satisfied by the previous k-universal construction: (1) among the k objects that are constructed, at least $$\ell $$ ℓ objects (and not just one) are guaranteed to progress forever; (2) the progress condition for processes is wait-freedom, which means that each correct process executes an infinite number of operations on each object that progresses forever; (3) if any of the k constructed objects stops progressing, all its copies (one at each process) stop in the same state; (4) the proposed construction is contention-aware, in the sense that it uses only read/write registers in the absence of contention; and (5) it is generous with respect to the obstruction-freedom progress condition, which means that each process is able to complete any one of its pending operations on the k objects if all the other processes hold still long enough. The proposed construction, which is based on new design principles, is called a $$(k,\ell )$$ (k,ℓ) -universal construction. It uses a natural extension of k-simultaneous consensus objects, called $$(k,\ell )$$ (k,ℓ) -simultaneous consensus objects ($$(k,\ell )$$ (k,ℓ) -SC). Together with atomic registers, $$(k,\ell )$$ (k,ℓ) -SC objects are shown to be necessary and sufficient for building a $$(k,\ell )$$ (k,ℓ) -universal construction, and, in that sense, $$(k,\ell )$$ (k,ℓ) -SC objects are $$(k,\ell )$$ (k,ℓ) -$$ {universal}$$ universal .">
+  <surfaceForm name="construction" offset="1074">
+    <resource label="Statutory interpretation" uri="Statutory_interpretation" contextualScore="0.995004427518417" percentageOfSecondRank="0.006180949642190642" support="217" priorScore="1.8050108198337517E-6" finalScore="0.11871991099889001" types=""/>
+    <resource label="Construction" uri="Construction" contextualScore="8.718362659259856E-4" percentageOfSecondRank="0.13482533337838531" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.880546022205666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="respect" offset="2107">
+    <resource label="Respect" uri="Respect" contextualScore="0.9999999999995453" percentageOfSecondRank="0.0" support="375" priorScore="3.119258329205792E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="pending" offset="2227">
+    <resource label="Patent pending" uri="Patent_pending" contextualScore="0.999899215270765" percentageOfSecondRank="3.660445698933871E-4" support="38" priorScore="3.1608484402618693E-7" finalScore="0.9996340893690929" types=""/>
+  </surfaceForm>
+  <surfaceForm name="processes" offset="1679">
+    <resource label="Process (computing)" uri="Process_(computing)" contextualScore="0.999999999992724" percentageOfSecondRank="8.736828691781922E-13" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.9999999999990905" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2517">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="principles" offset="2370">
+    <resource label="Rule of inference" uri="Rule_of_inference" contextualScore="0.9995150133395527" percentageOfSecondRank="0.009425370278237359" support="323" priorScore="2.686721174222589E-6" finalScore="0.9906100150874684" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Lang" offset="180">
+    <resource label="Serge Lang" uri="Serge_Lang" contextualScore="0.9999974055367152" percentageOfSecondRank="6.623169030399518E-5" support="50" priorScore="4.159011105607723E-7" finalScore="0.9999301178901193" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:Scientist"/>
+  </surfaceForm>
+  <surfaceForm name="registers" offset="1027">
+    <resource label="Processor register" uri="Processor_register" contextualScore="0.9779914451758789" percentageOfSecondRank="4.298161036430654E-4" support="1159" priorScore="9.6405877427987E-6" finalScore="0.9995479491796575" types=""/>
+  </surfaceForm>
+  <surfaceForm name="object" offset="1794">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03459701740861437" percentageOfSecondRank="0.001427058846893164" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.3550200775120251" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9642377366906644" percentageOfSecondRank="0.5508696589930331" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.6444720120563312" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="2255">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2628">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="guarantee" offset="894">
+    <resource label="Surety" uri="Surety" contextualScore="0.6892797895598973" percentageOfSecondRank="0.003992743911237456" support="472" priorScore="3.926106483693691E-6" finalScore="0.995860115159532" types=""/>
+  </surfaceForm>
+  <surfaceForm name="conference" offset="674">
+    <resource label="Academic conference" uri="Academic_conference" contextualScore="0.9999868142713997" percentageOfSecondRank="1.888837346661203E-6" support="1071" priorScore="8.908601788211743E-6" finalScore="0.9999981109733306" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal construction" offset="987">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="2.9908415217563164E-23" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="write" offset="1222">
+    <resource label="Writing" uri="Writing" contextualScore="0.9999998164824033" percentageOfSecondRank="1.7149782306409324E-9" support="2310" priorScore="1.921463130790768E-5" finalScore="0.9999999981750989" types=""/>
+  </surfaceForm>
+  <surfaceForm name="progress" offset="1656">
+    <resource label="Resource starvation" uri="Resource_starvation" contextualScore="0.9999794786949847" percentageOfSecondRank="6.372165465357092E-4" support="61" priorScore="5.073993548841422E-7" finalScore="0.9993597712116131" types=""/>
+  </surfaceForm>
+  <surfaceForm name="constructed" offset="931">
+    <resource label="Construction" uri="Construction" contextualScore="0.9986308192046646" percentageOfSecondRank="2.422531317577587E-4" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.9997574796866256" types=""/>
+  </surfaceForm>
+  <surfaceForm name="constructed" offset="1846">
+    <resource label="Construction" uri="Construction" contextualScore="0.9986308192046646" percentageOfSecondRank="2.422531317577587E-4" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.9997574796866256" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universality" offset="1280">
+    <resource label="Turing completeness" uri="Turing_completeness" contextualScore="0.9965908968449747" percentageOfSecondRank="0.0025117503696982374" support="286" priorScore="2.3789543524076173E-6" finalScore="0.9974945425423063" types=""/>
+  </surfaceForm>
+  <surfaceForm name="based" offset="2350">
+    <resource label="Sampling (music)" uri="Sampling_(music)" contextualScore="0.8554704647542134" percentageOfSecondRank="0.06264124952826153" support="3570" priorScore="2.969533929403914E-5" finalScore="0.9361753832426467" types=""/>
+  </surfaceForm>
+  <surfaceForm name="LNCS" offset="729">
+    <resource label="Lecture Notes in Computer Science" uri="Lecture_Notes_in_Computer_Science" contextualScore="1.0" percentageOfSecondRank="0.0" support="38" priorScore="3.1608484402618693E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="790">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="1.0" percentageOfSecondRank="1.0585564740436565E-19" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="concurrency theory" offset="688">
+    <resource label="Concurrency (computer science)" uri="Concurrency_(computer_science)" contextualScore="1.0" percentageOfSecondRank="0.0" support="289" priorScore="2.4039084190412638E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="243">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="1.0" percentageOfSecondRank="1.0585564740436565E-19" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="1858">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="SC" offset="2585">
+    <resource label="South Carolina" uri="South_Carolina" contextualScore="0.930009091697364" percentageOfSecondRank="0.0022171926227151535" support="19933" priorScore="1.6580313673615748E-4" finalScore="0.9975754636386666" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
+  <surfaceForm name="Trans" offset="166">
+    <resource label="Transgender" uri="Transgender" contextualScore="0.23536244677181686" percentageOfSecondRank="0.024152966402517816" support="3198" priorScore="2.6601035031466993E-5" finalScore="0.2986042987554252" types=""/>
+    <resource label="Translation" uri="Translation" contextualScore="0.7400793269324661" percentageOfSecondRank="0.43049245030097844" support="4725" priorScore="3.930265494799298E-5" finalScore="0.6936342287690673" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal" offset="2836">
+    <resource label="Turing completeness" uri="Turing_completeness" contextualScore="0.9965904125267527" percentageOfSecondRank="7.09842495784293E-4" support="286" priorScore="2.3789543524076173E-6" finalScore="0.9992893239875769" types=""/>
+  </surfaceForm>
+  <surfaceForm name="suited" offset="46">
+    <resource label="Suit (clothing)" uri="Suit_(clothing)" contextualScore="0.12969421973590906" percentageOfSecondRank="0.0" support="545" priorScore="4.533322105112418E-6" finalScore="0.135964298747129" types=""/>
+    <resource label="Space suit" uri="Space_suit" contextualScore="0.4519161236524663" percentageOfSecondRank="0.33781450666879503" support="463" priorScore="3.851244283792751E-6" finalScore="0.40248211981148896" types=""/>
+    <resource label="Suit (cards)" uri="Suit_(cards)" contextualScore="0.41838965610441897" percentageOfSecondRank="0.8720160258683641" support="1147" priorScore="9.540771476264116E-6" finalScore="0.46155358143870395" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="943">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="registers" offset="1104">
+    <resource label="Processor register" uri="Processor_register" contextualScore="0.9779914451758789" percentageOfSecondRank="4.298161036430654E-4" support="1159" priorScore="9.6405877427987E-6" finalScore="0.9995479491796575" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Springer" offset="720">
+    <resource label="Axel Springer AG" uri="Axel_Springer_AG" contextualScore="0.18115887175179118" percentageOfSecondRank="0.21690951535776304" support="125" priorScore="1.0397527764019307E-6" finalScore="0.3969104871564222" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:Company"/>
+    <resource label="Jerry Springer" uri="Jerry_Springer" contextualScore="0.014656294671729258" percentageOfSecondRank="0.9493458033737937" support="372" priorScore="3.094304262572146E-6" finalScore="0.41808842020039283" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="This" offset="1243">
+    <resource label="Breast" uri="Breast" contextualScore="0.8304395026988795" percentageOfSecondRank="0.004479024470687059" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9952802897029718" types="DBpedia:AnatomicalStructure"/>
+  </surfaceForm>
+  <surfaceForm name="universal construction" offset="214">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="2.9908415217563164E-23" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ACM" offset="162">
+    <resource label="Association for Computing Machinery" uri="Association_for_Computing_Machinery" contextualScore="0.9999999997266968" percentageOfSecondRank="5.92883122946944E-14" support="1239" priorScore="1.0306029519695937E-5" finalScore="1.0" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation"/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="1051">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="object" offset="876">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03459701740861437" percentageOfSecondRank="0.001427058846893164" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.3550200775120251" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9642377366906644" percentageOfSecondRank="0.5508696589930331" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.6444720120563312" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simultaneous" offset="2532">
+    <resource label="Simultaneous equations" uri="Simultaneous_equations" contextualScore="0.9376514067835608" percentageOfSecondRank="0.04165633402816965" support="128" priorScore="1.064706843035577E-6" finalScore="0.9435797517601726" types=""/>
+  </surfaceForm>
+  <surfaceForm name="write" offset="426">
+    <resource label="Writing" uri="Writing" contextualScore="0.9999998164824033" percentageOfSecondRank="1.7149782306409324E-9" support="2310" priorScore="1.921463130790768E-5" finalScore="0.9999999981750989" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="1534">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="construction" offset="1504">
+    <resource label="Statutory interpretation" uri="Statutory_interpretation" contextualScore="0.995004427518417" percentageOfSecondRank="0.006180949642190642" support="217" priorScore="1.8050108198337517E-6" finalScore="0.11871991099889001" types=""/>
+    <resource label="Construction" uri="Construction" contextualScore="8.718362659259856E-4" percentageOfSecondRank="0.13482533337838531" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.880546022205666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="construction" offset="771">
+    <resource label="Statutory interpretation" uri="Statutory_interpretation" contextualScore="0.995004427518417" percentageOfSecondRank="0.006180949642190642" support="217" priorScore="1.8050108198337517E-6" finalScore="0.11871991099889001" types=""/>
+    <resource label="Construction" uri="Construction" contextualScore="8.718362659259856E-4" percentageOfSecondRank="0.13482533337838531" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.880546022205666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="contention" offset="2067">
+    <resource label="Shared resource" uri="Shared_resource" contextualScore="0.9998690804698935" percentageOfSecondRank="7.990275650793058E-5" support="91" priorScore="7.569400212206055E-7" finalScore="0.999920046470641" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal constructions" offset="508">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="1.39572604348626E-22" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="process" offset="1913">
+    <resource label="Process (computing)" uri="Process_(computing)" contextualScore="0.999969853244368" percentageOfSecondRank="4.140341028727563E-7" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.999999585965583" types=""/>
+  </surfaceForm>
+  <surfaceForm name="extension" offset="2457">
+    <resource label="Extension (semantics)" uri="Extension_(semantics)" contextualScore="0.9997494027267118" percentageOfSecondRank="8.496246436308652E-4" support="111" priorScore="9.233004654449144E-7" finalScore="0.9991362812660738" types=""/>
+  </surfaceForm>
+  <surfaceForm name="satisfies" offset="1403">
+    <resource label="Satisfiability" uri="Satisfiability" contextualScore="0.9999999982715053" percentageOfSecondRank="4.1712401590155227E-11" support="102" priorScore="8.484382655439755E-7" finalScore="0.9999999999583906" types=""/>
+  </surfaceForm>
+  <surfaceForm name="registers" offset="432">
+    <resource label="Processor register" uri="Processor_register" contextualScore="0.9779914451758789" percentageOfSecondRank="4.298161036430654E-4" support="1159" priorScore="9.6405877427987E-6" finalScore="0.9995479491796575" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="533">
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.9957649137971636" percentageOfSecondRank="7.250746371774499E-4" support="6340" priorScore="5.273626081910593E-5" finalScore="0.9992740276435008" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="universal" offset="2849">
+    <resource label="Turing completeness" uri="Turing_completeness" contextualScore="0.9965904125267527" percentageOfSecondRank="7.09842495784293E-4" support="286" priorScore="2.3789543524076173E-6" finalScore="0.9992893239875769" types=""/>
+  </surfaceForm>
+  <surfaceForm name="called" offset="2504">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9995855305572704" percentageOfSecondRank="9.756409583744333E-5" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999024454219207" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simultaneously" offset="820">
+    <resource label="Simultaneous equations" uri="Simultaneous_equations" contextualScore="0.9998592437727509" percentageOfSecondRank="0.0013076740059523259" support="128" priorScore="1.064706843035577E-6" finalScore="0.9986940218346926" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="1202">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="wait-free" offset="1162">
+    <resource label="Non-blocking algorithm" uri="Non-blocking_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="52" priorScore="4.3253715498320316E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="1344">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="0.9999999939921054" percentageOfSecondRank="3.825187840697949E-8" support="342" priorScore="2.844763596235682E-6" finalScore="0.9999999617477905" types=""/>
+  </surfaceForm>
+  <surfaceForm name="It" offset="2439">
+    <resource label="Wikipedia" uri="Wikipedia" contextualScore="0.9457657510102654" percentageOfSecondRank="0.002542796794891391" support="21139" priorScore="1.758346715228833E-4" finalScore="0.9971650354347608" types="Schema:CreativeWork, DBpedia:Work, Schema:WebPage, DBpedia:Website"/>
+  </surfaceForm>
+  <surfaceForm name="implement" offset="283">
+    <resource label="Implementation" uri="Implementation" contextualScore="0.9999988684432574" percentageOfSecondRank="1.3534470234999936E-6" support="371" priorScore="3.0859862403609303E-6" finalScore="0.9999986465547928" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="2555">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2400">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generalized" offset="537">
+    <resource label="Generalization" uri="Generalization" contextualScore="0.9995937202882416" percentageOfSecondRank="1.5461942574339292E-4" support="138" priorScore="1.1478870651477315E-6" finalScore="0.9998454037422743" types=""/>
+  </surfaceForm>
+  <surfaceForm name="implement" offset="835">
+    <resource label="Implementation" uri="Implementation" contextualScore="0.9999988684432574" percentageOfSecondRank="1.3534470234999936E-6" support="371" priorScore="3.0859862403609303E-6" finalScore="0.9999986465547928" types=""/>
+  </surfaceForm>
+  <surfaceForm name="process" offset="1736">
+    <resource label="Process (computing)" uri="Process_(computing)" contextualScore="0.999969853244368" percentageOfSecondRank="4.140341028727563E-7" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.999999585965583" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal construction" offset="2415">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="2.9908415217563164E-23" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="477">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="SC" offset="2796">
+    <resource label="South Carolina" uri="South_Carolina" contextualScore="0.930009091697364" percentageOfSecondRank="0.0022171926227151535" support="19933" priorScore="1.6580313673615748E-4" finalScore="0.9975754636386666" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
+  <surfaceForm name="celebrated" offset="116">
+    <resource label="Celebrity" uri="Celebrity" contextualScore="0.8967603685961457" percentageOfSecondRank="0.02654648797412928" support="2610" priorScore="2.1710037971272313E-5" finalScore="0.9737388335678423" types=""/>
+  </surfaceForm>
+  <surfaceForm name="desired" offset="1432">
+    <resource label="Motivation" uri="Motivation" contextualScore="0.973876446316834" percentageOfSecondRank="0.001084595052201299" support="1352" priorScore="1.1245966029563282E-5" finalScore="0.9989165677455728" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generous" offset="2093">
+    <resource label="Generosity" uri="Generosity" contextualScore="0.9999979903852547" percentageOfSecondRank="0.0" support="58" priorScore="4.824452882504958E-7" finalScore="0.9999999631058933" types=""/>
+  </surfaceForm>
+  <surfaceForm name="constructed" offset="1551">
+    <resource label="Construction" uri="Construction" contextualScore="0.9986308192046646" percentageOfSecondRank="2.422531317577587E-4" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.9997574796866256" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hold" offset="2290">
+    <resource label="Holding (aviation)" uri="Holding_(aviation)" contextualScore="0.2975635293107413" percentageOfSecondRank="0.062303159848129515" support="74" priorScore="6.15533643629943E-7" finalScore="0.12148589291244145" types=""/>
+    <resource label="Hold (ship)" uri="Hold_(ship)" contextualScore="0.03332017210562426" percentageOfSecondRank="0.3063932605112888" support="203" priorScore="1.6885585088767355E-6" finalScore="0.39650314993780816" types=""/>
+    <resource label="Hold (baseball)" uri="Hold_(baseball)" contextualScore="0.6346637177383175" percentageOfSecondRank="0.8395703320643214" support="83" priorScore="6.90395843530882E-7" finalScore="0.47226912957118544" types=""/>
+  </surfaceForm>
+  <surfaceForm name="basic" offset="374">
+    <resource label="Base (chemistry)" uri="Base_(chemistry)" contextualScore="0.8129104924542194" percentageOfSecondRank="9.634638967728779E-4" support="1552" priorScore="1.2909570471806371E-5" finalScore="0.998882631320495" types=""/>
+  </surfaceForm>
+  <surfaceForm name="write" offset="2033">
+    <resource label="Writing" uri="Writing" contextualScore="0.9999998164824033" percentageOfSecondRank="1.7149782306409324E-9" support="2310" priorScore="1.921463130790768E-5" finalScore="0.9999999981750989" types=""/>
+  </surfaceForm>
+  <surfaceForm name="executes" offset="1744">
+    <resource label="Execution (computing)" uri="Execution_(computing)" contextualScore="1.0" percentageOfSecondRank="3.381458064815806E-12" support="238" priorScore="1.979689286269276E-6" finalScore="0.9999999999965894" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="2495">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal construction" offset="564">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="2.9908415217563164E-23" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="2314">
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.9957649137971636" percentageOfSecondRank="7.250746371774499E-4" support="6340" priorScore="5.273626081910593E-5" finalScore="0.9992740276435008" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="Proceedings" offset="640">
+    <resource label="Proceedings" uri="Proceedings" contextualScore="0.9999999153487842" percentageOfSecondRank="1.872956762382871E-9" support="160" priorScore="1.3308835537944714E-6" finalScore="0.9999999981123437" types=""/>
+  </surfaceForm>
+  <surfaceForm name="wait-free" offset="273">
+    <resource label="Non-blocking algorithm" uri="Non-blocking_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="52" priorScore="4.3253715498320316E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="specification" offset="328">
+    <resource label="Formal specification" uri="Formal_specification" contextualScore="0.6900348261173469" percentageOfSecondRank="0.012795274270143469" support="129" priorScore="1.0730248652467924E-6" finalScore="0.9774636389996334" types=""/>
+  </surfaceForm>
+  <surfaceForm name="notion" offset="11">
+    <resource label="Urban legend" uri="Urban_legend" contextualScore="0.9997570718993111" percentageOfSecondRank="9.266265554166051E-6" support="1180" priorScore="9.815266209234225E-6" finalScore="0.9999907337791718" types=""/>
+  </surfaceForm>
+  <surfaceForm name="construction" offset="1384">
+    <resource label="Statutory interpretation" uri="Statutory_interpretation" contextualScore="0.995004427518417" percentageOfSecondRank="0.006180949642190642" support="217" priorScore="1.8050108198337517E-6" finalScore="0.11871991099889001" types=""/>
+    <resource label="Construction" uri="Construction" contextualScore="8.718362659259856E-4" percentageOfSecondRank="0.13482533337838531" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.880546022205666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="atomic" offset="1097">
+    <resource label="Linearizability" uri="Linearizability" contextualScore="0.9999999999893134" percentageOfSecondRank="1.9242828492714494E-11" support="151" priorScore="1.2560213538935323E-6" finalScore="0.9999999999781721" types=""/>
+  </surfaceForm>
+  <surfaceForm name="condition" offset="2151">
+    <resource label="Disease" uri="Disease" contextualScore="0.921244672489067" percentageOfSecondRank="1.2896993269728965E-4" support="7304" priorScore="6.0754834230717615E-5" finalScore="0.9996952364234925" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="847">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="synchronization" offset="144">
+    <resource label="Synchronization (computer science)" uri="Synchronization_(computer_science)" contextualScore="0.9999999995520739" percentageOfSecondRank="8.592743517630343E-9" support="152" priorScore="1.2643393761047477E-6" finalScore="0.9999999914073214" types=""/>
+  </surfaceForm>
+  <surfaceForm name="natural" offset="2449">
+    <resource label="Nature" uri="Nature" contextualScore="0.012005807975508856" percentageOfSecondRank="5.877493752884775E-4" support="3417" priorScore="2.842268189572318E-5" finalScore="0.48296023661340415" types=""/>
+    <resource label="Natural transformation" uri="Natural_transformation" contextualScore="0.9879083655211179" percentageOfSecondRank="0.9348950958639008" support="263" priorScore="2.187639841549662E-6" finalScore="0.5165929725699535" types=""/>
+  </surfaceForm>
+  <surfaceForm name="called" offset="2385">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9995855305572704" percentageOfSecondRank="9.756409583744333E-5" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999024454219207" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="1585">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="progress" offset="1630">
+    <resource label="Resource starvation" uri="Resource_starvation" contextualScore="0.9999794786949847" percentageOfSecondRank="6.372165465357092E-4" support="61" priorScore="5.073993548841422E-7" finalScore="0.9993597712116131" types=""/>
+  </surfaceForm>
+  <surfaceForm name="progress" offset="2142">
+    <resource label="Resource starvation" uri="Resource_starvation" contextualScore="0.9999794786949847" percentageOfSecondRank="6.372165465357092E-4" support="61" priorScore="5.073993548841422E-7" finalScore="0.9993597712116131" types=""/>
+  </surfaceForm>
+  <surfaceForm name="number" offset="1765">
+    <resource label="Natural number" uri="Natural_number" contextualScore="0.9999939410592397" percentageOfSecondRank="1.6852733262814762E-4" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.999828683819719" types=""/>
+  </surfaceForm>
+  <surfaceForm name="registers" offset="2039">
+    <resource label="Processor register" uri="Processor_register" contextualScore="0.9779914451758789" percentageOfSecondRank="4.298161036430654E-4" support="1159" priorScore="9.6405877427987E-6" finalScore="0.9995479491796575" types=""/>
+  </surfaceForm>
+  <surfaceForm name="process" offset="2184">
+    <resource label="Process (computing)" uri="Process_(computing)" contextualScore="0.999969853244368" percentageOfSecondRank="4.140341028727563E-7" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.999999585965583" types=""/>
+  </surfaceForm>
+  <surfaceForm name="operations" offset="2235">
+    <resource label="Binary operation" uri="Binary_operation" contextualScore="0.6084012741283626" percentageOfSecondRank="2.8021552309979225E-11" support="450" priorScore="3.7431099950469503E-6" finalScore="0.18502177724738092" types=""/>
+    <resource label="Instruction set" uri="Instruction_set" contextualScore="0.2340408279005148" percentageOfSecondRank="0.8857076251588331" support="1761" priorScore="1.46480371139504E-5" finalScore="0.20889712585933892" types=""/>
+    <resource label="Operation (mathematics)" uri="Operation_(mathematics)" contextualScore="0.157557897937014" percentageOfSecondRank="0.3446686044692764" support="526" priorScore="4.375279683099324E-6" finalScore="0.6060810968872562" types=""/>
+  </surfaceForm>
+  <surfaceForm name="guaranteed" offset="1616">
+    <resource label="Surety" uri="Surety" contextualScore="0.997888417086132" percentageOfSecondRank="4.841793400959882E-4" support="472" priorScore="3.926106483693691E-6" finalScore="0.9995160548973584" types=""/>
+  </surfaceForm>
+  <surfaceForm name="construction" offset="1963">
+    <resource label="Statutory interpretation" uri="Statutory_interpretation" contextualScore="0.995004427518417" percentageOfSecondRank="0.006180949642190642" support="217" priorScore="1.8050108198337517E-6" finalScore="0.11871991099889001" types=""/>
+    <resource label="Construction" uri="Construction" contextualScore="8.718362659259856E-4" percentageOfSecondRank="0.13482533337838531" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.880546022205666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="read" offset="1217">
+    <resource label="Reading (process)" uri="Reading_(process)" contextualScore="0.905515443227053" percentageOfSecondRank="0.005187311305583435" support="1693" priorScore="1.408241160358775E-5" finalScore="0.9947884293748496" types=""/>
+  </surfaceForm>
+  <surfaceForm name="infinite" offset="1756">
+    <resource label="Finite set" uri="Finite_set" contextualScore="0.8999924574422091" percentageOfSecondRank="0.027534413100544892" support="901" priorScore="7.494538012305117E-6" finalScore="0.9588129075012479" types=""/>
+  </surfaceForm>
+  <surfaceForm name="atomic" offset="1020">
+    <resource label="Linearizability" uri="Linearizability" contextualScore="0.9999999999893134" percentageOfSecondRank="1.9242828492714494E-11" support="151" priorScore="1.2560213538935323E-6" finalScore="0.9999999999781721" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2570">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="processes" offset="2280">
+    <resource label="Process (computing)" uri="Process_(computing)" contextualScore="0.999999999992724" percentageOfSecondRank="8.736828691781922E-13" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.9999999999990905" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="1143">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2716">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="defined" offset="304">
+    <resource label="Definition" uri="Definition" contextualScore="0.9964156907122317" percentageOfSecondRank="0.011483193064998712" support="682" priorScore="5.672891148048934E-6" finalScore="0.9886289245105513" types=""/>
+  </surfaceForm>
+  <surfaceForm name="SC" offset="2643">
+    <resource label="South Carolina" uri="South_Carolina" contextualScore="0.930009091697364" percentageOfSecondRank="0.0022171926227151535" support="19933" priorScore="1.6580313673615748E-4" finalScore="0.9975754636386666" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9976366239223993" percentageOfSecondRank="3.393250339180287E-4" support="626" priorScore="5.207081904220869E-6" finalScore="0.9996607891631876" types=""/>
+  </surfaceForm>
+  <surfaceForm name="registers" offset="2611">
+    <resource label="Processor register" uri="Processor_register" contextualScore="0.9779914451758789" percentageOfSecondRank="4.298161036430654E-4" support="1159" priorScore="9.6405877427987E-6" finalScore="0.9995479491796575" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2781">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="construction" offset="2327">
+    <resource label="Statutory interpretation" uri="Statutory_interpretation" contextualScore="0.995004427518417" percentageOfSecondRank="0.006180949642190642" support="217" priorScore="1.8050108198337517E-6" finalScore="0.11871991099889001" types=""/>
+    <resource label="Construction" uri="Construction" contextualScore="8.718362659259856E-4" percentageOfSecondRank="0.13482533337838531" support="4915" priorScore="4.0883079168123915E-5" finalScore="0.880546022205666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="copies" offset="1893">
+    <resource label="Photocopier" uri="Photocopier" contextualScore="0.5874288782250287" percentageOfSecondRank="0.32039549938596273" support="419" priorScore="3.485251306499272E-6" finalScore="0.2140461647449448" types=""/>
+    <resource label="Allele" uri="Allele" contextualScore="0.3779485074087261" percentageOfSecondRank="0.29845711384717794" support="2182" priorScore="1.81499244648721E-5" finalScore="0.7171756169113968" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal construction" offset="2731">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="2.9908415217563164E-23" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="atomic" offset="414">
+    <resource label="Linearizability" uri="Linearizability" contextualScore="0.9999999999893134" percentageOfSecondRank="1.9242828492714494E-11" support="151" priorScore="1.2560213538935323E-6" finalScore="0.9999999999781721" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="2817">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="satisfied" offset="1466">
+    <resource label="Satisfiability" uri="Satisfiability" contextualScore="0.9999997429174858" percentageOfSecondRank="2.2179665155878967E-8" support="102" priorScore="8.484382655439755E-7" finalScore="0.9999999778203803" types=""/>
+  </surfaceForm>
+  <surfaceForm name="notion" offset="549">
+    <resource label="Urban legend" uri="Urban_legend" contextualScore="0.9997570718993111" percentageOfSecondRank="9.266265554166051E-6" support="1180" priorScore="9.815266209234225E-6" finalScore="0.9999907337791718" types=""/>
+  </surfaceForm>
+  <surfaceForm name="operations" offset="1775">
+    <resource label="Binary operation" uri="Binary_operation" contextualScore="0.6084012741283626" percentageOfSecondRank="2.8021552309979225E-11" support="450" priorScore="3.7431099950469503E-6" finalScore="0.18502177724738092" types=""/>
+    <resource label="Instruction set" uri="Instruction_set" contextualScore="0.2340408279005148" percentageOfSecondRank="0.8857076251588331" support="1761" priorScore="1.46480371139504E-5" finalScore="0.20889712585933892" types=""/>
+    <resource label="Operation (mathematics)" uri="Operation_(mathematics)" contextualScore="0.157557897937014" percentageOfSecondRank="0.3446686044692764" support="526" priorScore="4.375279683099324E-6" finalScore="0.6060810968872562" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ell" offset="1576">
+    <resource label="Ell" uri="Ell" contextualScore="0.9189881507809587" percentageOfSecondRank="0.03591431222715181" support="162" priorScore="1.3475195982169022E-6" finalScore="0.9653308079578949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="distributed computing" offset="56">
+    <resource label="Distributed computing" uri="Distributed_computing" contextualScore="1.0" percentageOfSecondRank="9.560123594341155E-24" support="1035" priorScore="8.609152988607987E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="condition" offset="1665">
+    <resource label="Disease" uri="Disease" contextualScore="0.921244672489067" percentageOfSecondRank="1.2896993269728965E-4" support="7304" priorScore="6.0754834230717615E-5" finalScore="0.9996952364234925" types=""/>
+  </surfaceForm>
+  <surfaceForm name="supports" offset="400">
+    <resource label="Support (mathematics)" uri="Support_(mathematics)" contextualScore="0.9999996659797137" percentageOfSecondRank="5.298558558396802E-8" support="355" priorScore="2.952897884981483E-6" finalScore="0.9999999199242243" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="2646">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="read" offset="2028">
+    <resource label="Reading (process)" uri="Reading_(process)" contextualScore="0.905515443227053" percentageOfSecondRank="0.005187311305583435" support="1693" priorScore="1.408241160358775E-5" finalScore="0.9947884293748496" types=""/>
+  </surfaceForm>
+  <surfaceForm name="object" offset="297">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03459701740861437" percentageOfSecondRank="0.001427058846893164" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.3550200775120251" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9642377366906644" percentageOfSecondRank="0.5508696589930331" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.6444720120563312" types=""/>
+  </surfaceForm>
+  <surfaceForm name="atomic" offset="2604">
+    <resource label="Linearizability" uri="Linearizability" contextualScore="0.9999999999893134" percentageOfSecondRank="1.9242828492714494E-11" support="151" priorScore="1.2560213538935323E-6" finalScore="0.9999999999781721" types=""/>
+  </surfaceForm>
+  <surfaceForm name="proposed" offset="2318">
+    <resource label="United Nations Partition Plan for Palestine" uri="United_Nations_Partition_Plan_for_Palestine" contextualScore="0.686748231598783" percentageOfSecondRank="0.0593236859027998" support="488" priorScore="4.0591948390731375E-6" finalScore="0.9436936096990357" types=""/>
+  </surfaceForm>
+  <surfaceForm name="read" offset="421">
+    <resource label="Reading (process)" uri="Reading_(process)" contextualScore="0.905515443227053" percentageOfSecondRank="0.005187311305583435" support="1693" priorScore="1.408241160358775E-5" finalScore="0.9947884293748496" types=""/>
+  </surfaceForm>
+  <surfaceForm name="universal construction" offset="23">
+    <resource label="Universal property" uri="Universal_property" contextualScore="1.0" percentageOfSecondRank="2.9908415217563164E-23" support="283" priorScore="2.354000285773971E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objects" offset="2799">
+    <resource label="Object (computer science)" uri="Object_(computer_science)" contextualScore="0.03448979621160545" percentageOfSecondRank="0.006564072810884742" support="1831" priorScore="1.5230298668735482E-5" finalScore="0.2457345075797802" types=""/>
+    <resource label="Object-oriented programming" uri="Object-oriented_programming" contextualScore="0.9612494234754505" percentageOfSecondRank="0.32676489127678493" support="1888" priorScore="1.5704425934774763E-5" finalScore="0.7520223688034825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="long" offset="2301">
+    <resource label="Vowel length" uri="Vowel_length" contextualScore="0.05035708172687749" percentageOfSecondRank="0.24972043265410004" support="840" priorScore="6.987138657420974E-6" finalScore="0.316732984617865" types=""/>
+    <resource label="Glossary of chess" uri="Glossary_of_chess" contextualScore="0.5252716476556464" percentageOfSecondRank="0.5830201829809153" support="3315" priorScore="2.7574243630179203E-5" finalScore="0.5432624699173287" types=""/>
+  </surfaceForm>
+  <surfaceForm name="international" offset="660">
+    <resource label="International law" uri="International_law" contextualScore="0.9999194876309878" percentageOfSecondRank="4.731591315658778E-4" support="3217" priorScore="2.6759077453480088E-5" finalScore="0.9995244700689914" types=""/>
+  </surfaceForm>
+</annotation>

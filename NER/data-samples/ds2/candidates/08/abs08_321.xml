@@ -1,0 +1,233 @@
+<annotation text="Abstract Storing and retrieving strings in main memory is a fundamental problem in computer science. The efficiency of string data structures used for this task is of paramount importance for applications such as in-memory databases, text-based search engines and dictionaries. The burst trie is a leading choice for such tasks, as it can provide fast sorted access to strings. The burst trie, however, uses linked lists as substructures which can result in poor use of CPU cache and main memory. Previous research addressed this issue by replacing linked lists with dynamic arrays forming a cache-conscious array burst trie. Though faster, this variant can incur high instruction costs which can hinder its efficiency. Thus, engineering a fast, compact, and scalable trie for strings remains an open problem. In this paper, we introduce a novel and practical solution that carefully combines a trie with a hash table, creating a variant of burst trie called HAT-trie. We provide a thorough experimental analysis which demonstrates that for large set of strings and on alternative computing architectures, the HAT-trie—and two novel variants engineered to achieve further space-efficiency—is currently the leading in-memory trie-based data structure offering rapid, compact, and scalable storage and retrieval of variable-length strings.">
+  <surfaceForm name="trie" offset="895">
+    <resource label="Trie" uri="Trie" contextualScore="1.0" percentageOfSecondRank="0.0" support="135" priorScore="1.1229329985140852E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="in-memory" offset="213">
+    <resource label="In-memory database" uri="In-memory_database" contextualScore="1.0" percentageOfSecondRank="0.0" support="92" priorScore="7.65258043431821E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hash table" offset="907">
+    <resource label="Hash table" uri="Hash_table" contextualScore="1.0" percentageOfSecondRank="0.0" support="443" priorScore="3.6848838395684425E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solution" offset="860">
+    <resource label="Solution" uri="Solution" contextualScore="0.97672511517289" percentageOfSecondRank="3.5241413057067076E-5" support="3434" priorScore="2.856408827331384E-5" finalScore="0.9999647496941942" types=""/>
+  </surfaceForm>
+  <surfaceForm name="open problem" offset="796">
+    <resource label="Open problem" uri="Open_problem" contextualScore="0.9997505781081609" percentageOfSecondRank="3.177392062736611E-5" support="53" priorScore="4.408551771944186E-7" finalScore="0.9999682270888571" types=""/>
+  </surfaceForm>
+  <surfaceForm name="choice" offset="306">
+    <resource label="Utility" uri="Utility" contextualScore="0.9298619396659372" percentageOfSecondRank="0.020035703828754386" support="1608" priorScore="1.3375379715634437E-5" finalScore="0.9675506210133415" types=""/>
+  </surfaceForm>
+  <surfaceForm name="experimental" offset="991">
+    <resource label="Experiment" uri="Experiment" contextualScore="0.9999995019748088" percentageOfSecondRank="3.2846627879416726E-9" support="1933" priorScore="1.6078736934279456E-5" finalScore="0.9999999962174115" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sorted" offset="352">
+    <resource label="Sorting algorithm" uri="Sorting_algorithm" contextualScore="0.9999999124669369" percentageOfSecondRank="2.3199114819327374E-9" support="368" priorScore="3.061032173727284E-6" finalScore="0.9999999958469061" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trie" offset="620">
+    <resource label="Trie" uri="Trie" contextualScore="1.0" percentageOfSecondRank="0.0" support="135" priorScore="1.1229329985140852E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="strings" offset="369">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="1.0" percentageOfSecondRank="2.807941331488708E-19" support="1701" priorScore="1.4148955781277473E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="448">
+    <resource label="Return statement" uri="Return_statement" contextualScore="0.9999997207882351" percentageOfSecondRank="1.5847647400792883E-6" support="100" priorScore="8.318022211215446E-7" finalScore="0.99999837633818" types=""/>
+  </surfaceForm>
+  <surfaceForm name="text-based" offset="234">
+    <resource label="Command-line interface" uri="Command-line_interface" contextualScore="0.9999998438352244" percentageOfSecondRank="2.119598789583373E-8" support="1097" priorScore="9.124870365703344E-6" finalScore="0.9999999726339869" types=""/>
+  </surfaceForm>
+  <surfaceForm name="applications" offset="192">
+    <resource label="Application software" uri="Application_software" contextualScore="7.556200553587367E-4" percentageOfSecondRank="0.010805926096580805" support="3689" priorScore="3.0685183937173776E-5" finalScore="0.16850138012717192" types=""/>
+    <resource label="Computer program" uri="Computer_program" contextualScore="0.9991414420660931" percentageOfSecondRank="0.2030925484868147" support="2681" priorScore="2.230061754826861E-5" finalScore="0.829677806412043" types=""/>
+  </surfaceForm>
+  <surfaceForm name="called" offset="952">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9998939755332413" percentageOfSecondRank="2.494994617644626E-5" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999750506762771" types=""/>
+  </surfaceForm>
+  <surfaceForm name="dictionaries" offset="264">
+    <resource label="Hash table" uri="Hash_table" contextualScore="0.9992724876024731" percentageOfSecondRank="0.004125023845025893" support="443" priorScore="3.6848838395684425E-6" finalScore="0.9958919220743666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Previous" offset="497">
+    <resource label="2013 Indonesia Super League" uri="2013_Indonesia_Super_League" contextualScore="0.9909681919087253" percentageOfSecondRank="0.004045021558560057" support="46" priorScore="3.826290217159105E-7" finalScore="0.9958775188628194" types="DBpedia:SportsSeason, DBpedia:SportsTeamSeason, DBpedia:FootballLeagueSeason"/>
+  </surfaceForm>
+  <surfaceForm name="compact" offset="1266">
+    <resource label="Compact space" uri="Compact_space" contextualScore="0.483968497781714" percentageOfSecondRank="0.003409780912313275" support="1789" priorScore="1.4880941735864432E-5" finalScore="0.9960125700452063" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data structure" offset="1235">
+    <resource label="Data structure" uri="Data_structure" contextualScore="1.0" percentageOfSecondRank="2.8075203782435557E-26" support="1007" priorScore="8.376248366693954E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="provide" offset="972">
+    <resource label="Income" uri="Income" contextualScore="0.9999879472713816" percentageOfSecondRank="4.827348178983535E-6" support="4277" priorScore="3.557618099736846E-5" finalScore="0.9999951726751406" types=""/>
+  </surfaceForm>
+  <surfaceForm name="engineered" offset="1142">
+    <resource label="Materials science" uri="Materials_science" contextualScore="0.9057726741231527" percentageOfSecondRank="0.004688581987205947" support="1198" priorScore="9.964990609036104E-6" finalScore="0.10704020933406648" types=""/>
+    <resource label="Engineering" uri="Engineering" contextualScore="0.05232891956992785" percentageOfSecondRank="0.11995570658834905" support="12805" priorScore="1.0651227441461378E-4" finalScore="0.8923311143620322" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="101">
+    <resource label="English articles" uri="English_articles" contextualScore="0.8547735291826966" percentageOfSecondRank="0.0015845540428149698" support="5094" priorScore="4.237200514393148E-5" finalScore="0.9984075886225875" types=""/>
+  </surfaceForm>
+  <surfaceForm name="CPU cache" offset="470">
+    <resource label="CPU cache" uri="CPU_cache" contextualScore="1.0" percentageOfSecondRank="0.0" support="1317" priorScore="1.0954835252170742E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="access" offset="359">
+    <resource label="Access control" uri="Access_control" contextualScore="0.9979767961975435" percentageOfSecondRank="0.0010480830459582307" support="402" priorScore="3.3438449289086093E-6" finalScore="0.9988617124892198" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trie" offset="768">
+    <resource label="Trie" uri="Trie" contextualScore="1.0" percentageOfSecondRank="0.0" support="135" priorScore="1.1229329985140852E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="linked lists" offset="549">
+    <resource label="Linked list" uri="Linked_list" contextualScore="1.0" percentageOfSecondRank="0.0" support="221" priorScore="1.8382829086786135E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="in-memory" offset="1214">
+    <resource label="In-memory database" uri="In-memory_database" contextualScore="1.0" percentageOfSecondRank="0.0" support="92" priorScore="7.65258043431821E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="378">
+    <resource label="English articles" uri="English_articles" contextualScore="0.8547735291826966" percentageOfSecondRank="0.0015845540428149698" support="5094" priorScore="4.237200514393148E-5" finalScore="0.9984075886225875" types=""/>
+  </surfaceForm>
+  <surfaceForm name="rapid" offset="1259">
+    <resource label="R-process" uri="R-process" contextualScore="0.9970736328121969" percentageOfSecondRank="0.0854544133605934" support="87" priorScore="7.236679323757438E-7" finalScore="0.9109362557859579" types=""/>
+  </surfaceForm>
+  <surfaceForm name="strings" offset="777">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="1.0" percentageOfSecondRank="2.807941331488708E-19" support="1701" priorScore="1.4148955781277473E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="969">
+    <resource label="Montana" uri="Montana" contextualScore="0.15568294838364252" percentageOfSecondRank="0.004820696407515065" support="14470" priorScore="1.203617813962875E-4" finalScore="0.1263900909674928" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.8325218072866206" percentageOfSecondRank="0.14478127766788507" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.8729726177539338" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="burst" offset="282">
+    <resource label="Recession" uri="Recession" contextualScore="0.320606532943245" percentageOfSecondRank="0.10072644618830164" support="1682" priorScore="1.399091335926438E-5" finalScore="0.894718713390873" types=""/>
+  </surfaceForm>
+  <surfaceForm name="costs" offset="681">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9997623449698549" percentageOfSecondRank="0.009626410567174478" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9904609303514836" types=""/>
+  </surfaceForm>
+  <surfaceForm name="instruction" offset="669">
+    <resource label="Instruction set" uri="Instruction_set" contextualScore="0.9999999999988631" percentageOfSecondRank="4.44705901561863E-17" support="1761" priorScore="1.46480371139504E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Thus" offset="720">
+    <resource label="Thus (company)" uri="Thus_(company)" contextualScore="0.9731674967273072" percentageOfSecondRank="0.0" support="23" priorScore="1.9131451085795524E-7" finalScore="0.9987251398635892" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:Company"/>
+  </surfaceForm>
+  <surfaceForm name="computing" offset="1081">
+    <resource label="Computing" uri="Computing" contextualScore="0.47863800233907944" percentageOfSecondRank="0.008870482524277851" support="1988" priorScore="1.6536228155896305E-5" finalScore="0.990235078074666" types=""/>
+  </surfaceForm>
+  <surfaceForm name="scalable" offset="759">
+    <resource label="Scalability" uri="Scalability" contextualScore="1.0" percentageOfSecondRank="1.1833437045491836E-19" support="329" priorScore="2.7366293074898814E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fast" offset="740">
+    <resource label="Fasting" uri="Fasting" contextualScore="0.4943169677017827" percentageOfSecondRank="0.005880288209365842" support="1470" priorScore="1.2227492650486705E-5" finalScore="0.9908199854270163" types=""/>
+  </surfaceForm>
+  <surfaceForm name="substructures" offset="424">
+    <resource label="Substructure" uri="Substructure" contextualScore="1.0" percentageOfSecondRank="0.0" support="70" priorScore="5.822615547850812E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="architectures" offset="1091">
+    <resource label="Parallel computing" uri="Parallel_computing" contextualScore="0.9998210087456817" percentageOfSecondRank="0.008429988590586709" support="784" priorScore="6.521329413592909E-6" finalScore="0.9916404770921868" types=""/>
+  </surfaceForm>
+  <surfaceForm name="strings" offset="1054">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="1.0" percentageOfSecondRank="2.807941331488708E-19" support="1701" priorScore="1.4148955781277473E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="paramount" offset="167">
+    <resource label="Paramount chief" uri="Paramount_chief" contextualScore="0.9999968794712489" percentageOfSecondRank="0.0" support="312" priorScore="2.595222929899219E-6" finalScore="0.9999999893500445" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data structures" offset="126">
+    <resource label="Data structure" uri="Data_structure" contextualScore="0.9999999999998863" percentageOfSecondRank="2.842310400345786E-16" support="1007" priorScore="8.376248366693954E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trie" offset="947">
+    <resource label="Trie" uri="Trie" contextualScore="1.0" percentageOfSecondRank="0.0" support="135" priorScore="1.1229329985140852E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="search engines" offset="245">
+    <resource label="Web search engine" uri="Web_search_engine" contextualScore="0.9999911913719478" percentageOfSecondRank="6.509282056779846E-9" support="2304" priorScore="1.9164723174640385E-5" finalScore="0.9999999934907464" types=""/>
+  </surfaceForm>
+  <surfaceForm name="linked lists" offset="408">
+    <resource label="Linked list" uri="Linked_list" contextualScore="1.0" percentageOfSecondRank="0.0" support="221" priorScore="1.8382829086786135E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="creating" offset="919">
+    <resource label="Creativity" uri="Creativity" contextualScore="0.999967492537129" percentageOfSecondRank="3.1356788041758907E-6" support="929" priorScore="7.72744263421915E-6" finalScore="0.9999967542212669" types=""/>
+  </surfaceForm>
+  <surfaceForm name="array" offset="608">
+    <resource label="Array data structure" uri="Array_data_structure" contextualScore="0.9999999999879492" percentageOfSecondRank="1.0595699598771642E-12" support="1213" priorScore="1.0089760942204336E-5" finalScore="0.9999999999989768" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trie" offset="288">
+    <resource label="Trie" uri="Trie" contextualScore="1.0" percentageOfSecondRank="0.0" support="135" priorScore="1.1229329985140852E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hinder" offset="697">
+    <resource label="Hinder" uri="Hinder" contextualScore="0.9999985694278167" percentageOfSecondRank="0.0" support="161" priorScore="1.3392015760056868E-6" finalScore="0.9999999904755441" types="Schema:MusicGroup, DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:Band"/>
+  </surfaceForm>
+  <surfaceForm name="main memory" offset="484">
+    <resource label="Computer data storage" uri="Computer_data_storage" contextualScore="0.9959203736021088" percentageOfSecondRank="3.406972746044283E-5" support="2125" priorScore="1.7675797198832822E-5" finalScore="0.9999659312099825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="provide" offset="339">
+    <resource label="Income" uri="Income" contextualScore="0.9999879472713816" percentageOfSecondRank="4.827348178983535E-6" support="4277" priorScore="3.557618099736846E-5" finalScore="0.9999951726751406" types=""/>
+  </surfaceForm>
+  <surfaceForm name="strings" offset="32">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="1.0" percentageOfSecondRank="2.807941331488708E-19" support="1701" priorScore="1.4148955781277473E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="retrieving" offset="21">
+    <resource label="Recall (memory)" uri="Recall_(memory)" contextualScore="0.9999999999989768" percentageOfSecondRank="3.584384017489777E-14" support="976" priorScore="8.118389678146275E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="combines" offset="884">
+    <resource label="Chemical compound" uri="Chemical_compound" contextualScore="0.45578685714463996" percentageOfSecondRank="5.021900186700105E-7" support="3100" priorScore="2.5785868854767882E-5" finalScore="0.25975257329225837" types=""/>
+    <resource label="Combine harvester" uri="Combine_harvester" contextualScore="0.544211149910337" percentageOfSecondRank="0.35089972590269775" support="302" priorScore="2.5120427077870646E-6" finalScore="0.7402472960730841" types=""/>
+  </surfaceForm>
+  <surfaceForm name="compact" offset="746">
+    <resource label="Compact space" uri="Compact_space" contextualScore="0.483968497781714" percentageOfSecondRank="0.003409780912313275" support="1789" priorScore="1.4880941735864432E-5" finalScore="0.9960125700452063" types=""/>
+  </surfaceForm>
+  <surfaceForm name="strings" offset="1329">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="1.0" percentageOfSecondRank="2.807941331488708E-19" support="1701" priorScore="1.4148955781277473E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="main memory" offset="43">
+    <resource label="Computer data storage" uri="Computer_data_storage" contextualScore="0.9959203736021088" percentageOfSecondRank="3.406972746044283E-5" support="2125" priorScore="1.7675797198832822E-5" finalScore="0.9999659312099825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="string" offset="119">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="1.0" percentageOfSecondRank="5.337304492548124E-19" support="1701" priorScore="1.4148955781277473E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="In" offset="810">
+    <resource label="Indium" uri="Indium" contextualScore="0.6757795082216762" percentageOfSecondRank="0.07529389630883529" support="443" priorScore="3.6848838395684425E-6" finalScore="0.9299765392834002" types=""/>
+  </surfaceForm>
+  <surfaceForm name="burst" offset="614">
+    <resource label="Recession" uri="Recession" contextualScore="0.320606532943245" percentageOfSecondRank="0.10072644618830164" support="1682" priorScore="1.399091335926438E-5" finalScore="0.894718713390873" types=""/>
+  </surfaceForm>
+  <surfaceForm name="scalable" offset="1279">
+    <resource label="Scalability" uri="Scalability" contextualScore="1.0" percentageOfSecondRank="1.1833437045491836E-19" support="329" priorScore="2.7366293074898814E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="dynamic arrays" offset="567">
+    <resource label="Dynamic array" uri="Dynamic_array" contextualScore="1.0" percentageOfSecondRank="0.0" support="66" priorScore="5.489894659402194E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="addressed" offset="515">
+    <resource label="Address space" uri="Address_space" contextualScore="0.9995736977708715" percentageOfSecondRank="0.0012479039861782472" support="365" priorScore="3.0360781070936377E-6" finalScore="0.998753651337248" types=""/>
+  </surfaceForm>
+  <surfaceForm name="burst" offset="941">
+    <resource label="Recession" uri="Recession" contextualScore="0.320606532943245" percentageOfSecondRank="0.10072644618830164" support="1682" priorScore="1.399091335926438E-5" finalScore="0.894718713390873" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.0281572466169476" percentageOfSecondRank="0.03365032145361451" support="626" priorScore="5.207081904220869E-6" finalScore="0.19662167650529058" types=""/>
+    <resource label="Abstract (summary)" uri="Abstract_(summary)" contextualScore="0.965227860503149" percentageOfSecondRank="0.2467760163096714" support="222" priorScore="1.8466009308898289E-6" finalScore="0.7967616928322414" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trie" offset="388">
+    <resource label="Trie" uri="Trie" contextualScore="1.0" percentageOfSecondRank="0.0" support="135" priorScore="1.1229329985140852E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="high" offset="664">
+    <resource label="Hypertension" uri="Hypertension" contextualScore="0.3378968308010301" percentageOfSecondRank="0.4823953657386262" support="2395" priorScore="1.9921663195860992E-5" finalScore="0.14267358473264966" types="DBpedia:Disease"/>
+    <resource label="Cannabis (drug)" uri="Cannabis_(drug)" contextualScore="0.5534952862695973" percentageOfSecondRank="0.20496185547219223" support="7782" priorScore="6.47308488476786E-5" finalScore="0.6960982296142737" types=""/>
+  </surfaceForm>
+  <surfaceForm name="burst" offset="382">
+    <resource label="Recession" uri="Recession" contextualScore="0.320606532943245" percentageOfSecondRank="0.10072644618830164" support="1682" priorScore="1.399091335926438E-5" finalScore="0.894718713390873" types=""/>
+  </surfaceForm>
+  <surfaceForm name="computer science" offset="83">
+    <resource label="Computer science" uri="Computer_science" contextualScore="0.9999954521078924" percentageOfSecondRank="1.586341029694713E-10" support="6951" priorScore="5.781857239015856E-5" finalScore="0.9999999997946816" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fast" offset="347">
+    <resource label="Fasting" uri="Fasting" contextualScore="0.4943169677017827" percentageOfSecondRank="0.005880288209365842" support="1470" priorScore="1.2227492650486705E-5" finalScore="0.9908199854270163" types=""/>
+  </surfaceForm>
+  <surfaceForm name="databases" offset="223">
+    <resource label="Database" uri="Database" contextualScore="0.9992233395716211" percentageOfSecondRank="4.489434159317292E-7" support="6366" priorScore="5.295252939659753E-5" finalScore="0.999999551056804" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fundamental" offset="60">
+    <resource label="Elementary particle" uri="Elementary_particle" contextualScore="0.9689890920165238" percentageOfSecondRank="0.0010326988682674845" support="1265" priorScore="1.052229809718754E-5" finalScore="0.9983997914365844" types=""/>
+  </surfaceForm>
+  <surfaceForm name="retrieval" offset="1300">
+    <resource label="Information retrieval" uri="Information_retrieval" contextualScore="0.9999999924839358" percentageOfSecondRank="1.43584171457775E-8" support="683" priorScore="5.681209170260149E-6" finalScore="0.9999999856408978" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="278">
+    <resource label="English articles" uri="English_articles" contextualScore="0.8547735291826966" percentageOfSecondRank="0.0015845540428149698" support="5094" priorScore="4.237200514393148E-5" finalScore="0.9984075886225875" types=""/>
+  </surfaceForm>
+  <surfaceForm name="alternative" offset="1069">
+    <resource label="Alternative energy" uri="Alternative_energy" contextualScore="0.9986887158218778" percentageOfSecondRank="0.006436031225375862" support="359" priorScore="2.986169973826345E-6" finalScore="0.9934568370830522" types=""/>
+  </surfaceForm>
+</annotation>

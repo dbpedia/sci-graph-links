@@ -1,0 +1,381 @@
+<annotation text="Abstract There is increasing trend in the use of multi-objective genetic algorithms (GAs) to estimate parameter sets in the calibration of hydrological models. Multi-objective GAs facilitate the evaluation of several model evaluation objectives, and the examination of massive combinations of parameter sets. Typically, the outcome is a set of several equally-accurate parameter sets which make-up a trade-off surface between the objective functions, usually referred to as Pareto set. The Pareto set is a set of incomparable parameter sets as each solution has unique parameter values in parameter space with competing accuracy in the objective function space. As would be required for decision making purposes, a single parameter set is usually chosen to represent the model calibration procedure. An automated framework for choosing a single solution from such a trade-off surface has not been thoroughly investigated in the model calibration literature. As a result, this study has outlined an automated framework using the distribution of solutions in objective space and parameter space to select solutions with unique properties from an incomparable set of solutions. Our Pareto set was generated from the application of Non-dominated Sorting Genetic Algorithm-II (NSGA-II) to calibrate the Soil and Water Assessment Tool (SWAT) for simulations of streamflow in the Fairchild Creek watershed in southern Ontario. Using cluster analysis to evaluate the distribution of solutions in both objective space and parameter space, we developed four auto-selection methods for choosing parameter sets from the trade-off surface to support decision making. Our method generates solutions with unique properties including a representative pathway in parameter space, a basin of attraction (or the center of mass) in objective space, a proximity to the origin in objective space, and a balanced compromise between objective space and parameter space (denoted BCOP). The BCOP method is appealing as it is an equally-weighted compromise for the distribution of solutions in objective space and parameter space. That is, the BCOP solution emphasizes stability in model parameter values and in objective function values—in a way that similarity in parameter space implies similarity in objective space.">
+  <surfaceForm name="calibration" offset="934">
+    <resource label="Calibration" uri="Calibration" contextualScore="0.9999999994001882" percentageOfSecondRank="3.987560404625717E-12" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999949978" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Assessment" offset="1313">
+    <resource label="Evaluation" uri="Evaluation" contextualScore="0.999999999984766" percentageOfSecondRank="3.618150253532993E-10" support="577" priorScore="4.799498815871312E-6" finalScore="0.9999999996377937" types=""/>
+  </surfaceForm>
+  <surfaceForm name="As" offset="958">
+    <resource label="Arsenic" uri="Arsenic" contextualScore="0.12953928145111507" percentageOfSecondRank="0.03277341669945881" support="2223" priorScore="1.8490963375531937E-5" finalScore="0.9682665601692029" types=""/>
+  </surfaceForm>
+  <surfaceForm name="distribution" offset="1459">
+    <resource label="Probability distribution" uri="Probability_distribution" contextualScore="0.9999999984752321" percentageOfSecondRank="1.1851935027413496E-10" support="2395" priorScore="1.9921663195860992E-5" finalScore="0.9999999998785825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="single" offset="838">
+    <resource label="Monotypic taxon" uri="Monotypic_taxon" contextualScore="0.5984242125596827" percentageOfSecondRank="0.014705935392431304" support="4332" priorScore="3.603367221898531E-5" finalScore="0.49012363332173503" types=""/>
+    <resource label="Single (music)" uri="Single_(music)" contextualScore="1.0586066998705383E-4" percentageOfSecondRank="0.9804304012460008" support="34782" priorScore="2.893174485504956E-4" finalScore="0.4999066049959804" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generates" offset="1665">
+    <resource label="Generating function" uri="Generating_function" contextualScore="0.9940664273999973" percentageOfSecondRank="0.0020919536380395194" support="395" priorScore="3.285618773430101E-6" finalScore="0.9967219644856645" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trade-off" offset="400">
+    <resource label="Trade-off" uri="Trade-off" contextualScore="1.0" percentageOfSecondRank="1.0939104917530153E-18" support="118" priorScore="9.815266209234227E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="proximity" offset="1831">
+    <resource label="Distance" uri="Distance" contextualScore="0.9999922790093689" percentageOfSecondRank="4.4837685625226944E-8" support="1435" priorScore="1.1936361873094164E-5" finalScore="0.999999955162367" types=""/>
+  </surfaceForm>
+  <surfaceForm name="represent" offset="757">
+    <resource label="Knowledge representation and reasoning" uri="Knowledge_representation_and_reasoning" contextualScore="0.9999982192546152" percentageOfSecondRank="1.9157289568231633E-6" support="330" priorScore="2.744947329701097E-6" finalScore="0.9999978234448957" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simulations" offset="1340">
+    <resource label="Simulation" uri="Simulation" contextualScore="0.0165466818299243" percentageOfSecondRank="3.858472651820984E-9" support="2114" priorScore="1.7584298954509453E-5" finalScore="0.410402197863192" types=""/>
+    <resource label="Computer simulation" uri="Computer_simulation" contextualScore="0.9834532863112527" percentageOfSecondRank="0.6960714532485109" support="943" priorScore="7.843894945176164E-6" finalScore="0.5895978005532005" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trade-off" offset="1608">
+    <resource label="Trade-off" uri="Trade-off" contextualScore="1.0" percentageOfSecondRank="1.0939104917530153E-18" support="118" priorScore="9.815266209234227E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="values" offset="2171">
+    <resource label="Value (economics)" uri="Value_(economics)" contextualScore="0.9984738464489497" percentageOfSecondRank="0.02961023542833209" support="1375" priorScore="1.1437280540421237E-5" finalScore="0.9710754635762224" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="1513">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="model" offset="928">
+    <resource label="Statistical model" uri="Statistical_model" contextualScore="0.9974597060040147" percentageOfSecondRank="0.022088942695119847" support="441" priorScore="3.6682477951460117E-6" finalScore="0.9779464926423056" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="2077">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="1103">
+    <resource label="Solution" uri="Solution" contextualScore="0.00481691922200612" percentageOfSecondRank="0.009533024781840612" support="3434" priorScore="2.856408827331384E-5" finalScore="0.454255021514398" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9613238271620761" percentageOfSecondRank="0.84015904223502" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.5406774178207654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="2054">
+    <resource label="Solution" uri="Solution" contextualScore="0.00481691922200612" percentageOfSecondRank="0.009533024781840612" support="3434" priorScore="2.856408827331384E-5" finalScore="0.454255021514398" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9613238271620761" percentageOfSecondRank="0.84015904223502" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.5406774178207654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="1822">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="1909">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="1077">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="basin" offset="1765">
+    <resource label="Drainage basin" uri="Drainage_basin" contextualScore="0.9999971546285005" percentageOfSecondRank="7.731324642605492E-9" support="7394" priorScore="6.150345622972701E-5" finalScore="0.999999987113597" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generated" offset="1194">
+    <resource label="Generating function" uri="Generating_function" contextualScore="0.9940600840752766" percentageOfSecondRank="0.007515067642637301" support="395" priorScore="3.285618773430101E-6" finalScore="0.9874207660028554" types=""/>
+  </surfaceForm>
+  <surfaceForm name="As" offset="662">
+    <resource label="Arsenic" uri="Arsenic" contextualScore="0.12953928145111507" percentageOfSecondRank="0.03277341669945881" support="2223" priorScore="1.8490963375531937E-5" finalScore="0.9682665601692029" types=""/>
+  </surfaceForm>
+  <surfaceForm name="application" offset="1213">
+    <resource label="Computer program" uri="Computer_program" contextualScore="0.9953994602823139" percentageOfSecondRank="0.03346284663862897" support="2681" priorScore="2.230061754826861E-5" finalScore="0.9499214660875143" types=""/>
+  </surfaceForm>
+  <surfaceForm name="automated" offset="998">
+    <resource label="Automation" uri="Automation" contextualScore="0.9999831140924068" percentageOfSecondRank="8.904039807141088E-8" support="1169" priorScore="9.723767964910856E-6" finalScore="0.9999999109047661" types=""/>
+  </surfaceForm>
+  <surfaceForm name="distribution" offset="2038">
+    <resource label="Probability distribution" uri="Probability_distribution" contextualScore="0.9999999984752321" percentageOfSecondRank="1.1851935027413496E-10" support="2395" priorScore="1.9921663195860992E-5" finalScore="0.9999999998785825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="origin" offset="1848">
+    <resource label="Origin (mathematics)" uri="Origin_(mathematics)" contextualScore="0.4493094829518548" percentageOfSecondRank="0.0932606744709775" support="431" priorScore="3.585067573033857E-6" finalScore="0.9140962373955105" types=""/>
+  </surfaceForm>
+  <surfaceForm name="referred" offset="459">
+    <resource label="European Court of Justice" uri="European_Court_of_Justice" contextualScore="0.9999810694082653" percentageOfSecondRank="8.204151787719115E-7" support="913" priorScore="7.594354278839702E-6" finalScore="0.9999991226720095" types=""/>
+  </surfaceForm>
+  <surfaceForm name="incomparable" offset="513">
+    <resource label="Comparability" uri="Comparability" contextualScore="0.9999999996007318" percentageOfSecondRank="0.0" support="23" priorScore="1.9131451085795524E-7" finalScore="0.9999999999815827" types=""/>
+  </surfaceForm>
+  <surfaceForm name="make-up" offset="390">
+    <resource label="Cosmetics" uri="Cosmetics" contextualScore="0.999999500312367" percentageOfSecondRank="3.85011426116617E-10" support="1869" priorScore="1.554638351276167E-5" finalScore="0.9999999995961844" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="2277">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="655">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="representative" offset="1720">
+    <resource label="Sampling (statistics)" uri="Sampling_(statistics)" contextualScore="1.0" percentageOfSecondRank="6.771895089493023E-16" support="904" priorScore="7.519492078938762E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="surface" offset="876">
+    <resource label="Surface" uri="Surface" contextualScore="0.99999995983626" percentageOfSecondRank="2.3052842762279353E-11" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9999999999533884" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Pareto set" offset="474">
+    <resource label="Pareto efficiency" uri="Pareto_efficiency" contextualScore="1.0" percentageOfSecondRank="0.0" support="374" priorScore="3.110940306994577E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective function" offset="2185">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9820384744800151" percentageOfSecondRank="0.008332572540093197" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9917323044313504" types=""/>
+  </surfaceForm>
+  <surfaceForm name="select" offset="1096">
+    <resource label="Natural selection" uri="Natural_selection" contextualScore="0.9999144743601323" percentageOfSecondRank="1.9310990874525368E-5" support="2676" priorScore="2.225902743721253E-5" finalScore="0.9999806802515654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="distribution" offset="1028">
+    <resource label="Probability distribution" uri="Probability_distribution" contextualScore="0.9999999984752321" percentageOfSecondRank="1.1851935027413496E-10" support="2395" priorScore="1.9921663195860992E-5" finalScore="0.9999999998785825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trade-off" offset="866">
+    <resource label="Trade-off" uri="Trade-off" contextualScore="1.0" percentageOfSecondRank="1.0939104917530153E-18" support="118" priorScore="9.815266209234227E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective functions" offset="430">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9824303479080965" percentageOfSecondRank="0.00281952832642133" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9971883990619695" types=""/>
+  </surfaceForm>
+  <surfaceForm name="methods" offset="1563">
+    <resource label="Methodology" uri="Methodology" contextualScore="0.1884320749181954" percentageOfSecondRank="0.009056975695907929" support="962" priorScore="8.001937367189259E-6" finalScore="0.42624497839979053" types=""/>
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.7915314731380332" percentageOfSecondRank="0.749734277246263" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.5685280656572983" types=""/>
+  </surfaceForm>
+  <surfaceForm name="massive" offset="269">
+    <resource label="Mass" uri="Mass" contextualScore="0.9999940416451113" percentageOfSecondRank="1.6314274905575137E-7" support="8228" priorScore="6.844068675388068E-5" finalScore="0.9999998283997377" types=""/>
+  </surfaceForm>
+  <surfaceForm name="watershed" offset="1389">
+    <resource label="Drainage basin" uri="Drainage_basin" contextualScore="0.9999998775579191" percentageOfSecondRank="3.5152749004177155E-10" support="7394" priorScore="6.150345622972701E-5" finalScore="0.9999999996439328" types=""/>
+  </surfaceForm>
+  <surfaceForm name="An" offset="800">
+    <resource label="English articles" uri="English_articles" contextualScore="0.8069196588238231" percentageOfSecondRank="0.028330043923931045" support="5094" priorScore="4.237200514393148E-5" finalScore="0.9700072166927657" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="1654">
+    <resource label="Christian" uri="Christian" contextualScore="0.9999994207445838" percentageOfSecondRank="2.0742332879267654E-8" support="31473" priorScore="2.617931130535837E-4" finalScore="0.999999978230335" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="1868">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Sorting" offset="1242">
+    <resource label="Sorting" uri="Sorting" contextualScore="0.9999999999984084" percentageOfSecondRank="8.053578053259803E-13" support="199" priorScore="1.6552864200318736E-6" finalScore="0.9999999999990905" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="1503">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="1970">
+    <resource label="Methodology" uri="Methodology" contextualScore="0.1884320749181954" percentageOfSecondRank="0.031493231695401414" support="962" priorScore="8.001937367189259E-6" finalScore="0.125540733840153" types=""/>
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.7915314731380332" percentageOfSecondRank="0.1445916106117822" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.868243553750989" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="1475">
+    <resource label="Solution" uri="Solution" contextualScore="0.00481691922200612" percentageOfSecondRank="0.009533024781840612" support="3434" priorScore="2.856408827331384E-5" finalScore="0.454255021514398" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9613238271620761" percentageOfSecondRank="0.84015904223502" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.5406774178207654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="incomparable" offset="1144">
+    <resource label="Comparability" uri="Comparability" contextualScore="0.9999999996007318" percentageOfSecondRank="0.0" support="23" priorScore="1.9131451085795524E-7" finalScore="0.9999999999815827" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="1812">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Soil" offset="1298">
+    <resource label="Soil" uri="Soil" contextualScore="0.9989629169405757" percentageOfSecondRank="9.753342532665371E-8" support="7697" priorScore="6.402381695972529E-5" finalScore="0.9999999024635192" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Tool" offset="1324">
+    <resource label="Tool" uri="Tool" contextualScore="0.999999999782176" percentageOfSecondRank="7.438911708949464E-11" support="1437" priorScore="1.1952997917516596E-5" finalScore="0.9999999999245119" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="2067">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="1746">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="literature" offset="946">
+    <resource label="Literature" uri="Literature" contextualScore="0.9809486856204825" percentageOfSecondRank="1.0900687698374228E-5" support="7692" priorScore="6.39822268486692E-5" finalScore="0.9999815399627043" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="1929">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="support" offset="1629">
+    <resource label="Support (mathematics)" uri="Support_(mathematics)" contextualScore="0.9999999935901087" percentageOfSecondRank="2.8152569751634067E-10" support="355" priorScore="2.952897884981483E-6" finalScore="0.9999999995702638" types=""/>
+  </surfaceForm>
+  <surfaceForm name="surface" offset="410">
+    <resource label="Surface" uri="Surface" contextualScore="0.99999995983626" percentageOfSecondRank="2.3052842762279353E-11" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9999999999533884" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="1175">
+    <resource label="Christian" uri="Christian" contextualScore="0.9999994207445838" percentageOfSecondRank="2.0742332879267654E-8" support="31473" priorScore="2.617931130535837E-4" finalScore="0.999999978230335" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="1067">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="1044">
+    <resource label="Solution" uri="Solution" contextualScore="0.00481691922200612" percentageOfSecondRank="0.009533024781840612" support="3434" priorScore="2.856408827331384E-5" finalScore="0.454255021514398" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9613238271620761" percentageOfSecondRank="0.84015904223502" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.5406774178207654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="streamflow" offset="1355">
+    <resource label="Surface runoff" uri="Surface_runoff" contextualScore="0.9999963032482928" percentageOfSecondRank="4.44906790422059E-6" support="1199" priorScore="9.97330863124732E-6" finalScore="0.9999955509519004" types=""/>
+  </surfaceForm>
+  <surfaceForm name="There" offset="9">
+    <resource label="France" uri="France" contextualScore="0.8749793222461777" percentageOfSecondRank="0.0011530804556073965" support="205641" priorScore="0.0017105264055365555" finalScore="0.9988454543510196" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="1658">
+    <resource label="Methodology" uri="Methodology" contextualScore="0.1884320749181954" percentageOfSecondRank="0.031493231695401414" support="962" priorScore="8.001937367189259E-6" finalScore="0.125540733840153" types=""/>
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.7915314731380332" percentageOfSecondRank="0.1445916106117822" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.868243553750989" types=""/>
+  </surfaceForm>
+  <surfaceForm name="surface" offset="1618">
+    <resource label="Surface" uri="Surface" contextualScore="0.99999995983626" percentageOfSecondRank="2.3052842762279353E-11" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9999999999533884" types=""/>
+  </surfaceForm>
+  <surfaceForm name="mass" offset="1803">
+    <resource label="Mass" uri="Mass" contextualScore="0.9999983648508258" percentageOfSecondRank="4.570225289151229E-9" support="8228" priorScore="6.844068675388068E-5" finalScore="0.9999999953870429" types=""/>
+  </surfaceForm>
+  <surfaceForm name="investigated" offset="908">
+    <resource label="Research" uri="Research" contextualScore="0.9999999999990905" percentageOfSecondRank="1.3183655164984535E-15" support="9112" priorScore="7.579381838859514E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="values" offset="579">
+    <resource label="Value (economics)" uri="Value_(economics)" contextualScore="0.9984738464489497" percentageOfSecondRank="0.02961023542833209" support="1375" priorScore="1.1437280540421237E-5" finalScore="0.9710754635762224" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Fairchild" offset="1373">
+    <resource label="Fairchild Semiconductor" uri="Fairchild_Semiconductor" contextualScore="0.9973209103215622" percentageOfSecondRank="0.012739791324228419" support="249" priorScore="2.071187530592646E-6" finalScore="0.9874199652488809" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:Company"/>
+  </surfaceForm>
+  <surfaceForm name="solution" offset="2122">
+    <resource label="Equation" uri="Equation" contextualScore="0.9948168585767259" percentageOfSecondRank="5.269583246750268E-5" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.22807548805666947" types=""/>
+    <resource label="Solution" uri="Solution" contextualScore="0.004984743239539059" percentageOfSecondRank="0.295468063964469" support="3434" priorScore="2.856408827331384E-5" finalScore="0.7719124869078787" types=""/>
+  </surfaceForm>
+  <surfaceForm name="developed" offset="1533">
+    <resource label="Software development" uri="Software_development" contextualScore="0.9995070199183653" percentageOfSecondRank="3.136968871063995E-4" support="1137" priorScore="9.45759125415196E-6" finalScore="0.9996799503648877" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solution" offset="549">
+    <resource label="Equation" uri="Equation" contextualScore="0.9948168585767259" percentageOfSecondRank="5.269583246750268E-5" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.22807548805666947" types=""/>
+    <resource label="Solution" uri="Solution" contextualScore="0.004984743239539059" percentageOfSecondRank="0.295468063964469" support="3434" priorScore="2.856408827331384E-5" finalScore="0.7719124869078787" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Genetic" offset="1250">
+    <resource label="Genetics" uri="Genetics" contextualScore="0.9626705511555068" percentageOfSecondRank="0.0028096409106045995" support="5572" priorScore="4.6348019760892464E-5" finalScore="0.9971635665592601" types=""/>
+  </surfaceForm>
+  <surfaceForm name="single" offset="715">
+    <resource label="Monotypic taxon" uri="Monotypic_taxon" contextualScore="0.5984242125596827" percentageOfSecondRank="0.014705935392431304" support="4332" priorScore="3.603367221898531E-5" finalScore="0.49012363332173503" types=""/>
+    <resource label="Single (music)" uri="Single_(music)" contextualScore="1.0586066998705383E-4" percentageOfSecondRank="0.9804304012460008" support="34782" priorScore="2.893174485504956E-4" finalScore="0.4999066049959804" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Water" offset="1307">
+    <resource label="Water" uri="Water" contextualScore="0.9999999999990905" percentageOfSecondRank="2.586239973302719E-15" support="23703" priorScore="1.9716208047243971E-4" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="model" offset="2155">
+    <resource label="Statistical model" uri="Statistical_model" contextualScore="0.9974597060040147" percentageOfSecondRank="0.022088942695119847" support="441" priorScore="3.6682477951460117E-6" finalScore="0.9779464926423056" types=""/>
+  </surfaceForm>
+  <surfaceForm name="model" offset="217">
+    <resource label="Statistical model" uri="Statistical_model" contextualScore="0.9974597060040147" percentageOfSecondRank="0.022088942695119847" support="441" priorScore="3.6682477951460117E-6" finalScore="0.9779464926423056" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective function" offset="636">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9820384744800151" percentageOfSecondRank="0.008332572540093197" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9917323044313504" types=""/>
+  </surfaceForm>
+  <surfaceForm name="SWAT" offset="1330">
+    <resource label="SWAT" uri="SWAT" contextualScore="0.004411859643659641" percentageOfSecondRank="0.004616586920981169" support="1191" priorScore="9.906764453557596E-6" finalScore="0.9954045512253864" types=""/>
+  </surfaceForm>
+  <surfaceForm name="decision making" offset="687">
+    <resource label="Decision making" uri="Decision_making" contextualScore="0.2209998111113849" percentageOfSecondRank="0.0043541501666045064" support="1151" priorScore="9.574043565108977E-6" finalScore="0.9956647262661432" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="1858">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="facilitate" offset="180">
+    <resource label="Facilitator" uri="Facilitator" contextualScore="0.9999999806425424" percentageOfSecondRank="2.0606255511002402E-8" support="93" priorScore="7.735760656430365E-7" finalScore="0.9999999793938061" types=""/>
+  </surfaceForm>
+  <surfaceForm name="decision making" offset="1637">
+    <resource label="Decision making" uri="Decision_making" contextualScore="0.2209998111113849" percentageOfSecondRank="0.0043541501666045064" support="1151" priorScore="9.574043565108977E-6" finalScore="0.9956647262661432" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Creek" offset="1383">
+    <resource label="Stream" uri="Stream" contextualScore="0.999999894154149" percentageOfSecondRank="5.503444238869129E-7" support="4600" priorScore="3.826290217159105E-5" finalScore="0.9999994423193775" types=""/>
+  </surfaceForm>
+  <surfaceForm name="estimate" offset="93">
+    <resource label="Estimator" uri="Estimator" contextualScore="0.9894495526173234" percentageOfSecondRank="8.577669329830315E-4" support="923" priorScore="7.677534500951857E-6" finalScore="0.9991057016502645" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="1961">
+    <resource label="English articles" uri="English_articles" contextualScore="0.0016613648510983672" percentageOfSecondRank="0.029740760934925458" support="5094" priorScore="4.237200514393148E-5" finalScore="0.14980077004846687" types=""/>
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.9684176668831501" percentageOfSecondRank="0.17712306742587208" support="6340" priorScore="5.273626081910593E-5" finalScore="0.8457439915959004" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="result" offset="963">
+    <resource label="Return statement" uri="Return_statement" contextualScore="0.9152730386921641" percentageOfSecondRank="0.07630220886664521" support="100" priorScore="8.318022211215446E-7" finalScore="0.9276300955744514" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="589">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Ontario" offset="1411">
+    <resource label="Ontario" uri="Ontario" contextualScore="4.752352727883714E-4" percentageOfSecondRank="0.02375348110098007" support="54410" priorScore="4.525835885122324E-4" finalScore="0.9677891339322608" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cluster analysis" offset="1426">
+    <resource label="Cluster analysis" uri="Cluster_analysis" contextualScore="1.0" percentageOfSecondRank="6.492642895167919E-35" support="403" priorScore="3.3521629511198245E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="1493">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="2087">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="calibration" offset="777">
+    <resource label="Calibration" uri="Calibration" contextualScore="0.9999999994001882" percentageOfSecondRank="3.987560404625717E-12" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999949978" types=""/>
+  </surfaceForm>
+  <surfaceForm name="calibrate" offset="1284">
+    <resource label="Calibration" uri="Calibration" contextualScore="0.9999999994138307" percentageOfSecondRank="4.7983643535664194E-11" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999520242" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="1919">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="appealing" offset="1980">
+    <resource label="Appeal" uri="Appeal" contextualScore="0.6349510636988901" percentageOfSecondRank="0.0035016434643001366" support="2319" priorScore="1.9289493507808618E-5" finalScore="0.9965103116686631" types=""/>
+  </surfaceForm>
+  <surfaceForm name="model" offset="771">
+    <resource label="Statistical model" uri="Statistical_model" contextualScore="0.9974597060040147" percentageOfSecondRank="0.022088942695119847" support="441" priorScore="3.6682477951460117E-6" finalScore="0.9779464926423056" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9999956058942324" percentageOfSecondRank="6.286304965947062E-7" support="626" priorScore="5.207081904220869E-6" finalScore="0.9999993706237253" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Pareto set" offset="490">
+    <resource label="Pareto efficiency" uri="Pareto_efficiency" contextualScore="1.0" percentageOfSecondRank="0.0" support="374" priorScore="3.110940306994577E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objective" offset="1057">
+    <resource label="Loss function" uri="Loss_function" contextualScore="0.9999999938722794" percentageOfSecondRank="1.1660291957959308E-7" support="444" priorScore="3.6932018617796578E-6" finalScore="0.9999998833943732" types=""/>
+  </surfaceForm>
+  <surfaceForm name="procedure" offset="789">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="0.999961380939289" percentageOfSecondRank="1.1462619293246924E-5" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999885008007329" types=""/>
+  </surfaceForm>
+  <surfaceForm name="attraction" offset="1774">
+    <resource label="Gravitation" uri="Gravitation" contextualScore="0.9975591649381607" percentageOfSecondRank="5.763877195685685E-4" support="5368" priorScore="4.465114322980451E-5" finalScore="0.9994180983113249" types=""/>
+  </surfaceForm>
+  <surfaceForm name="stability" offset="2142">
+    <resource label="Numerical stability" uri="Numerical_stability" contextualScore="0.9999055798557234" percentageOfSecondRank="4.563603050168968E-4" support="143" priorScore="1.1894771762038086E-6" finalScore="0.9995438476478028" types=""/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="2287">
+    <resource label="Space" uri="Space" contextualScore="0.9135358810020542" percentageOfSecondRank="0.002306883840181935" support="3161" priorScore="2.6293268209652022E-5" finalScore="0.9976680261261118" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter space" offset="2239">
+    <resource label="Parameter space" uri="Parameter_space" contextualScore="1.0" percentageOfSecondRank="0.0" support="53" priorScore="4.408551771944186E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="genetic algorithms" offset="65">
+    <resource label="Genetic algorithm" uri="Genetic_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="310" priorScore="2.578586885476788E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solution" offset="845">
+    <resource label="Equation" uri="Equation" contextualScore="0.9948168585767259" percentageOfSecondRank="5.269583246750268E-5" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.22807548805666947" types=""/>
+    <resource label="Solution" uri="Solution" contextualScore="0.004984743239539059" percentageOfSecondRank="0.295468063964469" support="3434" priorScore="2.856408827331384E-5" finalScore="0.7719124869078787" types=""/>
+  </surfaceForm>
+  <surfaceForm name="automated" offset="803">
+    <resource label="Automation" uri="Automation" contextualScore="0.9999831140924068" percentageOfSecondRank="8.904039807141088E-8" support="1169" priorScore="9.723767964910856E-6" finalScore="0.9999999109047661" types=""/>
+  </surfaceForm>
+  <surfaceForm name="denoted" offset="1946">
+    <resource label="Denotation (semiotics)" uri="Denotation_(semiotics)" contextualScore="0.9999999999995453" percentageOfSecondRank="0.0" support="32" priorScore="2.6617671075889424E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="parameter" offset="102">
+    <resource label="Parameter" uri="Parameter" contextualScore="0.999999847299944" percentageOfSecondRank="5.025881155067101E-11" support="1131" priorScore="9.40768312088467E-6" finalScore="0.9999999999351985" types=""/>
+  </surfaceForm>
+  <surfaceForm name="calibration" offset="124">
+    <resource label="Calibration" uri="Calibration" contextualScore="0.9999999994001882" percentageOfSecondRank="3.987560404625717E-12" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999949978" types=""/>
+  </surfaceForm>
+  <surfaceForm name="purposes" offset="703">
+    <resource label="Intention" uri="Intention" contextualScore="0.9999999996814495" percentageOfSecondRank="2.2438924064233352E-10" support="302" priorScore="2.5120427077870646E-6" finalScore="0.9999999997755822" types=""/>
+  </surfaceForm>
+  <surfaceForm name="combinations" offset="277">
+    <resource label="Combination" uri="Combination" contextualScore="0.8681543948052667" percentageOfSecondRank="0.0034942301919971422" support="254" priorScore="2.112777641648723E-6" finalScore="0.9965179368758089" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Pareto set" offset="1179">
+    <resource label="Pareto efficiency" uri="Pareto_efficiency" contextualScore="1.0" percentageOfSecondRank="0.0" support="374" priorScore="3.110940306994577E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="chosen" offset="747">
+    <resource label="Axiom of choice" uri="Axiom_of_choice" contextualScore="0.9999994754220108" percentageOfSecondRank="7.274852663236229E-7" support="623" priorScore="5.1821278375872225E-6" finalScore="0.9999992725147794" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="1675">
+    <resource label="Solution" uri="Solution" contextualScore="0.00481691922200612" percentageOfSecondRank="0.009533024781840612" support="3434" priorScore="2.856408827331384E-5" finalScore="0.454255021514398" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9613238271620761" percentageOfSecondRank="0.84015904223502" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.5406774178207654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="1164">
+    <resource label="Solution" uri="Solution" contextualScore="0.00481691922200612" percentageOfSecondRank="0.009533024781840612" support="3434" priorScore="2.856408827331384E-5" finalScore="0.454255021514398" types=""/>
+    <resource label="Equation" uri="Equation" contextualScore="0.9613238271620761" percentageOfSecondRank="0.84015904223502" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.5406774178207654" types=""/>
+  </surfaceForm>
+  <surfaceForm name="That" offset="2104">
+    <resource label="Stupa" uri="Stupa" contextualScore="0.9999988826365883" percentageOfSecondRank="5.5031120914144853E-8" support="1922" priorScore="1.5987238689956087E-5" finalScore="0.9999999448798478" types=""/>
+  </surfaceForm>
+  <surfaceForm name="objectives" offset="234">
+    <resource label="Goal" uri="Goal" contextualScore="0.999999993886604" percentageOfSecondRank="1.4715677297356965E-11" support="954" priorScore="7.935393189499535E-6" finalScore="0.9999999999765805" types=""/>
+  </surfaceForm>
+</annotation>
