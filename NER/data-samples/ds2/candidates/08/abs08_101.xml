@@ -1,159 +1,93 @@
-<annotation text="Abstract We revisit one of the most fundamental classes of data structure problems in computational geometry: range searching. Matoušek (Discrete Comput. Geom. 10:157–182, 1993) gave a partition tree method for d-dimensional simplex range searching achieving O(n) space and O(n 1−1/d ) query time. Although this method is generally believed to be optimal, it is complicated and requires O(n 1 ε ) preprocessing time for any fixed ε&gt;0. An earlier method by Matoušek (Discrete Comput. Geom. 8:315–334, 1992) requires O(nlogn) preprocessing time but O(n 1−1/d log O(1) n) query time. We give a new method that achieves simultaneously O(nlogn) preprocessing time, O(n) space, and O(n 1−1/d ) query time with high probability. Our method has several advantages: It is conceptually simpler than Matoušek’s O(n 1−1/d )-time method. Our partition trees satisfy many ideal properties (e.g., constant degree, optimal crossing number at almost all layers, and disjointness of the children’s cells at each node).It leads to more efficient multilevel partition trees, which are needed in many data structuring applications (each level adds at most one logarithmic factor to the space and query bounds, better than in all previous methods).A similar improvement applies to a shallow version of partition trees, yielding O(nlogn) time, O(n) space, and O(n 1−1/⌊d/2⌋) query time for halfspace range emptiness in even dimensions d≥4. Numerous consequences follow (e.g., improved results for computing spanning trees with low crossing number, ray shooting among line segments, intersection searching, exact nearest neighbor search, linear programming queries, finding extreme points, …).">
-  <surfaceForm name="method" offset="312">
-    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cells" offset="980">
-    <resource label="Face (geometry)" uri="Face_(geometry)" contextualScore="0.9957858376410597" percentageOfSecondRank="8.933352467145641E-5" support="853" priorScore="7.095272946166775E-6" finalScore="0.2586609768674449" types=""/>
-    <resource label="Cell (biology)" uri="Cell_(biology)" contextualScore="0.003592223737616945" percentageOfSecondRank="0.3489214422653174" support="14998" priorScore="1.2475369712380924E-4" finalScore="0.741315796438675" types=""/>
-  </surfaceForm>
-  <surfaceForm name="simultaneously" offset="616">
-    <resource label="Simultaneous equations" uri="Simultaneous_equations" contextualScore="1.0" percentageOfSecondRank="8.242517611274131E-19" support="128" priorScore="1.064706843035577E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="version" offset="1269">
-    <resource label="Software versioning" uri="Software_versioning" contextualScore="0.9999999999856755" percentageOfSecondRank="6.016636111913824E-10" support="262" priorScore="2.179321819338447E-6" finalScore="0.9999999993983693" types=""/>
-  </surfaceForm>
-  <surfaceForm name="applications" offset="1097">
-    <resource label="Computer program" uri="Computer_program" contextualScore="0.9999843063921166" percentageOfSecondRank="8.333589392645054E-4" support="2681" priorScore="2.230061754826861E-5" finalScore="0.9988996555819896" types=""/>
-  </surfaceForm>
-  <surfaceForm name="space" offset="1165">
-    <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
-  </surfaceForm>
-  <surfaceForm name="believed" offset="332">
-    <resource label="Belief" uri="Belief" contextualScore="0.9999910186298587" percentageOfSecondRank="1.6045443643057833E-5" support="1460" priorScore="1.2144312428374551E-5" finalScore="0.9999839403608713" types=""/>
-  </surfaceForm>
-  <surfaceForm name="extreme points" offset="1650">
-    <resource label="Extreme point" uri="Extreme_point" contextualScore="0.9999896493117371" percentageOfSecondRank="1.8022304938019163E-5" support="37" priorScore="3.077668218149715E-7" finalScore="0.9999819780198853" types=""/>
-  </surfaceForm>
-  <surfaceForm name="data structure" offset="59">
-    <resource label="Data structure" uri="Data_structure" contextualScore="0.9999999629214933" percentageOfSecondRank="3.5118577244193326E-10" support="1007" priorScore="8.376248366693954E-6" finalScore="0.9999999996487077" types=""/>
-  </surfaceForm>
-  <surfaceForm name="segments" offset="1549">
-    <resource label="Market segmentation" uri="Market_segmentation" contextualScore="0.907662643526867" percentageOfSecondRank="0.05473079692108179" support="253" priorScore="2.104459619437508E-6" finalScore="0.9471693884348369" types=""/>
-  </surfaceForm>
-  <surfaceForm name="preprocessing" offset="640">
-    <resource label="Preprocessor" uri="Preprocessor" contextualScore="1.0" percentageOfSecondRank="0.0" support="193" priorScore="1.605378286764581E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="An" offset="435">
-    <resource label="Anu" uri="Anu" contextualScore="0.740111511971071" percentageOfSecondRank="0.04201789018084856" support="287" priorScore="2.387272374618833E-6" finalScore="0.9592527899153691" types=""/>
-  </surfaceForm>
-  <surfaceForm name="intersection" offset="1559">
-    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9993288181244037" percentageOfSecondRank="4.072879545245276E-5" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999592728633202" types=""/>
-  </surfaceForm>
-  <surfaceForm name="optimal" offset="347">
-    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999999480319288" percentageOfSecondRank="7.274442789097972E-10" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999999992726316" types=""/>
-  </surfaceForm>
-  <surfaceForm name="partition" offset="829">
-    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="bounds" offset="1181">
-    <resource label="Upper and lower bounds" uri="Upper_and_lower_bounds" contextualScore="0.999994046310564" percentageOfSecondRank="1.2293927017010887E-7" support="373" priorScore="3.102622284783361E-6" finalScore="0.9999998770606529" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="538">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
-  </surfaceForm>
-  <surfaceForm name="It" offset="1000">
-    <resource label="Wikipedia" uri="Wikipedia" contextualScore="0.9988528210796165" percentageOfSecondRank="1.7904754148492878E-4" support="21139" priorScore="1.758346715228833E-4" finalScore="0.9997765583141707" types="Schema:CreativeWork, DBpedia:Work, Schema:WebPage, DBpedia:Website"/>
-  </surfaceForm>
-  <surfaceForm name="preprocessing" offset="524">
-    <resource label="Preprocessor" uri="Preprocessor" contextualScore="1.0" percentageOfSecondRank="0.0" support="193" priorScore="1.605378286764581E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="812">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
-  </surfaceForm>
-  <surfaceForm name="computing" offset="1474">
-    <resource label="Computer science" uri="Computer_science" contextualScore="0.9990403952183177" percentageOfSecondRank="0.001168900742565788" support="6951" priorScore="5.781857239015856E-5" finalScore="0.9988185457315496" types=""/>
-  </surfaceForm>
-  <surfaceForm name="trees" offset="1290">
-    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999993247456592" percentageOfSecondRank="4.0818941841490137E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999995918106757" types=""/>
-  </surfaceForm>
-  <surfaceForm name="methods" offset="1217">
-    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="1.1872106437400942E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9998792629764206" types=""/>
-  </surfaceForm>
-  <surfaceForm name="range" offset="1377">
-    <resource label="Range (mathematics)" uri="Range_(mathematics)" contextualScore="0.9999999999997726" percentageOfSecondRank="7.592551219217895E-14" support="225" priorScore="1.8715549975234752E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="partition" offset="1038">
-    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="shooting" offset="1529">
-    <resource label="Shooter game" uri="Shooter_game" contextualScore="0.9734478406748391" percentageOfSecondRank="0.030323046204781497" support="407" priorScore="3.385435039964686E-6" finalScore="0.9530716714268442" types=""/>
-  </surfaceForm>
-  <surfaceForm name="logarithmic" offset="1139">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999996048246" percentageOfSecondRank="1.6187789481866732E-11" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999999836291" types=""/>
-  </surfaceForm>
-  <surfaceForm name="1993" offset="172">
-    <resource label="1993" uri="1993" contextualScore="0.9654729409788492" percentageOfSecondRank="0.03293380296629558" support="307" priorScore="2.553632818843142E-6" finalScore="0.948322669879354" types="DBpedia:TimePeriod, DBpedia:Year"/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="411">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
-  </surfaceForm>
-  <surfaceForm name="method" offset="446">
-    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Our" offset="722">
-    <resource label="Christian" uri="Christian" contextualScore="0.9793159877223105" percentageOfSecondRank="2.885226009397641E-5" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9999709845781994" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="575">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+<annotation text="Abstract We revisit one of the most fundamental classes of data structure problems in computational geometry: range searching. Matoušek (Discrete Comput. Geom. 10:157–182, 1993) gave a partition tree method for d-dimensional simplex range searching achieving O(n) space and O(n 1−1/d ) query time. Although this method is generally believed to be optimal, it is complicated and requires O(n 1+ε ) preprocessing time for any fixed ε&gt;0. An earlier method by Matoušek (Discrete Comput. Geom. 8:315–334, 1992) requires O(nlogn) preprocessing time but O(n 1−1/d log O(1) n) query time. We give a new method that achieves simultaneously O(nlogn) preprocessing time, O(n) space, and O(n 1−1/d ) query time with high probability. Our method has several advantages: It is conceptually simpler than Matoušek’s O(n 1−1/d )-time method. Our partition trees satisfy many ideal properties (e.g., constant degree, optimal crossing number at almost all layers, and disjointness of the children’s cells at each node).It leads to more efficient multilevel partition trees, which are needed in many data structuring applications (each level adds at most one logarithmic factor to the space and query bounds, better than in all previous methods).A similar improvement applies to a shallow version of partition trees, yielding O(nlogn) time, O(n) space, and O(n 1−1/⌊d/2⌋) query time for halfspace range emptiness in even dimensions d≥4. Numerous consequences follow (e.g., improved results for computing spanning trees with low crossing number, ray shooting among line segments, intersection searching, exact nearest neighbor search, linear programming queries, finding extreme points, …).">
+  <surfaceForm name="crossing number" offset="1508">
+    <resource label="Crossing number (graph theory)" uri="Crossing_number_(graph_theory)" contextualScore="0.9999984641504368" percentageOfSecondRank="1.1132069920472402E-6" support="87" priorScore="7.236679323757438E-7" finalScore="0.9999988867943387" types=""/>
   </surfaceForm>
   <surfaceForm name="1992" offset="500">
-    <resource label="1992 Summer Olympics" uri="1992_Summer_Olympics" contextualScore="0.2943421411002317" percentageOfSecondRank="0.08043810469435454" support="4463" priorScore="3.7123333128654534E-5" finalScore="0.8952511655210545" types="Schema:Event, DBpedia:Event, Schema:SportsEvent, DBpedia:SportsEvent, DBpedia:Olympics"/>
+    <resource label="1992 Summer Olympics" uri="1992_Summer_Olympics" contextualScore="0.2943421411002317" percentageOfSecondRank="0.08043810469433625" support="4463" priorScore="3.7123333128654534E-5" finalScore="0.8952511655210545" types="Schema:Event, DBpedia:Event, Schema:SportsEvent, DBpedia:SportsEvent, DBpedia:Olympics"/>
   </surfaceForm>
-  <surfaceForm name="ray" offset="1525">
-    <resource label="Line (geometry)" uri="Line_(geometry)" contextualScore="1.0" percentageOfSecondRank="1.0248345177833658E-20" support="1705" priorScore="1.4182227870122335E-5" finalScore="1.0" types=""/>
+  <surfaceForm name="method" offset="817">
+    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
   </surfaceForm>
-  <surfaceForm name="optimal" offset="899">
-    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999999480319288" percentageOfSecondRank="7.274442789097972E-10" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999999992726316" types=""/>
+  <surfaceForm name="factor" offset="1151">
+    <resource label="Integer factorization" uri="Integer_factorization" contextualScore="0.9912934346625111" percentageOfSecondRank="0.010910002770631559" support="370" priorScore="3.0776682181497147E-6" finalScore="0.9859298877616074" types=""/>
   </surfaceForm>
-  <surfaceForm name="time" offset="1358">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  <surfaceForm name="space" offset="665">
+    <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="654">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="726">
+    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
   </surfaceForm>
   <surfaceForm name="We" offset="581">
-    <resource label="Montana" uri="Montana" contextualScore="0.9773061824232947" percentageOfSecondRank="0.029479103528605863" support="14470" priorScore="1.203617813962875E-4" finalScore="0.9713161302212993" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
-  <surfaceForm name="probability" offset="709">
-    <resource label="Probability" uri="Probability" contextualScore="0.9594147806698583" percentageOfSecondRank="4.3082720024633346E-4" support="4712" priorScore="3.919452065924718E-5" finalScore="0.9995693490615137" types=""/>
+    <resource label="Montana" uri="Montana" contextualScore="0.9773061824232947" percentageOfSecondRank="0.029479103528612566" support="14470" priorScore="1.203617813962875E-4" finalScore="0.9713161302212993" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
   </surfaceForm>
   <surfaceForm name="spanning trees" offset="1484">
-    <resource label="Spanning tree" uri="Spanning_tree" contextualScore="1.0" percentageOfSecondRank="8.90780885284107E-36" support="294" priorScore="2.445498530097341E-6" finalScore="1.0" types=""/>
+    <resource label="Spanning tree" uri="Spanning_tree" contextualScore="1.0" percentageOfSecondRank="8.907808852839044E-36" support="294" priorScore="2.445498530097341E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="high" offset="704">
-    <resource label="Hypertension" uri="Hypertension" contextualScore="0.9964750356185486" percentageOfSecondRank="0.013686459665171546" support="2395" priorScore="1.9921663195860992E-5" finalScore="0.986328339863813" types="DBpedia:Disease"/>
+  <surfaceForm name="space" offset="264">
+    <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
   </surfaceForm>
-  <surfaceForm name="linear programming" offset="1614">
-    <resource label="Linear programming" uri="Linear_programming" contextualScore="1.0" percentageOfSecondRank="1.9310011197365112E-44" support="555" priorScore="4.616502327224572E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="trees" offset="1048">
-    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999993247456592" percentageOfSecondRank="4.0818941841490137E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999995918106757" types=""/>
-  </surfaceForm>
-  <surfaceForm name="preprocessing" offset="397">
-    <resource label="Preprocessor" uri="Preprocessor" contextualScore="1.0" percentageOfSecondRank="0.0" support="193" priorScore="1.605378286764581E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="computational geometry" offset="86">
-    <resource label="Computational geometry" uri="Computational_geometry" contextualScore="1.0" percentageOfSecondRank="0.0" support="285" priorScore="2.370636330196402E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Abstract" offset="0">
-    <resource label="Abstract and concrete" uri="Abstract_and_concrete" contextualScore="0.8635407949773404" percentageOfSecondRank="4.1261638512387753E-10" support="269" priorScore="2.2375479748169547E-6" finalScore="0.4754607700091003" types=""/>
-    <resource label="Abstraction" uri="Abstraction" contextualScore="0.13645920473185594" percentageOfSecondRank="0.9064351017444355" support="626" priorScore="5.207081904220869E-6" finalScore="0.5245392296636301" types=""/>
-  </surfaceForm>
-  <surfaceForm name="O(1)" offset="561">
-    <resource label="Big O notation" uri="Big_O_notation" contextualScore="1.0" percentageOfSecondRank="3.737233373789202E-45" support="451" priorScore="3.751428017258166E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="nearest neighbor search" offset="1589">
-    <resource label="Nearest neighbor search" uri="Nearest_neighbor_search" contextualScore="1.0" percentageOfSecondRank="0.0" support="55" priorScore="4.574912216168495E-7" finalScore="1.0" types=""/>
+  <surfaceForm name="classes" offset="48">
+    <resource label="Complexity class" uri="Complexity_class" contextualScore="0.999999998120984" percentageOfSecondRank="2.482508249154358E-7" support="283" priorScore="2.354000285773971E-6" finalScore="0.9999997512332212" types=""/>
   </surfaceForm>
   <surfaceForm name="node" offset="994">
     <resource label="Vertex (graph theory)" uri="Vertex_(graph_theory)" contextualScore="0.41066846266885587" percentageOfSecondRank="0.0628263656305412" support="1948" priorScore="1.620350726744769E-5" finalScore="0.9408874462187333" types=""/>
   </surfaceForm>
-  <surfaceForm name="improvement" offset="1236">
-    <resource label="Land improvement" uri="Land_improvement" contextualScore="0.6609775023765738" percentageOfSecondRank="1.0376710634858502E-10" support="72" priorScore="5.98897599207512E-7" finalScore="0.4638584188719739" types=""/>
-    <resource label="Self-help" uri="Self-help" contextualScore="0.33902249529947187" percentageOfSecondRank="0.8651789662695222" support="649" priorScore="5.398396415078824E-6" finalScore="0.5361415810558111" types=""/>
-  </surfaceForm>
-  <surfaceForm name="method" offset="595">
-    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
+  <surfaceForm name="crossing number" offset="907">
+    <resource label="Crossing number (graph theory)" uri="Crossing_number_(graph_theory)" contextualScore="0.9999984641504368" percentageOfSecondRank="1.1132069920472402E-6" support="87" priorScore="7.236679323757438E-7" finalScore="0.9999988867943387" types=""/>
   </surfaceForm>
   <surfaceForm name="dimensions" offset="1401">
-    <resource label="Dimension (mathematics and physics)" uri="Dimension_(mathematics_and_physics)" contextualScore="0.9999999985147952" percentageOfSecondRank="1.2699929179649929E-11" support="2117" priorScore="1.7609253021143097E-5" finalScore="0.9999999999870397" types=""/>
+    <resource label="Dimension (mathematics and physics)" uri="Dimension_(mathematics_and_physics)" contextualScore="0.9999999985147952" percentageOfSecondRank="1.2699929179647042E-11" support="2117" priorScore="1.7609253021143097E-5" finalScore="0.9999999999870397" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trees" offset="1290">
+    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999993247456592" percentageOfSecondRank="4.0818941841480856E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999995918106757" types=""/>
+  </surfaceForm>
+  <surfaceForm name="computing" offset="1474">
+    <resource label="Computer science" uri="Computer_science" contextualScore="0.9990403952183177" percentageOfSecondRank="0.0011689007425655222" support="6951" priorScore="5.781857239015856E-5" finalScore="0.9988185457315496" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ideal" offset="858">
+    <resource label="Ideal (ring theory)" uri="Ideal_(ring_theory)" contextualScore="0.21251048853711504" percentageOfSecondRank="0.013463077272202115" support="1297" priorScore="1.0788474807946433E-5" finalScore="0.9776797644328796" types=""/>
+  </surfaceForm>
+  <surfaceForm name="yielding" offset="1297">
+    <resource label="Yield (engineering)" uri="Yield_(engineering)" contextualScore="0.9999992213591515" percentageOfSecondRank="4.2014270241026386E-7" support="448" priorScore="3.7264739506245195E-6" finalScore="0.9999995797053063" types=""/>
+  </surfaceForm>
+  <surfaceForm name="bounds" offset="1181">
+    <resource label="Upper and lower bounds" uri="Upper_and_lower_bounds" contextualScore="0.999994046310564" percentageOfSecondRank="1.2293927017013682E-7" support="373" priorScore="3.102622284783361E-6" finalScore="0.9999998770606529" types=""/>
+  </surfaceForm>
+  <surfaceForm name="satisfy" offset="845">
+    <resource label="Satisfiability" uri="Satisfiability" contextualScore="1.0" percentageOfSecondRank="2.2403332544190166E-21" support="102" priorScore="8.484382655439755E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="partition" offset="829">
+    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="It" offset="757">
+    <resource label="Wikipedia" uri="Wikipedia" contextualScore="0.9988528210796165" percentageOfSecondRank="1.7904754148492878E-4" support="21139" priorScore="1.758346715228833E-4" finalScore="0.9997765583141707" types="Schema:CreativeWork, DBpedia:Work, Schema:WebPage, DBpedia:Website"/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="825">
+    <resource label="Christian" uri="Christian" contextualScore="0.9793159877223105" percentageOfSecondRank="2.8852260093989533E-5" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9999709845781994" types=""/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="200">
+    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
+  </surfaceForm>
+  <surfaceForm name="improved" offset="1453">
+    <resource label="Gravel road" uri="Gravel_road" contextualScore="0.6888958352290027" percentageOfSecondRank="0.03532529239034582" support="276" priorScore="2.295774130295463E-6" finalScore="0.9658242243898368" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fixed" offset="424">
+    <resource label="Fixed point (mathematics)" uri="Fixed_point_(mathematics)" contextualScore="1.0" percentageOfSecondRank="9.510927808295925E-22" support="626" priorScore="5.207081904220869E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="9">
+    <resource label="Montana" uri="Montana" contextualScore="0.9773061824232947" percentageOfSecondRank="0.029479103528612566" support="14470" priorScore="1.203617813962875E-4" finalScore="0.9713161302212993" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
+  <surfaceForm name="complicated" offset="362">
+    <resource label="Complications of pregnancy" uri="Complications_of_pregnancy" contextualScore="0.9955159010309985" percentageOfSecondRank="0.021469969028091892" support="75" priorScore="6.238516658411584E-7" finalScore="0.9789812922751522" types="DBpedia:Disease"/>
+  </surfaceForm>
+  <surfaceForm name="space" offset="1165">
+    <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="557">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999996648512" percentageOfSecondRank="2.8581096953964815E-12" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999999970441" types=""/>
   </surfaceForm>
   <surfaceForm name="constant" offset="882">
     <resource label="Coefficient" uri="Coefficient" contextualScore="0.9815100472496578" percentageOfSecondRank="0.023599907489836928" support="961" priorScore="7.993619344978043E-6" finalScore="0.9769435674668575" types=""/>
@@ -161,122 +95,188 @@
   <surfaceForm name="partition" offset="1280">
     <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="classes" offset="48">
-    <resource label="Complexity class" uri="Complexity_class" contextualScore="0.999999998120984" percentageOfSecondRank="2.482508249154358E-7" support="283" priorScore="2.354000285773971E-6" finalScore="0.9999997512332212" types=""/>
+  <surfaceForm name="time" offset="694">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
   </surfaceForm>
-  <surfaceForm name="factor" offset="1151">
-    <resource label="Integer factorization" uri="Integer_factorization" contextualScore="0.9912934346625111" percentageOfSecondRank="0.010910002770631559" support="370" priorScore="3.0776682181497147E-6" finalScore="0.9859298877616074" types=""/>
+  <surfaceForm name="time" offset="292">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
   </surfaceForm>
-  <surfaceForm name="We" offset="9">
-    <resource label="Montana" uri="Montana" contextualScore="0.9773061824232947" percentageOfSecondRank="0.029479103528605863" support="14470" priorScore="1.203617813962875E-4" finalScore="0.9713161302212993" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
-  <surfaceForm name="method" offset="726">
+  <surfaceForm name="method" offset="312">
     <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
-  </surfaceForm>
-  <surfaceForm name="space" offset="665">
-    <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
-  </surfaceForm>
-  <surfaceForm name="satisfy" offset="845">
-    <resource label="Satisfiability" uri="Satisfiability" contextualScore="1.0" percentageOfSecondRank="2.2403332544200356E-21" support="102" priorScore="8.484382655439755E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="method" offset="817">
-    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
-  </surfaceForm>
-  <surfaceForm name="consequences" offset="1426">
-    <resource label="Logical consequence" uri="Logical_consequence" contextualScore="0.9984831928216983" percentageOfSecondRank="1.0742648087644593E-4" support="602" priorScore="5.007449371151698E-6" finalScore="0.9998925850582238" types=""/>
-  </surfaceForm>
-  <surfaceForm name="yielding" offset="1297">
-    <resource label="Yield (engineering)" uri="Yield_(engineering)" contextualScore="0.9999992213591515" percentageOfSecondRank="4.201427024103594E-7" support="448" priorScore="3.7264739506245195E-6" finalScore="0.9999995797053063" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="557">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999996648512" percentageOfSecondRank="2.8581096953951817E-12" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999999970441" types=""/>
-  </surfaceForm>
-  <surfaceForm name="ideal" offset="858">
-    <resource label="Ideal (ring theory)" uri="Ideal_(ring_theory)" contextualScore="0.21251048853706672" percentageOfSecondRank="0.013463077272205177" support="1297" priorScore="1.0788474807946433E-5" finalScore="0.9776797644328796" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Our" offset="825">
-    <resource label="Christian" uri="Christian" contextualScore="0.9793159877223105" percentageOfSecondRank="2.885226009397641E-5" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9999709845781994" types=""/>
-  </surfaceForm>
-  <surfaceForm name="disjointness" offset="949">
-    <resource label="Disjoint sets" uri="Disjoint_sets" contextualScore="1.0" percentageOfSecondRank="0.0" support="230" priorScore="1.9131451085795523E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="It" offset="757">
-    <resource label="Wikipedia" uri="Wikipedia" contextualScore="0.9988528210796165" percentageOfSecondRank="1.7904754148492878E-4" support="21139" priorScore="1.758346715228833E-4" finalScore="0.9997765583141707" types="Schema:CreativeWork, DBpedia:Work, Schema:WebPage, DBpedia:Website"/>
-  </surfaceForm>
-  <surfaceForm name="tree" offset="195">
-    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999890329046353" percentageOfSecondRank="3.3101986906771675E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999996023755893" types=""/>
-  </surfaceForm>
-  <surfaceForm name="crossing number" offset="907">
-    <resource label="Crossing number (graph theory)" uri="Crossing_number_(graph_theory)" contextualScore="0.9999984641504368" percentageOfSecondRank="1.1132069920469872E-6" support="87" priorScore="7.236679323757438E-7" finalScore="0.9999988867943387" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="1315">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
   </surfaceForm>
   <surfaceForm name="space" offset="1326">
     <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
   </surfaceForm>
-  <surfaceForm name="complicated" offset="362">
-    <resource label="Complications of pregnancy" uri="Complications_of_pregnancy" contextualScore="0.9955159010309985" percentageOfSecondRank="0.021469969028091892" support="75" priorScore="6.238516658411584E-7" finalScore="0.9789812922751522" types="DBpedia:Disease"/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="292">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
-  </surfaceForm>
-  <surfaceForm name="halfspace" offset="1367">
-    <resource label="Half-space (geometry)" uri="Half-space_(geometry)" contextualScore="1.0" percentageOfSecondRank="0.0" support="142" priorScore="1.1811591539925932E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="694">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
-  </surfaceForm>
-  <surfaceForm name="fixed" offset="424">
-    <resource label="Fixed point (mathematics)" uri="Fixed_point_(mathematics)" contextualScore="1.0" percentageOfSecondRank="9.510927808298088E-22" support="626" priorScore="5.207081904220869E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="space" offset="264">
-    <resource label="Euclidean space" uri="Euclidean_space" contextualScore="0.9999929733716213" percentageOfSecondRank="1.3719174092327456E-5" support="1863" priorScore="1.5496475379494374E-5" finalScore="0.9999862810065869" types=""/>
-  </surfaceForm>
-  <surfaceForm name="shallow" offset="1261">
-    <resource label="Pelagic zone" uri="Pelagic_zone" contextualScore="0.3840398381285838" percentageOfSecondRank="0.007978670453449908" support="1174" priorScore="9.765358075966932E-6" finalScore="0.9862230119253451" types=""/>
-  </surfaceForm>
-  <surfaceForm name="crossing number" offset="1508">
-    <resource label="Crossing number (graph theory)" uri="Crossing_number_(graph_theory)" contextualScore="0.9999984641504368" percentageOfSecondRank="1.1132069920469872E-6" support="87" priorScore="7.236679323757438E-7" finalScore="0.9999988867943387" types=""/>
-  </surfaceForm>
-  <surfaceForm name="improved" offset="1453">
-    <resource label="Gravel road" uri="Gravel_road" contextualScore="0.6888958352290027" percentageOfSecondRank="0.035325292390337784" support="276" priorScore="2.295774130295463E-6" finalScore="0.9658242243898368" types=""/>
-  </surfaceForm>
-  <surfaceForm name="level" offset="1116">
-    <resource label="Modular form" uri="Modular_form" contextualScore="0.07906052088473979" percentageOfSecondRank="1.0965517256940891E-4" support="362" priorScore="3.0111240404599912E-6" finalScore="0.33517908156410087" types=""/>
-    <resource label="Abstraction layer" uri="Abstraction_layer" contextualScore="0.9209394165589192" percentageOfSecondRank="0.504196900796696" support="113" priorScore="9.399365098673453E-7" finalScore="0.6647781472565079" types=""/>
-  </surfaceForm>
-  <surfaceForm name="method" offset="200">
-    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
-  </surfaceForm>
-  <surfaceForm name="trees" offset="839">
-    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999993247456592" percentageOfSecondRank="4.0818941841490137E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999995918106757" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="654">
-    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097200789E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
-  </surfaceForm>
-  <surfaceForm name="conceptually" offset="763">
-    <resource label="Conceptual model" uri="Conceptual_model" contextualScore="0.9992764501250804" percentageOfSecondRank="0.001826340250226662" support="986" priorScore="8.201569900258429E-6" finalScore="0.9981769891877584" types=""/>
-  </surfaceForm>
-  <surfaceForm name="partition" offset="185">
-    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="layers" offset="937">
-    <resource label="Abstraction layer" uri="Abstraction_layer" contextualScore="0.9973361549417333" percentageOfSecondRank="0.013288874350670988" support="113" priorScore="9.399365098673453E-7" finalScore="0.9864341122873855" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Discrete" offset="137">
-    <resource label="Discrete group" uri="Discrete_group" contextualScore="1.0" percentageOfSecondRank="1.0410976971168323E-13" support="129" priorScore="1.0730248652467924E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Discrete" offset="466">
-    <resource label="Discrete group" uri="Discrete_group" contextualScore="1.0" percentageOfSecondRank="1.0410976971168323E-13" support="129" priorScore="1.0730248652467924E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="fundamental" offset="36">
-    <resource label="Greatest common divisor" uri="Greatest_common_divisor" contextualScore="0.9999999591054811" percentageOfSecondRank="1.1414672605698495E-6" support="304" priorScore="2.5286787522094954E-6" finalScore="0.9999982337869505" types=""/>
+  <surfaceForm name="time" offset="1315">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
   </surfaceForm>
   <surfaceForm name="data structuring" offset="1080">
     <resource label="Data structure" uri="Data_structure" contextualScore="1.0" percentageOfSecondRank="0.0" support="1007" priorScore="8.376248366693954E-6" finalScore="1.0" types=""/>
   </surfaceForm>
+  <surfaceForm name="improvement" offset="1236">
+    <resource label="Land improvement" uri="Land_improvement" contextualScore="0.6609775023767241" percentageOfSecondRank="1.0376710634853783E-10" support="72" priorScore="5.98897599207512E-7" finalScore="0.46385841887207935" types=""/>
+    <resource label="Self-help" uri="Self-help" contextualScore="0.33902249529939477" percentageOfSecondRank="0.8651789662699156" support="649" priorScore="5.398396415078824E-6" finalScore="0.5361415810556892" types=""/>
+  </surfaceForm>
+  <surfaceForm name="applications" offset="1097">
+    <resource label="Computer program" uri="Computer_program" contextualScore="0.9999843063921166" percentageOfSecondRank="8.333589392645054E-4" support="2681" priorScore="2.230061754826861E-5" finalScore="0.9988996555819896" types=""/>
+  </surfaceForm>
+  <surfaceForm name="partition" offset="185">
+    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fundamental" offset="36">
+    <resource label="Greatest common divisor" uri="Greatest_common_divisor" contextualScore="0.9999999591054811" percentageOfSecondRank="1.1414672605698495E-6" support="304" priorScore="2.5286787522094954E-6" finalScore="0.9999982337869505" types=""/>
+  </surfaceForm>
   <surfaceForm name="finding" offset="1642">
-    <resource label="Judicial review" uri="Judicial_review" contextualScore="0.9416164347199151" percentageOfSecondRank="0.029013539411353206" support="1263" priorScore="1.0505662052765107E-5" finalScore="0.9718045115052683" types=""/>
+    <resource label="Judicial review" uri="Judicial_review" contextualScore="0.9416164347199151" percentageOfSecondRank="0.029013539411340012" support="1263" priorScore="1.0505662052765107E-5" finalScore="0.9718045115052683" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Discrete" offset="466">
+    <resource label="Discrete group" uri="Discrete_group" contextualScore="1.0" percentageOfSecondRank="1.0410976971168323E-13" support="129" priorScore="1.0730248652467924E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="O(1)" offset="561">
+    <resource label="Big O notation" uri="Big_O_notation" contextualScore="1.0" percentageOfSecondRank="3.737233373788352E-45" support="451" priorScore="3.751428017258166E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="level" offset="1116">
+    <resource label="Modular form" uri="Modular_form" contextualScore="0.07906052088473979" percentageOfSecondRank="1.0965517256943385E-4" support="362" priorScore="3.0111240404599912E-6" finalScore="0.33517908156410087" types=""/>
+    <resource label="Abstraction layer" uri="Abstraction_layer" contextualScore="0.9209394165589192" percentageOfSecondRank="0.504196900796696" support="113" priorScore="9.399365098673453E-7" finalScore="0.6647781472565079" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Discrete" offset="137">
+    <resource label="Discrete group" uri="Discrete_group" contextualScore="1.0" percentageOfSecondRank="1.0410976971168323E-13" support="129" priorScore="1.0730248652467924E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="layers" offset="937">
+    <resource label="Abstraction layer" uri="Abstraction_layer" contextualScore="0.9973361549417333" percentageOfSecondRank="0.013288874350674008" support="113" priorScore="9.399365098673453E-7" finalScore="0.9864341122873855" types=""/>
+  </surfaceForm>
+  <surfaceForm name="conceptually" offset="763">
+    <resource label="Conceptual model" uri="Conceptual_model" contextualScore="0.9992764501250804" percentageOfSecondRank="0.0018263402502270772" support="986" priorScore="8.201569900258429E-6" finalScore="0.9981769891877584" types=""/>
+  </surfaceForm>
+  <surfaceForm name="preprocessing" offset="640">
+    <resource label="Preprocessor" uri="Preprocessor" contextualScore="1.0" percentageOfSecondRank="0.0" support="193" priorScore="1.605378286764581E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trees" offset="839">
+    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999993247456592" percentageOfSecondRank="4.0818941841480856E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999995918106757" types=""/>
+  </surfaceForm>
+  <surfaceForm name="shallow" offset="1261">
+    <resource label="Pelagic zone" uri="Pelagic_zone" contextualScore="0.3840398381285838" percentageOfSecondRank="0.007978670453449908" support="1174" priorScore="9.765358075966932E-6" finalScore="0.9862230119253451" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="1358">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  </surfaceForm>
+  <surfaceForm name="extreme points" offset="1650">
+    <resource label="Extreme point" uri="Extreme_point" contextualScore="0.9999896493117371" percentageOfSecondRank="1.8022304938010967E-5" support="37" priorScore="3.077668218149715E-7" finalScore="0.9999819780198853" types=""/>
+  </surfaceForm>
+  <surfaceForm name="halfspace" offset="1367">
+    <resource label="Half-space (geometry)" uri="Half-space_(geometry)" contextualScore="1.0" percentageOfSecondRank="0.0" support="142" priorScore="1.1811591539925932E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="segments" offset="1549">
+    <resource label="Market segmentation" uri="Market_segmentation" contextualScore="0.907662643526867" percentageOfSecondRank="0.054730796921094234" support="253" priorScore="2.104459619437508E-6" finalScore="0.9471693884348369" types=""/>
+  </surfaceForm>
+  <surfaceForm name="data structure" offset="59">
+    <resource label="Data structure" uri="Data_structure" contextualScore="0.9999999629214933" percentageOfSecondRank="3.5118577244193326E-10" support="1007" priorScore="8.376248366693954E-6" finalScore="0.9999999996487077" types=""/>
+  </surfaceForm>
+  <surfaceForm name="believed" offset="332">
+    <resource label="Belief" uri="Belief" contextualScore="0.9999910186298587" percentageOfSecondRank="1.6045443643054188E-5" support="1460" priorScore="1.2144312428374551E-5" finalScore="0.9999839403608713" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simultaneously" offset="616">
+    <resource label="Simultaneous equations" uri="Simultaneous_equations" contextualScore="1.0" percentageOfSecondRank="8.2425176112778785E-19" support="128" priorScore="1.064706843035577E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="version" offset="1269">
+    <resource label="Software versioning" uri="Software_versioning" contextualScore="0.9999999999856755" percentageOfSecondRank="6.016636111915192E-10" support="262" priorScore="2.179321819338447E-6" finalScore="0.9999999993983693" types=""/>
+  </surfaceForm>
+  <surfaceForm name="partition" offset="1038">
+    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999997726" percentageOfSecondRank="3.357619823437015E-14" support="508" priorScore="4.225555283297446E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="intersection" offset="1559">
+    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9993288181244037" percentageOfSecondRank="4.072879545245276E-5" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999592728633202" types=""/>
+  </surfaceForm>
+  <surfaceForm name="optimal" offset="347">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999999480319288" percentageOfSecondRank="7.274442789097972E-10" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999999992726316" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tree" offset="195">
+    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999890329046353" percentageOfSecondRank="3.310198690676415E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999996023755893" types=""/>
+  </surfaceForm>
+  <surfaceForm name="disjointness" offset="949">
+    <resource label="Disjoint sets" uri="Disjoint_sets" contextualScore="1.0" percentageOfSecondRank="0.0" support="230" priorScore="1.9131451085795523E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="probability" offset="709">
+    <resource label="Probability" uri="Probability" contextualScore="0.9594147806698583" percentageOfSecondRank="4.3082720024633346E-4" support="4712" priorScore="3.919452065924718E-5" finalScore="0.9995693490615137" types=""/>
+  </surfaceForm>
+  <surfaceForm name="An" offset="435">
+    <resource label="Anu" uri="Anu" contextualScore="0.740111511971071" percentageOfSecondRank="0.04201789018085811" support="287" priorScore="2.387272374618833E-6" finalScore="0.9592527899153691" types=""/>
+  </surfaceForm>
+  <surfaceForm name="optimal" offset="899">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9999999480319288" percentageOfSecondRank="7.274442789097972E-10" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999999992726316" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="411">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  </surfaceForm>
+  <surfaceForm name="consequences" offset="1426">
+    <resource label="Logical consequence" uri="Logical_consequence" contextualScore="0.9984831928216983" percentageOfSecondRank="1.0742648087649478E-4" support="602" priorScore="5.007449371151698E-6" finalScore="0.9998925850582238" types=""/>
+  </surfaceForm>
+  <surfaceForm name="logarithmic" offset="1139">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999996048246" percentageOfSecondRank="1.6187789481874096E-11" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999999836291" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="575">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  </surfaceForm>
+  <surfaceForm name="nearest neighbor search" offset="1589">
+    <resource label="Nearest neighbor search" uri="Nearest_neighbor_search" contextualScore="1.0" percentageOfSecondRank="0.0" support="55" priorScore="4.574912216168495E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="446">
+    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cells" offset="980">
+    <resource label="Face (geometry)" uri="Face_(geometry)" contextualScore="0.9957858376410597" percentageOfSecondRank="8.933352467145641E-5" support="853" priorScore="7.095272946166775E-6" finalScore="0.2586609768674449" types=""/>
+    <resource label="Cell (biology)" uri="Cell_(biology)" contextualScore="0.003592223737616945" percentageOfSecondRank="0.3489214422653174" support="14998" priorScore="1.2475369712380924E-4" finalScore="0.741315796438675" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Our" offset="722">
+    <resource label="Christian" uri="Christian" contextualScore="0.9793159877223105" percentageOfSecondRank="2.8852260093989533E-5" support="31473" priorScore="2.617931130535837E-4" finalScore="0.9999709845781994" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstract and concrete" uri="Abstract_and_concrete" contextualScore="0.8635407949773404" percentageOfSecondRank="4.1261638512387753E-10" support="269" priorScore="2.2375479748169547E-6" finalScore="0.4754607700091003" types=""/>
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.13645920473185594" percentageOfSecondRank="0.9064351017444355" support="626" priorScore="5.207081904220869E-6" finalScore="0.5245392296636301" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="538">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  </surfaceForm>
+  <surfaceForm name="It" offset="1000">
+    <resource label="Wikipedia" uri="Wikipedia" contextualScore="0.9988528210796165" percentageOfSecondRank="1.7904754148492878E-4" support="21139" priorScore="1.758346715228833E-4" finalScore="0.9997765583141707" types="Schema:CreativeWork, DBpedia:Work, Schema:WebPage, DBpedia:Website"/>
+  </surfaceForm>
+  <surfaceForm name="method" offset="595">
+    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="4.924725633291939E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9995045566898988" types=""/>
+  </surfaceForm>
+  <surfaceForm name="trees" offset="1048">
+    <resource label="Tree (graph theory)" uri="Tree_(graph_theory)" contextualScore="0.9999993247456592" percentageOfSecondRank="4.0818941841480856E-7" support="1388" priorScore="1.1545414829167038E-5" finalScore="0.9999995918106757" types=""/>
+  </surfaceForm>
+  <surfaceForm name="shooting" offset="1529">
+    <resource label="Shooter game" uri="Shooter_game" contextualScore="0.9734478406748391" percentageOfSecondRank="0.03032304620478839" support="407" priorScore="3.385435039964686E-6" finalScore="0.9530716714266275" types=""/>
+  </surfaceForm>
+  <surfaceForm name="1993" offset="172">
+    <resource label="1993" uri="1993" contextualScore="0.9654729409788492" percentageOfSecondRank="0.032933802966288096" support="307" priorScore="2.553632818843142E-6" finalScore="0.948322669879354" types="DBpedia:TimePeriod, DBpedia:Year"/>
+  </surfaceForm>
+  <surfaceForm name="preprocessing" offset="524">
+    <resource label="Preprocessor" uri="Preprocessor" contextualScore="1.0" percentageOfSecondRank="0.0" support="193" priorScore="1.605378286764581E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="812">
+    <resource label="Time" uri="Time" contextualScore="0.9997289642070257" percentageOfSecondRank="7.091250097202402E-8" support="8025" priorScore="6.675212824500395E-5" finalScore="0.9999999290876102" types=""/>
+  </surfaceForm>
+  <surfaceForm name="range" offset="1377">
+    <resource label="Range (mathematics)" uri="Range_(mathematics)" contextualScore="0.9999999999997726" percentageOfSecondRank="7.592551219216168E-14" support="225" priorScore="1.8715549975234752E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="linear programming" offset="1614">
+    <resource label="Linear programming" uri="Linear_programming" contextualScore="1.0" percentageOfSecondRank="1.9310011197369503E-44" support="555" priorScore="4.616502327224572E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="high" offset="704">
+    <resource label="Hypertension" uri="Hypertension" contextualScore="0.9964750356185486" percentageOfSecondRank="0.013686459665171546" support="2395" priorScore="1.9921663195860992E-5" finalScore="0.986328339863813" types="DBpedia:Disease"/>
+  </surfaceForm>
+  <surfaceForm name="methods" offset="1217">
+    <resource label="Iterative method" uri="Iterative_method" contextualScore="0.999963751618558" percentageOfSecondRank="1.1872106437400942E-4" support="233" priorScore="1.938099175213199E-6" finalScore="0.9998792629764206" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ray" offset="1525">
+    <resource label="Line (geometry)" uri="Line_(geometry)" contextualScore="1.0" percentageOfSecondRank="1.0248345177835988E-20" support="1705" priorScore="1.4182227870122335E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="preprocessing" offset="397">
+    <resource label="Preprocessor" uri="Preprocessor" contextualScore="1.0" percentageOfSecondRank="0.0" support="193" priorScore="1.605378286764581E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="computational geometry" offset="86">
+    <resource label="Computational geometry" uri="Computational_geometry" contextualScore="1.0" percentageOfSecondRank="0.0" support="285" priorScore="2.370636330196402E-6" finalScore="1.0" types=""/>
   </surfaceForm>
 </annotation>

@@ -1,183 +1,117 @@
-<annotation text="Abstract We consider a simple restriction of the PRAM model (called PPRAM), where the input is arbitrarily partitioned between a fixed set of p processors and the shared memory is restricted to m cells. This model allows for investigation of the tradeoffs/ bottlenecks with respect to the communication bandwidth (modeled by the shared memory size m ) and the number of processors p . The model is quite simple and allows the design of optimal algorithms without losing the effect of communication bottlenecks. We have focused on the PPRAM complexity of problems that have $\tilde{O}$ (n) sequential solutions (where n is the input size), and where m ≤ p ≤ n . We show essentially tight time bounds (up to logarithmic factors) for several problems in this model such as summing, Boolean threshold, routing, integer sorting, list reversal and k -selection. We get typically two sorts of complexity behaviors for these problems: One type is $\tilde{O}$ (n/p   p/m) , which means that the time scales with the number of processors and with memory size (in appropriate ranges) but not with both. The other is $\tilde{O}$ (n/m) , which means that the running time does not scale with p and reflects a communication bottleneck (as long as m &lt; p ). We are not aware of any problem whose complexity scales with both p and m (e.g. $O(n/\sqrt{m \cdot p})$ ). This might explain why in actual implementations one often fails to get p -scalability for p close to n .">
-  <surfaceForm name="cells" offset="196">
-    <resource label="Cell (biology)" uri="Cell_(biology)" contextualScore="0.4670112362892236" percentageOfSecondRank="8.90608921138052E-5" support="14998" priorScore="1.2475369712380924E-4" finalScore="0.9999101630996053" types=""/>
-  </surfaceForm>
-  <surfaceForm name="integer sorting" offset="807">
-    <resource label="Integer sorting" uri="Integer_sorting" contextualScore="1.0" percentageOfSecondRank="0.0" support="21" priorScore="1.7467846643552435E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="ranges" offset="1065">
-    <resource label="Range (mathematics)" uri="Range_(mathematics)" contextualScore="1.0" percentageOfSecondRank="3.5992506139737015E-13" support="225" priorScore="1.8715549975234752E-6" finalScore="0.9999999999996589" types=""/>
-  </surfaceForm>
-  <surfaceForm name="factors" offset="718">
-    <resource label="Divisor" uri="Divisor" contextualScore="0.04246351407228071" percentageOfSecondRank="1.0390102303925524E-5" support="693" priorScore="5.764389392372304E-6" finalScore="0.12160054121670713" types=""/>
-    <resource label="Integer factorization" uri="Integer_factorization" contextualScore="0.9575294017979977" percentageOfSecondRank="0.13843441612253812" support="370" priorScore="3.0776682181497147E-6" finalScore="0.8783981947745557" types=""/>
-  </surfaceForm>
-  <surfaceForm name="bottleneck" offset="1210">
-    <resource label="Bottleneck" uri="Bottleneck" contextualScore="0.9999999999997726" percentageOfSecondRank="4.53979131723851E-15" support="281" priorScore="2.3373642413515403E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="algorithms" offset="444">
-    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9993506815903627" percentageOfSecondRank="1.3831260578436267E-8" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999999861687457" types=""/>
-  </surfaceForm>
-  <surfaceForm name="optimal" offset="436">
-    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9998476650410075" percentageOfSecondRank="2.13170285509598E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999978682116065" types=""/>
-  </surfaceForm>
-  <surfaceForm name="fails" offset="1408">
-    <resource label="Failure" uri="Failure" contextualScore="0.9999999999918145" percentageOfSecondRank="1.1629770350991823E-12" support="356" priorScore="2.9612159071926986E-6" finalScore="0.9999999999988631" types=""/>
-  </surfaceForm>
-  <surfaceForm name="reversal" offset="829">
-    <resource label="Reversal film" uri="Reversal_film" contextualScore="0.9599290191406218" percentageOfSecondRank="0.0010813681469690974" support="259" priorScore="2.1543677527048004E-6" finalScore="0.9987674896276717" types=""/>
-  </surfaceForm>
-  <surfaceForm name="routing" offset="798">
-    <resource label="Routing" uri="Routing" contextualScore="0.9996358364398938" percentageOfSecondRank="5.602953597775416E-6" support="915" priorScore="7.610990323262132E-6" finalScore="0.9999943969198825" types=""/>
-  </surfaceForm>
-  <surfaceForm name="scales" offset="1291">
-    <resource label="Scale (music)" uri="Scale_(music)" contextualScore="0.02737453361940361" percentageOfSecondRank="0.06510409531510487" support="1556" priorScore="1.2942842560651234E-5" finalScore="0.45012623303271854" types=""/>
-    <resource label="Scale model" uri="Scale_model" contextualScore="0.9611529576458325" percentageOfSecondRank="0.8647950241427503" support="837" priorScore="6.9621845907873275E-6" finalScore="0.5205004890944156" types=""/>
-  </surfaceForm>
-  <surfaceForm name="bottlenecks" offset="257">
-    <resource label="Bottleneck" uri="Bottleneck" contextualScore="0.9999999999997726" percentageOfSecondRank="2.751669431061044E-14" support="281" priorScore="2.3373642413515403E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="fixed" offset="129">
-    <resource label="Fixed point (mathematics)" uri="Fixed_point_(mathematics)" contextualScore="1.0" percentageOfSecondRank="1.5573582700937558E-15" support="626" priorScore="5.207081904220869E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="processors" offset="144">
-    <resource label="Central processing unit" uri="Central_processing_unit" contextualScore="0.9999999643001736" percentageOfSecondRank="1.318239907716108E-10" support="5224" priorScore="4.345334803138949E-5" finalScore="0.999999999840611" types=""/>
-  </surfaceForm>
-  <surfaceForm name="model" offset="54">
-    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.85253067947417" percentageOfSecondRank="0.01896261755176065" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9776082082072738" types=""/>
-  </surfaceForm>
-  <surfaceForm name="scalability" offset="1424">
-    <resource label="Scalability" uri="Scalability" contextualScore="1.0" percentageOfSecondRank="0.0" support="329" priorScore="2.7366293074898814E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="simple" offset="404">
-    <resource label="Simple polygon" uri="Simple_polygon" contextualScore="0.7737747994432698" percentageOfSecondRank="0.183586624293939" support="74" priorScore="6.15533643629943E-7" finalScore="0.2856922946926703" types=""/>
-    <resource label="Simple module" uri="Simple_module" contextualScore="0.1286874429835456" percentageOfSecondRank="0.450100036779556" support="434" priorScore="3.6100216396675035E-6" finalScore="0.6347306628472748" types=""/>
-  </surfaceForm>
-  <surfaceForm name="bottlenecks" offset="498">
-    <resource label="Bottleneck" uri="Bottleneck" contextualScore="0.9999999999997726" percentageOfSecondRank="2.751669431061044E-14" support="281" priorScore="2.3373642413515403E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="long" offset="1225">
-    <resource label="Vowel length" uri="Vowel_length" contextualScore="0.9972871443125385" percentageOfSecondRank="1.1003550337894169E-4" support="840" priorScore="6.987138657420974E-6" finalScore="0.9998797663613254" types=""/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="661">
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881399807E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
-  <surfaceForm name="communication" offset="484">
-    <resource label="Communication" uri="Communication" contextualScore="1.8161997856222322E-4" percentageOfSecondRank="2.2734292293690028E-4" support="5061" priorScore="4.209751041096137E-5" finalScore="0.38876364873778324" types=""/>
-    <resource label="Inter-process communication" uri="Inter-process_communication" contextualScore="0.9998136949572269" percentageOfSecondRank="0.6361205321871057" support="295" priorScore="2.4538165523085563E-6" finalScore="0.6111477763516585" types=""/>
-  </surfaceForm>
-  <surfaceForm name="PRAM" offset="49">
-    <resource label="Parallel random-access machine" uri="Parallel_random-access_machine" contextualScore="1.0" percentageOfSecondRank="1.1200700493849615E-22" support="51" priorScore="4.2421913277198773E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="bandwidth" offset="303">
-    <resource label="Bandwidth (signal processing)" uri="Bandwidth_(signal_processing)" contextualScore="0.9977833462524066" percentageOfSecondRank="0.0011174673988024722" support="1424" priorScore="1.1844863628770795E-5" finalScore="0.9988837584483268" types=""/>
-  </surfaceForm>
-  <surfaceForm name="The" offset="1092">
-    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.9673680873288851" percentageOfSecondRank="0.02640215516299564" support="6340" priorScore="5.273626081910593E-5" finalScore="0.9689084290925263" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
-  </surfaceForm>
-  <surfaceForm name="tradeoffs" offset="246">
-    <resource label="Trade-off" uri="Trade-off" contextualScore="1.0" percentageOfSecondRank="0.0" support="118" priorScore="9.815266209234227E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="communication" offset="1196">
-    <resource label="Communication" uri="Communication" contextualScore="1.8161997856222322E-4" percentageOfSecondRank="2.2734292293690028E-4" support="5061" priorScore="4.209751041096137E-5" finalScore="0.38876364873778324" types=""/>
-    <resource label="Inter-process communication" uri="Inter-process_communication" contextualScore="0.9998136949572269" percentageOfSecondRank="0.6361205321871057" support="295" priorScore="2.4538165523085563E-6" finalScore="0.6111477763516585" types=""/>
-  </surfaceForm>
-  <surfaceForm name="partitioned" offset="107">
-    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999425881" percentageOfSecondRank="1.2709677472855213E-12" support="508" priorScore="4.225555283297446E-6" finalScore="0.9999999999986358" types=""/>
-  </surfaceForm>
-  <surfaceForm name="typically" offset="863">
-    <resource label="Median" uri="Median" contextualScore="1.0" percentageOfSecondRank="0.0" support="1888" priorScore="1.5704425934774763E-5" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="communication" offset="289">
-    <resource label="Communication" uri="Communication" contextualScore="1.8161997856222322E-4" percentageOfSecondRank="2.2734292293690028E-4" support="5061" priorScore="4.209751041096137E-5" finalScore="0.38876364873778324" types=""/>
-    <resource label="Inter-process communication" uri="Inter-process_communication" contextualScore="0.9998136949572269" percentageOfSecondRank="0.6361205321871057" support="295" priorScore="2.4538165523085563E-6" finalScore="0.6111477763516585" types=""/>
-  </surfaceForm>
-  <surfaceForm name="reflects" offset="1185">
-    <resource label="Reflection (physics)" uri="Reflection_(physics)" contextualScore="0.9057625703336898" percentageOfSecondRank="0.0010721906964184051" support="932" priorScore="7.752396700852795E-6" finalScore="0.998894802534166" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cdot" offset="1336">
-    <resource label="Colorado Department of Transportation" uri="Colorado_Department_of_Transportation" contextualScore="0.1905447468683229" percentageOfSecondRank="0.0" support="76" priorScore="6.321696880523739E-7" finalScore="0.121885836377652" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
-    <resource label="Connecticut Department of Transportation" uri="Connecticut_Department_of_Transportation" contextualScore="0.8094552289863004" percentageOfSecondRank="0.13880408890296378" support="145" priorScore="1.2061132206262397E-6" finalScore="0.8781141632135986" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
-  </surfaceForm>
-  <surfaceForm name="model" offset="208">
-    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.85253067947417" percentageOfSecondRank="0.01896261755176065" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9776082082072738" types=""/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="1242">
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881399807E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="511">
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881399807E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
-  <surfaceForm name="model" offset="756">
-    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.85253067947417" percentageOfSecondRank="0.01896261755176065" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9776082082072738" types=""/>
-  </surfaceForm>
-  <surfaceForm name="memory" offset="1037">
-    <resource label="Computer memory" uri="Computer_memory" contextualScore="0.9380264908148136" percentageOfSecondRank="0.05885527577583734" support="1520" priorScore="1.2643393761047478E-5" finalScore="0.9444158780561709" types=""/>
-  </surfaceForm>
-  <surfaceForm name="type" offset="931">
-    <resource label="Data type" uri="Data_type" contextualScore="0.999858853572108" percentageOfSecondRank="8.682606141670374E-6" support="1375" priorScore="1.1437280540421237E-5" finalScore="0.9999913174683064" types=""/>
-  </surfaceForm>
-  <surfaceForm name="essentially" offset="669">
-    <resource label="Almost everywhere" uri="Almost_everywhere" contextualScore="0.9999737323355091" percentageOfSecondRank="5.799134004502351E-5" support="183" priorScore="1.5221980646524265E-6" finalScore="0.99994201202281" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Abstract" offset="0">
-    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9989676882717367" percentageOfSecondRank="1.4801376541089616E-4" support="626" priorScore="5.207081904220869E-6" finalScore="0.999851956568804" types=""/>
-  </surfaceForm>
-  <surfaceForm name="summing" offset="770">
-    <resource label="Summation" uri="Summation" contextualScore="0.9989306516836192" percentageOfSecondRank="9.541746168724072E-5" support="589" priorScore="4.8993150824058975E-6" finalScore="0.9999045916418806" types=""/>
-  </surfaceForm>
-  <surfaceForm name="processors" offset="1017">
-    <resource label="Central processing unit" uri="Central_processing_unit" contextualScore="0.9999999643001736" percentageOfSecondRank="1.318239907716108E-10" support="5224" priorScore="4.345334803138949E-5" finalScore="0.999999999840611" types=""/>
-  </surfaceForm>
-  <surfaceForm name="This" offset="203">
-    <resource label="Breast" uri="Breast" contextualScore="0.9352680601876769" percentageOfSecondRank="0.0015198723940650046" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9984581907910746" types="DBpedia:AnatomicalStructure"/>
-  </surfaceForm>
-  <surfaceForm name="size" offset="1044">
-    <resource label="Dimension (mathematics and physics)" uri="Dimension_(mathematics_and_physics)" contextualScore="0.9999989888230513" percentageOfSecondRank="3.725331546954986E-7" support="2117" priorScore="1.7609253021143097E-5" finalScore="0.9999996100763916" types=""/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="856">
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881399807E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
+<annotation text="Abstract We consider a simple restriction of the PRAM model (called PPRAM), where the input is arbitrarily partitioned between a fixed set of p processors and the shared memory is restricted to m cells. This model allows for investigation of the tradeoffs/ bottlenecks with respect to the communication bandwidth (modeled by the shared memory size m ) and the number of processors p . The model is quite simple and allows the design of optimal algorithms without losing the effect of communication bottlenecks. We have focused on the PPRAM complexity of problems that have $\tilde{O}$ (n) sequential solutions (where n is the input size), and where m ≤ p ≤ n . We show essentially tight time bounds (up to logarithmic factors) for several problems in this model such as summing, Boolean threshold, routing, integer sorting, list reversal and k -selection. We get typically two sorts of complexity behaviors for these problems: One type is $\tilde{O}$ (n/p + p/m) , which means that the time scales with the number of processors and with memory size (in appropriate ranges) but not with both. The other is $\tilde{O}$ (n/m) , which means that the running time does not scale with p and reflects a communication bottleneck (as long as m &lt; p ). We are not aware of any problem whose complexity scales with both p and m (e.g. $O(n/\sqrt{m \cdot p})$ ). This might explain why in actual implementations one often fails to get p -scalability for p close to n .">
   <surfaceForm name="complexity" offset="1280">
     <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.7309507735549166" percentageOfSecondRank="0.006051588794714264" support="451" priorScore="3.751428017258166E-6" finalScore="0.19313723329958332" types=""/>
     <resource label="Time complexity" uri="Time_complexity" contextualScore="0.26901589378853324" percentageOfSecondRank="0.23971537357074954" support="639" priorScore="5.315216192966669E-6" finalScore="0.8056939795835866" types=""/>
   </surfaceForm>
   <surfaceForm name="tight" offset="681">
-    <resource label="Big O notation" uri="Big_O_notation" contextualScore="1.0" percentageOfSecondRank="2.2373000932056112E-36" support="451" priorScore="3.751428017258166E-6" finalScore="1.0" types=""/>
+    <resource label="Big O notation" uri="Big_O_notation" contextualScore="1.0" percentageOfSecondRank="2.2373000932051024E-36" support="451" priorScore="3.751428017258166E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="bounds" offset="692">
-    <resource label="Upper and lower bounds" uri="Upper_and_lower_bounds" contextualScore="0.9999999667641083" percentageOfSecondRank="6.850056703931272E-10" support="373" priorScore="3.102622284783361E-6" finalScore="0.999999999314582" types=""/>
+  <surfaceForm name="size" offset="343">
+    <resource label="Dimension (mathematics and physics)" uri="Dimension_(mathematics_and_physics)" contextualScore="0.9999989888230513" percentageOfSecondRank="3.725331546954986E-7" support="2117" priorScore="1.7609253021143097E-5" finalScore="0.9999996100763916" types=""/>
   </surfaceForm>
-  <surfaceForm name="This" offset="1349">
-    <resource label="Breast" uri="Breast" contextualScore="0.9352680601876769" percentageOfSecondRank="0.0015198723940650046" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9984581907910746" types="DBpedia:AnatomicalStructure"/>
+  <surfaceForm name="We" offset="511">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881400576E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
   </surfaceForm>
-  <surfaceForm name="focused" offset="519">
-    <resource label="Focus (optics)" uri="Focus_(optics)" contextualScore="0.8375083948823073" percentageOfSecondRank="0.005600413262355442" support="1003" priorScore="8.342976277849091E-6" finalScore="0.9944306331886091" types=""/>
+  <surfaceForm name="We" offset="1242">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881400576E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
   </surfaceForm>
-  <surfaceForm name="Boolean" offset="779">
-    <resource label="Boolean algebra" uri="Boolean_algebra" contextualScore="0.9756037239159199" percentageOfSecondRank="5.1011986939248984E-5" support="869" priorScore="7.228361301546222E-6" finalScore="0.99994899061493" types=""/>
+  <surfaceForm name="investigation" offset="225">
+    <resource label="Investigative journalism" uri="Investigative_journalism" contextualScore="0.7256835886991352" percentageOfSecondRank="0.21044107263613054" support="855" priorScore="7.111908990589206E-6" finalScore="0.26086964681612984" types=""/>
+    <resource label="Detective" uri="Detective" contextualScore="0.2222826001023797" percentageOfSecondRank="0.38199735000304036" support="2046" priorScore="1.70186734441468E-5" finalScore="0.6829095720534543" types=""/>
   </surfaceForm>
-  <surfaceForm name="shared memory" offset="329">
-    <resource label="Parallel random-access machine" uri="Parallel_random-access_machine" contextualScore="0.9999992007277353" percentageOfSecondRank="6.233544779610164E-4" support="51" priorScore="4.2421913277198773E-7" finalScore="0.9993770338508161" types=""/>
+  <surfaceForm name="time" offset="986">
+    <resource label="Time" uri="Time" contextualScore="0.6604208853121213" percentageOfSecondRank="1.3449205575535742E-4" support="8025" priorScore="6.675212824500395E-5" finalScore="0.99986552588135" types=""/>
   </surfaceForm>
-  <surfaceForm name="number" offset="360">
-    <resource label="Natural number" uri="Natural_number" contextualScore="0.9994858357983386" percentageOfSecondRank="4.1912318330004407E-4" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.9995667713801372" types=""/>
-  </surfaceForm>
-  <surfaceForm name="One" offset="927">
-    <resource label="1 (number)" uri="1_(number)" contextualScore="0.9999831727572368" percentageOfSecondRank="1.0164598747713805E-5" support="692" priorScore="5.756071370161089E-6" finalScore="0.9999898354955572" types=""/>
+  <surfaceForm name="logarithmic" offset="706">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.7931530784623407" percentageOfSecondRank="0.011236106090504858" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9888887411922391" types=""/>
   </surfaceForm>
   <surfaceForm name="implementations" offset="1382">
     <resource label="Algorithm" uri="Algorithm" contextualScore="0.9999999977521838" percentageOfSecondRank="5.3970358867706106E-11" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999999999407692" types=""/>
   </surfaceForm>
+  <surfaceForm name="explain" offset="1360">
+    <resource label="Explanation" uri="Explanation" contextualScore="0.9279493426433726" percentageOfSecondRank="0.008232624757553167" support="148" priorScore="1.231067287259886E-6" finalScore="0.9918345529701691" types=""/>
+  </surfaceForm>
+  <surfaceForm name="shared memory" offset="329">
+    <resource label="Parallel random-access machine" uri="Parallel_random-access_machine" contextualScore="0.9999992007277353" percentageOfSecondRank="6.233544779610872E-4" support="51" priorScore="4.2421913277198773E-7" finalScore="0.9993770338508161" types=""/>
+  </surfaceForm>
+  <surfaceForm name="processors" offset="1017">
+    <resource label="Central processing unit" uri="Central_processing_unit" contextualScore="0.9999999643001736" percentageOfSecondRank="1.3182399077158085E-10" support="5224" priorScore="4.345334803138949E-5" finalScore="0.999999999840611" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="856">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881400576E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
   <surfaceForm name="threshold" offset="787">
     <resource label="Action potential" uri="Action_potential" contextualScore="0.7276829096635952" percentageOfSecondRank="0.008238394663946857" support="1453" priorScore="1.2086086272896043E-5" finalScore="0.9917130773433563" types=""/>
   </surfaceForm>
-  <surfaceForm name="logarithmic" offset="706">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.7931530784623407" percentageOfSecondRank="0.01123610609050358" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9888887411922391" types=""/>
+  <surfaceForm name="shared memory" offset="163">
+    <resource label="Parallel random-access machine" uri="Parallel_random-access_machine" contextualScore="0.9999992007277353" percentageOfSecondRank="6.233544779610872E-4" support="51" priorScore="4.2421913277198773E-7" finalScore="0.9993770338508161" types=""/>
+  </surfaceForm>
+  <surfaceForm name="scales" offset="991">
+    <resource label="Scale (music)" uri="Scale_(music)" contextualScore="0.02737453361940361" percentageOfSecondRank="0.06510409531509748" support="1556" priorScore="1.2942842560651234E-5" finalScore="0.45012623303271854" types=""/>
+    <resource label="Scale model" uri="Scale_model" contextualScore="0.9611529576458325" percentageOfSecondRank="0.8647950241427503" support="837" priorScore="6.9621845907873275E-6" finalScore="0.5205004890944156" types=""/>
+  </surfaceForm>
+  <surfaceForm name="input size" offset="626">
+    <resource label="Information" uri="Information" contextualScore="1.0" percentageOfSecondRank="0.0" support="5515" priorScore="4.587389249485318E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="One" offset="927">
+    <resource label="1 (number)" uri="1_(number)" contextualScore="0.9999831727572368" percentageOfSecondRank="1.0164598747713805E-5" support="692" priorScore="5.756071370161089E-6" finalScore="0.9999898354955572" types=""/>
+  </surfaceForm>
+  <surfaceForm name="number" offset="1007">
+    <resource label="Natural number" uri="Natural_number" contextualScore="0.9994858357983386" percentageOfSecondRank="4.1912318330004407E-4" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.9995667713801372" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The model" offset="385">
+    <resource label="Das Model" uri="Das_Model" contextualScore="0.3515591589219043" percentageOfSecondRank="0.07802463095082747" support="32" priorScore="2.6617671075889424E-7" finalScore="0.9186798644536395" types="Schema:CreativeWork, DBpedia:Work, DBpedia:MusicalWork, DBpedia:Single"/>
+  </surfaceForm>
+  <surfaceForm name="long" offset="1225">
+    <resource label="Vowel length" uri="Vowel_length" contextualScore="0.9972871443125385" percentageOfSecondRank="1.1003550337892918E-4" support="840" priorScore="6.987138657420974E-6" finalScore="0.9998797663613254" types=""/>
+  </surfaceForm>
+  <surfaceForm name="optimal" offset="436">
+    <resource label="Mathematical optimization" uri="Mathematical_optimization" contextualScore="0.9998476650410075" percentageOfSecondRank="2.13170285509598E-6" support="1610" priorScore="1.3392015760056868E-5" finalScore="0.9999978682116065" types=""/>
+  </surfaceForm>
+  <surfaceForm name="communication" offset="1196">
+    <resource label="Communication" uri="Communication" contextualScore="1.8161997856224387E-4" percentageOfSecondRank="2.2734292293690028E-4" support="5061" priorScore="4.209751041096137E-5" finalScore="0.38876364873778324" types=""/>
+    <resource label="Inter-process communication" uri="Inter-process_communication" contextualScore="0.9998136949572269" percentageOfSecondRank="0.636120532187178" support="295" priorScore="2.4538165523085563E-6" finalScore="0.611147776351589" types=""/>
+  </surfaceForm>
+  <surfaceForm name="memory" offset="1037">
+    <resource label="Computer memory" uri="Computer_memory" contextualScore="0.9380264908148136" percentageOfSecondRank="0.05885527577583734" support="1520" priorScore="1.2643393761047478E-5" finalScore="0.9444158780561709" types=""/>
+  </surfaceForm>
+  <surfaceForm name="behaviors" offset="897">
+    <resource label="Behavior" uri="Behavior" contextualScore="0.9954936789061644" percentageOfSecondRank="5.2728721063895544E-5" support="2771" priorScore="2.3049239547278E-5" finalScore="0.9999411872063543" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Boolean" offset="779">
+    <resource label="Boolean algebra" uri="Boolean_algebra" contextualScore="0.9756037239159199" percentageOfSecondRank="5.1011986939254785E-5" support="869" priorScore="7.228361301546222E-6" finalScore="0.99994899061493" types=""/>
+  </surfaceForm>
+  <surfaceForm name="communication" offset="484">
+    <resource label="Communication" uri="Communication" contextualScore="1.8161997856224387E-4" percentageOfSecondRank="2.2734292293690028E-4" support="5061" priorScore="4.209751041096137E-5" finalScore="0.38876364873778324" types=""/>
+    <resource label="Inter-process communication" uri="Inter-process_communication" contextualScore="0.9998136949572269" percentageOfSecondRank="0.636120532187178" support="295" priorScore="2.4538165523085563E-6" finalScore="0.611147776351589" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fails" offset="1408">
+    <resource label="Failure" uri="Failure" contextualScore="0.9999999999918145" percentageOfSecondRank="1.1629770350991823E-12" support="356" priorScore="2.9612159071926986E-6" finalScore="0.9999999999988631" types=""/>
+  </surfaceForm>
+  <surfaceForm name="bottleneck" offset="1210">
+    <resource label="Bottleneck" uri="Bottleneck" contextualScore="0.9999999999997726" percentageOfSecondRank="4.539791317237477E-15" support="281" priorScore="2.3373642413515403E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="modeled" offset="314">
+    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.8444669995041909" percentageOfSecondRank="0.007195458651716611" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9907752244225267" types=""/>
+  </surfaceForm>
+  <surfaceForm name="typically" offset="863">
+    <resource label="Median" uri="Median" contextualScore="1.0" percentageOfSecondRank="0.0" support="1888" priorScore="1.5704425934774763E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="9">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881400576E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
+  <surfaceForm name="focused" offset="519">
+    <resource label="Focus (optics)" uri="Focus_(optics)" contextualScore="0.8375083948823073" percentageOfSecondRank="0.005600413262355442" support="1003" priorScore="8.342976277849091E-6" finalScore="0.9944306331886091" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tilde" offset="1107">
+    <resource label="Tilde" uri="Tilde" contextualScore="0.9999999994098516" percentageOfSecondRank="0.0" support="465" priorScore="3.8678803282151824E-6" finalScore="0.9999999999986358" types=""/>
+  </surfaceForm>
+  <surfaceForm name="integer sorting" offset="807">
+    <resource label="Integer sorting" uri="Integer_sorting" contextualScore="1.0" percentageOfSecondRank="0.0" support="21" priorScore="1.7467846643552435E-7" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="aware" offset="1253">
     <resource label="Awareness" uri="Awareness" contextualScore="0.9999999440443632" percentageOfSecondRank="7.055620156364066E-10" support="447" priorScore="3.7181559284133043E-6" finalScore="0.9999999992944595" types=""/>
@@ -185,93 +119,159 @@
   <surfaceForm name="respect" offset="274">
     <resource label="Respect" uri="Respect" contextualScore="0.999999999998181" percentageOfSecondRank="0.0" support="375" priorScore="3.119258329205792E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="actual" offset="1375">
-    <resource label="Damages" uri="Damages" contextualScore="0.9757437216103655" percentageOfSecondRank="0.030934211861560555" support="1679" priorScore="1.3965959292630733E-5" finalScore="0.9697040343155571" types=""/>
+  <surfaceForm name="This" offset="1349">
+    <resource label="Breast" uri="Breast" contextualScore="0.9352680601876769" percentageOfSecondRank="0.0015198723940653502" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9984581907910746" types="DBpedia:AnatomicalStructure"/>
   </surfaceForm>
-  <surfaceForm name="investigation" offset="225">
-    <resource label="Investigative journalism" uri="Investigative_journalism" contextualScore="0.7256835886990527" percentageOfSecondRank="0.21044107263613054" support="855" priorScore="7.111908990589206E-6" finalScore="0.2608696468161002" types=""/>
-    <resource label="Detective" uri="Detective" contextualScore="0.22228260010240497" percentageOfSecondRank="0.3819973500029535" support="2046" priorScore="1.70186734441468E-5" finalScore="0.6829095720535319" types=""/>
-  </surfaceForm>
-  <surfaceForm name="The model" offset="385">
-    <resource label="Das Model" uri="Das_Model" contextualScore="0.3515591589219043" percentageOfSecondRank="0.07802463095082747" support="32" priorScore="2.6617671075889424E-7" finalScore="0.9186798644536395" types="Schema:CreativeWork, DBpedia:Work, DBpedia:MusicalWork, DBpedia:Single"/>
+  <surfaceForm name="model" offset="54">
+    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.85253067947417" percentageOfSecondRank="0.018962617551762803" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9776082082072738" types=""/>
   </surfaceForm>
   <surfaceForm name="called" offset="61">
     <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999999998606199" percentageOfSecondRank="3.280156180677006E-11" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999999999671445" types=""/>
   </surfaceForm>
-  <surfaceForm name="sorts" offset="877">
-    <resource label="Sorting algorithm" uri="Sorting_algorithm" contextualScore="0.9999999995225153" percentageOfSecondRank="2.582148484596106E-10" support="368" priorScore="3.061032173727284E-6" finalScore="0.9999999997418172" types=""/>
+  <surfaceForm name="simple" offset="404">
+    <resource label="Simple polygon" uri="Simple_polygon" contextualScore="0.7737747994432698" percentageOfSecondRank="0.183586624293939" support="74" priorScore="6.15533643629943E-7" finalScore="0.2856922946926703" types=""/>
+    <resource label="Simple module" uri="Simple_module" contextualScore="0.1286874429835456" percentageOfSecondRank="0.450100036779556" support="434" priorScore="3.6100216396675035E-6" finalScore="0.6347306628472748" types=""/>
   </surfaceForm>
-  <surfaceForm name="time" offset="687">
-    <resource label="Time" uri="Time" contextualScore="0.6604208853121213" percentageOfSecondRank="1.3449205575535742E-4" support="8025" priorScore="6.675212824500395E-5" finalScore="0.99986552588135" types=""/>
+  <surfaceForm name="type" offset="931">
+    <resource label="Data type" uri="Data_type" contextualScore="0.999858853572108" percentageOfSecondRank="8.682606141670374E-6" support="1375" priorScore="1.1437280540421237E-5" finalScore="0.9999913174683064" types=""/>
   </surfaceForm>
-  <surfaceForm name="scale" offset="1168">
-    <resource label="Scale (music)" uri="Scale_(music)" contextualScore="0.027369855496642132" percentageOfSecondRank="0.0731857953465568" support="1556" priorScore="1.2942842560651234E-5" finalScore="0.261784590055215" types=""/>
-    <resource label="Scale model" uri="Scale_model" contextualScore="0.9609887031021409" percentageOfSecondRank="0.36409406198002303" support="837" priorScore="6.9621845907873275E-6" finalScore="0.7190026352848855" types=""/>
-  </surfaceForm>
-  <surfaceForm name="running time" offset="1146">
-    <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.7309751388981415" percentageOfSecondRank="4.2392404351226635E-14" support="451" priorScore="3.751428017258166E-6" finalScore="0.10702939150192275" types=""/>
-    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.269024861101822" percentageOfSecondRank="0.11985768678539499" support="639" priorScore="5.315216192966669E-6" finalScore="0.8929706084980492" types=""/>
-  </surfaceForm>
-  <surfaceForm name="tilde" offset="941">
-    <resource label="Tilde" uri="Tilde" contextualScore="0.9999999994098516" percentageOfSecondRank="0.0" support="465" priorScore="3.8678803282151824E-6" finalScore="0.9999999999986358" types=""/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="9">
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881399807E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-  </surfaceForm>
-  <surfaceForm name="modeled" offset="314">
-    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.8444669995041909" percentageOfSecondRank="0.007195458651715793" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9907752244225267" types=""/>
-  </surfaceForm>
-  <surfaceForm name="processors" offset="370">
-    <resource label="Central processing unit" uri="Central_processing_unit" contextualScore="0.9999999643001736" percentageOfSecondRank="1.318239907716108E-10" support="5224" priorScore="4.345334803138949E-5" finalScore="0.999999999840611" types=""/>
+  <surfaceForm name="bottlenecks" offset="498">
+    <resource label="Bottleneck" uri="Bottleneck" contextualScore="0.9999999999997726" percentageOfSecondRank="2.7516694310604182E-14" support="281" priorScore="2.3373642413515403E-6" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="tilde" offset="575">
     <resource label="Tilde" uri="Tilde" contextualScore="0.9999999994098516" percentageOfSecondRank="0.0" support="465" priorScore="3.8678803282151824E-6" finalScore="0.9999999999986358" types=""/>
   </surfaceForm>
-  <surfaceForm name="simple" offset="23">
-    <resource label="Simple polygon" uri="Simple_polygon" contextualScore="0.7737747994432698" percentageOfSecondRank="0.183586624293939" support="74" priorScore="6.15533643629943E-7" finalScore="0.2856922946926703" types=""/>
-    <resource label="Simple module" uri="Simple_module" contextualScore="0.1286874429835456" percentageOfSecondRank="0.450100036779556" support="434" priorScore="3.6100216396675035E-6" finalScore="0.6347306628472748" types=""/>
-  </surfaceForm>
-  <surfaceForm name="solutions" offset="600">
-    <resource label="Zero of a function" uri="Zero_of_a_function" contextualScore="0.9989635361540349" percentageOfSecondRank="0.006507590519925748" support="1303" priorScore="1.0838382941213726E-5" finalScore="0.9925840504582798" types=""/>
-  </surfaceForm>
-  <surfaceForm name="tilde" offset="1107">
-    <resource label="Tilde" uri="Tilde" contextualScore="0.9999999994098516" percentageOfSecondRank="0.0" support="465" priorScore="3.8678803282151824E-6" finalScore="0.9999999999986358" types=""/>
-  </surfaceForm>
-  <surfaceForm name="size" offset="343">
-    <resource label="Dimension (mathematics and physics)" uri="Dimension_(mathematics_and_physics)" contextualScore="0.9999989888230513" percentageOfSecondRank="3.725331546954986E-7" support="2117" priorScore="1.7609253021143097E-5" finalScore="0.9999996100763916" types=""/>
-  </surfaceForm>
-  <surfaceForm name="input size" offset="626">
-    <resource label="Information" uri="Information" contextualScore="1.0" percentageOfSecondRank="0.0" support="5515" priorScore="4.587389249485318E-5" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="selection" offset="845">
-    <resource label="Selection algorithm" uri="Selection_algorithm" contextualScore="0.9995379301976397" percentageOfSecondRank="0.09025300001514114" support="106" priorScore="8.817103543888372E-7" finalScore="0.9100512200689929" types=""/>
-  </surfaceForm>
-  <surfaceForm name="complexity" offset="886">
-    <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.7309507735549166" percentageOfSecondRank="0.006051588794714264" support="451" priorScore="3.751428017258166E-6" finalScore="0.19313723329958332" types=""/>
-    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.26901589378853324" percentageOfSecondRank="0.23971537357074954" support="639" priorScore="5.315216192966669E-6" finalScore="0.8056939795835866" types=""/>
-  </surfaceForm>
-  <surfaceForm name="behaviors" offset="897">
-    <resource label="Behavior" uri="Behavior" contextualScore="0.9954936789061644" percentageOfSecondRank="5.2728721063889554E-5" support="2771" priorScore="2.3049239547278E-5" finalScore="0.9999411872063543" types=""/>
-  </surfaceForm>
-  <surfaceForm name="time" offset="986">
-    <resource label="Time" uri="Time" contextualScore="0.6604208853121213" percentageOfSecondRank="1.3449205575535742E-4" support="8025" priorScore="6.675212824500395E-5" finalScore="0.99986552588135" types=""/>
-  </surfaceForm>
-  <surfaceForm name="number" offset="1007">
-    <resource label="Natural number" uri="Natural_number" contextualScore="0.9994858357983386" percentageOfSecondRank="4.1912318330004407E-4" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.9995667713801372" types=""/>
-  </surfaceForm>
-  <surfaceForm name="scales" offset="991">
-    <resource label="Scale (music)" uri="Scale_(music)" contextualScore="0.02737453361940361" percentageOfSecondRank="0.06510409531510487" support="1556" priorScore="1.2942842560651234E-5" finalScore="0.45012623303271854" types=""/>
-    <resource label="Scale model" uri="Scale_model" contextualScore="0.9611529576458325" percentageOfSecondRank="0.8647950241427503" support="837" priorScore="6.9621845907873275E-6" finalScore="0.5205004890944156" types=""/>
+  <surfaceForm name="essentially" offset="669">
+    <resource label="Almost everywhere" uri="Almost_everywhere" contextualScore="0.9999737323355091" percentageOfSecondRank="5.799134004501692E-5" support="183" priorScore="1.5221980646524265E-6" finalScore="0.99994201202281" types=""/>
   </surfaceForm>
   <surfaceForm name="complexity" offset="540">
     <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.7309507735549166" percentageOfSecondRank="0.006051588794714264" support="451" priorScore="3.751428017258166E-6" finalScore="0.19313723329958332" types=""/>
     <resource label="Time complexity" uri="Time_complexity" contextualScore="0.26901589378853324" percentageOfSecondRank="0.23971537357074954" support="639" priorScore="5.315216192966669E-6" finalScore="0.8056939795835866" types=""/>
   </surfaceForm>
-  <surfaceForm name="explain" offset="1360">
-    <resource label="Explanation" uri="Explanation" contextualScore="0.9279493426433726" percentageOfSecondRank="0.008232624757553167" support="148" priorScore="1.231067287259886E-6" finalScore="0.9918345529701691" types=""/>
+  <surfaceForm name="processors" offset="370">
+    <resource label="Central processing unit" uri="Central_processing_unit" contextualScore="0.9999999643001736" percentageOfSecondRank="1.3182399077158085E-10" support="5224" priorScore="4.345334803138949E-5" finalScore="0.999999999840611" types=""/>
   </surfaceForm>
-  <surfaceForm name="shared memory" offset="163">
-    <resource label="Parallel random-access machine" uri="Parallel_random-access_machine" contextualScore="0.9999992007277353" percentageOfSecondRank="6.233544779610164E-4" support="51" priorScore="4.2421913277198773E-7" finalScore="0.9993770338508161" types=""/>
+  <surfaceForm name="tilde" offset="941">
+    <resource label="Tilde" uri="Tilde" contextualScore="0.9999999994098516" percentageOfSecondRank="0.0" support="465" priorScore="3.8678803282151824E-6" finalScore="0.9999999999986358" types=""/>
+  </surfaceForm>
+  <surfaceForm name="factors" offset="718">
+    <resource label="Divisor" uri="Divisor" contextualScore="0.04246351407228071" percentageOfSecondRank="1.0390102303925524E-5" support="693" priorScore="5.764389392372304E-6" finalScore="0.12160054121670713" types=""/>
+    <resource label="Integer factorization" uri="Integer_factorization" contextualScore="0.9575294017979977" percentageOfSecondRank="0.13843441612253812" support="370" priorScore="3.0776682181497147E-6" finalScore="0.8783981947745557" types=""/>
+  </surfaceForm>
+  <surfaceForm name="size" offset="1044">
+    <resource label="Dimension (mathematics and physics)" uri="Dimension_(mathematics_and_physics)" contextualScore="0.9999989888230513" percentageOfSecondRank="3.725331546954986E-7" support="2117" priorScore="1.7609253021143097E-5" finalScore="0.9999996100763916" types=""/>
+  </surfaceForm>
+  <surfaceForm name="scales" offset="1291">
+    <resource label="Scale (music)" uri="Scale_(music)" contextualScore="0.02737453361940361" percentageOfSecondRank="0.06510409531509748" support="1556" priorScore="1.2942842560651234E-5" finalScore="0.45012623303271854" types=""/>
+    <resource label="Scale model" uri="Scale_model" contextualScore="0.9611529576458325" percentageOfSecondRank="0.8647950241427503" support="837" priorScore="6.9621845907873275E-6" finalScore="0.5205004890944156" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cdot" offset="1336">
+    <resource label="Colorado Department of Transportation" uri="Colorado_Department_of_Transportation" contextualScore="0.1905447468683229" percentageOfSecondRank="0.0" support="76" priorScore="6.321696880523739E-7" finalScore="0.121885836377652" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
+    <resource label="Connecticut Department of Transportation" uri="Connecticut_Department_of_Transportation" contextualScore="0.8094552289863004" percentageOfSecondRank="0.13880408890296378" support="145" priorScore="1.2061132206262397E-6" finalScore="0.8781141632135986" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
+  </surfaceForm>
+  <surfaceForm name="cells" offset="196">
+    <resource label="Cell (biology)" uri="Cell_(biology)" contextualScore="0.4670112362892236" percentageOfSecondRank="8.90608921138052E-5" support="14998" priorScore="1.2475369712380924E-4" finalScore="0.9999101630996053" types=""/>
+  </surfaceForm>
+  <surfaceForm name="complexity" offset="886">
+    <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.7309507735549166" percentageOfSecondRank="0.006051588794714264" support="451" priorScore="3.751428017258166E-6" finalScore="0.19313723329958332" types=""/>
+    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.26901589378853324" percentageOfSecondRank="0.23971537357074954" support="639" priorScore="5.315216192966669E-6" finalScore="0.8056939795835866" types=""/>
+  </surfaceForm>
+  <surfaceForm name="solutions" offset="600">
+    <resource label="Zero of a function" uri="Zero_of_a_function" contextualScore="0.9989635361540349" percentageOfSecondRank="0.006507590519924268" support="1303" priorScore="1.0838382941213726E-5" finalScore="0.9925840504582798" types=""/>
+  </surfaceForm>
+  <surfaceForm name="bottlenecks" offset="257">
+    <resource label="Bottleneck" uri="Bottleneck" contextualScore="0.9999999999997726" percentageOfSecondRank="2.7516694310604182E-14" support="281" priorScore="2.3373642413515403E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="661">
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.15979064421317637" percentageOfSecondRank="6.762925881400576E-4" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.20217486740059706" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+    <resource label="Montana" uri="Montana" contextualScore="0.8142341091899699" percentageOfSecondRank="0.2534749702537422" support="14470" priorScore="1.203617813962875E-4" finalScore="0.7976127473186368" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  </surfaceForm>
+  <surfaceForm name="routing" offset="798">
+    <resource label="Routing" uri="Routing" contextualScore="0.9996358364398938" percentageOfSecondRank="5.602953597775416E-6" support="915" priorScore="7.610990323262132E-6" finalScore="0.9999943969198825" types=""/>
+  </surfaceForm>
+  <surfaceForm name="bandwidth" offset="303">
+    <resource label="Bandwidth (signal processing)" uri="Bandwidth_(signal_processing)" contextualScore="0.9977833462524066" percentageOfSecondRank="0.0011174673988024722" support="1424" priorScore="1.1844863628770795E-5" finalScore="0.9988837584483268" types=""/>
+  </surfaceForm>
+  <surfaceForm name="summing" offset="770">
+    <resource label="Summation" uri="Summation" contextualScore="0.9989306516836192" percentageOfSecondRank="9.541746168724072E-5" support="589" priorScore="4.8993150824058975E-6" finalScore="0.9999045916418806" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9989676882717367" percentageOfSecondRank="1.4801376541089616E-4" support="626" priorScore="5.207081904220869E-6" finalScore="0.999851956568804" types=""/>
+  </surfaceForm>
+  <surfaceForm name="sorts" offset="877">
+    <resource label="Sorting algorithm" uri="Sorting_algorithm" contextualScore="0.9999999995225153" percentageOfSecondRank="2.582148484595812E-10" support="368" priorScore="3.061032173727284E-6" finalScore="0.9999999997418172" types=""/>
+  </surfaceForm>
+  <surfaceForm name="bounds" offset="692">
+    <resource label="Upper and lower bounds" uri="Upper_and_lower_bounds" contextualScore="0.9999999667641083" percentageOfSecondRank="6.850056703931272E-10" support="373" priorScore="3.102622284783361E-6" finalScore="0.999999999314582" types=""/>
+  </surfaceForm>
+  <surfaceForm name="reversal" offset="829">
+    <resource label="Reversal film" uri="Reversal_film" contextualScore="0.9599290191406218" percentageOfSecondRank="0.0010813681469688515" support="259" priorScore="2.1543677527048004E-6" finalScore="0.9987674896276717" types=""/>
+  </surfaceForm>
+  <surfaceForm name="selection" offset="845">
+    <resource label="Selection algorithm" uri="Selection_algorithm" contextualScore="0.9995379301976397" percentageOfSecondRank="0.09025300001516166" support="106" priorScore="8.817103543888372E-7" finalScore="0.9100512200688894" types=""/>
+  </surfaceForm>
+  <surfaceForm name="This" offset="203">
+    <resource label="Breast" uri="Breast" contextualScore="0.9352680601876769" percentageOfSecondRank="0.0015198723940653502" support="3027" priorScore="2.5178653233349152E-5" finalScore="0.9984581907910746" types="DBpedia:AnatomicalStructure"/>
+  </surfaceForm>
+  <surfaceForm name="scalability" offset="1424">
+    <resource label="Scalability" uri="Scalability" contextualScore="1.0" percentageOfSecondRank="0.0" support="329" priorScore="2.7366293074898814E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithms" offset="444">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9993506815903627" percentageOfSecondRank="1.3831260578439412E-8" support="8817" priorScore="7.334000183628659E-5" finalScore="0.9999999861687457" types=""/>
+  </surfaceForm>
+  <surfaceForm name="number" offset="360">
+    <resource label="Natural number" uri="Natural_number" contextualScore="0.9994858357983386" percentageOfSecondRank="4.1912318330004407E-4" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.9995667713801372" types=""/>
+  </surfaceForm>
+  <surfaceForm name="simple" offset="23">
+    <resource label="Simple polygon" uri="Simple_polygon" contextualScore="0.7737747994432698" percentageOfSecondRank="0.183586624293939" support="74" priorScore="6.15533643629943E-7" finalScore="0.2856922946926703" types=""/>
+    <resource label="Simple module" uri="Simple_module" contextualScore="0.1286874429835456" percentageOfSecondRank="0.450100036779556" support="434" priorScore="3.6100216396675035E-6" finalScore="0.6347306628472748" types=""/>
+  </surfaceForm>
+  <surfaceForm name="tradeoffs" offset="246">
+    <resource label="Trade-off" uri="Trade-off" contextualScore="1.0" percentageOfSecondRank="0.0" support="118" priorScore="9.815266209234227E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="1092">
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.9673680873288851" percentageOfSecondRank="0.02640215516299264" support="6340" priorScore="5.273626081910593E-5" finalScore="0.9689084290925263" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+  </surfaceForm>
+  <surfaceForm name="time" offset="687">
+    <resource label="Time" uri="Time" contextualScore="0.6604208853121213" percentageOfSecondRank="1.3449205575535742E-4" support="8025" priorScore="6.675212824500395E-5" finalScore="0.99986552588135" types=""/>
+  </surfaceForm>
+  <surfaceForm name="model" offset="756">
+    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.85253067947417" percentageOfSecondRank="0.018962617551762803" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9776082082072738" types=""/>
+  </surfaceForm>
+  <surfaceForm name="reflects" offset="1185">
+    <resource label="Reflection (physics)" uri="Reflection_(physics)" contextualScore="0.9057625703336898" percentageOfSecondRank="0.0010721906964181614" support="932" priorScore="7.752396700852795E-6" finalScore="0.998894802534166" types=""/>
+  </surfaceForm>
+  <surfaceForm name="partitioned" offset="107">
+    <resource label="Partition of a set" uri="Partition_of_a_set" contextualScore="0.9999999999425881" percentageOfSecondRank="1.2709677472855213E-12" support="508" priorScore="4.225555283297446E-6" finalScore="0.9999999999986358" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ranges" offset="1065">
+    <resource label="Range (mathematics)" uri="Range_(mathematics)" contextualScore="1.0" percentageOfSecondRank="3.599250613972883E-13" support="225" priorScore="1.8715549975234752E-6" finalScore="0.9999999999996589" types=""/>
+  </surfaceForm>
+  <surfaceForm name="communication" offset="289">
+    <resource label="Communication" uri="Communication" contextualScore="1.8161997856224387E-4" percentageOfSecondRank="2.2734292293690028E-4" support="5061" priorScore="4.209751041096137E-5" finalScore="0.38876364873778324" types=""/>
+    <resource label="Inter-process communication" uri="Inter-process_communication" contextualScore="0.9998136949572269" percentageOfSecondRank="0.636120532187178" support="295" priorScore="2.4538165523085563E-6" finalScore="0.611147776351589" types=""/>
+  </surfaceForm>
+  <surfaceForm name="scale" offset="1168">
+    <resource label="Scale (music)" uri="Scale_(music)" contextualScore="0.027369855496642132" percentageOfSecondRank="0.07318579534654848" support="1556" priorScore="1.2942842560651234E-5" finalScore="0.261784590055215" types=""/>
+    <resource label="Scale model" uri="Scale_model" contextualScore="0.9609887031021409" percentageOfSecondRank="0.36409406198002303" support="837" priorScore="6.9621845907873275E-6" finalScore="0.7190026352848855" types=""/>
+  </surfaceForm>
+  <surfaceForm name="running time" offset="1146">
+    <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.7309751388981415" percentageOfSecondRank="4.239240435122182E-14" support="451" priorScore="3.751428017258166E-6" finalScore="0.10702939150192275" types=""/>
+    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.269024861101822" percentageOfSecondRank="0.11985768678539499" support="639" priorScore="5.315216192966669E-6" finalScore="0.8929706084980492" types=""/>
+  </surfaceForm>
+  <surfaceForm name="model" offset="208">
+    <resource label="Mathematical model" uri="Mathematical_model" contextualScore="0.85253067947417" percentageOfSecondRank="0.018962617551762803" support="1147" priorScore="9.540771476264116E-6" finalScore="0.9776082082072738" types=""/>
+  </surfaceForm>
+  <surfaceForm name="processors" offset="144">
+    <resource label="Central processing unit" uri="Central_processing_unit" contextualScore="0.9999999643001736" percentageOfSecondRank="1.3182399077158085E-10" support="5224" priorScore="4.345334803138949E-5" finalScore="0.999999999840611" types=""/>
+  </surfaceForm>
+  <surfaceForm name="actual" offset="1375">
+    <resource label="Damages" uri="Damages" contextualScore="0.9757437216103655" percentageOfSecondRank="0.03093421186156759" support="1679" priorScore="1.3965959292630733E-5" finalScore="0.9697040343155571" types=""/>
+  </surfaceForm>
+  <surfaceForm name="PRAM" offset="49">
+    <resource label="Parallel random-access machine" uri="Parallel_random-access_machine" contextualScore="1.0" percentageOfSecondRank="1.1200700493850889E-22" support="51" priorScore="4.2421913277198773E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="fixed" offset="129">
+    <resource label="Fixed point (mathematics)" uri="Fixed_point_(mathematics)" contextualScore="1.0" percentageOfSecondRank="1.5573582700934018E-15" support="626" priorScore="5.207081904220869E-6" finalScore="1.0" types=""/>
   </surfaceForm>
 </annotation>

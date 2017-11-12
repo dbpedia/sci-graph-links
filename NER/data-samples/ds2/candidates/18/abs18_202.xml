@@ -1,159 +1,202 @@
-<annotation text="Abstract We study the string-property of being periodic and having periodicity smaller than a given bound. Let Σ be a fixed alphabet and let p,n be integers such that $p\leq \frac{n}{2}$ . A length-n string over Σ, α=(α 1,…,α n ), has the property Period(p) if for every i,j∈{1,…,n}, α i =α j whenever i≡j (mod p). For an integer parameter $g\leq \frac{n}{2},$ the property Period(≤g) is the property of all strings that are in Period(p) for some p≤g. The property $\mathit{Period}(\leq \frac{n}{2})$ is also called Periodicity. An ε-test for a property P of length-n strings is a randomized algorithm that for an input α distinguishes between the case that α is in P and the case where one needs to change at least an ε-fraction of the letters of α to get a string in P. The query complexity of the ε-test is the number of letter queries it makes for the worst case input string of length n. We study the query complexity of ε-tests for Period(≤g) as a function of the parameter g, when g varies from 1 to $\frac{n}{2}$ , while ignoring the exact dependence on the proximity parameter ε. We show that there exists an exponential phase transition in the query complexity around g=log n. That is, for every δ&gt;0 and g≥(log n)1 δ , every two-sided error, adaptive ε-test for Period(≤g) has a query complexity that is polynomial in g. On the other hand, for $g\leq \frac{\log{n}}{6}$ , there exists a one-sided error, non-adaptive ε-test for Period(≤g), whose query complexity is poly-logarithmic in g. We also prove that the asymptotic query complexity of one-sided error non-adaptive ε-tests for Periodicity is $\Theta(\sqrt{n\log n}\,)$ , ignoring the dependence on ε.">
-  <surfaceForm name="prove" offset="1507">
-    <resource label="Mathematical proof" uri="Mathematical_proof" contextualScore="0.9999999999986358" percentageOfSecondRank="2.6652509124670314E-14" support="932" priorScore="7.752396700852795E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="bound" offset="100">
-    <resource label="Free variables and bound variables" uri="Free_variables_and_bound_variables" contextualScore="0.9999982453696862" percentageOfSecondRank="3.962495640660075E-6" support="223" priorScore="1.8549189531010443E-6" finalScore="0.9999960222140305" types=""/>
-  </surfaceForm>
-  <surfaceForm name="integer" offset="322">
-    <resource label="Integer" uri="Integer" contextualScore="1.0" percentageOfSecondRank="1.3562164130412753E-20" support="3806" priorScore="3.1658392535885985E-5" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="phase transition" offset="1130">
-    <resource label="Phase transition" uri="Phase_transition" contextualScore="1.0" percentageOfSecondRank="0.0" support="877" priorScore="7.294905479235946E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="On" offset="1331">
-    <resource label="Kanji" uri="Kanji" contextualScore="0.9999417346832928" percentageOfSecondRank="5.788741247004541E-5" support="3015" priorScore="2.507883696681457E-5" finalScore="0.999941477974987" types=""/>
-  </surfaceForm>
-  <surfaceForm name="one-sided error" offset="1397">
-    <resource label="Monte Carlo algorithm" uri="Monte_Carlo_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="37" priorScore="3.077668218149715E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="query complexity" offset="1456">
-    <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Period" offset="938">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
-  </surfaceForm>
-  <surfaceForm name="leq" offset="483">
-    <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
-  </surfaceForm>
-  <surfaceForm name="query complexity" offset="1533">
+<annotation text="Abstract We study the string-property of being periodic and having periodicity smaller than a given bound. Let Σ be a fixed alphabet and let p,n be integers such that $p\leq \frac{n}{2}$ . A length-n string over Σ, α=(α 1,…,α n ), has the property Period(p) if for every i,j∈{1,…,n}, α i =α j whenever i≡j (mod p). For an integer parameter $g\leq \frac{n}{2},$ the property Period(≤g) is the property of all strings that are in Period(p) for some p≤g. The property $\mathit{Period}(\leq \frac{n}{2})$ is also called Periodicity. An ε-test for a property P of length-n strings is a randomized algorithm that for an input α distinguishes between the case that α is in P and the case where one needs to change at least an ε-fraction of the letters of α to get a string in P. The query complexity of the ε-test is the number of letter queries it makes for the worst case input string of length n. We study the query complexity of ε-tests for Period(≤g) as a function of the parameter g, when g varies from 1 to $\frac{n}{2}$ , while ignoring the exact dependence on the proximity parameter ε. We show that there exists an exponential phase transition in the query complexity around g=log n. That is, for every δ&gt;0 and g≥(log n)1+δ , every two-sided error, adaptive ε-test for Period(≤g) has a query complexity that is polynomial in g. On the other hand, for $g\leq \frac{\log{n}}{6}$ , there exists a one-sided error, non-adaptive ε-test for Period(≤g), whose query complexity is poly-logarithmic in g. We also prove that the asymptotic query complexity of one-sided error non-adaptive ε-tests for Periodicity is $\Theta(\sqrt{n\log n}\,)$ , ignoring the dependence on ε.">
+  <surfaceForm name="query complexity" offset="906">
     <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="Let" offset="107">
-    <resource label="Renting" uri="Renting" contextualScore="0.9999982996249305" percentageOfSecondRank="6.576912062530243E-8" support="1251" priorScore="1.0405845786230523E-5" finalScore="0.9999999318999949" types=""/>
-  </surfaceForm>
-  <surfaceForm name="frac" offset="1362">
-    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
-  </surfaceForm>
-  <surfaceForm name="An" offset="529">
-    <resource label="Anu" uri="Anu" contextualScore="0.015007744781521386" percentageOfSecondRank="0.16555213559135196" support="287" priorScore="2.387272374618833E-6" finalScore="0.27075801107699543" types=""/>
-    <resource label="English articles" uri="English_articles" contextualScore="0.14086999272204523" percentageOfSecondRank="0.3961538081422184" support="5094" priorScore="4.237200514393148E-5" finalScore="0.68346688965765" types=""/>
-  </surfaceForm>
-  <surfaceForm name="called" offset="509">
-    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999999937751909" percentageOfSecondRank="1.4646857719448522E-9" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999999985352588" types=""/>
-  </surfaceForm>
-  <surfaceForm name="integers" offset="148">
-    <resource label="Integer" uri="Integer" contextualScore="1.0" percentageOfSecondRank="5.432855268969642E-19" support="3806" priorScore="3.1658392535885985E-5" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="dependence" offset="1048">
-    <resource label="Independence (probability theory)" uri="Independence_(probability_theory)" contextualScore="0.9999999981673682" percentageOfSecondRank="4.744126355401502E-10" support="1045" priorScore="8.69233321072014E-6" finalScore="0.9999999995206963" types=""/>
-  </surfaceForm>
-  <surfaceForm name="case" offset="676">
-    <resource label="Letter case" uri="Letter_case" contextualScore="0.9999998174087235" percentageOfSecondRank="2.4544017134570348E-6" support="2570" priorScore="2.1377317082823694E-5" finalScore="0.9999975438896094" types=""/>
-  </surfaceForm>
-  <surfaceForm name="dependence" offset="1651">
-    <resource label="Independence (probability theory)" uri="Independence_(probability_theory)" contextualScore="0.9999999981673682" percentageOfSecondRank="4.744126355401502E-10" support="1045" priorScore="8.69233321072014E-6" finalScore="0.9999999995206963" types=""/>
-  </surfaceForm>
-  <surfaceForm name="exists" offset="1108">
-    <resource label="Existence" uri="Existence" contextualScore="0.7922754342736084" percentageOfSecondRank="0.032447633878300346" support="1006" priorScore="8.367930344482738E-6" finalScore="0.9685721261944588" types=""/>
-  </surfaceForm>
-  <surfaceForm name="The" offset="452">
-    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.7115806193766185" percentageOfSecondRank="0.01179066594793573" support="6340" priorScore="5.273626081910593E-5" finalScore="0.1964936751012571" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
-    <resource label="English articles" uri="English_articles" contextualScore="0.02808351416109236" percentageOfSecondRank="0.24541429125838277" support="5094" priorScore="4.237200514393148E-5" finalScore="0.800661094729728" types=""/>
-  </surfaceForm>
-  <surfaceForm name="polynomial" offset="1314">
-    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.9999999317975631" percentageOfSecondRank="3.383005944945693E-5" support="639" priorScore="5.315216192966669E-6" finalScore="0.9999661710849316" types=""/>
-  </surfaceForm>
-  <surfaceForm name="varies" offset="990">
-    <resource label="Variable star" uri="Variable_star" contextualScore="0.9999909857554453" percentageOfSecondRank="4.811205022675814E-6" support="996" priorScore="8.284750122370585E-6" finalScore="0.999994890014573" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="1180">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.9486526859131847E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="exponential phase" offset="1118">
-    <resource label="Exponential growth" uri="Exponential_growth" contextualScore="1.0" percentageOfSecondRank="0.0" support="430" priorScore="3.5767495508226417E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="1499">
-    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781821" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-  </surfaceForm>
-  <surfaceForm name="periodicity" offset="67">
-    <resource label="Periodic function" uri="Periodic_function" contextualScore="0.9999999999146212" percentageOfSecondRank="2.490853899786486E-11" support="597" priorScore="4.965859260095621E-6" finalScore="0.9999999999746478" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="1217">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.9486526859131847E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="query complexity" offset="776">
-    <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="letter" offset="824">
-    <resource label="Letter (alphabet)" uri="Letter_(alphabet)" contextualScore="0.9598261019435205" percentageOfSecondRank="0.0015923559878669577" support="1541" priorScore="1.2818072227483002E-5" finalScore="0.9984040673957506" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Period" offset="1272">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Period" offset="248">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
+    <resource label="Renting" uri="Renting" contextualScore="0.9999982996249305" percentageOfSecondRank="6.576912062531738E-8" support="1251" priorScore="1.0405845786230523E-5" finalScore="0.9999999318999949" types=""/>
   </surfaceForm>
   <surfaceForm name="That" offset="1187">
     <resource label="Stupa" uri="Stupa" contextualScore="0.9996061529320078" percentageOfSecondRank="1.53177931562998E-5" support="1922" priorScore="1.5987238689956087E-5" finalScore="0.9999845656963888" types=""/>
   </surfaceForm>
-  <surfaceForm name="number" offset="814">
-    <resource label="Natural number" uri="Natural_number" contextualScore="0.9999999972936848" percentageOfSecondRank="2.2050090130180383E-9" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.9999999977422931" types=""/>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9871557219079634" percentageOfSecondRank="0.0018636821791436708" support="626" priorScore="5.207081904220869E-6" finalScore="0.9981356792860031" types=""/>
+  </surfaceForm>
+  <surfaceForm name="frac" offset="1009">
+    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
+  </surfaceForm>
+  <surfaceForm name="leq" offset="1357">
+    <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
+  </surfaceForm>
+  <surfaceForm name="query complexity" offset="1456">
+    <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="alphabet" offset="124">
     <resource label="Alphabet (computer science)" uri="Alphabet_(computer_science)" contextualScore="1.0" percentageOfSecondRank="4.7678737079019656E-12" support="176" priorScore="1.4639719091739185E-6" finalScore="0.9999999999952252" types=""/>
   </surfaceForm>
-  <surfaceForm name="frac" offset="175">
-    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
+  <surfaceForm name="We" offset="1499">
+    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781339" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
   </surfaceForm>
-  <surfaceForm name="worst case" offset="856">
-    <resource label="Best, worst and average case" uri="Best,_worst_and_average_case" contextualScore="0.9786156539008528" percentageOfSecondRank="0.005489298079720223" support="90" priorScore="7.486219990093901E-7" finalScore="0.9945406698109868" types=""/>
+  <surfaceForm name="letter" offset="824">
+    <resource label="Letter (alphabet)" uri="Letter_(alphabet)" contextualScore="0.9598261019435205" percentageOfSecondRank="0.0015923559878669577" support="1541" priorScore="1.2818072227483002E-5" finalScore="0.9984040673957506" types=""/>
   </surfaceForm>
-  <surfaceForm name="query complexity" offset="906">
+  <surfaceForm name="mod" offset="307">
+    <resource label="Modular arithmetic" uri="Modular_arithmetic" contextualScore="0.9999998778996616" percentageOfSecondRank="9.755391731248213E-9" support="926" priorScore="7.702488567585502E-6" finalScore="0.9999999902441914" types=""/>
+  </surfaceForm>
+  <surfaceForm name="query complexity" offset="776">
     <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="frac" offset="488">
-    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
+  <surfaceForm name="bound" offset="100">
+    <resource label="Free variables and bound variables" uri="Free_variables_and_bound_variables" contextualScore="0.9999982453696862" percentageOfSecondRank="3.962495640660075E-6" support="223" priorScore="1.8549189531010443E-6" finalScore="0.9999960222140305" types=""/>
   </surfaceForm>
-  <surfaceForm name="periodic" offset="47">
-    <resource label="Periodic function" uri="Periodic_function" contextualScore="1.0" percentageOfSecondRank="5.145024051708104E-14" support="597" priorScore="4.965859260095621E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="leq" offset="343">
+  <surfaceForm name="leq" offset="170">
     <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
   </surfaceForm>
-  <surfaceForm name="Period" offset="374">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
+  <surfaceForm name="proximity" offset="1066">
+    <resource label="Neighbourhood (mathematics)" uri="Neighbourhood_(mathematics)" contextualScore="0.9999999999137117" percentageOfSecondRank="1.485763813218253E-8" support="325" priorScore="2.7033572186450197E-6" finalScore="0.999999985142381" types=""/>
   </surfaceForm>
-  <surfaceForm name="Period" offset="428">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
+  <surfaceForm name="Period" offset="474">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
   </surfaceForm>
   <surfaceForm name="query complexity" offset="1289">
     <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="We" offset="893">
-    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781821" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+  <surfaceForm name="varies" offset="990">
+    <resource label="Variable star" uri="Variable_star" contextualScore="0.9999909857554453" percentageOfSecondRank="4.811205022675814E-6" support="996" priorScore="8.284750122370585E-6" finalScore="0.999994890014573" types=""/>
+  </surfaceForm>
+  <surfaceForm name="phase transition" offset="1130">
+    <resource label="Phase transition" uri="Phase_transition" contextualScore="1.0" percentageOfSecondRank="0.0" support="877" priorScore="7.294905479235946E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="worst case" offset="856">
+    <resource label="Best, worst and average case" uri="Best,_worst_and_average_case" contextualScore="0.9786156539008528" percentageOfSecondRank="0.005489298079720223" support="90" priorScore="7.486219990093901E-7" finalScore="0.9945406698109868" types=""/>
+  </surfaceForm>
+  <surfaceForm name="called" offset="509">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999999937751909" percentageOfSecondRank="1.4646857719448522E-9" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999999985352588" types=""/>
+  </surfaceForm>
+  <surfaceForm name="string" offset="759">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="1.6019714292963162E-12" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999984084" types=""/>
+  </surfaceForm>
+  <surfaceForm name="query complexity" offset="1533">
+    <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="1625">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.948652685912514E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="randomized algorithm" offset="581">
+    <resource label="Randomized algorithm" uri="Randomized_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="215" priorScore="1.7883747754113209E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="one-sided error" offset="1553">
+    <resource label="Monte Carlo algorithm" uri="Monte_Carlo_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="37" priorScore="3.077668218149715E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="The" offset="452">
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.7115806193765377" percentageOfSecondRank="0.01179066594793841" support="6340" priorScore="5.273626081910593E-5" finalScore="0.1964936751012124" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+    <resource label="English articles" uri="English_articles" contextualScore="0.028083514161095554" percentageOfSecondRank="0.24541429125832698" support="5094" priorScore="4.237200514393148E-5" finalScore="0.800661094729728" types=""/>
+  </surfaceForm>
+  <surfaceForm name="polynomial" offset="1314">
+    <resource label="Time complexity" uri="Time_complexity" contextualScore="0.9999999317975631" percentageOfSecondRank="3.383005944945693E-5" support="639" priorScore="5.315216192966669E-6" finalScore="0.9999661710849316" types=""/>
+  </surfaceForm>
+  <surfaceForm name="On" offset="1331">
+    <resource label="Kanji" uri="Kanji" contextualScore="0.9999417346832928" percentageOfSecondRank="5.788741247004541E-5" support="3015" priorScore="2.507883696681457E-5" finalScore="0.999941477974987" types=""/>
+  </surfaceForm>
+  <surfaceForm name="periodicity" offset="67">
+    <resource label="Periodic function" uri="Periodic_function" contextualScore="0.9999999999146212" percentageOfSecondRank="2.4908538997870525E-11" support="597" priorScore="4.965859260095621E-6" finalScore="0.9999999999746478" types=""/>
+  </surfaceForm>
+  <surfaceForm name="exists" offset="1108">
+    <resource label="Existence" uri="Existence" contextualScore="0.7922754342736084" percentageOfSecondRank="0.03244763387830772" support="1006" priorScore="8.367930344482738E-6" finalScore="0.9685721261944588" types=""/>
+  </surfaceForm>
+  <surfaceForm name="frac" offset="348">
+    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
+  </surfaceForm>
+  <surfaceForm name="An" offset="529">
+    <resource label="Anu" uri="Anu" contextualScore="0.015007744781524798" percentageOfSecondRank="0.16555213559131432" support="287" priorScore="2.387272374618833E-6" finalScore="0.27075801107699543" types=""/>
+    <resource label="English articles" uri="English_articles" contextualScore="0.14086999272207726" percentageOfSecondRank="0.3961538081422184" support="5094" priorScore="4.237200514393148E-5" finalScore="0.68346688965765" types=""/>
+  </surfaceForm>
+  <surfaceForm name="case" offset="648">
+    <resource label="Letter case" uri="Letter_case" contextualScore="0.9999998174087235" percentageOfSecondRank="2.4544017134570348E-6" support="2570" priorScore="2.1377317082823694E-5" finalScore="0.9999975438896094" types=""/>
+  </surfaceForm>
+  <surfaceForm name="integers" offset="148">
+    <resource label="Integer" uri="Integer" contextualScore="1.0" percentageOfSecondRank="5.432855268968408E-19" support="3806" priorScore="3.1658392535885985E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="exists" offset="1388">
+    <resource label="Existence" uri="Existence" contextualScore="0.7922754342736084" percentageOfSecondRank="0.03244763387830772" support="1006" priorScore="8.367930344482738E-6" finalScore="0.9685721261944588" types=""/>
+  </surfaceForm>
+  <surfaceForm name="string" offset="873">
+    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="1.6019714292963162E-12" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999984084" types=""/>
+  </surfaceForm>
+  <surfaceForm name="frac" offset="488">
+    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Period" offset="1438">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="1089">
+    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781339" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
     <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
   </surfaceForm>
-  <surfaceForm name="Abstract" offset="0">
-    <resource label="Abstraction" uri="Abstraction" contextualScore="0.9871557219079634" percentageOfSecondRank="0.0018636821791436708" support="626" priorScore="5.207081904220869E-6" finalScore="0.9981356792860031" types=""/>
+  <surfaceForm name="two-sided error" offset="1235">
+    <resource label="Monte Carlo algorithm" uri="Monte_Carlo_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="37" priorScore="3.077668218149715E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="query complexity" offset="1154">
+    <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Period" offset="1272">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Period" offset="248">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
+  </surfaceForm>
+  <surfaceForm name="number" offset="814">
+    <resource label="Natural number" uri="Natural_number" contextualScore="0.9999999972936848" percentageOfSecondRank="2.2050090130185396E-9" support="1889" priorScore="1.5712743956985976E-5" finalScore="0.9999999977422931" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="9">
+    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781339" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="letters" offset="737">
+    <resource label="Letter (alphabet)" uri="Letter_(alphabet)" contextualScore="0.9601936511674103" percentageOfSecondRank="3.895763644260666E-4" support="1541" priorScore="1.2818072227483002E-5" finalScore="0.9996105722500983" types=""/>
+  </surfaceForm>
+  <surfaceForm name="leq" offset="343">
+    <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
+  </surfaceForm>
+  <surfaceForm name="periodic" offset="47">
+    <resource label="Periodic function" uri="Periodic_function" contextualScore="1.0" percentageOfSecondRank="5.145024051708104E-14" support="597" priorScore="4.965859260095621E-6" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="strings" offset="408">
     <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="4.4948949237987295E-13" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999995453" types=""/>
   </surfaceForm>
+  <surfaceForm name="asymptotic" offset="1522">
+    <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.9999852141253904" percentageOfSecondRank="2.0763915113493093E-4" support="451" priorScore="3.751428017258166E-6" finalScore="0.9997924039539576" types=""/>
+  </surfaceForm>
   <surfaceForm name="fixed" offset="118">
     <resource label="Fixed point (mathematics)" uri="Fixed_point_(mathematics)" contextualScore="1.0" percentageOfSecondRank="3.1810453198371342E-24" support="626" priorScore="5.207081904220869E-6" finalScore="1.0" types=""/>
   </surfaceForm>
+  <surfaceForm name="length" offset="883">
+    <resource label="Norm (mathematics)" uri="Norm_(mathematics)" contextualScore="0.9999978181118578" percentageOfSecondRank="5.697473653560404E-5" support="1016" priorScore="8.451110566594892E-6" finalScore="0.9999430285093359" types=""/>
+  </surfaceForm>
   <surfaceForm name="log" offset="1368">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.9486526859131847E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
+    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.948652685912514E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="change" offset="700">
     <resource label="Calculus" uri="Calculus" contextualScore="0.9998125424958813" percentageOfSecondRank="1.8217451306354147E-5" support="1657" priorScore="1.3782962803983993E-5" finalScore="0.9999817828805326" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Period" offset="374">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Theta" offset="1611">
+    <resource label="Theta" uri="Theta" contextualScore="0.9997506749850862" percentageOfSecondRank="1.334203565163844E-5" support="155" priorScore="1.289293442738394E-6" finalScore="0.9999865623623422" types=""/>
+  </surfaceForm>
+  <surfaceForm name="We" offset="893">
+    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781339" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="one-sided error" offset="1397">
+    <resource label="Monte Carlo algorithm" uri="Monte_Carlo_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="37" priorScore="3.077668218149715E-7" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="leq" offset="483">
+    <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Period" offset="428">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Period" offset="938">
+    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.10913578202484692" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.188684377586346" types=""/>
+    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009230174" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998967766" types=""/>
   </surfaceForm>
   <surfaceForm name="function" offset="954">
     <resource label="Function (mathematics)" uri="Function_(mathematics)" contextualScore="0.9999999999713509" percentageOfSecondRank="2.5953969817008665E-14" support="11138" priorScore="9.264613138851763E-5" finalScore="1.0" types=""/>
@@ -161,84 +204,41 @@
   <surfaceForm name="string" offset="200">
     <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="1.6019714292963162E-12" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999984084" types=""/>
   </surfaceForm>
-  <surfaceForm name="log" offset="1625">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.9486526859131847E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
+  <surfaceForm name="prove" offset="1507">
+    <resource label="Mathematical proof" uri="Mathematical_proof" contextualScore="0.9999999999986358" percentageOfSecondRank="2.6652509124670314E-14" support="932" priorScore="7.752396700852795E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="two-sided error" offset="1235">
-    <resource label="Monte Carlo algorithm" uri="Monte_Carlo_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="37" priorScore="3.077668218149715E-7" finalScore="1.0" types=""/>
+  <surfaceForm name="integer" offset="322">
+    <resource label="Integer" uri="Integer" contextualScore="1.0" percentageOfSecondRank="1.3562164130412753E-20" support="3806" priorScore="3.1658392535885985E-5" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="randomized algorithm" offset="581">
-    <resource label="Randomized algorithm" uri="Randomized_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="215" priorScore="1.7883747754113209E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="length" offset="883">
-    <resource label="Norm (mathematics)" uri="Norm_(mathematics)" contextualScore="0.9999978181118578" percentageOfSecondRank="5.697473653560404E-5" support="1016" priorScore="8.451110566594892E-6" finalScore="0.9999430285093359" types=""/>
-  </surfaceForm>
-  <surfaceForm name="query complexity" offset="1154">
-    <resource label="Decision tree model" uri="Decision_tree_model" contextualScore="1.0" percentageOfSecondRank="0.0" support="62" priorScore="5.157173770953576E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="one-sided error" offset="1553">
-    <resource label="Monte Carlo algorithm" uri="Monte_Carlo_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="37" priorScore="3.077668218149715E-7" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Period" offset="1438">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
-  </surfaceForm>
-  <surfaceForm name="frac" offset="348">
+  <surfaceForm name="frac" offset="175">
     <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
-  </surfaceForm>
-  <surfaceForm name="string" offset="873">
-    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="1.6019714292963162E-12" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999984084" types=""/>
-  </surfaceForm>
-  <surfaceForm name="We" offset="1089">
-    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781821" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
-  </surfaceForm>
-  <surfaceForm name="The" offset="772">
-    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.7115806193766185" percentageOfSecondRank="0.01179066594793573" support="6340" priorScore="5.273626081910593E-5" finalScore="0.1964936751012571" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
-    <resource label="English articles" uri="English_articles" contextualScore="0.02808351416109236" percentageOfSecondRank="0.24541429125838277" support="5094" priorScore="4.237200514393148E-5" finalScore="0.800661094729728" types=""/>
-  </surfaceForm>
-  <surfaceForm name="case" offset="648">
-    <resource label="Letter case" uri="Letter_case" contextualScore="0.9999998174087235" percentageOfSecondRank="2.4544017134570348E-6" support="2570" priorScore="2.1377317082823694E-5" finalScore="0.9999975438896094" types=""/>
   </surfaceForm>
   <surfaceForm name="strings" offset="568">
     <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="4.4948949237987295E-13" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999995453" types=""/>
   </surfaceForm>
-  <surfaceForm name="We" offset="9">
-    <resource label="Montana" uri="Montana" contextualScore="0.40880724131454554" percentageOfSecondRank="0.002121525777781821" support="14470" priorScore="1.203617813962875E-4" finalScore="0.3813503477240662" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.512470912788027" percentageOfSecondRank="0.6176128665389492" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.6174585543548041" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  <surfaceForm name="The" offset="772">
+    <resource label="Joseph Stalin" uri="Joseph_Stalin" contextualScore="0.7115806193765377" percentageOfSecondRank="0.01179066594793841" support="6340" priorScore="5.273626081910593E-5" finalScore="0.1964936751012124" types="DBpedia:Agent, Schema:Person, Http://xmlns.com/foaf/0.1/Person, DBpedia:Person, DBpedia:OfficeHolder"/>
+    <resource label="English articles" uri="English_articles" contextualScore="0.028083514161095554" percentageOfSecondRank="0.24541429125832698" support="5094" priorScore="4.237200514393148E-5" finalScore="0.800661094729728" types=""/>
   </surfaceForm>
-  <surfaceForm name="letters" offset="737">
-    <resource label="Letter (alphabet)" uri="Letter_(alphabet)" contextualScore="0.9601936511674103" percentageOfSecondRank="3.895763644260666E-4" support="1541" priorScore="1.2818072227483002E-5" finalScore="0.9996105722500983" types=""/>
+  <surfaceForm name="log" offset="1217">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.948652685912514E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="proximity" offset="1066">
-    <resource label="Neighbourhood (mathematics)" uri="Neighbourhood_(mathematics)" contextualScore="0.9999999999137117" percentageOfSecondRank="1.4857638132179152E-8" support="325" priorScore="2.7033572186450197E-6" finalScore="0.999999985142381" types=""/>
+  <surfaceForm name="dependence" offset="1651">
+    <resource label="Independence (probability theory)" uri="Independence_(probability_theory)" contextualScore="0.9999999981673682" percentageOfSecondRank="4.744126355401502E-10" support="1045" priorScore="8.69233321072014E-6" finalScore="0.9999999995206963" types=""/>
   </surfaceForm>
-  <surfaceForm name="leq" offset="1357">
-    <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
+  <surfaceForm name="log" offset="1180">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="1.0" percentageOfSecondRank="2.948652685912514E-16" support="1150" priorScore="9.565725542897762E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="exists" offset="1388">
-    <resource label="Existence" uri="Existence" contextualScore="0.7922754342736084" percentageOfSecondRank="0.032447633878300346" support="1006" priorScore="8.367930344482738E-6" finalScore="0.9685721261944588" types=""/>
+  <surfaceForm name="dependence" offset="1048">
+    <resource label="Independence (probability theory)" uri="Independence_(probability_theory)" contextualScore="0.9999999981673682" percentageOfSecondRank="4.744126355401502E-10" support="1045" priorScore="8.69233321072014E-6" finalScore="0.9999999995206963" types=""/>
   </surfaceForm>
-  <surfaceForm name="Theta" offset="1611">
-    <resource label="Theta" uri="Theta" contextualScore="0.9997506749850862" percentageOfSecondRank="1.334203565163844E-5" support="155" priorScore="1.289293442738394E-6" finalScore="0.9999865623623422" types=""/>
+  <surfaceForm name="exponential phase" offset="1118">
+    <resource label="Exponential growth" uri="Exponential_growth" contextualScore="1.0" percentageOfSecondRank="0.0" support="430" priorScore="3.5767495508226417E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="frac" offset="1009">
+  <surfaceForm name="case" offset="676">
+    <resource label="Letter case" uri="Letter_case" contextualScore="0.9999998174087235" percentageOfSecondRank="2.4544017134570348E-6" support="2570" priorScore="2.1377317082823694E-5" finalScore="0.9999975438896094" types=""/>
+  </surfaceForm>
+  <surfaceForm name="frac" offset="1362">
     <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999926157983976" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999871312185" types=""/>
-  </surfaceForm>
-  <surfaceForm name="asymptotic" offset="1522">
-    <resource label="Big O notation" uri="Big_O_notation" contextualScore="0.9999852141253904" percentageOfSecondRank="2.0763915113493093E-4" support="451" priorScore="3.751428017258166E-6" finalScore="0.9997924039539576" types=""/>
-  </surfaceForm>
-  <surfaceForm name="mod" offset="307">
-    <resource label="Modular arithmetic" uri="Modular_arithmetic" contextualScore="0.9999998778996616" percentageOfSecondRank="9.755391731245994E-9" support="926" priorScore="7.702488567585502E-6" finalScore="0.9999999902441914" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Period" offset="474">
-    <resource label="Orbital period" uri="Orbital_period" contextualScore="0.1091357820248221" percentageOfSecondRank="0.0013079475660820177" support="2461" priorScore="2.047065266180121E-5" finalScore="0.18868437758632456" types=""/>
-    <resource label="Period (periodic table)" uri="Period_(periodic_table)" contextualScore="0.8907996826636219" percentageOfSecondRank="0.23264500009224884" support="216" priorScore="1.7966927976225363E-6" finalScore="0.8110398998968689" types=""/>
-  </surfaceForm>
-  <surfaceForm name="string" offset="759">
-    <resource label="String (computer science)" uri="String_(computer_science)" contextualScore="0.9999999995800408" percentageOfSecondRank="1.6019714292963162E-12" support="1701" priorScore="1.4148955781277473E-5" finalScore="0.9999999999984084" types=""/>
-  </surfaceForm>
-  <surfaceForm name="leq" offset="170">
-    <resource label="Sound level meter" uri="Sound_level_meter" contextualScore="0.9999946129616584" percentageOfSecondRank="0.0" support="48" priorScore="3.992650661383414E-7" finalScore="0.999999880496155" types=""/>
   </surfaceForm>
 </annotation>

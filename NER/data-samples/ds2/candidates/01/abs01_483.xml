@@ -1,249 +1,71 @@
-<annotation text="Abstract Part of this paper appeared in the preliminary version [16]. An ordered pair Ŝ = (S, S  ) of subsets of a groundset V is called a biset if S ⊆ S ; (V S  ;V S) is the co-biset of Ŝ. Two bisets $\hat X,\hat Y$ intersect if X X ∩ Y ≠ $\not 0$ and cross if both X ∩ Y $\not 0$ and X   ∪ Y   ≠= V. The intersection and the union of two bisets $\hat X,\hat Y$ are defined by $\hat X \cap \hat Y = (X \cap Y,X^   \cap Y^   )$ and $\hat X \cup \hat Y = (X \cup Y,X^   \cup Y^   )$. A biset-family $\mathcal{F}$ is crossing (intersecting) if $\hat X \cap \hat Y,\hat X \cup \hat Y \in \mathcal{F}$ for any $\hat X,\hat Y \in \mathcal{F}$ that cross (intersect). A directed edge covers a biset Ŝ if it goes from S to V S  . We consider the problem of covering a crossing biset-family $\mathcal{F}$ by a minimum-cost set of directed edges. While for intersecting $\mathcal{F}$, a standard primal-dual algorithm computes an optimal solution, the approximability of the case of crossing $\mathcal{F}$ is not yet understood, as it includes several NP-hard problems, for which a poly-logarithmic approximation was discovered only recently or is not known. Let us say that a biset-family $\mathcal{F}$ is k-regular if $\hat X \cap \hat Y,\hat X \cup \hat Y \in \mathcal{F}$ for any $\hat X,\hat Y \in \mathcal{F}$ with |V (X∪Y)≥k 1 that intersect. In this paper we obtain an O(log |V|)-approximation algorithm for arbitrary crossing $\mathcal{F}$ if in addition both $\mathcal{F}$ and the family of co-bisets of $\mathcal{F}$ are k-regular, our ratios are: $O\left( {\log \frac{{|V|}} {{|V| - k}}} \right) $ if |S   \ S| = k for all $\hat S \in \mathcal{F}$, and $O\left( {\frac{{|V|}} {{|V| - k}}\log \frac{{|V|}} {{|V| - k}}} \right) $ if |S   \ S| = k for all $\hat S \in \mathcal{F}$. Using these generic algorithms, we derive for some network design problems the following approximation ratios: $O\left( {\log k \cdot \log \tfrac{n} {{n - k}}} \right) $ for k-Connected Subgraph, and O(logk) $\min \{ \tfrac{n} {{n - k}}\log \tfrac{n} {{n - k}},\log k\} $ for Subset k-Connected Subgraph when all edges with positive cost have their endnodes in the subset.">
-  <surfaceForm name="hat" offset="544">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="intersect" offset="650">
-    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9999999999970441" percentageOfSecondRank="2.871935730452942E-13" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999996589" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="2044">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="434">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="intersecting" offset="525">
-    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="1.0" percentageOfSecondRank="4.125725276069946E-17" support="544" priorScore="4.5250040829012025E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="version" offset="56">
-    <resource label="Software versioning" uri="Software_versioning" contextualScore="0.999630750289707" percentageOfSecondRank="0.01456227914094776" support="262" priorScore="2.179321819338447E-6" finalScore="0.9856416788505927" types=""/>
-  </surfaceForm>
-  <surfaceForm name="approximation" offset="1090">
-    <resource label="Approximation algorithm" uri="Approximation_algorithm" contextualScore="0.9999999999959073" percentageOfSecondRank="1.0863471117320893E-12" support="220" priorScore="1.829964886467398E-6" finalScore="0.9999999999986358" types=""/>
-  </surfaceForm>
-  <surfaceForm name="optimal" offset="921">
-    <resource label="Optimization problem" uri="Optimization_problem" contextualScore="0.9999768162075423" percentageOfSecondRank="0.0016560670629116156" support="198" priorScore="1.6469683978206581E-6" finalScore="0.9983466706966952" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cost" offset="2115">
-    <resource label="Total cost of ownership" uri="Total_cost_of_ownership" contextualScore="0.997372952642767" percentageOfSecondRank="2.2323505748062596E-4" support="91" priorScore="7.569400212206055E-7" finalScore="0.21317129986175343" types=""/>
-    <resource label="Cost" uri="Cost" contextualScore="0.002208503591874086" percentageOfSecondRank="0.2709604810126927" support="901" priorScore="7.494538012305117E-6" finalScore="0.7867246879140568" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="1370">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cup" offset="458">
-    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137644357" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
-    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
-  </surfaceForm>
-  <surfaceForm name="directed edges" offset="822">
-    <resource label="Graph (mathematics)" uri="Graph_(mathematics)" contextualScore="0.9986188929985678" percentageOfSecondRank="1.2654582140051888E-4" support="5694" priorScore="4.7362818470660744E-5" finalScore="0.9998734701904087" types=""/>
-  </surfaceForm>
-  <surfaceForm name="called" offset="130">
-    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999905636648946" percentageOfSecondRank="2.2201711954976684E-6" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999977796291754" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1277">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="covering" offset="750">
-    <resource label="Cover (topology)" uri="Cover_(topology)" contextualScore="0.9970205379589859" percentageOfSecondRank="1.546470851416047E-5" support="314" priorScore="2.6118589743216497E-6" finalScore="0.9999844174532115" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Two" offset="190">
-    <resource label="World War II" uri="World_War_II" contextualScore="0.49820204871622786" percentageOfSecondRank="0.06951380680275678" support="163937" priorScore="0.0013636316072400264" finalScore="0.9132469259604643" types=""/>
-  </surfaceForm>
-  <surfaceForm name="frac" offset="1696">
-    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999993573248749" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999988799573" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="1917">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="563">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="380">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="approximation ratios" offset="1871">
-    <resource label="Approximation algorithm" uri="Approximation_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="220" priorScore="1.829964886467398E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="positive" offset="2106">
-    <resource label="Sign (mathematics)" uri="Sign_(mathematics)" contextualScore="0.9999999204802665" percentageOfSecondRank="1.1713551871553427E-9" support="624" priorScore="5.190445859798438E-6" finalScore="0.9999999988286845" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cap" offset="1220">
-    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240796924" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
-    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691158" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
-    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971125404" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
-  </surfaceForm>
-  <surfaceForm name="frac" offset="1667">
-    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999993573248749" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999988799573" types=""/>
-  </surfaceForm>
-  <surfaceForm name="directed edge" offset="664">
-    <resource label="Directed graph" uri="Directed_graph" contextualScore="1.0" percentageOfSecondRank="0.0" support="521" priorScore="4.333689572043247E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cup" offset="570">
-    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137644357" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
-    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1225">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="crossing" offset="761">
-    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676486045" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183406917" types=""/>
-    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.13269873219866302" types=""/>
-    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.16395548985538813" types=""/>
-    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042062202" types=""/>
-    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.27632711011104716" percentageOfSecondRank="0.6556390218927275" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Subset" offset="2058">
-    <resource label="Subset" uri="Subset" contextualScore="1.0" percentageOfSecondRank="0.0" support="1922" priorScore="1.5987238689956087E-5" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="An" offset="70">
-    <resource label="Anu" uri="Anu" contextualScore="0.024437356022269405" percentageOfSecondRank="0.08887897620673348" support="287" priorScore="2.387272374618833E-6" finalScore="0.3628220536804651" types=""/>
-    <resource label="English articles" uri="English_articles" contextualScore="0.15066171342594695" percentageOfSecondRank="0.6031401024751121" support="5094" priorScore="4.237200514393148E-5" finalScore="0.6015551812780291" types=""/>
-  </surfaceForm>
-  <surfaceForm name="discovered" offset="1108">
-    <resource label="Discovery (observation)" uri="Discovery_(observation)" contextualScore="0.03851528472660007" percentageOfSecondRank="0.06072935563118043" support="201" priorScore="1.6719224644543046E-6" finalScore="0.12105470851130183" types=""/>
-    <resource label="HIV" uri="HIV" contextualScore="0.013788850143343603" percentageOfSecondRank="0.5616617787252403" support="8330" priorScore="6.928912501942466E-5" finalScore="0.2155295466001803" types="DBpedia:Species"/>
-    <resource label="Drug discovery" uri="Drug_discovery" contextualScore="0.9291074705266847" percentageOfSecondRank="0.32879049660414744" support="282" priorScore="2.3456822635627555E-6" finalScore="0.6555224339700747" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cup" offset="441">
-    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137644357" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
-    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
-  </surfaceForm>
-  <surfaceForm name="NP-hard" offset="1043">
-    <resource label="NP-hard" uri="NP-hard" contextualScore="1.0" percentageOfSecondRank="0.0" support="332" priorScore="2.761583374123528E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1758">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Let" offset="1150">
-    <resource label="Renting" uri="Renting" contextualScore="0.9999368313783809" percentageOfSecondRank="3.86928969255286E-6" support="1251" priorScore="1.0405845786230523E-5" finalScore="0.9999961191033709" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="203">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="crossing" offset="1417">
-    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676486045" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183406917" types=""/>
-    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.13269873219866302" types=""/>
-    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.16395548985538813" types=""/>
-    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042062202" types=""/>
-    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.27632711011104716" percentageOfSecondRank="0.6556390218927275" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="349">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="log" offset="1904">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
-  </surfaceForm>
-  <surfaceForm name="ordered pair" offset="73">
-    <resource label="Ordered pair" uri="Ordered_pair" contextualScore="0.8964592840062588" percentageOfSecondRank="0.005213776420439498" support="220" priorScore="1.829964886467398E-6" finalScore="0.9948132660507106" types=""/>
-  </surfaceForm>
-  <surfaceForm name="cdot" offset="1911">
-    <resource label="Connecticut Department of Transportation" uri="Connecticut_Department_of_Transportation" contextualScore="0.06530015248375325" percentageOfSecondRank="0.0" support="145" priorScore="1.2061132206262397E-6" finalScore="0.10592925431257087" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
-    <resource label="Colorado Department of Transportation" uri="Colorado_Department_of_Transportation" contextualScore="0.9346995840676966" percentageOfSecondRank="0.11847972390736573" support="76" priorScore="6.321696880523739E-7" finalScore="0.8940707390185384" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
-  </surfaceForm>
-  <surfaceForm name="cap" offset="416">
-    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240796924" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
-    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691158" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
-    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971125404" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1628">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1244">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="608">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="case" offset="966">
-    <resource label="Grammatical case" uri="Grammatical_case" contextualScore="0.14181715601966383" percentageOfSecondRank="0.035900364938059766" support="1709" priorScore="1.4215499958967196E-5" finalScore="0.9465244528861356" types=""/>
-  </surfaceForm>
-  <surfaceForm name="min" offset="1992">
-    <resource label="Maxima and minima" uri="Maxima_and_minima" contextualScore="0.9999999999995453" percentageOfSecondRank="2.5294477381903974E-13" support="704" priorScore="5.855887636695674E-6" finalScore="0.9999999999997726" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1284">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="derive" offset="1817">
-    <resource label="Mathematical proof" uri="Mathematical_proof" contextualScore="0.999601805976425" percentageOfSecondRank="1.823046540731075E-4" support="932" priorScore="7.752396700852795E-6" finalScore="0.9997096655796484" types=""/>
-  </surfaceForm>
-  <surfaceForm name="approximation algorithm" offset="1379">
-    <resource label="Approximation algorithm" uri="Approximation_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="220" priorScore="1.829964886467398E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="subsets" offset="102">
-    <resource label="Set (mathematics)" uri="Set_(mathematics)" contextualScore="0.8941228186858172" percentageOfSecondRank="1.8813605720488033E-6" support="7472" priorScore="6.21522619622018E-5" finalScore="0.11844758970560469" types=""/>
-    <resource label="Subset" uri="Subset" contextualScore="0.10580923993610444" percentageOfSecondRank="0.134362538476581" support="1922" priorScore="1.5987238689956087E-5" finalScore="0.8815521874517855" types=""/>
-  </surfaceForm>
-  <surfaceForm name="union" offset="327">
-    <resource label="Union (set theory)" uri="Union_(set_theory)" contextualScore="1.0" percentageOfSecondRank="3.705020324939646E-16" support="497" priorScore="4.134057038974076E-6" finalScore="1.0" types=""/>
-  </surfaceForm>
-  <surfaceForm name="defined" offset="367">
-    <resource label="Circle" uri="Circle" contextualScore="0.9959788024218382" percentageOfSecondRank="1.0702225074569455E-4" support="3466" priorScore="2.8830264984072733E-5" finalScore="0.9998929891696686" types=""/>
-  </surfaceForm>
+<annotation text="Abstract Part of this paper appeared in the preliminary version [16]. An ordered pair Ŝ = (S, S +) of subsets of a groundset V is called a biset if S ⊆ S+; (V S +;V S) is the co-biset of Ŝ. Two bisets $\hat X,\hat Y$ intersect if X X ∩ Y ≠ $\not 0$ and cross if both X ∩ Y $\not 0$ and X + ∪ Y + ≠= V. The intersection and the union of two bisets $\hat X,\hat Y$ are defined by $\hat X \cap \hat Y = (X \cap Y,X^ + \cap Y^ + )$ and $\hat X \cup \hat Y = (X \cup Y,X^ + \cup Y^ + )$. A biset-family $\mathcal{F}$ is crossing (intersecting) if $\hat X \cap \hat Y,\hat X \cup \hat Y \in \mathcal{F}$ for any $\hat X,\hat Y \in \mathcal{F}$ that cross (intersect). A directed edge covers a biset Ŝ if it goes from S to V S +. We consider the problem of covering a crossing biset-family $\mathcal{F}$ by a minimum-cost set of directed edges. While for intersecting $\mathcal{F}$, a standard primal-dual algorithm computes an optimal solution, the approximability of the case of crossing $\mathcal{F}$ is not yet understood, as it includes several NP-hard problems, for which a poly-logarithmic approximation was discovered only recently or is not known. Let us say that a biset-family $\mathcal{F}$ is k-regular if $\hat X \cap \hat Y,\hat X \cup \hat Y \in \mathcal{F}$ for any $\hat X,\hat Y \in \mathcal{F}$ with |V (X∪Y)≥k+1 that intersect. In this paper we obtain an O(log |V|)-approximation algorithm for arbitrary crossing $\mathcal{F}$ if in addition both $\mathcal{F}$ and the family of co-bisets of $\mathcal{F}$ are k-regular, our ratios are: $O\left( {\log \frac{{|V|}} {{|V| - k}}} \right) $ if |S + \ S| = k for all $\hat S \in \mathcal{F}$, and $O\left( {\frac{{|V|}} {{|V| - k}}\log \frac{{|V|}} {{|V| - k}}} \right) $ if |S + \ S| = k for all $\hat S \in \mathcal{F}$. Using these generic algorithms, we derive for some network design problems the following approximation ratios: $O\left( {\log k \cdot \log \tfrac{n} {{n - k}}} \right) $ for k-Connected Subgraph, and O(logk) $\min \{ \tfrac{n} {{n - k}}\log \tfrac{n} {{n - k}},\log k\} $ for Subset k-Connected Subgraph when all edges with positive cost have their endnodes in the subset.">
   <surfaceForm name="cap" offset="404">
-    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240796924" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
-    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691158" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
-    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971125404" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="446">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
-  </surfaceForm>
-  <surfaceForm name="intersecting" offset="848">
-    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="1.0" percentageOfSecondRank="4.125725276069946E-17" support="544" priorScore="4.5250040829012025E-6" finalScore="1.0" types=""/>
+    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240804184" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
+    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691999" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
+    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971128663" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
   </surfaceForm>
   <surfaceForm name="hat" offset="1232">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
+  <surfaceForm name="arbitrary" offset="1407">
+    <resource label="Arbitrariness" uri="Arbitrariness" contextualScore="0.4126289974523973" percentageOfSecondRank="0.01435412332987195" support="102" priorScore="8.484382655439755E-7" finalScore="0.9858427013127675" types=""/>
+  </surfaceForm>
   <surfaceForm name="log" offset="2019">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
   </surfaceForm>
-  <surfaceForm name="crossing" offset="974">
-    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676486045" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183406917" types=""/>
-    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.13269873219866302" types=""/>
-    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.16395548985538813" types=""/>
-    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042062202" types=""/>
-    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.27632711011104716" percentageOfSecondRank="0.6556390218927275" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
+  <surfaceForm name="intersecting" offset="848">
+    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="1.0" percentageOfSecondRank="4.125725276069008E-17" support="544" priorScore="4.5250040829012025E-6" finalScore="1.0" types=""/>
   </surfaceForm>
-  <surfaceForm name="intersect" offset="217">
-    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9999999999970441" percentageOfSecondRank="2.871935730452942E-13" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999996589" types=""/>
-  </surfaceForm>
-  <surfaceForm name="standard" offset="878">
-    <resource label="International standard" uri="International_standard" contextualScore="0.8648748173488455" percentageOfSecondRank="0.03553559044241415" support="539" priorScore="4.4834139718451255E-6" finalScore="0.22588664581211404" types=""/>
-    <resource label="Standardization" uri="Standardization" contextualScore="0.12786359173661035" percentageOfSecondRank="0.29487975200034555" support="2024" priorScore="1.6835676955500063E-5" finalScore="0.7660296927130126" types=""/>
-  </surfaceForm>
-  <surfaceForm name="Abstract" offset="0">
-    <resource label="Abstraction" uri="Abstraction" contextualScore="0.7301201641907508" percentageOfSecondRank="0.052872841853764674" support="626" priorScore="5.207081904220869E-6" finalScore="0.949628274046812" types=""/>
-  </surfaceForm>
-  <surfaceForm name="hat" offset="1213">
+  <surfaceForm name="hat" offset="556">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="log" offset="1561">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  <surfaceForm name="In" offset="1341">
+    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="1.0" percentageOfSecondRank="4.814624764172791E-15" support="342" priorScore="2.844763596235682E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="446">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="575">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
   <surfaceForm name="V." offset="299">
     <resource label="V." uri="V." contextualScore="0.9670292171042334" percentageOfSecondRank="0.0" support="42" priorScore="3.493569328710487E-7" finalScore="0.9999999978108463" types="Schema:CreativeWork, DBpedia:Work, DBpedia:WrittenWork, Http://purl.org/ontology/bibo/Book, Schema:Book, DBpedia:Book"/>
   </surfaceForm>
-  <surfaceForm name="In" offset="1341">
-    <resource label="Identity matrix" uri="Identity_matrix" contextualScore="1.0" percentageOfSecondRank="4.8146247641722436E-15" support="342" priorScore="2.844763596235682E-6" finalScore="1.0" types=""/>
+  <surfaceForm name="hat" offset="392">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="family" offset="1482">
-    <resource label="Family of sets" uri="Family_of_sets" contextualScore="0.9999999990710648" percentageOfSecondRank="1.588183325462171E-9" support="129" priorScore="1.0730248652467924E-6" finalScore="0.9999999984117949" types=""/>
+  <surfaceForm name="log" offset="1691">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
   </surfaceForm>
-  <surfaceForm name="crossing" offset="515">
-    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676486045" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183406917" types=""/>
-    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.13269873219866302" types=""/>
-    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.16395548985538813" types=""/>
-    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042062202" types=""/>
-    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.27632711011104716" percentageOfSecondRank="0.6556390218927275" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
+  <surfaceForm name="cap" offset="551">
+    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240804184" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
+    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691999" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
+    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971128663" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
   </surfaceForm>
-  <surfaceForm name="We" offset="723">
-    <resource label="Montana" uri="Montana" contextualScore="0.5357514170119281" percentageOfSecondRank="0.007658960363712815" support="14470" priorScore="1.203617813962875E-4" finalScore="0.49172232999599336" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
-    <resource label="South Africa" uri="South_Africa" contextualScore="0.4255650147346579" percentageOfSecondRank="0.9746852320993915" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.5044934649690589" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  <surfaceForm name="crossing" offset="1417">
+    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676477524" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183409657" types=""/>
+    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.1326987321986932" types=""/>
+    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.1639554898554254" types=""/>
+    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042067395" types=""/>
+    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.2763271101109843" percentageOfSecondRank="0.6556390218928766" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
   </surfaceForm>
-  <surfaceForm name="edges" offset="2095">
-    <resource label="Graph (mathematics)" uri="Graph_(mathematics)" contextualScore="0.9997490746904739" percentageOfSecondRank="1.4109566829546617E-6" support="5694" priorScore="4.7362818470660744E-5" finalScore="0.9999980979016427" types=""/>
+  <surfaceForm name="hat" offset="356">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="algorithm" offset="899">
-    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9999999999989768" percentageOfSecondRank="7.702087409167422E-18" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  <surfaceForm name="standard" offset="878">
+    <resource label="International standard" uri="International_standard" contextualScore="0.8648748173489438" percentageOfSecondRank="0.03553559044241415" support="539" priorScore="4.4834139718451255E-6" finalScore="0.22588664581216542" types=""/>
+    <resource label="Standardization" uri="Standardization" contextualScore="0.12786359173658127" percentageOfSecondRank="0.2948797520004796" support="2024" priorScore="1.6835676955500063E-5" finalScore="0.7660296927128384" types=""/>
+  </surfaceForm>
+  <surfaceForm name="subset" offset="2147">
+    <resource label="Subset" uri="Subset" contextualScore="0.10581642925013016" percentageOfSecondRank="0.027676192634816594" support="1922" priorScore="1.5987238689956087E-5" finalScore="0.973069150737203" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cap" offset="387">
+    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240804184" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
+    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691999" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
+    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971128663" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
+  </surfaceForm>
+  <surfaceForm name="approximation algorithm" offset="1379">
+    <resource label="Approximation algorithm" uri="Approximation_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="220" priorScore="1.829964886467398E-6" finalScore="1.0" types=""/>
   </surfaceForm>
   <surfaceForm name="frac" offset="1566">
     <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999993573248749" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999988799573" types=""/>
@@ -251,61 +73,239 @@
   <surfaceForm name="hat" offset="210">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="hat" offset="356">
-    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  <surfaceForm name="solution" offset="929">
+    <resource label="Equation" uri="Equation" contextualScore="0.9871690074498367" percentageOfSecondRank="0.004340630182388083" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.9941767790902144" types=""/>
   </surfaceForm>
-  <surfaceForm name="subset" offset="2147">
-    <resource label="Subset" uri="Subset" contextualScore="0.10581642925013016" percentageOfSecondRank="0.027676192634816594" support="1922" priorScore="1.5987238689956087E-5" finalScore="0.973069150737203" types=""/>
+  <surfaceForm name="cup" offset="470">
+    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137639358" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
+    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
   </surfaceForm>
   <surfaceForm name="covers" offset="678">
-    <resource label="Cover (topology)" uri="Cover_(topology)" contextualScore="0.9999996368441748" percentageOfSecondRank="5.3646487346378774E-8" support="314" priorScore="2.6118589743216497E-6" finalScore="0.9999999142781953" types=""/>
+    <resource label="Cover (topology)" uri="Cover_(topology)" contextualScore="0.9999996368441748" percentageOfSecondRank="5.3646487346384875E-8" support="314" priorScore="2.6118589743216497E-6" finalScore="0.999999914278309" types=""/>
   </surfaceForm>
-  <surfaceForm name="cap" offset="387">
-    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240796924" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
-    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691158" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
-    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971125404" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
+  <surfaceForm name="crossing" offset="761">
+    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676477524" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183409657" types=""/>
+    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.1326987321986932" types=""/>
+    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.1639554898554254" types=""/>
+    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042067395" types=""/>
+    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.2763271101109843" percentageOfSecondRank="0.6556390218928766" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
   </surfaceForm>
-  <surfaceForm name="hat" offset="575">
+  <surfaceForm name="derive" offset="1817">
+    <resource label="Mathematical proof" uri="Mathematical_proof" contextualScore="0.999601805976425" percentageOfSecondRank="1.8230465407308676E-4" support="932" priorScore="7.752396700852795E-6" finalScore="0.9997096655796484" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cup" offset="1239">
+    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137639358" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
+    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
+  </surfaceForm>
+  <surfaceForm name="defined" offset="367">
+    <resource label="Circle" uri="Circle" contextualScore="0.9959788024218382" percentageOfSecondRank="1.0702225074569455E-4" support="3466" priorScore="2.8830264984072733E-5" finalScore="0.9998929891696686" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Let" offset="1150">
+    <resource label="Renting" uri="Renting" contextualScore="0.9999368313783809" percentageOfSecondRank="3.86928969255198E-6" support="1251" priorScore="1.0405845786230523E-5" finalScore="0.9999961191033709" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1758">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="hat" offset="392">
+  <surfaceForm name="called" offset="130">
+    <resource label="Subroutine" uri="Subroutine" contextualScore="0.9999905636648946" percentageOfSecondRank="2.220171195497416E-6" support="1697" priorScore="1.4115683692432612E-5" finalScore="0.9999977796291754" types=""/>
+  </surfaceForm>
+  <surfaceForm name="min" offset="1992">
+    <resource label="Maxima and minima" uri="Maxima_and_minima" contextualScore="0.9999999999995453" percentageOfSecondRank="2.5294477381903974E-13" support="704" priorScore="5.855887636695674E-6" finalScore="0.9999999999997726" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1284">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="log" offset="1691">
-    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956418E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  <surfaceForm name="We" offset="723">
+    <resource label="Montana" uri="Montana" contextualScore="0.5357514170119281" percentageOfSecondRank="0.007658960363712815" support="14470" priorScore="1.203617813962875E-4" finalScore="0.49172232999599336" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, DBpedia:Region, Schema:AdministrativeArea, DBpedia:AdministrativeRegion"/>
+    <resource label="South Africa" uri="South_Africa" contextualScore="0.4255650147346579" percentageOfSecondRank="0.9746852320993915" support="56069" priorScore="4.6638318736063884E-4" finalScore="0.5044934649690589" types="Schema:Place, DBpedia:Place, DBpedia:PopulatedPlace, Schema:Country, DBpedia:Country"/>
+  </surfaceForm>
+  <surfaceForm name="frac" offset="1667">
+    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999993573248749" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999988799573" types=""/>
+  </surfaceForm>
+  <surfaceForm name="case" offset="966">
+    <resource label="Grammatical case" uri="Grammatical_case" contextualScore="0.14181715601969605" percentageOfSecondRank="0.03590036493804344" support="1709" priorScore="1.4215499958967196E-5" finalScore="0.9465244528861356" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="608">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="family" offset="1482">
+    <resource label="Family of sets" uri="Family_of_sets" contextualScore="0.9999999990710648" percentageOfSecondRank="1.588183325462171E-9" support="129" priorScore="1.0730248652467924E-6" finalScore="0.9999999984117949" types=""/>
+  </surfaceForm>
+  <surfaceForm name="edges" offset="2095">
+    <resource label="Graph (mathematics)" uri="Graph_(mathematics)" contextualScore="0.9997490746904739" percentageOfSecondRank="1.4109566829546617E-6" support="5694" priorScore="4.7362818470660744E-5" finalScore="0.9999980979016427" types=""/>
+  </surfaceForm>
+  <surfaceForm name="subsets" offset="102">
+    <resource label="Set (mathematics)" uri="Set_(mathematics)" contextualScore="0.8941228186858172" percentageOfSecondRank="1.8813605720488033E-6" support="7472" priorScore="6.21522619622018E-5" finalScore="0.11844758970560469" types=""/>
+    <resource label="Subset" uri="Subset" contextualScore="0.10580923993610444" percentageOfSecondRank="0.134362538476581" support="1922" priorScore="1.5987238689956087E-5" finalScore="0.8815521874517855" types=""/>
+  </surfaceForm>
+  <surfaceForm name="covering" offset="750">
+    <resource label="Cover (topology)" uri="Cover_(topology)" contextualScore="0.9970205379589859" percentageOfSecondRank="1.546470851416047E-5" support="314" priorScore="2.6118589743216497E-6" finalScore="0.9999844174530979" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1213">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="1561">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="1370">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  </surfaceForm>
+  <surfaceForm name="approximation ratios" offset="1871">
+    <resource label="Approximation algorithm" uri="Approximation_algorithm" contextualScore="1.0" percentageOfSecondRank="0.0" support="220" priorScore="1.829964886467398E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cup" offset="458">
+    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137639358" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
+    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
+  </surfaceForm>
+  <surfaceForm name="ordered pair" offset="73">
+    <resource label="Ordered pair" uri="Ordered_pair" contextualScore="0.8964592840062588" percentageOfSecondRank="0.005213776420439498" support="220" priorScore="1.829964886467398E-6" finalScore="0.9948132660507106" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cup" offset="441">
+    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137639358" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
+    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
+  </surfaceForm>
+  <surfaceForm name="approximation" offset="1090">
+    <resource label="Approximation algorithm" uri="Approximation_algorithm" contextualScore="0.9999999999959073" percentageOfSecondRank="1.0863471117320893E-12" support="220" priorScore="1.829964886467398E-6" finalScore="0.9999999999986358" types=""/>
   </surfaceForm>
   <surfaceForm name="intersect" offset="1330">
     <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9999999999970441" percentageOfSecondRank="2.871935730452942E-13" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999996589" types=""/>
   </surfaceForm>
-  <surfaceForm name="generic algorithms" offset="1794">
-    <resource label="Generic programming" uri="Generic_programming" contextualScore="0.9999999982363761" percentageOfSecondRank="0.0" support="225" priorScore="1.8715549975234752E-6" finalScore="1.0" types=""/>
+  <surfaceForm name="version" offset="56">
+    <resource label="Software versioning" uri="Software_versioning" contextualScore="0.9996307502898207" percentageOfSecondRank="0.014562279140944448" support="262" priorScore="2.179321819338447E-6" finalScore="0.9856416788505927" types=""/>
   </surfaceForm>
-  <surfaceForm name="cap" offset="551">
-    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240796924" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
-    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691158" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
-    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971125404" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
+  <surfaceForm name="directed edges" offset="822">
+    <resource label="Graph (mathematics)" uri="Graph_(mathematics)" contextualScore="0.9986188929985678" percentageOfSecondRank="1.2654582140049012E-4" support="5694" priorScore="4.7362818470660744E-5" finalScore="0.9998734701904087" types=""/>
   </surfaceForm>
-  <surfaceForm name="hat" offset="556">
+  <surfaceForm name="Subset" offset="2058">
+    <resource label="Subset" uri="Subset" contextualScore="1.0" percentageOfSecondRank="0.0" support="1922" priorScore="1.5987238689956087E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cap" offset="1220">
+    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240804184" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
+    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691999" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
+    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971128663" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cup" offset="570">
+    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137639358" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
+    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1225">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cap" offset="416">
+    <resource label="Pileus (mycology)" uri="Pileus_(mycology)" contextualScore="0.0031931121240804184" percentageOfSecondRank="0.43231505815878374" support="3492" priorScore="2.9046533561564335E-5" finalScore="0.18947392592149218" types=""/>
+    <resource label="Hat" uri="Hat" contextualScore="0.7392463011691999" percentageOfSecondRank="0.8321205578710389" support="1025" priorScore="8.525972766495831E-6" finalScore="0.22770009000409366" types=""/>
+    <resource label="Cap (sport)" uri="Cap_(sport)" contextualScore="0.014337701971128663" percentageOfSecondRank="0.45605231680117203" support="5397" priorScore="4.489236587392976E-5" finalScore="0.49928501975655015" types=""/>
+  </surfaceForm>
+  <surfaceForm name="intersect" offset="650">
+    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9999999999970441" percentageOfSecondRank="2.871935730452942E-13" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999996589" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1244">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1628">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
   <surfaceForm name="addition" offset="1446">
-    <resource label="Addition" uri="Addition" contextualScore="0.22393907345125527" percentageOfSecondRank="0.030789088733033106" support="727" priorScore="6.047202147553629E-6" finalScore="0.9694333886628398" types=""/>
+    <resource label="Addition" uri="Addition" contextualScore="0.22393907345125527" percentageOfSecondRank="0.030789088733029605" support="727" priorScore="6.047202147553629E-6" finalScore="0.9694333886627297" types=""/>
+  </surfaceForm>
+  <surfaceForm name="crossing" offset="515">
+    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676477524" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183409657" types=""/>
+    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.1326987321986932" types=""/>
+    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.1639554898554254" types=""/>
+    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042067395" types=""/>
+    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.2763271101109843" percentageOfSecondRank="0.6556390218928766" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
+  </surfaceForm>
+  <surfaceForm name="generic algorithms" offset="1794">
+    <resource label="Generic programming" uri="Generic_programming" contextualScore="0.9999999982364898" percentageOfSecondRank="0.0" support="225" priorScore="1.8715549975234752E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="203">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="intersecting" offset="525">
+    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="1.0" percentageOfSecondRank="4.125725276069008E-17" support="544" priorScore="4.5250040829012025E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="349">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="1904">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cdot" offset="1911">
+    <resource label="Connecticut Department of Transportation" uri="Connecticut_Department_of_Transportation" contextualScore="0.06530015248375325" percentageOfSecondRank="0.0" support="145" priorScore="1.2061132206262397E-6" finalScore="0.10592925431257087" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
+    <resource label="Colorado Department of Transportation" uri="Colorado_Department_of_Transportation" contextualScore="0.9346995840676966" percentageOfSecondRank="0.11847972390736573" support="76" priorScore="6.321696880523739E-7" finalScore="0.8940707390185384" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, Schema:GovernmentOrganization, DBpedia:GovernmentAgency"/>
   </surfaceForm>
   <surfaceForm name="hat" offset="615">
     <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
   </surfaceForm>
-  <surfaceForm name="arbitrary" offset="1407">
-    <resource label="Arbitrariness" uri="Arbitrariness" contextualScore="0.4126289974524442" percentageOfSecondRank="0.014354123329868686" support="102" priorScore="8.484382655439755E-7" finalScore="0.9858427013127675" types=""/>
+  <surfaceForm name="crossing" offset="974">
+    <resource label="Hybrid (biology)" uri="Hybrid_(biology)" contextualScore="0.17820433431126925" percentageOfSecondRank="0.037467125676477524" support="4842" priorScore="4.027586354670519E-5" finalScore="0.12050313183409657" types=""/>
+    <resource label="Level crossing" uri="Level_crossing" contextualScore="0.14006371720789138" percentageOfSecondRank="0.9080955773839962" support="1696" priorScore="1.4107365670221395E-5" finalScore="0.1326987321986932" types=""/>
+    <resource label="Crossing (architecture)" uri="Crossing_(architecture)" contextualScore="0.04498111011473848" percentageOfSecondRank="0.8093582734906031" support="348" priorScore="2.894671729502975E-6" finalScore="0.1639554898554254" types=""/>
+    <resource label="Ford (crossing)" uri="Ford_(crossing)" contextualScore="0.27788916104033284" percentageOfSecondRank="0.7177592719659829" support="872" priorScore="7.253315368179869E-6" finalScore="0.22842685042067395" types=""/>
+    <resource label="Plant breeding" uri="Plant_breeding" contextualScore="0.2763271101109843" percentageOfSecondRank="0.6556390218928766" support="469" priorScore="3.901152417060044E-6" finalScore="0.34840337867808624" types=""/>
   </surfaceForm>
-  <surfaceForm name="cup" offset="1239">
-    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137644357" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
-    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
+  <surfaceForm name="optimal" offset="921">
+    <resource label="Optimization problem" uri="Optimization_problem" contextualScore="0.9999768162075423" percentageOfSecondRank="0.0016560670629119922" support="198" priorScore="1.6469683978206581E-6" finalScore="0.9983466706966952" types=""/>
   </surfaceForm>
-  <surfaceForm name="solution" offset="929">
-    <resource label="Equation" uri="Equation" contextualScore="0.9871690074498367" percentageOfSecondRank="0.004340630182388576" support="1754" priorScore="1.4589810958471891E-5" finalScore="0.9941767790903274" types=""/>
+  <surfaceForm name="frac" offset="1696">
+    <resource label="Hydraulic fracturing" uri="Hydraulic_fracturing" contextualScore="0.9999993573248749" percentageOfSecondRank="0.0" support="611" priorScore="5.082311571052637E-6" finalScore="0.9999999988799573" types=""/>
   </surfaceForm>
-  <surfaceForm name="cup" offset="470">
-    <resource label="DFB-Pokal" uri="DFB-Pokal" contextualScore="0.0863001887192678" percentageOfSecondRank="0.21982794137644357" support="1530" priorScore="1.2726573983159631E-5" finalScore="0.15342576722313703" types="DBpedia:Agent, Schema:Organization, DBpedia:Organisation, DBpedia:SportsLeague, DBpedia:SoccerLeague"/>
-    <resource label="Single-elimination tournament" uri="Single-elimination_tournament" contextualScore="0.27629758744488203" percentageOfSecondRank="0.1977222887638857" support="2596" priorScore="2.1593585660315296E-5" finalScore="0.7759659681380368" types=""/>
+  <surfaceForm name="Abstract" offset="0">
+    <resource label="Abstraction" uri="Abstraction" contextualScore="0.7301201641907508" percentageOfSecondRank="0.0528728418537767" support="626" priorScore="5.207081904220869E-6" finalScore="0.949628274046812" types=""/>
+  </surfaceForm>
+  <surfaceForm name="An" offset="70">
+    <resource label="Anu" uri="Anu" contextualScore="0.024437356022274963" percentageOfSecondRank="0.08887897620671327" support="287" priorScore="2.387272374618833E-6" finalScore="0.3628220536804651" types=""/>
+    <resource label="English articles" uri="English_articles" contextualScore="0.15066171342594695" percentageOfSecondRank="0.6031401024752493" support="5094" priorScore="4.237200514393148E-5" finalScore="0.6015551812778923" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="544">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="2044">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  </surfaceForm>
+  <surfaceForm name="algorithm" offset="899">
+    <resource label="Algorithm" uri="Algorithm" contextualScore="0.9999999999989768" percentageOfSecondRank="7.70208740916567E-18" support="8817" priorScore="7.334000183628659E-5" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="434">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="positive" offset="2106">
+    <resource label="Sign (mathematics)" uri="Sign_(mathematics)" contextualScore="0.9999999204802665" percentageOfSecondRank="1.1713551871553427E-9" support="624" priorScore="5.190445859798438E-6" finalScore="0.9999999988286845" types=""/>
+  </surfaceForm>
+  <surfaceForm name="union" offset="327">
+    <resource label="Union (set theory)" uri="Union_(set_theory)" contextualScore="1.0" percentageOfSecondRank="3.705020324939646E-16" support="497" priorScore="4.134057038974076E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="NP-hard" offset="1043">
+    <resource label="NP-hard" uri="NP-hard" contextualScore="1.0" percentageOfSecondRank="0.0" support="332" priorScore="2.761583374123528E-6" finalScore="1.0" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="563">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="Two" offset="190">
+    <resource label="World War II" uri="World_War_II" contextualScore="0.49820204871622786" percentageOfSecondRank="0.06951380680275678" support="163937" priorScore="0.0013636316072400264" finalScore="0.9132469259604643" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="380">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="cost" offset="2115">
+    <resource label="Total cost of ownership" uri="Total_cost_of_ownership" contextualScore="0.997372952642767" percentageOfSecondRank="2.232350574805752E-4" support="91" priorScore="7.569400212206055E-7" finalScore="0.21317129986175343" types=""/>
+    <resource label="Cost" uri="Cost" contextualScore="0.0022085035918738348" percentageOfSecondRank="0.27096048101275433" support="901" priorScore="7.494538012305117E-6" finalScore="0.786724687913878" types=""/>
+  </surfaceForm>
+  <surfaceForm name="discovered" offset="1108">
+    <resource label="Discovery (observation)" uri="Discovery_(observation)" contextualScore="0.03851528472659569" percentageOfSecondRank="0.06072935563119424" support="201" priorScore="1.6719224644543046E-6" finalScore="0.1210547085112743" types=""/>
+    <resource label="HIV" uri="HIV" contextualScore="0.013788850143343603" percentageOfSecondRank="0.5616617787251126" support="8330" priorScore="6.928912501942466E-5" finalScore="0.2155295466001803" types="DBpedia:Species"/>
+    <resource label="Drug discovery" uri="Drug_discovery" contextualScore="0.9291074705266847" percentageOfSecondRank="0.32879049660414744" support="282" priorScore="2.3456822635627555E-6" finalScore="0.6555224339700747" types=""/>
+  </surfaceForm>
+  <surfaceForm name="log" offset="1917">
+    <resource label="Logarithm" uri="Logarithm" contextualScore="0.9999999645641544" percentageOfSecondRank="3.021059784956075E-10" support="1150" priorScore="9.565725542897762E-6" finalScore="0.9999999996964561" types=""/>
+  </surfaceForm>
+  <surfaceForm name="intersect" offset="217">
+    <resource label="Intersection (set theory)" uri="Intersection_(set_theory)" contextualScore="0.9999999999970441" percentageOfSecondRank="2.871935730452942E-13" support="544" priorScore="4.5250040829012025E-6" finalScore="0.9999999999996589" types=""/>
+  </surfaceForm>
+  <surfaceForm name="hat" offset="1277">
+    <resource label="Circumflex" uri="Circumflex" contextualScore="0.9986831639203396" percentageOfSecondRank="0.0401335015607003" support="265" priorScore="2.204275885972093E-6" finalScore="0.9613761198583612" types=""/>
+  </surfaceForm>
+  <surfaceForm name="directed edge" offset="664">
+    <resource label="Directed graph" uri="Directed_graph" contextualScore="1.0" percentageOfSecondRank="0.0" support="521" priorScore="4.333689572043247E-6" finalScore="1.0" types=""/>
   </surfaceForm>
 </annotation>
