@@ -1,0 +1,115 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_646_650>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DJIA" ;
+        nif:beginIndex          "646"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dow_Jones_Industrial_Average> .
+
+<#offset_404_411>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "omnibus" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999886561257608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bus> .
+
+<#offset_248_258>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatility" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9600260216407195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatility_(finance)> .
+
+<#offset_714_720>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "714"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "720"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.6575746053458789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<#offset_339_356>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permutation tests" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resampling_(statistics)> .
+
+<#offset_77_86>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979378976389571"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetry> .
+
+<#offset_0_726>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "726"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider different models for intraday log-returns: Lévy models, symmetric models, and Lévy processes subjected to independent continuous time-changes. For these models, we show bivariate interchangeability of intraday up- and downside volatility ratios which are built using daily high-low prices. Using conditional inference permutation tests on bivariate interchangeability, we develop an omnibus test for the above-mentioned models. Empirically, we find strong evidence against intraday returns belonging to these model classes, as we reject bivariate interchangeability of the volatility ratios for half of the components of the DJIA, two thirds of the S&P 500 shares and almost all stocks of the German DAX.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_726> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_594_604>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatility" ;
+        nif:beginIndex          "594"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9600260216407195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatility_(finance)> .
+
+<#offset_317_328>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9939313566149255"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conditional_probability> .
+
+<#offset_721_724>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DAX" ;
+        nif:beginIndex          "721"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DAX> .
+
+<#offset_99_113>  a             nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lévy processes" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lévy_process> .
+
+<#offset_670_677>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "S&P 500" ;
+        nif:beginIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_726> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/S&P_500> .

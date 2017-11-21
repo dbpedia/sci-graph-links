@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_582>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "582"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Protoplanetary disks are composed primarily of gas (99% of the mass). Nevertheless, relatively few observational constraints exist for the gas in disks. In this review, I discuss several observational diagnostics in the UV, optical, near-IR, mid-IR, and (sub)-mm wavelengths that have been employed to study the gas in the disks of young stellar objects. I concentrate in diagnostics that probe the inner 20 AU of the disk, the region where planets are expected to form. I discuss the potential and limitations of each gas tracer and present prospects for future research.\n" .
+
+<#offset_417_419>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AU" ;
+        nif:beginIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "419"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_582> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Astronomical_unit> .
+
+<#offset_341_362>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "young stellar objects" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_582> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Young_stellar_object> .
+
+<#offset_450_457>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "planets" ;
+        nif:beginIndex          "450"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_582> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6990912774279833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Extrasolar_planet> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_582> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_272_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wavelengths" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_582> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9830646788379472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelength> .
+
+<#offset_9_29>  a               nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Protoplanetary disks" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_582> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Protoplanetary_disk> .
+
+<#offset_229_231>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UV" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_582> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999554875681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ultraviolet> .

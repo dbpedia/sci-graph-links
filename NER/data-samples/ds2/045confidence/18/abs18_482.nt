@@ -1,0 +1,24 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_56_63>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digraph" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996301423625159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Directed_graph> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_313> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_313>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "313"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove that if there is a strongly connected digraph of ordern, maximum degreed, diameterk and connectivityc, thenn≤c d k−d /d−1+d+1. It improves the previous known results, and it, in fact, is the best possible for several interesting cases. A similar result for arc connectivity is also established.\n" .

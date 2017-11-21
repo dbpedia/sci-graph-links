@@ -1,0 +1,54 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_150_159>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CRC press" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_448> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CRC_Press> .
+
+<#offset_161_183>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Taylor & Francis Group" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_448> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Publisher> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taylor_&_Francis> .
+
+<#offset_239_264>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ion mobility spectrometry" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_448> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion-mobility_spectrometry> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_448> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_185_195>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Boca Raton" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_448> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999999905720074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boca_Raton,_Florida> .
+
+<#offset_0_448>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "448"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract After the first edition, released in 1994 and 228 pages long, followed by the second edition, published in 2005 and now 350 pages in length, CRC press (Taylor & Francis Group, Boca Raton, FL) has now released the third edition of Ion mobility spectrometry at the beginning of this year. The content has been expanded to 428 pages and Herbert H. Hill Jr. is now onboard, working alongside the previous authors Gary Eiceman and Zeev Karpas.\n" .

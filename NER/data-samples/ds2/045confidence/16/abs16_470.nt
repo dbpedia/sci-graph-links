@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_187_191>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quad" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968239180663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrilateral> .
+
+<#offset_150_152>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cx" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9236545074551927"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Citroën_CX> .
+
+<#offset_385_404>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "difference equation" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999943189906665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recurrence_relation> .
+
+<#offset_0_532>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "532"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the paper we deal with the qualitative behavior of solutions of the following equation: $$\\begin{aligned} x_{n+1}=ax_{n-1}-\\frac{bx_n^2 + cx_{n - 1}^2}{1 - dx_n+ ex_{n - 1}},\\quad n = 0,1,2,\\ldots \\end{aligned}$$ where the initial values x −1,x 0 are arbitrary positive numbers and a,b,c,d,e are positive numbers. We also study the positive nonoscillatory solutions of the difference equation $$\\begin{aligned} x_{n+1}=ax_{n-1} - \\frac{bx_n^2 + ax_{n - 1}^2}{1 - cx_n+ x_{n - 1}},\\quad n = 0,1,2,\\ldots. \\end{aligned}$$\n" .
+
+<#offset_493_497>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quad" ;
+        nif:beginIndex          "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968239180663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrilateral> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_532> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

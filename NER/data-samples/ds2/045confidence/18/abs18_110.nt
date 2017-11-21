@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_66_79>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical law" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_659> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scientific_law> .
+
+<#offset_504_512>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skewness" ;
+        nif:beginIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_659> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skewness> .
+
+<#offset_532_540>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skewness" ;
+        nif:beginIndex          "532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_659> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skewness> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_659> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_346_361>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exchangeability" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "361"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_659> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exchangeable_random_variables> .
+
+<#offset_0_659>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "659"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A new theoretical interpretation is proposed for Hurst's empirical law which is applicable to discrete-valued inflows and is consistent with the existing interpretation for continuous-valued inflows. This is applied to independent net inflows {X r} having values +1 and −1 with unequal probabilities. With the aid of a new result on the exchangeability of symmetrically conditioned exchangeable variables, values of the resulting range are obtained and tabulated. It is found that the effect of skewness is very slight for skewness values between (about) 3 and −3, and that Hurst's own approximation, the “conditioned range”, is remarkably accurate.\n" .

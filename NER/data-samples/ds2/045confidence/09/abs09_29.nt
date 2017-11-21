@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_26_40>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heat treatment" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heat_treating> .
+
+<#offset_92_94>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cu" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Copper> .
+
+<#offset_148_166>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axial piston pumps" ;
+        nif:beginIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Axial_piston_pump> .
+
+<#offset_111_119>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aluminum" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999957685768376"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aluminium> .
+
+<#offset_228_236>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abrasion" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997866997608578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wear> .
+
+<#offset_0_291>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "291"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Several modes of heat treatment are tested with the aim of raising the hardness of Cu-9% Al-6%Ni-5%Fe aluminum bronze used for fabricating axial piston pumps of launching systems. A high hardness ensuring resistance to abrasion wear is one of the main requirements on the material.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_291> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

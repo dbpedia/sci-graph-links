@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_341_355>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Diffie-Hellman" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffie–Hellman_key_exchange> .
+
+<#offset_50_62>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "key exchange" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982630540342702"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffie–Hellman_key_exchange> .
+
+<#offset_0_661>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "661"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Ustaoglu presents a secure and efficient key exchange protocol named CMQV, based on the design rationales of HMQV and NAXOS. Compared with the latter two protocols, on one hand, CMQV achieves high performance of HMQV, and on the other, it is proven secure in eCK model as NAXOS is. However, CMQV enjoys the security proof under gap Diffie-Hellman assumption as indicated by its creators. In this paper, we propose a variant of CMQV, called CMQV+, which is proven secure under a weaker assumption (i.e. computational Diffie-Hellman assumption) in eCK model with random oracles while maintaining the high-performance feature of CMQV as much as possible.\n" .
+
+<#offset_511_550>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computational Diffie-Hellman assumption" ;
+        nif:beginIndex          "511"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_Diffie–Hellman_assumption> .
+
+<#offset_570_584>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random oracles" ;
+        nif:beginIndex          "570"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "584"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_oracle> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_661> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_63_71>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9825299639517429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_protocol> .
+
+<#offset_221_225>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HMQV" ;
+        nif:beginIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6525696908794549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HMQV> .
+
+<#offset_118_122>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HMQV" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_661> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6525696908794549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/HMQV> .

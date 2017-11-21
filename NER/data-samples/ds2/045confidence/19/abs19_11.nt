@@ -1,0 +1,54 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1151>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1151"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is unclear how changes in the content and number of news reports over time affect the impressions made in the minds of newspaper readers. This study targeted news reports in major newspapers regarding an incident of mass nosocomial Serratia infection that occurred at one clinic. The trends in the total number of articles and total number of characters contained in the articles were congruent, with a peak on the day after the incident was disclosed and a rapid decrease thereafter. The numbers of articles and characters that appeared during the first 3 days corresponded to 45 and 51% of those that appeared during the entire study period. On day 9, it was published that Serratia liquefaciens propagated on medical instruments, and both the number of articles and the number of characters increased by approximately 40% in comparison to those published on the day after the initial report of the incident. The individual articles were deemed to be medically accurate; however, the main problem was that only part of the specific medical issue had been emphasized because of a poor balance in the number of news reports on this topic.\n" .
+
+<#offset_397_406>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "congruent" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1151> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9475107522501418"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<#offset_688_696>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Serratia" ;
+        nif:beginIndex          "688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1151> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999999301963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Serratia> .
+
+<#offset_233_243>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nosocomial" ;
+        nif:beginIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1151> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hospital-acquired_infection> .
+
+<#offset_244_252>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Serratia" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1151> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999999301963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Serratia> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1151> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

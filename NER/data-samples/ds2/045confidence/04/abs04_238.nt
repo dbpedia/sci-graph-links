@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_203_221>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evapotranspiration" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evapotranspiration> .
+
+<#offset_0_1288>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1288"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract By investigating long time series of climate and discharge data set were collected from 68 inland river catchments in China, we analyzed the spatial and temporal variations of the annual actual evapotranspiration (AE, mm/year) using the Budyko hypothesis. A simple parameterization estimated parameter $$\\bar{w}$$ w¯ model (SMR Model, $$\\bar{w}$$ w¯ parameter for the Fu’s equation, one form of the Budyko hypothesis), was proposed using a dataset of 68 catchment independently and combined based on the landscape characteristics [Relative soil water storage $$\\left( {\\frac{{S_{max} }}{{\\overline{ET}_{0} }}} \\right)$$ SmaxET¯0 , catchment areas (A) and average slope (tanβ)], this model explains 58.3 % of observed variance (the optimized $$\\bar{w}$$ w¯ ) with the root-mean-square error of 0.24. The Budyko hypothesis with estimated parameter $$\\bar{w}$$ w¯ reproduced observed mean annual AE well for the combined 68 catchments. The estimated mean annual AE for 68 catchments showed remarkable agreement with that derived from the long-term water balance with the determining coefficient of R 2 = 0.918. This implies that Budyko hypothesis can be used for estimating AE accurately in inland river catchments, and it is especially useful for estimates in ungauged catchments.\n" .
+
+<#offset_31_42>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<#offset_1054_1067>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "water balance" ;
+        nif:beginIndex          "1054"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997999596162"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Water_balance> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1288> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_726_734>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "726"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999837405086"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<#offset_776_792>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "root-mean-square" ;
+        nif:beginIndex          "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Root_mean_square> .
+
+<#offset_127_132>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "China" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9998874744203783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/China> .

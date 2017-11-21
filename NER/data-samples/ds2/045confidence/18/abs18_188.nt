@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_532>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "532"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. In the setting of abstract Markov maps, we prove results concerning the convergence of renormalized Birkhoff sums to normal laws or stable laws. They apply to one-dimensional maps with a neutral fixed point at 0 of the form x+x 1+α , for α∈(0, 1). In particular, for α>1/2, we show that the Birkhoff sums of a Hölder observable f converge to a normal law or a stable law, depending on whether f(0)=0 or f(0)≠0. The proof uses spectral techniques introduced by Sarig, and Wiener’s Lemma in non-commutative Banach algebras.\n" .
+
+<#offset_82_93>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9595621702276779"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_of_a_sequence> .
+
+<#offset_205_216>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fixed point" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999917009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fixed_point_(mathematics)> .
+
+<#offset_515_530>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Banach algebras" ;
+        nif:beginIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "530"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_532> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Banach_algebra> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_532> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

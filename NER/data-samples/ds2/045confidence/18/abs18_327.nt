@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_260_277>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "domestic violence" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domestic_violence> .
+
+<#offset_219_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "child abuse" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9918623996612674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Child_abuse> .
+
+<#offset_597_605>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "breeches" ;
+        nif:beginIndex          "597"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8557687291346334"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breeches> .
+
+<#offset_251_255>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rape" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.6139785990132404"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rape> .
+
+<#offset_578_595>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sexual harassment" ;
+        nif:beginIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sexual_harassment> .
+
+<#offset_18_31>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "North America" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.999357475486789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/North_America> .
+
+<#offset_479_493>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "family matters" ;
+        nif:beginIndex          "479"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/TelevisionShow> ;
+        itsrdf:taConfidence     "0.9999996139835793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Family_Matters> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_915> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_915>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "915"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary ¶Although North America is viewed as a place where women have equal rights and status, violence against women is still rampant. Forty to 51% of women experience some type of violence in their lifetime including child abuse, physical violence, rape and domestic violence. The perpetrator is most likely to be a current or former partner. Such violence stems from historical views of women as property and may flourish because of the public’s reluctance to get involved in family matters. The concept of violence has been expanded to include non-traditional types such as sexual harassment, breeches of fiduciary trust and stalking. Treatment of victims of violence must include ensuring their safety, encouraging them to make healthy choices and helping them to understand they are not at fault. Education at all levels is required to change attitudes which perpetuate violence despite laws which forbid it.\n" .
+
+<#offset_619_624>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trust" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "624"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9959501943601174"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trust_(social_sciences)> .
+
+<#offset_609_618>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fiduciary" ;
+        nif:beginIndex          "609"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "618"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_915> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiduciary> .

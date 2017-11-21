@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_1156_1166>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive" ;
+        nif:beginIndex          "1156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1293> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998701696"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_relation> .
+
+<#offset_579_588>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pavlovian" ;
+        nif:beginIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1293> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999748368967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_conditioning> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1293> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1261_1281>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social psychological" ;
+        nif:beginIndex          "1261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1293> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999937472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_psychology> .
+
+<#offset_292_306>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrimination" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1293> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999334617109"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrimination> .
+
+<#offset_0_1293>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1293"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Although considerable attention has been given to interactions between events serving as the positive (S+) and negative (S−) stimuli in successive discriminations, there has been little study of similar interactions in simultaneous discriminations. We propose that in a simultaneous discrimination, given what is typically relatively little experience with the consequences of responding to the S−, some of the value of the S+ transfers to the S− with which it was paired. Furthermore, the mechanisms responsible for this transfer of value appear to be the higher order Pavlovian association between the S− and the S+, as well as within-event associations between them. Although in typical simultaneous discriminations, negative value does not appear to transfer from the S− to the S+, when adequate experience is provided with the S−, contrast typically develops, reducing the value of the S− (negative contrast) and enhancing the value of the S+ (positive contrast). This model of stimulus interactions has implications not only for simple simultaneous discrimination learning, but also for research using combinations of discriminations (e.g., transitive inference in animals and humans). This model may also have implications for a number of human social psychological phenomena.\n" .
+
+<#offset_1064_1087>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrimination learning" ;
+        nif:beginIndex          "1064"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1087"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1293> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrimination_learning> .

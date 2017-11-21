@@ -1,0 +1,82 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_275>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "275"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A spectroscopic study of the association in the Nd3+-SCN− system is presented. A characteristic change of the molar absorptivity of the solution with a plateau at 2–4M [SCN−] and an increase at 4–8M [SCN−] reflects the change from outer- to innersphere complexation.\n" .
+
+<#offset_118_136>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molar absorptivity" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molar_absorptivity> .
+
+<#offset_10_23>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectroscopic" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9897605936834617"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectroscopy> .
+
+<#offset_177_180>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SCN" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> , <http://dbpedia.org/ontology/Brain> ;
+        itsrdf:taConfidence     "0.9652300628070397"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suprachiasmatic_nucleus> .
+
+<#offset_56_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nd3" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Biomolecule> , <http://dbpedia.org/ontology/Protein> ;
+        itsrdf:taConfidence     "0.9999999955849148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/MT-ND3> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_275> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_61_64>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SCN" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Brain> , <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9652300628070397"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suprachiasmatic_nucleus> .
+
+<#offset_208_211>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SCN" ;
+        nif:beginIndex          "208"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> , <http://dbpedia.org/ontology/Brain> ;
+        itsrdf:taConfidence     "0.9652300628070397"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Suprachiasmatic_nucleus> .
+
+<#offset_160_167>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plateau" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_275> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999725688811532"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plateau> .

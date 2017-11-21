@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_368_387>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "boundary conditions" ;
+        nif:beginIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_512> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boundary_value_problem> .
+
+<#offset_34_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordinary differential equations" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_512> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ordinary_differential_equation> .
+
+<#offset_219_232>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phytoplankton" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_512> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992076989498"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phytoplankton> .
+
+<#offset_0_512>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "512"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A system of parabolic and ordinary differential equations u t = a 2 u xx + F(u, v, w), v t = a 2 v xx + G(u, v, w),w x = − k(u)w is studied which has been proposed by Radach and Maier-Reimer for the dynamics of phytoplankton and nutrient in dependence of light intensity. It is shown that there is a unique solution to this system satisfying given initial and boundary conditions. The solution depends continuously on the data. For specific nonlinearities F, G, and k bounds for the solutions are given.\n" .
+
+<#offset_20_29>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parabolic" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_512> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999988155317173"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parabolic_partial_differential_equation> .
+
+<#offset_207_215>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_512> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998418816497824"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_system> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_512> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_1226>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1226"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The aim of this study is to test what effect the weather may have on medications prescribed to treat Parkinson’s disease. Twenty-three years of monthly time, series data was sourced from the Pharmaceutical Benefits Scheme (PBS) and the Bureau of Meteorology (BOM). Data were available for eight states and territories and their corresponding capital cities. The dependent variable was the aggregate levodopa equivalent dose (LED) for 51 Parkinson’s medications identified on the PBS. Two explanatory variables of interest, temperature and solar exposure, were identified in the BOM data set. Linear and cosinor models were estimated with fixed and random effects, respectively. The prescribed LED was 4.2% greater in January and 4.5% lower in July. Statistical analysis showed that temperature was associated with the prescription of Parkinson medications. Our results suggest seasonality exists in Parkinson’s disease symptoms and this may be related to temperature. Further work is needed to confirm these findings and understand the underlying mechanisms as a better understanding of the causes of any seasonal variation in Parkinson’s disease may help clinicians and patients manage the disease more effectively.\n" .
+
+<#offset_371_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dependent variable" ;
+        nif:beginIndex          "371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999977263"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<#offset_587_590>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BOM" ;
+        nif:beginIndex          "587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/GovernmentOrganization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.7376534289882881"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bureau_of_Meteorology> .
+
+<#offset_268_271>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BOM" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/GovernmentAgency> ;
+        itsrdf:taConfidence     "0.7376534289882881"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bureau_of_Meteorology> .
+
+<#offset_408_416>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "levodopa" ;
+        nif:beginIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Drug> ;
+        itsrdf:taConfidence     "0.9976214330526807"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/L-DOPA> .
+
+<#offset_497_518>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "explanatory variables" ;
+        nif:beginIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<#offset_657_671>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random effects" ;
+        nif:beginIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "671"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_effects_model> .
+
+<#offset_488_491>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PBS" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "491"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999988548325"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pharmaceutical_Benefits_Scheme> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1226> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_417_432>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equivalent dose" ;
+        nif:beginIndex          "417"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999986887815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equivalent_dose> .
+
+<#offset_232_235>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PBS" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999988548325"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pharmaceutical_Benefits_Scheme> .
+
+<#offset_200_230>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pharmaceutical Benefits Scheme" ;
+        nif:beginIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1226> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pharmaceutical_Benefits_Scheme> .

@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_700>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "700"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusions 1.Data have been obtained on the influence exerted by low-temperature oxidation of porous titanium carbide specimens on the impregnation process of these specimens by liquid steels of various grades.2.It was demonstrated that complete impregnation of porous (63% porosity) titanium carbide specimens can only take place when their grain surface is oxidized to a weight-gain range of 0.0085–0.049 g/m2.3.During the reaction of liquid steel with porous carbide specimens subjected to low-temperature oxidation, the oxides on the carbide are reduced, presumably by the gaseous CO phase generated during the melting of steel under vacuum conditions, which activates the impregnation process.\n" .
+
+<#offset_639_645>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vacuum" ;
+        nif:beginIndex          "639"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "645"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999846291943982"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vacuum> .
+
+<#offset_463_470>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbide" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998188588886684"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbide> .
+
+<#offset_111_118>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbide" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998188588886684"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbide> .
+
+<#offset_294_301>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbide" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998188588886684"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbide> .
+
+<#offset_275_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "porosity" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992921289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Porosity> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_700> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_525_531>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oxides" ;
+        nif:beginIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "531"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9777026270701055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oxide> .
+
+<#offset_539_546>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbide" ;
+        nif:beginIndex          "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998188588886684"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbide> .
+
+<#offset_360_368>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "oxidized" ;
+        nif:beginIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997393925665009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Redox> .

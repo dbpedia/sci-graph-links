@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_403_422>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transaction account" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transactional_account> .
+
+<#offset_757_760>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IRA" ;
+        nif:beginIndex          "757"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Individual_retirement_account> .
+
+<#offset_670_682>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "credit cards" ;
+        nif:beginIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "682"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Credit_card> .
+
+<#offset_690_699>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mortgages" ;
+        nif:beginIndex          "690"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "699"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998844490889"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mortgage_loan> .
+
+<#offset_0_875>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "875"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The 1995 Survey of Consumer Finances was used to determine holdings of selected financial products by low-to-moderate income households, defined as households with incomes less than or equal to 80% of median household income for their region. First, we estimated determinants of holding bank accounts. Next, we estimated determinants of holding other selected products, contingent on holding a transaction account. Finally, we estimated the potential demand for these other products by households without accounts, should they become account holders. We found that if non-account holding households were to obtain accounts, they would increase their demand for credit cards, first mortgages, car loans, consumer loans, certificates of deposit, and IRA/Keogh accounts. The implications for financial institutions, policy makers, and consumer educators are presented.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_875> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_296_300>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bank" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bank> .
+
+<#offset_210_233>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "median household income" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_875> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987649936462784"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Household_income_in_the_United_States> .

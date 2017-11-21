@@ -1,0 +1,142 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_120_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sandeel" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sand_eel> .
+
+<#offset_128_148>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ammodytes personatus" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammodytes_personatus> .
+
+<#offset_587_590>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kHz" ;
+        nif:beginIndex          "587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "590"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8308232803416679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sound> .
+
+<#offset_0_1261>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1261"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Sound-speed and density contrasts (h and g, respectively), important acoustic material properties, of Japanese sandeel Ammodytes personatus were measured to estimate theoretical target strength (TS). The measured sound-speed contrast of adult fish varied between 1.016 and 1.023 (mean 1.020), and showed temperature dependence. The measured density contrast differed significantly between juvenile and adult. The density contrast of juvenile varied between 1.017 and 1.024 (1.021), and that of adult varied between 1.026 and 1.038 (1.032). Using these results, TS at 38 and 120 kHz in the fishing season were estimated by an empirical sound scattering model. TS of an individual fish varied significantly with change of tilt angle. TS of near-dorsal aspect (TSmax) and tilt-averaged TS (TSave) differed by up to 7 dB. At both frequencies, two different TSave−length relationships (TSave = a log L + b) were obtained for adult and juvenile. The coefficients of log L of adult were close to 20, suggesting that backscattering strength was proportional to square of body length. These values were larger in juvenile (34.0 at 120 kHz, 56.5 at 38 kHz), suggesting that backscattering strength varied drastically with the cube or fifth power of body length.\n" .
+
+<#offset_1018_1032>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "backscattering" ;
+        nif:beginIndex          "1018"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1032"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Backscatter> .
+
+<#offset_111_119>  a            nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japanese" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.6605773395024012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<#offset_252_256>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fish" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999468735737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fish> .
+
+<#offset_688_692>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fish" ;
+        nif:beginIndex          "688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999468735737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fish> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1261> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_1173_1187>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "backscattering" ;
+        nif:beginIndex          "1173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Backscatter> .
+
+<#offset_1151_1154>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kHz" ;
+        nif:beginIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8308232803416679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sound> .
+
+<#offset_1225_1229>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cube" ;
+        nif:beginIndex          "1225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5955765871495452"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cube> .
+
+<#offset_1135_1138>  a          nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kHz" ;
+        nif:beginIndex          "1135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8308232803416679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sound> .
+
+<#offset_650_660>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scattering" ;
+        nif:beginIndex          "650"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987812059733243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scattering> .
+
+<#offset_953_965>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coefficients" ;
+        nif:beginIndex          "953"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coefficient> .
+
+<#offset_187_202>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "target strength" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999969305"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Target_strength> .

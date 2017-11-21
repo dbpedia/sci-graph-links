@@ -1,0 +1,27 @@
+Abstract Moving objects databases (MOD) manage trajectory information of vehicles, animals, and other mobile objects. A crucial problem is how to efficiently track an object’s trajectory in real-time, in particular if the trajectory data is sensed at the mobile object and thus has to be communicated over a wireless network. We propose a family of tracking protocols that allow trading the communication cost and the amount of trajectory data stored at a MOD off against the spatial accuracy. With each of these protocols, the MOD manages a simplified trajectory that does not deviate by more than a certain accuracy bound from the actual movement. Moreover, the different protocols enable several trade-offs between computational costs, communication cost, and the reduction in the trajectory data: Connection-Preserving Dead Reckoning minimizes the communication cost using dead reckoning, a technique originally designed for tracking an object’s current position. Generic Remote Trajectory Simplification (GRTS) further separates between tracking of the current position and simplification of the past trajectory and can be realized with different line simplification algorithms. For both protocols, we discuss how to bound the space consumption and computing time at the moving object and thereby present an effective compression technique to optimize the reduction performance of real-time line simplification in general. Our evaluations with hundreds of real GPS traces show that a realization of GRTS with a simple simplification heuristic reaches 85–90% of the best possible reduction rate, given by retrospective offline simplification. A realization with the optimal line simplification algorithm by Imai and Iri even reaches more than 97% of the best possible reduction rate.
+heuristic           0.9981718291571375^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Heuristic             
+
+Dead Reckoning                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Dead_reckoning        
+
+wireless                      0.937088043638353^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Wireless              
+
+GRTS                          0.9272473422981488^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Gambia_Radio_&_Television_Service
+
+MOD                           0.9999999950920255^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Modular_arithmetic    
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+Iri                           0.9999958932386535^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Iksan                 
+
+GPS                           0.9999999999998863^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Global_Positioning_System
+
+algorithms                    0.9999999999995453^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+MOD                           0.9999999950920255^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Modular_arithmetic    
+
+dead reckoning                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Dead_reckoning        
+
+GRTS                          0.9272473422981488^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Gambia_Radio_&_Television_Service
+
+MOD                           0.9999999950920255^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Modular_arithmetic    
+

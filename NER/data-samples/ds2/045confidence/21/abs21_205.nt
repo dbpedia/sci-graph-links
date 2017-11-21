@@ -1,0 +1,51 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_758>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "758"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A finite subset K of ℤ d is said to be lattice-convex if K is the intersection of ℤ d with a convex set. The covariogram g K of K⊆ℤ d is the function associating to each u∈ℤ d the cardinality of K∩(K+u). Daurat, Gérard, and Nivat and independently Gardner, Gronchi, and Zong raised the problem of the reconstruction of lattice-convex sets K from g K . We provide a partial positive answer to this problem by showing that for d=2 and under mild extra assumptions, g K determines K up to translations and reflections. As a complement to the theorem on reconstruction we also extend the known counterexamples (i.e., planar lattice-convex sets which are not reconstructible, up to translations and reflections) to an infinite family of counterexamples.\n" .
+
+<#offset_548_555>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_758> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999885591252"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<#offset_189_200>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cardinality" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_758> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994573164821"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cardinality> .
+
+<#offset_207_209>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "K+" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_758> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980145731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_758> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_102_112>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex set" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_758> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_set> .

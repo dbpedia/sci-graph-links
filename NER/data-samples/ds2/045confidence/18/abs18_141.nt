@@ -1,0 +1,105 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_273_283>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "well-posed" ;
+        nif:beginIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Well-posed_problem> .
+
+<#offset_485_495>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "martingale" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994755626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Martingale_(probability_theory)> .
+
+<#offset_331_348>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "positive definite" ;
+        nif:beginIndex          "331"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9702883160352834"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Positive-definite_matrix> .
+
+<#offset_22_32>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "martingale" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994755626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Martingale_(probability_theory)> .
+
+<#offset_383_389>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "matrix" ;
+        nif:beginIndex          "383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.940682668402844"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Matrix_(mathematics)> .
+
+<#offset_251_261>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "martingale" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994755626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Martingale_(probability_theory)> .
+
+<#offset_614_627>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nondegeneracy" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Degenerate_form> .
+
+<#offset_512_522>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "well-posed" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Well-posed_problem> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_639> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_0_639>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "639"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We study the martingale problem associated with the operator $$ Lu(s, x) = \\partial_su(s, x) + \\frac{1}{2} \\sum_{i,j=1}^{d_0} a^{ij}(s, x) \\partial_{ij}u(s, x) + \\sum_{i,j=1}^d B^{ij} x^j \\partial_iu(s, x), $$where d 0 ≤  d. We show that the martingale problem is well-posed when the function a is continuous and strictly positive definite on $${\\mathbb{R}^{d_0}}$$ and the matrix B takes a particular lower-diagonal, block form. We then localize this result to show that the martingale problem remains well-posed when B is replaced by a sufficiently smooth vector field whose Jacobian matrix satisfies a nondegeneracy condition.\n" .
+
+<#offset_586_601>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Jacobian matrix" ;
+        nif:beginIndex          "586"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jacobian_matrix_and_determinant> .
+
+<#offset_567_579>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector field" ;
+        nif:beginIndex          "567"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_639> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999958341732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_field> .

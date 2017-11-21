@@ -1,0 +1,135 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_118_127>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genotypes" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genotype> .
+
+<#offset_210_220>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenotypes" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenotype> .
+
+<#offset_438_447>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genotypes" ;
+        nif:beginIndex          "438"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "447"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genotype> .
+
+<#offset_282_290>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genotype" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999821967889549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genotype> .
+
+<#offset_539_551>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Acanthamoeba" ;
+        nif:beginIndex          "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acanthamoeba> .
+
+<#offset_0_633>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "633"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A total of 90 Acanthamoeba isolates from human eye infections from 15 countries were clustered into distinct genotypes according to their mtDNA restriction fragment patterns. Closely related digestion phenotypes (sequence difference 0.1–1.5%) were integrated into a single genotype, whereas phenotypes with greater than 4.76% difference were considered distinct. Approximately 80% of the human isolates studied fell into 7 of 22 genotypes, indicating that virulence may be associated with specific clusters of cladistic groups of Acanthamoeba. This technique is useful for large-scale surveying of this particular pathogen.\n" .
+
+<#offset_623_631>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pathogen" ;
+        nif:beginIndex          "623"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999066631"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pathogen> .
+
+<#offset_50_59>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human eye" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9996573884171206"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_eye> .
+
+<#offset_300_310>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenotypes" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "310"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenotype> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_633> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_519_528>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cladistic" ;
+        nif:beginIndex          "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.907850558718183"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cladistics> .
+
+<#offset_23_35>  a              nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Acanthamoeba" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "35"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acanthamoeba> .
+
+<#offset_465_474>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virulence" ;
+        nif:beginIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "474"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virulence> .
+
+<#offset_147_152>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mtDNA" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993228797185"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mitochondrial_DNA> .
+
+<#offset_153_173>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "restriction fragment" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_633> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Restriction_fragment> .

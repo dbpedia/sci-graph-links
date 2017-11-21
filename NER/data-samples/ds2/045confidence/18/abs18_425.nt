@@ -1,0 +1,42 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_0_517>  a      nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "517"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For any x ∈ [0, 1), let x = [ɛ 1, ɛ 2, …,] be its dyadic expansion. Call r n (x):= max{j ⩾ 1: ɛ i+1 = … = ɛ i+j = 1, 0 ⩽ i ⩽ n − j} the n-th maximal run-length function of x. P.Erdös and A.Rényi showed that $$\\mathop {\\lim }\\limits_{n \\to \\infty } $$ r n (x)/log2 n = 1 almost surely. This paper is concentrated on the points violating the above law. The size of sets of points, whose runlength function assumes on other possible asymptotic behaviors than log2 n, is quantified by their Hausdorff dimension.\n" .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_517> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_59_65>  a              nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyadic" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9159260839345289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_relation> .
+
+<#offset_439_449>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950659566340913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<#offset_496_515>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hausdorff dimension" ;
+        nif:beginIndex          "496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_517> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hausdorff_dimension> .

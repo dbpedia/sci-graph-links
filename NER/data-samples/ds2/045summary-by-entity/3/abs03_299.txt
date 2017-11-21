@@ -1,0 +1,35 @@
+Abstract Replica exchange molecular dynamics (REMD) has become a valuable tool in studying complex biomolecular systems. However, its application on distributed computing grids is limited by the heterogeneity of this environment. In this study, we propose a REMD implementation referred to as greedy REMD (gREMD) suitable for computations on heterogeneous grids. To decentralize replica management, gREMD utilizes a precomputed schedule of exchange attempts between temperatures. Our comparison of gREMD against standard REMD suggests four main conclusions. First, gREMD accelerates grid REMD simulations by as much as 40 %. Second, gREMD increases CPU utilization rates in grid REMD by up to 60 %. Third, we argue that gREMD is expected to maintain approximately constant CPU utilization rates and simulation wall-clock times with the increase in the number of replicas. Finally, we show that gREMD correctly implements the REMD algorithm and reproduces the conformational ensemble of a short peptide sampled in our previous standard REMD simulations. We believe that gREMD can find its place in large-scale REMD simulations on heterogeneous computing grids. Graphical AbstractStandard replica exchange molecular dynamics (REMD) typically requires all replicas to complete prior to initiation of the replica exchange protocol. Greedy REMD decentralizes this process and therefore only requires a replica and its predetermined exchange partner to have finished simulations prior to initiating replica exchange. Because greedy REMD reduces the idle time associated with replica exchange tasks, it becomes particularly well suited for performing REMD on heterogeneous distributed computing environments.
+replica exchange    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Parallel_tempering    
+
+molecular dynamics            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Molecular_dynamics    
+
+CPU                           0.9999999998656222^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+CPU                           0.9999999998656222^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+molecular dynamics            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Molecular_dynamics    
+
+distributed computing         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Distributed_computing 
+
+conformational ensemble       0.9999999988091304^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Statistical_mechanics 
+
+replica exchange              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Parallel_tempering    
+
+peptide                       0.9999984911090694^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Peptide               
+
+heterogeneous computing       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Heterogeneous_computing
+
+distributed computing         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Distributed_computing 
+
+simulation                    0.8675868098359806^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Simulation            
+
+replica exchange              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Parallel_tempering    
+
+protocol                      0.9999999999674856^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Communications_protocol
+
+replica exchange              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Parallel_tempering    
+
+Replica exchange              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Parallel_tempering    
+

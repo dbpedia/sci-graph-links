@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<#offset_255_267>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permeability" ;
+        nif:beginIndex          "255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999887012871185"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semipermeable_membrane> .
+
+<#offset_840_844>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "QSPR" ;
+        nif:beginIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "844"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantitative_structure–activity_relationship> .
+
+<#offset_379_388>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intestine" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999664141595469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_gastrointestinal_tract> .
+
+<#offset_397_409>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permeability" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999887012871185"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semipermeable_membrane> .
+
+<#offset_431_436>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cells" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999579015375"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<#offset_0_1168>  a     nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1168"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Human intestinal absorption (HIA) is an important roadblock in the formulation of new drug substances. Computational models are needed for the rapid estimation of this property. The measurements are determined via in vivo experiments or in vitro permeability studies. We present several computational models that are able to predict the absorption of drugs by the human intestine and the permeability through human Caco-2 cells. The training and prediction sets were derived from literature sources and carefully examined to eliminate compounds that are actively transported. We compare our results to models derived by other methods and find that the statistical quality is similar. We believe that models derived from both sources of experimental data would provide greater consistency in predictions. The performance of several QSPR models that we investigated to predict outside the training set for either experimental property clearly indicates that caution should be exercised while applying any of the models for quantitative predictions. However, we are able to show that the qualitative predictions can be obtained with close to a 70% success rate.\n" .
+
+<#offset_112_132>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Computational models" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999979174845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_simulation> .
+
+<#collection>  a        nif:ContextCollection ;
+        nif:hasContext  <#offset_0_1168> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<#offset_424_430>  a            nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Caco-2" ;
+        nif:beginIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Caco-2> .

@@ -1,0 +1,49 @@
+Abstract We revisit the well-known problem of sorting under partial information: sort a finite set given the outcomes of comparisons between some pairs of elements. The input is a partially ordered set P, and solving the problem amounts to discovering an unknown linear extension of P, using pairwise comparisons. The information-theoretic lower bound on the number of comparisons needed in the worst case is log e(P), the binary logarithm of the number of linear extensions of P. In a breakthrough paper, Jeff Kahn and Jeong Han Kim (J. Comput. System Sci. 51 (3), 390–399, 1995) showed that there exists a polynomial-time algorithm for the problem achieving this bound up to a constant factor. Their algorithm invokes the ellipsoid algorithm at each iteration for determining the next comparison, making it impractical. We develop efficient algorithms for sorting under partial information. Like Kahn and Kim, our approach relies on graph entropy. However, our algorithms differ in essential ways from theirs. Rather than resorting to convex programming for computing the entropy, we approximate the entropy, or make sure it is computed only once, in a restricted class of graphs, permitting the use of a simpler algorithm. Specifically, we present: 1.an O(n 2) algorithm performing O(logn·log e(P)) comparisons2.an O(n 2:5) algorithm performing at most (1+ɛ) log e(P)+O ɛ (n) comparisons3.an O(n 2:5) algorithm performing O(log e(P)) comparisons. All our algorithms can be implemented in such a way that their computational bottleneck is confined in a preprocessing phase, while the sorting phase is completed in O(q)+O(n) time, where q denotes the number of comparisons performed.
+algorithm           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+entropy                       0.9999965827045526^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Entropy_(information_theory)
+
+ellipsoid algorithm           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Ellipsoid_method      
+
+partially ordered set         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partially_ordered_set 
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+Sci                           0.9621713202391879^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Classified_information_in_the_United_States
+
+algorithms                    0.999999992594212^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Algorithm             
+
+convex programming            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Convex_optimization   
+
+algorithms                    0.999999992594212^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Algorithm             
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+linear extensions             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Linear_extension      
+
+graph                         0.9999993417838943^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Graph_(mathematics)   
+
+binary logarithm              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Binary_logarithm      
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+information-theoretic         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Information_theory    
+
+polynomial-time               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Time_complexity       
+
+algorithms                    0.999999992594212^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Algorithm             
+
+linear extension              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Linear_extension      
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+entropy                       0.9999965827045526^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Entropy_(information_theory)
+
+entropy                       0.9999965827045526^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Entropy_(information_theory)
+
+bottleneck                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Bottleneck            
+
+Jeff Kahn                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Jeff_Kahn             
+
