@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_510_542>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high temperature superconductors" ;
+        nif:beginIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High-temperature_superconductivity> .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "544"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Assets in high voltage technology have to meet harsh service conditions over long lifetimes of 40 years or more. Due to environmental concerns, substitution of conventional insulating materials becomes a necessity. Because robustness and sustainability are serious requirements, only few new materials are really breaking through. At present some promising material technologies emerge with great potential applicability in high voltage engineering. This paper discusses especially nanocomposites and high temperature superconductors.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_19_31>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high voltage" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High_voltage> .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_491_505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nanocomposites" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996932654833609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nanocomposite> .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_433_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high voltage" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High_voltage> .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_247_261>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainability" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998350142211446"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainability> .
+
+<http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/970ff39d72fcff1dbf645c052655#offset_0_544> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

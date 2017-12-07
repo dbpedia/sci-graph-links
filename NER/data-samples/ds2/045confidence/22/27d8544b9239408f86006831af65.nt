@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/27d8544b9239408f86006831af65#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/27d8544b9239408f86006831af65#offset_0_778> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/27d8544b9239408f86006831af65#offset_0_778>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "778"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is noted that Popper separates the creation of concepts, conjectures, hypotheses and theories—the context of invention—from the testing thereof—the context of justification—arguing that only the latter is susceptible of rigorous logical analysis. Efforts on the part of others to shift or eradicate the demarcation established by this distinction are discussed and the relationship of these considerations to the claims of “strong artificial intelligence” is pointed out. It is argued that the mode of education of scientists, as well as reports of celebrated scientists, support Popper's judgement in this matter. An historical episode from Faraday's later career is used to illustrate the historiographical strength of Lakatos' “methodology of research programs.”\n" .
+
+<http://www.springernature.com/scigraph/things/articles/27d8544b9239408f86006831af65#offset_436_466>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strong artificial intelligence" ;
+        nif:beginIndex          "436"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27d8544b9239408f86006831af65#offset_0_778> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Strong_AI> .

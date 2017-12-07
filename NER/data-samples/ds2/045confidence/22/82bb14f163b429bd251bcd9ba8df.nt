@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "756"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Recently, a number of philosophers have argued that we can and should “consequentialize” non-consequentialist moral theories, putting them into a consequentialist framework. I argue that these philosophers, usually treated as a group, in fact offer three separate arguments, two of which are incompatible. I show that none represent significant threats to a committed non-consequentialist, and that the literature has suffered due to a failure to distinguish these arguments. I conclude by showing that the failure of the consequentializers’ arguments has implications for disciplines, such as economics, logic, decision theory, and linguistics, which sometimes use a consequentialist structure to represent non-consequentialist ethical theories.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_614_619>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logic" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998877434909714"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logic> .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_642_653>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linguistics" ;
+        nif:beginIndex          "642"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "653"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999138173331694"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linguistics> .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_621_636>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decision theory" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9984179880375328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_677_693>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consequentialist" ;
+        nif:beginIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "693"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consequentialism> .
+
+<http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_155_171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consequentialist" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/82bb14f163b429bd251bcd9ba8df#offset_0_756> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consequentialism> .

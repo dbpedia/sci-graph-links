@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_0_405> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_362_372>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creativity" ;
+        nif:beginIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_0_405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997882991007"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creativity> .
+
+<http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_0_405>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "405"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this personal narrative, the author describes her journey from love and inspiration to development, implementation and completion of a doctoral dissertation and a video about the use of Authentic Movement for women with breast cancer. It is intended as a guide for dance/movement therapists interested in doing scholary research while keeping focus, creativity and interest alive and flowing.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_277_282>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dance" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_0_405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941685089911916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dance> .
+
+<http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_232_245>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "breast cancer" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/daad89cfa87c971737f7ff6606b0#offset_0_405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9996909015826563"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Breast_cancer> .

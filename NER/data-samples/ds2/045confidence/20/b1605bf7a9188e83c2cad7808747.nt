@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_545_559>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "genre analysis" ;
+        nif:beginIndex          "545"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "559"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999273541"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genre_studies> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_251_257>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999881120938365"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_160_170>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Anglophone" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9434665854027964"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anglosphere> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_776_783>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "776"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "783"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9914586950007888"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_784_789>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Irish" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "789"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9964476529629068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Irish_language> .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1315"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Research on legal discourse has developed according to a variety of perspectives. As for descriptive accounts, two approaches are noteworthy. Firstly, Anglophone scholars have dealt with legal language from a genre-based viewpoint. Secondly, French studies have focused on argumentation in judicial texts, by considering the forms of reasoning involved in it and, albeit more rarely, its linguistic constituents. This paper aims at reinforcing the linguistic component of the analysis of legal discourse, by carrying out a corpus-based genre analysis on a sample of 40 judgments. First of all, the results of the investigation of the genre structure of judgments will be presented. The comparative approach adopted will show that the differences between European and English/Irish judgments mainly concern the generic move Arguing the case. Secondly, analysis will concentrate in more detail on one of the most frequent tools used in the discursive construction of argumentation within the aforementioned move, i.e. the widely spread reporting verb HOLD. A study of its concordances suggests that it is used in all types of judgments as a meta-argumentative operator signalling either an authoritative stance taken by the Court or an equally authoritative reported argumentation of another judge or court.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_1053_1057>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "verb" ;
+        nif:beginIndex          "1053"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1057"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1605bf7a9188e83c2cad7808747#offset_0_1315> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999813516072"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Verb> .

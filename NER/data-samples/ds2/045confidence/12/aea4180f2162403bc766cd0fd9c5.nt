@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_40_47>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Banzhaf" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.999999966104611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/John_F._Banzhaf_III> .
+
+<http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_0_463>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "463"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. A new characterization of the Banzhaf semivalue on the domain of monotonic simple games is given. We use the well-known valuation and dummy axioms plus two additional properties. The first one simply requires that the power-index be bigger for those players belonging to more winning coalitions. The second one is the proportionality axiom introduced by Owen in (1982) which is suitable for those simple games that represent an indirect voting process.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_75_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monotonic" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999995971250642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monotonic_function> .
+
+<http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_0_463> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_150_156>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axioms" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aea4180f2162403bc766cd0fd9c5#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5755189440544468"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Axiom> .

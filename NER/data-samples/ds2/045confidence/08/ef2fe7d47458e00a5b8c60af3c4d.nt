@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_765_772>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ratings" ;
+        nif:beginIndex          "765"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "772"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_0_1241> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9926610966735641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Credit_rating> .
+
+<http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_556_562>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hybrid" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_0_1241> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7407317120877511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_vehicle> .
+
+<http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_28_51>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "collaborative filtering" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_0_1241> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Collaborative_filtering> .
+
+<http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_0_1241>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1241"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Data collected for collaborative filtering (CF) purposes might be cross distributed between two online vendors, even competing companies. Such corporations might want to integrate their data to provide more precise and reliable recommendations. However, due to privacy, legal, and financial concerns, they do not desire to disclose their private data to each other. If privacy-preserving measures are introduced, they might decide to generate predictions based on their distributed data collaboratively. In this study, we investigate how to offer hybrid CF-based referrals with decent accuracy on cross distributed data (CDD) between two e-commerce sites while maintaining their privacy. Our proposed schemes should prevent data holders from learning true ratings and rated items held by each other while still allowing them to provide accurate CF services efficiently. We perform real data-based experiments to evaluate our proposals in terms of accuracy. The results show that the proposed methods are able to provide precise predictions. Moreover, we analyze our schemes in terms of privacy and supplementary costs. We demonstrate that our schemes are secure, and online overhead costs due to privacy concerns are insignificant.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_0_1241> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_647_657>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e-commerce" ;
+        nif:beginIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ef2fe7d47458e00a5b8c60af3c4d#offset_0_1241> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-commerce> .

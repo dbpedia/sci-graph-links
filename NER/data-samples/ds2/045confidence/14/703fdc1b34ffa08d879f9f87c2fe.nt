@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_0_651> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_68_83>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "component model" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Component-based_software_engineering> .
+
+<http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_0_651>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "651"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper focuses on temporal aggregation of the cyclical component model as introduced by Harvey (1989). More specifically, it provides the properties of the aggregate process for any generic period of aggregation. As a consequence, the exact link between aggregate and disaggregate parameters can be easily derived. The cyclical model is important due to its relevance in the analysis of business cycle. Given this, two empirical applications are presented in order to compare the estimated parameters of the quarterly models for German and US gross domestic products with those of the corresponding models aggregated to annual frequency.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_400_414>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "business cycle" ;
+        nif:beginIndex          "400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_cycle> .
+
+<http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_556_579>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gross domestic products" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/703fdc1b34ffa08d879f9f87c2fe#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .

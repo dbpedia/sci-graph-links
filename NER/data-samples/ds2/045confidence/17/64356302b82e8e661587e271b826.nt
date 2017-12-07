@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_607_617>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "John Dewey" ;
+        nif:beginIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "617"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Philosopher> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/John_Dewey> .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_178_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Eight Cousins" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eight_Cousins> .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_497_512>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "active learning" ;
+        nif:beginIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "512"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Active_learning> .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "948"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Louisa May Alcott’s juvenile fiction is often focused on aspects of children’s lives that were also topics of reform in nineteenth century America. In Jack and Jill and Eight Cousins, Alcott presents an idealized picture of child-centered learning, building on three central principals: (1) Good teachers are sympathetic and understanding of children; (2) Every child needs to be healthy in order to learn; and (3) Children should be allowed to explore their world through self-directed, active learning. The ideal educational environment that she describes has much in common with the theories of John Dewey that would emerge some years later; using Dewey’s writings can give further insight into Alcott’s fiction. In this article, I argue that Alcott sees the world from the perspective of her young characters, and describes it in a way that simultaneously connects to her young readers and gives adults insight into the child’s world.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_29_45>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "juvenile fiction" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7881443201313205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Young-adult_fiction> .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_9_26>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Louisa May Alcott" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/64356302b82e8e661587e271b826#offset_0_948> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Louisa_May_Alcott> .

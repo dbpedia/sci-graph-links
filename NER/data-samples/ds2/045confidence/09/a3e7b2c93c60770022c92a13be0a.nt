@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_0_318>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "318"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusions 1.Pearlitic and martensitic transformations in steels 75Kh2GNMF are insensitive to tensile stresses not exceeding 800 N/mm2.2.The kinetics of bainitic transformation depends substantially on the applied stresses. Tensile stresses accelerate this transformation and lower the limit degree of decomposition.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_28_39>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "martensitic" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Martensite> .
+
+<http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_95_111>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tensile stresses" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_0_318> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_142_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kinetics" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a3e7b2c93c60770022c92a13be0a#offset_0_318> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8808994793903526"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical_kinetics> .

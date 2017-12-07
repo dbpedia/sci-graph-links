@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_1047_1055>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "1047"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1055"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999989267963"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_0_1626> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_144_158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "access control" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Access_control> .
+
+<http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_0_1626>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1626"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract With the ubiquitous collection of data and creation of large distributed repositories, enabling search over this data while respecting access control is critical. A related problem is that of ensuring privacy of the content owners while still maintaining an efficient index of distributed content. We address the problem of providing privacy-preserving search over distributed access-controlled content. Indexed documents can be easily reconstructed from conventional (inverted) indexes used in search. Currently, the need to avoid breaches of access-control through the index requires the index hosting site to be fully secured and trusted by all participating content providers. This level of trust is impractical in the increasingly common case where multiple competing organizations or individuals wish to selectively share content. We propose a solution that eliminates the need of such a trusted authority. The solution builds a centralized privacy-preserving index in conjunction with a distributed access-control enforcing search protocol. Two alternative methods to build the centralized index are proposed, allowing trade offs of efficiency and security. The new index provides strong and quantifiable privacy guarantees that hold even if the entire index is made public. Experiments on a real-life dataset validate performance of the scheme. The appeal of our solution is twofold: (a) content providers maintain complete control in defining access groups and ensuring its compliance, and (b) system implementors retain tunable knobs to balance privacy and efficiency concerns for their particular domains.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_704_709>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trust" ;
+        nif:beginIndex          "704"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3e420977569949ede059caa25630#offset_0_1626> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999926463047852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trust_(social_sciences)> .

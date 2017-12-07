@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#offset_87_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "structural model" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#offset_0_712> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7350870119478571"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Structural_equation_modeling> .
+
+<http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#offset_462_475>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Machiavellism" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#offset_0_712> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9761574793663793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Machiavellianism> .
+
+<http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#offset_0_712> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/14fd9c25b68f178c7d18c40ae5f2#offset_0_712>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "712"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper studies how salespeople make ethical decisions. For this purpose a structural model has been developed which configures how the organization's environment, the organizations's climate, and personality traits affect ethical decision making. Internal communication and the choice of a control system especially affect ethical decision making. Internal communication also affects the attraction of salespeople with unethical personality traits (Machiavellism), while the control system affects the ethical climate. Ethical climate and salespeople's personality traits also affect the ethical decision making. In fact the study shows that ethical decision making can be influenced by management.\n" .

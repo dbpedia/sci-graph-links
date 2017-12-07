@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/46e4857c318ea99e070224b1e1e4#offset_0_1107>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1107"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Traffic research shares a fundamental dilemma with other areas of empirical research in which humans are potentially put at risk. Research is justified because it can improve safety in the long run. Nevertheless, people can be harmed in the research situation. Hence, we need to balance short-term risks against long-term safety improvements, much as in other areas of research with human subjects. In this paper we focus on ethical issues that arise when human beings are directly affected in the performance of research by examining how the ethical requirements in biomedical research can inform traffic research. After introducing the basic ethical requirements on biomedical research, each of the major requirements is discussed in relation to traffic research. We identify the main areas where biomedical research and traffic research differ, and where the ethical requirements from the former cannot easily be transferred to the latter. Finally, we argue that there is a need for systematic studies of the ethics of traffic research and point to some of the issues that need to be addressed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/46e4857c318ea99e070224b1e1e4#offset_1021_1027>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ethics" ;
+        nif:beginIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1027"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46e4857c318ea99e070224b1e1e4#offset_0_1107> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9967069963512196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethics> .
+
+<http://www.springernature.com/scigraph/things/articles/46e4857c318ea99e070224b1e1e4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/46e4857c318ea99e070224b1e1e4#offset_0_1107> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

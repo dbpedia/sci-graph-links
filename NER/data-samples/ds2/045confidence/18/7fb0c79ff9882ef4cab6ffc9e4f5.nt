@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_444_454>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "454"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_0_522> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9950659566340913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_0_522> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_59_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyadic" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_0_522> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9159260839345289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_relation> .
+
+<http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_0_522>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "522"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For any x ∈ [0, 1), let x = [ɛ 1, ɛ 2, …,] be its dyadic expansion. Call r n (x):= max{j ⩾ 1: ɛ i+1 = … = ɛ i+j = 1, 0 ⩽ i ⩽ n − j} the n-th maximal run-length function of x. P.Erdös and A.Rényi showed that $$\\\\mathop {\\\\lim }\\\\limits_{n \\\\to \\\\infty } $$ r n (x)/log2 n = 1 almost surely. This paper is concentrated on the points violating the above law. The size of sets of points, whose runlength function assumes on other possible asymptotic behaviors than log2 n, is quantified by their Hausdorff dimension.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_501_520>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hausdorff dimension" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7fb0c79ff9882ef4cab6ffc9e4f5#offset_0_522> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hausdorff_dimension> .

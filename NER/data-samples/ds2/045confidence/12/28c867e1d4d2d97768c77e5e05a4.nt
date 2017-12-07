@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_0_399>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "399"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper provides a short review of the history of urban development planning at different stages of urbanization, of the discussions and visions of the future of cities. It considers the urban planning doctrines in the Soviet Union and in today’s Russia (transition to strategic planning) and justifies the project of the system for managing the implementation of these strategic plans.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_199_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban planning" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_0_399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998892939948567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_0_399> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_231_243>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Soviet Union" ;
+        nif:beginIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_0_399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999942899218466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Soviet_Union> .
+
+<http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_259_265>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Russia" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_0_399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9960345356679845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Russia> .
+
+<http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_112_124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urbanization" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c867e1d4d2d97768c77e5e05a4#offset_0_399> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989391006273559"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urbanization> .

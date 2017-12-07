@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_0_799>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "799"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The existing papers on the economic impact of research output have focussed on either a single country or bloc of selected countries. The aim of this paper is to examine the effect of research output on economic growth in 169 countries for the period, 1996–2013. A system GMM estimate, which provides for endogeneity, unobserved effects and small sample bias, is employed to test the relationship. Within the neoclassical framework, we use varieties of indicators to proxy research performance, and a few sensitivity analyses were also performed. Overall, the results show that research output has positive impact on economic growth, irrespective of whether the sample is for developing or developed countries. The policy implications of the findings are detailed in the body of the paper.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_281_284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GMM" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998601510198862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mixture_model> .
+
+<http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_418_430>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neoclassical" ;
+        nif:beginIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999980350384"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neoclassical_economics> .
+
+<http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_0_799> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_356_367>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sample bias" ;
+        nif:beginIndex          "356"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_bias> .
+
+<http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_314_325>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogeneity" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/799ba17858d7832917ce171ab9e9#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9825626769897814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endogeneity_(applied_statistics)> .

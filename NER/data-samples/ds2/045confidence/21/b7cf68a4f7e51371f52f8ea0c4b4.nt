@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#offset_140_148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "escapism" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#offset_0_157> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991378377069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Escapism> .
+
+<http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#offset_0_157> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#offset_128_139>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pop culture" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#offset_0_157> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979381841710142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Popular_culture> .
+
+<http://www.springernature.com/scigraph/things/articles/b7cf68a4f7e51371f52f8ea0c4b4#offset_0_157>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "157"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Medthics is an online graphic novel series comprising of six issues (http://www.medthics.com). What is often viewed as pop culture escapism, this \\\n" .

@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_102_114>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "managed care" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999979399770682"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Managed_care> .
+
+<http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_395_406>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health care" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "406"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998328180732537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_0_481> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_0_481>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "481"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  As laboratories continue to downsize, commercialize and become more businesslike in today’s managed care environment, their present and future success will greatly depend on the efficiency and flexibility of their laboratory information system (LIS). Today, LIS is a primary tool for managing business and communication. Laboratories that hope to remain competitive in today’s dynamic health care must continue to implement new and innovative approaches with their LISs.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_475_479>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "LISs" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "479"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/78586dd50adaacc34b504e49ccb3#offset_0_481> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9803463096091769"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liss> .

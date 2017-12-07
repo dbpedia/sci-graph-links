@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_323_325>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_0_327> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9992298663471075"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_53_69>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermal analysis" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_0_327> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999984084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermal_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_0_327> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_144_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_0_327> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.773749619511604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_235_237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_0_327> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9992298663471075"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://www.springernature.com/scigraph/things/articles/c21b8409df168350dd4d040f049c#offset_0_327>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "327"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Several examples of the earliest commercial thermal analysis apparatus, the Talabot-Persoz-Rogeat Desiccator, are exhibited in various French museums and there is documentary evidence that at least twelve were exported to the UK in the late 19th Century. This paper describes the search for extant examples in the UK.\n" .

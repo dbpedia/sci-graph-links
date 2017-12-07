@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_39_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simply connected" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999639031588814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simply_connected_space> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_184_201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Riemannian metric" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Riemannian_manifold> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_174_183>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invariant" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999980586937994"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invariant_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_75_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lie groups" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lie_group> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_98_105>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Randers" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9857956833831366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Randers> .
+
+<http://www.springernature.com/scigraph/things/articles/17b4e0100091b0d52fa5b05814db#offset_0_259>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "259"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we identify all simply connected 3-dimensional real Lie groups which admit Randers or Matsumoto metrics of Berwald type with a certain underlying left invariant Riemannian metric. Then we give their flag curvatures formulas explicitly.\n" .

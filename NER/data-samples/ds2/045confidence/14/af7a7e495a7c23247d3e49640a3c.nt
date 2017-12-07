@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_11_34>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nearest Neighbor Method" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/K-nearest_neighbors_algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_0_490>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "490"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A Nearest Neighbor Method (NNM) is used to forecast daily river flows that were measured at a single location over a time period spanning about seventy years. A parsimonious three parameter NNM is developed in the context of Nonlinear Dynamics and the dependence between forecast error and length of history used to construct forecasts is investigated. Comparison is made to Auto-Regressive Integrated Moving Average (ARIMA) models. The NNM is found to provide improved forecasts.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_0_490> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_234_252>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nonlinear Dynamics" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999529349008"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_427_432>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ARIMA" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/af7a7e495a7c23247d3e49640a3c#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoregressive_integrated_moving_average> .

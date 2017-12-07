@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_32_41>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "President" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_0_657> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9778865092804574"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/President_of_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_95_102>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_0_657> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.985693155013682"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_0_657>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "657"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I estimate the cost of President Clinton’s June 1997 executive memorandum encouraging federal departments and agencies to use project labor agreements (PLAs) on “large and significant” construction projects. Based on the higher wage costs associated with PLAs, the cost of federally owned construction will rise by 1.7 to 7.0 percent annually. Over the three years for which the memorandum will apply, federally owned construction costs will increase by $844 million to $3.44 billion. If the memorandum is interpreted to apply to state and local construction projects funded with federal money, the cost could range between $3.2 and $13.0 billion.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_135_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "project labor agreements" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_0_657> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Project_Labor_Agreement> .
+
+<http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_0_657> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_589_596>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4ce209f3b66b98284525338e5b31#offset_0_657> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.985693155013682"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .

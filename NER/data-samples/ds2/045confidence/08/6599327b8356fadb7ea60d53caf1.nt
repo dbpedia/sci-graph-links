@@ -1,0 +1,318 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1349_1352>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PRI" ;
+        nif:beginIndex          "1349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7900831246759378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primary_Rate_Interface> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_341_344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MTF" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9936614539099121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trans_woman> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_379_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conservative" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9955413032507796"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conservatism> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1718_1728>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "1718"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_346_355>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1974_1977>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PRI" ;
+        nif:beginIndex          "1974"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7900831246759378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primary_Rate_Interface> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2042"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper concerns the online list accessing problem. In the first part of the paper we present two new families of list accessing algorithms. The first family is of optimal, 2-competitive, deterministic online algorithms. This family, called the MRI (MOVE-TO-RECENT-ITEM) family, includes as members the well-known MOVE-TO-FRONT (MTF) algorithm and the recent, more ``conservative'' algorithm TIMESTAMP due to Albers. So far MOVE-TO-FRONT and TIMESTAMP were the only algorithms known to be optimal in terms of their competitive ratio. This new family contains a sequence of algorithms { A(i) } i \\\\geq 1 where A(1) is equivalent to TIMESTAMP and the limit element A(∈fty) is \\\\mtf. Further, in this class, for each i , the algorithm A(i) is more conservative than algorithm A(i+1) in the sense that it is more reluctant to move an accessed item to the front, thus giving a gradual transition from the conservative TIMESTAMP to the ``reckless'' MTF. The second new family, called the PRI (PASS-RECENT-ITEM) family, is also infinite and contains TIMESTAMP. We show that most algorithms in this family attain a competitive ratio of 3. In the second, experimental, part of the paper we report the results of an extensive empirical study of the performances of a large set of online list accessing algorithms (including members of our MRI and PRI families). The algorithms' access cost performances were tested with respect to a number of different request sequences. These include sequences of independent requests generated by probability distributions and sequences generated by Markov sources to examine the influence of locality. It turns out that the degree of locality has a considerable influence on the algorithms' absolute and relative costs, as well as on their rankings. In another experiment we tested the algorithms' performances as data compressors in two variants of the compression scheme of Bentley et al. In both experiments, members of the MRI and PRI families were found to be among the best performing algorithms.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_527_544>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "competitive ratio" ;
+        nif:beginIndex          "527"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Competitive_analysis_(online_algorithm)> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_2030_2040>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "2030"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2040"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_200_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deterministic" ;
+        nif:beginIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8118308866341886"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deterministic_algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1084_1094>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "1084"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1094"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_257_260>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MRI" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996675797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_resonance_imaging> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1915_1922>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bentley" ;
+        nif:beginIndex          "1915"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1922"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9686939769202788"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bentley> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1304_1314>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "1304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_214_231>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "online algorithms" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Online_algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_141_151>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "151"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_734_743>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1341_1344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MRI" ;
+        nif:beginIndex          "1341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996675797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_resonance_imaging> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_955_958>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MTF" ;
+        nif:beginIndex          "955"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "958"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9936614539099121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trans_woman> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1119_1136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "competitive ratio" ;
+        nif:beginIndex          "1119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Competitive_analysis_(online_algorithm)> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1825_1835>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "1825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1835"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_912_924>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conservative" ;
+        nif:beginIndex          "912"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "924"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9955413032507796"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conservatism> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1535_1560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability distributions" ;
+        nif:beginIndex          "1535"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999456813399"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability_distribution> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1368_1378>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "1368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1378"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_585_595>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "585"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_757_769>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conservative" ;
+        nif:beginIndex          "757"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "769"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9955413032507796"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conservatism> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_478_488>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithms" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999824889419665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_994_997>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PRI" ;
+        nif:beginIndex          "994"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "997"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7900831246759378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primary_Rate_Interface> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_394_403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "394"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_775_784>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "784"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_1966_1969>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MRI" ;
+        nif:beginIndex          "1966"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6599327b8356fadb7ea60d53caf1#offset_0_2042> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996675797"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_resonance_imaging> .

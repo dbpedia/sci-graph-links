@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_0_195> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_184_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonance" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_0_195> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990037567306226"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_110_121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subcritical" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_0_195> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999275946909731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Critical_mass> .
+
+<http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_0_195>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "195"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We show that a semilinear Dirichlet problem in bounded domains of $${\\\\mathbb{R}}^2$$ in presence of subcritical exponential nonlinearities has four nontrivial solutions near resonance.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_35_52>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dirichlet problem" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_0_195> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dirichlet_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_122_133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exponential" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ec3f720539ff7f95e7d768b72aa#offset_0_195> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982500108505554"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exponential_function> .

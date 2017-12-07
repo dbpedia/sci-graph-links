@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/96dc030e2e3ba647e17d3973816c#offset_261_277>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "double integrals" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/96dc030e2e3ba647e17d3973816c#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999938609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multiple_integral> .
+
+<http://www.springernature.com/scigraph/things/articles/96dc030e2e3ba647e17d3973816c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/96dc030e2e3ba647e17d3973816c#offset_0_490> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/96dc030e2e3ba647e17d3973816c#offset_0_490>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "490"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract New expressions are obtained for the characteristics of the accuracy of monitoring (the risks of the supplier and customer), free from the disadvantages of the well-known expressions. Advantages of the expressions obtained for risks are the absence of double integrals and also the small number of the initial data for calculations and the simplicity of obtaining them. This all makes it possible to impart fundamentally new possibilities to the existing technology of monitoring.\n" .

@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#offset_165_168>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "xAs" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#offset_0_383> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994540244057027"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leyland_Atlantean> .
+
+<http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#offset_0_383>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "383"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Statistical methods of experiment planning are used to obtain a mathematical model of the process of growth of variable zoneheterostructures of GaAs-AlxGa1−xAs, making it possible to control composition by means of the process parameters: working temperature, zone thickness, initial composition of the liquid phase, times of forward and reverse passage of the liquid zone.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#offset_73_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical model" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#offset_0_383> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999986354737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_model> .
+
+<http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/28d500af5ba70a8d77271df9847e#offset_0_383> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,90 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_179_187>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cerclage" ;
+        nif:beginIndex          "179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997158"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cervical_cerclage> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_170_178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "silicone" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995433045589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silicone> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "348"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A relatively simple method for the surgical treatment of retinal detachments due to equatorial giant tears is described. The technique consists of (1) a modified silicone cerclage, (2) injection of Ringer's solution or hyaluronic acid and (3) photocoagulation. The results are reported and indications and contraindications are elaborated.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_251_267>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photocoagulation" ;
+        nif:beginIndex          "251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser_coagulation> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_65_84>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "retinal detachments" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retinal_detachment> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_206_212>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Ringer" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TelevisionShow> , <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> ;
+        itsrdf:taConfidence     "0.961514814960381"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ringer_(TV_series)> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_314_331>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "contraindications" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Contraindication> .
+
+<http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_227_242>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyaluronic acid" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "242"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49c62f9d7a6f005578c058725eea#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999924507840943"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyaluronan> .

@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_550_560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression" ;
+        nif:beginIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7296794102733737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_647_669>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series prediction" ;
+        nif:beginIndex          "647"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999944543221"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_578_593>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neural networks" ;
+        nif:beginIndex          "578"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998676117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_339_347>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lagrange" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "347"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.999995911909139"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joseph_Louis_Lagrange> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_61_72>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0011878bfaf6bfe6cde3bca5ce1d#offset_0_787>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "787"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This research proposes estimation of mid-terms in a time series for improving the prediction performance of back propagation. In this research, the process of estimating mid-terms is called VTG (virtual term generation) and schemes for doing that are called VTG schemes. This research proposes three VTG schemes: mean method, 2nd Lagrange method, and 1st Taylor method. We adopt only back propagation as prediction model, since the goal of this research is to improve its prediction performance and back propagation is used most popular for regression among supervised neural networks. By implementing the VTG schemes as preprocessing of time series prediction, it will be observed that the prediction performance of back propagation is improved through experiments of Sect. 5.\n" .

@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_0_1280>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1280"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The question of whether the acquisition of a cognitive map of a large-scale environment requires central processing of locational information during locomotion was investigated in two experiments. In the first experiment, subjects who were instructed to learn different numbers of spatial relations traversed the same locomotion path one, three or five times. In a subsequent test phase they traversed the path once more, giving numerical estimates of directions and distances to reference points that had been designated along it. The effects of practice and information load indicated that the processing of locational information was effortful. The latencies and the accuracy of the estimates also suggested that the acquisition of information about the directions and crow-flight distances between the reference points required more central information processing than did the acquisition of information about the locomotion path. The amount of central processing capacity allocated to the acquisition of locational information did not, however, seem to be much affected by instructions to learn only a subset of spatial relations. This finding was substantiated by the results of the second experiment in which half of the subjects received no learning instructions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_289_306>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spatial relations" ;
+        nif:beginIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_0_1280> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999814682696999"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spatial_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_0_1280> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_1125_1142>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spatial relations" ;
+        nif:beginIndex          "1125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_0_1280> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999814682696999"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spatial_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_53_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive map" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/77cca8670105a8a525ed2f0d9035#offset_0_1280> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognitive_map> .

@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#offset_0_1220>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1220"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Location selection is a significant part of strategic management activities. The plurality and interactions of the evaluation criteria involved in the problem complicates the decision-making process. This study successfully proposes a set of systematic procedure for location selection using fuzzy-connective-based aggregation networks. The fuzzy-connective-based aggregation network can aggregate the relative status or achievement among locations in various location-related variables through a hierarchical decision-making structure. Finally, an overall evaluation of location is produced from various aspects. The trained model approximates the relationship between turnover and individual location-related factors, which can be used to predict the potential performance of candidate sites and to answer “what if” questions. The transparency and interpretation ability also makes the proposed method desirable. The weights and parameters in the evaluation model help identify the major factors influencing the turnover and the compensatory relationship among location-related factors. The effectiveness and applicability are confirmed through a case study of the food and beverage chain industry in Taiwan.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#offset_53_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strategic management" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#offset_0_1220> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Strategic_management> .
+
+<http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#offset_0_1220> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#offset_1212_1218>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Taiwan" ;
+        nif:beginIndex          "1212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2bad9572aaaec1279775c07d2f2b#offset_0_1220> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999945838495723"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taiwan> .

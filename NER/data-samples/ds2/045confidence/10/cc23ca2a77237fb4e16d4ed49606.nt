@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_299_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solubility" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999797637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solubility> .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_121_135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nanotechnology" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999811306737968"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nanotechnology> .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_93_106>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "drug delivery" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Drug_delivery> .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "479"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In recent years, there has been a considerable interest in the development of novel drug delivery systems using nanotechnology. Nanoparticles represent a promising drug delivery system of controlled and targeted release. In this context, nanosuspensions will be effective in increasing the solubility and bioavailability of poorly soluble drugs. This review focuses on advantages, method of preparation, physical characteristics, and evaluation of drug nanosuspensions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_173_186>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "drug delivery" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Drug_delivery> .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_314_329>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bioavailability" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bioavailability> .
+
+<http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cc23ca2a77237fb4e16d4ed49606#offset_0_479> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

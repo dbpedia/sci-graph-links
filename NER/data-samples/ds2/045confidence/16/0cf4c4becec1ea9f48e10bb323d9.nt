@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#offset_717_733>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "higher education" ;
+        nif:beginIndex          "717"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#offset_0_827> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998568899402742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Higher_education> .
+
+<http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#offset_0_827> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#offset_0_827>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "827"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper focuses on strategic interaction within a family and examines individual decision making. We set up a two-stage game model. In the first stage of the game, a man and a woman who have not yet met simultaneously determine their education levels non-cooperatively. In the second stage, they marry and determine their leisure time. In the second stage, we compare two decision modes, non-cooperative and cooperative, in order to characterize the nature of cooperation within the families. In addition, we extend the basic model on the basis of a Stackelberg game. In this setting, we consider the case in which a man acts as a leader and a woman acts as a follower. We show that the leader invests in higher education and chooses more leisure time than the follower. This coincides with the empirical findings.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#offset_562_578>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stackelberg game" ;
+        nif:beginIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "578"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cf4c4becec1ea9f48e10bb323d9#offset_0_827> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stackelberg_competition> .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_1017_1025>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homicide" ;
+        nif:beginIndex          "1017"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996993058627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homicide> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_72_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gun rights" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8854189905837356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_Amendment_to_the_United_States_Constitution> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_670_677>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "firearm" ;
+        nif:beginIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9463533217245517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Firearm> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_147_155>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "handguns" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992229945355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Handgun> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_91_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.923431946848165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/798da84973399a68b3cf6f199ea9#offset_0_1067>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1067"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract No debate is more sensitive or polemical than the question of “gun rights” in the U.S., and licensing private citizens to carry concealed handguns is the most controversial “right” of all. The morally charged nature of this controversy is reflected in the disparate results reported by various researchers who analyze the effects of these laws, and also by the especially intense methodological scrutiny that follows published research. A National Science Academy review of existing gun policy research issues methodological recommendations which may help resolve scientifically the question of whether or how “right to carry” licensing effects rates of lethal firearm violence. Similar efforts have been published previously, but this study improves upon those earlier efforts by increasing the sample cross-section, by further refining the model specification, and by distinguishing conceptually “shall issue” RTC laws from “may issue” RTC laws. The results provisionally suggest that the former increases homicide rates whereas the latter decreases them.\n" .

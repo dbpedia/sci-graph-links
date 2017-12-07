@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_51_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weak orderings" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weak_ordering> .
+
+<http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_145_168>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social welfare function" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "168"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_welfare_function> .
+
+<http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_196_201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Arrow" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Economist> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "0.9999999704484144"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kenneth_Arrow> .
+
+<http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_0_291> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/001db0419dc712dca15b8d585f66#offset_0_291>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "291"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Bordes and LeBreton have found a set D of weak orderings of X that includes all linear (strong) orderings of X but where there exists a social welfare function f on D N satisfying all of Arrow's (non-domain) conditions. In this paper we characterize all such D and f possibilities.\n" .

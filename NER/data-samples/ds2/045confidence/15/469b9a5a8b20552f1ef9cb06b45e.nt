@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_0_710> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_117_135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "jack-of-all-trades" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995764091851"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jack_of_all_trades,_master_of_none> .
+
+<http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_38_44>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.62240545979723"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_language> .
+
+<http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_590_603>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human capital" ;
+        nif:beginIndex          "590"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "603"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_capital> .
+
+<http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_145_161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entrepreneurship" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_0_710> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999912986664858"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entrepreneurship> .
+
+<http://www.springernature.com/scigraph/things/articles/469b9a5a8b20552f1ef9cb06b45e#offset_0_710>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "710"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Using a large representative German data set and various concepts of self-employment, this paper tests the “jack-of-all-trades” view of entrepreneurship by Lazear (Am Econ Rev 94(2): 208–211, 2004). Consistent with its theoretical assumptions we find that self-employed individuals perform more tasks and that their work requires more skills than that of paid employees. In contrast to Lazear’s assumptions, however, self-employed individuals do not just need more basic but also more expert skills than employees. Our results also provide rather limited support for the idea that human capital investment patterns differ between those who become self-employed and those ending up in paid employment.\n" .

@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#offset_0_699>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "699"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Deciphering the secret language of painters became a discipline into which Art historians have branched ever since the Renaissance. Various aspects of paintings and sculptures were decoded in this process. This decoding system remains however incomplete without interpreting also the medical conditions that appear in the painted subjects. History of Medicine and of Arts could be both enriched by diagnosing retrospectively diseases existent in that historical period; by identifying portraits or describing genetic family diseases. One such case is the arthritis identifiable in three out of four artists in the Durer family, visible in paintings or engravings of the early 16-th century.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#offset_127_138>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Renaissance" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#offset_0_699> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991543330943825"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Renaissance> .
+
+<http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#offset_563_572>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arthritis" ;
+        nif:beginIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "572"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#offset_0_699> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9997798586111266"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arthritis> .
+
+<http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1ce1c04d515b467513be9ed949f9#offset_0_699> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

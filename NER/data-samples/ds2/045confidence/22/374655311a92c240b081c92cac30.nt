@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#offset_333_344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rationality" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9533650847938047"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rationality> .
+
+<http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#offset_0_351> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#offset_0_351>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "351"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An improvement on Horwich's so-called “pseudo-proof” of Russell's principle of induction is offered, which, we believe, avoids certain objections to the former. Although strictly independent of our other work in this area, a connection can be made and in the final section we comment on this and certain questions regarding rationality, etc.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#offset_27_34>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Horwich" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/374655311a92c240b081c92cac30#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.964373257821829"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Horwich> .

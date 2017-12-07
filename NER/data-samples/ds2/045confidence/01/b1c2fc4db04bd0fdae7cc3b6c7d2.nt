@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#offset_103_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "area density" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#offset_0_381> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999894336044"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Area_density> .
+
+<http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#offset_0_381> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#offset_0_381>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "381"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract.  The minimum boundary length density of a lattice-periodic set with given period lattice and area density is determined, together with the extremal sets, and a conjecture on the higher-dimensional analogue is made. This improves previous results of Hadwiger for -periodic d-dimensional sets and of Schnell and Wills on two-dimensional sets with arbitrary period-lattice.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#offset_84_98>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "period lattice" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b1c2fc4db04bd0fdae7cc3b6c7d2#offset_0_381> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999770353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fundamental_pair_of_periods> .

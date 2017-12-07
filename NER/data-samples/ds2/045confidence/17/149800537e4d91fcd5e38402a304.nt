@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_53_57>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pain" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_0_1109> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9219423714616506"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pain> .
+
+<http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_39_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lewisian" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_0_1109> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9141578623176625"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lewisian_complex> .
+
+<http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_0_1109>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1109"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract “Mad belief” (in analogy with Lewisian “mad pain”) would be a belief state with none of the causal role characteristic of belief—a state not caused or apt to have been caused by any of the sorts of events that usually cause belief and involving no disposition toward the usual behavioral or other manifestations of belief. On token-functionalist views of belief, mad belief in this sense is conceptually impossible. Cases of delusion—or at least some cases of delusion—might be cases of belief gone half-mad, cases in which enough of the functional role characteristic of belief is absent that the subject is in an “in-between” state regarding the delusive content, such that it is neither quite right to say the subject determinately believes the delusive content nor quite right to say that she determinately fails to believe that content. Although Bortolotti (2010) briefly mentions such “sliding scale” approaches to the relationship of delusion and belief, she dismisses such approaches on rather thin grounds and then later makes some remarks that seem consonant with sliding scale approaches.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_0_1109> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_10_13>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Mad" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/149800537e4d91fcd5e38402a304#offset_0_1109> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PeriodicalLiterature> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Magazine> , <http://dbpedia.org/ontology/WrittenWork> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.9999103263922248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mad_(magazine)> .

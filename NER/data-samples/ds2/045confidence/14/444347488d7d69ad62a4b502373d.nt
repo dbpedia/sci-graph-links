@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_0_447> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_0_447>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "447"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The amplitude of a solar-activity cycle is found to be well correlated (r = −0.811) with the descending time three cycles earlier, in smoothed monthly-mean sunspot numbers for Cycles 8 – 23. The descending time therefore can be used as one of the indicators to predict the amplitudes. As a result, the amplitudes of Cycles 24 – 25 are estimated to be 114.8 ± 17.4, 111.6 ± 17.4, respectively, where the error bar equals ± standard error.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_13_22>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amplitude" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_0_447> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999855304234668"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amplitude> .
+
+<http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_165_172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sunspot" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_0_447> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999974796197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sunspot> .
+
+<http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_431_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "standard error" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/444347488d7d69ad62a4b502373d#offset_0_447> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998987086707"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standard_error> .

@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/61af8344117ed17ff8c44c960fb2#offset_462_481>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "landscape designers" ;
+        nif:beginIndex          "462"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/61af8344117ed17ff8c44c960fb2#offset_0_815> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9757835963767246"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Landscape_architecture> .
+
+<http://www.springernature.com/scigraph/things/articles/61af8344117ed17ff8c44c960fb2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/61af8344117ed17ff8c44c960fb2#offset_0_815> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/61af8344117ed17ff8c44c960fb2#offset_0_815>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "815"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A fascinating and rich landscape of personal views and approaches can be seen in architectural design and in architectural design education. This variation may be confusing for students. This paper focuses on the question: is the framework of generic elements that we developed for explicating the design process helpful to compare the differences in architectural design approaches? The results of interviewing a variety of 15 architectural, urban and landscape designers show all kinds of personal approaches that have a set of five underlying generic elements in common. Therefore, the framework may be helpful for teachers and students to describe these personal approaches and may help students in understanding differences and similarities and in finding out what their own personal approach may be.\n" .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_342_352>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulation" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999288098732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modulation> .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_77_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy efficiency" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998763709385708"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Efficient_energy_use> .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_98_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wireless networks" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916103831111774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wireless_network> .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "709"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The concept of cooperative relaying promises gains in robustness and energy efficiency in wireless networks. This survey gives an introduction and overview of promising methods that can be used for cooperative relaying: relay selection protocols, cooperative channel and network coding, and physical layer aspects such as cooperative modulation. The particular methods can be seen as building blocks that can be configured and optionally used for designing a system. They offer a large number of design options for relaying systems. Based on available hardware features, expected environment, and required services an efficient system needs to be tailored using the right subset of available methods.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_299_313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physical layer" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9975496764750541"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physical_layer> .
+
+<http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_279_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network coding" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1dd66f2bee8aa12cc7ed0eae5ede#offset_0_709> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_network_coding> .

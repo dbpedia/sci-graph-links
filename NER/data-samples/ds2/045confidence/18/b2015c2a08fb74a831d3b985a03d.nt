@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_0_520>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "520"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The concepts of a tight set of points and an m-ovoid of a generalised quadrangle were unified recently by Bamberg, Law and Penttila under the title of intriguing sets. This unification was subsequently extended to polar spaces of arbitrary rank. The first part of this paper deals with a method of constructing intriguing sets of one polar space from those of another via field reduction. In the second part of this paper, we generalise an ovoid derivation of Payne and Thas to a derivation of intriguing sets.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_115_122>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Bamberg" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.963780443511155"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bamberg> .
+
+<http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_0_520> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_223_235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polar spaces" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polar_space> .
+
+<http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_79_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadrangle" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5204296341313346"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrilateral> .
+
+<http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_343_354>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polar space" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "354"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b2015c2a08fb74a831d3b985a03d#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polar_space> .

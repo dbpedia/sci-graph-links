@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#offset_395_404>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999496563999"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#offset_0_563> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#offset_445_451>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conics" ;
+        nif:beginIndex          "445"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conic_section> .
+
+<http://www.springernature.com/scigraph/things/articles/6bcb9331207b3cb1c335b826ef7b#offset_0_563>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "563"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The problem is examined of tracing a generic curve following a preassigned law of motion. A method is proposed, enabling the user to obtain this result provided the curve—and the law of motion—are described by means of two listsX i andY i. This general method is applied to two particular cases. First, a linear interpolator is described: two possible implementations are suggested. An algorithm is then presented, allowing to generate conics by means of adding operations only; the algo-rithm can lead to the realization of a second-order interpolator.\n" .

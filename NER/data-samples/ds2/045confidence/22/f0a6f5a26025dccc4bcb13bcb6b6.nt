@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f0a6f5a26025dccc4bcb13bcb6b6#offset_729_742>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gettier cases" ;
+        nif:beginIndex          "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f0a6f5a26025dccc4bcb13bcb6b6#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gettier_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/f0a6f5a26025dccc4bcb13bcb6b6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f0a6f5a26025dccc4bcb13bcb6b6#offset_0_839> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f0a6f5a26025dccc4bcb13bcb6b6#offset_0_839>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "839"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I argue for the view that there are important similarities between knowledge and acting for a normative reason. I interpret acting for a normative reason in terms of Sosa’s notion of an apt performance. Actions that are done for a normative reason are normatively apt actions. They are in accordance with a normative reason because of a competence to act in accordance with normative reasons. I argue that, if Sosa’s account of knowledge as apt belief is correct, this means that acting for a normative reason is in many respects similar to knowledge. In order to strengthen Sosa’s account of knowledge, I propose to supplement it with an appeal to sub-competences. This clarifies how this account can deal with certain Gettier cases, and it helps to understand how exactly acting for a normative reason is similar to apt belief.\n" .

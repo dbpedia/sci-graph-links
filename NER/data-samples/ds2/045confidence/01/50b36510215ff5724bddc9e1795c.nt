@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/50b36510215ff5724bddc9e1795c#offset_93_121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear differential equation" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/50b36510215ff5724bddc9e1795c#offset_0_177> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9940826020901652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_differential_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/50b36510215ff5724bddc9e1795c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/50b36510215ff5724bddc9e1795c#offset_0_177> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/50b36510215ff5724bddc9e1795c#offset_0_177>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "177"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we discuss the growth of solutions of the higher order nonhomogeneous linear differential equation $${f^{(k)}} + {A_{k - 1}}{f^{(k - 1)}} + ... + {A_2}f\\\n" .

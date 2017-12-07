@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_0_322> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_0_322>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "322"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Fuzzy integral is a monotone idempotent functional on a fuzzy measure. The extremal fuzzy integrals are introduced. Regular fuzzy integrals do not distinguish functions not distinguishable by the underlying fuzzy measures. These integrals include Choquet, Sugeno, Shilkret and several other well known integrals.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_38_48>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "idempotent" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_0_322> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999514754747856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Idempotence> .
+
+<http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_256_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Choquet" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_0_322> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gustave_Choquet> .
+
+<http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_29_37>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monotone" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2de48a7a728ef61c93a581a1e41d#offset_0_322> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999919582798122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monotonic_function> .

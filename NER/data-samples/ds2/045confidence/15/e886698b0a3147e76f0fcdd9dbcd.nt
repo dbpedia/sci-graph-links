@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_0_1008> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_556_563>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Italian" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_0_1008> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.8887405567717378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Italy> .
+
+<http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_388_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FDI" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_0_1008> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997545531033"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foreign_direct_investment> .
+
+<http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_0_1008>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1008"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The absorptive capacity—the ability of enterprises to efficiently absorb and internalise knowledge from outside sources—represents the link between firms’ capabilities to implement new products and the external stock of technological opportunities, such as those gleamed from Multinational Enterprises (MNEs). This paper explores whether the effect of foreign direct investment (FDI) on the productivity of Italian domestically-owned firms (DOFs) is dependent on their absorptive capacity. In particular, given the peculiar characteristics of the Italian productive system, our analysis focuses on three different dimensions of the absorptive capacity: the size of the technological gap between foreign-owned firms (FOFs) and DOFs, firm size, and the regional distribution of firms. Our findings suggest that technological gap and firm size matter considerably for the spillover effect. Moreover, spillovers exhibit a sub-national dimension present only in the northeastern region of the peninsula.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_361_386>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foreign direct investment" ;
+        nif:beginIndex          "361"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_0_1008> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999298722766"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foreign_direct_investment> .
+
+<http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_416_423>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Italian" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e886698b0a3147e76f0fcdd9dbcd#offset_0_1008> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.8887405567717378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Italy> .

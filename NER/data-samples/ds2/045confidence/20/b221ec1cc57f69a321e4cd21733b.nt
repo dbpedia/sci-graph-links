@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_220_227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chanter" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996701506569595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chanter> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_260_279>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bonvesin da la Riva" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bonvesin_da_la_Riva> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_358_363>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "codex" ;
+        nif:beginIndex          "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999494321"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Codex> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_44_54>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Old French" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.8171436709990715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Old_French> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_229_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gianfranco Contini" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gianfranco_Contini> .
+
+<http://www.springernature.com/scigraph/things/articles/b221ec1cc57f69a321e4cd21733b#offset_0_498>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "498"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It has never been noticed that the Old French song RS 845a Las ne [me] doi por ce desesperer, preserved by a single witness, is the anisosyllabic version of the isosyllabic RS 789 Meudre ocoison n’euç onques de chanter. Gianfranco Contini’s remark on Bonvesin da la Riva’s texts about the danger of trusting in metrical irregularities gathered by a codex unicus is renewed by this paper, as well as by analysing the song RS 836, anisosyllabic in Mölk and Wolfzettel’s metrical Répertoire.\n" .

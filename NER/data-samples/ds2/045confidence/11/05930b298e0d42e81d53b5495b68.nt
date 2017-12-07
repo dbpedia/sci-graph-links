@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_0_313> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_94_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "habitat" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994592301428964"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Habitat> .
+
+<http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_192_197>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frogs" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998919428188173"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frog> .
+
+<http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_55_60>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frogs" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998919428188173"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frog> .
+
+<http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_247_254>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "retinal" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9887992520983032"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retina> .
+
+<http://www.springernature.com/scigraph/things/articles/05930b298e0d42e81d53b5495b68#offset_0_313>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "313"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Retinal detector activity was investigated in frogs behaving freely in their natural habitat. On the basis of the experimental results the formation of visually dependent behavior in frogs is explained on the assumption that each type of retinal detector is linked with a particular behavioral response.\n" .

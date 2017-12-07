@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_177_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "The Revolution" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9667802854135197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_Revolution> .
+
+<http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_103_124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Princeton, New Jersey" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999999982668442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Princeton,_New_Jersey> .
+
+<http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_330_346>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "political theory" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997267922058"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Political_philosophy> .
+
+<http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_0_674> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_0_674>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "674"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Michael Walzer is currently at the School of Social Science, Institute for Advanced Study, in Princeton, New Jersey. Professor Walzer has written Just and Unjust Wars; The Revolution of the Saints and has edited Toward A Global Civil Society. In this interview, he discusses some of the current concerns about education, political theory and the current state of the art of toleration, and acceptance and accommodation of different racial, ethnic, social and minority groups. He has published extensively and his work has been translated in several other languages. In this interview, he responds to questions about his work, his writings and his current concerns.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_9_23>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Michael Walzer" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/076ba36e765a1a6a77a3d816984a#offset_0_674> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Philosopher> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Michael_Walzer> .

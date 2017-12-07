@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#offset_171_192>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transformation groups" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "192"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#offset_0_377> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_action> .
+
+<http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#offset_99_113>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differentiable" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#offset_0_377> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7550106689109203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differentiable_manifold> .
+
+<http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#offset_0_377>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "377"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Using a modified version of Furstenberg’s suggested definition of tangential distality, a differentiable analogue of the Furstenberg Structure Theorem for distal transformation groups is proved. Examples are given which show tangential distality is of a rather different character to distality. Conditions are given under which tangential distality implies distality.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3ac1e9a93efe4efe89fb9ed43fbd#offset_0_377> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_0_385> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_19_28>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lipschitz" ;
+        nif:beginIndex          "19"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999503647020063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipschitz_continuity> .
+
+<http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_0_385>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "385"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Under the Lipschitz assumption and square integrable assumption on g, the author proves that Jensen’s inequality holds for backward stochastic differential equations with generator g if and only if g is independent of y, g(t, 0) ≡ 0 and g is super homogeneous with respect to z. This result generalizes the known results on Jensen’s inequality for g- expectation in [4, 7–9].\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_141_174>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic differential equations" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_differential_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_44_61>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "square integrable" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1cf089106dc32b0fff4815924e75#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Square-integrable_function> .

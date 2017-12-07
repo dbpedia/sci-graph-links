@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_95_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isothermal" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_0_647> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7003292450623732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Contour_line> .
+
+<http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_0_647> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_0_647>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "647"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The photoinduced polarization in Kapton-H thin film has been studied by analysing the isothermal dark decay characteristics of photo- and dark-polarized specimens for different values of the polarizing parameters. The total polarization induced has been found to increase continuously with polarizing temperature but with polarizing field, it approaches a saturation. The behaviour of dark decay currents for photo and dark polarized identical samples changes with operating temperature. The phenomenon is explained in terms of the shift of electrons and hole demarcation levels under variation of temperature and illumination intensity.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_474_495>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operating temperature" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_0_647> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operating_temperature> .
+
+<http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_51_60>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin film" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc6a0e28d080be6a229e8fba99ab#offset_0_647> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999949812377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .

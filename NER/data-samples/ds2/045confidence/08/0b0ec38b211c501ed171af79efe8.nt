@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_0_260> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_0_260>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "260"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The goal of this paper is to justify a general scheme for constructing two-stage iterative solution processes for irregular nonlinear operator equations based on the sequential approximate minimization of locally strongly convex Tikhonov functionals.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_231_237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex" ;
+        nif:beginIndex          "231"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9420505317093496"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_function> .
+
+<http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_247_258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "functionals" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999781416593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Functional_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_133_142>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0b0ec38b211c501ed171af79efe8#offset_0_260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.725900342899045"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .

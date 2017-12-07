@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_230_235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Japan" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_0_705> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9998286388198346"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japan> .
+
+<http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_0_705>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "705"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract I present a pre-history of contemporary handheld projector-based interaction to inform the design of future interactive systems. I begin by documenting the two main types of pre-cinema handheld projection from Europe and Japan, the handheld magic lantern and the utsushi-e performance. I then present a summary of projection techniques used by performers when interacting with these devices. I situate these techniques within contemporary research and illustrate how they are being used and built upon with contemporary technology. Finally, I discuss how knowledge of pre-cinema handheld projection devices, techniques, and performance can inform the design of future handheld projector systems.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_250_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magic lantern" ;
+        nif:beginIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_0_705> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magic_lantern> .
+
+<http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_0_705> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_219_225>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5819acfea6b788e3a9979b12e878#offset_0_705> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Continent> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9998915768830774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .

@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#offset_0_700> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#offset_0_700>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "700"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract My Masters research project is a discourse analysis of physics textbooks. I am using the term ‘discourse’ in its sociological sense rather than its linguistic sense. I have interpreted my endeavours to date as showing that there is a basic confusion underlying the writing of textbooks. Whilst authors believe that they are revealing the universe to the student/reader, they understand tacitly that more is required than just revelation. I wish to argue that the ‘more that is required’ would be more readily constructed by authors if they understood that what they are doing is arguing a case: a case that scientific knowledge is an effective and appropriate way of interpreting the world.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#offset_64_71>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999984615465575"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#offset_42_60>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discourse analysis" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b5d90e79fe3257c57715a0e226c5#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7472063113092544"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discourse_analysis> .

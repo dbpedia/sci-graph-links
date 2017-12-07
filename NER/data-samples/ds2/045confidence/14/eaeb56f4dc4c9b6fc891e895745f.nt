@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_105_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_263_268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GARCH" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autoregressive_conditional_heteroskedasticity> .
+
+<http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_0_361>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we develop a monitoring procedure for an early detection of parameter changes in time series models. We design the monitoring procedure in general time series models and apply it to the changes for the autocovariances of linear processes, GARCH parameters, and underlying distributions. Simulation results are provided for illustration.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_171_182>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/eaeb56f4dc4c9b6fc891e895745f#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .

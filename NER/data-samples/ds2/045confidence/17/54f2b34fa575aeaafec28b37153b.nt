@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_276_279>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIP" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9925503906405203"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Instructions_per_second> .
+
+<http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_829_844>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "negative affect" ;
+        nif:beginIndex          "829"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "844"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999343515360332"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Affect_(psychology)> .
+
+<http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_0_882>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "882"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A total of 162 college students participated in an experiment designed to compare the strength and durability of two laboratory-based mood induction procedures (MIPs). Subjects were randomly assigned either to the Velten positive, negative, or neutral self-statement MIP or to a manipulated success, failure, or control condition on an ostensible achievement task. Mood was measured prior to, immediately after, and at five 6-minute intervals following exposure to the MIPs. Results indicated that both MIPs were effective in influencing mood in intended directions. However, the Velten procedure induced greater initial but more transient depressed affect than manipulated failure. The MIPs were essentially equivalent in generating brief increases in positive mood. An ethical question was raised by the durability of negative affect induced by the failure manipulation.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_223_229>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Velten" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999998496690636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Velten> .
+
+<http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_0_882> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_589_595>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Velten" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "595"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/54f2b34fa575aeaafec28b37153b#offset_0_882> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Town> ;
+        itsrdf:taConfidence     "0.9999998496690636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Velten> .

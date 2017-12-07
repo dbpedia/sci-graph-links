@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/41e619ca66799ed21c1902063fb1#offset_0_1039>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1039"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Sequential swallowing is the act of swallowing multiple times, without pausing. Because sequential swallowing requires breath-holding, it seems likely that it could increase the drive to breathe. This study was designed to determine if sequential swallowing is accompanied by an increased drive to breathe in young, healthy adults. We predicted that sequential swallowing would be accompanied by prolonged breath-holding in most cases, and that this would be followed by a recovery phase during which ventilation would increase for a brief period. Results showed that not only did healthy participants increase ventilation after sequential swallowing, they also experienced breathing discomfort (dyspnea) despite the fact that they usually continued to breathe during the swallowing sequence. Given that these effects are observable in young, healthy adults, it seems reasonable to assume that individuals with respiratory and/or neurological compromise would also have an increased drive to breathe during sequential swallowing.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/41e619ca66799ed21c1902063fb1#offset_705_712>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyspnea" ;
+        nif:beginIndex          "705"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "712"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/41e619ca66799ed21c1902063fb1#offset_0_1039> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dyspnea> .
+
+<http://www.springernature.com/scigraph/things/articles/41e619ca66799ed21c1902063fb1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/41e619ca66799ed21c1902063fb1#offset_0_1039> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

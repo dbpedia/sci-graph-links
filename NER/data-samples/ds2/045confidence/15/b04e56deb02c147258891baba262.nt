@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_9_17>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9998885879922913"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_449_456>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "habitus" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "456"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999964778681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Habitus_(sociology)> .
+
+<http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_18_42>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "organizational theorists" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_0_736> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9813928940253488"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Organizational_behavior> .
+
+<http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_0_736> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b04e56deb02c147258891baba262#offset_0_736>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "736"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract American organizational theorists have not taken up the call to apply Bourdieu’s approach in all of its richness in part because, for better or worse, evidentiary traditions render untenable the kind of sweeping analysis that makes Bourdieu’s classics compelling. Yet many of the insights found in Bourdieu are being pursued piecemeal, in distinct paradigmatic projects that explore the character of fields, the emergence of organizational habitus, and the changing forms of capital that are key to the control of modern organizations. A number of these programs build on the same sociological classics that Bourdieu built his own theory on. These share the same lineage, even if they were not directly influenced by Bourdieu.\n" .

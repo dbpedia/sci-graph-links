@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_123_147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental management" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_0_1034> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environmental_resources_management> .
+
+<http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_473_476>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ISO" ;
+        nif:beginIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_0_1034> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.999999999924853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Organization_for_Standardization> .
+
+<http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_0_1034> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_0_1034>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1034"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper analyzes the reasons for religious organizations to implement internationally standardized quality and environmental management systems and explores their relevance for social responsibility policy. The goal of this paper is, on the one hand, to explore the existing opportunities for churches to improve their images with environmental- and quality-management-oriented actions, and on the other hand, to address common misunderstandings concerning the ISO management systems standards. Institutional and signaling theories form the theoretical basis of this research. This paper responds to the fact that the ISO approach towards improved management of quality, the environment, and social responsibility has already become the common denominator of the intensive work of religious organizations. Management system standardization in businesses, government administration and religious organizations eases communication with all of their stakeholders and therefore the achievement of common sustainability goals.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_1012_1026>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainability" ;
+        nif:beginIndex          "1012"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1026"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_0_1034> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990145365085792"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainability> .
+
+<http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_630_633>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ISO" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "633"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/63ff6eb71373784b58322d73249e#offset_0_1034> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.999999999924853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Organization_for_Standardization> .

@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_773_780>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "773"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "780"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9967435345818036"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_424_434>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Costa Rica" ;
+        nif:beginIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "434"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999930687638757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Costa_Rica> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_211_218>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isotope" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995839907847106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isotope> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "973"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Analysing the isotope ratio of light elements in human tissue of an unknown person helps to reconstruct the life history with regard to geographical origin and/or typical food supply. In this study the isotope ratios of the bio-elements in hair samples of 111 persons from 13 different countries all over the world were measured with the aim of provenance determination. The results indicated that individuals from Costa Rica and Brazil can be differentiated from typical European individuals by δ13C, Australians by δ34S and δ2H in hair samples. The combination and evaluation of the data by multivariate statistical analysis considerably improved origin assignment. Investigation of hair samples from a number of individuals from one particular region (southern Germany) yielded remarkable variation of isotopic values indicating different nutritional habits. The possibilities and limitations of this method in its current state are demonstrated and discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_439_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Brazil" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999319598467212"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brazil> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_23_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isotope" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995839907847106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isotope> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_505_509>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "δ13C" ;
+        nif:beginIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998405635361956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Δ13C> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_354_364>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "provenance" ;
+        nif:beginIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "364"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Provenance> .
+
+<http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_602_614>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multivariate" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1a227d4764a9ffa6d1e139d5244#offset_0_973> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999658671048429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_analysis> .

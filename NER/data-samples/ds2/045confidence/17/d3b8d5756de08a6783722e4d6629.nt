@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#offset_423_432>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive" ;
+        nif:beginIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#offset_0_811> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9932939339687771"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognition> .
+
+<http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#offset_657_662>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sucha" ;
+        nif:beginIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "662"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#offset_0_811> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.55586987100371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sucha_Beskidzka> .
+
+<http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#offset_0_811>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "811"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract That symbol naming speed is an importantcorrelate of reading skill has been generallyacknowledged. Just what contribution it makesand why is a much more difficult question. Wesuggest that the search for such answers isbest developed within a broad model of readingskill acquisition. We propose an informalmodel and review evidence for several of itslinks. The major lines of influence arehypothesized to flow from cognitive abilities(mediated by instructional factors) tointermediate and final reading outcomes. Theoutcomes at each level, however, are affectedby outcomes at other levels, and in other wayscombine to complicate the picture. Use of sucha model may focus our research questions morefinely and lead to a more preciseconceptualization of the basis for naming speed– reading relationships.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d3b8d5756de08a6783722e4d6629#offset_0_811> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

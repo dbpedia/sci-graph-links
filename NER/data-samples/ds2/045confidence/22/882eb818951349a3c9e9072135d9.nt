@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_56_64>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ontology" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_0_1190> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999823785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ontology> .
+
+<http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_36_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_0_1190> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999813084712718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_0_1190>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1190"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is a commonplace within philosophy that the ontology of institutions can be captured in terms of constitutive rules. What exactly such rules are, however, is not well understood. They are usually contrasted to regulative rules: constitutive rules (such as the rules of chess) make institutional actions possible, whereas regulative rules (such as the rules of etiquette) pertain to actions that can be performed independently of such rules. Some, however, maintain that the distinction between regulative and constitutive rules is merely a linguistic one. In this paper I present the status account of constitutive rules in order to address this criticism. According to the status account constitutive rules pertain to institutional statuses and statuses are to be understood in terms of status rules. Status rules concern the enabling and constraining roles of institutions, and constitutive rules specify the preconditions that have to be met in order for them to play these roles. Even though I end up endorsing the claim that the distinction mentioned is a linguistic one, I go on to argue that there is an underlying reality that constitutive rules serve to make apparent.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_0_1190> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_372_381>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "etiquette" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_0_1190> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998282192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Etiquette> .
+
+<http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_281_286>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "chess" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/882eb818951349a3c9e9072135d9#offset_0_1190> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Activity> , <http://dbpedia.org/ontology/Game> ;
+        itsrdf:taConfidence     "0.9997903889540175"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chess> .

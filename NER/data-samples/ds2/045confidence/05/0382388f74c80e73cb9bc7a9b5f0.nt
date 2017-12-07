@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#offset_0_313>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "313"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Over a period of many years the authors have frequently observed the occurrance of non-halophytic plant species growing in islands in the midst of halophytic plant communities. Closer investigation has shown that these islands usually appear in places with high soil-permeability, or with good drainage.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#offset_0_313> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#offset_156_166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "halophytic" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999985789"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Halophyte> .
+
+<http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#offset_113_120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0382388f74c80e73cb9bc7a9b5f0#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999921894750856"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .

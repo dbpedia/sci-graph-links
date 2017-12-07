@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_0_786> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_0_786>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "786"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In a keiretsu, i.e., a set of companies with interlocking business relationships, it is important for corporate management to identify those companies over which they reciprocally exercise greater influence and power. In this article we employ a DEcision MAking Trial and Evaluation Laboratory (DEMATEL) to illustrate the reciprocal influence of each company in Mazda’s Yokokai keiretsu, as measured by the number of transactions and cross-shareholdings. Furthermore, we calculate the centrality index of each company, and then analyze the relationship between centrality index and influence in order to identify the determinants of the influence. Based on the findings, we identify some characteristics of effective relationships which have important managerial implications.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_387_395>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "keiretsu" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Keiretsu> .
+
+<http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_14_22>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "keiretsu" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Keiretsu> .
+
+<http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_371_376>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Mazda" ;
+        nif:beginIndex          "371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6073400b722af84aad650caa6a43#offset_0_786> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9999977993311177"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mazda> .

@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#offset_619_628>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolution" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#offset_0_932> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999667753845644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .
+
+<http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#offset_0_932> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#offset_0_932>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "932"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Software measurement is considered important in improving the software process. However, teaching software measurement remains a challenging issue. Although, games and simulations are regarded powerful tools for learning, their learning effectiveness is not rigorously established. This paper describes the results of an explorative study to investigate the learning effectiveness of a game prototype on software measurement in order to make an initial judgment about its potential as an educational tool as well as to analyze its appropriateness, engagement and strengths & weaknesses as guidance for further evolution. Within the study, a series of experiments was conducted in parallel in three master courses in Brazil. Results of the study reveal that the participants consider the content and structure of the game appropriate, but no indication for a significant difference on learning effectiveness could be shown.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#offset_725_731>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Brazil" ;
+        nif:beginIndex          "725"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a5aaa973628c69d22ea5dfec16b7#offset_0_932> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9992185133934239"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brazil> .

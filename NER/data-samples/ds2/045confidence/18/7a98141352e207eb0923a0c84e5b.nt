@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_449_466>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "business analysts" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "466"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_0_1260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8406115708226283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_0_1260> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_0_1260>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1260"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Companies that own, license, or maintain personal information face a daunting number of privacy and security regulations. Companies are subject to new regulations from one or more governing bodies, when companies introduce new or existing products into a jurisdiction, when regulations change, or when data are transferred across political borders. To address this problem, we developed a framework called “requirements water marking” that business analysts can use to align and reconcile requirements from multiple jurisdictions (municipalities, provinces, nations) to produce a single high or low standard of care. We evaluate the framework in two empirical case studies covering a subset of U.S. data breach notification laws and medical record retention laws. In these studies, applying our framework reduced the number of requirements a company must comply with by 76 % across 8 jurisdictions and 15 % across 4 jurisdictions, respectively. We show how the framework surfaces critical requirements trade-offs and potential regulatory conflicts that companies must address during the reconciliation process. We summarize our results, including surveys of information technology law experts to contextualize our empirical results in legal practice.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_703_707>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "703"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_0_1260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991530729348703"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_708_719>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data breach" ;
+        nif:beginIndex          "708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a98141352e207eb0923a0c84e5b#offset_0_1260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_breach> .

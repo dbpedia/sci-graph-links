@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_0_799> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_0_799>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "799"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary This experiment investigated the possibility that the typical errors found on set inclusion tasks may be attributable to subjects interpreting all fuzzily and believing that it permits exceptions. The first part of the experiment used a questionnaire which demonstrated that some subjects did regard all as an appropriate quantifier when one exception to the generalization existed. In the second part of the experiment it was found that such fuzzy interpreters were more likely to make conversion errors than subjects who adopted a strict logical interpretation; however there was no difference in the number of errors made on transitive inferences. Hence fuzzy interpretation seems to be partially responsible for set inclusion performance, but clearly other factors are involved as well.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_636_646>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitive" ;
+        nif:beginIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "646"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996807588273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_relation> .
+
+<http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_86_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "set inclusion" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subset> .
+
+<http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_724_737>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "set inclusion" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a08e03d455dbaf7474d104c896e3#offset_0_799> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subset> .

@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_0_373>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "373"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The situations of nineteenth century dock workers and today’s immigrant day laborers bear striking similarities and challenges, especially for those seeking to organize them into labor unions. The obstacles confronting such organizing efforts also underscore the legitimate concerns many Americans have about the threats to social order posed by immigrants today.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_81_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "day laborers" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Day_labor> .
+
+<http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_46_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dock" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9919448241180636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dock_(maritime)> .
+
+<http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_0_373> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_94_98>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "bear" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Mammal> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9989004657532562"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bear> .
+
+<http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_188_200>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labor unions" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7da20169c7e58dba2c12b91b4dae#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9929639758498509"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trade_union> .

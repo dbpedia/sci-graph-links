@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#offset_0_642>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "642"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Recently, the National Conference of Commissioners on Uniform State Laws completed a drafting of the Model Employment Termination Act (META). The goal of this suggested state legislation is to end the patchwork of state-defined protections offered to employees who are terminated in at-will work environments. If META provisions are adopted there will be a substantial change in both the protection offered employees and the litigation of wrongful discharge claims within the adopting state. This article presents the changes proposed by META and discusses these changes and their potential implications for employers and employees.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#offset_110_142>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Model Employment Termination Act" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#offset_0_642> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Model_Employment_Termination_Act> .
+
+<http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#offset_184_195>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "legislation" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#offset_0_642> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999711235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Legislation> .
+
+<http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d5fb8820e8036ab270a17f48a947#offset_0_642> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

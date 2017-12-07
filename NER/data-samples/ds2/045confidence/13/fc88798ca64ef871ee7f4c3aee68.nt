@@ -1,0 +1,152 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_74_82>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pruritus" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Itch> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "967"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Pediculus humanus capitis is an ectoparasite, which causes scalp pruritus particularly among children. A total of 15,373 children including 8,018 boys and 7,355 girls from 26 primary schools and 15 kindergartens attached to the primary schools and a total of 33 children from an orphanage were examined for head lice infestation (HLI). The overall prevalence of HLI in this study was 4.1% including 3.7% of the urban areas and 4.7% of the rural areas. Head lice were found more frequently in girls than in boys with prevalence of 6.5% and 1.9%, respectively. The infestation rate by school grade was 3.2%, 4.7%, 4.2%, 5.0%, 4.9%, 3.8%, and 2.1% for kindergarten, first, second, third, fourth, fifth, and sixth grades, respectively. The infestation rate of the children in an orphanage was 66.7%. The prevalence of HLI has decreased especially in the rural areas. However, HLI is a still health problem of kindergarteners and primary schoolchildren in Korea.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_316_325>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "head lice" ;
+        nif:beginIndex          "316"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.6055557033564877"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Head_louse> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_784_793>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orphanage" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "793"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997749997743262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orphanage> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_448_453>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rural" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999226249318586"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rural_area> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_68_73>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "scalp" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999999994316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scalp> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_9_34>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pediculus humanus capitis" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999987227284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Head_louse> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_207_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kindergartens" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992733137"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kindergarten> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_461_470>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Head lice" ;
+        nif:beginIndex          "461"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999870998989191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/head_louse> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_859_864>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rural" ;
+        nif:beginIndex          "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999226249318586"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rural_area> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_960_965>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Korea" ;
+        nif:beginIndex          "960"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "965"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9496003193889595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Korea> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_41_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ectoparasite" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parasitism> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_658_670>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kindergarten" ;
+        nif:beginIndex          "658"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999989446451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kindergarten> .
+
+<http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_288_297>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orphanage" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc88798ca64ef871ee7f4c3aee68#offset_0_967> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997749997743262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orphanage> .

@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/30d8413e6bbb91f8ee9302a872aa#offset_0_462>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "462"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The discussion of the multiperipheral bootstrap model in its one-dimensional version leads one to consider some experimental and theoretical inconsistencies, which are expected to be crucial at very high energies. A statistical generalization of the model is proposed; the new model allows one to separate the multiperipheral and diffractive contributions to then-particle production cross-sections. The general properties of the model are investigated.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/30d8413e6bbb91f8ee9302a872aa#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/30d8413e6bbb91f8ee9302a872aa#offset_0_462> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/30d8413e6bbb91f8ee9302a872aa#offset_46_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bootstrap" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/30d8413e6bbb91f8ee9302a872aa#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9771679127001278"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bootstrapping_(statistics)> .

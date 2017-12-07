@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_329_350>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intellectual property" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999975661978114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intellectual_property> .
+
+<http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_0_362> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_0_362>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "362"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper, presented to the fall 1992 meeting of the Federal Laboratory Consortium, is a discussion of the function of ORTAs, lawyers, and laboratory directors in the technology-transfer process. It describes what the relationship between these professionals should be like if they are to be proficient at enhancing US intellectual property resources.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_63_92>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Federal Laboratory Consortium" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_Laboratory_Consortium> .
+
+<http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_177_196>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology-transfer" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e8a3171b87204110d767c0f648e#offset_0_362> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999939178"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technology_transfer> .

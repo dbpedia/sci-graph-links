@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_0_577> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_61_64>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ICA" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Building> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://schema.org/Museum> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Museum> ;
+        itsrdf:taConfidence     "0.9981250310501402"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Institute_of_Contemporary_Arts> .
+
+<http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_0_577>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "577"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper introduces a new approach in solving the ICA problem using a method that fits in the contrast and minimize paradigm, mostly found in the ICA literature. In our case, the contrast is a L 2 norm dependence measure, which constitutes an alternative to the usual criteria, based on mutual information. We propose a non parametric evaluation of the L 2 contrast, using a wavelet projection estimator. The mean square error of the procedure is bounded under Besov assumptions. Finally, we provide a set of simulations to show how the method performs in practice.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_405_414>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimator" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9915677697716936"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_157_160>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ICA" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Museum> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Museum> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Building> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9981250310501402"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Institute_of_Contemporary_Arts> .
+
+<http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_386_393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wavelet" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7a6b6c047b3fc6b82bbc967185b#offset_0_577> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999806164"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelet> .

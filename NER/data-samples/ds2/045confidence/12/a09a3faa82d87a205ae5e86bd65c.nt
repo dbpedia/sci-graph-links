@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_379_395>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transport" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "395"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999576100445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_701_718>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disposable income" ;
+        nif:beginIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998699423"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disposable_and_discretionary_income> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_835_851>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumer surplus" ;
+        nif:beginIndex          "835"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "851"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_surplus> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "900"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract When public transport is the main means of travel in urban areas, management and planning are easy and the main objective can be to minimise costs for the demand available, i.e. maximise profit. However when public transport faces competition from other modes of transport, and activities can be undertaken in a variety of locations, then the management and planning of public transport services is considerably more difficult. This paper examines a methodology for representing consumer behaviour when faced with alternative travel decisions, in order to identify the demand for public transport and to help operators adjust services and prices to maximise demand, when considering people's disposable income, the alternative modes and activity locations available. From this it is possible to devise criteria for maximising consumer surplus in a city, taking into account social benefits.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_217_233>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transport" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999576100445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_488_506>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumer behaviour" ;
+        nif:beginIndex          "488"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumer_behaviour> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_14_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transport" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999576100445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_589_605>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transport" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a09a3faa82d87a205ae5e86bd65c#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999576100445"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .

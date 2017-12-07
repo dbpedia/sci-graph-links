@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_0_955>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "955"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Contingent choice surveys can provide national park managers rich information to help inform management decisions, but they have almost never been used in this context. The surveys can be integrated easily into multiple stages of the existing National Park Service planning process and can foster interdisciplinarity. They yield estimates of monetary and nonmonetary benefits created by park resources, including benefits derived from both recreation and preservation. Many alternative management scenarios can be explored efficiently. Recent innovations in the design and statistical analysis of contingent choice surveys have increased their accuracy and flexibility. This paper describes why contingent choice surveys are useful for park management and how they can fit into current management policies. It then describes contingent choice surveys and the econometric techniques used to analyze them, presenting two examples as illustrations.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_868_879>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "econometric" ;
+        nif:beginIndex          "868"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "879"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_0_955> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Econometrics> .
+
+<http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_306_325>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interdisciplinarity" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "325"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_0_955> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interdisciplinarity> .
+
+<http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_0_955> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_252_273>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "National Park Service" ;
+        nif:beginIndex          "252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/26b498521c544a279f0c9918801c#offset_0_955> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9999996319078941"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Park_Service> .

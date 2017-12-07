@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_107_114>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "England" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9973561060423074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/England> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_386_394>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "habitats" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999319617283946"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Habitat> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_48_55>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Daphnia" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Crustacean> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Daphnia> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "568"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The growth and egg development times of Daphnia longispina from two eutrophic habitats in southern England were studied using similar methods and fully acclimated animals. Habitat differences in both these parameters are demonstrated and are discussed in relation to possible genetical dissimilarities between the populations. The sex ratio of offspring of animals from the two habitats also differed and this is discussed in terms of the populations' history. Data on the growth of male animals are illustrated and shown to be different from that of females.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_86_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "habitats" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999319617283946"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Habitat> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_76_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eutrophic" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9837415904372957"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eutrophication> .
+
+<http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_339_348>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sex ratio" ;
+        nif:beginIndex          "339"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d95397fae4ba57b8c3bdba1c28b#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999938452234124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sex_ratio> .

@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_431_437>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999213385698192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_language> .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "847"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Children growing up with more than one first language present us with a unique opportunity for raising questions about language acquisition which we could hardly answer on the basis of monolingual data alone. In our contribution we will take a close look at developmental asynchronies, i.e. cases where one of the child’s languages develops faster than the other. On the basis of a longitudinal study involving English and German as first languages, we will show what asynchronies can teach us about the relative complexity of a child’s two input languages. In addition, we will identify clever learner strategies (language mixing, the employment of cross-linguistic placeholders, discourse borrowing) that provide us with interesting insights into bilingual children’s metalinguistic awareness of gaps in one of their linguistic systems.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_127_147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language acquisition" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_acquisition> .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_419_426>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999993754970222"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_778_802>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metalinguistic awareness" ;
+        nif:beginIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "802"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metalinguistic_awareness> .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_390_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "longitudinal study" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Longitudinal_study> .
+
+<http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/71d5817bc7726d4bb213df69757e#offset_0_847> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

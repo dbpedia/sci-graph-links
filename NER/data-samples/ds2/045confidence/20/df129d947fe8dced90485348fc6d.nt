@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#offset_303_308>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Latin" ;
+        nif:beginIndex          "303"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "308"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9995083832746664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin> .
+
+<http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#offset_0_420>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "420"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An index is presented of all papers, notices, obituaries etc. which appeared in Volumes 1–50 of Vegetatio. A main listing of 924 articles is accompanied by 5 categories of keywords: keywords as such, a code for the discipline, a code for the vegetation type, a code for the geographic area and Latin names of taxa and syntaxa. The main list is followed by indices covering these categories and an author index.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#offset_0_420> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#offset_318_322>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxa" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "322"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df129d947fe8dced90485348fc6d#offset_0_420> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992119103364538"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taxon> .

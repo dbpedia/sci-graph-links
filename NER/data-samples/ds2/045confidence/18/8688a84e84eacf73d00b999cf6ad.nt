@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_213_229>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "criminal justice" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "229"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999988338727213"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Criminal_justice> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_491_497>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998171092623003"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_554_560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gender" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998171092623003"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gender> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_64_68>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "U.S." ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8164394167884569"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_265_271>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MANOVA" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999462261"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_analysis_of_variance> .
+
+<http://www.springernature.com/scigraph/things/articles/8688a84e84eacf73d00b999cf6ad#offset_0_763>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "763"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the current study, a survey was administered to 513 U.S. undergraduate college students from a large east coast university to examine whether extra-legal factors influenced their personal judgments of criminal justice system responsiveness to stalking. MANOVA results indicated that students believed police and prosecutors would not treat analogous cases similarly (this bias was not apparent with judges). College students perceived that prior relationship and target/offender gender would impact arrest decisions, and that target/offender gender would also impact police investigations and the filing of criminal charges. Potential explanations and practical implications of these findings are discussed, as well as directions for future research.\n" .

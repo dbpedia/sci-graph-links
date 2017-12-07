@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_547_549>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NP" ;
+        nif:beginIndex          "547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "549"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_0_618> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NP_(complexity)> .
+
+<http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_0_618> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_0_618>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "618"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We study the compression of polynomially samplable sources. In particular, we give efficient prefix-free compression and decompression algorithms for three classes of such sources (whose support is a subset of {0, 1} n ). 1.We show how to compress sources X samplable by logspace machines to expected length H(X) + O(1). Our next results concern flat sources whose support is in P. 2.If H(X) ≤ k =  n − O(log n), we show how to compress to expected length k + polylog(n − k).3.If the support of X is the witness set for a self-reducible NP relation, then we show how to compress to expected length H(X) + 5.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_325_329>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "O(1)" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_0_618> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Big_O_notation> .
+
+<http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_131_155>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decompression algorithms" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "155"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_0_618> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decompression_practice> .
+
+<http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_281_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logspace" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ddc605b0fb7d444d19b987db6fa#offset_0_618> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/L_(complexity)> .

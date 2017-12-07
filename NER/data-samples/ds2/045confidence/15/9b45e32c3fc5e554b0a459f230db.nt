@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_818_833>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public employee" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_0_891> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Civil_service> .
+
+<http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_0_891> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_99_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random sample" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_0_891> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999887487548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .
+
+<http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_0_891>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "891"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This study compares the disciplinary process for police vs. nonpolice public employees. A random sample of 200 cases was drawn from the 806 public sector discipline cases published in volumes 111–118 of Labor Arbitration Reports. Case characteristics, classification of conduct unbecoming, proposed discipline, arbitrator behavior, reasons for reversing management’s penalty other than conduct unbecoming, procedural outcomes and findings were analyzed. The frequency of the finding for the employer was actually higher for police than for the nonpolice cases. Managerial actions that resulted in reversing the disciplinary penalty were not as suggested by the literature. Multivariate analyses of the case characteristics led to the conclusion that police discipline may have been distinctive from nonpolice public employee discipline in the past, but is no longer so distinctive.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_212_217>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Labor" ;
+        nif:beginIndex          "212"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_0_891> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7370814008147176"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Employment> .
+
+<http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_149_162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public sector" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9b45e32c3fc5e554b0a459f230db#offset_0_891> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999886205723116"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_sector> .

@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_0_1310> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_448_464>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secondary school" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "464"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_0_1310> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5915960817363676"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Secondary_education> .
+
+<http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_421_426>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_0_1310> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.867807235053866"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_0_1310>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1310"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Historical reasoning competencies play an important role in history education. However, valid and reliable large-scale measurement instruments to assess these competencies are scarce. This study considers two instruments for measuring students’ ability to perform historical perspective taking (HPT) as a historical reasoning competency. The instruments have been tested for validity and reliability among 1,270 Dutch upper elementary and secondary school students, ranging in age from 10 to 17 years. One instrument offers effective validity and reliability and can map HPT performance among a large and heterogeneous student population. The results show that even upper elementary school students are capable of performing HPT. However, as students age, their ability to perform HPT increases. Differences regarding the ability to perform HPT were also found between educational levels. Pre-university students performed HPT more successfully compared to students at lower educational levels. The results of this study can be used to gain insight into the construct of HPT and into how historical reasoning competencies such as HPT can be measured. Furthermore, the results provide insight into how differences between students, such as age and educational levels, influence the performance of HPT.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_681_698>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elementary school" ;
+        nif:beginIndex          "681"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f58ab593b5111b856bdc1cdbdad6#offset_0_1310> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9909900138728459"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primary_education> .

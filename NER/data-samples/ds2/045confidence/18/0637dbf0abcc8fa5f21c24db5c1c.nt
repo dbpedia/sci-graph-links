@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_0_393>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "393"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusion To correlate the two sections of this review it appears that the stomatal mechanism is self regulatory. If, as above, we define the stomata as functioning when they are open and quiescent when they are closed,their principal function is to regulate that very factor which is presumed to regulate them, viz.the concentration of CO 2 in the leaf or, respectively, in the guard cells.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_0_393> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_76_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stomatal" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_0_393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stoma> .
+
+<http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_338_340>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CO" ;
+        nif:beginIndex          "338"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_0_393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9998863403239473"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_dioxide> .
+
+<http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_143_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stomata" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_0_393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stoma> .
+
+<http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_380_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "guard cells" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637dbf0abcc8fa5f21c24db5c1c#offset_0_393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Guard_cell> .

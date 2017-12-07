@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_187_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anions" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999839248518"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion> .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_222_227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "anion" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion> .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "356"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Transmission electron microscopy is utilized to study the gels formed from aqueous solutions of L-cysteine and silver nitrate on a nanolevel structure in the presence of various anions. It is established that the anion’s charge and geometrical size have an existential effect on the structure and mechanical properties of the spatial gel-network.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_120_134>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "silver nitrate" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silver_nitrate> .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_105_115>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "L-cysteine" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999997525606"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cysteine> .
+
+<http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_9_41>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Transmission electron microscopy" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/90249c9aecc87aa0f67d69382924#offset_0_356> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999355772093257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transmission_electron_microscopy> .

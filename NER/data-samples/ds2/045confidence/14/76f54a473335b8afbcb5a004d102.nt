@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_318_332>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exchange rates" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_0_686> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exchange_rate> .
+
+<http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_237_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public sector" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_0_686> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996119784853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_sector> .
+
+<http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_0_686> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_193_209>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "effective demand" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_0_686> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Effective_demand> .
+
+<http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_139_148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflation" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_0_686> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998639261868"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflation> .
+
+<http://www.springernature.com/scigraph/things/articles/76f54a473335b8afbcb5a004d102#offset_0_686>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "686"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary To preserve essential characteristics of our economic order it is necessary to reverse the unfavourable trends in unemployment and inflation. This requiresinter alia adequate growth of effective demand, curbing the growth of the public sector, avoiding the passing-on of collective burden and a development of exchange rates which neutralizes external inflationary effects. The restoration of sound economic conditions requires a drastic and extended operation; for that reason a quantitative plan for medium-term macro-economic policy is useful. Medium-term planning can only be successful through a combination of sophisticated economic analysis and down-to-earth management.\n" .

@@ -1,0 +1,177 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_63_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypergraphs" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_925_933>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "925"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "933"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9871601987651715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_285_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9871601987651715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_727_735>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9871601987651715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_751_761>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypergraph" ;
+        nif:beginIndex          "751"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1317"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract One of the De Bruijn-Erdős theorems deals with finite hypergraphs where every two vertices belong to precisely one hyperedge. It asserts that, except in the perverse case where a single hyperedge equals the whole vertex set, the number of hyperedges is at least the number of vertices and the two numbers are equal if and only if the hypergraph belongs to one of simply described families, near-pencils and finite projective planes. Chen and Chvátal proposed to define the line uv in a 3-uniform hypergraph as the set of vertices that consists of u, v, and all w such that {u;v;w} is a hyperedge. With this definition, the De Bruijn-Erdős theorem is easily seen to be equivalent to the following statement: If no four vertices in a 3-uniform hypergraph carry two or three hyperedges, then, except in the perverse case where one of the lines equals the whole vertex set, the number of lines is at least the number of vertices and the two numbers are equal if and only if the hypergraph belongs to one of two simply described families. Our main result generalizes this statement by allowing any four vertices to carry three hyperedges (but keeping two forbidden): the conclusion remains the same except that a third simply described family, complements of Steiner triple systems, appears in the extremal case.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_1107_1115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9871601987651715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_530_538>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "530"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9871601987651715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_91_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertices" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9871601987651715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_222_228>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertex" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9127911306092181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_343_353>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypergraph" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_505_515>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypergraph" ;
+        nif:beginIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_416_440>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite projective planes" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Projective_plane> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_983_993>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypergraph" ;
+        nif:beginIndex          "983"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "993"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypergraph> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_648_655>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "648"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "655"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_867_873>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vertex" ;
+        nif:beginIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9127911306092181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_1263_1285>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Steiner triple systems" ;
+        nif:beginIndex          "1263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1285"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0cadaa5caa40a85fd517ba6e813b#offset_0_1317> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steiner_system> .

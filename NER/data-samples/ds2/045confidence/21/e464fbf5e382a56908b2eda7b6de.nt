@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "999"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Despite much scholarly fascination with the question of whether great minds appear in cycles, together with some empirical evidence that historical cycles exist, prior studies mostly disregard the “great minds” hypothesis as it relates to scientists. Rather, researchers assume a linear relation based on the argument that science is allied with the development of technology. To probe this issue further, this study uses a ranking of over 5600 scientists based on number of appearances in Google Books over a period of 200 years (1800–2000). The results point to several peak periods, particularly for scientists born in the 1850–1859, 1897–1906, or 1900–1909 periods, suggesting overall cycles of around 8 years and a positive trend in distinction that lasts around 100 years. Nevertheless, a non-parametric test to determine whether randomness can be rejected indicates that non-randomness is less apparent, although once we analyse the greatest minds overall, rejection is more likely.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_804_823>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-parametric test" ;
+        nif:beginIndex          "804"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "823"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_122_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical evidence" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988821219180145"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_845_855>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "randomness" ;
+        nif:beginIndex          "845"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "855"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996974271883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Randomness> .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_499_505>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Google" ;
+        nif:beginIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9998842209683306"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Google> .
+
+<http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_332_339>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e464fbf5e382a56908b2eda7b6de#offset_0_999> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7756673750000247"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scientific_method> .

@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_272_288>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noncommutativity" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "288"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998527354217306"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Commutative_property> .
+
+<http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_36_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7295644422199037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_22_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "randomness" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980585824023712"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Randomness> .
+
+<http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_0_439> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_413_429>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress intensity" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_intensity_factor> .
+
+<http://www.springernature.com/scigraph/things/articles/e003b488ec710b42457121dd5f3d#offset_0_439>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "439"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The effect of randomness of elastic parameters as well as the fulfilment of similarity laws in the statistical mean on the evaluation of prototype stresses within the framework of 3D-anisotropic photothermoelasticity is investigated. Stress differences due to the noncommutativity of the order of application of Hooke's law and model laws are determined, and the theory is applied to the determination of stress intensity factors.\n" .

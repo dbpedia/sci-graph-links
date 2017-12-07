@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1155018ae75df3dee157170c144f#offset_0_700>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "700"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Advances in video technology enables medical educators to self-produce videos, but many videos fail to achieve preset instructional goals. We speculate that they were not designed by following best practices in educational video design. Three authors shared their experience in producing educational videos by applying best practices in video design. Their paths varied, but certain strategies were commonly used. For example, key stakeholders should be consulted and needs assessment should be conducted to identify gaps; video design depends on learning objectives; and educators should be equipped with best practices in video design and take lead if a professional videographer is used.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1155018ae75df3dee157170c144f#offset_678_690>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "videographer" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "690"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1155018ae75df3dee157170c144f#offset_0_700> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9879158019274354"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Videographer> .
+
+<http://www.springernature.com/scigraph/things/articles/1155018ae75df3dee157170c144f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1155018ae75df3dee157170c144f#offset_0_700> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

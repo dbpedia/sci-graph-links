@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_530_538>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "530"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968864184594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_83_92>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999430970186372"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognition> .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_566_577>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999564775523068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "648"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper examines how a number of decision context variables affect the cognitive effort required for decision making on dichotomical choice tasks. Subjects are trained in the use of a strategy in which information processing is alternative-based. The correlation between the attributes of the alternatives and the mean and variance of the difference between the attributes is manipulated. The results show that the effort needed for decision making increases as the mean of the differences decreases. Yet, neither the variance of the differences nor the correlation context affect the decision making effort in this type of strategies.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_335_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968864184594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_263_274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "263"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/89711b0b624e0f86c0539ff53be6#offset_0_648> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999564775523068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .

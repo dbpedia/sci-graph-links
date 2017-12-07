@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_200_212>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relativistic" ;
+        nif:beginIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5979354174236791"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Special_relativity> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "408"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The various OBE approximations to the recent Bonn potential are studied in deuteron photodisintegration below π-threshold. Consistent static meson-exchange currents, isobar currents, and the relativistic spin-orbit current are included. Concerning the OBEPT also the leading retardation corrections in the currents are taken into account. Comparison with experimental data is carried out in detail.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_175_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isobar" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999699724596771"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Contour_line> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_93_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photodisintegration" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999975785272"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photodisintegration> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_54_58>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Bonn" ;
+        nif:beginIndex          "54"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/City> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/City> ;
+        itsrdf:taConfidence     "0.9994032943154063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bonn> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_84_92>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deuteron" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deuterium> .
+
+<http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_21_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "OBE" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11f6cdb34730de909366f7889389#offset_0_408> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998602371530207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Order_of_the_British_Empire> .

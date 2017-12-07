@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_315_338>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "propositional knowledge" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "338"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_0_669> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Descriptive_knowledge> .
+
+<http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_0_669> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_603_619>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regress argument" ;
+        nif:beginIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "619"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_0_669> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regress_argument> .
+
+<http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_485_497>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Gilbert Ryle" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "497"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_0_669> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gilbert_Ryle> .
+
+<http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_33_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hubert Dreyfus" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_0_669> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Philosopher> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hubert_Dreyfus> .
+
+<http://www.springernature.com/scigraph/things/articles/20cf261e232c04c7fcd477d3b75c#offset_0_669>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "669"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Since its introduction, Hubert Dreyfus’ account of expertise has been a topic of debate and continues to be. This article focuses on one particular critique: Selinger and Crease (Cont Philos Rev 35(3):245–279, 2002) argument that Dreyfus wrongfully denies expertise to those whose expertise is a matter of propositional knowledge, which they call an ‘expert in x’. This article sets out to defend Dreyfus against the ‘expert in x’ by showing that Selinger and Crease’s use of Gilbert Ryle’s distinction between know-how and know-that as the foundation of their argument is vulnerable to Ryle’s regress argument and arguments from Radical Anti-Intellectualism.\n" .

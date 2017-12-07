@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_565_582>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantum chemistry" ;
+        nif:beginIndex          "565"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "582"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999331404558822"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantum_chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_100_123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computational chemistry" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_629_644>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tautomerization" ;
+        nif:beginIndex          "629"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "644"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tautomer> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_657_668>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "formic acid" ;
+        nif:beginIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "668"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formic_acid> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "733"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract With increasing computational capabilities, an ever growing amount of data is generated in computational chemistry that contains a vast amount of chemically relevant information. It is therefore imperative to create new computational tools in order to process and extract this data in a sensible way. Kudi is an open source library that aids in the extraction of chemical properties from reaction paths. The straightforward structure of Kudi makes it easy to use for users and allows for effortless implementation of new capabilities, and extension to any quantum chemistry package. A use case for Kudi is shown for the tautomerization reaction of formic acid. Kudi is available free of charge at www.github.com/stvogt/kudi\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_333_340>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999911357236"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library_(computing)> .
+
+<http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_321_332>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open source" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9eba60798df64a00104bb764b090#offset_0_733> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.950160508660795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_source> .

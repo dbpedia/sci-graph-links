@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_441_449>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Trinidad" ;
+        nif:beginIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_0_1354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.8392155636924499"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trinidad_and_Tobago> .
+
+<http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_0_1354>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1354"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper presents a single-country case study of the use of large scale assessment (LSA) data to generate actionable knowledge at school and system levels. Actionable knowledge is data-informed insight into school and system processes that can be used to direct corrective action. The analysis is framed from the perspective of the country’s evolving national policy on data use for educational improvement between 1990 and 2013. Trinidad and Tobago first participated in international large scale assessments (ILSAs) in 1991 but also developed a centralized system of national large scale assessments (NLSAs) in 2004. Analyses of both datasets consistently pointed to low quality and high inequality as the main actionable issues in the education system. NLSA data also hinted at notable variation in performance across schools and education districts. Analyses for and of policy point to the need for multiple school performance measures to better inform site-based, formative action. Over the period, actionable knowledge appears to have had greater impact at school level, with evidence being used by some low-performing schools to improve. However, at the system level, the frequent non-use and misuse of actionable knowledge suggest the need to promote and strengthen structures and processes related to evidence-informed policy-making.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_0_1354> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_95_98>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LSA" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_0_1354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999862466448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latent_semantic_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_454_460>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Tobago" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/01abafe1fa3e11199135ec4934e4#offset_0_1354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.990656510206581"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tobago> .

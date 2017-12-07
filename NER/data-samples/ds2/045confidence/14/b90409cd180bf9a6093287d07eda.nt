@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_0_325> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_317_323>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "galena" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/Mineral> ;
+        itsrdf:taConfidence     "0.9999999999907914"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Galena> .
+
+<http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_92_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sulphur" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997734121536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sulfur> .
+
+<http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_242_251>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_0_325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7984028808944852"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<http://www.springernature.com/scigraph/things/articles/b90409cd180bf9a6093287d07eda#offset_0_325>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "325"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A convenient method for the rapid, accurate and simultaneous estimation of lead and sulphur (after oxidising to sulphate level) in the same solution has been proposed. The results obtained are in good agreement with those obtained by classical procedures. The method is useful particularly in the analysis of galena.\n" .

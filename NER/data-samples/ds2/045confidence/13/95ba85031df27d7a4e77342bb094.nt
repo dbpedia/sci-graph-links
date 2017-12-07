@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/95ba85031df27d7a4e77342bb094#offset_69_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rote learning" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/95ba85031df27d7a4e77342bb094#offset_0_382> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rote_learning> .
+
+<http://www.springernature.com/scigraph/things/articles/95ba85031df27d7a4e77342bb094#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/95ba85031df27d7a4e77342bb094#offset_0_382> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/95ba85031df27d7a4e77342bb094#offset_0_382>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "382"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This conceptual research framework addresses the problem of rote learning by characterising key aspects of the dominating imitative reasoning and the lack of creative mathematical reasoning found in empirical data. By relating reasoning to thinking processes, student competencies, and the learning milieu it explains origins and consequences of different reasoning types.\n" .

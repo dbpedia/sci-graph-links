@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_280_292>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "crowding-out" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Crowding_out_(economics)> .
+
+<http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_211_233>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "government consumption" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8857611805536714"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Income_and_Product_Accounts> .
+
+<http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_65_87>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "government consumption" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_0_479> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8857611805536714"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/National_Income_and_Product_Accounts> .
+
+<http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_0_479> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/68e1fbbf0fbc3043d5f6cc84d009#offset_0_479>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "479"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper analyzes the dynamic impact of discretionary government consumption purchases on private demand. Using a panel of 132 countries from 1960 to 2008, we find that while discretionary changes in government consumption lead to crowding-in effects in the short run, crowding-out effects take over in the medium run. In addition, we also find that both short-term crowding-in and medium-term crowding out effects are amplified once we control for periods of crisis.\n" .

@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_460_465>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyads" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999993544293"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dyad_(sociology)> .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_77_83>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Bowlby" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/John_Bowlby> .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_419_437>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "longitudinal study" ;
+        nif:beginIndex          "419"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Longitudinal_study> .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "859"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A reciprocal model of language development is proposed analogous to Bowlby's model for the development of attachment, a control system model. The hypothesis for the research reported is that a reciprocal behavioral system operates between the language-developing infant-child and the competent language user in a socializing-teaching-nurturing role vis-à-vis the language-developing child. Findings are from a longitudinal study of four infant-mother dyads, videotaped in the home from the time the infants were 3 months until they were 2 years old. The mother's linguistic behavior following vocalizing and verbalizing by her infant is analyzed for evidence that it is language-teaching behavior appropriate to the infant's level of linguistic development and, in the terms of the control system model, elicited by the infant's linguistic behavior.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_213_230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "behavioral system" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Behaviorism> .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_31_51>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language development" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language_development> .
+
+<http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/99ccf1e3f507d7813fcba8e01b24#offset_0_859> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

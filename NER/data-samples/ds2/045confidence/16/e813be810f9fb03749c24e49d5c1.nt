@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_0_831> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_811_829>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "white-collar crime" ;
+        nif:beginIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_0_831> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/White-collar_crime> .
+
+<http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_175_184>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modernity" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_0_831> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992583516836"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modernity> .
+
+<http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_0_831>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "831"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In America’s Safest City, Simon Singer embraces the sociological imagination to situate juveniles’ personal troubles within the context of middle-class affluence and modernity. In so doing, he departs from the standard research paradigm that seeks to explain delinquency by using secondary data sets that contain limited measures of theoretical constructs identified by reigning perspectives. Singer’s decision has resulted in a rich analysis that is replete with criminological lessons about the nature of delinquency. Four such lessons are presented here, which include: (1) a lower-class bias has clouded thinking about crime; (2) the reaction to crime differs across classes; (3) parents matter in producing adolescence-limited antisocial youths; and (4) suburban delinquency may be a precursor to white-collar crime.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_61_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sociological imagination" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_0_831> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sociological_imagination> .
+
+<http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_9_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "In America" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e813be810f9fb03749c24e49d5c1#offset_0_831> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://schema.org/Movie> , <http://dbpedia.org/ontology/Film> ;
+        itsrdf:taConfidence     "0.9996253343153149"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/In_America_(film)> .

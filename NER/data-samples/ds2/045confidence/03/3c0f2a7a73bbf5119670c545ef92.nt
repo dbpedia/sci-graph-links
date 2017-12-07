@@ -1,0 +1,89 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_94_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substrates" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8380072926406108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wafer_(electronics)> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_320_323>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "GaN" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gallium_nitride> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_59_75>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heterostructures" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heterojunction> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_309_312>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "InN" ;
+        nif:beginIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Indium_nitride> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_35_44>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetron" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cavity_magnetron> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "339"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A modified method for the magnetron deposition of heterostructures on single-crystal substrates that combines a high degree of efficiency and a high production rate is developed. Grown structures are simulated within the density functional theory to determine the most stable atomic positions in the InN/Si and GaN/Si interfaces.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_45_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deposition" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999929632395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .
+
+<http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_230_255>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "density functional theory" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "255"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c0f2a7a73bbf5119670c545ef92#offset_0_339> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Density_functional_theory> .

@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7b61c25e9dffef168c07bfee6377#offset_463_469>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "autism" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7b61c25e9dffef168c07bfee6377#offset_0_869> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8738006470506657"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Autism_spectrum> .
+
+<http://www.springernature.com/scigraph/things/articles/7b61c25e9dffef168c07bfee6377#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7b61c25e9dffef168c07bfee6377#offset_0_869> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7b61c25e9dffef168c07bfee6377#offset_0_869>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "869"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Few studies have directly compared individuals with and without a relative diagnosed with ASD on various domains. The present study aimed to examine the relationship between familial ASD diagnosis and the exhibition of ASD symptoms in young children with and without ASD diagnoses. Participants included 8353 children aged 17–37 months old and their families. They were divided into four groups based on individual and family diagnosis, then compared on autism symptomatology and developmental domains. No differences were found between ASD groups on overall scores and each of the factor domains, indicating no association between family ASD diagnosis and ASD symptomatology or developmental functioning. Disparate results were found for atypically developing groups with and without relatives diagnosed with ASD. Implications of these results are discussed.\n" .

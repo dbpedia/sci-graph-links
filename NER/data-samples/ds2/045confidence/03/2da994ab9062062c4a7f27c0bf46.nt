@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "411"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A study was carried out on the electronic energy structure and nature of the chemical bond for a series of crystal modifications (like CaC2, ThC2, CsCl, or CaF2) of metastable titanium dicarbide. The TiC2 phase may be obtained as a film on the CaC2 surface, and a metal-semiconductor heterojunction is formed. The possibilities of altering the electronic properties of this heterosystem are discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_174_184>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metastable" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991456882599677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metastability> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_185_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "titanium" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8561780879561279"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Titanium> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_165_169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CaF2" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calcium_fluoride> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_86_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemical bond" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical_bond> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_253_257>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CaC2" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999999982379"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calcium_carbide> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_293_307>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heterojunction" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heterojunction> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_144_148>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "CaC2" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999999982379"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calcium_carbide> .
+
+<http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_51_57>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2da994ab9062062c4a7f27c0bf46#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998701678203618"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .

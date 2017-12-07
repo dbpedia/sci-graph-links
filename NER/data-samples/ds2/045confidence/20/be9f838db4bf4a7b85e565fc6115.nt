@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_441_449>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Japanese" ;
+        nif:beginIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9801038124459145"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Japanese_language> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_193_203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dictionary" ;
+        nif:beginIndex          "193"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9056778875861125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dictionary> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_381_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dictionary" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9056778875861125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dictionary> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "462"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present a method for combining two bilingual dictionaries to make a third, using one language as a pivot. In this case we combine a Japanese-English dictionary with a Malay-English dictionary, to produce a Japanese-Malay dictionary. Our method differs from previous methods in its improved matching through normalization of the pivot language. We have made a prototype dictionary of around 76,000 Japanese-Malay pairs for 50,000 Japanese head words.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_233_243>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dictionary" ;
+        nif:beginIndex          "233"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9056778875861125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dictionary> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_47_69>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bilingual dictionaries" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bilingual_dictionary> .
+
+<http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_161_171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dictionary" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/be9f838db4bf4a7b85e565fc6115#offset_0_462> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9056778875861125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dictionary> .

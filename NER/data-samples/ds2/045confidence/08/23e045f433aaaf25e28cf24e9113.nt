@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_150_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carrier" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999540429954716"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carrier_signal> .
+
+<http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_86_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RFID" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999902711186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radio-frequency_identification> .
+
+<http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_0_354> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_0_354>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "354"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Eavesdropping RFID systems can violate privacy. We propose a privacy-friendly RFID system, in which the chip modulates its reply onto a noisy carrier provided by the reader, to protect the back-channel against eavesdropping. This method does not require additional protective devices and resolves some practical weaknesses of previous proposals.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_22_26>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RFID" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "26"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999902711186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radio-frequency_identification> .
+
+<http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_197_209>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "back-channel" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23e045f433aaaf25e28cf24e9113#offset_0_354> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9754750288382975"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Command_hierarchy> .

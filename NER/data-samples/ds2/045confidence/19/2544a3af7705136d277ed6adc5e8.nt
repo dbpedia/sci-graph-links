@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_131_138>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Picasso" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_0_447> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9999346745374977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pablo_Picasso> .
+
+<http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_0_447>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "447"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Age curves, which relate age to creativity or exceptional achievements, seem to take two forms: some artists bloom early (Picasso), others later in life (Cézanne). We argue that this objective fact is not related to their mode of creation according to which some artists proceed by drawings made prior to the painting's execution, while others are more likely to imitate and achieve this through color and the process of painting itself.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_41_51>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creativity" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_0_447> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999976035447"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creativity> .
+
+<http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_0_447> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_163_170>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cézanne" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2544a3af7705136d277ed6adc5e8#offset_0_447> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paul_Cézanne> .

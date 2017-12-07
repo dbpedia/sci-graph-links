@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#offset_623_640>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "statistical model" ;
+        nif:beginIndex          "623"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "640"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#offset_0_745> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999559678079017"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_model> .
+
+<http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#offset_0_745>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "745"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Benford’s law, also called the first-digit law, states that in lists of numbers from many quite disparate databases, the leading digit is distributed in a non-uniform but actually logarithmic way. We have investigated the first-digit distribution of experimental cross-sections of A(n,$ \\\\alpha$)B reactions. In the case of below-barrier $ \\\\alpha$ -particle emission from compound nucleus, it is found that the (n,$ \\\\alpha$) reaction cross-sections approximately follow the first-digit distribution indicated by Benford’s law. The origin of this first-digit distribution is discussed within the framework of the statistical model. In addition, Benford’s law is used to test the evaluated cross-sections of A(n,$ \\\\alpha$)B reactions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#offset_0_745> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#offset_382_398>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compound nucleus" ;
+        nif:beginIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bf2d8d844e575185ef59f5c22024#offset_0_745> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nuclear_reaction> .

@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_95_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemistry" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_0_225> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994912783343902"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_108_113>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Spain" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_0_225> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9886355577193106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spain> .
+
+<http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_0_225> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_203_223>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Analytical Chemistry" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_0_225> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9946983233454519"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytical_chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/d2d65f618db39552c981d8542d4d#offset_0_225>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "225"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The people, places, economic and political influences of importance in the history of chemistry in Spain have been reviewed from the early XVIII century until today with particular reference to Analytical Chemistry.\n" .

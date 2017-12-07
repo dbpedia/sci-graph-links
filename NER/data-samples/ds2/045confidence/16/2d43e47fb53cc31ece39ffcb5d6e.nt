@@ -1,0 +1,50 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_222_228>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999453459858743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_309_315>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Canada" ;
+        nif:beginIndex          "309"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999453459858743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canada> .
+
+<http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_0_338>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "338"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Introduction to the special section of Neohelicon presenting the papers of the conference 'Literary Histories and the Development of Identities' sponsored by the Social Sciences and Humanities Research Council of Canada involving members of the I.C.L.A. Coordinating Committee at Queen's University, Canada, in the Fall of 2001.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_289_294>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Queen" ;
+        nif:beginIndex          "289"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/BritishRoyalty> , <http://dbpedia.org/ontology/Royalty> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.6762721993917905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elizabeth_II> .
+
+<http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2d43e47fb53cc31ece39ffcb5d6e#offset_0_338> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

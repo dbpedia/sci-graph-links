@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#offset_0_374> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#offset_321_329>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "321"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "329"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9937021537287791"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytic_function> .
+
+<http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#offset_0_374>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "374"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For control systems which can be locally stabilized in small time by means of a dynamic periodic time-varyingstate feedback law, we give a sufficient condition on Lie derivatives of the output for local stabilization in small time by means of a dynamic periodic time-varyingoutput feedback law. If the system is analytic our sufficient condition is also necessary.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#offset_172_187>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lie derivatives" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/85c51d90ac27557287f5b089beb2#offset_0_374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lie_derivative> .

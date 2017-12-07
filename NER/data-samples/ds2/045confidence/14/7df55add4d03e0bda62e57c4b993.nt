@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_21_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamic systems theory" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_0_554> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_systems_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_406_417>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_0_554> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_127_132>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_0_554> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8691651893005218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_0_554> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7df55add4d03e0bda62e57c4b993#offset_0_554>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "554"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Inspired in dynamic systems theory and Brewer’s contributions to apply it to economics, this paper establishes a bond graph model. Two main variables, a set of inter-connectivities based on nodes and links (bonds) and a fractional order dynamical perspective, prove to be a good macro-economic representation of countries’ potential performance in nowadays globalization. The estimations based on time series for 50 countries throughout the last 50 decades confirm the accuracy of the model and the importance of scale for economic performance.\n" .

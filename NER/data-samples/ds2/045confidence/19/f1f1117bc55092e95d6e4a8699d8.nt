@@ -1,0 +1,119 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_341_344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B 4" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> , <http://dbpedia.org/ontology/Aircraft> ;
+        itsrdf:taConfidence     "0.9958393738129326"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hawker_Hart> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_1019_1021>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "1019"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1021"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9452774804594976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_563_576>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "popular music" ;
+        nif:beginIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9902993376505743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Popular_music> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1184"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract: Over the last five years or so, a number of studies have focussed on the distribution of `success' in physics and other sciences; in these studies, `success' is measured by the number of times a paper, or an author, is cited. The distribution of citations of individual papers approximates to a power-law [S. Redner, Eur. Phys. J. B 4, 131 (1998)], while lifetime total citations of the 1120 most-cited physicists follows a stretched exponential [J. Laherrère, D. Sornette, Eur. Phys. J. B 2, 525 (1998)]. Here, I examine the distribution of success in popular music, a field of creativity that has social structures very different from those of physics, and which is generally held to be controlled primarily by fashion. For this study, the lifetime total success of bands was measured by the total number of weeks they were in the weekly `top 75' list of best-selling recordings. Like the lifetime success of physicists reported by Laherrere and Sornette, the success of the 6107 bands that appeared in the UK `top 75' from 1950 until 2000 follows a stretched exponential of the form P(x)dx = c(x c - 1/x 0 c)exp[- (x/x 0)c]dx; for the music data, c = 0.5 and x 0 = 9.37.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_112_119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "112"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999970719342977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_434_455>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stretched exponential" ;
+        nif:beginIndex          "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stretched_exponential_function> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_305_314>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "power-law" ;
+        nif:beginIndex          "305"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Power_law> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_656_663>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999970719342977"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_1062_1083>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stretched exponential" ;
+        nif:beginIndex          "1062"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1083"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stretched_exponential_function> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_498_501>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B 2" ;
+        nif:beginIndex          "498"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991210160130486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bundesstraße_2> .
+
+<http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_589_599>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creativity" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1f1117bc55092e95d6e4a8699d8#offset_0_1184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995027254827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creativity> .

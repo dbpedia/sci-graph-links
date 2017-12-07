@@ -1,0 +1,117 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_206_232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discrete logarithm problem" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrete_logarithm> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_101_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mersenne primes" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mersenne_prime> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_59_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public key cryptosystem" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public-key_cryptography> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_414_417>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DLP" ;
+        nif:beginIndex          "414"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrete_logarithm> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_234_237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DLP" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discrete_logarithm> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_299_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "encryption" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9452625821641853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RSA_(algorithm)> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "466"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we introduce a secure and efficient public key cryptosystem using generalized Mersenne primes based on two hard problems: the cubic root extraction modulo a composite integer and the discrete logarithm problem (DLP). These two problems are combined during the key generation, encryption and decryption phases. To break the scheme, an attacker has to solve the cubic root computation and the DLP separately which is computationally infeasible.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_283_297>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "key generation" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999723173"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RSA_(algorithm)> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_171_177>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulo" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_190_197>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999608917"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_314_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decryption" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7105b02c184633660eff65632800#offset_0_466> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998451017"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptography> .

@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_0_378> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_50_63>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrostatic" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_0_378> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988667468782871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrostatics> .
+
+<http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_77_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laser" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_0_378> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999969335819234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laser> .
+
+<http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_0_378>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "378"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is shown that the combined effects of electrostatic and resonant laser fields on a molecular ensemble can be used to control the orientation of molecules by changing their internal state. In contrast to most other schemes for controlling molecular orientation, the proposed method does not require rotational cooling and can be highly efficient at room temperature.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_156_165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecules" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/899c5bf3e4b55a323c8ac6062c34#offset_0_378> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999813120651297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecule> .

@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_0_747> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_424_430>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "430"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_0_747> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8577983830554471"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_162_172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chain ring" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_0_747> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5662147293686861"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Serial_module> .
+
+<http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_0_747>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "747"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this work, we focus on cyclic codes over the ring $${{{\\\\mathbb{F}}_2+u{\\\\mathbb{F}}_2+v{\\\\mathbb{F}}_2+uv{\\\\mathbb{F}}_2}}$$ , which is not a finite chain ring. We use ideas from group rings and works of AbuAlrub et.al. in (Des Codes Crypt 42:273–287, 2007) to characterize the ring $${({{\\\\mathbb{F}}_2+u{\\\\mathbb{F}}_2+v{\\\\mathbb{F}}_2+uv{\\\\mathbb{F}}_2})/(x^n-1)}$$ and cyclic codes of odd length. Some good binary codes are obtained as the images of cyclic codes over $${{{\\\\mathbb{F}}_2+u{\\\\mathbb{F}}_2+v{\\\\mathbb{F}}_2+uv{\\\\mathbb{F}}_2}}$$ under two Gray maps that are defined. We also characterize the binary images of cyclic codes over $${{{\\\\mathbb{F}}_2+u{\\\\mathbb{F}}_2+v{\\\\mathbb{F}}_2+uv{\\\\mathbb{F}}_2}}$$ in general.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_624_637>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary images" ;
+        nif:beginIndex          "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "637"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_0_747> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_image> .
+
+<http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_192_203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "group rings" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28c0aa14b82d5563f1f1891fa1a7#offset_0_747> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_ring> .

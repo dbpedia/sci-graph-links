@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "463"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Friedrich Arnold's neuroanatomical treatise Icones nervorum capitis published in its first edition in Heidelberg 1834 ranks scientifically and iconographically among the most brilliant works of 19th century anatomical literature. Consonant with Arnold's conceptions the lithographed engravings depict the cranial nerves as living, morphotic entities comprising their topographical origin and periphery in a distinctness and beauty never been seen before.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_110_120>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Heidelberg" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Town> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.8228953590458472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heidelberg> .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_8_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Friedrich Arnold" ;
+        nif:beginIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Friedrich_Arnold> .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_278_290>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lithographed" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lithography> .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_313_327>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cranial nerves" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Nerve> , <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cranial_nerve> .
+
+<http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_27_42>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "neuroanatomical" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e8bc8f10f905cb1f565dfe0a5432#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Neuroanatomy> .

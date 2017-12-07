@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_398_415>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solid-state disks" ;
+        nif:beginIndex          "398"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "415"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solid-state_drive> .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_176_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFW" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5132638307729909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dallas–Fort_Worth_metroplex> .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_739_756>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "solid-state disks" ;
+        nif:beginIndex          "739"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solid-state_drive> .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_347_350>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DFW" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5132638307729909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dallas–Fort_Worth_metroplex> .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "925"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We propose a efficient writeback scheme that enables guaranteeing throughput in high-performance storage systems. The proposed scheme, called de-fragmented writeback (DFW), reduces positioning time of storage devices in writing workloads, and thus enables fast writeback in storage systems. We consider both of storage media in designing DFW scheme; traditional rotating disk and emerging solid-state disks. First, sorting and filling holes methods are used for rotating disk media for the higher throughput. The scheme converts fragmented data blocks into sequential ones so that it reduces the number of write requests and unnecessary disk-head movements. Second, flash block aware clustering-based writeback scheme is used for solid-state disks considering the characteristics of flash memory. The experimental results show that our schemes guarantee system’s high throughput while guaranteeing data reliability.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_792_804>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flash memory" ;
+        nif:beginIndex          "792"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/662fd08ce4b6be9a74f2f5b074fb#offset_0_925> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999949385483"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flash_memory> .

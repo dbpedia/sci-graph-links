@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_121_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "submarine" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999814379694227"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Submarine> .
+
+<http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_131_141>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "landslides" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999665070055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Landslide> .
+
+<http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_0_456>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "456"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A survey procedure using digitally acquired, scale-corrected sidescan sonar has been applied to document active submarine landslides in the Mississippi Delta region. Periodic resurveys have been completed for a 70-km2 area in water depths of 10 to 50 m. Sufficient resurvey precision allowed short-term changes in seafloor mapping to be observed. Mudslides showed enlargement by retrogression and downslope surging within a single 5-month period.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_70_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sidescan sonar" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Side-scan_sonar> .
+
+<http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_149_166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mississippi Delta" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9932365795601408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mississippi_Delta> .
+
+<http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8ce17b20607bf8fb9a82cce8706d#offset_0_456> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

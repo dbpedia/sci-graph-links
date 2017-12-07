@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#offset_70_77>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fallacy" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#offset_0_130> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9976078281389527"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fallacy> .
+
+<http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#offset_25_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fallacy" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#offset_0_130> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9976078281389527"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fallacy> .
+
+<http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#offset_0_130> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4bc3ad4a9cf310e1e4b22021d3ff#offset_0_130>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "130"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The traditional fallacy of many questions, also known as the fallacy of complex question, illustrated by the question, \\\n" .

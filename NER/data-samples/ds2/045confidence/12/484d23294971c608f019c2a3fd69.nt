@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_0_1391> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_554_567>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eco-efficient" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_0_1391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eco-efficiency> .
+
+<http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_987_995>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Factor 4" ;
+        nif:beginIndex          "987"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "995"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_0_1391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9545360467742269"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/calcium> .
+
+<http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_0_1391>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1391"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Although sustainability plays anincreasingly important role in common buildingpractice, there is very little known about theenvironmental benefits of sustainable housingconstruction. This paper presents a frameworkfor the search for the most eco-efficientstrategies for sustainable housing constructionand discusses the environmental benefits ofDutch sustainable housing construction. Twoquestions are answered: which goals regardingthe environmental benefits of Dutch sustainablehousing construction are currently feasible andwhat are the most eco-efficient strategies tofurther improve the environmental performanceof housing? Environmental benefits arecalculated by means of sets of measurescomposed by confronting priorities forreduction of the environmental impacts ofhouses with seven strategies for sustainablehousing construction. For the calculationsEco-Quantum is used. A traditionally builtterraced house is used as a reference point. Itturns out that goals such as `Factor 4' or`Factor 20' are still far from being achievedand that the prolongation of life spans andimprovement of reusability are the mosteco-efficient strategies. However, otherstrategies also need to be applied, becausethese two strategies carry large uncertainties.Sustainable housing construction may not beenough in itself to meet very high targets.Reflection on our way of living is alsorequired.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_472_477>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_0_1391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.8605261313042458"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_18_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainability" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/484d23294971c608f019c2a3fd69#offset_0_1391> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999031749740339"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainability> .

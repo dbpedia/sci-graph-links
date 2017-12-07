@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "463"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The authors' experience in 25 cases of craniosynostosis treated within a period of 2 years is described. The morphology of the skull has varied from one case to the other, so that modification of the technique was needed in each case. There was no mortality, but two complications were encountered: CSF subcutaneous collection that resolved spontaneously and an almost complete absorption of the neoforehead and part of the frontal bar due to infection.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_118_128>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "morphology" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996284498697663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Morphology_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_308_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CSF" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999987494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cerebrospinal_fluid> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_257_266>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mortality" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9094914881778248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mortality_rate> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_312_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subcutaneous" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9967521126106788"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subcutaneous_tissue> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_136_141>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "skull" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.999924276063743"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_skull> .
+
+<http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_48_64>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "craniosynostosis" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b583595c9fab705c3f1f33bdb97b#offset_0_463> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Craniosynostosis> .

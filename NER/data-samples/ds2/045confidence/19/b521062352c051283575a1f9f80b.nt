@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b521062352c051283575a1f9f80b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b521062352c051283575a1f9f80b#offset_0_330> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b521062352c051283575a1f9f80b#offset_0_330>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "330"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary As parallel faces separated by a fluid film approach one another, a pressure is developed in the film. The reduced Navier-Stokes equations are solved by transform methods for both rectangular and cylindrical geometries. Relatively high pressures can exist at small asperities on the surfaces as they approach one another.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b521062352c051283575a1f9f80b#offset_123_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Navier-Stokes equations" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b521062352c051283575a1f9f80b#offset_0_330> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Navier–Stokes_equations> .

@@ -1,0 +1,98 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "419"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Some results of the double station television meteor observations provided in Kiev during the Perseid shower period in years 1991 – 1993 are presented. The dependence of the beginning hights of meteors on their initial velocities based on 57 best reduced double station meteors is constructed. Exceptionaly great beginning heights of meteors are discussed, as well as the exceptional case of a Perseid bolide.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_203_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteors" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999971179175341"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteoroid> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_411_417>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bolide" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9955116851284297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteoroid> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_279_286>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteors" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999971179175341"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteoroid> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_103_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Perseid" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997347118"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perseids> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_87_91>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Kiev" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9988187442239326"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kiev> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_55_61>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteor" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998187350732296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteoroid> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_343_350>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteors" ;
+        nif:beginIndex          "343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999971179175341"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteoroid> .
+
+<http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_403_410>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Perseid" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/23484ad196b5032c40228c44cab4#offset_0_419> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997347118"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perseids> .

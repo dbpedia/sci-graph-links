@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cc70f7fdd041f363c40b6fa6413e#offset_0_608>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "608"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Improvements to the dynamic programming (DP) strategy for partitioning (nonhierarchical classification) as discussed in Hubert, Arabie, and Meulman (2001) are proposed. First, it is shown how the number of evaluations in the DP process can be decreased without affecting generality. Both a completely nonredundant and a quasi-nonredundant method are proposed. Second, an efficient implementation of both approaches is discussed. This implementation is shown to have a dramatic increase in speed over the original program. The flexibility of the approach is illustrated by analyzing three data sets.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cc70f7fdd041f363c40b6fa6413e#offset_29_48>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamic programming" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc70f7fdd041f363c40b6fa6413e#offset_0_608> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/cc70f7fdd041f363c40b6fa6413e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cc70f7fdd041f363c40b6fa6413e#offset_0_608> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

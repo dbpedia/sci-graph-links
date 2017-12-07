@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_290_307>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "universal service" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "307"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999062698679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Universal_service> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_864_872>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interact" ;
+        nif:beginIndex          "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "872"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9853114669920537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interaction> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_202_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "telecommunications" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9882948799181891"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Telecommunications_network> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_192_201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9621579081368725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_1643_1650>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Centric" ;
+        nif:beginIndex          "1643"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/TelevisionStation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Broadcaster> , <http://schema.org/TelevisionStation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999424436526"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Centric> .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1718"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract: In the last few years, a variety of concepts for service integration and corresponding systems have been developed. On the one hand, they aim for the interworking and integration of classical telecommunications and data communications services. On the other, they are focusing on universal service access from a variety of end-user systems. Many of the technical problems, resulting from the service integration, and service personalisation have been solved during the last years. However, all these systems are driven by the concept of providing several technologies to users by keeping the peculiarity of each service.  Looking at humans’ communication behaviour and their communication space, it is obvious that human beings interact habitually in a set of contexts with their environment. The individual information preferences and needs, persons to interact with, and the set of devices controlled by each individual define their personal communication space. Following this view, a new approach is to build communication systems not on the basis of specific technologies, but on the analysis of the individual communication spaces. The result is a communication system adapted to the demands of each individual (I-centric). The communication system will act on behalf of users’ demands, reflecting recent actions to enable profiling and self-adaptation to contexts and situations.  In this paper, we introduce I-centric Communications, an approach to design communication systems that adapt themselves to the individual communication space and individual environment and situation. In this context “I” means I, or individual, “Centric” means adaptable to I requirements and a certain user environment.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_738_746>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interact" ;
+        nif:beginIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bb1778bade536f3f7f542c7480c#offset_0_1718> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9853114669920537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interaction> .

@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_0_798> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_211_218>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "218"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_0_798> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999936178409304"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_192_206>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social studies" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_0_798> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998051580369575"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_studies> .
+
+<http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_76_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cooperative learning" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_0_798> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999912461"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cooperative_learning> .
+
+<http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_0_798>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "798"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Previous research has demonstrated that Numbered Heads Together, a cooperative learning strategy, is more effective than traditional teacher-led instruction in academic areas such as social studies and science. The current study compared the effects of two types of Numbered Heads Together strategies with a baseline condition during 7th grade language arts lessons. Results indicated that three students with various disabilities had higher percent intervals of on-task behavior and daily quiz scores during either Heads Together condition. Teacher satisfaction ratings suggested that Heads Together was easy to implement, and all three students preferred this strategy to baseline instruction. A discussion of study limitations, implications, and future research directions is included.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_572_579>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ratings" ;
+        nif:beginIndex          "572"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "579"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b15a0c060ae7d9d92c849c76ee4#offset_0_798> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6381308917433185"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nielsen_ratings> .

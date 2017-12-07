@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_304_323>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression analysis" ;
+        nif:beginIndex          "304"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "323"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_0_672> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_455_473>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dependent variable" ;
+        nif:beginIndex          "455"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_0_672> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998021849"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_388_407>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dependent variables" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_0_672> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_0_672>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "672"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper examines entrepreneurial influences on the size of the new firm. Theory and previous empirical research indicate that the entrepreneurial attributes most likely to influence the characteristics and performance of new firms are motivation, workskills and information. The results of a regression analysis confirm these hypotheses when turnover and total assets are the dependent variables but are less conclusive when employment is the dependent variable. Possibly the most interesting finding is that the entrepreneurs who create the most jobs are those who are highly motivated, have managerial skills and whose firms are in the manufacturing sector.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f3878b3a746165de0e4adf9c64b8#offset_0_672> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

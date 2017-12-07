@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_0_316> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_0_316>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "316"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The implications of Greenhouse warming upon indoor climate control are examined with emphasis upon climatic adjustment in thermal comfort. Maps of Europe are shown for doubled CO2 scenarios, together with first order estimates of possible energy savings. Comment is passed upon appropriate building design.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_248_254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9049442655994135"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy> .
+
+<http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_131_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermal comfort" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermal_comfort> .
+
+<http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_156_162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ca71f4c62e304808e90fda2bfbcb#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Continent> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9979573373460294"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .

@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#offset_214_227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "factor groups" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quotient_group> .
+
+<http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#offset_0_277>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "277"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Let P1 be the class of all finite groups that are products of two normal supersoluble subgroups. Let P be the class of all nonsupersoluble P1-groups G such that all proper P1-subgroups of G and nontrivial factor groups of G are supersoluble. We classify the P-groups.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#offset_0_277> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#offset_36_49>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite groups" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/26d17f7b59a60ce0241d00be51f3#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983298984871372"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_group> .

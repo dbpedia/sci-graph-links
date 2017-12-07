@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#offset_69_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cournot duopoly" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cournot_competition> .
+
+<http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#offset_313_330>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "profit maximizing" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Profit_maximization> .
+
+<http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#offset_0_494>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "494"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this note, we study the behavior of firms competing in a Cournot duopoly framework where owners and managers are separate identities and where cross-participation at the ownership level exists. We find that depending on the degree of cross ownership, managerial incentives may be more or less towards profit maximizing behavior. Moreover we show that limited cross-participation may be a way for owners to obtain “collusive behavior” without apparently offending “Anti-Trust” laws.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ddc55235f1fcc5ccf15efa19d705#offset_0_494> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

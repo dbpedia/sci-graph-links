@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_9_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Shannon entropy" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropy_(information_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_103_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "principal component analysis" ;
+        nif:beginIndex          "103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999428724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Principal_component_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_0_338>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "338"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Shannon entropy is used to provide an estimate of the number of interpretable components in a principal component analysis. In addition, several ad hoc stopping rules for dimension determination are reviewed and a modification of the broken stick model is presented. The modification incorporates a test for the presence of an \\\n" .
+
+<http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_0_338> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_154_160>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ad hoc" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/70357555d30fdb97657dc51f715c#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999740464611494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ad_hoc> .

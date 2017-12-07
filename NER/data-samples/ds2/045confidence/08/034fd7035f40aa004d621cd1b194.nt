@@ -1,0 +1,117 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_447_459>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999971578"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_cryptanalysis> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_577_596>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "side-channel attack" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Side_channel_attack> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_274_278>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GOST" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997066551469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GOST_(block_cipher)> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_211_215>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GOST" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997066551469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GOST_(block_cipher)> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "606"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper revisits the security of the block cipher GOST, which is suitable for the protection in U-business services due to its simple design. Inspired from the reflection-meet-in-the-middle attack on GOST, we firstly find a large portion of weak keys on the full GOST: GOST has 2128 weak keys in which key recovery attack is mounted with a data complexity of 232 known plaintexts and a time complexity of 2125.5. Secondly, we present a differential fault attack on the full GOST, which required 64 fault injections to recover the entire key. This is the first known side-channel attack on GOST.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_600_604>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GOST" ;
+        nif:beginIndex          "600"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997066551469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GOST_(block_cipher)> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_485_489>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GOST" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997066551469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GOST_(block_cipher)> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_48_60>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "block cipher" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Block_cipher> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_61_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GOST" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997066551469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GOST_(block_cipher)> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_397_412>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time complexity" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9934408220261947"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_280_284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GOST" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/034fd7035f40aa004d621cd1b194#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997066551469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/GOST_(block_cipher)> .

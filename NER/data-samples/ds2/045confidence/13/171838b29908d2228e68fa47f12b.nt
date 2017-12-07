@@ -1,0 +1,123 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_128_133>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Spain" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9993582857647699"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spain> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_235_239>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PISA" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Programme_for_International_Student_Assessment> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_944_956>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "944"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "956"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9927278023941225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_603_608>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Spain" ;
+        nif:beginIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "608"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9993582857647699"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spain> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_412_427>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Latin Americans" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Continent> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Continent> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9994832439018988"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_America> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1168"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper provides the first evidence on the dynamics of immigrant students’ achievement following their migration to Spain. Using the data from 2003, 2006 and 2009 wave of the Programme for International Student Assessment (PISA), we show that immigrant students tend to perform significantly worse than native students, but that their performance improves with time spent in Spain. Among immigrants, Latin Americans enjoy an initial linguistic advantage, which, however, does not help them to catch up faster. The rate of improvement is such that students who stay almost all their lives in Spain still perform worse than natives in all domains analyzed by PISA. To better understand this achievement gap, we decompose it into parts attributable to school quality and to family characteristics. We observe that most of the gap is explained by individual and family characteristics and that less than 15 % of it can be attributed to differential school attendance. Overall, the evidence suggests that policies that do not target the learning environment in disadvantaged families are likely to have a limited impact on the native-immigrant achievement gap.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_1151_1166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "achievement gap" ;
+        nif:beginIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Achievement_gap_in_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_55_63>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980981871443737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Population_dynamics> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_701_716>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "achievement gap" ;
+        nif:beginIndex          "701"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Achievement_gap_in_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_669_673>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PISA" ;
+        nif:beginIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "673"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Programme_for_International_Student_Assessment> .
+
+<http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_387_392>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Spain" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/171838b29908d2228e68fa47f12b#offset_0_1168> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9993582857647699"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spain> .

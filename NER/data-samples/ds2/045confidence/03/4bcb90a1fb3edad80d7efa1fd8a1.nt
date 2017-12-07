@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_0_299> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_84_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fermion" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_0_299> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fermion> .
+
+<http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_41_54>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "charge radius" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_0_299> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999968329121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Charge_radius> .
+
+<http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_128_156>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Glashow-Salam-Weinberg model" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_0_299> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Unified_field_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_0_299>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "299"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We derive an expression for the charge radius and anapole moment of a free fermion induced at one loop in the standard Glashow-Salam-Weinberg model of electroweak interactions. The result, despite earlier claims to the contrary, is demonstrably gauge-invariant and observable in principle.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_160_184>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electroweak interactions" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4bcb90a1fb3edad80d7efa1fd8a1#offset_0_299> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electroweak_interaction> .

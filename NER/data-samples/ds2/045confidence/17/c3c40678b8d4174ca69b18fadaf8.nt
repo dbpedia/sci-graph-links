@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c3c40678b8d4174ca69b18fadaf8#offset_0_703>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "703"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary We use a method that captures the intrinsic metrics of variables in a cross-tabulation to analyze data on the association between referee recommendations and editorial decisions at two scholarly journals. The method enables researchers to (1) determine the number of latent dimensions needed to account for this association, and (2) estimate scale values for both the referee-recommendation and the editorial-decision categories. We show that one latent dimension is sufficient to account for the association at each journal, and that both referee-recommendation categories and editorial-decision categories have scale values on the dimension that are consistent with their ostensible meanings.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c3c40678b8d4174ca69b18fadaf8#offset_138_145>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "referee" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c3c40678b8d4174ca69b18fadaf8#offset_0_703> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8507838569670393"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Referee_(association_football)> .
+
+<http://www.springernature.com/scigraph/things/articles/c3c40678b8d4174ca69b18fadaf8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c3c40678b8d4174ca69b18fadaf8#offset_0_703> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

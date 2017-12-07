@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#offset_0_409>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "409"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For the equation $$L[u]: = K(y)u_{xx} + u_{yy} + r(x,y)u = f(x,y)$$ (K (y)⪋0 whenevery⪋0) inG, bounded by a piecewise smooth curveΓ 0 fory>0 which intersects the liney=0 at the pointsA(−1, 0) andB(1, 0) and fory<0 by a smooth curveΓ 1 throughA which meets the characteristic of (1) throughB at the pointP, the uniqueness of the Frankl-Morawetz problem is proved without assuming thatΓ 1 is monotone.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#offset_399_407>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monotone" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "407"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#offset_0_409> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995279968038"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monotonic_function> .
+
+<http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#offset_0_409> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#offset_117_133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "piecewise smooth" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/81269666aac9dcab4a8f55ec3562#offset_0_409> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Piecewise> .

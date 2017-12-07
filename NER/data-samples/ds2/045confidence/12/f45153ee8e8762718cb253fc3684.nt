@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_324_331>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Bologna" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_0_664> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9982852949019854"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bologna> .
+
+<http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_0_664> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_0_664>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "664"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Recent studies have revealed the importance of centrality measures to analyze various spatial factors affecting human life in cities. Here we show how it is possible to extract the backbone of a city by deriving spanning trees based on edge betweenness and edge information. By using as sample cases the cities of Bologna and San Francisco, we show how the obtained trees are radically different from those based on edge lengths, and allow an extended comprehension of the “skeleton” of most important routes that so much affects pedestrian/vehicular flows, retail commerce vitality, land-use separation, urban crime and collective dynamical behaviours.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_222_236>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spanning trees" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_0_664> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spanning_tree> .
+
+<http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_484_492>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "skeleton" ;
+        nif:beginIndex          "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_0_664> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9967263152779751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Skeleton> .
+
+<http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_336_349>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "San Francisco" ;
+        nif:beginIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f45153ee8e8762718cb253fc3684#offset_0_664> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9958535320221777"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/San_Francisco> .

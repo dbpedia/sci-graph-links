@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_402_426>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high-technology industry" ;
+        nif:beginIndex          "402"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/High_tech> .
+
+<http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_140_145>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "India" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9998537321412463"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India> .
+
+<http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_395_401>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Indian" ;
+        nif:beginIndex          "395"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_0_428> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9996541254482348"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/India> .
+
+<http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_0_428> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b8fe63cdde2aa0ece712a0195717#offset_0_428>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "428"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article finds that small firms in newly industrializing countries can serve as a conduit for technical change. Small firms in India's computer industry have helped narrow the technology gap between the domestic industry and its international counterpart. Successful innovator firms have grown larger. Changes in government policies were essential for the maturation of the nascent Indian high-technology industry.\n" .

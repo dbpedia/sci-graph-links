@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/45250b91dfa6e70d3d8a550999b9#offset_0_602>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "602"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The purpose of this study is to investigate student designers’ attitude and choices towards the use of computers and paper sketches when involved in a graphic design process. 65 computer graphic technology undergraduates participated in this research. A mixed method study with survey and in-depth interviews was applied to answer the research questions. This result shows that sketches and computers as design tools help students generate ideas in the early stage of design. Students’ preferences to use sketches or computers differ, since each tool has its own advantages and disadvantages.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/45250b91dfa6e70d3d8a550999b9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/45250b91dfa6e70d3d8a550999b9#offset_0_602> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/45250b91dfa6e70d3d8a550999b9#offset_160_174>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graphic design" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45250b91dfa6e70d3d8a550999b9#offset_0_602> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999504957750115"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graphic_design> .

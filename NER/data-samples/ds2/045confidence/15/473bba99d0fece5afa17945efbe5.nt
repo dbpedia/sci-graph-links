@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_124_137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capital goods" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9764357830817806"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capital_(economics)> .
+
+<http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_0_587> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_138_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "supply chain" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8795904480886987"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supply_chain> .
+
+<http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_0_587>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "587"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We investigate the impact of four variants of supplier managed inventory on total costs and cost distribution in a capital goods supply chain consisting of a parts supplier who delivers parts to an original equipment manufacturer’s assembly plant. The four supplier managed inventory variants differ in the components of inventory costs that the supplier has to carry. The performance of the supplier managed inventory relationships is benchmarked with the situation where the assembly plant manages the inventories. Interesting managerial insights follow from this comparison.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_207_238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "original equipment manufacturer" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/473bba99d0fece5afa17945efbe5#offset_0_587> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Original_equipment_manufacturer> .

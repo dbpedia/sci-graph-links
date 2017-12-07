@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_20_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ethnographic" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999879465810835"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethnography> .
+
+<http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_665_680>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "moral reasoning" ;
+        nif:beginIndex          "665"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "680"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.919445479142335"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ethics> .
+
+<http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_0_871> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_0_871>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "871"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We draw on ethnographic studies to understand the collaborative nature of network policies or rules in domestic settings. We outline the technical nature of network policy in enterprise domains and how this contrasts with the social or collaborative nature of rules in everyday life. We then consider the deployment of network control and policy system interfaces in domestic settings, highlighting the ways in which household members collaboratively exploited these to support network governance. Our results suggest that an important feature of network policy in domestic contexts is that rules about network activity are shaped by and answerable to the moral reasoning that governs domestic life. This reframes our understanding of how rules are oriented to and used in the home and has significant implications for the design of home network policy systems.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_487_505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network governance" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e3d285b3ff9bc3fb730654577306#offset_0_871> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Network_governance> .

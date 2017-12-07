@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_155_175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytical chemistry" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_0_177> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999980564643074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytical_chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_86_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemistry" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_0_177> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994279451369005"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_0_177>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "177"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. The people, places and political influences of importance in the history of chemistry in Belgium have been reviewed with particular reference to analytical chemistry.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_99_106>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Belgium" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_0_177> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9991874385283922"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Belgium> .
+
+<http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/95fad02bb097eee8f6fd8dd46f31#offset_0_177> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

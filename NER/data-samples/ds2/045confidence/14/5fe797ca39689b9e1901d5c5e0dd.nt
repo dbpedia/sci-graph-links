@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe797ca39689b9e1901d5c5e0dd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5fe797ca39689b9e1901d5c5e0dd#offset_0_406> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe797ca39689b9e1901d5c5e0dd#offset_60_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "purchasing power parity (ppp)" ;
+        nif:beginIndex          "60"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5fe797ca39689b9e1901d5c5e0dd#offset_0_406> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998805698123576"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Purchasing_power_parity> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe797ca39689b9e1901d5c5e0dd#offset_0_406>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "406"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary In this paper the absolute and relative versions of purchasing power parity (ppp) are tested using annual data (over the period 1973–1985) for 5 countries. In contrast to much of the literature on ppp, evidence in favour of the ppp hypothesis is reported, particularly when a wholesale price index is used. A novel feature of the approach is the use of a pooled cross section-time series analysis.\n" .

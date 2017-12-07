@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_610_621>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Naïve Bayes" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Naive_Bayes_classifier> .
+
+<http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_0_899>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "899"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Privacy-preserving data mining—developing models without seeing the data – is receiving growing attention. This paper assumes a privacy-preserving distributed data mining scenario: data sources collaborate to develop a global model, but must not disclose their data to others. The problem of secure distributed classification is an important one. In many situations, data is split between multiple organizations. These organizations may want to utilize all of the data to create more accurate predictive models while revealing neither their training data/databases nor the instances to be classified. Naïve Bayes is often used as a baseline classifier, consistently providing reasonable classification performance. This paper brings privacy-preservation to that baseline, presenting protocols to develop a Naïve Bayes classifier on both vertically as well as horizontally partitioned data.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_650_660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classifier" ;
+        nif:beginIndex          "650"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998372018258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_classification> .
+
+<http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_821_837>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bayes classifier" ;
+        nif:beginIndex          "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "837"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996919219968253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bayes_error_rate> .
+
+<http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_168_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data mining" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_0_899> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_mining> .
+
+<http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5bbc5d010dcd14aa8d4db03e42da#offset_0_899> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

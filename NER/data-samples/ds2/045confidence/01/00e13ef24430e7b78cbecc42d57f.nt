@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_205_216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convolution" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convolution> .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_342_356>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weak solutions" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "356"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weak_solution> .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_225_232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hartree" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.926699419798443"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hartree> .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "456"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this note we expose some results proved in d’Avenia et al. [8] concerning an elliptic problem in $${\\\\mathbb {R}}^{N}$$ RN which involves two nonlocal operators: the fractional Laplacian and a convolution term of Hartree type. This equation has been called fractional Choquard equation. The results obtained concern regularity of weak solutions, existence and properties of ground states, as well as multiplicity and nonexistence of solutions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_132_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RN" ;
+        nif:beginIndex          "132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/MilitaryUnit> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9819302749953908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Royal_Navy> .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_189_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laplacian" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/00e13ef24430e7b78cbecc42d57f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999992977223"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laplace_operator> .

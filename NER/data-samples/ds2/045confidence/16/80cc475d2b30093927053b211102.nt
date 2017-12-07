@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#offset_662_670>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dividend" ;
+        nif:beginIndex          "662"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "670"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#offset_0_704> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999902822779436"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dividend> .
+
+<http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#offset_0_704> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#offset_587_601>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Czech Republic" ;
+        nif:beginIndex          "587"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#offset_0_704> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9999968036034869"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Czech_Republic> .
+
+<http://www.springernature.com/scigraph/things/articles/80cc475d2b30093927053b211102#offset_0_704>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "704"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The direct ownership structure in a sector can be readily obtained from data on shareholding. Due to cross-shareholding, however, the true ownership structure may be hidden by a complex network of indirect relations. In studying the property structure, two important aspects are the size of the relations between primary owners (e.g. individuals) and secondary owners (e.g. companies), and the distance between them. The distance is obtained from the average number of secondary owners via whom the relation runs. As an empirical application, we study the banking sector in the Czech Republic, where also the relation between distance and separation of dividend and control rights is discussed.\n" .

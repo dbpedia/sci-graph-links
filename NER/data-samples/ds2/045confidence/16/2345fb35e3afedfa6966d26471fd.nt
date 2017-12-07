@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#offset_415_448>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Schiller International University" ;
+        nif:beginIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#offset_0_808> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Schiller_International_University> .
+
+<http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#offset_0_808> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#offset_0_808>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "808"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract One of the most widely discussed and highly agreed upon curricular issues for business and economic programs is the need to integrate international topics into the curriculum. Evidence indicates that little progress has been made in achieving this objective. To ignite the process of internationalizing the curriculum, a departmental study abroad program, based on the experience of Niagara University and Schiller International University, is proposed. Unlike most study abroad models, this approach systematically links the curricula of the host and domestic institutions. Faculty, who on most campuses are largely bystanders in the study abroad process, now assume a central role. This approach makes study abroad a major campus focus and a source of faculty development in international topics.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#offset_392_410>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Niagara University" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2345fb35e3afedfa6966d26471fd#offset_0_808> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/EducationalOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/University> , <http://schema.org/CollegeOrUniversity> ;
+        itsrdf:taConfidence     "0.999958361637748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Niagara_University> .

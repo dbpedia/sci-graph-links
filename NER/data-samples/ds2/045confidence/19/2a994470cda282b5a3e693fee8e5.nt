@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2a994470cda282b5a3e693fee8e5#offset_515_529>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semi-automatic" ;
+        nif:beginIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "529"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2a994470cda282b5a3e693fee8e5#offset_0_1040> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.855589655002191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semi-automatic_firearm> .
+
+<http://www.springernature.com/scigraph/things/articles/2a994470cda282b5a3e693fee8e5#offset_0_1040>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1040"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Sound tagging has been studied for years. Among all sound types, music, speech, and environmental sound are three hottest research areas. This survey aims to provide an overview about the state-of-the-art development in these areas. We discuss about the meaning of tagging in different sound areas at the beginning of the journey. Some examples of sound tagging applications are introduced in order to illustrate the significance of this research. Typical tagging techniques include manual, automatic, and semi-automatic approaches. After reviewing work in music, speech and environmental sound tagging, we compare them and state the research progress to date. Research gaps are identified for each research area and the common features and discriminations between three areas are discovered as well. Published datasets, tools used by researchers, and evaluation measures frequently applied in the analysis are listed. In the end, we summarise the worldwide distribution of countries dedicated to sound tagging research for years.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2a994470cda282b5a3e693fee8e5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2a994470cda282b5a3e693fee8e5#offset_0_1040> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

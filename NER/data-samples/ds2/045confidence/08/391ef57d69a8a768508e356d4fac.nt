@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#offset_102_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relative prime" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coprime_integers> .
+
+<http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#offset_174_180>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dither" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#offset_0_611> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dither> .
+
+<http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#offset_0_611>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "611"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper presents a number of distance upper bounds for Turbo-codes designed with dithered relative prime (drp) interleavers. These bounds help determine how much dither should be applied and which input data patterns to test when designing high-distance interleavers with different lengths. Using a block length of only 640 data bits, true minimum distances of 30, 42 and 53 have been achieved for rate 1/3 Turbo-codes with 4, 8 and 16-state constituent codes, respectively. Simulated error rate results for a block length of 1504 data bits (188 bytes,mpeg packet) show excellent flare performance.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/391ef57d69a8a768508e356d4fac#offset_0_611> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

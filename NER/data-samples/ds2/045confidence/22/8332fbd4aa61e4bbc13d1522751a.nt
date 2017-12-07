@@ -1,0 +1,121 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "723"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper proposes a “reading” of the church of San Lorenzo in Turin, designed by Guarino Guarini, through the philosophical notion of “fold” introduced by Gilles Deleuze. The paper consists of two parts. The first part contains an exploration of the notion of “fold” in architecture and in philosophy and examines the use of the fold in the theory of Baroque architecture as well as the range of this new tool in architectural practise in contemporary architecture and in philosophy and examines the use of the fold as fundamental condition for understanding Baroque era. The second part contains the application of the notion of fold as a philosophical and conceptual framework for the “reading” of the chapel.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_570_577>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Baroque" ;
+        nif:beginIndex          "570"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9813232073015357"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Baroque> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_483_493>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9924908395299911"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_58_69>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "San Lorenzo" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ReligiousBuilding> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Building> ;
+        itsrdf:taConfidence     "0.99197068974062"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Basilica_of_San_Lorenzo,_Florence> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_73_78>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turin" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "78"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9999976000120038"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turin> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_463_475>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9825976809046427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Architecture> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_281_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9825976809046427"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Architecture> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_301_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "301"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9924908395299911"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_92_107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Guarino Guarini" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Guarino_Guarini> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_362_382>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Baroque architecture" ;
+        nif:beginIndex          "362"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "382"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9211408962486661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Baroque_architecture> .
+
+<http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_166_180>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gilles Deleuze" ;
+        nif:beginIndex          "166"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8332fbd4aa61e4bbc13d1522751a#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Philosopher> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gilles_Deleuze> .

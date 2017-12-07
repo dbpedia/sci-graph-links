@@ -1,0 +1,100 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_207_216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dysphagia" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dysphagia> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_260_268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "etiology" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999790853169"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Etiology> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "384"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. A case of necrotizing esophagitis discovered during upper endoscopy is described. An 88-year-old woman was admitted to our hospital with complaints of multiple episodes of coffee ground emesis and dysphagia over 3 months. Ischemia is proposed as the etiology of necrotizing esophagitis on the basis of the patient's significant cardiac history, her age, and low-flow state.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_32_43>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "esophagitis" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Esophagitis> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_196_202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "emesis" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vomiting> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_232_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ischemia" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ischemia> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_182_188>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coffee" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "188"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Food> , <http://dbpedia.org/ontology/Beverage> ;
+        itsrdf:taConfidence     "0.9995314870126644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coffee> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_284_295>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "esophagitis" ;
+        nif:beginIndex          "284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Esophagitis> .
+
+<http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_62_77>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper endoscopy" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/52b9dbd56dac76f97b96cdaf5173#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Esophagogastroduodenoscopy> .

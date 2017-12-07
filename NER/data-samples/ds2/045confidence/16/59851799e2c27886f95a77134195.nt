@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#offset_0_288> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#offset_0_288>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "288"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We introduce and study a one-parameter family of capacity characteristics of condensers in ℝ p ,p ≥ 3, that contains some known capacities as elements extremal with respect to the parameter. We establish new relations between the capacity characteristics of condensers and sets.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#offset_86_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "condensers" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#offset_0_288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6785092169284193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capacitor> .
+
+<http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#offset_267_277>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "condensers" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/59851799e2c27886f95a77134195#offset_0_288> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6785092169284193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capacitor> .

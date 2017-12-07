@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "475"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary 1. Geographical variation in the song of Zonotrichia capensis, the Rufous-Collared Sparrow, in northwestern Argentina is discussed. Boundaries between song ‘dialects’ appear to have been stable for at least 10 years. 2. The pattern of song change previously described on a transect across the Aconquija mountains is shown to be duplicated on similar transects elsewhere in these mountains. The association of song types with features of the environment is supported.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_281_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transect" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999726812663289"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transect> .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_75_98>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rufous-Collared Sparrow" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rufous-collared_Sparrow> .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_116_125>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Argentina" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999953167711011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Argentina> .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_49_69>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Zonotrichia capensis" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rufous-collared_Sparrow> .
+
+<http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_358_367>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transects" ;
+        nif:beginIndex          "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4a6f3534e9134a5e0ea0a075f026#offset_0_475> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999682245"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transect> .

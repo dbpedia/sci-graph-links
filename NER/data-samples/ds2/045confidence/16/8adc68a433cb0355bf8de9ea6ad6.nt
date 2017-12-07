@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#offset_336_362>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Brunn–Minkowski inequality" ;
+        nif:beginIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "362"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#offset_0_397> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Brunn–Minkowski_theorem> .
+
+<http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#offset_74_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Prékopa–Leindler inequality" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#offset_0_397> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prékopa–Leindler_inequality> .
+
+<http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#offset_0_397> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8adc68a433cb0355bf8de9ea6ad6#offset_0_397>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "397"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Two consequences of the stability version of the one dimensional Prékopa–Leindler inequality are presented. One is the stability version of the Blaschke–Santaló inequality, and the other is a stability version of the Prékopa– Leindler inequality for even functions in higher dimensions, where a recent stability version of the Brunn–Minkowski inequality is also used in an essential way.\n" .

@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_0_184> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_117_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abscission" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_0_184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999999801"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abscission> .
+
+<http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_162_171>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pistachio" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "171"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_0_184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9998261378845218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pistachio> .
+
+<http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_0_184>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "184"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The present study was conducted in order to examine the physiological role of free polyamines in flower bud abscission. For this reason five 15-year old pistachio trees cv. \\\n" .
+
+<http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_92_102>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polyamines" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fb7656e9af4be4523f940941c91d#offset_0_184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999973185254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polyamine> .

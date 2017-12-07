@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_0_784>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "784"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A modern approach to the search for biologically active substances of potential therapeutic use isolated from marine organisms is illustrated by a presentation of the multidisciplinary project pursued by the Roche Research Institute of Marine Pharmacology near Sydney, Australia. This specialized insitute is part of the world-wide research endeavour of our company and has now been in operation for five years. Following a brief outline of the technical functions the main scientific achievements published by the scientists of the institute are reviewed. This institute is, to our knowledge, the only one of its kind in private industry and we have attempted to demonstrate how its activities should be viewed in the overall context of today's drug or product development.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_270_287>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sydney, Australia" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_0_784> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999705305164708"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sydney> .
+
+<http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_350_359>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endeavour" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_0_784> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5745666606198686"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Space_Shuttle_Endeavour> .
+
+<http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_0_784> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_119_125>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marine" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8416497f1a5bc501ee8273206f3#offset_0_784> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996808563656786"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marine_biology> .

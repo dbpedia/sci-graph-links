@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#offset_0_1024>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1024"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The interdependent motives of cooperation and competition are integral to adaptive social functioning. In three experiments, we provide novel evidence that both cooperation and competition goals enhance perceptual acuity for both angry and happy faces. Experiment 1 found that both cooperative and competitive motives improve perceivers’ ability to discriminate between genuine and deceptive smiles. Experiment 2 revealed that both cooperative and competitive motives improve perceivers’ perceptual sensitivity to subtle differences among happy and angry facial expressions. Finally, Experiment 3 found that the motivated increase in perceptual acuity for happy and angry expressions allows perceivers to overcome the effects of visual noise, relative to unmotivated control participants. Collectively, these results provide novel evidence that the interdependent motives of cooperation and competition can attune visual perception, accentuating the subjectively experienced signal strength of anger and happiness.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#offset_923_940>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "visual perception" ;
+        nif:beginIndex          "923"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#offset_0_1024> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7197203782993575"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Visual_perception> .
+
+<http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#offset_1013_1022>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "happiness" ;
+        nif:beginIndex          "1013"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1022"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#offset_0_1024> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Happiness> .
+
+<http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3c732906a8f40522ce06ec0293ce#offset_0_1024> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

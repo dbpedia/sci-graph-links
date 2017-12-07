@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/138fd4872a2438abef439ba12c9f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/138fd4872a2438abef439ba12c9f#offset_0_292> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/138fd4872a2438abef439ba12c9f#offset_23_42>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "simulation modeling" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/138fd4872a2438abef439ba12c9f#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999908954167235"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Simulation> .
+
+<http://www.springernature.com/scigraph/things/articles/138fd4872a2438abef439ba12c9f#offset_0_292>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "292"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The method of simulation modeling was used to perform a comparative analysis of the characteristics of a number of agreement criteria under conditions of restricted sampling. A method is proposed for modifying the χ2 criterion for the purpose of broadening its range of application.\n" .

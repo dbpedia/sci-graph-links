@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_640_652>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Werner Milch" ;
+        nif:beginIndex          "640"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_0_692> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/MilitaryPerson> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Werner_Milch> .
+
+<http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_0_692> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_229_244>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "circumscription" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_0_692> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9592250629586719"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circumscription_(taxonomy)> .
+
+<http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_213_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "science" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_0_692> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.97673942188083"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science> .
+
+<http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_174_190>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "economic history" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_0_692> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999900213101609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_history> .
+
+<http://www.springernature.com/scigraph/things/articles/5052a5f0642b0014e2f6123602ed#offset_0_692>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "692"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract There is no reason why history should always be the history of a nation and nothing else. Only in literary studies one meets with this notion (...); in political or economic history, history of art or of science no such circumscription is conceivable. And people stick to it merely on account of linguistic difficulty. As the literary historian cannot be conversant with all the provinces of European literature, he turns his limitations to advantage, substitutes an objective demarcation for a subjective one and represents literary history as the history of a national literature instead of keeping his eye on the larger whole. (Werner Milch,Europäische Literaturgeschichte, 1949)\n" .

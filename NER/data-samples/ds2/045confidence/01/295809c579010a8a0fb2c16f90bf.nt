@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_341_359>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Harnack inequality" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Harnack's_inequality> .
+
+<http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_326_334>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Poincaré" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "334"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999897384634111"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Henri_Poincaré> .
+
+<http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_127_144>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invariant measure" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invariant_measure> .
+
+<http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_0_361>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We solve a time-dependent linear SPDE with additive Lévy noise in the mild and weak sense. Existence of a generalized invariant measure for the associated transition semigroup is established and the generator is studied on the corresponding L 2-space. The square field operator is characterized, allowing to derive a Poincaré and a Harnack inequality.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_175_184>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semigroup" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/295809c579010a8a0fb2c16f90bf#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999507168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semigroup> .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_805_827>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "irreversible processes" ;
+        nif:beginIndex          "805"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999989244054277"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reversible_process_(thermodynamics)> .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_627_647>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reversible adiabatic" ;
+        nif:beginIndex          "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "647"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isentropic_process> .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "834"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Planck’s work on the Second Law of Thermodynamics in combination with a simple thermodynamic approach developed by Blinder show that the concept of entropy is introduced from the First and not the Second Law of Thermodynamics. In particular, it is proved that the First Law of Thermodynamics leads directly to the following statement: For every system of whatever complexity there exists an extensive function of state S defined from dS = δqrev/T, where δqrev is the infinitesimal quantity of heat exchanged reversibly between the system and the surroundings and T is the absolute temperature of the system. Thus, for reversible adiabatic processes we readily have from the First Law that dS = 0. Therefore, the Second Law should be properly reformulated, restricted to the inequality dS ≫ 0 for irreversible processes only.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_581_601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "absolute temperature" ;
+        nif:beginIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996359086402065"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermodynamic_temperature> .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_157_164>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "entropy" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999868123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Entropy> .
+
+<http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_476_498>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infinitesimal quantity" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/08fbbce9bc74d0bb88730d9632ad#offset_0_834> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calculus> .

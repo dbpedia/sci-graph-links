@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_0_538>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "538"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The aim of this paper is to analyze the role that aggregate R&D-expenditure plays in economic growth. We introduce a technology of innovation based on expenditure that generates endogenous sustainable growth in absence of any scale effect. This R&D-model permits us to study the effects of some fiscal policies. In particular, we analyze how subsidies to R&D-investment and physical capital accumulation affect the long-run growth rate. For the empirical cross-country analysis we directly derive a structural econometric model.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_392_412>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "capital accumulation" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_0_538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994771159655522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Capital_accumulation> .
+
+<http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_187_197>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endogenous" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_0_538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999646454639263"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Endogenous_growth_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_0_538> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_519_536>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "econometric model" ;
+        nif:beginIndex          "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "536"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f2494d6afc1c179c10482d566d5#offset_0_538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Econometric_model> .

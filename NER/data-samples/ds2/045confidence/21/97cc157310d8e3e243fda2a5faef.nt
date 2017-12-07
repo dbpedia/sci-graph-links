@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#offset_380_394>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Migraine Trust" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#offset_0_395> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Migraine_Trust> .
+
+<http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#offset_0_395> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#offset_162_170>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "migraine" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#offset_0_395> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999997743316"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Migraine> .
+
+<http://www.springernature.com/scigraph/things/articles/97cc157310d8e3e243fda2a5faef#offset_0_395>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "395"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The history of a medical charity founded for the purpose of initiating research into the commonest of all human afflictions—headache. Of the 100 causes, migraine is one of the commonest, and in spite of the lack of interest of the medical profession, this review shows how the pace of research rapidly increased as evidenced by the biennial International Symposia of the Migraine Trust\n" .

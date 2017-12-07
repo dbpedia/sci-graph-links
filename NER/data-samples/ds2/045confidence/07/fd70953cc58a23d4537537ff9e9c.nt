@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_113_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "meteorological" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_0_822> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9859362210070447"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Meteorology> .
+
+<http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_799_820>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discriminant analysis" ;
+        nif:beginIndex          "799"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_0_822> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_discriminant_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_617_622>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "China" ;
+        nif:beginIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_0_822> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9992548788717658"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/China> .
+
+<http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_156_161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "China" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_0_822> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9992548788717658"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/China> .
+
+<http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_0_822>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "822"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The relationship is examined between vegetation and climate using climatic variables collected from 644 meteorological stations located throughout China. Multivariate methods are applied directly to the raw climatic data in order to define ‘climatic clusters’ and to examine the relationship between the clusters and vegetation types. This approach is based on the concept of multidimensional climatic space defined by the combination of climatic variables. Phytoclimatic classes are defined on the basis of the distribution of vegetation types in climatic clusters and a new phytoclimatic classification of China is proposed. Patterns of climatic changes between neighbouring phytoclimatic classes are described. Two indexes of the influence of climate on vegetation are proposed based on discriminant analysis.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fd70953cc58a23d4537537ff9e9c#offset_0_822> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

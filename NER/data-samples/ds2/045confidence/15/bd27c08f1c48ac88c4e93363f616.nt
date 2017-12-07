@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_728_731>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "R&D" ;
+        nif:beginIndex          "728"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_0_1249> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Research_and_development> .
+
+<http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_532_552>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "agent-based modeling" ;
+        nif:beginIndex          "532"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_0_1249> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Agent-based_model> .
+
+<http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_1117_1124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "synergy" ;
+        nif:beginIndex          "1117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_0_1249> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996308588"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Synergy> .
+
+<http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_278_302>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computational complexity" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_0_1249> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999678374718191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_complexity_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_0_1249>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1249"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The factors which speed and slow technological innovation have been of interest to policy makers since at least the mid 1960's. Since that time, many theoretical models of innovation at the firm level and at the industry level have been proposed. Due to limitations in computational complexity, nearly all of these models have assumed a single, representative firm type. Very few have systematically investigated the implications of markets with a variety of firm types. With increases in computing power and the advent of agent-based modeling, interactions between agent types can now be explored. In this paper, a computational model of innovative firms in competitive markets is presented. Firms devote resources to R&D which can lead to new, improved products allowing firms to steal market share from their competitors. Two types of firms, differentiated by the strategies they use in pursuing new innovations, are allowed to coexist. One type pursues exclusively radical innovations, while the other pursues exclusively incremental innovations. It will be demonstrated that under certain conditions, a synergy exists between firms of different types which allows heterogeneous populations of firms to earn more than homogeneous ones.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bd27c08f1c48ac88c4e93363f616#offset_0_1249> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

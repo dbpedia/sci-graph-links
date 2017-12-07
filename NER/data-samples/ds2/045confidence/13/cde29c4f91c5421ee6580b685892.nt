@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_13_22>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Tennessee" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/Place> , <http://schema.org/AdministrativeArea> , <http://dbpedia.org/ontology/AdministrativeRegion> ;
+        itsrdf:taConfidence     "0.9795344381531728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tennessee> .
+
+<http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_135_147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multivariate" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998852009662745"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_296_305>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnitude" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_0_870> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9701499879153455"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .
+
+<http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_0_870>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "870"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Tennessee Value-Added Assessment System (TVAAS) has been designed to use statistical mixed-model methodologies to conduct multivariate, longitudinal analyses of student achievement to make estimates of school, class size, teacher, and other effects. This study examined the relative magnitude of teacher effects on student achievement while simultaneously considering the influences of intraclassroom heterogeneity, student achievement level, and class size on academic growth. The results show that teacher effects are dominant factors affecting student academic gain and that the classroom context variables of heterogeneity among students and class sizes have relatively little influence on academic gain. Thus, a major conclusion is that teachers make a difference. Implications of the findings for teacher evaluation and future research are discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cde29c4f91c5421ee6580b685892#offset_0_870> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

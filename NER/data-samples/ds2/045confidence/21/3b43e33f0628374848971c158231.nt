@@ -1,0 +1,121 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_167_182>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "organized labor" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9802384693200495"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trade_union> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_66_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8689792529825223"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Federal_government_of_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_74_97>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "air traffic controllers" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988686785297001"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Air_traffic_controller> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_246_268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Homestead steel strike" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homestead_Strike> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_469_488>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "replacement workers" ;
+        nif:beginIndex          "469"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9841102910863958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Strike_action> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_256_268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steel strike" ;
+        nif:beginIndex          "256"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.989123106287672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/1952_steel_strike> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "598"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article argues that the unsuccessful 1981 strike of federal air traffic controllers was the most significant single event in accelerating the decline of organized labor in the United States in the late 20th century. Like the failed Homestead steel strike of 1892, the PATCO strike cast a long shadow over US labor relations for many years after the event itself. Among the effects of the strike was the role it played in legitimizing the use of permanent replacement workers during strikes. This article draws lessons from the PATCO debacle that are worth considering 25 years later.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_541_546>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PATCO" ;
+        nif:beginIndex          "541"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/TradeUnion> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Professional_Air_Traffic_Controllers_Organization_(1968)> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_190_203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.999261130404967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_282_294>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "PATCO strike" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/TradeUnion> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Professional_Air_Traffic_Controllers_Organization_(1968)> .
+
+<http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_51_62>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "1981 strike" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3b43e33f0628374848971c158231#offset_0_598> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/TradeUnion> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999999819238"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Professional_Air_Traffic_Controllers_Organization_(1968)> .

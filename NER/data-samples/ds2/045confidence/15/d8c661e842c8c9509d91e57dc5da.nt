@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#offset_0_411>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "411"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The theoretical literature demonstrates that excess capacity is not an equilibrium phenomenon if each firm’s marginal revenue decreases with the competitor’s output. We show that such a conclusion can be overturned in the presence of technology licensing. We show that in the presence of technology licensing, a firm may hold excess capacity because it increases the benefit from technology licensing.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#offset_0_411> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#offset_80_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983528272438317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_equilibrium> .
+
+<http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#offset_118_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marginal revenue" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d8c661e842c8c9509d91e57dc5da#offset_0_411> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marginal_revenue> .

@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#offset_447_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Swiss" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999544978590152"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Switzerland> .
+
+<http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#offset_223_236>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "impact factor" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#offset_0_1208> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Impact_factor> .
+
+<http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#offset_0_1208>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1208"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract There is an increasing trend towards assessing the scientific performance of researchers and institutions of higher learning in the form of journal publications and the associated citations. Currently, the journal impact factor (JIF) value is the most widely used measure for any academic contents. However, there are growing concerns for the unethical practices adopted by journal editors to manipulate the JIF computations. Recently, a Swiss journal, Folia Phoniatrica et Logopaedica which has a JIF value of 0.655 in the year 2006 registers a remarkable JIF increment (of 119%) to 1.439 in the year 2007. It is believed that the journal can achieve such a prominent JIF improvement by publishing a single editorial article that self-cited 66 of its own articles published either in the year 2005 or 2006. The journal has been revoked of any JIF value in the following year of 2008. Thus, it is interesting to review the possible alternative bibliographical trend for the journal should the self-cite event has been avoided, the circumstances leading to the decision by the editor to publish such an article and the possible ethical implications or lessons that can be derived from this incident.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d29d224c4eac3e19694f9e94a85a#offset_0_1208> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

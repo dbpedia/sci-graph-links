@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_0_666>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "666"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We study the path properties for the δ-pinning wetting model in (1+1)–dimension. In other terms, we consider a random walk model with fairly general continuous increments conditioned to stay in the upper half plane and with a δ-measure reward for touching zero, that is the boundary of the forbidden region. It is well known that such a model displays a localization/delocalization transition, according to the size of the reward. Our focus is on getting a precise pathwise description of the system, in both the delocalized phase, that includes the critical case, and in the localized one. From this we extract the (Brownian) scaling limits of the model.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_121_132>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random walk" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_0_666> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_walk> .
+
+<http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_523_534>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "delocalized" ;
+        nif:beginIndex          "523"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "534"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_0_666> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999984084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Delocalized_electron> .
+
+<http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_377_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "delocalization" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_0_666> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999984084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Delocalized_electron> .
+
+<http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_57_64>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wetting" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_0_666> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999969210579926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wetting> .
+
+<http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/472b28202cb8fa35fc5ebc675155#offset_0_666> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

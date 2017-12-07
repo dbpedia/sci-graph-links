@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "482"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A construction of codes of length n = q + 1 and minimum Hamming distance 3 over $$GF(q)\\\\!\\\\setminus\\\\!\\\\{0\\\\}$$ is given. Substitution of the derived codes into a concatenation construction yields nonlinear binary single-error correcting codes with better than known parameters. In particular, new binary single-error correcting codes having more codewords than the best previously known in the range n ≤ 512 are obtained for the lengths 64–66, 128–133, 256–262, and 512.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_173_186>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concatenation" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7143446127574747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concatenation> .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_207_216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonlinear" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997419727595536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonlinear_system> .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_308_314>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999332835636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_217_223>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "217"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999332835636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_number> .
+
+<http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_65_81>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamming distance" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cec92ded9bf5d5f4c24b08ff1ce2#offset_0_482> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamming_distance> .

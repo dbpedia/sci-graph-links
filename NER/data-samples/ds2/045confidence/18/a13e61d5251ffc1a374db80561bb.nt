@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_157_174>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Laplace transform" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_0_404> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laplace_transform> .
+
+<http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_248_257>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bernoulli" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_0_404> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999928832"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bernoulli_distribution> .
+
+<http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_0_404>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "404"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we essentially compute the set of x,y>0 such that the mapping $z\\\\longmapsto(1-r+re^{z})^{x}(\\\\frac{\\\\lambda}{\\\\lambda-z})^{y}$ is a Laplace transform. If X and Y are two independent random variables which have respectively Bernoulli and Gamma distributions, we denote by μ the distribution of X+Y. The above problem is equivalent to finding the set of x>0 such that μ *x exists.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_207_223>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random variables" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_0_404> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_variable> .
+
+<http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_262_281>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Gamma distributions" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "281"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_0_404> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gamma_distribution> .
+
+<http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a13e61d5251ffc1a374db80561bb#offset_0_404> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

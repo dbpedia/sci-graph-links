@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_314_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial" ;
+        nif:beginIndex          "314"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999758256962816"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_191_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "censored data" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Censoring_(statistics)> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_515_520>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cells" ;
+        nif:beginIndex          "515"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999153659388925"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_459_470>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear time" ;
+        nif:beginIndex          "459"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998437265120012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_140_162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computational problems" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/787dbbc468e8137f9c8e378d5231#offset_0_542>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "542"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The technique of data suppression for protecting sensitive information in a two-dimensional table from exact disclosure raises the computational problems of testing a given table of censored data for security, and searching for a secure suppression pattern of minimum size for a given table. We provide a polynomial security test to solve the former problem, and prove that the latter problem is intractable in the general case, but can be solved in linear time in the special case in which only sensitive cells are to be protected.\n" .

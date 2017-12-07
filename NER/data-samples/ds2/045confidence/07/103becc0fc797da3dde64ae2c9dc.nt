@@ -1,0 +1,234 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_1068_1073>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ozone" ;
+        nif:beginIndex          "1068"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1073"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999671588897816"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ozone> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_715_718>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ATP" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999964779818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_139_144>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Karst" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994530899489"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Karst> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_1078_1093>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sulphur dioxide" ;
+        nif:beginIndex          "1078"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sulfur_dioxide> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_1251_1261>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "senescence" ;
+        nif:beginIndex          "1251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Senescence> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1282"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Pool sizes of ATP and ADP were analysed in freeze-stopped, lyophilised homogenates of needles from Norway spruce [Picea abies (L.) Karst.]. Control experiments in which possible changes in adenylate pools during sample acquisition were investigated did not reveal significant differences between needles taken from branches in situ or within a 30-min period after cutting off a branch. In addition, pool sizes of ADP and ATP were not affected by changes in light intensity (between 60 and 1500 μE*-m-2*s-1), which inevitably occur when samples have to be taken from the upper region of older trees. Levels of ATP and ADP showed considerable seasonal changes (May through October) with the highest ratios of ATP/ADP in developing needles. In general, there was a tendency towards increased ratios of ATP/ADP with increasing needle age. This observation was corroborated by analyses of needles from spruce trees of different age and growing under different conditions. Needles from declining trees or from trees specifically fumigated with low concentrations of ozone and sulphur dioxide had significantly increased ratios of ATP/ADP compared to controls. The results are discussed with respect to physiological responses connected with natural senescence and induced ageing.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_617_620>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ATP" ;
+        nif:beginIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "620"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999964779818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_1132_1135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ATP" ;
+        nif:beginIndex          "1132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999964779818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_122_133>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Picea abies" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Conifer> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Plant> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Picea_abies> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_429_432>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ATP" ;
+        nif:beginIndex          "429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999964779818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_22_25>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ATP" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9999999964779818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_79_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homogenates" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999925023988"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_719_722>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADP" ;
+        nif:beginIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.9976955904869782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_107_120>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Norway spruce" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Conifer> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Picea_abies> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_811_814>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ADP" ;
+        nif:beginIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "814"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9976955904869782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_905_911>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spruce" ;
+        nif:beginIndex          "905"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Conifer> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.8924391542732297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spruce> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_1136_1139>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADP" ;
+        nif:beginIndex          "1136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9976955904869782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_421_424>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ADP" ;
+        nif:beginIndex          "421"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9976955904869782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_807_810>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ATP" ;
+        nif:beginIndex          "807"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "810"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9999999964779818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_30_33>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ADP" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9976955904869782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .
+
+<http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_625_628>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ADP" ;
+        nif:beginIndex          "625"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/103becc0fc797da3dde64ae2c9dc#offset_0_1282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "0.9976955904869782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adenosine_triphosphate> .

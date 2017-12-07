@@ -1,0 +1,99 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_454_463>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Criterion" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.6042278057727272"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Criterion_Collection> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_274_292>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear programming" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_501_515>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiobjective" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "515"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multi-objective_optimization> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "619"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, the development of a methodology for the calculation of questions’ difficulty degree and creation of exams for distance education trainees is presented. The methodology is based on the principles of multicriteria decision analysis and multiobjective linear programming. The UTA* method is used in order to calculate the difficulty degree of any hypothetical question that can be described from the criteria defined and the Global Criterion method is used in order to solve the multiobjective mixed integer linear programming model that is constructed in order to create a test for the trainees.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_135_153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "distance education" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999764281714"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Distance_education> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_298_301>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "UTA" ;
+        nif:beginIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/EducationalOrganization> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://schema.org/CollegeOrUniversity> ;
+        itsrdf:taConfidence     "0.5250733384915132"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/University_of_Texas_at_Arlington> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_259_273>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiobjective" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multi-objective_optimization> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_516_548>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mixed integer linear programming" ;
+        nif:beginIndex          "516"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_237_254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decision analysis" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10ef9121395d455f9183fbaf2436#offset_0_619> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_analysis> .

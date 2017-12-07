@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_79_87>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_0_180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997420197755154"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle> .
+
+<http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_0_180>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "180"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We show thatn random points chosen independently and uniformly from a triangle are in convex position with probability $$\\\\frac{{2^n (3n - 3)!}}{{((n - 1)!)^3 (2n)!}}$$ .\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_95_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convex position" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_0_180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convex_position> .
+
+<http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_116_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_0_180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9309696510702908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b584deafe28275374f56b5380e0e#offset_0_180> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

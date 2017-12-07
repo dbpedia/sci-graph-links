@@ -1,0 +1,90 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_727_731>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cdot" ;
+        nif:beginIndex          "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "731"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/GovernmentAgency> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://schema.org/GovernmentOrganization> ;
+        itsrdf:taConfidence     "0.7793239225089932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colorado_Department_of_Transportation> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_1086_1093>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infimum" ;
+        nif:beginIndex          "1086"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1093"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9952688882133519"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infimum_and_supremum> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_653_657>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cdot" ;
+        nif:beginIndex          "653"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/GovernmentAgency> , <http://schema.org/GovernmentOrganization> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.7793239225089932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colorado_Department_of_Transportation> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_530_537>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infimum" ;
+        nif:beginIndex          "530"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "537"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9952688882133519"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infimum_and_supremum> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_36_48>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lévy process" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lévy_process> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1095"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Let $$X$$ be a real valued Lévy process that is in the domain of attraction of a stable law without centering with norming function $$c.$$ As an analogue of the random walk results in Vatutin and Wachtel (Probab Theory Relat Fields 143(1–2):177–217, 2009) and Doney (Probab Theory Relat Fields 152(3–4):559–588, 2012), we study the local behaviour of the distribution of the lifetime $$\\\\zeta $$ under the characteristic measure $$\\\\underline{n}$$ of excursions away from $$0$$ of the process $$X$$ reflected in its past infimum, and of the first passage time of $$X$$ below $$0,$$ $$T_{0}=\\\\inf \\\\{t>0:X_{t}<0\\\\},$$ under $$\\\\mathbb{P }_{x}(\\\\cdot ),$$ for $$x>0,$$ in two different regimes for $$x,$$ viz. $$x=o(c(\\\\cdot ))$$ and $$x>D c(\\\\cdot ),$$ for some $$D>0.$$ We sharpen our estimates by distinguishing between two types of path behaviour, viz. continuous passage at $$T_{0}$$ and discontinuous passage. In order to prove our main results we establish some sharp local estimates for the entrance law of the excursion process associated to $$X$$ reflected in its past infimum.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_170_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random walk" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998480007"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_walk> .
+
+<http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_751_755>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cdot" ;
+        nif:beginIndex          "751"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/45c300a4d59009ad7b4ea467b1e1#offset_0_1095> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/GovernmentOrganization> , <http://dbpedia.org/ontology/GovernmentAgency> ;
+        itsrdf:taConfidence     "0.7793239225089932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colorado_Department_of_Transportation> .

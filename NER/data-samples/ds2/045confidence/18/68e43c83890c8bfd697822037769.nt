@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#offset_656_672>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "corporate rights" ;
+        nif:beginIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "672"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#offset_0_740> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Legal_personality> .
+
+<http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#offset_0_740> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#offset_220_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Employee stock ownership plans" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#offset_0_740> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Employee_stock_ownership_plan> .
+
+<http://www.springernature.com/scigraph/things/articles/68e43c83890c8bfd697822037769#offset_0_740>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "740"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The heart of this paper is an examination of the rights of employees, owners, and the corporation. The modern corporation is characterized by the conflict that ensues when ownership and control are independent. Employee stock ownership plans (ESOPs), in theory, serve to realign these disparate interests between the owners and managers of the firm. This article will explore the mechanisms by which ESOPs serve to empower those who possess ownership rights in the corporation. The application of trusteeship theory serves to explain the agency problem that may arise when managers serve as both trustee and beneficiary. Workplace, ownership, and corporate rights are integrated into a stakeholder perspective of rights conflicts.\n" .

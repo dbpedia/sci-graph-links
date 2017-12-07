@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_426_435>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "426"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_0_1243> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_0_1243> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_0_1243>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1243"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper presents an efficient approach for copy detection in large archives containing several hundred hours of videos, called ViCopT for Video Copy Tracking. Our video content indexing method consists in computing trends of behaviors of points of interest and then to assign them a label of behavior. Two methods are proposed to assign the labels: one uses heuristic tresholds and the other one uses a clustering algorithm. Such an indexing approach has several interesting properties: it provides a rich, compact and generic description, while labels of behavior provide a high-level description of the video content. A dedicated online retrieval method for copy detection is described, compared and evaluated on a large video database (1,000 h). This evaluation is done on a framework proposed for video copy detection: ViCopT displays excellent robustness to various severe signal transformations and the ability to accurately identify copies from highly similar videos. Other evaluation focuses on the flexibility of ViCopT due to the asymmetry of the video description. This allow the system to be highly scalable and very flexible regarding the situation faced: searching for copies on the internet or monitoring TV stream.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_370_379>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heuristic" ;
+        nif:beginIndex          "370"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_0_1243> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999492976407475"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heuristic> .
+
+<http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_1069_1086>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "video description" ;
+        nif:beginIndex          "1069"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1086"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1adc94ec4f18953556e5f2b5ce20#offset_0_1243> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Audio_description> .

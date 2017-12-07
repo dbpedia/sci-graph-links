@@ -1,0 +1,28 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0d8ee0666d59ad021534aa49f8d9#offset_0_762>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "762"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The worldwide trend of moving towards performance-based codes has brought about a need for computational tools, most of which rely on suitably-defined design fires, to adequately predict the impact of fires on buildings and their occupants. This literature review was carried out to determine the range of methods used to characterize design fires. The methods currently available were found to be largely empirical in nature and unsophisticated. The two main quantities used to describe design fires are the heat release rate (pre-flashover scenario) and temperature-time profiles (post-flashover). The most commonly used pre-flashover design fires are t 2 fires, whereas a host of empirical correlations are available for post-flashover design fires.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0d8ee0666d59ad021534aa49f8d9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0d8ee0666d59ad021534aa49f8d9#offset_0_762> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0d8ee0666d59ad021534aa49f8d9#offset_663_666>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "t 2" ;
+        nif:beginIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0d8ee0666d59ad021534aa49f8d9#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Product> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://dbpedia.org/ontology/Aircraft> ;
+        itsrdf:taConfidence     "0.998171706549612"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heinkel_He_115> .

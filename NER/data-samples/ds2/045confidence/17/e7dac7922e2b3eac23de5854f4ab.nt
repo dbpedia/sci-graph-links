@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_36_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ketones" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999940883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ketone> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "273"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary. Reduction of aldehydes and ketones to the corresponding alcohols was achieved in a simple procedure using the system sodium borohydride and ammonium carbonate. This system needs lower excesses of reducing agent and leads to significantly shortened reaction times.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_126_144>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sodium borohydride" ;
+        nif:beginIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sodium_borohydride> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_65_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alcohols" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999787796843645"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alcohol> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_22_31>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aldehydes" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aldehyde> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_205_219>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reducing agent" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999992687271082"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reducing_agent> .
+
+<http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_149_167>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ammonium carbonate" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "167"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7dac7922e2b3eac23de5854f4ab#offset_0_273> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium_carbonate> .

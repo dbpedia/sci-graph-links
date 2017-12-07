@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e25f528d40e8ce427fb8f2a5d1c8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e25f528d40e8ce427fb8f2a5d1c8#offset_0_520> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e25f528d40e8ce427fb8f2a5d1c8#offset_0_520>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "520"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A twin building is a pair of buildings along with a certain ’codistance' between chambers of one building, and chambers of the other. All spherical buildings can be regarded as twin buildings (such a building is twinned with itself in a natural way), and the aim of this paper is to give a definition of twin buildings along the lines that Tits originally gave for spherical buildings. This alternative approach via apartments has been used by the first author in studying some group actions on twin buildings.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e25f528d40e8ce427fb8f2a5d1c8#offset_487_500>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "group actions" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e25f528d40e8ce427fb8f2a5d1c8#offset_0_520> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999995775056"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_action> .

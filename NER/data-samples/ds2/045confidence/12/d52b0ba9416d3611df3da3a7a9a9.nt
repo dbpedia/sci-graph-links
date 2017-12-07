@@ -1,0 +1,61 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_0_494> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_0_494>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "494"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In Germany, the need for coordination and integration of transport services has been seen as a pre-condition to improving public transportation. A major step in this direction,which attracted world-wide attention, has been the institution of the Transport Federation (Verkehrs verbund). The paper discusses the operation of the Hamburg Transit Federation and considers a number of factors which have created a favorable climate for the development of public transportation in Germany.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_286_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "verbund" ;
+        nif:beginIndex          "286"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9999999992593871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Verbund> .
+
+<http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_12_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9996786816930243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_485_492>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Germany" ;
+        nif:beginIndex          "485"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9996786816930243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Germany> .
+
+<http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_337_344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hamburg" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d52b0ba9416d3611df3da3a7a9a9#offset_0_494> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Settlement> , <http://schema.org/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9990980100252284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hamburg> .

@@ -1,0 +1,59 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_403_412>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hong Kong" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_0_443> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9995885665051876"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hong_Kong> .
+
+<http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_0_443> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_0_443>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "443"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper discusses the espoused and actual achievements of government urban planning in Hong Kong in terms of the ideas of Hayek and Mises. With reference to observed facts, it is argued that it is indeed the spontaneous forces of the land market predicated on a leasehold system, a system of “planning by contract” or “planning by consent,” that have attained what the government planner in Hong Kong has not been able to deliver.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_81_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban planning" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_0_443> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990719541021515"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_99_108>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Hong Kong" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_0_443> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9995885665051876"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hong_Kong> .
+
+<http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_274_283>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leasehold" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b75cdb1e757d6aef7fc1d52afa2a#offset_0_443> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998819645915636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leasehold_estate> .

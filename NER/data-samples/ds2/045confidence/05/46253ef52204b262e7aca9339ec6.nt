@@ -1,0 +1,148 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_202_209>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8697233285714019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiversity> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_619_629>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "California" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Region> , <http://dbpedia.org/ontology/Place> , <http://schema.org/AdministrativeArea> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9997830384350215"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/California> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_1641_1648>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "drought" ;
+        nif:beginIndex          "1641"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1648"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999957443397592"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Drought> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_157_166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecosystem" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecosystem> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_630_639>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grassland" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "639"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979592192450679"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Grassland> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_454_461>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biomass" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "461"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995511952745"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biomass> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1809"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Understanding the factors governing ecological stability in variable environments is a central focus of ecology. Functional diversity can stabilize ecosystem function over time if one group of species compensates for an environmentally driven decline in another. Although intuitively appealing, evidence for this pattern is mixed. We hypothesized that diverse functional responses to rainfall will increase the stability of vegetation cover and biomass across rainfall conditions, but that this effect depends on land-use legacies that maintain functional diversity. We experimentally manipulated grazing in a California grassland to create land-use legacies of low and moderate grazing, across which we implemented rainout shelters and irrigation to create dry and wet conditions over 3 years. We found that the stability of the vegetation cover was greatly elevated and the stability of the biomass was slightly elevated across rainfall conditions in areas with histories of moderate grazing. Initial functional diversity—both in the seed bank and aboveground—was also greater in areas that had been moderately grazed. Rainfall conditions in conjunction with this grazing legacy led to different functional diversity patterns over time. Wet conditions led to rapid declines in functional diversity and a convergence on resource-acquisitive traits. In contrast, consecutively dry conditions maintained but did not increase functional diversity over time. As a result, grazing practices and environmental conditions that decrease functional diversity may be associated with lasting effects on the response of ecosystem functions to drought. Our results demonstrate that theorized relationships between diversity and stability are applicable and important in the context of working grazed landscapes.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_746_756>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "irrigation" ;
+        nif:beginIndex          "746"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "756"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999985644763"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Irrigation> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_113_120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecology" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999641886"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecology> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_1050_1054>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bank" ;
+        nif:beginIndex          "1050"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1054"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989078029477994"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stream_bed> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_45_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecological stability" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995487769"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Food_web> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_1618_1627>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecosystem" ;
+        nif:beginIndex          "1618"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecosystem> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_1315_1326>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "1315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999983744648513"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convergent_evolution> .
+
+<http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_902_909>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biomass" ;
+        nif:beginIndex          "902"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/46253ef52204b262e7aca9339ec6#offset_0_1809> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995511952745"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biomass> .

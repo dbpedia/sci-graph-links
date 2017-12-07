@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_109_118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "substrate" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.807985590677463"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coating> .
+
+<http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_27_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "X-ray" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985880021879481"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/X-ray_crystallography> .
+
+<http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_333_348>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multilayer film" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "348"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999217847760049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optical_coating> .
+
+<http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_0_506>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A new model of an X-ray reflection experiment is proposed for studying the structure of a film on a substrate. The experimental data are processed to yield the density distribution across the film, and an appropriate approximation produces numerical values of the parameters { δi, βi, σi, d 1} for each of the n layers in a multilayer film model. So far there has been no method for determining the film structure from experimental data and the problem has been usually solved by trial and error.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/496062c7244ecbdd0314f962b4f6#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

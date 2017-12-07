@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_62_65>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "MIT" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_0_509> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/University> , <http://dbpedia.org/ontology/EducationalInstitution> , <http://schema.org/EducationalOrganization> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/CollegeOrUniversity> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9998801929730106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Massachusetts_Institute_of_Technology> .
+
+<http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_0_509>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "509"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, I mine the scholarly work of longtime MIT professor Donald Schön for a set of tactics which, having originated in his studies of the architectural design studio, are shown to be relevant to the architectural analysis of existing buildings. In this way, a specific and hitherto untapped potential of Schön’s work is developed, but more critically, I use the discussion to support a strategy of designerly analysis which suggests an expansion of studio pedagogy as a field for learning.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_76_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Donald Schön" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_0_509> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Donald_Schön> .
+
+<http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_0_509> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_475_483>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pedagogy" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "483"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4c59933e5f80a2915d3ac9cc9ba7#offset_0_509> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pedagogy> .

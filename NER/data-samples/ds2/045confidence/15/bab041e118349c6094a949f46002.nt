@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#offset_0_887>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "887"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract With the continuous progress of technology, the publishing industry is in the important period of accelerating transformation and upgrading, integration of traditional media and developing new media. We have to face that the traditional book market has been strongly impacted by the e-commerce, on the other hand also respond to the new technology to bring the needs of the reader changes to the publishing process. Opportunities and challenges coexist. In this tide, Winshare based on years of traditional publishing and book distribution, is rapidly advancing and upgrading the digital publishing transformation. This article will focus on the four aspects of the integration of technology and publishing industry development, from the market environment, new technologies to promote industry changes, to meet the new needs of consumption, and the changing Winshare practice.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#offset_589_607>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digital publishing" ;
+        nif:beginIndex          "589"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996623586741875"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electronic_publishing> .
+
+<http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#offset_292_302>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e-commerce" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#offset_0_887> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999874944"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-commerce> .
+
+<http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bab041e118349c6094a949f46002#offset_0_887> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

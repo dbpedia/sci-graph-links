@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_25_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite element method" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_element_method> .
+
+<http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_579_593>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadrilaterals" ;
+        nif:beginIndex          "579"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrilateral> .
+
+<http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_148_158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimators" ;
+        nif:beginIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7469324816352999"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimation_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_0_595>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "595"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the adaptive finite element method, the solution of a p.d.e. is approximated by finer and finer meshes, which are controlled from error estimators. So, starting from a given coarse mesh, some elements are subdivided a couple of times. We investigate the question of avoiding instabilities which limit this process from the fact that nodal coordinates of one element coincide in more and more leading digits. To overcome this problem we demonstrate a simple mechanism for red subdivision of triangles (and hanging nodes) and a more sophisticated technique for general quadrilaterals.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_0_595> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_483_486>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "red" ;
+        nif:beginIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf49e96477a0ff3858b85ae25286#offset_0_595> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Colour> ;
+        itsrdf:taConfidence     "0.9790169760140853"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Red> .

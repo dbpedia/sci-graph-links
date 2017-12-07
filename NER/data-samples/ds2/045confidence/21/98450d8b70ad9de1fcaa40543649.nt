@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_182_184>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "FY" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "184"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_0_510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999950116766102"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiscal_year> .
+
+<http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_0_510>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "510"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Universal properties of weakly-bound four-boson systems near the scaling limit are discussed by considering recent results obtained from the solution of Faddeev-Yakubovsky (FY) equations, which confirm a previous conjecture on a four-body scale dependence. In the present contribution, within a discussion on our numerical results obtained for the binding energies of two consecutive tetramer states, we are analyzing the relative relevance of the two possible configurations of the four-body system.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_74_87>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scaling limit" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_0_510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999972715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scaling_limit> .
+
+<http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_393_401>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tetramer" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_0_510> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9899824325351881"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tetramer> .
+
+<http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/98450d8b70ad9de1fcaa40543649#offset_0_510> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

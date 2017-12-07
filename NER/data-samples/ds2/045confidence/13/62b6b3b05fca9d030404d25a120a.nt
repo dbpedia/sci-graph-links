@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#offset_0_854> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#offset_692_698>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hybrid" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#offset_0_854> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8151690541590585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hybrid_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#offset_243_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer programming" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#offset_0_854> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9768033399132037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/62b6b3b05fca9d030404d25a120a#offset_0_854>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "854"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Research involving tangible interaction and children has often focused on how tangibles might support or improve learning compared to more traditional methods. In this paper, we review three of our research studies involving tangible computer programming that have addressed this question in a variety of learning environments with a diverse population of children. Through these studies, we identify situations in which tangible interaction seems to offer advantages for learning; however, we have also identify situations in which tangible interaction proves less useful and an alternative interaction style provides a more appropriate medium for learning. Thus, we advocate for a hybrid approach—one that offers teachers and learners the flexibility to select the most appropriate interaction style to meet the needs of a specific situation.\n" .

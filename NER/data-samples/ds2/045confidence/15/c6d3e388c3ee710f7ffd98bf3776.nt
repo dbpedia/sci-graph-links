@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c6d3e388c3ee710f7ffd98bf3776#offset_0_563>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "563"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Communication is in this paper seen as the foundation for purposeful human–human activity in dynamic environments. Coordination is a central issue in large systems such as military organisations, enterprises, or rescue organisations, and communication is needed in order to achieve coordination in such systems. This paper suggest a holistic approach to control, where control in a large system is seen as an emergent product of human interaction, focusing on human–human communication from a technical, organisational, temporal, and social perspective.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c6d3e388c3ee710f7ffd98bf3776#offset_342_350>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "holistic" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "350"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6d3e388c3ee710f7ffd98bf3776#offset_0_563> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999978281682894"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Holism> .
+
+<http://www.springernature.com/scigraph/things/articles/c6d3e388c3ee710f7ffd98bf3776#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c6d3e388c3ee710f7ffd98bf3776#offset_0_563> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/879582b6d5ddef0add8c5d859a84#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/879582b6d5ddef0add8c5d859a84#offset_0_566> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/879582b6d5ddef0add8c5d859a84#offset_219_237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "operationalization" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/879582b6d5ddef0add8c5d859a84#offset_0_566> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991573844285024"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Operationalization> .
+
+<http://www.springernature.com/scigraph/things/articles/879582b6d5ddef0add8c5d859a84#offset_0_566>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "566"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Six papers drawing on Hirschman's (1970) Exit, Voice, and Loyalty model are discussed with regard to two themes: (a) relationship to the original work (specifically focusing on variations in the definition and operationalization of the “loyalty” component), and (b) the development of the loyalty construct itself. A concerted effort is called for to pursue a better understanding of loyalty, including an improved appreciation of the depth and breadth of the construct, its antecedents and outcomes, and its operationalizations in organizational settings.\n" .

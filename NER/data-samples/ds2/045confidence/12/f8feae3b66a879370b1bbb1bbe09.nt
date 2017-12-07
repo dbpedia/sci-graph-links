@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#offset_0_708>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "708"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Poor usage of space at construction sites is one of the leading causes of decreased productivity in the construction industry; however, it is manageable, and some instances preventable. This study focuses on how to efficiently manage space for constructi on materials on high-rise buildings in congested urban areas where space for materials around the building footprint is not available. The construction materials layout plan provides a logical order and priority for space planning decisions with reasonable costs. Genetic Algorithm (GA) modeling assumptions are made in order to properly allocate space for materials that will result in lower computational costs and increased in productivity.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#offset_0_708> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#offset_528_545>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Genetic Algorithm" ;
+        nif:beginIndex          "528"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Genetic_algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#offset_280_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high-rise" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f8feae3b66a879370b1bbb1bbe09#offset_0_708> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982244197964257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tower_block> .

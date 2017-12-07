@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#offset_246_262>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relative clauses" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992891982586407"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relative_clause> .
+
+<http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#offset_0_651> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#offset_0_651>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "651"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Children must possess some ability to process input in a meaningful manner to acquire language. The present study reports on data from an experiment investigating 3- to 5-year-old English-speaking children's understanding of restrictive relative clauses manipulated for embeddedness and focus. The results of the study showed that English-speaking children acquire right-branching before center-embedded structures. Comparisons made with data from Portuguese-speaking children suggest general-cognitive and language-specific constraints on development, and with respect to English, a “clause expansion” approach to processing in development.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#offset_582_589>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dced0a1cbafe4f7bc43ad5812b4b#offset_0_651> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9975793652402819"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .

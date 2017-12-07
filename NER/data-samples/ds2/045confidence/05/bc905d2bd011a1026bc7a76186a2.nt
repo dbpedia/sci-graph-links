@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_198_205>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.974367062666136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Species> .
+
+<http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_0_445>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "445"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The range of environmental temperatures that allow of survival would appear to be greater forAnopheles arabiensis than forCulex quinquefasciatus. Nevertheless the latter is the more common species in the Khartoum (Sudan) area. This relative abundance is suggested to be attributed largely to the success ofCulex quinquefasciatus in exploiting a wide range of breeding sites, even those which are obviously contaminated in various ways.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_223_228>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sudan" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999675964513705"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sudan> .
+
+<http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_0_445> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_213_221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Khartoum" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc905d2bd011a1026bc7a76186a2#offset_0_445> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999167676765733"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Khartoum> .

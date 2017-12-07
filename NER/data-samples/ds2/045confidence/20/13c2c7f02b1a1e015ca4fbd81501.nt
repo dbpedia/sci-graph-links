@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_0_270> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_90_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ontological" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999722941485"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ontology> .
+
+<http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_73_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metaphysical" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999965298514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metaphysics> .
+
+<http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_134_144>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophy" ;
+        nif:beginIndex          "134"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "144"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9643758548472601"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .
+
+<http://www.springernature.com/scigraph/things/articles/13c2c7f02b1a1e015ca4fbd81501#offset_0_270>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "270"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Heine's speculation about language is less oriented towards the metaphysical and ontological aspects of traditional language philosophy than towards the pragmatic instrumentality of the spoken and written word. Such a shift of emphasis reflects, in part, the \\\n" .

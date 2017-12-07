@@ -1,0 +1,77 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_187_202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frame dependent" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frame_of_reference> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "290"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary The ideas and methods of the kinetic theory of metal electrons are used to show that Ohm's law of electric conduction and Fourier's law of heat conduction in a metal both contain frame dependent terms. It follows that the principle of material objectivity does not hold rigorously.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_37_51>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kinetic theory" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kinetic_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_168_173>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999945029646709"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_130_137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fourier" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.740999309800491"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermal_conduction> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_55_60>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999945029646709"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_147_162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "heat conduction" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/696a68ddedd69ab3e90b283373c6#offset_0_290> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermal_conduction> .

@@ -1,0 +1,28 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6d916e60f906b823b6bc651b7b9f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6d916e60f906b823b6bc651b7b9f#offset_0_623> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6d916e60f906b823b6bc651b7b9f#offset_375_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bernard Williams" ;
+        nif:beginIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6d916e60f906b823b6bc651b7b9f#offset_0_623> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.9999999999993747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bernard_Williams> .
+
+<http://www.springernature.com/scigraph/things/articles/6d916e60f906b823b6bc651b7b9f#offset_0_623>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "623"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this essay, I distinguish two significant act-utilitarian theories of moral education: the traditional rule of thumb view and the Harian intuition view. I argue that there are problems with the traditional view and that an act-utilitarian ought to adopt a version of the Harian view. I then explain and respond to a major objection to the intuition view given by Bernard Williams. Williams argues that the system of moral thought which the Harian view advocates we teach is inherently unstable and is certain to undermine itself. I argue that there is reason to expect a great deal of stability in this system.\n" .

@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_73_79>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "qubits" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Qubit> .
+
+<http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_325_331>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wigner" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eugene_Wigner> .
+
+<http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_315_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "covariant" ;
+        nif:beginIndex          "315"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996751598475091"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Functor> .
+
+<http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_0_403> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_137_149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "unbiasedness" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999999261"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bias_of_an_estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/7614ca63969ad496870eda394fc1#offset_0_403>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "403"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We further elaborate on a phase-space picture for a system of N qubits and explore the structures compatible with the notion of unbiasedness. These consist of bundles of discrete curves satisfying certain additional properties and different entanglement properties. We discuss the construction of discrete covariant Wigner functions for these bundles and provide several illuminating examples.\n" .

@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#offset_64_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cable news" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8576656513380984"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/News_broadcasting> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#offset_0_924> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#offset_853_866>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-partisans" ;
+        nif:beginIndex          "853"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#offset_0_924> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999996756107098"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonpartisan> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7db6dbfca24b60e55be3881b0e#offset_0_924>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "924"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The proliferation of opinion and overt partisanship in cable news raises questions about how audiences perceive this content. Of particular interest is whether audiences effectively perceive bias in opinionated news programs, and the extent to which there are partisan differences in these perceptions. Results from a series of three online experiments produce evidence for a relative hostile media phenomenon in the context of opinionated news. Although, overall, audiences perceive more story and host bias in opinionated news than in non-opinionated news, these perceptions—particularly perceptions of the host—vary as a function of partisan agreement with the news content. Specifically, issue partisans appear to have a “bias against bias,” whereby they perceive less bias in opinionated news with which they are predisposed to agree than non-partisans and especially partisans on the other side of the issue.\n" .

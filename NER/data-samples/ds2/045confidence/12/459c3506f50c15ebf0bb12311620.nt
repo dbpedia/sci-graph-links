@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_1255_1266>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calibration" ;
+        nif:beginIndex          "1255"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1266"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_0_1543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999959879915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calibration> .
+
+<http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_84_107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transportation planning" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_0_1543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transportation_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_809_820>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forecasting" ;
+        nif:beginIndex          "809"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_0_1543> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996890665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forecasting> .
+
+<http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_0_1543>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1543"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper asserts the continuing need for a long-range component to urban transportation planning, citing particularly the relationships between short- and long-range planning and the dangers of a single-minded concentration on short-range planning. However, the nature of the long-range planning procedure that is required is substantively different from that of most extant approaches. Some of the specific requirements and capabilities of a new procedure are described, and existing procedures are compared against these. In the latter part of the paper, some of the elements of a new long-range planning procedure are characterized. It is suggested that the procedure be built around a scenario approach to confronting and bounding future uncertainty. Second, the need to incor porate financial forecasting in the process is laid out and related to the scenario concept. Third, the need for travel- and impact-forecasting procedures is recognized and a set of input, output and operating requirements for such procedures are specified. It is suggested that improved sketch-planning tools may fit the requirements to a large extent. It is also suggested that some procedures or models in the process should be “synthetic” models, not needing calibration for each new application. Finally, a number of requirements are specified for the display and evaluation of planning proposals from this procedure. A major emphasis is placed here on transparency of the process and responsiveness to direct intervention by the decision-maker.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/459c3506f50c15ebf0bb12311620#offset_0_1543> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

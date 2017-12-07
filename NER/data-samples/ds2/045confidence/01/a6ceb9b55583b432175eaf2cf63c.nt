@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a6ceb9b55583b432175eaf2cf63c#offset_0_188>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "188"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. This article provides an asymptotic result for the lattice point discrepancy of the special three-dimensional body$$(x^2+y^2)^{k/2}+| z|^k\\\\le t^k$$ for fixed k > 2 and large t.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a6ceb9b55583b432175eaf2cf63c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a6ceb9b55583b432175eaf2cf63c#offset_0_188> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a6ceb9b55583b432175eaf2cf63c#offset_61_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lattice point" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a6ceb9b55583b432175eaf2cf63c#offset_0_188> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999908503861398"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lattice_(group)> .

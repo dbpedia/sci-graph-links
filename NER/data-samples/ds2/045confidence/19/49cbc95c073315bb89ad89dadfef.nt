@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#offset_782_790>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concrete" ;
+        nif:beginIndex          "782"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#offset_0_1325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998652864536052"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_and_concrete> .
+
+<http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#offset_0_1325>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1325"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It has been reported that if music is realized as nominally described by the score, a musically unacceptable performance emerges. Music interpretation is necessary to generate a musically acceptable performance. We have been constructing a rule-based music interpretation system that generates sophisticated performance from a printed music score. The whole performance data are given by the product of expression of each dynamic mark explicitly drawn in the score and expression of analyzed motives. This paper describes the function of learning how to play music, which is the most important process in music interpretation. The target to be learned are expression rules and grouping strategy; expression rules are used in order to convert dynamic marks and motives into concrete performance data, and grouping strategy is used in order to extract motives from note sequence. They are learned from the given virtuoso performance. The delicate control of attack-timing, duration and strength of notes are extracted by the music transcription function. The performance rules are learned by investigating how the same or similar musical primitives are played in the performance. As for the grouping strategy, the system analyzes how the player grouped music, and registers dominant note-sequences to extract motives.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#offset_1038_1051>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transcription" ;
+        nif:beginIndex          "1038"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1051"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#offset_0_1325> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993484356643733"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transcription_(genetics)> .
+
+<http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/49cbc95c073315bb89ad89dadfef#offset_0_1325> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

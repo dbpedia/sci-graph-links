@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_0_677> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_0_677>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "677"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract: The convergence of mobile communications and handheld computers offers the opportunity to develop technology that will assist individuals and groups to learn anytime, anywhere. We describe the theory-informed design, implementation and evaluation of a handheld learning device. It is intended to support children to capture everyday events such as images, notes and sounds, to relate them to web-based learning resources, to organise these into a visual knowledge map, and to share them with other learners and teachers. A working prototype system, for children aged 9–11, is discussed and evaluated, as an exemplar of personal mobile systems for life-long learning.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_55_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "handheld computers" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995834514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mobile_device> .
+
+<http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_14_25>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "14"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997739362169473"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technological_convergence> .
+
+<http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_29_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mobile communications" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68d78249a8de9dd3bb470cc96169#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9846581915612559"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mobile_phone> .

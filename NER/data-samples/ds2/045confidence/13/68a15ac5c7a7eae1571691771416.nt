@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_454_469>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "phenylketonuria" ;
+        nif:beginIndex          "454"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999999947136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenylketonuria> .
+
+<http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_0_677> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_247_258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematics" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997919602660877"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematics> .
+
+<http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_0_677>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "677"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper provides a review of recent studies investigating the academic achievement of patients treated for phenylketonuria. These studies consistently indicate that these patients demonstrate mild academic difficulties, primarily with mathematics but with reading and spelling skills as well. In addition to the review of previous studies, academic achievement results are presented for a sample of 32 school-age, early-treated patients with phenylketonuria. Conclusion Consistent with previous studies, results from the current study suggest that patients in this sample demonstrate mild difficulties with basic spelling and basic mathematical calculation skills.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_119_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenylketonuria" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68a15ac5c7a7eae1571691771416#offset_0_677> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999999999947136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenylketonuria> .

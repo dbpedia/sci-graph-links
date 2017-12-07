@@ -1,0 +1,77 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_144_154>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photometry" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997856435"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photometry_(astronomy)> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_384_394>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "brightness" ;
+        nif:beginIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999970705007108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apparent_magnitude> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_170_176>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "binary" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999985889758"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Binary_star> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_73_75>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MT" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5065894618812039"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mountain_Time_Zone> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_42_52>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "brightness" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999970705007108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apparent_magnitude> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_199_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "orbital period" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orbital_period> .
+
+<http://www.springernature.com/scigraph/things/articles/9cff56843bca930732146d1909f7#offset_0_417>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "417"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We have obtained data on various brightness states of the polar MT Dra over five years of observations, including the first multicolor photometry for this close binary. We confirm the known orbital period, which has remained constant over 17 years, which is unusual for cataclysmic binaries. Our observations in October 2006 demonstrated a transition of the polar to its low brightness state within one day.\n" .

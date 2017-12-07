@@ -1,0 +1,83 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "615"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A variation of the standard word-association technique, together with the cloze procedure, was used to explore whether balanced bilinguals of French Canadian parentage could communicate equally well with monoligual English or French speakers. The bilingual Ss clozed significantly better with the French Ss than with the English. These results suggest that distinctive French Canadian cultural values and traditions may have influenced their ability to communicate with peers. The individual who appears to be equally proficient in two or more languages may really not be an effective linguistic mediator.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_224_231>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999949765603429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_151_166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French Canadian" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.8166249748794242"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canadian_French> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_306_312>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9998277662321816"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_330_337>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999949765603429"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_235_241>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.999827766232068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_378_393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French Canadian" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8fdfd6f7a97c55b3ccc503c3c95#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.8166249748794242"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canadian_French> .

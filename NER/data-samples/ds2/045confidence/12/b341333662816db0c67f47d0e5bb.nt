@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#offset_0_800>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "800"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The design symposium ‘creative connections discusses the designers’ tools in the conceptual phase. Over the past few decades, many considerations, which hitherto occured before or after conceptualizing have become an integrated part of concept development. Examples are studies of users and contexts, and expressive new materials. Also, design tools are becoming increasingly, almost exclusively, computer-based. But current computer tools lack fluency, directness, and bodily involvement of the traditional paper tools, properties which are essential in the creative activities of conceptualizing, The symposium, and its four attached bazaar papers, deal with new tools that are being developed, and old tools that are evolving, to help designers at coping with this complexity of factors.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#offset_0_800> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#offset_645_651>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bazaar" ;
+        nif:beginIndex          "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#offset_0_800> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8123109502770405"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bazaar> .
+
+<http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#offset_760_766>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coping" ;
+        nif:beginIndex          "760"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "766"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b341333662816db0c67f47d0e5bb#offset_0_800> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999914924729"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coping_(psychology)> .

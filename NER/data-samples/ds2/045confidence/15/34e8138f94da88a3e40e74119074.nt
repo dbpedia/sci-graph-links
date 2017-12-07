@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_811_827>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "civic engagement" ;
+        nif:beginIndex          "811"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "827"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999893134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Civic_engagement> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_349_372>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonprofit organizations" ;
+        nif:beginIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nonprofit_organization> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_463_470>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "library" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "470"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9875452824911225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Library> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_67_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "voluntary associations" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999979536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Voluntary_association> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_376_389>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "New York City" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997591952458336"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_York_City> .
+
+<http://www.springernature.com/scigraph/things/articles/34e8138f94da88a3e40e74119074#offset_0_853>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "853"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Media publicity is an important resource for contemporary voluntary associations, but very little is actually known about the resources and organizational characteristics that are most important for getting media attention. To address this question, we collected and analyzed data on the organizational attributes and news publicity of 739 nonprofit organizations in New York City. We find that an organization's income, paid staff, membership size, and library resources are significantly related to getting media publicity, whereas the number of chapter affiliations is inversely related to publicity. Association type is also a significant factor that influences an organization's ability to get publicity. We discuss the implications that these findings have for current debates about advocacy and civic engagement in the nonprofit sector.\n" .

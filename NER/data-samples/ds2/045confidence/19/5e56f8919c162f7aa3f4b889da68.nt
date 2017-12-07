@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_188_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dielectric" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998263718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dielectric> .
+
+<http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_0_277> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_254_259>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997287273542"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_227_236>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radiation" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7655264056731369"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electromagnetic_radiation> .
+
+<http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_268_275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "silicon" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9961270163167195"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silicon> .
+
+<http://www.springernature.com/scigraph/things/articles/5e56f8919c162f7aa3f4b889da68#offset_0_277>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "277"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A model of heating of film structures by incoherent light is presented and results of numerical experiments are reported on the investigation of thermal fields for the cases of a dielectric film that is transparent to radiation and an absorbing metal film on silicon.\n" .

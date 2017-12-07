@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_180_194>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prime elements" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9600986565894328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integral_domain> .
+
+<http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_75_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semigroup" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999794511"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semigroup> .
+
+<http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_0_244> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_0_244>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "244"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We study the distribution of elements in an additive arithmetical semigroup (G, ∂) (as introduced by John Knopfmacher) in whose canonical decomposition the degrees of the prime elements belong to a given union of residue classes modk.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_222_237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "residue classes" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5813f5f830dc7acac7a540772852#offset_0_244> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .

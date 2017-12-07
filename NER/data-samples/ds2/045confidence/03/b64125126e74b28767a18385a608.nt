@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_0_440>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "440"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract As predicted by classical macroscopic theory, the lifetime for nanoscale gas bubbles is extremely short. However, stable gas nanobubbles have been experimentally observed in recent years. In this report, we theoretically show that, if the inner density of gas bubbles is sufficiently high, the lifetime of nanobubbles can increase by at least 4 orders of magnitude, and even approaches the timescale for experimental observations.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_364_373>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnitude" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9896304101376617"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apparent_magnitude> .
+
+<http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_0_440> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_35_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "macroscopic" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995439686603"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Macroscopic_scale> .
+
+<http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_25_34>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9778156004029096"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_72_81>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nanoscale" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b64125126e74b28767a18385a608#offset_0_440> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9905458244312013"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nanoscopic_scale> .

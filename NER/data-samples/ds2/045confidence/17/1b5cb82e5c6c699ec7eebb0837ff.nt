@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#offset_982_1003>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "citizenship education" ;
+        nif:beginIndex          "982"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1003"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#offset_0_1137> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7750061701733262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Citizenship> .
+
+<http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#offset_0_1137>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1137"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Despite widespread attention to citizenship in educational practice, knowledge of the citizenship of students is still fragmented. We therefore present a comprehensive framework to integrate empirical data and theoretical insights into the citizenship of young people today. To develop and validate the framework, we conducted exploratory and confirmative factor analyses on measures of citizenship attitudes, skills, reflection and knowledge for a sample of 7,768 students in grades 5–9 from 38 Dutch primary and secondary schools. The results were cross-validated using a different sample of 15,940 students in primary and secondary education. We were able to distinguish four citizenship orientations among students (societal interest, prosocial ability, reflective thinking and assertiveness) and two domains of citizenship knowledge (societal knowledge and interpersonal knowledge). This framework can help with the large-scale, empirical evaluation of the effects of citizenship education and also guide schools in the formulation of educational goals to support the development of citizenship competences among students.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#offset_505_510>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "505"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#offset_0_1137> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.5954303995328287"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1b5cb82e5c6c699ec7eebb0837ff#offset_0_1137> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

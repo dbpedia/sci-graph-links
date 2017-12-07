@@ -1,0 +1,77 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "508"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Manipulation of cells in open dishes is often incompatible withpreservation of sterility. A dish covered with an elastic orstretchable latex or plastic film allows manipulation of cellsthrough the film with preservation of sterility of the cultureand the integrity of the film. The latter forms a `microglove'for the instrument tip. The idea of manipulation through a thintransparent film is also applicable to general surgery, so thatthe surgeon's hand operates through a film and without a glove.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_144_149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "latex" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999651145382731"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latex> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_122_129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elastic" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.886547752494346"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elastomer> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_153_165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plastic film" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9934378276751985"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plastic_film> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_25_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cells" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999977198975631"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_448_455>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "surgeon" ;
+        nif:beginIndex          "448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "455"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990044246785801"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surgery> .
+
+<http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_420_435>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "general surgery" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "435"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4847aa964227d9aa5e78ebc745a1#offset_0_508> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9910274783655114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surgery> .

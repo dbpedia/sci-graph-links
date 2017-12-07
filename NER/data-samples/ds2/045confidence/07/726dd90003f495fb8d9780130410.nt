@@ -1,0 +1,157 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_476_482>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998783178018"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_786_801>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tropical forest" ;
+        nif:beginIndex          "786"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "801"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tropical_and_subtropical_moist_broadleaf_forests> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_80_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998783178018"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_313_318>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "LiDAR" ;
+        nif:beginIndex          "313"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/LIDAR> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_497_503>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon" ;
+        nif:beginIndex          "497"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "503"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998010679448021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_444_448>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wood" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986277364635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wood> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1653"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Airborne laser scanning provides continuous coverage mapping of forest canopy height and thereby is a powerful tool to scale-up above-ground biomass (AGB) estimates from stand to landscape. A critical first step is the selection of the plot variables which can be related to light detection and ranging (LiDAR) statistics. A universal approach was previously proposed which combines local and regional estimates of basal area (BA) and wood density with LiDAR-derived canopy height to map carbon at a regional scale (Asner et al. in Oecologia 168:1147–1160, 2012). Here we explore the contribution of stem diameter distribution, specific wood density and height-diameter (H–D) allometry to forest stand AGB and propose an alternative model. By applying the new model to a large tropical forest data set we show that an appropriate choice of input variables is essential to minimize prediction error of stand AGB which will propagate at larger scale. Stem number (N) and average stem cross-sectional area should be used instead of BA when scaling from tree to plot. Stand quadratic mean diameter above the census threshold diameter size should be preferred over stand mean diameter as it reduces the prediction error of stand AGB by a factor of ten. Wood density should be weighted by stem volume per species instead of BA. LiDAR-derived statistics should prove useful for estimating local H-D allometries as well as mapping N and the mean quadratic diameter above 10 cm at the landscape level. Prior stratification into forest types is likely to improve both estimation procedures significantly and is considered the foremost current challenge.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_18_32>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laser scanning" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998676249247724"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/3D_scanner> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_1113_1119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "census" ;
+        nif:beginIndex          "1113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.538675354349674"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Zealand_Census_of_Population_and_Dwellings> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_646_650>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wood" ;
+        nif:beginIndex          "646"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "650"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986277364635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wood> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_1508_1522>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stratification" ;
+        nif:beginIndex          "1508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.91816195321413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stratified_sampling> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_685_694>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "allometry" ;
+        nif:beginIndex          "685"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "694"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Allometry> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_150_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biomass" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999680215791641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biomass> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_1308_1315>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "1308"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983365781722883"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiversity> .
+
+<http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_424_429>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "basal" ;
+        nif:beginIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/726dd90003f495fb8d9780130410#offset_0_1653> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991542172232459"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anatomical_terms_of_location> .

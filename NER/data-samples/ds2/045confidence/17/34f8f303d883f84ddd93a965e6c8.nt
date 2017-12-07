@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#offset_0_873> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#offset_0_873>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "873"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The general aim has been to illuminate the psychological mechanisms involved in outdoor place and weather assessment. This reasoning was conceptualized in a model, tentatively proposing direct and indirect links of influence in an outdoor place–human relationship. The model was subsequently tested by an empirical study, performed in a Nordic city, on the impact of weather and personal factors on participants’ perceptual and emotional estimations of outdoor urban places. In line with our predictions, we report significant influences of weather parameters (air temperature, wind, and cloudlessness) and personal factors (environmental attitude and age) on participants’ perceptual and emotional estimations of outdoor urban places. All this is a modest, yet significant, step towards an understanding of the psychology of outdoor place and weather assessment.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#offset_346_352>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nordic" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "352"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#offset_0_873> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.8432081578447995"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nordic_countries> .
+
+<http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#offset_821_831>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychology" ;
+        nif:beginIndex          "821"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34f8f303d883f84ddd93a965e6c8#offset_0_873> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993174535631"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychology> .

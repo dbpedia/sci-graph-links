@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_0_518> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_281_295>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parametrically" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_0_518> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9401214418307787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parametric_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_55_59>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "loci" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_0_518> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998464711132431"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Locus_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_143_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "path curvature" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_0_518> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geodesic_curvature> .
+
+<http://www.springernature.com/scigraph/things/articles/9fd0fec711a6fe8b32366d76cfc1#offset_0_518>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "518"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In spherical mechanisms, curves which are the loci of points having specific paths and their special cases were investigated by using path curvature analysis and instantaneous invariants. Ball and Burmester points which are the intersections of these curves were obtained parametrically. The existence conditions of the special cases of these points were formulated and their multiplicity conditions were investigated. The designs of mechanisms which trace the paths having various properties were performed.\n" .

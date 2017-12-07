@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_40_51>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photometric" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "51"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989678936071333"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photometry_(astronomy)> .
+
+<http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_0_332> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_72_92>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic expressions" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytical_expression> .
+
+<http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_242_253>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "photometric" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989678936071333"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Photometry_(astronomy)> .
+
+<http://www.springernature.com/scigraph/things/articles/2cf519ef97ce8bbcd9d58a13269f#offset_0_332>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "332"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the framework of the direct photometric problem we obtained analytic expressions describing the light variations of spotted stars in case of arbitrary limb-darkening law. These could be used as a basis for solution of the inverse photometric problem for arbitrary types of rotating stars characterized by surface spots.\n" .

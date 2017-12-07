@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_0_439>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "439"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The concepts of k-systems, k-networks and k-covers were defined by A. Arhangel’skii in 1964, P. O’Meara in 1971 and R. McCoy, I. Ntantu in 1985, respectively. In this paper the relationships among k-systems, k-networks and k-covers are further discussed and are established by mk-systems. As applications, some new characterizations of quotients or closed images of locally compact metric spaces are given by means of mk-systems.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_79_87>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Arhangel" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "87"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998143151915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arhangel> .
+
+<http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_391_404>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metric spaces" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "404"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metric_space> .
+
+<http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_0_439> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_375_390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "locally compact" ;
+        nif:beginIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/38a8176c7534e4072b3639d2d6fb#offset_0_439> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9899742468217587"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Locally_compact_space> .

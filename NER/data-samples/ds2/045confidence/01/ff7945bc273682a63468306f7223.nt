@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_0_521> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_69_83>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiple roots" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multiplicity_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_39_45>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Newton" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Scientist> ;
+        itsrdf:taConfidence     "0.9999999977524112"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isaac_Newton> .
+
+<http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_98_106>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "analytic" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998695171274715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Analytic_function> .
+
+<http://www.springernature.com/scigraph/things/articles/ff7945bc273682a63468306f7223#offset_0_521>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "521"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We propose a modification of Newton's method for computing multiple roots of systems of analytic equations. Under mild assumptions the iteration converges quadratically. It involves certain constants whose product is a lower bound for the multiplicity of the root. As these constants are usually not known in advance, we devise an iteration in which not only an approximation for the root is refined, but also approximations for these constants. Numerical examples illustrate the effectiveness of our approach.\n" .

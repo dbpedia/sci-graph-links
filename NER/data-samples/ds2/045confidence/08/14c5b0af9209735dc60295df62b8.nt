@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_519_538>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perturbation theory" ;
+        nif:beginIndex          "519"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999916880148861"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perturbation_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_512_518>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "matrix" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "518"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999998882632723"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Matrix_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "896"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Additive randomization has been a primary tool for hiding sensitive private information. Previous work empirically showed that individual data values can be approximately reconstructed from the perturbed values, using spectral filtering techniques. This poses a serious threat of privacy breaches. In this paper we conduct a theoretical study on how the reconstruction error varies, for different types of additive noise. In particular, we first derive an upper bound for the reconstruction error using matrix perturbation theory. Attackers who use spectral filtering techniques to estimate the true data values may leverage this bound to determine how close their estimates are to the original data. We then derive a lower bound for the reconstruction error, which can help data owners decide how much noise should be added to satisfy a given threshold of the tolerated privacy breach.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_18_31>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "randomization" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8781504482240164"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resampling_(statistics)> .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_415_429>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "additive noise" ;
+        nif:beginIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Additive_white_Gaussian_noise> .
+
+<http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_465_476>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bound" ;
+        nif:beginIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/14c5b0af9209735dc60295df62b8#offset_0_896> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.985830890909542"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .

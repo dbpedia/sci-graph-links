@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_0_521> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_0_521>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "521"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Many biological materials exhibit a hierarchical structure over more than one length scale. Understanding how hierarchy affects their mechanical properties emerges as a primary concern, since it can guide the synthesis of new materials to be tailored for specific applications. In this paper the strength and stiffness of hierarchical materials are investigated by means of a fractal approach. A new model is proposed, based both on geometric and material considerations and involving simple recursive formulas.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_501_510>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "recursive" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999803829796874"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recursion> .
+
+<http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_385_392>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fractal" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999922125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fractal> .
+
+<http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_318_327>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stiffness" ;
+        nif:beginIndex          "318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "327"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bd79f03ba4de3d411926b1755c52#offset_0_521> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998668459144067"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stiffness> .

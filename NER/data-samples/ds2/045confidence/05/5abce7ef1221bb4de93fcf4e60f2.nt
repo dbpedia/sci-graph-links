@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1037"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article describes the further development and new applications of the already well-known method of response functions. This method is used to present the quantitative evaluation of the reactions of various ecological and biological systems to environmental impacts. Two ecological problems were chosen as examples: the model of growth and development of cereal crops and the model of pollutant dynamics in the elementary ecosystem. In each case the results are given of the evaluation of parameters and the testing of models. It is shown that the method of response functions allows resolution of the wide range of ecological problems with sufficient accuracy, and some new theoretical results are presented. For example, based on the existing hypotheses of higher plant development, a biological time scale has been worked out. The method was elaborated to determine the minimum time of development, which is a genetically stipulated characteristic of a species and is realized when all environmental factors are optimal.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_969_976>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "969"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "976"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9806930530328264"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiversity> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_779_796>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plant development" ;
+        nif:beginIndex          "779"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999976153049"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plant_morphology> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_368_374>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "cereal" ;
+        nif:beginIndex          "368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999997894256234"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cereal> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_435_444>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecosystem" ;
+        nif:beginIndex          "435"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997850957474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecosystem> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_408_416>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "408"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "416"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999660165461034"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Population_dynamics> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_571_589>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "response functions" ;
+        nif:beginIndex          "571"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997794475"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency_response> .
+
+<http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_113_131>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "response functions" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "131"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5abce7ef1221bb4de93fcf4e60f2#offset_0_1037> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997794475"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency_response> .

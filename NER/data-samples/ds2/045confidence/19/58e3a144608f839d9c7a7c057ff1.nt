@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_0_972> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_734_738>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "SAAB" ;
+        nif:beginIndex          "734"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_0_972> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9757177813593028"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Saab_Group> .
+
+<http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_786_791>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Algol" ;
+        nif:beginIndex          "786"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "791"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_0_972> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9999918402008159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/ALGOL> .
+
+<http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_377_386>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "incidence" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "386"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_0_972> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999940752105"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Angle_of_incidence> .
+
+<http://www.springernature.com/scigraph/things/articles/58e3a144608f839d9c7a7c057ff1#offset_0_972>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "972"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract On the basis of an analysis of the properties of space constructed in coordinates of the ellipsometric anglesΨ andΔ and the thicknessd 1 of a thin slightly absorbing film, a graphical method of determining its index of refraction, index of absorption and thickness is proposed and discussed. From the two ellipsometric measurements, either for two different angles of incidence or for two different surrounding media, it is in principle possible to determine the chosen parameters characterizing the thin slightly absorbing film. The graphical method, however, seems to be less accurate and very laborious. The calculation is therefore proposed for an automatic computer. The ellipsometric measurements were carried out on a SAAB computer, according to a program elaborated in Algol. The results obtained and the values computed for the optical constants and the thickness of the thin slightly absorbing film are in good agreement with those found independently.\n" .

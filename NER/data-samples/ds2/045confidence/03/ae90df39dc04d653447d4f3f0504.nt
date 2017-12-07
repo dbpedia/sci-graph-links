@@ -1,0 +1,69 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_143_156>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "polypropylene" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polypropylene> .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_83_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "helical" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999976688885567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helix> .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_133_142>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isotactic" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tacticity> .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_350_358>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polymers" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polymer> .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "360"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Extended Hückel crystal orbital (EHCO) calculations on zig-zag planar and helical conformations of regular infinite (model) isotactic polypropylene are reported. Significant changes in the theoretical XPS spectra and comparison with experimental data support the idea of possible detection of conformations in the case of good stereoregular polymers.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_210_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XPS" ;
+        nif:beginIndex          "210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ae90df39dc04d653447d4f3f0504#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "0.882967882160152"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polystyrene> .

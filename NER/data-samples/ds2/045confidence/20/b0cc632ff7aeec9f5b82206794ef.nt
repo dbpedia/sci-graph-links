@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_84_101>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "European starling" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Bird> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Starling> .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_191_197>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "silent" ;
+        nif:beginIndex          "191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "197"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8970932497476929"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silent_film> .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_372_381>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "starlings" ;
+        nif:beginIndex          "372"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Bird> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999996909582956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Starling> .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "853"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary We tested the hypothesis that song attracts females and repels males in the European starling. We broadcast recorded song from speakers attached to nestboxes, while paired boxes with silent speakers served as controls. As predicted, females were attracted to the ‘song’ boxes. Contrary to prediction, males were also attracted to the `song' boxes. Singing by male starlings may be costly because it attracts competitors for limited nesting sites, but the cost cannot be avoided due to the need to attract a mate. In a second experiment ‘simple’ song (composed of 20 different phrase types) and ‘complex’ song (40 phrase types) were played simultaneously. More males were captured at boxes where ‘simple’ song was played. Song complexity may function as an indicator of male quality and be used by male starlings to assess potential competitors.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_810_819>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "starlings" ;
+        nif:beginIndex          "810"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "819"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Bird> ;
+        itsrdf:taConfidence     "0.9999996909582956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Common_Starling> .
+
+<http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_156_165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nestboxes" ;
+        nif:beginIndex          "156"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b0cc632ff7aeec9f5b82206794ef#offset_0_853> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nest_box> .

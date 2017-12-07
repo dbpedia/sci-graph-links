@@ -1,0 +1,217 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_184_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microstructure" ;
+        nif:beginIndex          "184"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998672940724019"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microstructure> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1179_1189>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimators" ;
+        nif:beginIndex          "1179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999963267783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1527_1545>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "maximum likelihood" ;
+        nif:beginIndex          "1527"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1545"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Maximum_likelihood> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_84_92>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "92"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999995282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1678_1686>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "1678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999995282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1724"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Given a time series of intra-day tick-by-tick price data, how can realized variance be estimated? The obvious estimator—the sum of squared returns between trades—is biased by microstructure effects such as bid–ask bounce and so in the past, practitioners were advised to drop most of the data and sample at most every five minutes or so. Recently, however, numerous alternative estimators have been developed that make more efficient use of the available data and improve substantially over those based on sparsely sampled returns. Yet, from a practical viewpoint, the choice of which particular estimator to use is not a trivial one because the study of their relative merits has primarily focused on the speed of convergence to their asymptotic distributions, which in itself is not necessarily a reliable guide to finite sample performance (especially when the assumptions on the price or noise process are violated). In this paper we compare a comprehensive set of nineteen realized variance estimators using simulated data from an artificial “zero-intelligence” market that has been shown to mimic some key properties of actual markets. In evaluating the competing estimators, we concentrate on efficiency but also pay attention to implementation, practicality, and robustness. One of our key findings is that for scenarios frequently encountered in practice, the best variance estimator is not always the one suggested by theory. In fact, an ad hoc implementation of a subsampling estimator, realized kernel, or maximum likelihood realized variance, delivers the best overall result. We make firm practical recommendations on choosing and implementing a realized variance estimator, as well as data sampling.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1392_1401>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimator" ;
+        nif:beginIndex          "1392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999614825591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1457_1463>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ad hoc" ;
+        nif:beginIndex          "1457"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999972641038448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ad_hoc> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1383_1391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "1383"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999995282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1496_1505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimator" ;
+        nif:beginIndex          "1496"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999614825591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1555_1563>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "1555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1563"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999995282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_17_28>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "28"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_996_1004>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "996"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1004"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999995282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1484_1495>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subsampling" ;
+        nif:beginIndex          "1484"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1495"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_387_397>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimators" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999963267783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_745_755>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "745"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7661598096195646"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptote> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1507_1522>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "realized kernel" ;
+        nif:beginIndex          "1507"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1522"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Realized_kernel> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_605_614>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimator" ;
+        nif:beginIndex          "605"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "614"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999614825591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1005_1015>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimators" ;
+        nif:beginIndex          "1005"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1015"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999963267783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_1687_1696>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "estimator" ;
+        nif:beginIndex          "1687"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1696"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999614825591"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_724_735>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74fc20fab699a641fc4b617f1681#offset_0_1724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9719974838377644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convergence_of_random_variables> .

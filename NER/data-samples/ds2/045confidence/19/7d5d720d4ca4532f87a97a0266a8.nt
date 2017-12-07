@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_472_480>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "maritime" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "480"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8236187438676466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ocean> .
+
+<http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_0_498> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_379_390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "film theory" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997158"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Film_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_55_70>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "process control" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_0_498> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9919101426231516"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Process_control> .
+
+<http://www.springernature.com/scigraph/things/articles/7d5d720d4ca4532f87a97a0266a8#offset_0_498>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "498"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Movie directors and designers of displays for process control have one thing in common: they must display the inner state of a complex system in an understandable way to a group of spectators/operators that do not have direct access to the interior of the system. The paper redefines the three basic filmic units: cut, scene, and sequence, and presents five topics from film theory that may give inspiration to the interface designer. The examples are taken from maritime instrumentation.\n" .

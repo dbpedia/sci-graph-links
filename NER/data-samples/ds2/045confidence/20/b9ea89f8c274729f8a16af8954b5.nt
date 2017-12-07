@@ -1,0 +1,39 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#offset_0_615>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "615"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Children's perceptions of other cultures are formed, at least in part, by the books they read; yet the potential of children's literature in the UK as a site for international cultural exchange is limited by a lack of translations and a historical resistance in Britain toward the languages of the European continent. The Year of European Languages is an opportune moment to explore the reflection of this uneasy linguistic relationship in children's texts and to compare selected instances of the role of European languages in British children's fiction from the mid-twentieth century to the present day.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#offset_537_544>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "British" ;
+        nif:beginIndex          "537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "544"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.7347335984211962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#offset_0_615> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#offset_154_156>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "UK" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b9ea89f8c274729f8a16af8954b5#offset_0_615> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9980228420405641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .

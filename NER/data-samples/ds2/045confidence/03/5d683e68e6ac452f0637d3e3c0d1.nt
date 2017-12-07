@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#offset_342_359>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scaling functions" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wavelet> .
+
+<http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#offset_0_375> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#offset_242_251>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "amplitude" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#offset_0_375> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998491961095708"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Amplitude> .
+
+<http://www.springernature.com/scigraph/things/articles/5d683e68e6ac452f0637d3e3c0d1#offset_0_375>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "375"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the paper free bubble oscillations are examined in detail for a broad range of amplitudes. In the case of linear oscillations and of an empty bubble several interesting results are derived analytically. For a general value of the amplitude the equation of motion is solved numerically. Finally, the most important independent and scaling functions are presented.\n" .

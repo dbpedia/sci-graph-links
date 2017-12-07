@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/85a082577853ec405934047825ae#offset_75_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosopher" ;
+        nif:beginIndex          "75"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/85a082577853ec405934047825ae#offset_0_320> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6964162795945246"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosopher> .
+
+<http://www.springernature.com/scigraph/things/articles/85a082577853ec405934047825ae#offset_0_320>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "320"^^xsd:nonNegativeInteger ;
+        nif:isString    "“...a theory of meaning for a particular language should be conceived by a philosopher as describing the practice of linguistic interchange by speakers of the language without taking it as already understood what it is to have a language at all: that is what, by imagining such a theory, we are trying to make explict.\\\n" .
+
+<http://www.springernature.com/scigraph/things/articles/85a082577853ec405934047825ae#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/85a082577853ec405934047825ae#offset_0_320> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

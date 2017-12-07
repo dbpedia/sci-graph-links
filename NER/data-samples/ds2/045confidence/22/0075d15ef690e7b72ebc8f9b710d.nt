@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0075d15ef690e7b72ebc8f9b710d#offset_453_460>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mystery" ;
+        nif:beginIndex          "453"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0075d15ef690e7b72ebc8f9b710d#offset_0_895> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6281873228183248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mystery_fiction> .
+
+<http://www.springernature.com/scigraph/things/articles/0075d15ef690e7b72ebc8f9b710d#offset_0_895>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "895"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Although the idea of nature has allbut disappeared from recent discussion ofeducation, it remains highly relevant to thephilosophy and practice of education, sincetacit notions of human nature and whatconstitutes underlying reality – the `natural'order of things – necessarily orientateseducation in fundamental ways. It is arguedthat underlying our various senses of nature isthe idea of nature as the `self-arising' whoseintrinsic integrity, mystery and valueimplicitly condition our understanding ofourselves and of the reality in which we live.I argue that the acknowledgement of nature soconceived opens up a perspective on educationthat requires us to review currently dominanttechnological notions of truth and knowledge,and also of what should characterize theprocess of education, reasserting the properplace of more intuitive, local and dialogicalknowledge and relationships.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0075d15ef690e7b72ebc8f9b710d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0075d15ef690e7b72ebc8f9b710d#offset_0_895> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

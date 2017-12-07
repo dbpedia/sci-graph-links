@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_0_528> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_275_296>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite element meshes" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_element_method> .
+
+<http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_482_500>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Helmholtz equation" ;
+        nif:beginIndex          "482"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helmholtz_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_42_58>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterative method" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterative_method> .
+
+<http://www.springernature.com/scigraph/things/articles/fe65d1f1244a7935b05298d31829#offset_0_528>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "528"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We propose a black-box parallel iterative method suitable for solving both elliptic and certain non-elliptic problems discretized on unstructured meshes. The method is analyzed in the case of the second order elliptic problems discretized on quasiuniform P1 and Q1 finite element meshes. The numerical experiments confirm the validity of the proved convegence estimate and show that the method can successfully be used for more difficult problems (e.g. plates, shells and Helmholtz equation in high-frequency domain.)\n" .

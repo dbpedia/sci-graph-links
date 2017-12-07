@@ -1,0 +1,60 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_399_410>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptogamic" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptogam> .
+
+<http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_143_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "British" ;
+        nif:beginIndex          "143"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9889815771095627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_324_333>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Salisbury" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.6196503075240765"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Salisbury> .
+
+<http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_0_501>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "501"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract S. F. Gray's Natural Arrangement of British Plants (2 vols., November 1821) was for many years deliberately and unjustly neglected by British botanists on account of its idiosyncrasies, anti-Linnaean character, unorthodox nomenclature, narrow generic concepts and contemporary hostility to the supposed authorR. A. Salisbury, but is nevertheless nomenclaturally important, particularly for cryptogamic groups. This paper surveys its history, authorship, date of publication and nomenclature.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_45_52>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "British" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.988981577266577"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Kingdom> .
+
+<http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b8e5c2570dcf7c980626ecc371e5#offset_0_501> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

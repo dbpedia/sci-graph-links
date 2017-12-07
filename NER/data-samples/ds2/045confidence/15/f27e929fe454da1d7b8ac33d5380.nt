@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_529_532>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "IIS" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "532"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "0.9999999725159799"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet_Information_Services> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_851_854>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MRP" ;
+        nif:beginIndex          "851"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "854"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991200263222833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Material_requirements_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_723_746>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "organisational learning" ;
+        nif:beginIndex          "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "746"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Organizational_learning> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_847_850>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ERP" ;
+        nif:beginIndex          "847"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "850"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999877218"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enterprise_resource_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_603_606>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "VSM" ;
+        nif:beginIndex          "603"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999761258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Value_stream_mapping> .
+
+<http://www.springernature.com/scigraph/things/articles/f27e929fe454da1d7b8ac33d5380#offset_0_900>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "900"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. When small companies grow, they face a range of strategic managerial challenges. Stage models for small company growth predict that a ‘crisis of control’ can occur when existing information systems for communication and control are no longer able to cope with increased throughput, nor are they able to respond flexibly to opportunities and challenges in the business environment. In response, owner-managers (OMs) may seek technological enterprise-wide ‘solutions’, in a drive towards ‘integrated information systems (IIS)’. This paper reports a case study in which the Viable Systems Model (VSM) was used during an integration project in a small manufacturing company. In this case, the ‘solution’ was found in organisational learning, rather than technology. It is argued that such a phase may be an essential step to the adoption of ERP/MRP at a later date for small growing companies.\n" .

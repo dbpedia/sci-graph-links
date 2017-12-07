@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/90b868ef28e9e0042515d7bdfb09#offset_85_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "letting die" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/90b868ef28e9e0042515d7bdfb09#offset_0_673> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Letting_die> .
+
+<http://www.springernature.com/scigraph/things/articles/90b868ef28e9e0042515d7bdfb09#offset_0_673>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "673"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract What makes killing morally wrong? And what makes killing morally worse than letting die? Standard answers to these two questions presuppose that killing someone involves shortening that person's life. Yet, as I argue in the first two sections of this article, this presupposition is false: Life-prolonging killings are conceivable. In the last two sections of the article, I explore the significance of the conceivability of such killings for various discussions of the two questions just mentioned. In particular, I show why the conceivability of life-prolonging killings renders Frances M. Kamm's attempt to provide an answer to the second question problematic.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/90b868ef28e9e0042515d7bdfb09#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/90b868ef28e9e0042515d7bdfb09#offset_0_673> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

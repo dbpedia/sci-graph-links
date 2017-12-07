@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_22_25>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CRC" ;
+        nif:beginIndex          "22"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994506084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cyclic_redundancy_check> .
+
+<http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_0_403> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_230_241>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parity bits" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parity_bit> .
+
+<http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_88_98>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "automation" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "98"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_0_403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999427615053524"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automation> .
+
+<http://www.springernature.com/scigraph/things/articles/fb48de870e22914c529e9744302d#offset_0_403>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "403"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Standardized CRC codes used in today’s communication, data storage and process automation systems have odd maximum blocklength, which does not comply with a byte-structure of data where the number of information bits and parity bits is a multiple of eight. To achieve byte-structure, the code’s information part is lengthened by one bit, but without degradation of the code’s minimum distance.\n" .

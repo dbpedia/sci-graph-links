@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_127_137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plagiarism" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_0_1374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plagiarism> .
+
+<http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_1062_1091>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secure multiparty computation" ;
+        nif:beginIndex          "1062"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_0_1374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Secure_multi-party_computation> .
+
+<http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_796_813>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cosine similarity" ;
+        nif:beginIndex          "796"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "813"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_0_1374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cosine_similarity> .
+
+<http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_536_547>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plagiarized" ;
+        nif:beginIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_0_1374> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999986358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plagiarism> .
+
+<http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_0_1374>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1374"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Similar document detection plays important roles in many applications, such as file management, copyright protection, plagiarism prevention, and duplicate submission detection. The state of the art protocols assume that the contents of files stored on a server (or multiple servers) are directly accessible. However, this makes such protocols unsuitable for any environment where the documents themselves are sensitive and cannot be openly read. Essentially, this assumption limits more practical applications, e.g., detecting plagiarized documents between two conferences, where submissions are confidential. We propose novel protocols to detect similar documents between two entities where documents cannot be openly shared with each other. The similarity measure used can be a simple cosine similarity on entire documents or on document fragments, enabling detection of partial copying. We conduct extensive experiments to show the practical value of the proposed protocols. While the proposed base protocols are much more efficient than the general secure multiparty computation based solutions, they are still slow for large document sets. We then investigate a clustering based approach that significantly reduces the running time and achieves over 90% of accuracy in our experiments. This makes secure similar document detection both practical and feasible.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f94470335c2874931eb862e2771d#offset_0_1374> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

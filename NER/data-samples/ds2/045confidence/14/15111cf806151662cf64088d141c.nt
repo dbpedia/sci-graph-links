@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_228_239>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time-series" ;
+        nif:beginIndex          "228"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_763_782>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "underground economy" ;
+        nif:beginIndex          "763"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "782"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Black_market> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_472_486>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hidden economy" ;
+        nif:beginIndex          "472"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Black_market> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_58_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "latent variable" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latent_variable> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_539_542>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GDP" ;
+        nif:beginIndex          "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "542"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999979135737"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_89_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hidden economy" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Black_market> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "839"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. This paper develops and estimates a structural, latent variable, model for the hidden economy in New Zealand, and a separate currency-demand model. The estimated latent variable model is used to generate an historical time-series index of hidden economic activity, which is calibrated via the information from the currency-demand model. Special attention is paid to data non-stationarity, and to diagnostic testing. Over the period 1968 to 1994, the size of the hidden economy is found to vary between 6.8% and 11.3% of measured GDP. This, in turn, implies that the total tax-gap is of the order of 6.4% to 10.2% of total tax liability in that country. Of course, not all of this foregone revenue would be recoverable, as not all of the activity in the underground economy is responsive to changes in taxation or other policies.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_172_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "latent variable model" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latent_variable_model> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_107_118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "New Zealand" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9988024855113574"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Zealand> .
+
+<http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_381_397>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-stationarity" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/15111cf806151662cf64088d141c#offset_0_839> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999972715"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stationary_process> .

@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_243_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "YBCO" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Yttrium_barium_copper_oxide> .
+
+<http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_248_257>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thin film" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "257"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999996802106577"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thin_film> .
+
+<http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_0_379> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_0_379>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "379"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The possibility of determination of the current distribution in HTS films by measuring their magnetic field is discussed and experimentally investigated. Current distribution close to the one following from Bean model was found for a YBCO thin film (77 K) in dc field; some differences between the model prediction and experiment were observed for the case of ac field.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_102_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic field" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/05490523cc112adac7129e857dcc#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992388641258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_field> .

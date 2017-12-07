@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_154_161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9641013672411347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_236_245>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "commodity" ;
+        nif:beginIndex          "236"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9652206105202983"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Commodity> .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "958"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article shows us some of the problems of the domination of the ex-colonial languages for intellectual life in Africa. The author notes that English serves fundamentally the interests of those for whom it is both an export commodity and a language of conquest and domination. He argues that there is no compelling reason for adopting a foreign language as a national one. On the contrary, there is ample evidence that such linguistic imposition does more harm than good. When a language is artificially imposed, students are rarely able to master it sufficiently to work comfortably in it. Not only do they fail to acquire proficiency in the foreign language; they also lose proficiency in their own languages, becoming twice disadvantaged. The author sees dependency on a foreign language, like other forms of dependency, as a liability that a nation can ill afford. He quotes Ali Mazrui who raises the question: Will Africa ever effectively \\\n" .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_124_130>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Africa" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Place> , <http://schema.org/Continent> ;
+        itsrdf:taConfidence     "0.9999995594224462"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Africa> .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_932_938>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Africa" ;
+        nif:beginIndex          "932"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "938"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Continent> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9999995594224462"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Africa> .
+
+<http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_891_901>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ali Mazrui" ;
+        nif:beginIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/20161e67d0de4851ff5ac99877b7#offset_0_958> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ali_Mazrui> .

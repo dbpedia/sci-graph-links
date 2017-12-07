@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/64da3696e3a20b1e85cea73b5e77#offset_0_1343>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1343"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Although summative testing is often maligned within educational communities, practice testing is one of the most well-established strategies for improving student learning. Despite the wealth of empirical evidence that testing can enhance learning, teachers and students underutilize practice testing as a learning strategy. Accordingly, a high-level goal of this paper is to advocate for increased use of practice testing as a means for improving student learning. To this end, we discuss prior research establishing the generality of test-enhanced learning as well as prior research that points to conditions under which practice testing is particularly effective. We then summarize some recent research that explores schedules of practice testing that will not only produce durable learning, but will do so most efficiently. To briefly foreshadow, a particularly effective schedule involves practicing retrieval until target information is correctly recalled once during initial learning and then relearned to one correct recall in three to four subsequent sessions. Finally, we argue that exploring both criteria—durability and efficiency—can be valuable for evaluating the utility of learning techniques, and we offer some basic prescriptive conclusions for students and educators as well as recommendations for future research.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/64da3696e3a20b1e85cea73b5e77#offset_204_222>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical evidence" ;
+        nif:beginIndex          "204"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "222"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/64da3696e3a20b1e85cea73b5e77#offset_0_1343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995383874042401"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<http://www.springernature.com/scigraph/things/articles/64da3696e3a20b1e85cea73b5e77#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/64da3696e3a20b1e85cea73b5e77#offset_0_1343> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

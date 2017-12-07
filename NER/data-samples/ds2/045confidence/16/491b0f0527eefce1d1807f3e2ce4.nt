@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#offset_774_788>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "2000 US Census" ;
+        nif:beginIndex          "774"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#offset_0_1196> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/2000_United_States_Census> .
+
+<http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#offset_0_1196> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#offset_0_1196>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1196"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Fear has long been studied as a consequence of crime given the consistent and ubiquitous nature of fear as a reaction and the systematic variations in its consequences. Past research has shown significant variations in fear of crime at both the individual and ecological level. Here we implement a multi-level approach to understanding potential interactions between perceived safety in one’s neighborhood in relation to social disorganization indicators at the neighborhood level and crime rates at the county level. The nationally representative sample data (n = 2,610) used in this analysis combines individual level data collected in 2006 from the Panel Study of Religion and Ethnicity (PS-ARE) with ecological level data at the tract and county level from the 2000 US Census. The findings suggest a three level interaction negating the well known protection hypothesis of marriage and crime; this essentially means that as being married or cohabitating decreases the negative effects of being in a community with a high level of familial disruption (percent of divorced) increases, but that effect is substantively negatively tempered as the violent crime rate of the county rises.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#offset_430_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social disorganization" ;
+        nif:beginIndex          "430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/491b0f0527eefce1d1807f3e2ce4#offset_0_1196> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_disorganization_theory> .

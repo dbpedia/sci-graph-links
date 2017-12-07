@@ -1,0 +1,110 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_8_18>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Pea aphids" ;
+        nif:beginIndex          "8"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "18"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acyrthosiphon_pisum> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_388_403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alarm pheromone" ;
+        nif:beginIndex          "388"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pheromone> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_731_737>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "aphids" ;
+        nif:beginIndex          "731"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "737"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aphid> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_107_126>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parthenogenetically" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parthenogenesis> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "805"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Pea aphids show intraclonal variability in antipredator behaviour. Among the offspring of a single parthenogenetically reproducing female, some individuals drop from the plant in response to alarm pheromone while others remain on the plant. We demonstrate that this intraclonal behavioural variability can be altered by selection. The proportion of aphids dropping in response to alarm pheromone was significantly greater in lines in which this behaviour was selected than in clonally identical lines in which the opposite phenotype was favoured. This change occurred within one generation and could not be attributed to grand-maternal effects, nor to environmental effects. These results demonstrate the ability of clonal aphids to adapt to changes in the environment within a single generation.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_531_540>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenotype" ;
+        nif:beginIndex          "531"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979290973850222"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenotype> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_357_363>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aphids" ;
+        nif:beginIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aphid> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_199_214>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alarm pheromone" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pheromone> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_484_492>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clonally" ;
+        nif:beginIndex          "484"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999992355129"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parthenogenesis> .
+
+<http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_724_730>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "clonal" ;
+        nif:beginIndex          "724"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "730"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9447e2da92e3860be84056a2a3f2#offset_0_805> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9852860504703201"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloning> .

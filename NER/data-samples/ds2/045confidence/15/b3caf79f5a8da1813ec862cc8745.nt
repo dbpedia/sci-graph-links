@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b3caf79f5a8da1813ec862cc8745#offset_0_245>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "245"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This study reviews the literature on the use of the life cycle metaphor in business research. Throughout the three considered branches, it introduces a developmental perspective to explore dynamic changes and induce creative solutions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b3caf79f5a8da1813ec862cc8745#offset_72_80>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metaphor" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b3caf79f5a8da1813ec862cc8745#offset_0_245> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999928944214451"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metaphor> .
+
+<http://www.springernature.com/scigraph/things/articles/b3caf79f5a8da1813ec862cc8745#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b3caf79f5a8da1813ec862cc8745#offset_0_245> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

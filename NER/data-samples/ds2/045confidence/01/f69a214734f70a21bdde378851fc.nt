@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_17_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "traveling salesman problem" ;
+        nif:beginIndex          "17"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Travelling_salesman_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_466_472>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modulo" ;
+        nif:beginIndex          "466"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998853140908141"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_449_465>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear equations" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9909360472576939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_254_263>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "263"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.627587555110026"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_272_276>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "P=NP" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/P_versus_NP_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_49_68>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "triangle inequality" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999956799"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Triangle_inequality> .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "500"^^xsd:nonNegativeInteger ;
+        nif:isString    "We show that the traveling salesman problem with triangle inequality cannot be approximated with a ratio better than $$ \\\\frac{{117}} {{116}} $$ when the edge lengths are allowed to be asymmetric and $$ \\\\frac{{220}} {{219}} $$ when the edge lengths are symmetric, unless P=NP. The best previous lower bounds were $$ \\\\frac{{2805}} {{2804}} $$ and $$ \\\\frac{{3813}} {{3812}} $$ respectively. The reduction is from Håstad’s maximum satisfiability of linear equations modulo 2, and is nonconstructive.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_431_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "satisfiability" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f69a214734f70a21bdde378851fc#offset_0_500> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999936108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boolean_satisfiability_problem> .

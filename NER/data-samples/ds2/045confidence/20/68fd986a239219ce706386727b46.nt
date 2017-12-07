@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#offset_249_256>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compass" ;
+        nif:beginIndex          "249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#offset_0_366> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971073866337864"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Compass> .
+
+<http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#offset_320_330>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "automation" ;
+        nif:beginIndex          "320"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "330"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#offset_0_366> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999346463056143"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automation> .
+
+<http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#offset_0_366>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "366"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract “Language is still the most important medium in human communication and the most used one. Automation has enormous potential in this area, but is not as easily accepted.” This attitude needs to change says Detlev Artelt the author of voice compass. With current examples and trends from the world of linguistic automation CallCenterInternational shows why.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/68fd986a239219ce706386727b46#offset_0_366> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

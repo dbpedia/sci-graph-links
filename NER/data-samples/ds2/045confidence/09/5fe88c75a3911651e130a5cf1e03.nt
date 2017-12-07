@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_0_723> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_96_107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "calorimetry" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992078583363192"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calorimeter> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_37_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enthalpies" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enthalpy> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_235_245>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "enthalpies" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enthalpy> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_359_365>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alloys" ;
+        nif:beginIndex          "359"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_0_723> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999769216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alloy> .
+
+<http://www.springernature.com/scigraph/things/articles/5fe88c75a3911651e130a5cf1e03#offset_0_723>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "723"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Partial and integral mixing enthalpies of melts of the Eu-Sn system were determined by calorimetry at 1300 (1250) K in the concentration intervals 0 < x Sn < 0.16 and 0.7 < x Sn < 1. It was found that the first partial mixing enthalpies of Sn and Eu were −215.6 ± 10.6 and −161.2 ± 7.6 kJ/mol, respectively. The thermodynamic properties of the Eu-Sn alloys were modeled using the theory of ideal associated solutions over a wide interval of concentrations and temperatures. In was found that the activities of components exhibit strong negative deviations from Raoult’s law. At minimum, the calculated integral Gibbs energies of mixing reach −43.4 kJ/mol at x Sn = 0.48; ΔG ex = −36 kJ/mol, ΔS ex = −22 J/(mol K).\n" .

@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#offset_0_312> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#offset_0_312>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "312"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Some similar results to those for maximal (two-sided) ideals in a compact semigroupS are obtained for maximal left ideals inS, with one exception i.e. the intersection of all maximal left ideals inS may be empty. The maximal left ideals in the convolution semigroup of measures onS are also considered.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#offset_265_274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semigroup" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#offset_0_312> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999573106"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semigroup> .
+
+<http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#offset_253_264>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convolution" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b87c3972d22e6d50bb1309413207#offset_0_312> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999986059152"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convolution> .

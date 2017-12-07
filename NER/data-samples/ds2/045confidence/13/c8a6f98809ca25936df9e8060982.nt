@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_1087_1095>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Kentucky" ;
+        nif:beginIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1095"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_0_1260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/AdministrativeArea> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/AdministrativeRegion> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Region> ;
+        itsrdf:taConfidence     "0.9928423357795494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kentucky> .
+
+<http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_0_1260> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_0_1260>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1260"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Charlotte–Mecklenburg Schools school-based performance award program (SBPA) for teachers and classified staff is an accountability program that measures and sets goals for student achievement, provides numerous performance enablers for teachers (such as professional development and information about best practices), and awards monetary bonuses to teachers and staff in schools that meet their goals. Based on expectancy and goal-setting theory, an interview protocol was used to assess teachers' motivational reactions to the program. Teachers reported that the goals were specific, understandable, focused, and challenging; there were concerns, however, about being able to meet ever higher future goals. The usefulness of the performance enablers received mixed reactions. Bonuses were viewed as appropriate and an appreciated form of recognition, though of too small an amount. Helping students learn and seeing them meet achievement goals were reported to be more potent motivators than the bonus per se. Comparison of these reactions to those from teachers under the Kentucky SBPA showed both common and contrasting impacts. Numerous implications for future research, and for the design and implementation of SBPA programs, were suggested.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_473_481>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "481"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_0_1260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9826494904427093"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_439_458>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "goal-setting theory" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "458"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c8a6f98809ca25936df9e8060982#offset_0_1260> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Goal_setting> .

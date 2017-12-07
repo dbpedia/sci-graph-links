@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_265_275>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic" ;
+        nif:beginIndex          "265"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "275"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998442022261016"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_100_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "degree sequence" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Degree_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_225_232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994221298"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "332"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An integer partition {λ1,λ2,...,λ v } is said to be graphical if there exists a graph with degree sequence 〈λ i 〉. We give some results corcerning the problem of deciding whether or not almost all partitions of even integer are non-graphical. We also give asymptotic estimates for the number of partitions with given rank.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_89_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "89"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9805799496535462"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_12_29>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer partition" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_(number_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a06663feda42d23c3ed4372e06bd#offset_0_332> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

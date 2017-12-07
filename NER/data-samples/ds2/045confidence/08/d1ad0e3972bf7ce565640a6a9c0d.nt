@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_529_540>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuzzy logic" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_0_1159> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996963425"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuzzy_logic> .
+
+<http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_0_1159> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_548_562>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "soft computing" ;
+        nif:beginIndex          "548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "562"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_0_1159> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Soft_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_16_38>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "location-based service" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_0_1159> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Location-based_service> .
+
+<http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_566_577>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_0_1159> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999914043354582"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/d1ad0e3972bf7ce565640a6a9c0d#offset_0_1159>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1159"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the location-based service (LBS) privacy protection, the most common and classic solution is K-anonymity, however, existing schemes rarely consider the issue that whether other mobile users are willing to provide assistance to the requesters to form the K-anonymity set, thus leading to their poor practicability. In this paper, an incentive mechanism based on credit is introduced into the distributed K-anonymity, and only providing assistance to the others, a user can gain and accumulate his credit. Based on the fuzzy logic in the soft computing, a probability threshold is introduced to reflect a user’s reputation, and only when a user’s reputation reaches this threshold, can he get the assistance from other neighbors. Security analysis shows that our scheme is secure with respect to various typical attacks. And because of not relying on a trusted third party, our scheme can avoid the security issue resulting from its breach. Extensive experiments indicate that the time to form the anonymity set is short and it increases slowly as the value of K increases. Finally, the additional traffic introduced by this scheme is very limited.\n" .

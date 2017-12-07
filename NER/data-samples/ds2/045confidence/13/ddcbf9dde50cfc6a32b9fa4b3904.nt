@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_0_361> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_0_361>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "361"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The aim of this paper is to investigate the global stability and periodic nature of the positive solutions of the difference equation $$x_{n + 1} = \\\\frac{{A + Bx_{n - 2k - 1} }} {{C + D\\\\prod\\\\limits_{i = 1}^k {x_{n - 2i} } }}, n = 0,1,2, \\\\ldots ,$$ where A, B are nonnegative real numbers, C,D > 0 and l, k are nonnegative integers such that l ≤ k.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_123_142>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "difference equation" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993649765626"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recurrence_relation> .
+
+<http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_335_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integers" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_288_300>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real numbers" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "300"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddcbf9dde50cfc6a32b9fa4b3904#offset_0_361> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999980673"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_number> .

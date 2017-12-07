@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_0_762>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "762"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Xu (Int J Approx Reason 36:261–270, 2004) introduced the concepts of incomplete reciprocal relation and additive consistent incomplete reciprocal relation. The aim of this paper is to develop a novel procedure for group decision making with incomplete reciprocal relations. The procedure utilizes each given incomplete reciprocal relation to construct an auxiliary reciprocal relation based on additive transitivity, and then aggregates directly these auxiliary reciprocal relations into a collective auxiliary reciprocal relation. After that, based on the collective auxiliary reciprocal relation, a simple linear system of equations is established for ranking alternatives. Finally, a numerical example is given to illustrate the developed procedure.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_223_244>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "group decision making" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999903420758"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Group_decision-making> .
+
+<http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_0_762> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_617_630>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear system" ;
+        nif:beginIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9710476065781455"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_system> .
+
+<http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_412_424>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transitivity" ;
+        nif:beginIndex          "412"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "424"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0637302ae95fec8efa81f9f0b8ed#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993167282984"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transitive_relation> .

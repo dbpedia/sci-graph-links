@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_9_17>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9998704810869021"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_503_510>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "liberal" ;
+        nif:beginIndex          "503"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999943386640053"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Liberalism> .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_533_555>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empathic understanding" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empathy> .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_18_27>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sociology" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "27"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999977050438433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sociology> .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_245_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taboo" ;
+        nif:beginIndex          "245"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999865841355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taboo> .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "865"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract American sociology has consistently leaned toward the political Left. This ideological skew hinders sociological insight in three ways. First, the scope of research projects is constrained: sociologists are discouraged from touching on taboo topics and ideologically unpalatable facts. Second, the data used in sociological research have been limited. Sociologists neglect data that portray conservatives positively and liberals negatively. Data are also truncated to hide facts that subvert a liberal narrative. Third, the empathic understanding of non-liberal ideologies is inhibited. Sociologists sometimes develop the erroneous belief that they understand alternative ideologies, and they fail to explore non-liberal ways of framing sociological knowledge. Some counterarguments may be raised against these theses, and I address such counterarguments.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/80dce1b71e88d3c655dcdd4d9f32#offset_0_865> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

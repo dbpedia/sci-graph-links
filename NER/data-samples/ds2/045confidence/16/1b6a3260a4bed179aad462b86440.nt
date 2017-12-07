@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_501_505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quad" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968239180663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrilateral> .
+
+<http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_0_542>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "542"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the paper we deal with the qualitative behavior of solutions of the following equation: $$\\\\begin{aligned} x_{n+1}=ax_{n-1}-\\\\frac{bx_n^2 + cx_{n - 1}^2}{1 - dx_n+ ex_{n - 1}},\\\\quad n = 0,1,2,\\\\ldots \\\\end{aligned}$$ where the initial values x −1,x 0 are arbitrary positive numbers and a,b,c,d,e are positive numbers. We also study the positive nonoscillatory solutions of the difference equation $$\\\\begin{aligned} x_{n+1}=ax_{n-1} - \\\\frac{bx_n^2 + ax_{n - 1}^2}{1 - cx_n+ x_{n - 1}},\\\\quad n = 0,1,2,\\\\ldots. \\\\end{aligned}$$\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_152_154>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cx" ;
+        nif:beginIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9236545074551927"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Citroën_CX> .
+
+<http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_0_542> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_190_194>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quad" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999968239180663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadrilateral> .
+
+<http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_390_409>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "difference equation" ;
+        nif:beginIndex          "390"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1b6a3260a4bed179aad462b86440#offset_0_542> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999943189906665"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Recurrence_relation> .
