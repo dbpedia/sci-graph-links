@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_0_351>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "351"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The minimum orders of degree-continuous graphs with prescribed degree sets were investigated by Gimbel and Zhang, Czechoslovak Math. J. 51 (126) (2001), 163–171. The minimum orders were not completely determined in some cases. In this note, the exact values of the minimum orders for these cases are obtained by giving improved upper bounds.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_49_55>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graphs" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "55"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9894573453386633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_337_349>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "upper bounds" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999993619895"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Upper_and_lower_bounds> .
+
+<http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_123_135>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Czechoslovak" ;
+        nif:beginIndex          "123"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "135"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_0_351> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999046840535314"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Czechoslovakia> .
+
+<http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9a5743ffa63afaeb7e14aca6bf7a#offset_0_351> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

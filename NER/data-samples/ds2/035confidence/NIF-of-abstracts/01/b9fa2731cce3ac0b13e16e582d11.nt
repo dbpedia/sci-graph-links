@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_80_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "knots" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7032541454046372"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Knot_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_322_328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domain" ;
+        nif:beginIndex          "322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999995695907782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domain_of_a_function> .
+
+<http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_0_556>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "556"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A cubature formula with degree of exactness ≦2k−2 has at leastk(k+1)/2 knots. The existence of such minimal formulae is equivalent to the existence of solutions of a system of quadratic equations. Each solution of such a system generates in a uniquely determined way a minimal formula. For the square [−1, 1]2 as domain of integration and for some weight-functions these systems have a simple form, but they seem to be hard to solve. In this note attention is drawn to these systems and to experiences made in order to obtain numerical solutions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_11_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cubature" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Numerical_integration> .
+
+<http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_185_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadratic equations" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_0_556> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/b9fa2731cce3ac0b13e16e582d11#offset_0_556> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

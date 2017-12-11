@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_0_373> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_45_67>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "educational attainment" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977333932272109"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Educational_attainment_in_the_United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_87_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "U.S. counties" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/County_(United_States)> .
+
+<http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_0_373>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "373"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper estimates annual data on educational attainment for 3,076 mainland U.S. counties 1991–2005. Being estimated without resorting to ancillary information, this data is suited particular well for use in panel regression analyses. Several plausibility checks indicate that the data is fairly reliable and yields plausible parameter estimates in regressions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_360_371>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regressions" ;
+        nif:beginIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6715125484719896"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_225_244>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression analyses" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "244"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ff843b6a0b246516e997ae292981#offset_0_373> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .

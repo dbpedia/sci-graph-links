@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_985_998>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "range queries" ;
+        nif:beginIndex          "985"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "998"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_0_1055> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999869579598"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Range_queries> .
+
+<http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_0_1055> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_0_1055>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1055"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Intense regulatory focus on secure retention of electronic records has led to a need to ensure that records are trustworthy, i.e., able to provide irrefutable proof and accurate details of past events. In this paper, we analyze the requirements for a trustworthy index to support keyword-based search queries. We argue that trustworthy index entries must be durable—the index must be updated when new documents arrive, and not periodically deleted and rebuilt. To this end, we propose a scheme for efficiently updating an inverted index, based on judicious merging of the posting lists of terms. Through extensive simulations and experiments with two real world data sets and workloads, we demonstrate that the scheme achieves online update speed while maintaining good query performance. We also present and evaluate jump indexes, a novel trustworthy and efficient index for join operations on posting lists for multi-keyword queries. Jump indexes support insert, lookup and range queries in time logarithmic in the number of indexed documents.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_57_75>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electronic records" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_0_1055> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Records_management> .
+
+<http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_1007_1018>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logarithmic" ;
+        nif:beginIndex          "1007"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1018"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_0_1055> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999893502719"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logarithm> .
+
+<http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_671_680>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data sets" ;
+        nif:beginIndex          "671"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "680"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5ef819998b701f0f6e83d53c0a09#offset_0_1055> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999997726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_set> .

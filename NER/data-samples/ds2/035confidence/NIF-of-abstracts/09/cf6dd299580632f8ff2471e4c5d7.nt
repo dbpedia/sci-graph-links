@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "387"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusions We investigated the stability of thermomechanical strengthening of steel 40, in which there is a partial intermediate transformation. Complete removal of the strengthening effect of HTTMT requires that the steel be annealed four times at 900° for 4 h. Intermediate annealing at 600° or normalization at 840° with holding up to 10 h does not impair the mechanical properties.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_277_286>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "annealing" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "286"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999979922539783"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annealing_(metallurgy)> .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_79_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steel" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9939912459060056"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steel> .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_218_223>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "steel" ;
+        nif:beginIndex          "218"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "223"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9939912459060056"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Steel> .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_298_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "normalization" ;
+        nif:beginIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.916185364422035"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wave_function> .
+
+<http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_227_235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "annealed" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cf6dd299580632f8ff2471e4c5d7#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994956220484"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annealing_(metallurgy)> .

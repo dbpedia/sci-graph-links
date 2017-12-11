@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_80_85>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Krein" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mark_Krein> .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "193"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is shown that transfer functions, which play a crucial role in M.G. Krein’s study of inverse spectral problems, are a proper tool to formulate local spectral uniqueness conditions.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_161_169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectral" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9726565390252672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectrum> .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_105_113>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectral" ;
+        nif:beginIndex          "105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9726565390252672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectrum> .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_97_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inverse" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9635546044056891"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inverse_function> .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_26_44>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transfer functions" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transfer_function> .
+
+<http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bec1cc5bf920c6ca679dc3f076b0#offset_0_193> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

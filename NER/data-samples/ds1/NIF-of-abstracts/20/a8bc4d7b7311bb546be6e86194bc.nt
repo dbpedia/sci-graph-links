@@ -1,0 +1,248 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_126_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptology" ;
+        nif:beginIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptography> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_64_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "industrial" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8606663179695188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Industry> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "993"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract RC4 is one of the most popular stream cipher with wide industrial applications, it has received serious attention in cryptology literature in the last 2 decades. In 1995, Roos pointed out that the elements $$S_N[y]$$ SN[y] of the permutation $$S_N$$ SN after the key scheduling algorithm for the first few values of y are biased to certain combinations of secret key bytes. These correlations were theoretically studied by Paul and Maitra (SAC, 2007). The formula for the correlation probabilities provided by them gives a wrong impression that the probabilities decrease as the value of y becomes larger, which is not true. In this paper, we point out some gaps in their analysis and present a detailed analysis of Roos bias. We provide a more accurate formula for the correlation probabilities. We further study nested Roos type biases and present comparison results. These types of biases are used to reconstruct key from the permutation $$S_N$$ SN for better success probability.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_365_375>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secret key" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999992319305414"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Key_(cryptography)> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_226_228>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SN" ;
+        nif:beginIndex          "226"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.974213277174063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supernova> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_432_436>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Paul" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/OfficeHolder> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "0.8671027573579517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ron_Paul> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_558_571>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "558"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999764947458454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_449_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SAC" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.994048712266114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Selected_Areas_in_Cryptography> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_958_960>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SN" ;
+        nif:beginIndex          "958"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "960"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.974213277174063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supernova> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_980_991>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "991"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999710756848739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_730_734>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bias" ;
+        nif:beginIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "734"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.937310233413337"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognitive_bias> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_389_401>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlations" ;
+        nif:beginIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977985311439413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_40_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stream cipher" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stream_cipher> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_938_949>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permutation" ;
+        nif:beginIndex          "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999949901176932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Permutation> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_493_506>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "506"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999764947458454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_779_790>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "779"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999898937643595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_239_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permutation" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999949901176932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Permutation> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_9_12>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "RC4" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "12"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RC4> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_137_147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998966569012001"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_376_381>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bytes" ;
+        nif:beginIndex          "376"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999997354962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Byte> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_272_296>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "key scheduling algorithm" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/RC4> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_791_804>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "804"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999764947458454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_259_261>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SN" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "261"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.974213277174063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Supernova> .
+
+<http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_481_492>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "correlation" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "492"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8bc4d7b7311bb546be6e86194bc#offset_0_993> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999898937643595"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Correlation_and_dependence> .

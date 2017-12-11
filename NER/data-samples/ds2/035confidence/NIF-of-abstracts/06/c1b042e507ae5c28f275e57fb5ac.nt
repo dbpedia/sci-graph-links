@@ -1,0 +1,107 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_128_138>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resistance" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "138"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999925227048602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_resistance_and_conductance> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_312_321>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conductor" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "321"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9051512814489093"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_conductor> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_334_344>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laboratory" ;
+        nif:beginIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "344"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992610761464923"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laboratory> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_349_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural experiments" ;
+        nif:beginIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6807990821670971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Experiment> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "384"^^xsd:nonNegativeInteger ;
+        nif:isString    "The possibility of detecting extended metal objects at the bottom of fresh-water reservoirs from the reduction in the spreading resistance between electrodes submerged in the water is demonstrated. A formula is obtained for the relative change in the spreading resistance in the presence of an isolated extended conductor. Results of laboratory and natural experiments are presented.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_38_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metal" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999995997375545"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metal> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_81_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reservoirs" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99726251768582"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reservoir> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_147_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrodes" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999973733225"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrode> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_175_180>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "water" ;
+        nif:beginIndex          "175"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998549675023954"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Water> .
+
+<http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_261_271>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resistance" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1b042e507ae5c28f275e57fb5ac#offset_0_384> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999925227048602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrical_resistance_and_conductance> .

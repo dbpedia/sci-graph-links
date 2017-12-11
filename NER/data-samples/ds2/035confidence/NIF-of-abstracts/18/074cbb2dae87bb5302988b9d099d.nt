@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/074cbb2dae87bb5302988b9d099d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/074cbb2dae87bb5302988b9d099d#offset_0_220> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/074cbb2dae87bb5302988b9d099d#offset_0_220>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "220"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract It is shown that groups satisfying a law [X n ,Y]=[X, Y n ] for some positive integern must also satisfy an Engel-like condition [X, r Y]=[X, r+d Y]. Some further properties of these groups are being discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/074cbb2dae87bb5302988b9d099d#offset_46_49>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "law" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/074cbb2dae87bb5302988b9d099d#offset_0_220> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9641423919920986"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Law> .

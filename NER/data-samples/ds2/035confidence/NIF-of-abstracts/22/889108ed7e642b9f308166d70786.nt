@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_188_196>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hadronic" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999926693836122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hadron> .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_79_83>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spin" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996568931"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spin_(physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_219_232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "annihilations" ;
+        nif:beginIndex          "219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999995453"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annihilation> .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_302_315>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fragmentation" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7971447079427441"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Habitat_fragmentation> .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "431"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We summarize the most significant aspects in the study of transverse spin phenomena over the last few decades, focusing on Semi-Inclusive Deep Inelastic Scattering processes and hadronic production in e + e - annihilations. The phenomenology of transverse-momentum-dependent distribution and fragmentation functions will be reviewed in an in-depth analysis of the most recent developments and of the future perspectives.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_238_251>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenomenology" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7521897041699068"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenomenology_(philosophy)> .
+
+<http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/889108ed7e642b9f308166d70786#offset_0_431> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

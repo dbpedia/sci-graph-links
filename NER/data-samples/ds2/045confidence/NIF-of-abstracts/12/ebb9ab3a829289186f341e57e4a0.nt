@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#offset_470_475>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trust" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "475"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#offset_0_741> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.866083112552041"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Trust_(social_sciences)> .
+
+<http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#offset_0_741> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#offset_0_741>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "741"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This research explores the design practice of three prominent New Zealand designers. It seeks to identify the key elements and methodologies they employ and to answer the research question: How do designers design? The need to gain understanding on how designers work, gave me occasion to visit and speak with designers about their approach to design. To look inside a designer’s practice has left me with an overriding impression that these designers know and trust their own way of working, they do not map their thoughts onto a pre-existing process; rather, each new work dictates its own direction. Their understanding has come about through a wealth of design experiences, a way of seeing, and perceptive reflection-in-action.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#offset_71_82>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "New Zealand" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ebb9ab3a829289186f341e57e4a0#offset_0_741> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9999237641353417"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/New_Zealand> .

@@ -1,0 +1,172 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_87_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "poem" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999616845611646"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poetry> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_128_147>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "William Shakespeare" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "147"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Writer> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Artist> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9999999648640603"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/William_Shakespeare> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_64_69>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Venus" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "69"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999583402502793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Venus_(mythology)> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_330_341>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Shakespeare" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "341"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Artist> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> ;
+        itsrdf:taConfidence     "0.9998820144224109"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/William_Shakespeare> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_949_962>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "POETS' CORNER" ;
+        nif:beginIndex          "949"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "962"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999967025247"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poets'_Corner> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1104"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Silicon compounds are mentioned four times in the poem Venus and Adonis. This poem was published in London, England by William Shakespeare in the year 1593 It is worth noting that William Shakespeare (1564-1616) has also been cited twice before in the journal SILICON since its introduction in 2009. One such citation to Shakespeare was under the sub-header of the journal that is entitled POETS’ CORNER. The idea behind this series of articles that are given under POETS’ CORNER is to have a place where the artistic aspects of the element silicon (Si) and its chemical compounds can be described. Hopefully, this collection of articles will build, and it will serve to show just how broad the field of silicon-based materials and silicon-based technologies is. Indeed one already sees this broadness reflected in the growing content of the journal SILICON. This is article is the third in the ongoing series of articles that are entitled POETS’ CORNER. It was written during 2016 when the world was celebrating the 400 th anniversary of the death of William Shakespeare (d. 23 rd April 1616).\n" .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_399_412>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "POETS' CORNER" ;
+        nif:beginIndex          "399"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "412"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999967025247"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poets'_Corner> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_1061_1080>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "William Shakespeare" ;
+        nif:beginIndex          "1061"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> , <http://dbpedia.org/ontology/Artist> ;
+        itsrdf:taConfidence     "0.9999999648640603"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/William_Shakespeare> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_74_80>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Adonis" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998398924412245"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adonis> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_550_557>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "silicon" ;
+        nif:beginIndex          "550"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "557"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999621306682613"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Silicon> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_571_589>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemical compounds" ;
+        nif:beginIndex          "571"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998879251343"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical_compound> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_189_208>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "William Shakespeare" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "208"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Writer> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999648640603"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/William_Shakespeare> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_59_63>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "poem" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999616845611646"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poetry> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_109_124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "London, England" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://schema.org/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/City> , <http://dbpedia.org/ontology/Settlement> ;
+        itsrdf:taConfidence     "0.9996767152306699"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/London> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_904_918>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ongoing series" ;
+        nif:beginIndex          "904"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "918"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996654196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ongoing_series> .
+
+<http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_475_488>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "POETS' CORNER" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/34087711e86148594bb6372e31c7#offset_0_1104> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999967025247"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poets'_Corner> .

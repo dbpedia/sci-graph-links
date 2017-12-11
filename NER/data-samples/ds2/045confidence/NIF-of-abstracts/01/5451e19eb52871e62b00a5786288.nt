@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5451e19eb52871e62b00a5786288#offset_349_371>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variational inequality" ;
+        nif:beginIndex          "349"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5451e19eb52871e62b00a5786288#offset_0_383> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variational_inequality> .
+
+<http://www.springernature.com/scigraph/things/articles/5451e19eb52871e62b00a5786288#offset_0_383>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "383"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. In this paper we show the existence of a solution for the BSDE with two reflecting barriers when those latter are completely separated. Neither Mokobodzki’s condition nor the regularity of the barriers are supposed. The main tool is the notion of local solution of reflected BSDEs. Applications related to Dynkin games and double obstacle variational inequality are given.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5451e19eb52871e62b00a5786288#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5451e19eb52871e62b00a5786288#offset_0_383> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

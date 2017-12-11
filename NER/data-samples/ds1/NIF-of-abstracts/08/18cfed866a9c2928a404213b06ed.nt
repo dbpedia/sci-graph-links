@@ -1,0 +1,415 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1154_1165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cloud-based" ;
+        nif:beginIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999949257912976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_620_623>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSN" ;
+        nif:beginIndex          "620"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.999999999891088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/OSN> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_809_812>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "OSN" ;
+        nif:beginIndex          "809"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "812"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.999999999891088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/OSN> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1432_1448>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web applications" ;
+        nif:beginIndex          "1432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_application> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_677_686>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sanitizer" ;
+        nif:beginIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disinfectant> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1530"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article presents a novel framework XSS-Secure, which detects and alleviates the propagation of Cross-Site Scripting (XSS) worms from the Online Social Network (OSN)-based multimedia web applications on the cloud environment. It operates in two modes: training and detection mode. The former mode sanitizes the extracted untrusted variables of JavaScript code in a context-aware manner. This mode stores such sanitized code in sanitizer snapshot repository and OSN web server for further instrumentation in the detection mode. The detection mode compares the sanitized HTTP response (HRES) generated at the OSN web server with the sanitized response stored at the sanitizer snapshot repository. Any variation observed in this HRES message will indicate the injection of XSS worms from the remote OSN servers. XSS-Secure determines the context of such worms, perform the context-aware sanitization on them and finally sanitized HRES is transmitted to the OSN user. The prototype of our framework was developed in Java and integrated its components on the virtual machines of cloud environment. The detection and alleviation capability of our cloud-based framework was tested on the platforms of real world multimedia-based web applications including the OSN-based Web applications. Experimental outcomes reveal that our framework is capable enough to mitigate the dissemination of XSS worm from the platforms of non-OSN Web applications as well as OSN web sites with acceptable false negative and false positive rate.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1087_1092>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cloud" ;
+        nif:beginIndex          "1087"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1092"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_864_869>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "worms" ;
+        nif:beginIndex          "864"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "869"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_worm> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1393_1401>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XSS worm" ;
+        nif:beginIndex          "1393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1401"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/XSS_worm> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_813_820>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servers" ;
+        nif:beginIndex          "813"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "820"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6565596800239423"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1276_1292>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web applications" ;
+        nif:beginIndex          "1276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_application> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_478_488>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "web server" ;
+        nif:beginIndex          "478"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995996351692"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_109_129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cross-Site Scripting" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross-site_scripting> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_501_516>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "instrumentation" ;
+        nif:beginIndex          "501"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6222771973468757"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Instrumentation_(computer_programming)> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_185_195>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multimedia" ;
+        nif:beginIndex          "185"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "195"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9798239221988873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_2.0> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_883_896>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "context-aware" ;
+        nif:beginIndex          "883"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "896"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9801774273098126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Context_awareness> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_220_225>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cloud" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999989768"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_624_634>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "web server" ;
+        nif:beginIndex          "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "634"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995996351692"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1490_1504>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "false negative" ;
+        nif:beginIndex          "1490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1504"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Type_I_and_type_II_errors> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_196_212>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "web applications" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_application> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_783_786>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XSS" ;
+        nif:beginIndex          "783"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross-site_scripting> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1509_1528>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "false positive rate" ;
+        nif:beginIndex          "1509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1528"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997453415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Type_I_and_type_II_errors> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_967_970>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "OSN" ;
+        nif:beginIndex          "967"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.999999999891088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/OSN> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_440_449>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sanitizer" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "449"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disinfectant> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1235_1251>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "web applications" ;
+        nif:beginIndex          "1235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_application> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_378_391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "context-aware" ;
+        nif:beginIndex          "378"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9801774273098126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Context_awareness> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_344_353>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variables" ;
+        nif:beginIndex          "344"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995015607757063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variable_(computer_science)> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1067_1083>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virtual machines" ;
+        nif:beginIndex          "1067"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1083"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virtual_machine> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_357_367>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "JavaScript" ;
+        nif:beginIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "367"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/JavaScript> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_474_477>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSN" ;
+        nif:beginIndex          "474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "477"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.999999999891088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/OSN> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_94_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "propagation" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9717398889994365"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radio_propagation> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_174_177>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSN" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.999999999891088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/OSN> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1025_1029>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Java" ;
+        nif:beginIndex          "1025"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ProgrammingLanguage> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> , <http://dbpedia.org/ontology/Work> ;
+        itsrdf:taConfidence     "0.6477506639338793"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_(programming_language)> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_136_141>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "worms" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_worm> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_582_586>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "HTTP" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "586"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999848367908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypertext_Transfer_Protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_981_990>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prototype" ;
+        nif:beginIndex          "981"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9800924902917998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prototype> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_787_792>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "worms" ;
+        nif:beginIndex          "787"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "792"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_worm> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_131_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "XSS" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cross-site_scripting> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_1460_1463>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OSN" ;
+        nif:beginIndex          "1460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.999999999891088"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/OSN> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_897_909>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sanitization" ;
+        nif:beginIndex          "897"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996466719436"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disinfectant> .
+
+<http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/18cfed866a9c2928a404213b06ed#offset_0_1530> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

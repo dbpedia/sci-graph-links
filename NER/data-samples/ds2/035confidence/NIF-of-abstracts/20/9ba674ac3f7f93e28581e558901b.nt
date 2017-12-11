@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_107_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "context-free grammar" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Context-free_grammar> .
+
+<http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_0_387>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "387"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Attention is paid to structure preserving properties of transformations from a non-left-recursive context-free grammar to a Greibach normal form grammar. It is demonstrated that such a transformation cannot only be ambiguity preserving, but also both cover and functor relations between grammars or their associated syntax-categories can be obtained from such a transformation.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_270_277>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "functor" ;
+        nif:beginIndex          "270"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "277"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999793552135549"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Functor> .
+
+<http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_0_387> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_133_153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Greibach normal form" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Greibach_normal_form> .
+
+<http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_296_304>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "grammars" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9ba674ac3f7f93e28581e558901b#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8916885839469245"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formal_grammar> .

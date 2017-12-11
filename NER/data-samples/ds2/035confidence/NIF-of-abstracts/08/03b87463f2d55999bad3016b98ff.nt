@@ -1,0 +1,238 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_753_763>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "e-commerce" ;
+        nif:beginIndex          "753"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-commerce> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_958_969>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "open system" ;
+        nif:beginIndex          "958"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "969"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998511675236457"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Open_system_(computing)> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_77_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "processor" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999106358986"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_91_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet data" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5661996383279408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_(computing)> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_1360_1373>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "running times" ;
+        nif:beginIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1373"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Publisher> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> ;
+        itsrdf:taConfidence     "0.9999999999500915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rodale,_Inc.> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_1107_1121>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "runtime system" ;
+        nif:beginIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1121"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Run-time_system> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1392"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We present the design of ObjectGlobe, a distributed and open query processor for Internet data sources. Today, data is published on the Internet via Web servers which have, if at all, very localized query processing capabilities. The goal of the ObjectGlobe project is to establish an open marketplace in which data and query processing capabilities can be distributed and used by any kind of Internet application. Furthermore, ObjectGlobe integrates cycle providers (i.e., machines) which carry out query processing operators. The overall picture is to make it possible to execute a query with – in principle – unrelated query operators, cycle providers, and data sources. Such an infrastructure can serve as enabling technology for scalable e-commerce applications, e.g., B2B and B2C market places, to be able to integrate data and data processing operations of a large number of participants. One of the main challenges in the design of such an open system is to ensure privacy and security. We discuss the ObjectGlobe security requirements, show how basic components such as the optimizer and runtime system need to be extended, and present the results of performance experiments that assess the additional cost for secure distributed query processing. Another challenge is quality of service management so that users can constrain the costs and running times of their queries.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_825_839>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integrate data" ;
+        nif:beginIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "839"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_integration> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_209_225>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "query processing" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "225"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_optimization> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_729_739>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology" ;
+        nif:beginIndex          "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9931411598735241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Information_technology> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_784_787>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B2B" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "787"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business-to-business> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_330_346>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "query processing" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_optimization> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_1299_1317>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service management" ;
+        nif:beginIndex          "1299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1317"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Service-oriented_architecture> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_300_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "marketplace" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.875869956367837"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marketplace> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_792_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "B2C" ;
+        nif:beginIndex          "792"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Retail> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_159_170>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Web servers" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_server> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_1249_1265>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "query processing" ;
+        nif:beginIndex          "1249"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_optimization> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_844_859>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data processing" ;
+        nif:beginIndex          "844"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "859"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969526505678608"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_data_processing> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_692_706>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infrastructure" ;
+        nif:beginIndex          "692"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "706"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999897682"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_983_990>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "privacy" ;
+        nif:beginIndex          "983"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "990"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994332713782063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Privacy> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_146_154>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977197914218761"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_510_526>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "query processing" ;
+        nif:beginIndex          "510"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "526"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Query_optimization> .
+
+<http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_403_411>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "403"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03b87463f2d55999bad3016b98ff#offset_0_1392> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977197914218761"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .

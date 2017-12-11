@@ -1,0 +1,73 @@
+Abstract The point-charge approximation, typically used by classical molecular mechanics force-fields, can be overcome by a multipolar expansion. For decades multipole moments were only used in the context of the rigid body approximation but recently it has become possible to combine multipolar electrostatics with molecular flexibility. The program DL_MULTI, which is derived from DL_POLY_2, includes efficient multipolar Ewald functionality up to the hexadecapole moment but the code is restricted to rigid bodies. The incorporation of flexibility into DL_MULTI would cause too large an impact on its architecture whereas the package DL_POLY_4 offers a more attractive and sustainable route to handle multipolar electrostatics. This package inherently handles molecular flexibility, which warrants sufficiently transferable atoms or atoms that are “knowledgeable” about their chemical environment (as made possible by quantum chemical topology and machine learning). DL_MULTI uses the spherical multipole formalism, which is mathematically more involved than the Cartesian one but which is more compact. DL_POLY_4 uses the computationally efficient method of smooth particle mesh Ewald (SPME) summation, which has also been parallellized by others. Therefore, combining the strengths of DL_POLY_4 and DL_MULTI poses the challenge of merging SPME with multipolar electrostatics by spherical multipole. In an effort to recast as clearly as possible the principles behind DL_MULTI, its key equations have been reformulated by the more streamlined route involving the algebra of complex numbers, and some of these equations’ peculiarities clarified. This article explores theoretically the repercussions of the merging of SPME with spherical multipole electrostatics (as implemented in DL_MULTI). Difficulties in design and implementation of possible future code are discussed.
+Cartesian           0.9998106995790689^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Cartesian_coordinate_system
+
+molecular                     0.9999982418616576^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Molecule              
+
+multipolar                    0.5898346032521523^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Polarity_(international_relations)
+
+molecular mechanics           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Molecular_mechanics   
+
+force-fields                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Force_field_(chemistry)
+
+approximation                 0.9999999998935891^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Numerical_analysis    
+
+electrostatics                0.999993873787055^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Electrostatics        
+
+spherical                     0.9680612550218821^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sphere                
+
+multipolar                    0.5898346032521523^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Polarity_(international_relations)
+
+spherical                     0.9680612550218821^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sphere                
+
+streamlined                   0.8952812380150924^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Drag_(physics)        
+
+formalism                     0.9715229037125243^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Formal_system         
+
+approximation                 0.9999999998935891^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Numerical_analysis    
+
+rigid bodies                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Rigid_body            
+
+complex numbers               0.9999999999924967^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Complex_number        
+
+multipole moments             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Multipole_expansion   
+
+spherical                     0.9680612550218821^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sphere                
+
+chemical                      0.6399584247421968^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Chemistry             
+
+quantum chemical              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Quantum_chemistry     
+
+classical                     0.9999999617962211^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Classical_mechanics   
+
+particle mesh                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Particle_Mesh         
+
+topology                      0.9999999999988631^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Topology              
+
+compact                       0.999999190759454^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Compact_space         
+
+electrostatics                0.999993873787055^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Electrostatics        
+
+electrostatics                0.999993873787055^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Electrostatics        
+
+multipolar                    0.5898346032521523^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Polarity_(international_relations)
+
+multipolar                    0.5898346032521523^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Polarity_(international_relations)
+
+machine learning              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Machine_learning      
+
+molecular                     0.9999982418616576^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Molecule              
+
+electrostatics                0.999993873787055^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Electrostatics        
+
+sustainable                   0.9999800394250898^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sustainability        
+
+warrants                      0.7151301001752771^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Theory_of_justification
+
+summation                     0.9986774120395868^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Summation             
+
+rigid body                    0.9999994990472605^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Rigid_body            
+
+architecture                  0.996816744184719^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Computer_architecture 
+
+multipolar                    0.5898346032521523^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Polarity_(international_relations)
+

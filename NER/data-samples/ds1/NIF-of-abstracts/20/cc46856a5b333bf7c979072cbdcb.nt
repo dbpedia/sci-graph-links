@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_63_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scientific literature" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_0_308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.991484461811208"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scientific_literature> .
+
+<http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_0_308>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "308"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract BackgroundThe term ‘metabolome’ was introduced to the scientific literature in September 1998. Aim and key scientific concepts of the reviewTo mark its 18-year-old ‘coming of age’, two of the co-authors of that paper review the genesis of metabolomics, whence it has come and where it may be going.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_29_39>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolome" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_0_308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999970594843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolome> .
+
+<http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_104_107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Aim" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_0_308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/MusicalArtist> ;
+        itsrdf:taConfidence     "0.9438013939583317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aim_(musician)> .
+
+<http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_0_308> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_248_260>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "metabolomics" ;
+        nif:beginIndex          "248"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "260"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/cc46856a5b333bf7c979072cbdcb#offset_0_308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999998272358"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Metabolomics> .

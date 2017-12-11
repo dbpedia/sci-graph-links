@@ -1,0 +1,118 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_460_463>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PVE" ;
+        nif:beginIndex          "460"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "463"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Player_versus_environment> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_346_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimistic replication" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimistic_replication> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_405_410>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "WinFS" ;
+        nif:beginIndex          "405"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "410"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/WinFS> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_157_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication overhead" ;
+        nif:beginIndex          "157"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993431037976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication_overhead> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "817"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Conflicts naturally arise in optimistically replicated systems. The common way to detect update conflicts is via version vectors, whose storage and communication overhead are number of replicas × number of objects. These costs may be prohibitive for large systems. This paper presents predecessor vectors with exceptions (PVEs), a novel optimistic replication technique developed for Microsoft’s WinFS system. The paper contains a systematic study of PVE’s performance gains over traditional schemes. The results demonstrate a dramatic reduction of storage and communication overhead in normal scenarios, during which communication disruptions are infrequent. Moreover, they identify a cross-over threshold in communication failure-rate, beyond which PVEs loses efficiency compared with traditional schemes.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_627_640>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "627"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "640"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9827245305492261"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_393_402>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Microsoft" ;
+        nif:beginIndex          "393"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "402"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9668157810285806"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microsoft> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_570_592>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication overhead" ;
+        nif:beginIndex          "570"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "592"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993431037976"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication_overhead> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_306_313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vectors" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8584086998508197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_(molecular_biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_130_137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vectors" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8584086998508197"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vector_(molecular_biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_719_732>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df51e7e222c6d742668bd0b52703#offset_0_817> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9827245305492261"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .

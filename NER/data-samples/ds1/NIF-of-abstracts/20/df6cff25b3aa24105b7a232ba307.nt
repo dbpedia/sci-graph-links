@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_159_166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "routing" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979558919504417"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Routing> .
+
+<http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_244_254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987110913741539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_140_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic" ;
+        nif:beginIndex          "140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941341342824792"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic> .
+
+<http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_0_286> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_115_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scientific literature" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_0_286> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9530067829330502"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scientific_literature> .
+
+<http://www.springernature.com/scigraph/things/articles/df6cff25b3aa24105b7a232ba307#offset_0_286>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "286"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Building on the work of Gendreau et al. (Eur J Oper Res 88(1):3–12; 1996), we review the past 20 years of scientific literature on stochastic vehicle routing problems. The numerous variants of the problem that have been studied in the literature are described and categorized.\n" .

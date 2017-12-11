@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_135_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "virus" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999572207226433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virus> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_389_393>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ICTV" ;
+        nif:beginIndex          "389"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "393"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999996589"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Committee_on_Taxonomy_of_Viruses> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_141_149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxonomy" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987095712162887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Taxonomy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_306_315>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "taxonomic" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "315"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9799897981300685"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/International_Committee_on_Taxonomy_of_Viruses> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "396"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A database and website (http://www.ictvonline.org/taxonomyReleases.asp) have been established where the history of changes in virus taxonomy from 1971 to the present day can easily be traced. Each change is linked to a source document confirming the change or, for most changes since 2002, to the taxonomic proposal approved by the International Committee on Taxonomy of Viruses (ICTV).\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_380_387>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Viruses" ;
+        nif:beginIndex          "380"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999582597002611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Virus> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_11_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "database" ;
+        nif:beginIndex          "11"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6f099eb8b481765655c18c5608d#offset_0_396> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998006310103466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_50_59>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "attrition" ;
+        nif:beginIndex          "50"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4840052628320903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Attrition_(medicine,_epidemiology)> .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_169_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parametric" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941415313136309"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parametric_statistics> .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_81_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-response" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8484667442319508"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-response_bias> .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_136_153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "longitudinal data" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Longitudinal_study> .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "343"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we investigated the use of attrition weights to cope with non-response when selecting graphical chain models for longitudinal data. We proposed a parametric bootstrap approach to account for the extra variability introduced by the estimation of the weights and compared this with results using standard test procedures.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_180_189>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bootstrap" ;
+        nif:beginIndex          "180"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "189"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/33ad609bc9823daaed5684543372#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998412961090809"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bootstrapping_(statistics)> .

@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_207_216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "modernity" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_0_559> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9908182923591188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modernity> .
+
+<http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_0_559> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_0_559>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "559"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article is an attempt to examine the place and significance of traditional occupations as careers in today’s world. The areas of tension and compatibility between ideas and values that signify modernity and the practice of traditional occupations are reviewed. The meaning of “traditional occupations” is unravelled, the potential that traditional occupations in agriculture and crafts offer for building inclusive and sustainable societies is explored, and attention is drawn to the implications of such potential for career guidance practice.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_377_388>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "agriculture" ;
+        nif:beginIndex          "377"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_0_559> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997756805286024"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Agriculture> .
+
+<http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_433_444>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sustainable" ;
+        nif:beginIndex          "433"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e67001f45febaea09e0eb225a67#offset_0_559> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988415470451126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sustainability> .

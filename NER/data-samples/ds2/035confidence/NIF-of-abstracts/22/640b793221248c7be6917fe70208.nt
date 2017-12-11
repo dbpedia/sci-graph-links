@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_365_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AGM" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9958120023513437"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annual_general_meeting> .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_334_339>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logic" ;
+        nif:beginIndex          "334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "339"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997438592246503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logic> .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "597"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We propose a new relevance sensitive model for representing and revising belief structures, which relies on a notion of partial language splitting and tolerates some amount of inconsistency while retaining classical logic. The model preserves an agent's ability to answer queries in a coherent way using Belnap's four‐valued logic. Axioms analogous to the AGM axioms hold for this new model. The distinction between implicit and explicit beliefs is represented and psychologically plausible, computationally tractable procedures for query answering and belief base revision are obtained.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_137_145>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8651907147302756"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Formal_language> .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_369_375>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "axioms" ;
+        nif:beginIndex          "369"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "375"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999905812450909"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Axiom> .
+
+<http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_215_230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical logic" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/640b793221248c7be6917fe70208#offset_0_597> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_logic> .

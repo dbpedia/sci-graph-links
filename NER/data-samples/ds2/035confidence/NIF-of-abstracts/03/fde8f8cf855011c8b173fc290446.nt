@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "344"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The antisymmetrized molecular dynamics method is used to investigate the two-body electrodisintegration of 4He. Effects of final-state interactions are included via the Glauber multiple scattering approximation. Experimental data for the 4He longitudinal and transverse response functions are well described at high momentum transfer.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_186_205>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiple scattering" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scattering> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_29_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular dynamics" ;
+        nif:beginIndex          "29"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_dynamics> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_279_297>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "response functions" ;
+        nif:beginIndex          "279"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "297"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979554642567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency_response> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_178_185>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Glauber" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "185"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.8000257794751636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Roy_J._Glauber> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_116_119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "4He" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9694453876044465"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helium> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_82_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "two-body" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999984943884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Two-body_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_206_219>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "approximation" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "219"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9868979117567541"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Approximation> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_325_342>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "momentum transfer" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "342"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998774224807949"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Momentum_transfer> .
+
+<http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_247_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "4He" ;
+        nif:beginIndex          "247"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fde8f8cf855011c8b173fc290446#offset_0_344> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9694453876044465"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Helium> .

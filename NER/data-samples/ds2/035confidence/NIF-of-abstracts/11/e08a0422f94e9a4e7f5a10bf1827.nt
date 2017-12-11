@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_0_203>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "203"^^xsd:nonNegativeInteger ;
+        nif:isString    "Conclusion Immune based inflammation represents an important new approach to the understanding of dry eye disease and is able to cause a negative feedback on protective mechanisms of the ocular surface.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_24_36>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflammation" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_0_203> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990960717291"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflammation> .
+
+<http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_0_203> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_187_193>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ocular" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_0_203> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9966555788293302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_eye> .
+
+<http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_137_154>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "negative feedback" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_0_203> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9951879451030903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Negative_feedback> .
+
+<http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_98_113>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dry eye disease" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e08a0422f94e9a4e7f5a10bf1827#offset_0_203> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/keratoconjunctivitis_sicca> .

@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_209_215>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "hinder" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/MusicGroup> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Band> ;
+        itsrdf:taConfidence     "0.9999998696066627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hinder> .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_178_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "178"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996024661029556"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_440_459>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Linguistic analysis" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "459"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linguistic_description> .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "562"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Abstract and Key ResultsOften one of the main problems faced in global teams is that one or more of the team members will need to use a foreign language. This can cause communication difficulties and hinder the performance of global teams.We discsuss in this paper how research in linguistics can help further research on these difficulties in global teams, giving examples of different types of challenges and their implications. Linguistic analysis can enrich our theories about global team management and improve management practice of global teams.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_145_161>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foreign language" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "161"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5031586887873466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foreign_language> .
+
+<http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_290_301>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linguistics" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f921a37509a1fd11af9898478adf#offset_0_562> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998386419502148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linguistics> .

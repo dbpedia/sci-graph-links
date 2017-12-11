@@ -1,0 +1,81 @@
+Abstract Algorithms are typically designed to exploit the current state of the art in processor technology. However, as processor technology evolves, said algorithms are often unable to derive the maximum achievable performance on these modern architectures. In this paper, we examine the performance of frequent pattern mining algorithms on a modern processor. A detailed performance study reveals that even the best frequent pattern mining implementations, with highly efficient memory managers, still grossly under-utilize a modern processor. The primary performance bottlenecks are poor data locality and low instruction level parallelism (ILP). We propose a cache-conscious prefix tree to address this problem. The resulting tree improves spatial locality and also enhances the benefits from hardware cache line prefetching. Furthermore, the design of this data structure allows the use of path tiling, a novel tiling strategy, to improve temporal locality. The result is an overall speedup of up to 3.2 when compared with state of the art implementations. We then show how these algorithms can be improved further by realizing a non-naive thread-based decomposition that targets simultaneously multi-threaded processors (SMT). A key aspect of this decomposition is to ensure cache re-use between threads that are co-scheduled at a fine granularity. This optimization affords an additional speedup of 50%, resulting in an overall speedup of up to 4.8. The proposed optimizations also provide performance improvements on SMPs, and will most likely be beneficial on emerging processors.
+tree                0.9929287265224652^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tree_(data_structure) 
+
+ILP                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Instruction-level_parallelism
+
+memory                        0.9729183375628299^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_memory       
+
+tiling                        0.9999999999421334^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tessellation          
+
+mining                        0.9999994069352791^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mining                
+
+processors                    0.999989504283632^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Central_processing_unit
+
+tiling                        0.9999999999421334^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tessellation          
+
+granularity                   0.9999999987855972^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Granularity           
+
+performance bottlenecks       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Performance_tuning    
+
+data locality                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Locality_of_reference 
+
+processor                     0.9999570819709612^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+algorithms                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+decomposition                 0.9952284611903043^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Decomposition         
+
+speedup                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Speedup               
+
+cache                         0.9999999898872147^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/CPU_cache             
+
+SMT                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Simultaneous_multithreading
+
+cache                         0.9999999898872147^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/CPU_cache             
+
+threads                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Thread_(computing)    
+
+optimization                  0.9970102860359682^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Program_optimization  
+
+speedup                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Speedup               
+
+tree                          0.9929287265224652^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tree_(data_structure) 
+
+prefetching                   0.999999999994543^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Instruction_prefetch  
+
+processor                     0.9999570819709612^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+processor technology          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Processor_Technology  
+
+art                           0.9999994033580112^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Art                   
+
+algorithms                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+speedup                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Speedup               
+
+spatial locality              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Principle_of_locality 
+
+processors                    0.999989504283632^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Central_processing_unit
+
+mining                        0.9999994069352791^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mining                
+
+decomposition                 0.9952284611903043^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Decomposition         
+
+processor technology          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Processor_Technology  
+
+algorithms                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+temporal locality             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Locality_of_reference 
+
+prefix                        0.9917044878703389^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Prefix                
+
+instruction level parallelism 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Instruction-level_parallelism
+
+multi-threaded                0.9999982062945663^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Thread_(computing)    
+
+hardware                      0.9999999952099188^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_hardware     
+
+data structure                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Data_structure        
+
+art                           0.9999994033580112^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Art                   
+

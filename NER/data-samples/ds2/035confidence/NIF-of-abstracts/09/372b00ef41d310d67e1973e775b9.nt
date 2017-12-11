@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_0_122>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "122"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary In this paper, we study some divisibility properties of palindromic numbers in a fixed base <InlineEquation ID=IE\\" .
+
+<http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_64_83>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "palindromic numbers" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_0_122> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Palindromic_number> .
+
+<http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_0_122> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_37_49>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "divisibility" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_0_122> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9876205462400639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Divisor> .
+
+<http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_116_118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ID" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/372b00ef41d310d67e1973e775b9#offset_0_122> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6528919425703693"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Identity_document> .

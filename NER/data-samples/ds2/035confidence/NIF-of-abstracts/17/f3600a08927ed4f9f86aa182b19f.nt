@@ -1,0 +1,88 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_155_163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "makespan" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Job_shop_scheduling> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_205_214>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "205"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "214"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999854424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_93_96>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "onm" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Magazine> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/PeriodicalLiterature> ;
+        itsrdf:taConfidence     "0.9999996995709803"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Official_Nintendo_Magazine> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_254_264>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "worst case" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "264"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9534161533366193"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Best,_worst_and_average_case> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_174_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Garey" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990831128940248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Michael_Garey> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "456"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider the well-known problem of schedulingn independent tasks nonpreemptively onm identical processors with the objective of minimizing the makespan. Coffman, Garey and Johnson described an algorithm MULTIFIT, based on bin-packing, with a worst case performance better than the LPT-algorithm. The bound 1.22 obtained by them was claimed by Friesen in 1984 that it can be improved to 1.2. In this paper we give a simple proof for this bound.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_107_117>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "processors" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9978221777921602"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_59_70>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "independent" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f3600a08927ed4f9f86aa182b19f#offset_0_456> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996219712500661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence_(probability_theory)> .

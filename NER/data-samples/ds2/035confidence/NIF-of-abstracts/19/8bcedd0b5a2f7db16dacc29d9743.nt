@@ -1,0 +1,167 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "923"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper explores the link between shareholder lawsuits brought under Rule 10b-5 of the Securities Exchange Act of 1934 and managerial disclosures of prospective information. When the manager's information is such that there is no affirmative duty to disclose under Rule 10b-5, previous research has shown that the manager will withhold his information if it is sufficiently unfavorable and will disclose it otherwise. When the manager's information is such that there exists an affirmative duty to disclose under Rule 10b-5, it is shown here that the manager will release either good news or news that is sufficiently bad. Further, the good news disclosures are expected to be more precise than those that reflect unfavorable information. It is also demonstrated that the probability of a disclosure will increase with both the precision of the manager's information and the variability of his firm's earnings.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_277_287>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rule 10b-5" ;
+        nif:beginIndex          "277"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SEC_Rule_10b-5> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_99_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Securities Exchange Act" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Securities_Exchange_Act_of_1934> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_58_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lawsuits" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999986806349916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lawsuit> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_784_795>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "784"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "795"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9940306720461219"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_840_849>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "precision" ;
+        nif:beginIndex          "840"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9959902005085512"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Accuracy_and_precision> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_490_501>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "affirmative" ;
+        nif:beginIndex          "490"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "501"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6142911716461548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Affirmative_and_negative> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_525_535>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rule 10b-5" ;
+        nif:beginIndex          "525"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SEC_Rule_10b-5> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_563_570>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manager" ;
+        nif:beginIndex          "563"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9922633665075064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_439_446>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manager" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "446"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9922633665075064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_195_202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manager" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9922633665075064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_81_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Rule 10b-5" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SEC_Rule_10b-5> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_857_864>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manager" ;
+        nif:beginIndex          "857"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "864"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9922633665075064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_326_333>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manager" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "333"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9922633665075064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Management> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_242_253>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "affirmative" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "253"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6142911716461548"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Affirmative_and_negative> .
+
+<http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_46_57>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "shareholder" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "57"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8bcedd0b5a2f7db16dacc29d9743#offset_0_923> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Shareholder> .

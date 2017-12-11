@@ -1,0 +1,90 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_1251_1256>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "1251"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999896343752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_963_970>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "masking" ;
+        nif:beginIndex          "963"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "970"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9743725131321728"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Auditory_masking> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_27_36>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Schneider" ;
+        nif:beginIndex          "27"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "0.5331186135586706"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/John_Schneider_(screen_actor)> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_161_169>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "auditory" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9993308003690966"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Auditory_system> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1575"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A previous study (Schneider, Daneman, Murphy, & Kwong See, 2000) found that older listeners’ decreased ability to recognize individual words in a noisy auditory background was responsible for most, if not all, of the comprehension difficulties older adults experience when listening to a lecture in a background of unintelligible babble. The present study investigated whether the use of a more intelligible distracter (a competing lecture) might reveal an increased susceptibility to distraction in older adults. The results from Experiments 1 and 2 showed that both normal-hearing and hearing-impaired older adults performed poorer than younger adults when everyone was tested in identical listening situations. However, when the listening situation was individually adjusted to compensate for age-related differences in the ability to recognize individual words in noise, age-related difference in comprehension disappeared. Experiment 3 compared the masking effects of a single-talker competing lecture to a babble of 12 voices directly after adjusting for word recognition. The results showed that the competing lecture interfered more than did the babble for both younger and older listeners. Interestingly, an increase in the level of noise had a deleterious effect on listening when the distractor was babble but had no effect when it was a competing lecture. These findings indicated that the speech comprehension difficulties of healthy older adults in noisy backgrounds primarily reflect age-related declines in the ability to recognize individual words.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_596_612>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "hearing-impaired" ;
+        nif:beginIndex          "596"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deafness> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_1411_1431>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "speech comprehension" ;
+        nif:beginIndex          "1411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993539966302656"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reading_comprehension> .
+
+<http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_877_882>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "877"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "882"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c42c3d3ea31f1824661ad9acf567#offset_0_1575> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999896343752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .

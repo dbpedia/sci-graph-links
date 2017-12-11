@@ -1,0 +1,47 @@
+Abstract The prediction of β-sheet topology requires the consideration of long-range interactions between β-strands that are not necessarily consecutive in sequence. Since these interactions are difficult to simulate using ab initio methods, we propose a supplementary method able to assign β-sheet topology using only sequence information. We envision using the results of our method to reduce the three-dimensional search space of ab initio methods. Our method is based on the signature molecular descriptor, which has been used previously to predict protein–protein interactions successfully, and to develop quantitative structure–activity relationships for small organic drugs and peptide inhibitors. Here, we show how the signature descriptor can be used in a Support Vector Machine to predict whether or not two β-strands will pack adjacently within a protein. We then show how these predictions can be used to order β-strands within β-sheets. Using the entire PDB database with ten-fold cross-validation, we have achieved 74.0% accuracy in packing prediction and 75.6% accuracy in the prediction of edge strands. For the case of β-strand ordering, we are able to predict the correct ordering accurately for 51.3% of the β-sheets. Furthermore, using a simple confidence metric, we can determine those sheets for which accurate predictions can be obtained. For the top 25% highest confidence predictions, we are able to achieve 95.7% accuracy in β-strand ordering. FigureUsing signature products to predict the packing interactions within a β-sheet
+PDB                 0.9999999998568683^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Protein_Data_Bank     
+
+β-sheets                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Beta_sheet            
+
+search space                  0.9999923090172332^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mathematical_optimization
+
+peptide                       0.9993876458356209^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Peptide_sequence      
+
+β-strand                      0.9999723880992186^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Beta_sheet            
+
+β-sheet                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Beta_sheet            
+
+β-strand                      0.9999723880992186^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Beta_sheet            
+
+β-strands                     0.9999960553494059^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Beta_sheet            
+
+β-sheet                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Beta_sheet            
+
+topology                      0.999994990356342^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Topology              
+
+ab initio methods             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Ab_initio_quantum_chemistry_methods
+
+topology                      0.999994990356342^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Topology              
+
+β-sheet                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Beta_sheet            
+
+quantitative structure–activity relationships1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Quantitative_structure–activity_relationship
+
+ab initio methods             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Ab_initio_quantum_chemistry_methods
+
+protein                       0.8413634230846296^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Peptide_sequence      
+
+β-strands                     0.9999960553494059^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Beta_sheet            
+
+protein–protein interactions  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Protein–protein_interaction
+
+cross-validation              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Cross-validation_(statistics)
+
+β-strands                     0.9999960553494059^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Beta_sheet            
+
+Support Vector Machine        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Support_vector_machine
+
+β-sheets                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Beta_sheet            
+
+metric                        0.9984701767407784^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Metric_(mathematics)  
+

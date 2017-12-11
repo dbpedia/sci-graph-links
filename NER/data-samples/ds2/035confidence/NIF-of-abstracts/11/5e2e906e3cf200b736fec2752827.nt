@@ -1,0 +1,276 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_116_123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rabbits" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9999995700842206"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rabbit> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_738_744>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ocular" ;
+        nif:beginIndex          "738"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999975119636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_eye> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "971"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Experimental studies of ocular inflammation induced by endotoxin have been performed almost exclusively in rabbits. Although the rat has been considered refractory to both the systemic and local effects of endotoxin, the present study has shown that intravitreal injection of endotoxin evoked a characteristic acute inflammatory response which was reproducible and dose-dependent. In addition, a consensual ocular response in the control eye occurred which was less severe but also dose-dependent. Preliminary investigations support the view that consensual responses of this nature may be mediated by a nervous reflex arc mechanism. Sequential histological analysis revealed a marked polymorphonuclear cell infiltration of most ocular tissues in the early stages, while mononuclear cells predominated after 3 days. Widespread intravascular microthrombi were also observed, particularly in the ciliary vessels. Recovery, however, was usually complete by 7 days.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_654_675>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "histological analysis" ;
+        nif:beginIndex          "654"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "675"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Histology> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_780_797>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "mononuclear cells" ;
+        nif:beginIndex          "780"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "797"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lymphocyte> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_40_52>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflammation" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflammation> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_621_631>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reflex arc" ;
+        nif:beginIndex          "621"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "631"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reflex_arc> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_416_422>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ocular" ;
+        nif:beginIndex          "416"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999975119636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_eye> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_836_849>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "intravascular" ;
+        nif:beginIndex          "836"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "849"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Blood_vessel> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_717_729>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infiltration" ;
+        nif:beginIndex          "717"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999946907349765"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infiltration_(medical)> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_162_172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "refractory" ;
+        nif:beginIndex          "162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999981469"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Disease> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_259_271>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "intravitreal" ;
+        nif:beginIndex          "259"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "271"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999560032"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intravitreal_administration> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_745_752>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tissues" ;
+        nif:beginIndex          "745"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "752"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tissue_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_319_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acute" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9953578881546213"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pain> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_215_224>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endotoxin" ;
+        nif:beginIndex          "215"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipopolysaccharide> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_712_716>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cell" ;
+        nif:beginIndex          "712"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "716"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999973776994"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cell_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_64_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endotoxin" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipopolysaccharide> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_374_388>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dose-dependent" ;
+        nif:beginIndex          "374"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "388"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8814591795957688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dose–response_relationship> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_33_39>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ocular" ;
+        nif:beginIndex          "33"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "39"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999975119636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_eye> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_850_862>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "microthrombi" ;
+        nif:beginIndex          "850"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "862"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thrombus> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_447_450>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eye" ;
+        nif:beginIndex          "447"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999999989091748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_eye> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_325_346>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inflammatory response" ;
+        nif:beginIndex          "325"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inflammation> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_285_294>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "endotoxin" ;
+        nif:beginIndex          "285"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lipopolysaccharide> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_138_141>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "rat" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Mammal> ;
+        itsrdf:taConfidence     "0.9999200159729479"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rat> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_903_910>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ciliary" ;
+        nif:beginIndex          "903"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "910"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999993245315871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cilium> .
+
+<http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_491_505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dose-dependent" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5e2e906e3cf200b736fec2752827#offset_0_971> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8814591795957688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dose–response_relationship> .

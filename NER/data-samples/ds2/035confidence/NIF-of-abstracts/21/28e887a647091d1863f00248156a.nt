@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_287_301>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadratic form" ;
+        nif:beginIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993710326567"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_form> .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_540_550>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "540"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "550"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990563724687415"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_168_177>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Cahit Arf" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cahit_Arf> .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "738"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This is a continuation of our previous article (Lorenz and Roquette in Math. Semesterber. 57(1):73–102, 2010) in this journal, where we discussed the paper of Cahit Arf (J. Reine Angew. Math. 183:148–167, 1941). There he introduced what today is called the “Arf invariant” of a quadratic form over a field of characteristic 2. After our article had appeared we obtained some new information about the present state of the theory. When we say “new” then this means that this was new to us, i.e., we had not been aware before of the literature on the subject. (See our list of references.) It seems worthwhile to us to report here about it, as far as it is relevant for the assessment of Arf’s paper in its historical perspective.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_714_724>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "historical" ;
+        nif:beginIndex          "714"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "724"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977340252109322"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/History> .
+
+<http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_267_280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Arf invariant" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/28e887a647091d1863f00248156a#offset_0_738> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arf_invariant> .

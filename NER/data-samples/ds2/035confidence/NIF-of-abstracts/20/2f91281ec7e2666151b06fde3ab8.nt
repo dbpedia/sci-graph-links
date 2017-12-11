@@ -1,0 +1,131 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "529"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A within-subject, cross-linguistic (L1 and L2) design was used to study poetry readings in two experiments. The primacy of the poetic line as determiner of temporal unitization is challenged. The relatively greater importance of punctuation in this regard is demonstrated. Personal style, language fluency, artistic skill, and characteristics of the respective poems, not characteristics of the specific languages (German, English, and French), are responsible for on- and off-time organization and patterns of emphasis.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_297_305>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "language" ;
+        nif:beginIndex          "297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999403146393"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Language> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_444_450>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "French" ;
+        nif:beginIndex          "444"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9999919980183581"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/French_language> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_306_313>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fluency" ;
+        nif:beginIndex          "306"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "313"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.914397059018379"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fluency> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_431_438>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "438"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9996034460406108"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_164_172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temporal" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Brain> , <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9557885165552211"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Temporal_lobe> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_423_429>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "German" ;
+        nif:beginIndex          "423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9999927820779967"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/German_language> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_80_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "poetry" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995134330299632"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Poetry> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_44_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "L1" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990330745859"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/First_language> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_120_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primacy" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9881326950759063"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Serial_position_effect> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_51_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "L2" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999988486366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Second_language> .
+
+<http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_150_160>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "determiner" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2f91281ec7e2666151b06fde3ab8#offset_0_529> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999934165752642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Determiner> .

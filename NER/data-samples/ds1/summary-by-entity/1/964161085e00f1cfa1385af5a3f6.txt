@@ -1,0 +1,65 @@
+Abstract To investigate the behavior of biochemical systems, many runs of Gillespie’s Stochastic Simulation Algorithm (SSA) are generally needed, causing excessive computational costs on Central Processing Units (CPUs). Since all SSA runs are independent, the Intel Xeon Phi coprocessors based on the Many Integrated Core (MIC) architecture can be exploited to distribute the workload. We considered two execution modalities on MIC: one consisted in running exactly the same CPU code of SSA, while the other exploited MIC’s vector instructions to reuse the CPU code with only few modifications. MIC performance was compared with Graphics Processing Units (GPUs), specifically implemented in CUDA to optimize the use of memory hierarchy. Our results show that GPU largely outperforms MIC and CPU, but required a complete redesign of SSA. MIC allows a relevant speedup, especially when vector instructions are used, with the additional advantage of requiring minimal modifications to CPU code.
+CUDA                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/CUDA                  
+
+biochemical systems           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Biochemistry          
+
+GPUs                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Graphics_processing_unit
+
+vector instructions           0.9997211541161516^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/SIMD                  
+
+Central                       0.655938234694004^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Central_America       
+
+CPU                           0.9999999999752163^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+MIC                           0.6207971701999991^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Minimum_inhibitory_concentration
+
+MIC                           0.6207971701999991^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Minimum_inhibitory_concentration
+
+Intel Xeon Phi                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Intel_MIC             
+
+Intel                         0.7735564287517261^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Intel                 
+
+SSA                           0.9999999999331521^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Static_single_assignment_form
+
+SSA                           0.9999999999331521^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Static_single_assignment_form
+
+CPU                           0.9999999999752163^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+MIC                           0.6207971701999991^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Minimum_inhibitory_concentration
+
+Stochastic                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Stochastic            
+
+MIC                           0.6207971701999991^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Minimum_inhibitory_concentration
+
+SSA                           0.9999999999331521^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Static_single_assignment_form
+
+CPU                           0.9999999999752163^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+vector instructions           0.9997211541161516^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/SIMD                  
+
+architecture                  0.9973832768367832^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Microarchitecture     
+
+independent                   0.999999992274752^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Independence_(probability_theory)
+
+runs                          0.8531582233476163^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Run_(baseball)        
+
+MIC                           0.6207971701999991^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Minimum_inhibitory_concentration
+
+MIC                           0.6207971701999991^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Minimum_inhibitory_concentration
+
+coprocessors                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Coprocessor           
+
+runs                          0.8531582233476163^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Run_(baseball)        
+
+SSA                           0.9999999999331521^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Static_single_assignment_form
+
+CPU                           0.9999999999752163^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+CPUs                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Central_processing_unit
+
+speedup                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Speedup               
+
+GPU                           0.9986088002978257^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Graphics_processing_unit
+
+memory hierarchy              0.9999994634011121^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Memory_hierarchy      
+

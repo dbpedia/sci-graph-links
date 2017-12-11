@@ -1,0 +1,130 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_15_22>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "15"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997454917155965"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_825_829>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997451307487303"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_384_390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stable" ;
+        nif:beginIndex          "384"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6735284254884794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sorting_algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_30_43>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.7170495959731948"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_260_267>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997454917155965"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "838"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Urban transit in the United States is going through a crisis of rising costs, increasing fares, falling patronage, and concomitant service reductions; typical of the pattern is San Francisco’s Municipal Railway, the agency in charge of all the City’s transit. From a basic fare of 15c in 1969, two increases brought the fare to 25c by 1972, and cut sharply into a previously stable patronage. The “Muni”, in an effort to reduce costs and meet its budgeted deficit, attempted to reduce service by ten to fifteen percent. From an analysis of the data which could be obtained, it appears that neither efficiency not equity in the City would have been served by the proposed cutbacks. The analysis draws from a variety of sources and methods in exploring the interactions within the transportation system and within the city budget.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_391_400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "patronage" ;
+        nif:beginIndex          "391"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9935042244851546"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Patronage_(transport)> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_113_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "patronage" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9935042244851546"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Patronage_(transport)> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_225_231>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "agency" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "231"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.964824686016124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Government_agency> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_622_628>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equity" ;
+        nif:beginIndex          "622"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8766485517019503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Equity_(finance)> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_407_411>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Muni" ;
+        nif:beginIndex          "407"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PublicTransitSystem> ;
+        itsrdf:taConfidence     "0.999994592796337"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/San_Francisco_Municipal_Railway> .
+
+<http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_186_199>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "San Francisco" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/aba1f3103af84f67782c21d24b62#offset_0_838> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/City> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/City> ;
+        itsrdf:taConfidence     "0.9999414015905457"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/San_Francisco> .

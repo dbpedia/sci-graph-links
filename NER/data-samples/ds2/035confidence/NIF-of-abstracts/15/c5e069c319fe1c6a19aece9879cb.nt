@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#offset_0_690> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#offset_30_37>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "duopoly" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9920171770841433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Oligopoly> .
+
+<http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#offset_0_690>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "690"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This work analyzes a duopoly in which firms choose their locations and then bargain over wages with their unions. The timing of the bargaining process is endogeously determined. We obtain that bargaining is simultaneous if and only if both firms decide when negotiations take place. Otherwise negotiation takes place sequentially. Under simultaneous or sequential negotiations, the market is equally shared and both firms have the same price-cost margins and profits. When bargaining is sequential firms have higher profits, the leader locates closer to the market than in the simultaneous case, the follower locates further away and the distance between the two firms is greater.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#offset_98_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wages" ;
+        nif:beginIndex          "98"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c5e069c319fe1c6a19aece9879cb#offset_0_690> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999899109636969"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wage> .

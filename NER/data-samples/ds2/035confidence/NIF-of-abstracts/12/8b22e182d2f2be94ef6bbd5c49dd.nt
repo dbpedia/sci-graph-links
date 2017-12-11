@@ -1,0 +1,98 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_1386_1391>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Paris" ;
+        nif:beginIndex          "1386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1391"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9999887896941244"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paris> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_741_755>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gestalt theory" ;
+        nif:beginIndex          "741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "755"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gestalt_psychology> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_1336_1346>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "laboratory" ;
+        nif:beginIndex          "1336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999925126373408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Laboratory> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_1354_1384>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Institut Géographique National" ;
+        nif:beginIndex          "1354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1384"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999965894"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Institut_Géographique_National> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1393"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. Cartographic generalization aims to represent geographical information on a map whose specifications are different from those of the original database. Generalization often implies scale reduction, which generates legibility problems. To be readable at smaller scale, geographical objects often need to be enlarged, which generates problems of overlapping features or map congestion. To manage this problem with respect to buildings, we present a method of selection based on the typification principle that creates a result with fewer objects, but preserves the initial pattern of distribution. For this we use a graph of proximity on the building set, which is analysed and segmented with respect to various criteria, taken from gestalt theory. This analysis provides geographical information that is attached to each group of buildings such as the mean size of buildings, shape of the group, and density. This information is independent of scale. The information from the analysis stage is used to define methods to represent them at the target scale. The aim is to preserve the pattern as far as possible, preserve similarities and differences between the groups with regard to density, size and orientation of buildings. We present some results that have been obtained using the platform Stratège, developed in the COGIT laboratory at the Institut Géographique National, Paris.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_938_949>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "independent" ;
+        nif:beginIndex          "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999832994"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence_(probability_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_624_629>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "624"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "629"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6530273696809085"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_152_160>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "database" ;
+        nif:beginIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9933681937357114"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .
+
+<http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_10_37>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cartographic generalization" ;
+        nif:beginIndex          "10"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b22e182d2f2be94ef6bbd5c49dd#offset_0_1393> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cartographic_generalization> .

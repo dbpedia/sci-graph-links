@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/39e181b9c688526293636f9c4eb0#offset_0_550>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "550"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper is about the ‘threshold problem’ for knowledge, namely, how do we determine what fixes the level of justification required for knowledge in a non-arbitrary way? One popular strategy for solving this problem is impurism, which is the view that the required level of justification is partly fixed by one’s practical reasoning situation. However, this strategy has been the target of several recent objections. My goal is to propose a new version of impurism that solves the threshold problem without succumbing to these criticisms.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/39e181b9c688526293636f9c4eb0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/39e181b9c688526293636f9c4eb0#offset_0_550> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/39e181b9c688526293636f9c4eb0#offset_324_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "practical reasoning" ;
+        nif:beginIndex          "324"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/39e181b9c688526293636f9c4eb0#offset_0_550> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Practical_reason> .

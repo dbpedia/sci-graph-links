@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#offset_165_169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "city" ;
+        nif:beginIndex          "165"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990638256627231"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/City> .
+
+<http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#offset_385_398>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "manufacturing" ;
+        nif:beginIndex          "385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "398"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#offset_0_683> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999555152959947"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Manufacturing> .
+
+<http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#offset_0_683>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "683"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Cases are presented which illustrate three differenct ways in which the locations of corporate headquarters were established. The office is in a particular city or urban center because 1) the firm was founded there, the founder apparently making no assesment of the advantages of the place in comparison with other places, 2) the palce was considered the most appropriate for manufacturing or for some other operative activity, or 3) it met the requirements of the specific activities of the head office. Factors influencing the selection of head office locations are suggested, as well as factors conserving the locational pattern of such offices, i.e. obstacles to moves.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8b1a85844beda35f26a706585e95#offset_0_683> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

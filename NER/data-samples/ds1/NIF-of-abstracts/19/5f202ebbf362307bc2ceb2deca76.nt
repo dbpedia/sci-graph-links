@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_0_658> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_0_658>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "658"^^xsd:nonNegativeInteger ;
+        nif:isString    "In the era of News 2.0, the number of comments can indicate the influence of online news, which brings potential social value and economic benefits. The present study proposes a framework that involves integrating the features of news structure, news content, and reader usage (social media recommendation) to explain the number of comments. The results of logistic regression suggest that the proposed framework is a powerful tool for explaining the number of comments (R\\n 2 =47.1%). The relative and mediating role of recommendation in social media from readers is also explored. The theoretical and managerial implications of these results are provided.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_278_290>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social media" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "290"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_0_658> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9963477931820514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_media> .
+
+<http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_357_376>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logistic regression" ;
+        nif:beginIndex          "357"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_0_658> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logistic_regression> .
+
+<http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_539_551>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social media" ;
+        nif:beginIndex          "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "551"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f202ebbf362307bc2ceb2deca76#offset_0_658> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9963477931820514"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_media> .

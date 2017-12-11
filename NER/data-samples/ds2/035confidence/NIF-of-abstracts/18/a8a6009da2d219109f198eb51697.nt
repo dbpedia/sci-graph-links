@@ -1,0 +1,259 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_657_666>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "666"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.997036045896762"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_81_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "81"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_780_788>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetry" ;
+        nif:beginIndex          "780"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "788"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994300879"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetry> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_154_164>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invariance" ;
+        nif:beginIndex          "154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invariant_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_476_494>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterated logarithm" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "494"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterated_logarithm> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_730_733>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "law" ;
+        nif:beginIndex          "730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "733"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9231562139587248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Law> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1259"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Let {Y i} be iid with EY 1=0, EY 12=1. Let {Xi} be iid normal mean zero, variance one random variables. According to Strassen's first almost sure invariance principle {X i} and {Y i} can be reconstructed on a new probability space without changing the distribution of each sequence such that $$\\\\sum\\\\limits_{i = 1}^n {Y_i - \\\\sum\\\\limits_{i = 1}^n {X_i } = o(n{\\\\text{ }}\\\\log _2 n)^{1/2} } $$ a.s., thus improving on the trivial bound obtainable from the law of the iterated logarithm: $$\\\\sum\\\\limits_{i = 1}^n {Y_i - \\\\sum\\\\limits_{i = 1}^n {X_i } = O(n{\\\\text{ }}\\\\log _2 n)^{1/2} } $$ a.s. In this work we establish analogous improvements for symmetric {Y i} in the domain of normal attraction to a symmetric stable law with index 0<α<2. (We make this assumption of symmetry in order to avoid messy details concerning centering constants.) Let {X i} be iid symmetric stable random variables with index 0<α<2. Then, for example, hypotheses are stated which imply for a given γ satisfying 2>γ≧α that $$\\\\sum\\\\limits_{i = 1}^n {Y_i - \\\\sum\\\\limits_{i = 1}^n {X_i } = o(n^{1/\\\\gamma } )} $$ a.s., thus improving on the trivial bound: $$\\\\sum\\\\limits_{i = 1}^n {Y_i - \\\\sum\\\\limits_{i = 1}^n {X_i } = o(n^{1/\\\\alpha + \\\\varepsilon } )} $$ a.s., ɛ>0.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_881_887>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stable" ;
+        nif:beginIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7733183571490249"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stability_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_871_880>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "880"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.997036045896762"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_94_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random variables" ;
+        nif:beginIndex          "94"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_variable> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_38_40>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "EY" ;
+        nif:beginIndex          "38"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999992119048479"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ernst_&_Young> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_125_133>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Strassen" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "133"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999986257535"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volker_Strassen> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_21_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iid" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independent_and_identically_distributed_random_variables> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_281_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequence" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequence> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_221_238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability space" ;
+        nif:beginIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability_space> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_713_722>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "713"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "722"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.997036045896762"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetric_matrix> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_942_952>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypotheses" ;
+        nif:beginIndex          "942"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "952"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998807585442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_hypothesis_testing> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_1219_1224>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "alpha" ;
+        nif:beginIndex          "1219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1224"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7338467693506355"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Alpha_and_beta_carbon> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_465_468>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "law" ;
+        nif:beginIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9231562139587248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Law> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_59_62>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iid" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independent_and_identically_distributed_random_variables> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_723_729>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stable" ;
+        nif:beginIndex          "723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7733183571490249"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stability_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_30_32>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "EY" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "32"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Organization> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999992119048479"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ernst_&_Young> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_888_904>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random variables" ;
+        nif:beginIndex          "888"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "904"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_variable> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_867_870>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iid" ;
+        nif:beginIndex          "867"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "870"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independent_and_identically_distributed_random_variables> .
+
+<http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_680_686>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domain" ;
+        nif:beginIndex          "680"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "686"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a8a6009da2d219109f198eb51697#offset_0_1259> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domain_of_a_function> .

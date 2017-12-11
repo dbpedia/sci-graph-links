@@ -1,0 +1,159 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_711_726>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "signal strength" ;
+        nif:beginIndex          "711"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "726"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6342599625149117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Signal_strength> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_254_267>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rate constant" ;
+        nif:beginIndex          "254"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "267"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5977201268030692"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arrhenius_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_410_423>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reaction rate" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reaction_rate> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_573_576>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ERC" ;
+        nif:beginIndex          "573"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Organisation> ;
+        itsrdf:taConfidence     "0.9964458522990128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Research_Council> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_59_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "surface plasmon resonance (SPR)" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surface_plasmon_resonance> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_653_660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BIAcore" ;
+        nif:beginIndex          "653"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surface_plasmon_resonance> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "989"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. When estimating rate constants using the BIAcore surface plasmon resonance (SPR) biosensor, one must have an accurate mathematical model to interpret sensogram data. Several models of differing complexity are discussed, including the effective rate constant (ERC) approach. This model can be shown formally to be good within O(Da) in the limit of small Damköhler number Da, which is the ratio of the reaction rate to the rate of transport to the surface. Numerical results are presented that show that except for very slow reactions, parameter estimates from the ERC model are very close to those estimated using a more complicated model. The BIAcore measures the behavior of an evanescent wave whose signal strength decays as it penetrates into the device. It is shown that this decay does not appreciably affect the sensogram readout at low Da, but at moderate Da can lead to situations where two vastly different rate constants can produce the same short-time sensogram data.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_689_704>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evanescent wave" ;
+        nif:beginIndex          "689"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "704"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evanescent_wave> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_51_58>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BIAcore" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Surface_plasmon_resonance> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_926_940>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rate constants" ;
+        nif:beginIndex          "926"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reaction_rate_constant> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_91_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biosensor" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biosensor> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_26_40>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rate constants" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "40"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reaction_rate_constant> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_128_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematical model" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematical_model> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_439_448>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transport" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999963729392061"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Transport_phenomena> .
+
+<http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_269_272>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ERC" ;
+        nif:beginIndex          "269"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/80ed243eb813495abbc5ecb5d4fe#offset_0_989> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9964458522990128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/European_Research_Council> .

@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_225_230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "para-" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997208115654249"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arene_substitution_pattern> .
+
+<http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_0_338> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_71_82>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "positronium" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "82"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Positronium> .
+
+<http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_133_145>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "annihilation" ;
+        nif:beginIndex          "133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999833566609795"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annihilation> .
+
+<http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_0_338>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "338"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Para- and ortho-Ps atoms are formed in the photodetachment of positronium negative ion. Since the lifetime against the pair annihilation is much shorter for para-Ps(ns) than for ortho-Ps(ns), the production ratio of para- and ortho-Ps atoms is important for the photodetachment experiments. We have derived the ratio explicitly.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_83_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "negative ion" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2c07b6cb0cd6ac3d75f1f23f1104#offset_0_338> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion> .

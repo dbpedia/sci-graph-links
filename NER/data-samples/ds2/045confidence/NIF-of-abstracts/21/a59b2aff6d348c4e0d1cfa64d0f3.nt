@@ -1,0 +1,28 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a59b2aff6d348c4e0d1cfa64d0f3#offset_9_23>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Samuel Beckett" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a59b2aff6d348c4e0d1cfa64d0f3#offset_0_24> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Samuel_Beckett> .
+
+<http://www.springernature.com/scigraph/things/articles/a59b2aff6d348c4e0d1cfa64d0f3#offset_0_24>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "24"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Samuel Beckett\\" .
+
+<http://www.springernature.com/scigraph/things/articles/a59b2aff6d348c4e0d1cfa64d0f3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a59b2aff6d348c4e0d1cfa64d0f3#offset_0_24> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

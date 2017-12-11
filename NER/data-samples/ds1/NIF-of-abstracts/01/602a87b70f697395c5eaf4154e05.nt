@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_0_656>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "656"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Consideration was given to the hierarchical two-person game where the lower-level player informs the principal about his decisions, and at that it can communicate invalid information. The principal, however, can verify at random the presented information and penalize its partner for the distorted information. Calculation of the maximal guaranteed result in a corresponding game is a complicated variational game. The present paper reduced this problem to calculation of multiple maximins in the “finite-dimensional” spaces. This result enables one to gain an insight into the logical structure of the optimal strategy of the upper-level player.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_40_52>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hierarchical" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_0_656> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9587741859838835"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hierarchy> .
+
+<http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_0_656> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_507_525>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite-dimensional" ;
+        nif:beginIndex          "507"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "525"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_0_656> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999083467025"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dimension_(mathematics_and_physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_406_417>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variational" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "417"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/602a87b70f697395c5eaf4154e05#offset_0_656> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997623085901"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calculus_of_variations> .

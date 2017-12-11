@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#offset_0_203>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "203"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  In this paper, the second of this series, traceability and uncertainty of measurement results by k0-INAA will be described. The role of k0-INAA as a back-up to relative INAA will be discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#offset_69_80>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uncertainty" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "80"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#offset_0_203> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9741540651334009"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Uncertainty_principle> .
+
+<http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#offset_52_64>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "traceability" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "64"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#offset_0_203> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999725448067243"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Traceability> .
+
+<http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/78fcebb6f44b4fc66dccf8dde41e#offset_0_203> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,187 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_903_912>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "embedding" ;
+        nif:beginIndex          "903"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "912"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5857869175985434"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Injective_function> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_118_132>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "authentication" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999997533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Authentication> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_538_541>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "BLS" ;
+        nif:beginIndex          "538"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9518797710708277"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Basic_life_support> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_1219_1239>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "performance analysis" ;
+        nif:beginIndex          "1219"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1239"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997002078"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Profiling_(computer_programming)> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_296_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smart devices" ;
+        nif:beginIndex          "296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smart_device> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_1430_1432>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "OR" ;
+        nif:beginIndex          "1430"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1432"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9907414098026283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logical_disjunction> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1538"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Attributes proof in anonymous credential systems is an effective way to balance security and privacy in user authentication; however, the linear complexity of attributes proof causes the existing anonymous credential systems far away from being practical, especially on resource-limited smart devices. For efficiency considerations, we present a novel pairing-based anonymous credential system which solves the linear complexity of attributes proof based on aggregate signature scheme. We propose two extended signature schemes, BLS+ and BGLS+, to be cryptographical building blocks for constructing anonymous credentials in the random oracle model. Identity-like information of message holder is encoded in a signature in order that the message holder can prove the possession of the input message along with the validity of a signature. We present issuance protocol for anonymous credentials embedding weak attributes which are referred to what cannot identify a user in a population. Users can prove any combination of attributes all at once by aggregating the corresponding individual credentials into one. The attributes proof protocols on AND and OR relation over multiple attributes are also given. The performance analysis shows that the aggregation-based anonymous credential system outperforms both the conventional Camenisch–Lysyanskaya pairing-based system and the accumulator-based system when prove AND and OR relation over multiple attributes, and the size of credential and public parameters are shorter as well.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_1162_1164>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "OR" ;
+        nif:beginIndex          "1162"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1164"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9907414098026283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logical_disjunction> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_868_876>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocol" ;
+        nif:beginIndex          "868"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "876"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999982844082006"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_477_493>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "signature scheme" ;
+        nif:beginIndex          "477"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "493"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Digital_signature> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_1141_1150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocols" ;
+        nif:beginIndex          "1141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999982991550636"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_638_657>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random oracle model" ;
+        nif:beginIndex          "638"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "657"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Random_oracle> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_420_426>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "426"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997376035156442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_560_575>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptographical" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptography> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_147_153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997376035156442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_102_109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "privacy" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998723297"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Privacy> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_1154_1157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AND" ;
+        nif:beginIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983534581451569"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logical_conjunction> .
+
+<http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_1422_1425>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AND" ;
+        nif:beginIndex          "1422"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1425"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/beecd8c8944f05aaf38ab3052a12#offset_0_1538> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9983534581451569"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logical_conjunction> .

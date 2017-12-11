@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_73_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Dance Therapy" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999961915"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dance_therapy> .
+
+<http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_0_331> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_0_331>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "331"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Articles and related works published in The American Journal of Dance Therapy to date have been compiled with their abstracts, as available. An index follows the listing, containing key words for each entry. The purpose of this work is to provide to theorists, clinicians and researchers, a reference tool for future use.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_125_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstracts" ;
+        nif:beginIndex          "125"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971462242186306"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstract_(summary)> .
+
+<http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_53_61>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "American" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/13817535a35fb18881770fa902f1#offset_0_331> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9987736761110585"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .

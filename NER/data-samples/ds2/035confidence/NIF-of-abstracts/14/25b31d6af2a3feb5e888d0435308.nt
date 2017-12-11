@@ -1,0 +1,304 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1238_1249>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "luxury good" ;
+        nif:beginIndex          "1238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Luxury_goods> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_702_719>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "income elasticity" ;
+        nif:beginIndex          "702"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Income_elasticity_of_demand> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1261"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Our study examines the long-term relationship among per capita gross domestic product (GDP), per capita health expenditures and population growth rate in Turkey during the period 1984–2006, employing the Johansen multivariate cointegration technique. Related previous studies on OECD countries have mostly excluded Turkey—itself an OECD country. The only study on Turkey examines the period 1984–1998. However, after 1998, major events and policy changes that had a substantial impact on income and health expenditures took place in Turkey, including a series of reforms to restructure the health and social security system. In contrast to earlier findings in the literature, we find that the income elasticity of total health expenditures is less than one, which indicates that health care is a necessity in Turkey during the period of analysis. According to our results, a 10% increase in per capita GDP is associated with an 8.7% increase in total per capita health expenditures, controlling for population growth. We find that the income elasticity of public health expenditures is less than one. But, in the case of private health care expenditures, the elasticity is greater than one, meaning that private health care is a luxury good in Turkey.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_341_345>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OECD" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "345"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Organisation_for_Economic_Co-operation_and_Development> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_610_625>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "social security" ;
+        nif:beginIndex          "610"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992969962423366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Social_security> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1130_1149>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "private health care" ;
+        nif:beginIndex          "1130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1149"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Private_healthcare> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_971_977>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "971"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "977"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9460392181304089"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_222_234>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multivariate" ;
+        nif:beginIndex          "222"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7946869800576373"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Multivariate_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1044_1061>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "income elasticity" ;
+        nif:beginIndex          "1044"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1061"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Income_elasticity_of_demand> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_137_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "population growth rate" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999491930127"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Population_growth> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_163_169>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Turkey" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "169"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9961905741301551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkey> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_911_914>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GDP" ;
+        nif:beginIndex          "911"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "914"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999330385"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_72_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "gross domestic product (GDP)" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Gross_domestic_product> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1065_1078>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public health" ;
+        nif:beginIndex          "1065"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1078"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5401710652050248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Publicly_funded_health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_788_799>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health care" ;
+        nif:beginIndex          "788"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "799"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9800756282263956"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_542_548>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turkey" ;
+        nif:beginIndex          "542"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9961905741301551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkey> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_673_683>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "673"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999009661119791"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_373_379>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turkey" ;
+        nif:beginIndex          "373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9961905741301551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkey> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1213_1232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "private health care" ;
+        nif:beginIndex          "1213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Private_healthcare> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_288_292>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "OECD" ;
+        nif:beginIndex          "288"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Organisation_for_Economic_Co-operation_and_Development> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_235_248>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cointegration" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cointegration> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1253_1259>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Turkey" ;
+        nif:beginIndex          "1253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1259"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9961905741301551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkey> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_113_119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9460392181304089"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_818_824>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Turkey" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "824"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9961905741301551"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Turkey> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1168_1178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elasticity" ;
+        nif:beginIndex          "1168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9931413150479432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elasticity_(economics)> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_1008_1025>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "population growth" ;
+        nif:beginIndex          "1008"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9219092000465644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/World_population> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_729_735>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "729"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9460392181304089"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_599_605>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "599"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "605"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9460392181304089"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .
+
+<http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_508_514>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "health" ;
+        nif:beginIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/25b31d6af2a3feb5e888d0435308#offset_0_1261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9460392181304089"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Health_care> .

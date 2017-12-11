@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d844bf834f780c0c714d37fb525f#offset_0_345>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "345"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the frame of this work we shall prove that the positive plurisubharmonic currents T are locally flat. We want show an essential point of the proof of the Main theorem which: the current T can be studied by means of the potential current U of T and we are going to use an against-example which shows the positivity of T is necessary.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d844bf834f780c0c714d37fb525f#offset_171_178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d844bf834f780c0c714d37fb525f#offset_0_345> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998425688555258"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<http://www.springernature.com/scigraph/things/articles/d844bf834f780c0c714d37fb525f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d844bf834f780c0c714d37fb525f#offset_0_345> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

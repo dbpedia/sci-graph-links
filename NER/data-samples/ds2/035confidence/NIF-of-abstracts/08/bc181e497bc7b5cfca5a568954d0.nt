@@ -1,0 +1,227 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_171_175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tags" ;
+        nif:beginIndex          "171"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999731776198573"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tag_(metadata)> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_652_658>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "server" ;
+        nif:beginIndex          "652"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "658"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995849743927131"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Server_(computing)> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_727_729>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PI" ;
+        nif:beginIndex          "727"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "729"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5303090268757069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Private_investigator> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_350_363>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cryptographic" ;
+        nif:beginIndex          "350"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "363"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996880919512406"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptography> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_328_337>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocols" ;
+        nif:beginIndex          "328"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "337"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996134874805871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_499_508>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocols" ;
+        nif:beginIndex          "499"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "508"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996134874805871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1180"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Radio frequency identification tag authentication protocols are generally classified as non-full-fledged and full-fledged, according to the resource usage of the tags. The non-full-fledged protocols typically suffer de-synchronization, impersonation and tracking attacks, and usually lack scalability. The full-fledged protocols, supporting cryptographic functions, are designed to overcome these weaknesses. This paper examines several elliptic-curve-cryptography (ECC)-based full-fledged protocols. We found that some still have security and privacy issues, and others generate excessive communication costs between the tag and the back-end server. Motivated by these observations, we construct two novel protocols, PI and PII. PI is designed for secure environments and is suitable for applications, including E-Passport and toll payment in vehicular ad-hoc networks. PII is for hostile environments and can be applied in pseudonymous payment and anti-counterfeiting services. After analysis, we conclude that PII can resist many attacks, outperform previous ECC-based proposals in communication efficiency, and provide mutual authentication function and scalability.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_475_478>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ECC" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991625382857"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elliptic_curve_cryptography> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_44_68>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "authentication protocols" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "68"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Authentication_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_1154_1162>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "1154"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1162"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7659043612733148"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subroutine> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_643_651>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "back-end" ;
+        nif:beginIndex          "643"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "651"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.75692223178383"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Front_and_back_ends> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_1094_1107>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "1094"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1107"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7507215473827268"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_553_560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "privacy" ;
+        nif:beginIndex          "553"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998236717"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Privacy> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_198_207>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocols" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "207"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996134874805871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_934_946>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pseudonymous" ;
+        nif:beginIndex          "934"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "946"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999977134166"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pseudonymity> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_739_741>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PI" ;
+        nif:beginIndex          "739"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "741"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5303090268757069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Private_investigator> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_716_725>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "protocols" ;
+        nif:beginIndex          "716"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "725"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996134874805871"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communications_protocol> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_599_612>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "599"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7507215473827268"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_1167_1178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scalability" ;
+        nif:beginIndex          "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scalability> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_298_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scalability" ;
+        nif:beginIndex          "298"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scalability> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_1132_1153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mutual authentication" ;
+        nif:beginIndex          "1132"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mutual_authentication> .
+
+<http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_9_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Radio frequency identification tag" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bc181e497bc7b5cfca5a568954d0#offset_0_1180> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radio-frequency_identification> .

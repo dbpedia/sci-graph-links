@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#offset_0_285> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#offset_153_163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology" ;
+        nif:beginIndex          "153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987963550683814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technology> .
+
+<http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#offset_0_285>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "285"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract: This paper will discuss the various issues surrounding personal technologies for children. Three critical questions will be discussed: Why can technology be important for children? What activities can technology support? And what changes should be considered for the future?\n" .
+
+<http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#offset_211_221>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "technology" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "221"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/07d8deea42950af50983953617aa#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987963550683814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Technology> .

@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_554_561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Environ" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6231005565744074"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environ_(record_label)> .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_80_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "creativity" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998819996633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Creativity> .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_568_571>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sci" ;
+        nif:beginIndex          "568"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "571"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996488300432648"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Science_Citation_Index> .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "771"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A research paper’s contribution exists not only in its originality and creativity but also in its continuity and development for research that follows. The reference section can play a key role to researchers who are interested in a paper’s statement or who would like to follow the study or find useful information from the paper. This section is as important as the core of a paper; however, it was easily to be ignored by the author. This comment offered information for citing original idea of methods, figures, and tables which Zhi et al. (Environ Earth Sci 74(7):6065–6075, 2015) used. It is also suggested that an author not only must be creative but also must be careful while writing in order to publish more valuable and papers more worthy of reading.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_562_567>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Earth" ;
+        nif:beginIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "567"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/CelestialBody> , <http://dbpedia.org/ontology/Planet> ;
+        itsrdf:taConfidence     "0.9999995257945772"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth> .
+
+<http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_107_117>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuity" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "117"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/75ca958813d221024fcb979bc2a5#offset_0_771> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.949420279793991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuity_(fiction)> .

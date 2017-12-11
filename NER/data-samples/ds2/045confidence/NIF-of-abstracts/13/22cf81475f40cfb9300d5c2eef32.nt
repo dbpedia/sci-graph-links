@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/22cf81475f40cfb9300d5c2eef32#offset_106_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemistry" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/22cf81475f40cfb9300d5c2eef32#offset_0_490> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999799106004735"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/22cf81475f40cfb9300d5c2eef32#offset_0_490>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "490"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we describe a series of web assignments carried out in large lecture, introductory chemistry courses. Our intent is to share the path by which assessment of student attitudes about these assignments has led to a relatively useful assignment after several attempts. At each step in our development we have used student surveys to refine our assignments and show how these refinements lead to positive outcomes in terms of both student attitudes and reported learning.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/22cf81475f40cfb9300d5c2eef32#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/22cf81475f40cfb9300d5c2eef32#offset_0_490> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

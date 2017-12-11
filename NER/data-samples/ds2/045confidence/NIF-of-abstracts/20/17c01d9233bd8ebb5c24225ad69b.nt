@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#offset_0_247>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "247"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract What song reminds you of patient x and the stated problem? Your answer may illuminate transference-countertransference dynamics active at that moment in the therapy dyad. A brief supervision at a post-conference workshop is illustrative.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#offset_128_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "128"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#offset_0_247> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6932174715443815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamics_(music)> .
+
+<http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#offset_0_247> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#offset_174_178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dyad" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/17c01d9233bd8ebb5c24225ad69b#offset_0_247> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5909111707064136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dyad_(sociology)> .

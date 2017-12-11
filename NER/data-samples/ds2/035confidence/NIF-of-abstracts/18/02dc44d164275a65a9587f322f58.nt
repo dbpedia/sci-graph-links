@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_80_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discharge" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_0_724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6748692639546677"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Military_discharge> .
+
+<http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_187_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "field study" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_0_724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Field_research> .
+
+<http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_0_724> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_0_724>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "724"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Little previous research has examined why dismissed workers view their discharge as unjust and how they respond to third-party dispute resolution interventions. This exploratory field study relied upon a justice framework to understand complainant motivations for filing unjust dismissal disputes and their reactions to a voluntary conciliation program. Analysis of archival and interview data suggested that procedural justice principles dominated both motivations for filing claims and reactions to third-party intervention. These findings were consistent with previous justice and labor relations research. Implications for future research, management practice, and third-party dispute resolution are discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_418_436>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "procedural justice" ;
+        nif:beginIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_0_724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Procedural_justice> .
+
+<http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_341_353>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conciliation" ;
+        nif:beginIndex          "341"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/02dc44d164275a65a9587f322f58#offset_0_724> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conciliation> .

@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_0_282>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "282"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The rigorous theory of excitation of an irregular electrodynamic system is used to formulate and solve the problem of determining the profile of a horn operating on symmetric E modes that provides a required mode structure at the output and an optimum directivity pattern.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_32_42>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "excitation" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6377278032228051"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Excited_state> .
+
+<http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_0_282> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_261_272>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "directivity" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999484037798254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Loudspeaker> .
+
+<http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_174_183>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symmetric" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999943398878941"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symmetry> .
+
+<http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_59_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrodynamic" ;
+        nif:beginIndex          "59"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fc44ff623c033de80297c2bee3b0#offset_0_282> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999409122432078"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_electromagnetism> .

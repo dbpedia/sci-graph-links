@@ -1,0 +1,91 @@
+Abstract The computation of the vertical attraction due to the topographic masses, the so-called Terrain Correction, is a fundamental step in geodetic and geophysical applications: it is required in high-precision geoid estimation by means of the remove–restore technique and it is used to isolate the gravitational effect of anomalous masses in geophysical exploration. The increasing resolution of recently developed digital terrain models, the increasing number of observation points due to extensive use of airborne gravimetry in geophysical exploration and the increasing accuracy of gravity data represents nowadays major issues for the terrain correction computation. Classical methods such as prism or point masses approximations are indeed too slow while Fourier based techniques are usually too approximate for the required accuracy. In this work a new software, called Gravity Terrain Effects (GTE), developed to guarantee high accuracy and fast computation of terrain corrections is presented. GTE has been thought expressly for geophysical applications allowing the computation not only of the effect of topographic and bathymetric masses but also those due to sedimentary layers or to the Earth crust-mantle discontinuity (the so-called Moho). In the present contribution, after recalling the main classical algorithms for the computation of the terrain correction we summarize the basic theory of the software and its practical implementation. Some tests to prove its performances are also described showing GTE capability to compute high accurate terrain corrections in a very short time: results obtained for a real airborne survey with GTE ranges between few hours and few minutes, according to the GTE profile used, with differences with respect to both planar and spherical computations (performed by prism and tesseroid respectively) of the order of 0.02 mGal even when using fastest profiles.
+Earth               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Earth                 
+
+gravitational                 0.9999999951187419^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Gravitation           
+
+topographic                   0.9975838364922085^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Topography            
+
+point masses                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Point_particle        
+
+gravimetry                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Gravimetry            
+
+geophysical exploration       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Exploration_geophysics
+
+prism                         0.9617406379460066^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Prism_(optics)        
+
+software                      0.9243033995419253^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Software              
+
+computation                   0.9999999965666575^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computation           
+
+software                      0.9243033995419253^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Software              
+
+airborne                      0.9983161138758148^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Airborne_forces       
+
+Fourier                       0.9885509861075836^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Fast_Fourier_transform
+
+GTE                           0.7023149303610813^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Verizon_Communications
+
+digital terrain models        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Digital_elevation_model
+
+planar                        0.9991323229827289^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Plane_(geometry)      
+
+geoid                         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Geoid                 
+
+masses                        0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mass                  
+
+masses                        0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mass                  
+
+computation                   0.9999999965666575^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computation           
+
+Gravity                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Gravitation           
+
+computation                   0.9999999965666575^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computation           
+
+algorithms                    0.999999999936108^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Algorithm             
+
+bathymetric                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Bathymetry            
+
+computation                   0.9999999965666575^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computation           
+
+geodetic                      0.975547383311075^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Geodesy               
+
+GTE                           0.7023149303610813^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Verizon_Communications
+
+geophysical                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Geophysics            
+
+airborne survey               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Aerial_survey         
+
+computation                   0.9999999965666575^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computation           
+
+GTE                           0.7023149303610813^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Verizon_Communications
+
+discontinuity                 0.9999910825381152^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Continuous_function   
+
+mGal                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Gal_(unit)            
+
+spherical                     0.999999799386862^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Sphere                
+
+gravity                       0.999999993351139^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Gravitation           
+
+Classical                     0.640963009206373^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Classical_economics   
+
+geophysical exploration       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Exploration_geophysics
+
+classical                     0.9999965600411592^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Classical_mechanics   
+
+topographic                   0.9975838364922085^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Topography            
+
+GTE                           0.7023149303610813^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Verizon_Communications
+
+geophysical                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Geophysics            
+
+Moho                          0.9999999999997726^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mohorovičić_discontinuity
+
+GTE                           0.7023149303610813^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Verizon_Communications
+
+masses                        0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mass                  
+
+sedimentary layers            0.9997710445256273^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sediment              
+
+prism                         0.9617406379460066^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Prism_(optics)        
+

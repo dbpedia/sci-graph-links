@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#offset_52_67>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Möbius function" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#offset_0_314> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997343580299128"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Möbius_function> .
+
+<http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#offset_26_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "von Mangoldt function" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#offset_0_314> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Von_Mangoldt_function> .
+
+<http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#offset_0_314>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "314"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract.  Let and be the von Mangoldt function and Möbius function, respectively, x real and y“small” compared with x. This paper gives, for the first time, a non-trivial estimate of the sum for all whenever . Correspondingly, it is also proved that uniformly for all real α and any , and in the same range of y.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/eb9ed3563e2a846368d06713ba35#offset_0_314> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

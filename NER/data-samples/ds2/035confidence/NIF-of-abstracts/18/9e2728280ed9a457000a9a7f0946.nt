@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#offset_0_491> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#offset_0_491>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "491"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The severity of the sanction for a given offense is often determined by the offense history of the offender. We establish that this policy can be welfare-maximizing if individuals are imperfectly informed about the magnitude of the sanction. Imperfect information distorts individuals’ perception of the expected sanction of the first offense. Once detected, individuals learn about the sanction applicable to their act, making this argument less relevant for consecutive offenses.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#offset_224_233>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnitude" ;
+        nif:beginIndex          "224"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#offset_0_491> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.472809361992503"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apparent_magnitude> .
+
+<http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#offset_295_305>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perception" ;
+        nif:beginIndex          "295"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "305"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e2728280ed9a457000a9a7f0946#offset_0_491> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999452422122613"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perception> .

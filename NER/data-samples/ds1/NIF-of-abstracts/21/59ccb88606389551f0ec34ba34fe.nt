@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_0_835> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_0_835>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "835"^^xsd:nonNegativeInteger ;
+        nif:isString    "Résumé La chaussure depuis qu’elle existe, et cela fait 14 000 ans, a toujours excité l’imagination des artistes. Après avoir survolé les chaussures préhistoriques, celles des Égyptiens, des Étrusques, des Grecs et des Romains, nous suivrons l’évolution de la chaussure en France à partir du Moyen Âge jusqu’à nos jours. Nous verrons l’importance des découvertes, parfois accidentelles, comme le tannage, ainsi que le développement de la cordonnerie. La chaussure est souvent le reflet de la situation économique d’un pays. Les guerres ont eu une influence considérable sur la fabrication des chaussures. L’industrialisation a marqué l’essor des usines. Durant toutes ces périodes de notre histoire, même les plus sombres, des « artistes » de la chaussure se sont révélés, mais leurs créations ont été longtemps réservées à une élite.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_206_211>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Grecs" ;
+        nif:beginIndex          "206"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9058392450647015"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Grèce_antique> .
+
+<http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_292_301>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Moyen Âge" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "301"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999903777534436"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Moyen_Âge> .
+
+<http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_396_403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tannage" ;
+        nif:beginIndex          "396"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9424471812789367"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Cuir> .
+
+<http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_273_279>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "France" ;
+        nif:beginIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/59ccb88606389551f0ec34ba34fe#offset_0_835> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://schema.org/Country> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9987861235462416"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/France> .

@@ -1,0 +1,39 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#offset_0_85>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "85"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Adult females of the mantis Tenodera angustipennis were presented with the \\" .
+
+<http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#offset_37_59>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Tenodera angustipennis" ;
+        nif:beginIndex          "37"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#offset_0_85> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tenodera_angustipennis> .
+
+<http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#offset_30_36>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "mantis" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#offset_0_85> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Insect> , <http://dbpedia.org/ontology/Animal> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9974328791903868"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mantis> .
+
+<http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a9818f456cc5199288d29aff261a#offset_0_85> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_508_511>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "T 2" ;
+        nif:beginIndex          "508"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "511"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_0_580> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Aircraft> , <http://dbpedia.org/ontology/MeanOfTransportation> , <http://schema.org/Product> ;
+        itsrdf:taConfidence     "0.9805739442196423"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Heinkel_He_115> .
+
+<http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_168_178>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "factorials" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "178"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_0_580> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991286472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Factorial> .
+
+<http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_0_580>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "580"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Recently Saha and Das [10] constructed partially balanced incomplete block (PBIB) designs of two and more associate classes by using confounded designs for 2 n factorials. Several new designs of two associate classes were obtained through those methods. This paper generalizes one of the earlier methods of construction to obtain several series ofT m -type (m≧2) PBIB designs, i.e., the designs havingm-dimensional triangular association schemes. Some more new designs of two associate classes (i.e.,T 2-type) are obtained through the generalized methods of construction.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_434_453>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "association schemes" ;
+        nif:beginIndex          "434"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "453"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_0_580> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999753868"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Association_scheme> .
+
+<http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6aedb25746a8e0971a08ef6aaac7#offset_0_580> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

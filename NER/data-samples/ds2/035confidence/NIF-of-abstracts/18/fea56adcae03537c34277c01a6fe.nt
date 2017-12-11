@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "461"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the United States a rapidly increasing regulatory burden for life scientists has led to questions of whether the increased burden resulting from the Select Agent Program has had adverse effects on scientific advances. Attention has focussed on the regulatory “fit” of the Program and ways in which its design could be improved. An international framework convention to address common concerns about biosecurity and biosafety is a logical next step.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_16_29>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "29"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9986561742185611"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_427_436>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biosafety" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "436"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999998727958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biosafety> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_73_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "life scientists" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998306635"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Life_sciences> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_190_205>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "adverse effects" ;
+        nif:beginIndex          "190"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9992644476471957"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adverse_effect> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_161_173>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Select Agent" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Select_agent> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_411_422>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biosecurity" ;
+        nif:beginIndex          "411"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biosecurity> .
+
+<http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/fea56adcae03537c34277c01a6fe#offset_0_461> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

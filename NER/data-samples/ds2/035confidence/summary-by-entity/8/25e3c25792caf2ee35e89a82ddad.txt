@@ -1,0 +1,27 @@
+Abstract A reverse top-t query for a product returns a set of customers, named potential customers, who regard the product as one of their top-t favorites. Given a set of customers with different preferences on the features of the products, we want to select at most $$k$$ k products from a pool of candidate products such that their total number of potential customers is maximized. Two versions of the problem are defined according to whether the competitive existing products are given. For solving this NP-hard problem, we first propose an incremental greedy approach to find an approximate solution of the problem with quality guaranteed. For further speeding up this basic greedy approach, we exploit several properties of the top-$$t$$ t queries and skyline queries to reduce the solution space of the problem. In addition, an upper bound of the potential customers is estimated to reduce the cost of computing the reverse top-$$t$$ t queries for the candidate products. Finally, when the candidate products are formed from multiple component tables, we propose a strategy to reduce the number of the accessed tuples in the component tables such that only the tuples that are possibly components of the top-$$t$$ t favorites of the customers need to be accessed. By applying these pruning strategies, we propose another faster greedy approach. The experiment results demonstrate that the proposed pruning strategies work very well and make the faster greedy algorithms for both versions of the problem achieve excellent performance on both efficiency and memory utilization.
+pruning             0.9087833390651632^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Pruning_(decision_trees)
+
+t$                            0.9999999999566853^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tongan_paʻanga        
+
+tuples                        0.9999999997985469^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tuple                 
+
+pruning                       0.9087833390651632^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Pruning_(decision_trees)
+
+greedy algorithms             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Greedy_algorithm      
+
+upper bound                   0.9942486289878711^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Big_O_notation        
+
+computing                     0.6244096840114033^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_science      
+
+memory                        0.9893041469670806^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_memory       
+
+t$                            0.9999999999566853^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tongan_paʻanga        
+
+t$                            0.9999999999566853^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tongan_paʻanga        
+
+tuples                        0.9999999997985469^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tuple                 
+
+solution space                0.9997049542006576^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Candidate_solution    
+
+NP-hard                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/NP-hard               
+

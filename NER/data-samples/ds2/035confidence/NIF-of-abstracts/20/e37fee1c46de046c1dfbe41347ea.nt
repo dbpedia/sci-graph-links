@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_160_175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "melodic contour" ;
+        nif:beginIndex          "160"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9966332680597683"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Melodic_motion> .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_115_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "musical" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969200973408142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Music> .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_293_302>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "preschool" ;
+        nif:beginIndex          "293"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "302"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999762415204241"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Preschool_education> .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_141_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pitch" ;
+        nif:beginIndex          "141"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999986556291774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pitch_(music)> .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "321"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract During the second year of life, babies actively play with sounds they produce. Their sound-play often has musical qualities such as pitch, rhythm, and melodic contour, but it is not the same as singing. Singing is a complex activity, one requiring skills that usually take the entire preschool years to develop.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_148_154>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rhythm" ;
+        nif:beginIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "154"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999832098652"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rhythm> .
+
+<http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e37fee1c46de046c1dfbe41347ea#offset_0_321> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

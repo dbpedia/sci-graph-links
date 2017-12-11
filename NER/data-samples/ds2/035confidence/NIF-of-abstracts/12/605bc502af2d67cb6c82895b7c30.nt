@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_115_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "decision making" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996955301534"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Decision_making> .
+
+<http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_0_568>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "568"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper, we propose a method to locate the company’s crucial knowledge for improving the quality of decision making in a design project. It comprises of a preliminary survey regarding the approach that has been carried out at automotive company for identifying the crucial knowledge, aiming at choosing and justifying the necessary investment to capitalize on the knowledge. This method will then be used as basis for a dialogue between the stakeholders involved in the identification of the crucial knowledge developed and/or used in a design project.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_347_357>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "investment" ;
+        nif:beginIndex          "347"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "357"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999970526628325"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Investment> .
+
+<http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_0_568> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_241_251>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "automotive" ;
+        nif:beginIndex          "241"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "251"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9904832876517835"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automotive_industry> .
+
+<http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_456_468>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stakeholders" ;
+        nif:beginIndex          "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/605bc502af2d67cb6c82895b7c30#offset_0_568> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9888108010434533"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stakeholder_(corporate)> .

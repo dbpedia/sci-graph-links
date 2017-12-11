@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "385"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract An integer is called y-rough if it is composed solely of primes $$> y$$ >y . Let $$\\\\lfloor {.}\\\\rfloor $$ ⌊.⌋ be the floor function. In this paper, we exhibit an asymptotic formula for the counting function of integers $$n \\\\leqslant x$$ n⩽x such that $$\\\\lfloor {n^c}\\\\rfloor $$ ⌊nc⌋ is y-rough uniformly for a range of y that depends on $$1< c < 2229/1949$$ 1\n<2229/1949 .\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_127_141>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "floor function" ;
+        nif:beginIndex          "127"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "141"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Floor_and_ceiling_functions> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_291_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nc" ;
+        nif:beginIndex          "291"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991946790615136"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/NC_(complexity)> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_199_216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "counting function" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999849933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Enumerative_combinatorics> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_66_72>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primes" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999672871814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prime_number> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_12_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integer" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999932721835"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_220_228>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integers" ;
+        nif:beginIndex          "220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "228"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999978033998"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integer> .
+
+<http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_172_190>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "asymptotic formula" ;
+        nif:beginIndex          "172"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4500e0e9d885dbd92ea03863e07d#offset_0_385> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996839035776487"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Asymptotic_analysis> .

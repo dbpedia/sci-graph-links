@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "501"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Perpendicular recording has recently been replacing longitudinal recording in hard disk drives (HDDs). With perpendicular recording, however, it has been clarified that a state of DC magnetization is not conducive for read and write operations because it causes a unique flux flaw. In this paper, we investigated servo-write quality and servo performance, and found that the erasing conditions strongly affected the self-servo-write quality, which was especially seen in the reading process.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_189_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "DC" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9982304313652747"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Direct_current> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_87_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hard disk drives" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hard_disk_drive> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_9_22>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Perpendicular" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "22"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999539568318627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perpendicular> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_192_205>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetization" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.588688593527794"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnet> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_117_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "perpendicular recording" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Perpendicular_recording> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_346_351>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servo" ;
+        nif:beginIndex          "346"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999991565033317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Servomechanism> .
+
+<http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_280_284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flux" ;
+        nif:beginIndex          "280"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/078a23bfbe9c4482970d3c933e6d#offset_0_501> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7421353578813639"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flux> .

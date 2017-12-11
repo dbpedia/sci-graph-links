@@ -1,0 +1,49 @@
+Abstract Storing and retrieving strings in main memory is a fundamental problem in computer science. The efficiency of string data structures used for this task is of paramount importance for applications such as in-memory databases, text-based search engines and dictionaries. The burst trie is a leading choice for such tasks, as it can provide fast sorted access to strings. The burst trie, however, uses linked lists as substructures which can result in poor use of CPU cache and main memory. Previous research addressed this issue by replacing linked lists with dynamic arrays forming a cache-conscious array burst trie. Though faster, this variant can incur high instruction costs which can hinder its efficiency. Thus, engineering a fast, compact, and scalable trie for strings remains an open problem. In this paper, we introduce a novel and practical solution that carefully combines a trie with a hash table, creating a variant of burst trie called HAT-trie. We provide a thorough experimental analysis which demonstrates that for large set of strings and on alternative computing architectures, the HAT-trie—and two novel variants engineered to achieve further space-efficiency—is currently the leading in-memory trie-based data structure offering rapid, compact, and scalable storage and retrieval of variable-length strings.
+data structures     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Data_structure        
+
+trie                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Trie                  
+
+strings                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/String_(computer_science)
+
+linked lists                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Linked_list           
+
+trie                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Trie                  
+
+trie                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Trie                  
+
+in-memory                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/In-memory_database    
+
+computer science              0.9999999997946816^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_science      
+
+linked lists                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Linked_list           
+
+main memory                   0.9999659312099825^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_data_storage 
+
+main memory                   0.9999659312099825^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_data_storage 
+
+dynamic arrays                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Dynamic_array         
+
+strings                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/String_(computer_science)
+
+CPU cache                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/CPU_cache             
+
+search engines                0.9999999934907464^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Web_search_engine     
+
+hash table                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Hash_table            
+
+strings                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/String_(computer_science)
+
+trie                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Trie                  
+
+strings                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/String_(computer_science)
+
+trie                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Trie                  
+
+in-memory                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/In-memory_database    
+
+data structure                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Data_structure        
+
+strings                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/String_(computer_science)
+
+trie                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Trie                  
+

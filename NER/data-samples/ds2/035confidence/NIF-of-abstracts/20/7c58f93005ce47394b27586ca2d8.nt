@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_78_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computer-aided translation" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer-assisted_translation> .
+
+<http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_142_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural languages" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994351413069891"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language> .
+
+<http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_0_316> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_0_316>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "316"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The history, state, and promise of the development of phraseological computer-aided translation of natural language texts into other natural languages is considered. This is described as the most promising way to overcome the barriers between countries and peoples and to achieve high-quality translations.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_108_124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "natural language" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988850688340065"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Natural_language> .
+
+<http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_63_77>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phraseological" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "77"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c58f93005ce47394b27586ca2d8#offset_0_316> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999586862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phraseology> .

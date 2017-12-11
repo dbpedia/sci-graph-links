@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_0_414> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_207_215>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequence" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999774332"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequence> .
+
+<http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_107_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "omega" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999993374516328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Omega> .
+
+<http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_44_49>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Borel" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "49"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9438040629072775"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Borel_set> .
+
+<http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_0_414>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "414"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove that the Katětov order on Borel ideals (1) contains a copy of 𝓟(ω)/Fin $\\\\mathcal {P}(\\\\omega )/\\\\mathbf {Fin}$, consequently it has increasing and decreasing chains of lenght 𝔟; (2) the sequence F i n α (α < ω 1) is a strictly increasing chain; and (3) in the Cohen model, Katětov order does not contain any increasing nor decreasing chain of length 𝔠, answering a question of Hrušák (2011).\n" .
+
+<http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_239_258>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strictly increasing" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "258"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/22b0d3f49021a881452a6d07a5f3#offset_0_414> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monotonic_function> .

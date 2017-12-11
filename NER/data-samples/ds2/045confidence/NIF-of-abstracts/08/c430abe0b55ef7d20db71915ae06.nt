@@ -1,0 +1,17 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c430abe0b55ef7d20db71915ae06#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c430abe0b55ef7d20db71915ae06#offset_0_835> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c430abe0b55ef7d20db71915ae06#offset_0_835>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "835"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In recent years, some approximate high-dimensional indexing techniques have shown promising results by trading off quality guarantees for improved query performance. While the query performance and quality of these methods has been well studied, however, the performance of index maintenance has not yet been reported in any detail. Here, we focus on the dynamic behavior of the balanced NV-tree, which is a disk-based approximate index for very large collections. We report on an initial study of the effects of several implementation choices for the balanced NV-tree, and show that with appropriate implementation, significant performance improvements are possible. Overall, the proposed techniques not only reduce maintenance cost, but can also improve search performance significantly with minimal loss of search quality.\n" .

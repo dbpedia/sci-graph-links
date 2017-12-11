@@ -1,0 +1,178 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_980_989>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "989"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1599_1609>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "video-game" ;
+        nif:beginIndex          "1599"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1609"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Video_game> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_946_963>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumer behavior" ;
+        nif:beginIndex          "946"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumer_behaviour> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_31_46>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "product markets" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "46"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999527394137887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relevant_market> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1151_1160>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "1151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999685343259"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_282_293>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "determinant" ;
+        nif:beginIndex          "282"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "293"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9888632950128075"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Determinant> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1617"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Firms in durable good product markets face incentives to intertemporally price discriminate, by setting high initial prices to sell to consumers with the highest willingness to pay, and cutting prices thereafter to appeal to those with lower willingness to pay. A critical determinant of the profitability of such pricing policies is the extent to which consumers anticipate future price declines, and delay purchases. I develop a framework to investigate empirically the optimal pricing over time of a firm selling a durable-good product to such strategic consumers. Prices in the model are equilibrium outcomes of a game played between forward-looking consumers who strategically delay purchases to avail of lower prices in the future, and a forward-looking firm that takes this consumer behavior into account in formulating its optimal pricing policy. The model outlines first, a dynamic model of demand incorporating forward-looking consumer behavior, and second, an algorithm to compute the optimal dynamic sequence of prices given these demand estimates. The model is solved using numerical dynamic programming techniques. I present an empirical application to the market for video-games in the US. The results indicate that consumer forward-looking behavior has a significant effect on optimal pricing of games in the industry. Simulations reveal that the profit losses of ignoring forward-looking behavior by consumers are large and economically significant, and suggest that market research that provides information regarding the extent of discounting by consumers is valuable to video-game firms.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_465_476>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirically" ;
+        nif:beginIndex          "465"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "476"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999974764107274"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_601_612>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999680119058604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Economic_equilibrium> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1106_1125>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamic programming" ;
+        nif:beginIndex          "1106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamic_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1210_1212>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "US" ;
+        nif:beginIndex          "1210"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Currency> ;
+        itsrdf:taConfidence     "0.9952107541820663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_dollar> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_790_807>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "consumer behavior" ;
+        nif:beginIndex          "790"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "807"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Consumer_behaviour> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_18_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "durable good" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Durable_good> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1021_1029>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequence" ;
+        nif:beginIndex          "1021"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1029"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9660016334385053"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sequence> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_82_100>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "price discriminate" ;
+        nif:beginIndex          "82"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Price_discrimination> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1191_1202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "video-games" ;
+        nif:beginIndex          "1191"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Video_game> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_1559_1570>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discounting" ;
+        nif:beginIndex          "1559"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1570"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/09b867cbc182ddaf198a5a377029#offset_0_1617> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999979442927254"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperbolic_discounting> .

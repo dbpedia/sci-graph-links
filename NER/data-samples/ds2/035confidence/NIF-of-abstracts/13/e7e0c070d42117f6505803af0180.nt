@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e7e0c070d42117f6505803af0180#offset_49_58>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "web-based" ;
+        nif:beginIndex          "49"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e7e0c070d42117f6505803af0180#offset_0_91> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6274285596066919"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Web_application> .
+
+<http://www.springernature.com/scigraph/things/articles/e7e0c070d42117f6505803af0180#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e7e0c070d42117f6505803af0180#offset_0_91> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e7e0c070d42117f6505803af0180#offset_0_91>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "91"^^xsd:nonNegativeInteger ;
+        nif:isString    "This paper presents the development process of a web-based educational environment, named \\" .

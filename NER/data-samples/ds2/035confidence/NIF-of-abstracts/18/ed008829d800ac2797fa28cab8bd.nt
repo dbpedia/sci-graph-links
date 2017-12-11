@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ed008829d800ac2797fa28cab8bd#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ed008829d800ac2797fa28cab8bd#offset_0_340> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ed008829d800ac2797fa28cab8bd#offset_196_212>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radiographically" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "212"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ed008829d800ac2797fa28cab8bd#offset_0_340> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9853210696755377"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radiography> .
+
+<http://www.springernature.com/scigraph/things/articles/ed008829d800ac2797fa28cab8bd#offset_0_340>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "340"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Based on 20 cases, and after a review of the technique, study of the results shows the disparity between the good results as experienced subjectively and the frequent failures as assessed radiographically. Despite its logical appearance, the operation cannot be recommended because it fails to produce sufficiently uniform results.\n" .

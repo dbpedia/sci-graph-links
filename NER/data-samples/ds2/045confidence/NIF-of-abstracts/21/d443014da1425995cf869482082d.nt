@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_0_424> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_342_351>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "342"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "351"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6591516916751282"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_13_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parity" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9990326071007778"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parity_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_0_424>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "424"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The parity of p(n), the ordinary partition function, has been studied for at least a century, yet it still remains something of a mystery. Although much work has been done, the known lower bounds for the number of even and odd values of p(n) for n ≤ N still appear to have a great deal of room for improvement. In this paper, we use classical methods to give a new lower bound for the number of odd values of p(n).\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_42_60>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "partition function" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "60"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9730035208437984"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partition_(number_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_139_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mystery" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d443014da1425995cf869482082d#offset_0_424> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9933823812084079"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mystery_fiction> .

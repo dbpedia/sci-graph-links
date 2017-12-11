@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_13_20>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physics" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_0_280> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996767306554869"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physics> .
+
+<http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_148_165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "constituent quark" ;
+        nif:beginIndex          "148"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_0_280> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constituent_quark> .
+
+<http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_24_38>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "exotic hadrons" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "38"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_0_280> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Exotic_hadron> .
+
+<http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_0_280> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/de5ea3fc3ae78d07291b89263342#offset_0_280>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "280"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The physics of exotic hadrons is revisited and reviewed, with emphasis on flavour configurations which have not yet been investigated. The constituent quark model of multiquark states is discussed in some detail, as it can serve as a guide for more elaborate approaches.\n" .

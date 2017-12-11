@@ -1,0 +1,108 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_234_247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971413606019972"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_169_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Econometrica" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AcademicJournal> , <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/WrittenWork> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/PeriodicalLiterature> ;
+        itsrdf:taConfidence     "0.9999999999710099"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Econometrica> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_406_414>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "406"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "414"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999916362867"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_708_721>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "708"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "721"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971413606019972"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_747_760>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "apportionment" ;
+        nif:beginIndex          "747"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "760"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8562620098038016"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Apportionment_(politics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "762"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper investigates the notion of changes in ambiguity over loss probabilities in the smooth ambiguity model developed by Klibanoff, Marinacci and Mukerji (Econometrica 73:1849–1892, 2005). Changes in ambiguity over loss probabilities are expressed through the specific concept of stochastic dominance of order n defined by Ekern (Econ Lett 6:329–333, 1980). We characterize conditions on the function capturing attitudes towards ambiguity under which an individual always considers one situation to be more ambiguous than another in a model of two states of nature. We propose an intuitive interpretation of the properties of this function in terms of preferences for harms disaggregation over probabilities, also labelled ambiguity apportionment.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_294_314>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic dominance" ;
+        nif:beginIndex          "294"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "314"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_dominance> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_78_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "78"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971413606019972"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_688_702>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "disaggregation" ;
+        nif:beginIndex          "688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "702"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aggregate_demand> .
+
+<http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_645_653>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "645"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "653"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5f5cbbed6c29382c2c64c28f55ec#offset_0_762> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999916362867"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .

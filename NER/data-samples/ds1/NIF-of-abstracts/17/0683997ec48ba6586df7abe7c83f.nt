@@ -1,0 +1,167 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_678_689>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "benchmarked" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999825157048577"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Benchmark_(computing)> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_899_908>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnitude" ;
+        nif:beginIndex          "899"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "908"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8879216811292069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_276_292>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "receptive fields" ;
+        nif:beginIndex          "276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "292"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Receptive_field> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_1201_1215>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human behavior" ;
+        nif:beginIndex          "1201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1215"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9884240539953478"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_behavior> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_999_1005>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "humans" ;
+        nif:beginIndex          "999"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1005"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9910659075676518"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1348"^^xsd:nonNegativeInteger ;
+        nif:isString    "Deep convolutional neural networks (DCNNs) have attracted much attention recently, and have shown to be able to recognize thousands of object categories in natural image databases. Their architecture is somewhat similar to that of the human visual system: both use restricted receptive fields, and a hierarchy of layers which progressively extract more and more abstracted features. Yet it is unknown whether DCNNs match human performance at the task of view-invariant object recognition, whether they make similar errors and use similar representations for this task, and whether the answers depend on the magnitude of the viewpoint variations. To investigate these issues, we benchmarked eight state-of-the-art DCNNs, the HMAX model, and a baseline shallow model and compared their results to those of humans with backward masking. Unlike in all previous DCNN studies, we carefully controlled the magnitude of the viewpoint variations to demonstrate that shallow nets can outperform deep nets and humans when variations are weak. When facing larger variations, however, more layers were needed to match human performance and error distributions, and to have representations that are consistent with human behavior. A very deep net with 18 layers even outperformed humans at the highest variation level, using the most human-like representations.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_300_309>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hierarchy" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "309"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999995555183283"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hierarchy> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_235_254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human visual system" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9629303453101196"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Visual_system> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_187_199>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997413674830672"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_architecture> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_825_832>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "masking" ;
+        nif:beginIndex          "825"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "832"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9630222000216273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mask> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_170_179>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "databases" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "179"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999265583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_804_810>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "humans" ;
+        nif:beginIndex          "804"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "810"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9910659075676518"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_469_487>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "object recognition" ;
+        nif:beginIndex          "469"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "487"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outline_of_object_recognition> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_5_34>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convolutional neural networks" ;
+        nif:beginIndex          "5"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Convolutional_neural_network> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_607_616>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnitude" ;
+        nif:beginIndex          "607"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8879216811292069"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_vector> .
+
+<http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_1266_1272>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "humans" ;
+        nif:beginIndex          "1266"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1272"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0683997ec48ba6586df7abe7c83f#offset_0_1348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9910659075676518"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human> .

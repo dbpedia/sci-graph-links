@@ -1,0 +1,101 @@
+Abstract Pricing of mortgages (loans for the purchase of residences, land or farms) is vital for the majority of transactions taking place in financial markets. In this article, a method for stabilization of mortgage price dynamics is developed. It is considered that mortgage prices follow a PDE model which is equivalent to a multi-asset Black–Scholes PDE. Actually it is a diffusion process evolving in a 2D assets space, where the first asset is the house price and the second asset is the interest rate. By applying semi-discretization and a finite differences scheme this multi-asset PDE is transformed into a state-space model consisting of ordinary nonlinear differential equations. For the local subsystems, into which the mortgage PDE is decomposed, it becomes possible to apply boundary-based feedback control. The control system’s design proceeds by showing that the state-space model of the mortgage price PDE stands for a differentially flat system. Next, for each subsystem which is related to a nonlinear ODE, a virtual control input is computed, that can invert the subsystem’s dynamics and can eliminate the subsystem’s tracking error. From the last row of the state-space description, the control input (boundary condition) that is actually applied to the multi-factor mortgage price PDE system is found. This control input contains recursively all virtual control inputs which were computed for the individual ODE subsystems associated with the previous rows of the state-space equation. Thus, by tracing the rows of the state-space model backwards, at each iteration of the control algorithm, one can finally obtain the control input that should be applied to the mortgage price PDE system so as to assure that all its state variables will converge to the desirable setpoints. By showing the feasibility of such a control method it is also proven that through selected modification of the PDE boundary conditions the price of the mortgage can be made to converge and stabilize at specific reference values.
+variables           0.999993829061109^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Variable_(mathematics)
+
+boundary condition            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Boundary_value_problem
+
+tracking error                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Tracking_error        
+
+nonlinear differential equations1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Nonlinear_system      
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+recursively                   0.9999999998256044^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Recursion             
+
+state-space                   0.9999999048727705^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/State_space_representation
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+virtual control               0.9999999987624051^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Virtual_Control       
+
+financial markets             0.999809218880725^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Financial_market      
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+finite differences            0.9977889912723188^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Finite_difference_method
+
+asset                         0.9999999999824922^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Asset                 
+
+ODE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Ordinary_differential_equation
+
+dynamics                      0.9999999999984084^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Dynamical_system      
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+Black–Scholes                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Black–Scholes         
+
+state-space model             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/State_space_representation
+
+loans                         0.992949549325431^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Loan                  
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+interest rate                 0.9995436957176199^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Interest_rate         
+
+virtual control               0.9999999987624051^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Virtual_Control       
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+state-space model             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/State_space_representation
+
+dynamics                      0.9999999999984084^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Dynamical_system      
+
+feedback control              0.980970804910458^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Control_theory        
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+2D                            0.9999485113762564^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Cartesian_coordinate_system
+
+state-space model             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/State_space_representation
+
+boundary conditions           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Boundary_value_problem
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+asset                         0.9999999999824922^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Asset                 
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+state-space                   0.9999999048727705^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/State_space_representation
+
+ODE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Ordinary_differential_equation
+
+mortgages                     0.9997656672260974^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+mortgage                      0.9992410500855333^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mortgage_loan         
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+PDE                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Partial_differential_equation
+
+reference values              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Reference_range       
+
+differential equations        0.9964823673399212^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Differential_equation 
+
+diffusion process             1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Diffusion_process     
+
+nonlinear                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Nonlinear_system      
+
+iteration                     0.998489058457224^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Dynamical_system      
+
+assets                        0.9999999999961346^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Asset                 
+
+setpoints                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Setpoint_(control_system)
+

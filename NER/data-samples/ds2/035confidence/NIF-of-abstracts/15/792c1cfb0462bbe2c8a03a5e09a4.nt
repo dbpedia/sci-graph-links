@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#offset_188_199>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labor force" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#offset_0_444> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.74291401842574"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Labor_force> .
+
+<http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#offset_0_444>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "444"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The standard efficient contract involving a monopolistic firm and a union has always been derived under the assumption that the firm operates efficiently, i.e., it fully uses its labor force. However, nothing constrains the firm to do so and production with underutilization of labor may occur. The implications of ignoring that possibility and the conditions under which underutilization effectively occurs are studied in this paper.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#offset_53_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monopolistic" ;
+        nif:beginIndex          "53"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#offset_0_444> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7220758919633748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monopoly> .
+
+<http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/792c1cfb0462bbe2c8a03a5e09a4#offset_0_444> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

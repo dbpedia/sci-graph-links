@@ -1,0 +1,55 @@
+Abstract XML documents contain substantial redundancy in their structure part, because each path from the root node to a leaf node is explicitly represented and typically large sets of such path instances belong to a path class, i.e., the nodes of the path instances are labeled by the same sequence of element (or attribute) names. To save storage space and I/O cost, we want to get rid of this structural redundancy to the extent possible. While all known methods for the physical representation (storage) of XML documents proceed from the root via the element/attribute hierarchy (internal nodes) down to the leaves (values), we follow an upside-down approach which explicitly stores the values and only reconstructs the internal nodes, if needed. The cornerstones for such a solution are suitable node labels and a path synopsis which efficiently represents all path classes of an XML document. As a solution, we propose a compact internal storage format for native XML database systems where the inner structure of the stored documents is virtualized. Because this elementless storage format provides an efficient reconstruction of a document using its path synopsis, all processing properties are preserved and the semantics of navigational and declarative operations of XML languages remains unchanged. Adjusted indexes support the full spectrum of so-called content-and-structure single path queries. Apart from greatly reduced storage consumption, our approach demonstrates its superiority, compared to competing methods, not only for a substantial fraction of those queries, but also for storing, reconstructing, and navigating XML documents.
+redundancy          0.6938195377540833^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Data_redundancy       
+
+sequence                      0.9999999999992042^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sequence              
+
+leaf node                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Tree_(data_structure) 
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+internal nodes                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Tree_(data_structure) 
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+root node                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Tree_(data_structure) 
+
+I/O                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Input/output          
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+compact                       0.998988465679026^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Compact_space         
+
+internal nodes                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Tree_(data_structure) 
+
+root                          0.5818983233789725^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Root                  
+
+virtualized                   0.9999854665493296^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Virtual_machine       
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+redundancy                    0.6938195377540833^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Data_redundancy       
+
+hierarchy                     0.9999999998401563^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Hierarchy             
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+spectrum                      0.7855166073647257^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Spectrum              
+
+single                        0.8991038790373928^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Single_(music)        
+
+node                          0.9992209979048059^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Tree_(data_structure) 
+
+consumption                   0.9914729572018535^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Consumption_(economics)
+
+database systems              0.9996081173846093^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Database              
+
+declarative                   0.9999999967322992^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Declarative_programming
+
+XML database                  1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML_database          
+
+leaves                        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Tree_(data_structure) 
+
+semantics                     0.9999891208182751^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Semantics             
+
+nodes                         0.999992428178547^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Node_(computer_science)
+

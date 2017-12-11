@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_106_113>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Tagalog" ;
+        nif:beginIndex          "106"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9920646257722253"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tagalog_language> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_13_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Philippines" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9998369349163448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philippines> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_65_72>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "English" ;
+        nif:beginIndex          "65"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Language> , <http://schema.org/Language> ;
+        itsrdf:taConfidence     "0.9997631737388725"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/English_language> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_31_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bilingual education" ;
+        nif:beginIndex          "31"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9958021099366408"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bilingual_education> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_85_104>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "indigenous language" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9967477086371824"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Indigenous_language> .
+
+<http://www.springernature.com/scigraph/things/articles/86f42e9b906a7b1ea2e426ba9983#offset_0_125>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "125"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The Philippines has a bilingual education policy, using English and a major indigenous language, Tagalog, renamed \\\n" .

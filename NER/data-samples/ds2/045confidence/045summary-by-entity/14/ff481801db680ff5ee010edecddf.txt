@@ -1,0 +1,45 @@
+Abstract If a given dynamical process contains an inherently unpredictable component, it may be modeled as a stochastic process. Typical examples from financial markets are the dynamics of prices (e.g. prices of stocks or commodities) or fundamental rates (exchange rates etc.). The unknown future value of the corresponding stochastic process is usually estimated as the expected value under a suitable measure, which may be determined from distribution of past (historical) values. The predictive power of this estimation is limited by the simplifying assumptions of common calibration methods. Here we propose a novel method of “intelligent” calibration, using learning (2-layer) neural networks in order to dynamically adapt the parameters of a stochastic model to the most recent time series of fixed length (memory depth) to the past. The process parameters are determined by the weights of the intermediate layer of the neural network. The final layer combines these parameters in a meaningful manner yielding the forecasting value for the stochastic process. On each actual finite memory, the neural network is trained by back-propagation, obtaining a much more flexible and realistic parameter calibration than an analogous fit to an autoregressive models could do. In the context of processes related to financial assets, the final combination of the output layer relates to their market-price-of-risk. The back propagation is limited to the typical memory length of the financial market (for example 10 previous business days). We demonstrate the learning efficiency of the new algorithm by tracking the next-day forecasts with one typical examples each, for the asset classes of currencies and stocks.
+neural network      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Artificial_neural_network
+
+dynamics                      0.9998684654279699^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Dynamical_system      
+
+calibration                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Calibration           
+
+memory                        0.9865385100389029^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Memory                
+
+stochastic process            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Stochastic_process    
+
+stochastic                    0.7042566698123636^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Stochastic_process    
+
+neural networks               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Artificial_neural_network
+
+stochastic process            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Stochastic_process    
+
+calibration                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Calibration           
+
+financial markets             0.999999920121471^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Financial_market      
+
+memory                        0.9865385100389029^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Memory                
+
+exchange rates                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Exchange_rate         
+
+back-propagation              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Backpropagation       
+
+forecasting                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Forecasting           
+
+autoregressive models         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Autoregressive_model  
+
+algorithm                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+asset classes                 0.9995897486572688^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Asset_allocation      
+
+stochastic process            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Stochastic_process    
+
+neural network                1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Artificial_neural_network
+
+time series                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Time_series           
+
+memory                        0.9865385100389029^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Memory                
+
+calibration                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Calibration           
+

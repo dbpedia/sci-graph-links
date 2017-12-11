@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_79_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ventilation" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9825944687838413"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ventilation_(architecture)> .
+
+<http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_0_252>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "252"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper is a response to the paper “Comments on the paper ‘Outdoor ventilation performance of various configurations of a layout of two adjacent buildings under isothermal conditions’ (by Ayo et al. (2015), Building Simulation, 8: 81–98)”.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_200_203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ayo" ;
+        nif:beginIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.933141034958207"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ayọ> .
+
+<http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_173_194>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isothermal conditions" ;
+        nif:beginIndex          "173"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isothermal_process> .
+
+<http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4d65716a2fbdea0dc2218154f44a#offset_0_252> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

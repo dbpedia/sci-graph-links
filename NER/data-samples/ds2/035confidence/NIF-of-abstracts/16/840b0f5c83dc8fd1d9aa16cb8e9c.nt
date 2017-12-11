@@ -1,0 +1,48 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_155_165>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_0_250> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997505027474188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_63_71>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "paradigm" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_0_250> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941407543947518"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Paradigm> .
+
+<http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_0_250>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "250"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The study undertakes to explain the kuhnian notion of paradigm, in order to work out the methodological frame of re-construction of the theory of literature. It introduces the notion of legitimising community, which, according to the study\\\n" .
+
+<http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_45_52>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "kuhnian" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_0_250> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Philosopher> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thomas_Kuhn> .
+
+<http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/840b0f5c83dc8fd1d9aa16cb8e9c#offset_0_250> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

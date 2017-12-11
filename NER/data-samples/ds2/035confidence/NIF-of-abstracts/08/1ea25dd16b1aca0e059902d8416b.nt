@@ -1,0 +1,137 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_287_303>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service provider" ;
+        nif:beginIndex          "287"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "303"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8613914476787474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_as_a_service> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_1182_1202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data confidentiality" ;
+        nif:beginIndex          "1182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Confidentiality> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_155_163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hardware" ;
+        nif:beginIndex          "155"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998135536"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_hardware> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_707_715>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "datasets" ;
+        nif:beginIndex          "707"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_set> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1402"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Cloud computing services enable organizations and individuals to outsource the management of their data to a service provider in order to save on hardware investments and reduce maintenance costs. Only authorized users are allowed to access the data. Nobody else, including the service provider, should be able to view the data. For instance, a real-estate company that owns a large database of properties wants to allow its paying customers to query for houses according to location. On the other hand, the untrusted service provider should not be able to learn the property locations and, e.g., selling the information to a competitor. To tackle the problem, we propose to transform the location datasets before uploading them to the service provider. The paper develops a spatial transformation that re-distributes the locations in space, and it also proposes a cryptographic-based transformation. The data owner selects the transformation key and shares it with authorized users. Without the key, it is infeasible to reconstruct the original data points from the transformed points. The proposed transformations present distinct trade-offs between query efficiency and data confidentiality. In addition, we describe attack models for studying the security properties of the transformations. Empirical studies demonstrate that the proposed methods are efficient and applicable in practice.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_9_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Cloud computing" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cloud_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_745_761>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service provider" ;
+        nif:beginIndex          "745"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8613914476787474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_as_a_service> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_650_656>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tackle" ;
+        nif:beginIndex          "650"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "656"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8108169942114517"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fishing_tackle> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_118_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service provider" ;
+        nif:beginIndex          "118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8613914476787474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_as_a_service> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_74_83>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "outsource" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999557252305"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Outsourcing> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_354_365>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "real-estate" ;
+        nif:beginIndex          "354"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "365"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997785394454084"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Real_estate> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_527_543>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "service provider" ;
+        nif:beginIndex          "527"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8613914476787474"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Software_as_a_service> .
+
+<http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_392_400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "database" ;
+        nif:beginIndex          "392"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1ea25dd16b1aca0e059902d8416b#offset_0_1402> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999765765098"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .

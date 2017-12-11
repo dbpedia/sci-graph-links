@@ -1,0 +1,39 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#offset_20_24>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Xala" ;
+        nif:beginIndex          "20"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#offset_0_68> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/Film> , <http://schema.org/CreativeWork> , <http://schema.org/Movie> ;
+        itsrdf:taConfidence     "0.5024960332473845"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Xala> .
+
+<http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#offset_0_68> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#offset_28_43>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Sembène Ousmane" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "43"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#offset_0_68> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Actor> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://fr.dbpedia.org/resource/Ousmane_Sembène> .
+
+<http://www.springernature.com/scigraph/things/articles/e406a24e21f3d4c9af7cb7b6a184#offset_0_68>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "68"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Les romans Xala de Sembène Ousmane et La grève des Bàttu d\\" .

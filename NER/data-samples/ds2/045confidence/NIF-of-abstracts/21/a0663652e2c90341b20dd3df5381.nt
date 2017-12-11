@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_0_359> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_302_328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "squared Euclidean distance" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_distance> .
+
+<http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_30_36>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "matrix" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999982330735"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Matrix_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_107_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euclidean" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9523416047637125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_distance> .
+
+<http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_64_79>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Euclidean space" ;
+        nif:beginIndex          "64"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_0_359> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999571777630787"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Euclidean_space> .
+
+<http://www.springernature.com/scigraph/things/articles/a0663652e2c90341b20dd3df5381#offset_0_359>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "359"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract When a dissimilarity matrix cannot be represented in a Euclidean space, it is possible to make it Euclidean by means of suitable transformations of the original dissimilarity values. In this paper we discuss some interesting properties of a class of transformations based on adding a specific squared Euclidean distance to the initial dissimilarity.\n" .

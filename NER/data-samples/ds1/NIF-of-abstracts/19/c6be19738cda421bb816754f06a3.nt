@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "360"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The imagining of a remembrance, itself in the process of being forgotten, Kafka’s Josefine provides a fleeting glimpse into the artists who create her. Both simple and complex, an artist and no artist at all, she is also a distilled reflection of the text in which she is contained — a critical commentary/self-critical fiction, on the nature of art.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_83_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Kafka" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> ;
+        itsrdf:taConfidence     "0.999982166135601"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Franz_Kafka> .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_242_252>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reflection" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "252"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.46782128091575903"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reflection_(computer_programming)> .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_329_336>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fiction" ;
+        nif:beginIndex          "329"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999493623479597"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fiction> .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_232_241>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "distilled" ;
+        nif:beginIndex          "232"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "241"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9953301791354356"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Distillation> .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_355_358>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "art" ;
+        nif:beginIndex          "355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "358"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9969545925281987"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Art> .
+
+<http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c6be19738cda421bb816754f06a3#offset_0_360> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_176_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polar" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.42247300746792754"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polar_coordinate_system> .
+
+<http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_0_298> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_88_94>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "94"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7223842404421958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_geometry> .
+
+<http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_182_190>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subspace" ;
+        nif:beginIndex          "182"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "190"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_0_298> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995026768657392"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_subspace> .
+
+<http://www.springernature.com/scigraph/things/articles/bbab4d677baaf1bd1af10112bb41#offset_0_298>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "298"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present an axiomsystem for almost (all) point-line geometries associated to finite buildings (where the j-varieties, for certain j, are called points) containing a polar subspace of rank at least three (see list in addition), and we develop methods of construction to attain that goal.\n" .

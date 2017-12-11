@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#offset_0_224>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "224"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This is the keynote address at the annual Computational Analysis of Social and Organizational Systems Conference, July 2000. In this keynote, the nature of organizations and markets as complex systems is discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#offset_194_209>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "complex systems" ;
+        nif:beginIndex          "194"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#offset_0_224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6774519659182838"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Complex_systems> .
+
+<http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#offset_0_224> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#offset_21_36>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "keynote address" ;
+        nif:beginIndex          "21"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "36"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a54f70047548aa76bd0d9b4506c9#offset_0_224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993512894686539"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Keynote> .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_87_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "compound nucleus" ;
+        nif:beginIndex          "87"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nuclear_reaction> .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_246_256>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonances" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9454437721314454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_281_289>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "isotopes" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "289"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999963829902798"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isotope> .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "291"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Contradictory data on the observation of Gamow–Teller resonances in the 118Sb compound nucleus are discussed along with the available interpretation of these data and planned experimental and theoretical investigations into Gamow–Teller resonances in a number of antimony isotopes.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_63_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "resonances" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9454437721314454"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Resonance> .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_272_280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "antimony" ;
+        nif:beginIndex          "272"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999828878056726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Antimony> .
+
+<http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4e2739437c7769b533a25284299c#offset_0_291> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

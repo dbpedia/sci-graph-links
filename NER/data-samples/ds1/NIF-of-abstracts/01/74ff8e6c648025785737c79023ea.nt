@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_0_387> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_63_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "second-order approximation" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Orders_of_approximation> .
+
+<http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_201_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "201"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999985548129"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_111_123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Banach space" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_0_387> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Banach_space> .
+
+<http://www.springernature.com/scigraph/things/articles/74ff8e6c648025785737c79023ea#offset_0_387>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "387"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A purely implicit three-layer semi-discrete scheme of second-order approximation is considered in the Banach space. The three-layer semi-discrete scheme is reduced by means of the disturbance algorithm to two two-layer schemes. Using the solutions of these schemes, we construct an approximate solution of the initial problem. The stability of the constructed scheme is proved.\n" .

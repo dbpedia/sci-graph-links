@@ -1,0 +1,41 @@
+Abstract Given a time series of intra-day tick-by-tick price data, how can realized variance be estimated? The obvious estimator—the sum of squared returns between trades—is biased by microstructure effects such as bid–ask bounce and so in the past, practitioners were advised to drop most of the data and sample at most every five minutes or so. Recently, however, numerous alternative estimators have been developed that make more efficient use of the available data and improve substantially over those based on sparsely sampled returns. Yet, from a practical viewpoint, the choice of which particular estimator to use is not a trivial one because the study of their relative merits has primarily focused on the speed of convergence to their asymptotic distributions, which in itself is not necessarily a reliable guide to finite sample performance (especially when the assumptions on the price or noise process are violated). In this paper we compare a comprehensive set of nineteen realized variance estimators using simulated data from an artificial “zero-intelligence” market that has been shown to mimic some key properties of actual markets. In evaluating the competing estimators, we concentrate on efficiency but also pay attention to implementation, practicality, and robustness. One of our key findings is that for scenarios frequently encountered in practice, the best variance estimator is not always the one suggested by theory. In fact, an ad hoc implementation of a subsampling estimator, realized kernel, or maximum likelihood realized variance, delivers the best overall result. We make firm practical recommendations on choosing and implementing a realized variance estimator, as well as data sampling.
+variance            0.99999999995282^^http://www.w3.org/2001/XMLSchema#double             http://dbpedia.org/resource/Variance              
+
+variance                      0.99999999995282^^http://www.w3.org/2001/XMLSchema#double             http://dbpedia.org/resource/Variance              
+
+time series                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Time_series           
+
+estimators                    0.9999999963267783^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+
+estimators                    0.9999999963267783^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+
+maximum likelihood            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Maximum_likelihood    
+
+estimators                    0.9999999963267783^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+
+variance                      0.99999999995282^^http://www.w3.org/2001/XMLSchema#double             http://dbpedia.org/resource/Variance              
+
+asymptotic                    0.7661598096195646^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Asymptote             
+
+ad hoc                        0.9999972641038448^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Ad_hoc                
+
+subsampling                   1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Sampling_(statistics) 
+
+estimator                     0.9999999614825591^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+
+realized kernel               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Realized_kernel       
+
+variance                      0.99999999995282^^http://www.w3.org/2001/XMLSchema#double             http://dbpedia.org/resource/Variance              
+
+microstructure                0.9998672940724019^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Microstructure        
+
+variance                      0.99999999995282^^http://www.w3.org/2001/XMLSchema#double             http://dbpedia.org/resource/Variance              
+
+estimator                     0.9999999614825591^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+
+estimator                     0.9999999614825591^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+
+convergence                   0.9719974838377644^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Convergence_of_random_variables
+
+estimator                     0.9999999614825591^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Estimator             
+

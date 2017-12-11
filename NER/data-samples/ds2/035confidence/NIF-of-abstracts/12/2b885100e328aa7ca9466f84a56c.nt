@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_0_491> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_0_491>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "491"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper draws from the findings of published empirical studies and observations of the impacts of rapid transit systems on urban development. Analysis is based on comparisons of impact findings by different researchers and for different cities. An initial set of key issues is proposed, against which available information is arrayed and compared. It is concluded that rapid transit can have substantial growth-focusing impacts, but only if other supporting factors are present.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_57_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_0_491> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.590463832922443"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_116_123>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "116"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "123"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_0_491> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9738862741972646"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_135_152>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban development" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_0_491> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8997895575841186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_387_394>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transit" ;
+        nif:beginIndex          "387"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2b885100e328aa7ca9466f84a56c#offset_0_491> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9738862739215767"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .

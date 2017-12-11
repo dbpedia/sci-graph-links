@@ -1,0 +1,733 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_529_538>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inorganic" ;
+        nif:beginIndex          "529"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "538"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995395436356422"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inorganic_compound> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1619_1621>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "1619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1621"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_122_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantification" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.737572288629304"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Level_of_measurement> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1118_1120>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "1118"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2763"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Nitrogen (N) retention by tree canopies is believed to be an important process for tree nutrient uptake, and its quantification is a key issue in determining the impact of atmospheric N deposition on forest ecosystems. Due to dry deposition and retention by other canopy elements, the actual uptake and assimilation by the tree canopy is often obscured in throughfall studies. In this study, 15N-labeled solutions ($$ ^{15} {\\\\text{NH}}_{4}^{ + } $$ and $$ ^{15} {\\\\text{NO}}_{3}^{ - } $$) were used to assess dissolved inorganic N retention by leaves/needles and twigs of European beech, pedunculate oak, silver birch, and Scots pine saplings. The effects of N form, tree species, leaf phenology, and applied $$ {\\\\text{NO}}_{3}^{ - } $$ to $$ {\\\\text{NH}}_{4}^{ + } $$ ratio on the N retention were assessed. Retention patterns were mainly determined by foliar uptake, except for Scots pine. In twigs, a small but significant 15N enrichment was detected for $$ {\\\\text{NH}}_{4}^{ + } $$, which was found to be mainly due to physicochemical adsorption to the woody plant surface. The mean $$ {{^{15} {\\\\text{NH}}_{4}^{ + } } \\\\mathord{\\\\left/ {\\\\vphantom {{^{15} {\\\\text{NH}}_{4}^{ + } } {^{15} {\\\\text{NO}}_{3}^{ - } }}} \\\\right. \\\\kern-\\\\nulldelimiterspace} {^{15} {\\\\text{NO}}_{3}^{ - } }} $$ retention ratio varied considerably among species and phenological stadia, which indicates that the use of a fixed ratio in the canopy budget model could lead to an over- or underestimation of the total N retention. In addition, throughfall water under each branch was collected and analyzed for $$ ^{15} {\\\\text{NH}}_{4}^{ + } $$, $$ ^{15} {\\\\text{NO}}_{3}^{ - } $$, and all major ions. Net throughfall of $$ ^{15} {\\\\text{NH}}_{4}^{ + } $$ was, on average, 20 times higher than the actual retention of $$ ^{15} {\\\\text{NH}}_{4}^{ + } $$ by the plant material. This difference in $$ ^{15} {\\\\text{NH}}_{4}^{ + } $$ retention could not be attributed to pools and fluxes measured in this study. The retention of $$ ^{15} {\\\\text{NH}}_{4}^{ + } $$ was correlated with the net throughfall of K+, Mg2+, Ca2+, and weak acids during leaf development and the fully leafed period, while no significant relationships were found for $$ ^{15} {\\\\text{NO}}_{3}^{ - } $$ retention. This suggests that the main driving factors for $$ {\\\\text{NH}}_{4}^{ + } $$ retention might be ion exchange processes during the start and middle of the growing season and passive diffusion at leaf senescence. Actual assimilation or abiotic uptake of N through leaves and twigs was small in this study, for example, 1–5% of the applied dissolved 15N, indicating that the impact of canopy N retention from wet deposition on forest productivity and carbon sequestration is likely limited.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1035_1050>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "physicochemical" ;
+        nif:beginIndex          "1035"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1050"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Physical_chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1069_1080>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "woody plant" ;
+        nif:beginIndex          "1069"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1080"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Woody_plant> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_92_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tree" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1688_1692>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ions" ;
+        nif:beginIndex          "1688"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1692"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1360_1372>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenological" ;
+        nif:beginIndex          "1360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1372"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenology> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_365_376>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "throughfall" ;
+        nif:beginIndex          "365"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "376"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Throughfall> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_195_205>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "deposition" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "205"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999742263402812"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deposition_(aerosol_physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_554_560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaves" ;
+        nif:beginIndex          "554"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999954525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1698_1709>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "throughfall" ;
+        nif:beginIndex          "1698"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1709"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Throughfall> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_891_901>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Scots pine" ;
+        nif:beginIndex          "891"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "901"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Conifer> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scots_Pine> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_582_596>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "European beech" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "596"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fagus_sylvatica> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1434_1440>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "1434"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1440"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_598_613>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "pedunculate oak" ;
+        nif:beginIndex          "598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "613"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quercus_robur> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2105_2109>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Ca2+" ;
+        nif:beginIndex          "2105"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2109"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Calcium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2706_2718>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "productivity" ;
+        nif:beginIndex          "2706"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2718"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999995814051"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Primary_production> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_441_443>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "441"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "443"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1827_1829>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "1827"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1829"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1535_1546>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "throughfall" ;
+        nif:beginIndex          "1535"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1546"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Throughfall> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2429_2443>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "growing season" ;
+        nif:beginIndex          "2429"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2443"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999996421138"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Growing_season> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1547_1552>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "water" ;
+        nif:beginIndex          "1547"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1552"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Water> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2034_2036>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "2034"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2469_2473>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaf" ;
+        nif:beginIndex          "2469"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2473"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999106421"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2723_2743>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carbon sequestration" ;
+        nif:beginIndex          "2723"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2743"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9772847670391528"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carbon_sequestration> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2133_2137>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaf" ;
+        nif:beginIndex          "2133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2137"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999106421"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_762_764>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "762"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "764"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1348_1355>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "1348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1355"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9961791540629604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiversity> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_937_940>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "15N" ;
+        nif:beginIndex          "937"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "940"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isotopes_of_nitrogen> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2115_2125>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weak acids" ;
+        nif:beginIndex          "2115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2125"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acid_strength> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2371_2383>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ion exchange" ;
+        nif:beginIndex          "2371"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2383"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ion_exchange> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_312_324>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "assimilation" ;
+        nif:beginIndex          "312"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "324"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6061311482251398"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cultural_assimilation> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_980_982>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "980"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "982"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_682_689>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "682"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "689"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9961791540629604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiversity> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1969_1975>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fluxes" ;
+        nif:beginIndex          "1969"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1975"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999997696932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flux> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_235_249>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dry deposition" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deposition_(aerosol_physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2681_2695>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "wet deposition" ;
+        nif:beginIndex          "2681"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Deposition_(aerosol_physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2448_2465>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "passive diffusion" ;
+        nif:beginIndex          "2448"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2465"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Passive_transport> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_273_279>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "273"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1373_1379>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stadia" ;
+        nif:beginIndex          "1373"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1379"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9985786858495064"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stadion_(unit_of_length)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2622_2625>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "15N" ;
+        nif:beginIndex          "2622"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Isotopes_of_nitrogen> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1730_1732>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "1730"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1732"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_691_695>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaf" ;
+        nif:beginIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999106421"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_35_48>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tree canopies" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "48"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_209_226>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forest ecosystems" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "226"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forest_ecology> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_644_652>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "saplings" ;
+        nif:beginIndex          "644"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2509_2516>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abiotic" ;
+        nif:beginIndex          "2509"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2516"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9971988399616848"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abiotic_component> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_9_17>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Nitrogen" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "17"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nitrogen> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2657_2663>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canopy" ;
+        nif:beginIndex          "2657"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2493_2505>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "assimilation" ;
+        nif:beginIndex          "2493"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2505"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6061311482251398"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cultural_assimilation> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2537_2543>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "leaves" ;
+        nif:beginIndex          "2537"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999954525"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1181_1183>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "1181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1183"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2095_2097>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "K+" ;
+        nif:beginIndex          "2095"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potassium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1051_1061>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "adsorption" ;
+        nif:beginIndex          "1051"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1061"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999993179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adsorption> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_865_871>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foliar" ;
+        nif:beginIndex          "865"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "871"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Leaf> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_696_705>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "phenology" ;
+        nif:beginIndex          "696"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "705"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Phenology> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_97_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nutrient" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nutrient> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1243_1247>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kern" ;
+        nif:beginIndex          "1243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1247"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999996733095"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kerning> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2099_2103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mg2+" ;
+        nif:beginIndex          "2099"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnesium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2474_2484>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "senescence" ;
+        nif:beginIndex          "2474"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2484"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Senescence> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_677_681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tree" ;
+        nif:beginIndex          "677"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1852_1857>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plant" ;
+        nif:beginIndex          "1852"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1857"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8995120070195568"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/C4_carbon_fixation> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_615_627>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "silver birch" ;
+        nif:beginIndex          "615"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "627"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Betula_pendula> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_332_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "tree canopy" ;
+        nif:beginIndex          "332"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canopy_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_1904_1906>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "1904"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1906"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalSubstance> , <http://dbpedia.org/ontology/ChemicalCompound> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_633_643>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Scots pine" ;
+        nif:beginIndex          "633"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Conifer> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Plant> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scots_Pine> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2334_2336>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "NH" ;
+        nif:beginIndex          "2334"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/ChemicalCompound> , <http://dbpedia.org/ontology/ChemicalSubstance> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ammonium> .
+
+<http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_2080_2091>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "throughfall" ;
+        nif:beginIndex          "2080"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2091"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/c1c2fd45339e7521648d9285de61#offset_0_2763> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Throughfall> .

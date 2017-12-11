@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_9_13>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "G.E." ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "13"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Device> , <http://dbpedia.org/ontology/InformationAppliance> ;
+        itsrdf:taConfidence     "0.9999998691380455"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/General_Electric> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_824_833>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "predicate" ;
+        nif:beginIndex          "824"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "833"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999864561303604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Predicate_(grammar)> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_1176_1181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "moral" ;
+        nif:beginIndex          "1176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9663830977331186"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Morality> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_630_636>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "causal" ;
+        nif:beginIndex          "630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "636"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Causality> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_424_439>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interdependence" ;
+        nif:beginIndex          "424"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "439"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interdependence> .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1222"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract G.E. Moore's theory of the nature of the quality referred to by the word “good” asserts that this quality is non-natural. If it is, further, supposed that this non-natural quality belongs necessarily and exclusively to those events, human acts, entities, etc., which possess certain strictly determined natural qualities, and those qualities only, then it becomes difficult to explain the relation and the supposed interdependence allegedly existing between the two so disparate categories of qualities. This paper purports to show that, in fact, any mutual dependence of natural and non-natural qualities, including the causal one, is unconceivable. To deny this would allow no less but the possibility of deriving an “ought” from an “is”. A final consequence of this is that a non-natural quality, denoted by the predicate “good”, does, in fact, attach to a strictly delineated and limited morally relevant behaviour (and whatever else we may consider morally relevant), and to it only. But it is attached there in randomly; it is contingent, not inherent; it is there without regard to, and not as a consequence of, the natural qualities of what is the subject of moral judgment ... whether we like it or not.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_560_577>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mutual dependence" ;
+        nif:beginIndex          "560"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "577"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f61ac6538dad27fe9f06b578fed7#offset_0_1222> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symbiosis> .

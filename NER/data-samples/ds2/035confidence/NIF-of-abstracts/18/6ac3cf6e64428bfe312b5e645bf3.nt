@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_0_429> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_163_176>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "federal court" ;
+        nif:beginIndex          "163"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8390760183758157"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_district_court> .
+
+<http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_366_387>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "performance appraisal" ;
+        nif:beginIndex          "366"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "387"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Performance_appraisal> .
+
+<http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_189_211>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "performance appraisals" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "211"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_0_429> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Performance_appraisal> .
+
+<http://www.springernature.com/scigraph/things/articles/6ac3cf6e64428bfe312b5e645bf3#offset_0_429>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "429"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Performance appraisals have been reviewed by courts when there is an allegation they were used in a discriminatory manner. This article evaluates several federal court cases where performance appraisals were at issue. This analysis leads to the conclusion that courts give very little direction to employers and employees as to whether a particular type of performance appraisal system will withstand judicial scrutiny.\n" .

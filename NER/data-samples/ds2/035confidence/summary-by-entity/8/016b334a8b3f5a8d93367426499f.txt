@@ -1,0 +1,41 @@
+Abstract Keyword search over XML data has attracted a lot of research efforts in the last decade, where one of the fundamental research problems is how to efficiently answer a given keyword query w.r.t. a certain query semantics. We found that the key factor resulting in the inefficiency for existing methods is that they all heavily suffer from the common-ancestor-repetition problem. In this paper, we propose a novel form of inverted list, namely the IDList; the IDList for keyword $$k$$ consists of ordered nodes that directly or indirectly contain $$k$$. We then show that finding keyword query results based on the smallest lowest common ancestor and exclusive lowest common ancestor semantics can be reduced to ordered set intersection problem, which has been heavily optimized due to its application in areas such as information retrieval and database systems. We propose several algorithms that exploit set intersection in different directions and with or without using additional indexes. We further propose several algorithms that are based on hash search to simplify the operation of finding common nodes from all involved IDLists. We have conducted an extensive set of experiments using many state-of-the-art algorithms and several large-scale datasets. The results demonstrate that our proposed methods outperform existing methods by up to two orders of magnitude in many cases.
+algorithms          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+nodes                         0.9978092074681157^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Node_(computer_science)
+
+set intersection              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Intersection_(set_theory)
+
+inverted list                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Inverted_index        
+
+lowest common ancestor        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Lowest_common_ancestor
+
+keyword                       0.8042275944566094^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Index_term            
+
+hash                          0.9965882756114044^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Hash_table            
+
+keyword                       0.8042275944566094^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Index_term            
+
+keyword                       0.8042275944566094^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Index_term            
+
+database systems              0.9999798219802982^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Database              
+
+algorithms                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+lowest common ancestor        1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Lowest_common_ancestor
+
+algorithms                    1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Algorithm             
+
+nodes                         0.9978092074681157^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Node_(computer_science)
+
+set intersection              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Intersection_(set_theory)
+
+semantics                     0.989124551183491^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Semantics             
+
+datasets                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Data_set              
+
+semantics                     0.989124551183491^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Semantics             
+
+magnitude                     0.9999995312773496^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+XML                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+

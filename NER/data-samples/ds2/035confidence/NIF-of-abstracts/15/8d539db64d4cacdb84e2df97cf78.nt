@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_397_411>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logit analysis" ;
+        nif:beginIndex          "397"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "411"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_0_457> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logit_analysis_in_marketing> .
+
+<http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_99_104>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Dutch" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_0_457> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://dbpedia.org/ontology/Country> , <http://schema.org/Country> ;
+        itsrdf:taConfidence     "0.9672617453378284"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Netherlands> .
+
+<http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_0_457>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "457"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Derksen's study, which was published in 1975, is the first multiple regression analysis of Dutch data on the labour force participation of married women. After commenting on the theoretical model used by Derksen, this article has challenged his estimation procedures. It is shown that in the case under consideration weighted least squares is to be preferred to ordinary least squares and logit analysis seems to be an even more appropriate method.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_67_86>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "multiple regression" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "86"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_0_457> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_regression> .
+
+<http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_117_129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "labour force" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_0_457> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6177385620153631"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Labour_economics> .
+
+<http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8d539db64d4cacdb84e2df97cf78#offset_0_457> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

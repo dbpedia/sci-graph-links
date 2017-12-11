@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_169_176>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ordinal" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "176"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981586855041"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Level_of_measurement> .
+
+<http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_0_438>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "438"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Tukey's scheme for finding separations in univariate data strings is described and tested. It is found that one can use the size of a data gap coupled with its ordinal position in the distribution to determine the likelihood of its having arisen by chance. It was also shown that this scheme is relatively robust for fatter-tailed-than-Gaussian distributions and has some interesting implications in multidimensional situations.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_51_61>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "univariate" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "61"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999895392569748"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Univariate> .
+
+<http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_0_438> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_9_14>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Tukey" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "14"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999999848555491"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/John_Tukey> .
+
+<http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_67_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "strings" ;
+        nif:beginIndex          "67"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8551a4fec862e0f4526c150cf47e#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9904780676207916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/String_(computer_science)> .

@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#offset_0_452> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#offset_364_368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "loop" ;
+        nif:beginIndex          "364"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9711016954678958"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Control_flow> .
+
+<http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#offset_187_191>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "slip" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "191"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#offset_0_452> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9918302164334738"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Slip_(materials_science)> .
+
+<http://www.springernature.com/scigraph/things/articles/5c19ae3db02026a93dd4949c4b88#offset_0_452>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "452"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Simulation has given statistical relationships for the early stage of slip-band development. Dislocation multiplication is considered within the framework of a double transverse slip model. There is a relationship between the number of loops at the surface and that within the crystal. A method is given for determining the times for source formation and loop generation, and numerical estimates are made from the published experimental data.\n" .

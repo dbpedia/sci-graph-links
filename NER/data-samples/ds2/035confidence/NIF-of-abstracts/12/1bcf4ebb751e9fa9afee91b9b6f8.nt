@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_83_93>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weak sense" ;
+        nif:beginIndex          "83"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "93"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_0_276> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7632990274159862"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weak_solution> .
+
+<http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_150_159>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polyhedra" ;
+        nif:beginIndex          "150"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "159"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_0_276> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9887724568031353"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polyhedron> .
+
+<http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_0_276> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_192_198>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Gromov" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_0_276> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mikhail_Leonidovich_Gromov> .
+
+<http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_58_75>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hyperbolic groups" ;
+        nif:beginIndex          "58"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "75"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_0_276> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hyperbolic_group> .
+
+<http://www.springernature.com/scigraph/things/articles/1bcf4ebb751e9fa9afee91b9b6f8#offset_0_276>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "276"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We present a new class of examples of relatively hyperbolic groups in the weak sense. We use the construction of relative hyperbolization of polyhedra the idea of which comes from M. Gromov but technically was elaborated by R. Charney, M. Davis and T. Januszkiewicz.\n" .

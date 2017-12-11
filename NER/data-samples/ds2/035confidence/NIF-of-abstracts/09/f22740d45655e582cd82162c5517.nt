@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_109_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mode I" ;
+        nif:beginIndex          "109"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fracture_mechanics> .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "528"^^xsd:nonNegativeInteger ;
+        nif:isString    "This paper considers the basic principles of the most widespread methods for determining typical states of a mode I through crack in specimens and structures of sheet metals that are fractured under conditions close to the plane stress state. The results of experimental investigations are presented which make it possible to judge of the relative advantages and disadvantages of these methods from the standpoint of their possible use in engineering assessments of the integrity and remaining strength of thin-wall structures.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_223_235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plane stress" ;
+        nif:beginIndex          "223"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Plane_stress> .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_124_129>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "crack" ;
+        nif:beginIndex          "124"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "129"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999991979962"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fracture> .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_326_331>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "judge" ;
+        nif:beginIndex          "326"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993938189121332"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Judge> .
+
+<http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_161_173>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sheet metals" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f22740d45655e582cd82162c5517#offset_0_528> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sheet_metal> .

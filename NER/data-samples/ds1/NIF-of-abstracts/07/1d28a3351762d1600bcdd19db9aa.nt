@@ -1,0 +1,375 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1003_1009>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "fungal" ;
+        nif:beginIndex          "1003"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1009"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Fungus> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999999857319609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1010_1025>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "allelochemicals" ;
+        nif:beginIndex          "1010"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1025"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999789142751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Allelopathy> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_566_575>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemicals" ;
+        nif:beginIndex          "566"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "575"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9549008091605842"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pesticide> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_553_565>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-volatile" ;
+        nif:beginIndex          "553"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "565"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9994041778603172"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatility_(chemistry)> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_401_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insects" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999946023707633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_504_514>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "literature" ;
+        nif:beginIndex          "504"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999997739843394"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Literature> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1403"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Interactions between insects and fungi are widespread, and important mediators of these interactions are fungal chemicals that can therefore be considered as allelochemicals. Numerous studies suggest that fungal chemicals can affect insects in many different ways. Here, we apply the terminology established by insect-plant ecologists for categorizing the effect of fungal allelochemicals on insects and for evaluating the application potential of these chemicals in insect pest management. Our literature survey shows that fungal volatile and non-volatile chemicals have an enormous potential to influence insect behavior and fitness. Many of them still remain to be discovered, but some recent examples of repellents and toxins could open up new ways for developing safe insect control strategies. However, we also identified shortcomings in our understanding of the chemical ecology of insect-fungus interactions and the way they have been investigated. In particular, the mode-of-action of fungal allelochemicals has often not been appropriately designated or examined, and the way in which induction by insects affects fungal chemical diversity is poorly understood. This review should raise awareness that in-depth ecological studies of insect-fungus interactions can reveal novel allelochemicals of particular benefit for the development of innovative insect pest management strategies.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_333_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecologists" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999990905"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecology> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1133_1139>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fungal" ;
+        nif:beginIndex          "1133"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1139"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Fungus> ;
+        itsrdf:taConfidence     "0.9999999857319609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_533_539>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fungal" ;
+        nif:beginIndex          "533"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "539"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Fungus> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999999857319609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_242_249>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insects" ;
+        nif:beginIndex          "242"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999946023707633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_121_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemicals" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9549008091605842"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pesticide> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_616_622>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insect" ;
+        nif:beginIndex          "616"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999878068649507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_540_548>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatile" ;
+        nif:beginIndex          "540"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999908815048782"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Volatile_organic_compound> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_732_738>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "toxins" ;
+        nif:beginIndex          "732"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "738"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988974155709431"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toxin> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_214_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fungal" ;
+        nif:beginIndex          "214"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Fungus> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Species> ;
+        itsrdf:taConfidence     "0.9999999857319609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_463_472>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemicals" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "472"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9549008091605842"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pesticide> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_476_482>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insect" ;
+        nif:beginIndex          "476"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "482"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999878068649507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1296_1311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "allelochemicals" ;
+        nif:beginIndex          "1296"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999789142751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Allelopathy> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_636_643>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fitness" ;
+        nif:beginIndex          "636"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "643"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fitness_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_167_182>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "allelochemicals" ;
+        nif:beginIndex          "167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999789142751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Allelopathy> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_42_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fungi" ;
+        nif:beginIndex          "42"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Fungus> , <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999945405198887"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_375_381>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fungal" ;
+        nif:beginIndex          "375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "381"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Eukaryote> , <http://dbpedia.org/ontology/Fungus> ;
+        itsrdf:taConfidence     "0.9999999857319609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_782_796>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insect control" ;
+        nif:beginIndex          "782"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "796"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9991713726752993"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mosquito_net> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_382_397>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "allelochemicals" ;
+        nif:beginIndex          "382"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "397"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999789142751"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Allelopathy> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1104_1113>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "induction" ;
+        nif:beginIndex          "1104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1113"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999978195810296"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Inductive_reasoning> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_30_37>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insects" ;
+        nif:beginIndex          "30"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999946023707633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_221_230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemicals" ;
+        nif:beginIndex          "221"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9549008091605842"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pesticide> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1140_1158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemical diversity" ;
+        nif:beginIndex          "1140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Organisation> , <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Organization> ;
+        itsrdf:taConfidence     "0.9999597589751515"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical_Diversity> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_483_498>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pest management" ;
+        nif:beginIndex          "483"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "498"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991297457121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biological_pest_control> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1368_1374>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insect" ;
+        nif:beginIndex          "1368"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1374"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999878068649507"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1230_1248>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ecological studies" ;
+        nif:beginIndex          "1230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1248"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ecological_study> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_878_894>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chemical ecology" ;
+        nif:beginIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "894"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chemical_ecology> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_114_120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fungal" ;
+        nif:beginIndex          "114"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Species> , <http://dbpedia.org/ontology/Fungus> , <http://dbpedia.org/ontology/Eukaryote> ;
+        itsrdf:taConfidence     "0.9999999857319609"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fungus> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1375_1390>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pest management" ;
+        nif:beginIndex          "1375"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1390"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991297457121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biological_pest_control> .
+
+<http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_1117_1124>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "insects" ;
+        nif:beginIndex          "1117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1124"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1d28a3351762d1600bcdd19db9aa#offset_0_1403> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999946023707633"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Insect> .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_427_433>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "region" ;
+        nif:beginIndex          "427"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "433"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8589835209425873"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Region> .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_189_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ring-opening reaction" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cyclic_compound> .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "566"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A new descriptor tool enabling to qualitatively identify excited-state potential energy regions with high decay probability is here disclosed and applied to analyze a photoinduced ring-opening reaction already well characterized from the experimental and theoretical point of view. The analysis based on such descriptor allows one to highlight a high probability of excited-state deactivation within the Franck–Condon region, in agreement with experiments, and to qualitatively indentify the main mechanisms providing efficient pathways of photoreactivity.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_80_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "potential energy" ;
+        nif:beginIndex          "80"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996334987765555"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potential_energy> .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_121_132>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9972507458773923"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_360_371>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "360"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9972507458773923"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6a4fdfd2a035888273bda17635a7#offset_0_566> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

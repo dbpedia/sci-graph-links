@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "964"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In recent years electronic commerce has grown rapidly as Internet and web technologies have progressed. Therefore, a secure and efficient payment system for general-purpose applications is undoubtedly becoming an important issue. Rivest and Shamir have proposed a micro-payment scheme which is user-specific and vendor-specific. However, in their scheme, it is required that the user generates a new payword chain for each vendor from which the user makes a purchase. In this paper, we propose a new micro-payment system that enables users to make purchases from multiple vendors. Only one payword chain has to be generated which makes this system very efficient. A sequence of payword chains which represents a set of small payments can be authenticated and payment can be made by an efficient method. A lower computation cost and improved system performance is also achieved. Therefore, the new micro-payment system has multiple practical applications.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_66_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996146706462328"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_25_44>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electronic commerce" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "44"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/E-commerce> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_675_683>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequence" ;
+        nif:beginIndex          "675"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "683"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7702254632630227"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/DNA_sequencing> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_250_256>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Shamir" ;
+        nif:beginIndex          "250"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "256"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Adi_Shamir> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_239_245>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Rivest" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "245"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> , <http://dbpedia.org/ontology/Person> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ron_Rivest> .
+
+<http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_820_831>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computation" ;
+        nif:beginIndex          "820"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "831"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d35baa74f209008cf450a594a274#offset_0_964> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9970695571427663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computing> .

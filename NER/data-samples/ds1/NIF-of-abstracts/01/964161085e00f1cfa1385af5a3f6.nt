@@ -1,0 +1,339 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_832_835>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SSA" ;
+        nif:beginIndex          "832"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "835"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999331521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Static_single_assignment_form> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_656_660>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GPUs" ;
+        nif:beginIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "660"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graphics_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "992"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract To investigate the behavior of biochemical systems, many runs of Gillespie’s Stochastic Simulation Algorithm (SSA) are generally needed, causing excessive computational costs on Central Processing Units (CPUs). Since all SSA runs are independent, the Intel Xeon Phi coprocessors based on the Many Integrated Core (MIC) architecture can be exploited to distribute the workload. We considered two execution modalities on MIC: one consisted in running exactly the same CPU code of SSA, while the other exploited MIC’s vector instructions to reuse the CPU code with only few modifications. MIC performance was compared with Graphics Processing Units (GPUs), specifically implemented in CUDA to optimize the use of memory hierarchy. Our results show that GPU largely outperforms MIC and CPU, but required a complete redesign of SSA. MIC allows a relevant speedup, especially when vector instructions are used, with the additional advantage of requiring minimal modifications to CPU code.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_557_560>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "557"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "560"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999752163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_86_96>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stochastic" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "96"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_759_762>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "GPU" ;
+        nif:beginIndex          "759"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "762"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9986088002978257"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graphics_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_837_840>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIC" ;
+        nif:beginIndex          "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "840"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6207971701999991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimum_inhibitory_concentration> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_791_794>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999752163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_524_543>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector instructions" ;
+        nif:beginIndex          "524"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "543"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997211541161516"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SIMD> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_234_238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "runs" ;
+        nif:beginIndex          "234"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8531582233476163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Run_(baseball)> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_187_194>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Central" ;
+        nif:beginIndex          "187"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "194"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.655938234694004"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_America> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_328_340>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "architecture" ;
+        nif:beginIndex          "328"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "340"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9973832768367832"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Microarchitecture> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_487_490>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SSA" ;
+        nif:beginIndex          "487"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999331521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Static_single_assignment_form> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_40_59>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "biochemical systems" ;
+        nif:beginIndex          "40"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biochemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_323_326>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIC" ;
+        nif:beginIndex          "323"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "326"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6207971701999991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimum_inhibitory_concentration> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_982_985>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "982"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "985"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999752163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_884_903>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "vector instructions" ;
+        nif:beginIndex          "884"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "903"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997211541161516"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SIMD> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_595_598>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIC" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "598"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6207971701999991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimum_inhibitory_concentration> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_213_217>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPUs" ;
+        nif:beginIndex          "213"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "217"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_230_233>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SSA" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999331521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Static_single_assignment_form> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_243_254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "independent" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999992274752"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Independence_(probability_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_691_695>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CUDA" ;
+        nif:beginIndex          "691"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "695"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/Software> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/CUDA> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_475_478>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "CPU" ;
+        nif:beginIndex          "475"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999752163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Central_processing_unit> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_428_431>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIC" ;
+        nif:beginIndex          "428"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "431"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6207971701999991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimum_inhibitory_concentration> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_119_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SSA" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999331521"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Static_single_assignment_form> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_518_521>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIC" ;
+        nif:beginIndex          "518"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "521"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6207971701999991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimum_inhibitory_concentration> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_275_287>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "coprocessors" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Coprocessor> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_260_265>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Intel" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "265"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Company> , <http://dbpedia.org/ontology/Organisation> , <http://schema.org/Organization> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.7735564287517261"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intel> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_719_735>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory hierarchy" ;
+        nif:beginIndex          "719"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "735"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999994634011121"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory_hierarchy> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_66_70>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "runs" ;
+        nif:beginIndex          "66"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8531582233476163"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Run_(baseball)> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_260_274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Intel Xeon Phi" ;
+        nif:beginIndex          "260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Intel_MIC> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_859_866>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "speedup" ;
+        nif:beginIndex          "859"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "866"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Speedup> .
+
+<http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_783_786>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MIC" ;
+        nif:beginIndex          "783"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "786"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/964161085e00f1cfa1385af5a3f6#offset_0_992> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6207971701999991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimum_inhibitory_concentration> .

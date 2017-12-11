@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "333"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A case is presented with several total dislocations of patella after an operative lateral retinacular release for chondromalacia patellae. The patient, a 27-year-old woman, had no history of preoperative luxations or subluxations. She had, however, a Q-angle of 20°—a fact that may have been significant in the pathogenesis.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_47_59>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "dislocations" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9831948341977044"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joint_dislocation> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_122_145>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "chondromalacia patellae" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chondromalacia_patellae> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_319_331>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "pathogenesis" ;
+        nif:beginIndex          "319"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "331"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.989096581360205"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Pathogenesis> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_225_237>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subluxations" ;
+        nif:beginIndex          "225"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "237"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Subluxation> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_90_97>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "lateral" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "97"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9264602675058011"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Anatomical_terms_of_location> .
+
+<http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_63_70>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "patella" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "70"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/dc9038c62261e85bff36ce49a09e#offset_0_333> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> , <http://dbpedia.org/ontology/Bone> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Patella> .

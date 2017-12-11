@@ -1,0 +1,38 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#offset_581_600>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "processi stocastici" ;
+        nif:beginIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "600"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#offset_0_602> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999481270847"^^xsd:double ;
+        itsrdf:taIdentRef       <http://it.dbpedia.org/resource/Processo_stocastico> .
+
+<http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#offset_0_602> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#offset_211_220>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Lipschitz" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "220"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#offset_0_602> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9999950312317858"^^xsd:double ;
+        itsrdf:taIdentRef       <http://it.dbpedia.org/resource/Rudolph_Otto_Sigismund_Lipschitz> .
+
+<http://www.springernature.com/scigraph/things/articles/a81f7d020a933241019f0f6cff0c#offset_0_602>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "602"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In questo lavoro si studiano versioni uni-dimensionali degli operatori di Lototsky-Schnabl associati a proiezioni di Altomare. Si discutono la conservazione della monotonia, la convessità, le classi di Lipschitz ed il primo modulo di continuità. Si dimostra pure che, in condizioni molto generali, questi operatori convergono, in un senso opportuno, all'operatore classico di Szász, e si danno allo stesso tempo stime dell'ordine di approssimazione. Alcune delle proprietà si dimostrano utilizzando rappresentazioni probabilistiche degli operatori in termini di opportuni processi stocastici.\n" .

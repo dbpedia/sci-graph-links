@@ -1,0 +1,77 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "435"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We consider chains whose transition probabilities depend on the whole past, with summable continuity rates. We show that Ornstein's $\\\\overline d$-distance between one such chain and its canonical Markov approximations of different orders is at worst proportional to the continuity rate of the chain. The result generalizes previous bounds obtained by X. Bressaud and ourselves, while relying on a similar coupling argument.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_145_153>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "overline" ;
+        nif:beginIndex          "145"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "153"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999991342243444"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Overline> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_197_206>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "canonical" ;
+        nif:beginIndex          "197"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995970841310939"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Canonical_ensemble> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_207_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markov" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9847773918075486"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_35_59>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transition probabilities" ;
+        nif:beginIndex          "35"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998788465023"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_281_291>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuity" ;
+        nif:beginIndex          "281"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "291"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999841182331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuous_function> .
+
+<http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_100_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "continuity" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/157acad66e5516ee33ab10023674#offset_0_435> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999841182331"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Continuous_function> .

@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "229"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The scattering of spin-oriented electrons, moving in a constant homogeneous magnetic field, by a short-range potential is analyzed. The change in the electron spin orientation is calculated using the Born approximation.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_159_172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electron spin" ;
+        nif:beginIndex          "159"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999557606630849"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spin_(physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_85_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "magnetic field" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999586032626946"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Magnetic_field> .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_13_23>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scattering" ;
+        nif:beginIndex          "13"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999982370396872"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scattering> .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_73_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homogeneous" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9696264435879348"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homogeneity_(physics)> .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_209_227>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Born approximation" ;
+        nif:beginIndex          "209"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "227"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Born_approximation> .
+
+<http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/11e1b263b49e43d1b1cbd1fad7e6#offset_0_229> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

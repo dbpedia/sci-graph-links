@@ -1,0 +1,107 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_595_604>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "empirical" ;
+        nif:beginIndex          "595"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "604"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988562069300326"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Empirical_evidence> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_491_500>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "congruent" ;
+        nif:beginIndex          "491"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "500"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9685423112819248"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Modular_arithmetic> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_268_276>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temporal" ;
+        nif:beginIndex          "268"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "276"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9087498618239466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_546_555>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "546"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "555"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999999892"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_227_236>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "frequency" ;
+        nif:beginIndex          "227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "236"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995311576315435"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Frequency> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_77_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "612"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper addresses the problem of joint disaggregating a group of time series when their temporal aggregation values and their contemporaneous aggregation are known and when a number of related series in the desired frequency are available. The focus is on temporal distribution of annual series. This problem was treated before by other authors but they did not solve the problem of spurious steps which usually emerge in this framework. Proposed here is the simplest hypothesis congruent with reality that solves this difficulty. An algorithm is proposed to use these hypotheses in empirical works.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_581_591>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypotheses" ;
+        nif:beginIndex          "581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "591"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996558143608559"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypothesis> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_100_108>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temporal" ;
+        nif:beginIndex          "100"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "108"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9087498618239466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time> .
+
+<http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_480_490>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hypothesis" ;
+        nif:beginIndex          "480"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "490"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/a1273ec18d469ca12cc998d0de87#offset_0_612> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999872744037175"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hypothesis> .

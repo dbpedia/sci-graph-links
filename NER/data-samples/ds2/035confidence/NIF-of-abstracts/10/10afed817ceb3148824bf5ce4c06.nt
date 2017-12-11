@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_92_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "temperature" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999099155384347"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Temperature> .
+
+<http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_0_285>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "285"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Several problems related to the calculation of an emission measure differential in temperature are resolved using a new calculation technique. The analysis of a flare on 20 April, 1976, is used to evaluate the usefulness of this new approach and to estimate its future value.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_76_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differential" ;
+        nif:beginIndex          "76"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7359685713175642"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Differential_equation> .
+
+<http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_170_175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "flare" ;
+        nif:beginIndex          "170"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_0_285> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9317638988823805"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Solar_flare> .
+
+<http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/10afed817ceb3148824bf5ce4c06#offset_0_285> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

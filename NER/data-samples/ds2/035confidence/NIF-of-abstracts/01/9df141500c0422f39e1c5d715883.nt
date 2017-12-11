@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "252"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract  A random error and accuracy estimation approach for polychlorinated dibenzo-p-dioxins (PCDD) and dibenzofurans (PCDF) analysis is presented based on statistical treatment of all the data set registered in a run or in a bunch of uniform runs.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_192_200>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data set" ;
+        nif:beginIndex          "192"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "200"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999892907"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_set> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_62_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polychlorinated dibenzo-p-dioxins" ;
+        nif:beginIndex          "62"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polychlorinated_dibenzodioxins> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_107_120>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dibenzofurans" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "120"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999920419"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polychlorinated_dibenzofurans> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_12_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "random error" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7649841231176515"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Errors_and_residuals_in_statistics> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_97_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PCDD" ;
+        nif:beginIndex          "97"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polychlorinated_dibenzodioxins> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_122_126>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "PCDF" ;
+        nif:beginIndex          "122"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "126"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Polychlorinated_dibenzofurans> .
+
+<http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_246_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "runs" ;
+        nif:beginIndex          "246"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9df141500c0422f39e1c5d715883#offset_0_252> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9924204687747604"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Run_(baseball)> .

@@ -1,0 +1,417 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1276_1283>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network" ;
+        nif:beginIndex          "1276"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1283"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9717238831907216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flow_network> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1661_1663>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AP" ;
+        nif:beginIndex          "1661"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6051379972408165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Advanced_Placement> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_274_282>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "274"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1630_1641>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "1630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7788232930705493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "2308"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Due to the increasing security threats on the Internet, new overlay network architectures have been proposed to secure privileged services. In these architectures, the application servers are protected by a defense perimeter where only traffic from entities called servlets are allowed to pass. End users must be authorized and can only communicate with entities called access points (APs). APs relay authorized users’ requests to servlets, which in turn pass them to the servers. The identity of APs are publicly known while the servlets are typically secret. All communications are done through the public Internet. Thus all the entities involved form an overlay network. The main component of this distributed system consists of n APs and m servlets. A design for a network is a bipartite graph with APs on one side, and the servlets on the other side. If an AP is compromised by an attacker (or fails), all the servlets that are connected to it are subject to attack. An AP is blocked, if all servlets connected to it are subject to attack. We consider two models for the failures: In the stochastic model, we assume that each AP i fails with a given probability p i . In the adversarial model, we assume that there is an adversary that knows the topology of the network and chooses at most k APs to compromise. In both models, our objective is to design the connections between APs and servlets to minimize the (expected/worst-case) number of blocked APs. In this paper, we give a polynomial-time algorithm for this problem in the stochastic model when the number of servlets is a constant. We also show that if the probability of failure of each AP is at least 1/2, then in the optimal design each AP is connected to only one servlet (we call such designs star-shaped), and give a polynomial-time algorithm to find the best star-shaped design. We observe that this statement is not true if the failure probabilities are small. In the adversarial model, we show that the problem is related to a problem in combinatorial set theory, and use this connection to give bounds on the maximum number of APs that a perfectly failure-resistant design with a given number of servlets can support. Our results provide the first rigorous theoretical foundation for practical secure overlay network design.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_837_845>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "837"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "845"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_778_785>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network" ;
+        nif:beginIndex          "778"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "785"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9717238831907216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Flow_network> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_871_873>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AP" ;
+        nif:beginIndex          "871"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "873"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6051379972408165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Advanced_Placement> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_924_932>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "924"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "932"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_55_63>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9178745944761546"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1693_1707>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimal design" ;
+        nif:beginIndex          "1693"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1707"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimal_design> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1260_1268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "topology" ;
+        nif:beginIndex          "1260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9147869895975765"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Topology> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1917_1930>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "1917"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1930"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8125172915527527"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1400_1408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "1400"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_440_448>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "440"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "448"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1140_1142>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AP" ;
+        nif:beginIndex          "1140"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1142"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6051379972408165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Advanced_Placement> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1495_1520>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial-time algorithm" ;
+        nif:beginIndex          "1495"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1520"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_2284_2299>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "overlay network" ;
+        nif:beginIndex          "2284"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2299"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Overlay_network> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1102_1118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic model" ;
+        nif:beginIndex          "1102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_calculus> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_666_681>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "overlay network" ;
+        nif:beginIndex          "666"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "681"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Overlay_network> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1164_1175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "1164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7788232930705493"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_2020_2044>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "combinatorial set theory" ;
+        nif:beginIndex          "2020"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2044"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Infinitary_combinatorics> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_2252_2262>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "foundation" ;
+        nif:beginIndex          "2252"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9335776059876278"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Foundation_(engineering)> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1741_1748>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlet" ;
+        nif:beginIndex          "1741"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1748"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_177_196>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "application servers" ;
+        nif:beginIndex          "177"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "196"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999804004732475"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Application_server> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1713_1715>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AP" ;
+        nif:beginIndex          "1713"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1715"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6051379972408165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Advanced_Placement> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_481_488>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servers" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "488"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9876537382455509"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Server_(computing)> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1581_1589>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "1581"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1589"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_404_409>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "relay" ;
+        nif:beginIndex          "404"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "409"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999408828"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Relay> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_791_806>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bipartite graph" ;
+        nif:beginIndex          "791"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "806"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bipartite_graph> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_753_761>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "753"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "761"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_984_986>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AP" ;
+        nif:beginIndex          "984"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "986"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6051379972408165"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Advanced_Placement> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_539_547>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "539"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "547"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_69_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "overlay network" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Overlay_network> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_379_392>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "access points" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "392"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wireless_access_point> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1545_1561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stochastic model" ;
+        nif:beginIndex          "1545"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stochastic_calculus> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1796_1821>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "polynomial-time algorithm" ;
+        nif:beginIndex          "1796"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1821"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_complexity> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_2179_2187>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "2179"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "2187"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_710_728>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "distributed system" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "728"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Distributed_computing> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_1006_1014>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "servlets" ;
+        nif:beginIndex          "1006"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1014"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Java_Servlet> .
+
+<http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_617_625>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Internet" ;
+        nif:beginIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "625"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e6728d0df81908c33302ab50cad5#offset_0_2308> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9178745944761546"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Internet> .

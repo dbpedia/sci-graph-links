@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_0_305> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_0_305>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "305"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract A code is n-deletion correcting if it is possible to correct any n deletion of symbols having occurred in transmission of codewords. In this paper, we present explicit constructions of n-deletion correcting codes for arbitrary values of n using generalized Reed–Solomon codes and their subcodes.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_131_140>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "codewords" ;
+        nif:beginIndex          "131"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "140"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_0_305> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9988329554504437"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Code_name> .
+
+<http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_88_95>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "symbols" ;
+        nif:beginIndex          "88"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "95"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_0_305> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6798639721877036"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Symbol> .
+
+<http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_115_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transmission" ;
+        nif:beginIndex          "115"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_0_305> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5961298422818535"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_transmission> .
+
+<http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_266_284>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Reed–Solomon codes" ;
+        nif:beginIndex          "266"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "284"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/92033a1cf742d2c9ba56056fce05#offset_0_305> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reed–Solomon_error_correction> .

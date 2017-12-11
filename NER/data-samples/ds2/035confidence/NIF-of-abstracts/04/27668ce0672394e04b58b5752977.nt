@@ -1,0 +1,79 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_18_24>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Stress" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "24"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.993224803904302"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_45_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Earth" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/CelestialBody> , <http://dbpedia.org/ontology/Planet> ;
+        itsrdf:taConfidence     "0.9999998254751442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_107_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "crust" ;
+        nif:beginIndex          "107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9981267161577295"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Crust_(geology)> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_207_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "207"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99932138346167"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_99_104>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Earth" ;
+        nif:beginIndex          "99"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "104"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Planet> , <http://dbpedia.org/ontology/CelestialBody> ;
+        itsrdf:taConfidence     "0.9999998254751442"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Earth> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_85_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99932138346167"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<http://www.springernature.com/scigraph/things/articles/27668ce0672394e04b58b5752977#offset_0_277>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "277"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Limits of Stress Measurements in the Earth's Crust. Accurate measurements of stress in the Earth's crust cannot be performed at deep levels with currently available recording procedures. The maximum stress recordable is about 100MPa, and the maximum depth 1000–1200 m.\n" .

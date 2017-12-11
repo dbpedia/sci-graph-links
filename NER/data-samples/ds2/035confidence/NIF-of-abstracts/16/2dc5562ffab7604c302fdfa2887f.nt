@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "601"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper is concerned with a study that was carried out into the effects of residential schooling on boys of secondary school age with emotional and behavioral difficulties (Cooper, 1989). The particular and original focus of the study was pupil experience in two residential schools as revealed through the perceptions of the pupils themselves. The paper reports the reasons for mounting such a study, the methodology used, and the conclusions reached. It is suggested that there is an urgent need for further qualitative studies of this type in this and other areas of special education.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_120_136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "secondary school" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9476499857517644"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Secondary_school> .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_522_541>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "qualitative studies" ;
+        nif:beginIndex          "522"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "541"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Qualitative_research> .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_275_294>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "residential schools" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "294"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.994293255864262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Boarding_school> .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_418_429>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "methodology" ;
+        nif:beginIndex          "418"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "429"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995949414562313"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methodology> .
+
+<http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_582_599>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "special education" ;
+        nif:beginIndex          "582"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "599"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2dc5562ffab7604c302fdfa2887f#offset_0_601> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.996548008309277"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Special_education> .

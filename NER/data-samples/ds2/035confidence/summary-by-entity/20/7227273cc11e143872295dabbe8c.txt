@@ -1,0 +1,89 @@
+Abstract Scala-Virtualized extends the Scala language to better support hosting embedded DSLs. Scala is an expressive language that provides a flexible syntax, type-level computation using implicits, and other features that facilitate the development of embedded DSLs. However, many of these features work well only for shallow embeddings, i.e. DSLs which are implemented as plain libraries. Shallow embeddings automatically profit from features of the host language through linguistic reuse: any DSL expression is just as a regular Scala expression. But in many cases, directly executing DSL programs within the host language is not enough and deep embeddings are needed, which reify DSL programs into a data structure representation that can be analyzed, optimized, or further translated. For deep embeddings, linguistic reuse is no longer automatic. Scala-Virtualized defines many of the language’s built-in constructs as method calls, which enables DSLs to redefine the built-in semantics using familiar language mechanisms like overloading and overriding. This in turn enables an easier progression from shallow to deep embeddings, as core language constructs such as conditionals or pattern matching can be redefined to build a reified representation of the operation itself. While this facility brings shallow, syntactic, reuse to deep embeddings, we also present examples of what we call deep linguistic reuse: combining shallow and deep components in a single DSL in such a way that certain features are fully implemented in the shallow embedding part and do not need to be reified at the deep embedding level.
+Scala               1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Scala_(programming_language)
+
+language                      0.9999999999532747^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Programming_language  
+
+language                      0.9999999999532747^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Programming_language  
+
+automatic                     0.6641624681154257^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Automatic_transmission
+
+reify                         0.9998684514861135^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reification_(computer_science)
+
+data structure                0.9999999999989768^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Data_structure        
+
+DSLs                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+Scala                         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Scala_(programming_language)
+
+reified                       0.9998947584200844^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reification_(computer_science)
+
+pattern matching              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Pattern_matching      
+
+language                      0.9999999999532747^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Programming_language  
+
+DSLs                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+embeddings                    0.9474106419971291^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Embedding             
+
+embeddings                    0.9474106419971291^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Embedding             
+
+embeddings                    0.9474106419971291^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Embedding             
+
+DSLs                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+expression                    0.9999997542371677^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Expression_(computer_science)
+
+libraries                     1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Library_(computing)   
+
+DSL                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+expressive language           0.9979509869680125^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Spoken_language       
+
+syntax                        0.9808032305386251^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Syntax                
+
+DSLs                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+embedding                     0.9849442697303198^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Portable_Document_Format
+
+expression                    0.9999997542371677^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Expression_(computer_science)
+
+reified                       0.9998947584200844^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reification_(computer_science)
+
+linguistic                    0.9999999980034318^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Natural_language      
+
+computation                   0.9910704253961639^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Concurrency_(computer_science)
+
+linguistic                    0.9999999980034318^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Natural_language      
+
+embeddings                    0.9474106419971291^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Embedding             
+
+embeddings                    0.9474106419971291^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Embedding             
+
+DSL                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+language                      0.9999999999532747^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Programming_language  
+
+Scala                         1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Scala_(programming_language)
+
+DSL                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+linguistic                    0.9999999980034318^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Natural_language      
+
+embeddings                    0.9474106419971291^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Embedding             
+
+language                      0.9999999999532747^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Programming_language  
+
+conditionals                  0.9999999999956799^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Conditional_(computer_programming)
+
+semantics                     0.999997824156119^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Semantics             
+
+DSL                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Domain-specific_language
+
+single                        0.9996486835481573^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Single_(music)        
+
+embedding                     0.9849442697303198^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Portable_Document_Format
+
+syntactic                     0.9999847366903643^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Parsing               
+
+core language                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Core_language         
+

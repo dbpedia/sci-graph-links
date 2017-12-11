@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9e80a1e44e68c1cce03ef1080b8e#offset_0_184>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "184"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We show that two partial latin squares of order mk are simultaneously avoidable if m > 4 and $${k>\\\\frac{m^3(m^2-1)}{2}}$$. If m = 4, we show the same conclusion when k > 56.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9e80a1e44e68c1cce03ef1080b8e#offset_34_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "latin squares" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9e80a1e44e68c1cce03ef1080b8e#offset_0_184> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999990337"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_square> .
+
+<http://www.springernature.com/scigraph/things/articles/9e80a1e44e68c1cce03ef1080b8e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9e80a1e44e68c1cce03ef1080b8e#offset_0_184> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

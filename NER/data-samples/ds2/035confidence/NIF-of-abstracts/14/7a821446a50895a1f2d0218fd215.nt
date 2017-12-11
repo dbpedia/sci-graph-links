@@ -1,0 +1,277 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_780_790>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dispersion" ;
+        nif:beginIndex          "780"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "790"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_dispersion> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_46_54>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_493_509>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weighted average" ;
+        nif:beginIndex          "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weighted_mean> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_710_723>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homoscedastic" ;
+        nif:beginIndex          "710"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "723"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homoscedasticity> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_1227_1235>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "1227"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1237"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper presents an interpolation variance as an alternative to the measure of the reliability of ordinary kriging estimates. Contrary to the traditional kriging variance, the interpolation variance is data-values dependent, variogram dependent, and a measure of local accuracy. Natural phenomena are not homogeneous; therefore, local variability as expressed through data values must be recognized for a correct assessment of uncertainty. The interpolation variance is simply the weighted average of the squared differences between data values and the retained estimate. Ordinary kriging or simple kriging variances are the expected values of interpolation variances; therefore, these traditional homoscedastic estimation variances cannot properly measure local data dispersion. More precisely, the interpolation variance is an estimate of the local conditional variance, when the ordinary kriging weights are interpreted as conditional probabilities associated to the n neighboring data. This interpretation is valid if, and only if, all ordinary kriging weights are positive or constrained to be such. Extensive tests illustrate that the interpolation variance is a useful alternative to the traditional kriging variance.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_188_201>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interpolation" ;
+        nif:beginIndex          "188"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "201"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999864713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpolation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_317_328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homogeneous" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998680096"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_656_669>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interpolation" ;
+        nif:beginIndex          "656"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "669"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999864713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpolation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_470_478>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "470"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "478"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_1167_1175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_456_469>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interpolation" ;
+        nif:beginIndex          "456"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "469"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999864713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpolation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_174_182>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "182"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_439_450>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "uncertainty" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "450"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9964641647910055"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Standard_deviation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_863_883>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional variance" ;
+        nif:beginIndex          "863"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "883"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conditional_variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_237_246>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variogram" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variogram> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_637_652>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "expected values" ;
+        nif:beginIndex          "637"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "652"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Expected_value> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_32_45>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interpolation" ;
+        nif:beginIndex          "32"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999864713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpolation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_1153_1166>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interpolation" ;
+        nif:beginIndex          "1153"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1166"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999864713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpolation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_812_825>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "interpolation" ;
+        nif:beginIndex          "812"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "825"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999864713"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Interpolation> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_950_963>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probabilities" ;
+        nif:beginIndex          "950"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "963"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9869477528952774"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Probability> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_826_834>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "826"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_735_744>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variances" ;
+        nif:beginIndex          "735"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "744"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_202_210>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "210"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_938_949>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conditional" ;
+        nif:beginIndex          "938"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "949"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9992456993967321"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conditional_probability> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_619_628>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variances" ;
+        nif:beginIndex          "619"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "628"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_670_679>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variances" ;
+        nif:beginIndex          "670"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "679"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7a821446a50895a1f2d0218fd215#offset_0_1237> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .

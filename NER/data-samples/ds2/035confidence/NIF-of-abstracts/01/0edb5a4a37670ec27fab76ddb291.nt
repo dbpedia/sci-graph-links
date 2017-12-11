@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_0_292>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "292"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. A minimax formula for the principal eigenvalue of a nonselfadjoint elliptic problem was established in [17]. In this paper we extend this formula to the case where an indefinite weight is present. An application is given to the study of the uniformity of the antimaximum principle.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_77_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "elliptic" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8747585064377664"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Elliptic_operator> .
+
+<http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_46_56>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "eigenvalue" ;
+        nif:beginIndex          "46"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Eigenvalues_and_eigenvectors> .
+
+<http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_0_292> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_12_19>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "minimax" ;
+        nif:beginIndex          "12"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "19"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0edb5a4a37670ec27fab76ddb291#offset_0_292> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999980144025"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Minimax> .

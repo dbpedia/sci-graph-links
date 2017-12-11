@@ -1,0 +1,51 @@
+Abstract We study the problem of evaluating xpath queries over xml data that is stored in an rdbms via schema-based shredding. The interaction between recursion (descendants-axis) in xpath queries and recursion in dtds makes it challenging to answer xpath queries using rdbms. We present a new approach to translating xpath queries into sql queries based on a notion of extended XP ath expressions and a simple least fixpoint (lfp) operator. Extended xpath expressions are a mild extension of xpath, and the lfp operator takes a single input relation and is already supported by most commercial rdbms. We show that extended xpath expressions are capable of capturing both dtd recursion and xpath queries in a uniform framework. Furthermore, they can be translated into an equivalent sequence of sql queries with the lfp operator. We present algorithms for rewriting xpath queries over a (possibly recursive) dtd into extended xpath expressions and for translating extended xpath expressions to sql queries, as well as optimization techniques. The novelty of our approach consists in its capability to answer a large class of xpath queries by means of only low-end rdbms features already available in most rdbms, as well as its flexibility to accommodate existing relational query optimization techniques. In addition, these translation algorithms provide a solution to query answering for certain (possibly recursive) xml views of xml data. Our experimental results verify the effectiveness of our techniques.
+recursion           0.9995946366858329^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Recursion_(computer_science)
+
+query optimization            1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Query_optimization    
+
+rdbms                         0.9999981999356181^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Relational_database   
+
+recursive                     0.9994716764285599^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Recursion_(computer_science)
+
+rdbms                         0.9999981999356181^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Relational_database   
+
+recursion                     0.9995946366858329^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Recursion_(computer_science)
+
+ath                           0.9981760206249877^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Ath                   
+
+rdbms                         0.9999981999356181^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Relational_database   
+
+fixpoint                      1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Fixed_point_(mathematics)
+
+algorithms                    0.9999999999854481^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+recursive                     0.9994716764285599^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Recursion_(computer_science)
+
+rdbms                         0.9999981999356181^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Relational_database   
+
+algorithms                    0.9999999999854481^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+lfp                           0.9989757727765499^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Local_field_potential 
+
+lfp                           0.9989757727765499^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Local_field_potential 
+
+dtd                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+dtds                          1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Document_Type_Definition
+
+sql                           0.9999999998611884^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/SQL                   
+
+sql                           0.9999999998611884^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/SQL                   
+
+optimization                  0.9971919539531637^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Query_optimization    
+
+sql                           0.9999999998611884^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/SQL                   
+
+lfp                           0.9989757727765499^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Local_field_potential 
+
+dtd                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/XML                   
+
+recursion                     0.9995946366858329^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Recursion_(computer_science)
+
+rdbms                         0.9999981999356181^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Relational_database   
+

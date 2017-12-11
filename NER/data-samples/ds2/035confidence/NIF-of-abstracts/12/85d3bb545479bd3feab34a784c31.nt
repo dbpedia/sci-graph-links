@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#offset_0_378>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "378"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Potential fire intensity and fire spread are acknowledged to be important considerations in designing buildings. Most investigations in this area have attempted to relate fire intensity to fuel load. The author submits that room geometry and influence fire intensity and that architectural layouts around room openings may influence fire spread by means of convestion.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#offset_238_246>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "geometry" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#offset_0_378> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99995000513334"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Geometry> .
+
+<http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#offset_0_378> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#offset_198_202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "fuel" ;
+        nif:beginIndex          "198"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/85d3bb545479bd3feab34a784c31#offset_0_378> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9939856165724594"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fuel> .

@@ -1,0 +1,78 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_181_186>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Latin" ;
+        nif:beginIndex          "181"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "186"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.9983276954801702"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "270"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove that every collection of pairwise compatible (nowhere coinciding) n-ary quasigroups of order 4 can be extended to an (n + 1)-ary quasigroup. In other words, every Latin 4×…×4 × l-parallelepiped, where l = 1, 2, 3, can be extended to a Latin hypercube.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_84_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "n-ary" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999667466"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arity> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_253_268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Latin hypercube" ;
+        nif:beginIndex          "253"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999848228"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Latin_hypercube_sampling> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_142_146>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "-ary" ;
+        nif:beginIndex          "142"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "146"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Arity> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_90_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quasigroups" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998483986"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quasigroup> .
+
+<http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_147_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quasigroup" ;
+        nif:beginIndex          "147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/8cfde2b36c723a471aa91b67d847#offset_0_270> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999982379"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quasigroup> .

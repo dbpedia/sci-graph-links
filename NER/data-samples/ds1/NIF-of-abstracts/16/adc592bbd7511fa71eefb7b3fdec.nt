@@ -1,0 +1,68 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_72_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "automorphism" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9954336781962739"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Automorphism> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_113_119>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite" ;
+        nif:beginIndex          "113"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "119"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7053677749980375"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_group> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_101_112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "non-abelian" ;
+        nif:beginIndex          "101"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998056268196179"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abelian_group> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_120_127>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "p-group" ;
+        nif:beginIndex          "120"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "127"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999936904"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/P-group> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_161_165>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ne 3" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "165"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Infrastructure> , <http://schema.org/Place> , <http://dbpedia.org/ontology/ArchitecturalStructure> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/RouteOfTransportation> , <http://dbpedia.org/ontology/Road> ;
+        itsrdf:taConfidence     "0.9999999984414103"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/U.S._Route_6> .
+
+<http://www.springernature.com/scigraph/things/articles/adc592bbd7511fa71eefb7b3fdec#offset_0_174>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "174"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In this paper we study the existence of at least one non-inner automorphism of order p of a non-abelian finite p-group of coclass 3, for any prime $$p\\\\ne 3$$ p≠3 .\n" .

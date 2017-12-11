@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_48_67>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high-rise buildings" ;
+        nif:beginIndex          "48"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "67"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_0_336> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9859394047013046"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tower_block> .
+
+<http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_0_336> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_158_163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smoke" ;
+        nif:beginIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_0_336> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9818383531352742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smoke> .
+
+<http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_307_312>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "smoke" ;
+        nif:beginIndex          "307"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "312"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_0_336> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9818383531352742"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Smoke> .
+
+<http://www.springernature.com/scigraph/things/articles/d151321d105c67959cff07031257#offset_0_336>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "336"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The time necessary to evacuate today’s high-rise buildings in a fire emergency is unsatisfactory from the standpoint of the development of untenable smoke conditions. The Division of Building Research has been working on the problem for several years and suggests several approaches to controlling smoke movement in buildings.\n" .

@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_196_203>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "salient" ;
+        nif:beginIndex          "196"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "203"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_0_942> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9946240289698505"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Salience_(neuroscience)> .
+
+<http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_0_942> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_831_856>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mixed integer programming" ;
+        nif:beginIndex          "831"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "856"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_0_942> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_programming> .
+
+<http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_0_942>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "942"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Comparative news summarization aims to highlight the commonalities and differences between two comparable news topics by using human-readable sentences. The summary ought to focus on the salient comparative aspects of both topics, and at the same time, it should describe the representative properties of each topic appropriately. In this study, we propose a novel approach for generating comparative news summaries. We consider cross-topic pairs of semantic-related concepts as evidences of comparativeness and consider topic-related concepts as evidences of representativeness. The score of a summary is estimated by summing up the weights of evidences in the summary. We formalize the summarization task as an optimization problem of selecting proper sentences to maximize this score and address the problem by using a mixed integer programming model. The experimental results demonstrate the effectiveness of our proposed model.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_722_742>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "optimization problem" ;
+        nif:beginIndex          "722"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_0_942> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9885297508245522"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Optimization_problem> .
+
+<http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_136_150>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "human-readable" ;
+        nif:beginIndex          "136"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "150"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/1595cee98b34422441831bb4c9c9#offset_0_942> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999752518537"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human-readable_medium> .

@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/0690443af2d1f7543594ed34b988#offset_0_1241>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1241"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The present experimental study explores whether teachers are ‘clever’ thinkers when assessing students’ credibility, i.e., saving cognitive resources when possible and making accurate judgments. Participants were asked to decide whether student statements about using unfair means during a test were true or deceptive. First, participants’ own judgment tendency (a true vs. lie tendency) was manipulated by informing them about the resource-consuming consequences of their judgment, i.e., giving additional explanations for each student statement they judged as being true (vs. a lie). Before actually judging the students’ statements they were informed about the judgment tendency of other teachers about the upcoming student statements (true vs. lie tendency of other teachers). It was assumed that participants ‘cleverly’ choose a resource-saving judgment tendency and show a true (vs. lie) tendency when additional explanations for their lie (vs. true) judgments were required. Moreover, it was assumed that participants’ accuracy rate would be higher if their own judgment tendency opposed the judgment tendency of other teachers. The results indicate that teachers are ‘clever’ thinkers. Practical implications are discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/0690443af2d1f7543594ed34b988#offset_139_158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cognitive resources" ;
+        nif:beginIndex          "139"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/0690443af2d1f7543594ed34b988#offset_0_1241> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999985221"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cognitive_load> .
+
+<http://www.springernature.com/scigraph/things/articles/0690443af2d1f7543594ed34b988#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/0690443af2d1f7543594ed34b988#offset_0_1241> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

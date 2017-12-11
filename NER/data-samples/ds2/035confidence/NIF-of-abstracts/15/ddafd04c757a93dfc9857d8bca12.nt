@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "438"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Let {X n } be a Markov chain with transition probability $$p_{ij} = a_{j - (i - 1)^ + } ,\\\\forall i,j \\\\geqslant 0$$, where a j = 0 provided j < 0, a 0 > 0, a 0 + a 1 < 1 and Σ n=0∞ a n = 1. Let µ = Σ n=1∞ na n . It is known that {X n } is positive recurrent when µ < 1; is null recurrent when µ = 1; and is transient when µ > 1. In this paper, the integrability of the first returning time and the last exit time are discussed.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_358_371>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "integrability" ;
+        nif:beginIndex          "358"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99995651907638"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Integral> .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_25_37>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markov chain" ;
+        nif:beginIndex          "25"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "37"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_43_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transition probability" ;
+        nif:beginIndex          "43"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_71_73>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ij" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999988435186972"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/IJ_(digraph)> .
+
+<http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_283_287>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "null" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "287"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/ddafd04c757a93dfc9857d8bca12#offset_0_438> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9886973308237833"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Null_set> .

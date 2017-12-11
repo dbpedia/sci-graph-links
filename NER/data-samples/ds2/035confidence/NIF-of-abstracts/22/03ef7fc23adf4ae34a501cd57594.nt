@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_151_160>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "article I" ;
+        nif:beginIndex          "151"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "160"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4536084635358804"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States_Constitution> .
+
+<http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_45_52>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Michael" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "52"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Cleric> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Saint> ;
+        itsrdf:taConfidence     "0.6697981750003701"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Michael_(archangel)> .
+
+<http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_71_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "God" ;
+        nif:beginIndex          "71"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9989135922834456"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/God> .
+
+<http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_0_348>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "348"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In a previous issue of this journal Michael Veber argued that God could not answer certain prayers because doing so would be immoral. In this article I attempt to demonstrate that Veber’s argument is simply the logical problem of evil applied to a possible world. Because of this, his argument is susceptible to a Plantinga-style defense.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_239_243>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evil" ;
+        nif:beginIndex          "239"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_0_348> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9507746008225378"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Problem_of_evil> .
+
+<http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/03ef7fc23adf4ae34a501cd57594#offset_0_348> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

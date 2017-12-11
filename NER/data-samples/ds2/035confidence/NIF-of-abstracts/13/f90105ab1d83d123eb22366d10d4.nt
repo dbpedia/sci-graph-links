@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_0_696> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_0_696>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "696"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract TEACHING AN EFFECTIVE ONLINE COURSE is a challenging experience. Although the content may be similar to that provided in a “traditional” course, the delivery, communication aspects, and management of an online course are quite different. In the past few years, course management systems have been developed that provide valuable tools for teaching and managing an online course. This article presents an overview of the features of course management systems as they pertain to teaching online courses. Specifically, it identifies tools and techniques related to the effective use of management features, assessment options, instructional activities, and communication in online courses.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_18_20>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AN" ;
+        nif:beginIndex          "18"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "20"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.4510396753403932"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joint_Electronics_Type_Designation_System> .
+
+<http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_168_181>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "181"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9836087845083012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_663_676>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "663"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "676"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f90105ab1d83d123eb22366d10d4#offset_0_696> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9836087845083012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .

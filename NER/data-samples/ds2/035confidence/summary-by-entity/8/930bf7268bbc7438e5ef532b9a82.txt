@@ -1,0 +1,83 @@
+Abstract Recent advances in flash storage have made it an attractive alternative for data storage in a wide spectrum of computing devices, such as embedded sensors, mobile phones, PDA’s, laptops, and even servers. However, flash storage has many unique characteristics that make existing data management/analytics algorithms designed for magnetic disks perform poorly with flash storage. For example, while random reads can be nearly as fast as sequential reads, random writes and in-place data updates are orders of magnitude slower than sequential writes. In this paper, we consider an important fundamental problem that would seem to be particularly challenging for flash storage: efficiently maintaining a very large random sample of a data stream (e.g., of sensor readings). First, we show that previous algorithms such as reservoir sampling and geometric file are not readily adapted to flash. Second, we propose B-File, an energy-efficient abstraction for flash storage to store self-expiring items, and show how a B-File can be used to efficiently maintain a large sample in flash. Our solution is simple, has a small (RAM) memory footprint, and is designed to cope with flash constraints in order to reduce latency and energy consumption. Third, we provide techniques to maintain biased samples with a B-File and to query the large sample stored in a B-File for a subsample of an arbitrary size. Finally, we present an evaluation with flash storage that shows our techniques are several orders of magnitude faster and more energy-efficient than (flash-friendly versions of) reservoir sampling and geometric file. A key finding of our study, of potential use to many flash algorithms beyond sampling, is that “semi-random” writes (as defined in the paper) on flash cards are over two orders of magnitude faster and more energy-efficient than random writes.
+algorithms          0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+energy consumption            0.8462384390389482^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Low-power_electronics 
+
+flash storage                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Flash_memory          
+
+algorithms                    0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+magnitude                     0.9999930217243411^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+magnitude                     0.9999930217243411^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+algorithms                    0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+flash cards                   0.9999999856786418^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Flash_memory          
+
+abstraction                   0.9980388453062814^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Abstraction_(computer_science)
+
+computing                     0.9999103628749252^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Central_processing_unit
+
+flash storage                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Flash_memory          
+
+geometric                     0.9999970145057887^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Exponential_growth    
+
+servers                       0.9999999999993179^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Server_(computing)    
+
+analytics                     0.9999999944266165^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Analytics             
+
+flash storage                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Flash_memory          
+
+PDA                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Personal_digital_assistant
+
+flash storage                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Flash_memory          
+
+sensor                        0.9990296191927902^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sensor                
+
+data stream                   0.999999999979309^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/Data_stream           
+
+flash storage                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Flash_memory          
+
+laptops                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Laptop                
+
+sensors                       0.9992684223824084^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sensor                
+
+magnitude                     0.9999930217243411^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+sampling                      0.9963101025265578^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sampling_(signal_processing)
+
+data management               0.6020310043031004^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Big_data              
+
+reservoir                     0.9890221354614044^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reservoir             
+
+sampling                      0.9963101025265578^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sampling_(signal_processing)
+
+in-place                      0.999999996612587^^http://www.w3.org/2001/XMLSchema#double            http://dbpedia.org/resource/In-place_algorithm    
+
+data storage                  0.9999999992623998^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_data_storage 
+
+reservoir                     0.9890221354614044^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reservoir             
+
+magnetic disks                0.9999999999995453^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Disk_storage          
+
+spectrum                      0.9469978981792456^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Electromagnetic_spectrum
+
+mobile phones                 0.9999983466930213^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mobile_phone          
+
+random sample                 0.9999998836563077^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sampling_(statistics) 
+
+latency                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Latency_(engineering) 
+
+geometric                     0.9999970145057887^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Exponential_growth    
+
+memory footprint              1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Memory_footprint      
+
+RAM                           0.9999930252336019^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Random-access_memory  
+
+samples                       0.9998578093719632^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sampling_(signal_processing)
+
+sampling                      0.9963101025265578^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sampling_(signal_processing)
+
+flash storage                 1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Flash_memory          
+

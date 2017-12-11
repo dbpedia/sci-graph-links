@@ -1,0 +1,57 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_0_224> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_0_224>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "224"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract VESPA, an improved semiempirical method for the calculation of electrostatic potential-derived atomic charges has been tested. It is shown that this approach is even less dependent upon molecular orientation than \\\n" .
+
+<http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_28_41>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semiempirical" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "41"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_0_224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9679533224529472"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computational_chemistry> .
+
+<http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_104_118>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "atomic charges" ;
+        nif:beginIndex          "104"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "118"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_0_224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9700313932182854"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Partial_charge> .
+
+<http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_195_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_0_224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9942428222316942"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_orbital> .
+
+<http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_72_85>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "electrostatic" ;
+        nif:beginIndex          "72"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "85"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/faf37d7ee258910739d4638e145d#offset_0_224> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9916455756115012"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Electrostatics> .

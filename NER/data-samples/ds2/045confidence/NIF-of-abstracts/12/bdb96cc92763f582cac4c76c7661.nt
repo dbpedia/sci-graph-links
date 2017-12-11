@@ -1,0 +1,27 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bdb96cc92763f582cac4c76c7661#offset_91_105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "urban planning" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bdb96cc92763f582cac4c76c7661#offset_0_332> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999916228036222"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Urban_planning> .
+
+<http://www.springernature.com/scigraph/things/articles/bdb96cc92763f582cac4c76c7661#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bdb96cc92763f582cac4c76c7661#offset_0_332> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bdb96cc92763f582cac4c76c7661#offset_0_332>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "332"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The paper shows the need for improving the information support of the practice of urban planning. It provides methodological approaches to the formation of systems of urban indicators for diagnosing the situation in preparing programs, plans, taking management decisions and estimating the results of their implementation.\n" .

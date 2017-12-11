@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_51_62>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensitivity" ;
+        nif:beginIndex          "51"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "62"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9026679185762116"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensitivity_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_0_369> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_186_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "torsion" ;
+        nif:beginIndex          "186"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999709985715632"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Torsion_(mechanics)> .
+
+<http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_0_369>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "369"^^xsd:nonNegativeInteger ;
+        nif:isString    "A computational and experimental assessment of the sensitivity of structural materials to stress concentration under high-cycle asymmetrical loading by tension–compression, bending, and torsion has been performed. A proposed limiting state model is used in the solution. A satisfactory agreement of the calculation results with the experimental data has been obtained.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_90_110>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress concentration" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "110"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/899d0105c01fc04e7d03139e2b67#offset_0_369> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_concentration> .

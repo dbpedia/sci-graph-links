@@ -1,0 +1,217 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_913_917>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "norm" ;
+        nif:beginIndex          "913"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "917"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994076916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Norm_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_146_175>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "invariant probability measure" ;
+        nif:beginIndex          "146"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "175"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Invariant_measure> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_736_739>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "law" ;
+        nif:beginIndex          "736"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "739"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9975545129343424"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Law> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_555_561>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "domain" ;
+        nif:beginIndex          "555"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "561"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Domain_of_a_function> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_597_607>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Positivity" ;
+        nif:beginIndex          "597"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "607"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998255068628"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Positivism> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1143"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary Let X t∶t≧0 be an ergodic stationary Markov process on a state space S. If Â is its infinitesimal generator on L 2(S, dm), where m is the invariant probability measure, then it is shown that for all f in the range of $$\\\\hat A,n^{ - {1 \\\\mathord{\\\\left/ {\\\\vphantom {1 2}} \\\\right. \\\\kern-\\\\nulldelimiterspace} 2}} \\\\int\\\\limits_0^{nt} {f(X_s ){\\\\text{ }}ds{\\\\text{ }}(t\\\\underline{\\\\underline > } } 0)$$ converges in distribution to the Wiener measure with zero drift and variance parameter σ 2 =−2〈f, g〉=−2〈Âg, g〉 where g is some element in the domain of Â such that Âg=f (Theorem 2.1). Positivity of σ 2 is proved for nonconstant f under fairly general conditions, and the range of Â is shown to be dense in 1⊥. A functional law of the iterated logarithm is proved when the (2+δ)th moment of f in the range of Â is finite for some δ>0 (Theorem 2.7(a)). Under the additional condition of convergence in norm of the transition probability p(t, x, d y) to m(dy) as t → ∞, for each x, the above results hold when the process starts away from equilibrium (Theorems 2.6, 2.7 (b)). Applications to diffusions are discussed in some detail.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_45_59>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Markov process" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "59"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_process> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_925_947>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "transition probability" ;
+        nif:beginIndex          "925"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "947"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Markov_chain> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_826_832>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "finite" ;
+        nif:beginIndex          "826"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "832"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999996735828596"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Finite_set> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_481_489>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "variance" ;
+        nif:beginIndex          "481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "489"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999999986926"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_446_460>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wiener measure" ;
+        nif:beginIndex          "446"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "460"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wiener_process> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_747_765>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "iterated logarithm" ;
+        nif:beginIndex          "747"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "765"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Iterated_logarithm> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_413_422>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "converges" ;
+        nif:beginIndex          "413"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "422"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998591347130924"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_126_128>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dm" ;
+        nif:beginIndex          "126"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "128"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.550033184459818"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Square_metre> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_1102_1112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "diffusions" ;
+        nif:beginIndex          "1102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Diffusion_process> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_26_33>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "ergodic" ;
+        nif:beginIndex          "26"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "33"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9947014147324641"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ergodicity> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_92_115>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "infinitesimal generator" ;
+        nif:beginIndex          "92"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "115"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9873033142243842"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lie_group> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_898_909>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "convergence" ;
+        nif:beginIndex          "898"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "909"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999608370654433"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Limit_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_292_296>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "kern" ;
+        nif:beginIndex          "292"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999724878"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Kerning> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_1049_1060>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "equilibrium" ;
+        nif:beginIndex          "1049"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1060"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6885760930419262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nash_equilibrium> .
+
+<http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_229_232>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hat" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "232"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9cd83de12e16b366a6596dd2f7b3#offset_0_1143> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999866285907448"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circumflex> .

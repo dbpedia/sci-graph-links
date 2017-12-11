@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#offset_0_261> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#offset_0_261>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "261"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This article examines Rowan’s discussion of my earlier paper (Messick, 1995). His warnings about the naturalistic fallacy and self-interest are well taken, but they constitute less serious threats to the usefulness of my suggestions than he indicates.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#offset_135_148>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "self-interest" ;
+        nif:beginIndex          "135"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "148"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#offset_0_261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9290549240152051"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychological_egoism> .
+
+<http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#offset_110_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "naturalistic fallacy" ;
+        nif:beginIndex          "110"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/e50e5669e346b9eab9d606db7dc2#offset_0_261> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Naturalistic_fallacy> .

@@ -1,0 +1,177 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_138_152>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "semimartingale" ;
+        nif:beginIndex          "138"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Semimartingale> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_195_202>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "theorem" ;
+        nif:beginIndex          "195"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "202"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996450202403138"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Theorem> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_243_254>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computation" ;
+        nif:beginIndex          "243"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "254"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999175474538813"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computation> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_262_282>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fourier coefficients" ;
+        nif:beginIndex          "262"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "282"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fourier_series> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_79_90>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "79"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "90"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_601_612>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "computation" ;
+        nif:beginIndex          "601"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "612"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999175474538813"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computation> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "636"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract. We present a methodology based on Fourier series analysis to compute time series volatility when the data are observations of a semimartingale. The procedure is not based on the Wiener theorem for the quadratic variation, but on the computation of the Fourier coefficients of the process and therefore it relies on the integration of the time series rather than on its differentiation. The method is fully model free and nonparametric. These features make the method well suited for financial market applications, and in particular for the analysis of high frequency time series and for the computation of cross volatilities.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_431_444>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nonparametric" ;
+        nif:beginIndex          "431"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "444"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999765202576"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-parametric_statistics> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_562_576>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "high frequency" ;
+        nif:beginIndex          "562"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "576"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9202039094005756"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radio_frequency> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_91_101>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "volatility" ;
+        nif:beginIndex          "91"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "101"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995099933702402"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Variance> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_577_588>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "588"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_493_509>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "financial market" ;
+        nif:beginIndex          "493"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "509"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999965616328262"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Financial_market> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_379_394>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "differentiation" ;
+        nif:beginIndex          "379"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "394"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999762016009224"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Derivative> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_44_58>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fourier series" ;
+        nif:beginIndex          "44"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "58"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fourier_series> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_348_359>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "time series" ;
+        nif:beginIndex          "348"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "359"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Time_series> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_23_34>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "methodology" ;
+        nif:beginIndex          "23"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "34"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9932604827267366"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Methodology> .
+
+<http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_211_230>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quadratic variation" ;
+        nif:beginIndex          "211"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "230"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/2112665e0d864293efc60244941f#offset_0_636> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quadratic_variation> .

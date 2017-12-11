@@ -1,0 +1,317 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_199_216>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "regression models" ;
+        nif:beginIndex          "199"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "216"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Regression_analysis> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_63_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "probability" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999186912907"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_model> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1147_1158>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concordance" ;
+        nif:beginIndex          "1147"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1158"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9848642228180732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordance_(genetics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_311_328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "monotone function" ;
+        nif:beginIndex          "311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Monotonic_function> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1137_1145>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "spectrum" ;
+        nif:beginIndex          "1137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1145"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.904893773093973"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Spectral_density> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_335_343>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "function" ;
+        nif:beginIndex          "335"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "343"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997210125"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Function_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1185"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Hierarchical models are considered for estimating the probability of agreement between two outcomes or endpoints from an environmental toxicity experiment. Emphasis is placed on generalized regression models, under which the prior mean is related to a linear combination of explanatory variables via a monotone function. This function defines the scale over which the systematic effects are modelled as additive. Specific illustration is provided for the logistic link function. The hierarchical model employs a conjugate beta prior that leads to parametric empirical Bayes estimators of the individual agreement parameters. An example from environmental carcinogenesis illustrates the methods, with motivation derived from estimation of the concordance between two species carcinogenicity outcomes. Based on a large database of carcinogenicity studies, the inter-species concordance is seen to be reasonably informative, i.e. in the range 67–84%. Stratification into pertinent potency-related sub-groups via the logistic model is seen to improve concordance estimation: for environmental stimuli at the extremes of the potency spectrum, concordance can reach well above 90%.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1022_1036>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "logistic model" ;
+        nif:beginIndex          "1022"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1036"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991838422"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Logistic_regression> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_473_486>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "link function" ;
+        nif:beginIndex          "473"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Generalized_linear_model> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1098_1105>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stimuli" ;
+        nif:beginIndex          "1098"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1105"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9775197851270528"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stimulus_(physiology)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_783_798>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carcinogenicity" ;
+        nif:beginIndex          "783"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "798"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carcinogen> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_650_663>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental" ;
+        nif:beginIndex          "650"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "663"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9165251890510583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environment_(biophysical)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_556_566>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "parametric" ;
+        nif:beginIndex          "556"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "566"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9993917730248075"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Parameter> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_826_834>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "database" ;
+        nif:beginIndex          "826"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "834"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999999299363726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Database> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_664_678>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carcinogenesis" ;
+        nif:beginIndex          "664"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "678"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960411749903827"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carcinogen> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_775_782>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "species" ;
+        nif:beginIndex          "775"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "782"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.6941483066015908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Biodiversity> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_261_279>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "linear combination" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "279"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Linear_combination> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_751_762>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concordance" ;
+        nif:beginIndex          "751"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "762"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9848642228180732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordance_(genetics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1084_1097>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental" ;
+        nif:beginIndex          "1084"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1097"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9165251890510583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environment_(biophysical)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_521_530>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "conjugate" ;
+        nif:beginIndex          "521"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "530"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Conjugate_prior> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1056_1067>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concordance" ;
+        nif:beginIndex          "1056"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1067"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9848642228180732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordance_(genetics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_881_892>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "concordance" ;
+        nif:beginIndex          "881"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "892"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9848642228180732"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Concordance_(genetics)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_577_593>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Bayes estimators" ;
+        nif:beginIndex          "577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "593"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bayes_estimator> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_130_143>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "environmental" ;
+        nif:beginIndex          "130"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9165251890510583"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Environment_(biophysical)> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_709_719>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "motivation" ;
+        nif:beginIndex          "709"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "719"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999976126"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Motivation> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_144_152>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "toxicity" ;
+        nif:beginIndex          "144"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "152"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997798902463916"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Toxicity> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_283_304>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "explanatory variables" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "304"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dependent_and_independent_variables> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_492_510>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hierarchical model" ;
+        nif:beginIndex          "492"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "510"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998681233"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Bayesian_network> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_531_535>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "beta" ;
+        nif:beginIndex          "531"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "535"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999998792907336"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Beta_distribution> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_838_853>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "carcinogenicity" ;
+        nif:beginIndex          "838"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "853"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Carcinogen> .
+
+<http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_1129_1136>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "potency" ;
+        nif:beginIndex          "1129"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1136"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5254b635409e44380c267cea5df4#offset_0_1185> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9949163311028345"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Potency_(pharmacology)> .

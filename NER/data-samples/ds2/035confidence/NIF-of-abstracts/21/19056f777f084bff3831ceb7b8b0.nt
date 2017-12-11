@@ -1,0 +1,70 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_34_56>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "industrialized nations" ;
+        nif:beginIndex          "34"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "56"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Developed_country> .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_449_457>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "epilepsy" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "457"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999995005666843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Epilepsy> .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "663"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Transportation issues in industrialized nations play an important role in the lives of most citizens. The acts of flying and driving, especially in the United States, intersect with many peoples’ lives on almost a daily basis. Although some larger cities have modern and efficient public transportation systems, many do not, thus placing considerable responsibility on the individual to manage their own transportation needs. A person with epilepsy faces considerable challenges when it comes to transportation. Defining these challenges and understanding how to deal with the person with epilepsy and transportation issues is the focus of this article.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_161_174>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "United States" ;
+        nif:beginIndex          "161"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "174"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Place> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Country> ;
+        itsrdf:taConfidence     "0.9986308362886663"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_States> .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_598_606>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "epilepsy" ;
+        nif:beginIndex          "598"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "0.9999995005666843"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Epilepsy> .
+
+<http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_290_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "public transportation" ;
+        nif:beginIndex          "290"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/19056f777f084bff3831ceb7b8b0#offset_0_663> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999997897258191"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Public_transport> .

@@ -1,0 +1,362 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1548_1553>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "1548"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1553"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_614_630>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Hopfield network" ;
+        nif:beginIndex          "614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "630"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Hopfield_network> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1220_1233>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "reinforcement" ;
+        nif:beginIndex          "1220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1233"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999494194767"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Reinforcement_learning> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_36_42>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "humans" ;
+        nif:beginIndex          "36"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "42"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9999978054968529"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Human_brain> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_756_763>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "network" ;
+        nif:beginIndex          "756"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "763"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8881984918831246"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Computer_network> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1614_1622>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "dynamics" ;
+        nif:beginIndex          "1614"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1622"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9864453125359273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Dynamical_system> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1643"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Experimental research with humans and animals suggests that sleep — particularly REM sleep — is, in some way, associated with learning. However, the nature of the association and the underlying mechanism remain unclear. A number of theoretical models have drawn inspiration from research into Artificial Neural Networks. Crick and Mitchinson's ‘unlearning’ and Robins and McCallum's ‘pseudo-rehearsal’ models suggest alternative mechanisms through which sleep could contribute to learning. In this paper we present simulations, suggesting a possible synthesis. Our simulations use a modified version of a Hopfield network to model the possible contribution of sleep to memory consolidation. Sleep is simulated by removing all sensory input to the network and by exposing it to a ‘noise’, intended as a highly abstract model of the signals generated by the Ponto-geniculate-occipital system during sleep. The results show that simulated sleep does indeed contribute to learning and that the relationship between the observed effect and the length of simulated sleep can be represented by a U-shaped curve. It is shown that while high-amplitude, low-frequency noise (reminiscent of NREM sleep) leads to a general reinforcement of memory, low-amplitude, high-frequency noise (as observed in REM sleep) leads to ‘forgetting’ of all but the strongest memory traces. This suggests that a combination of the two kinds of sleep might produce a stronger effect than either kind of sleep on its own and that effective consolidation of memory during sleep may depend not just on REM or NREM sleep but on the overall dynamics of the sleep cycle.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1275_1280>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "1275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1280"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987681219897531"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1630_1641>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep cycle" ;
+        nif:beginIndex          "1630"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1641"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Disease> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Circadian_rhythm_sleep_disorder> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1167_1172>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "1167"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1172"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987681219897531"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1237_1243>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "1237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1243"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_90_99>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "REM sleep" ;
+        nif:beginIndex          "90"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "99"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rapid_eye_movement_sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1107_1112>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "curve" ;
+        nif:beginIndex          "1107"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1112"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9954396654849624"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_of_a_function> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1423_1428>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "1423"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1428"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_789_794>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "noise" ;
+        nif:beginIndex          "789"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "794"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9987681219897531"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Noise> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_906_911>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "906"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "911"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_463_468>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "463"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "468"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_735_742>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sensory" ;
+        nif:beginIndex          "735"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "742"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.9976783585465188"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sensory_system> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1577_1580>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "REM" ;
+        nif:beginIndex          "1577"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1580"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rapid_eye_movement_sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_69_74>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "69"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "74"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_818_826>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "abstract" ;
+        nif:beginIndex          "818"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "826"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9979335183436876"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Abstraction> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_678_698>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory consolidation" ;
+        nif:beginIndex          "678"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "698"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory_consolidation> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1355_1368>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory traces" ;
+        nif:beginIndex          "1355"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1368"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Engram_(neuropsychology)> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1318_1328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forgetting" ;
+        nif:beginIndex          "1318"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forgetting> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1584_1594>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NREM sleep" ;
+        nif:beginIndex          "1584"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1594"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-rapid_eye_movement_sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1297_1306>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "REM sleep" ;
+        nif:beginIndex          "1297"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rapid_eye_movement_sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1189_1199>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "NREM sleep" ;
+        nif:beginIndex          "1189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1199"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Non-rapid_eye_movement_sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_945_950>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "945"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "950"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_381_389>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "McCallum" ;
+        nif:beginIndex          "381"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "389"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Scientist> ;
+        itsrdf:taConfidence     "0.7862729541997718"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Andrew_McCallum> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1481_1486>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "1481"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1486"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_330_335>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Crick" ;
+        nif:beginIndex          "330"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "335"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Scientist> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://xmlns.com/foaf/0.1/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Francis_Crick> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1534_1540>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "memory" ;
+        nif:beginIndex          "1534"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1540"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Memory> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_302_328>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Artificial Neural Networks" ;
+        nif:beginIndex          "302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "328"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_neural_network> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_669_674>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "669"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "674"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .
+
+<http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_1068_1073>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sleep" ;
+        nif:beginIndex          "1068"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1073"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d99673b66bf69048dce97c5a15ee#offset_0_1643> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999923485581216"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sleep> .

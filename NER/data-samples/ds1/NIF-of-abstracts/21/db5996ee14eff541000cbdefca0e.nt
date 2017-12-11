@@ -1,0 +1,80 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_95_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homeless" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999941663800395"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homelessness> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_386_400>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "psychoanalytic" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "400"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.867393597215875"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychoanalysis> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_202_209>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Colette" ;
+        nif:beginIndex          "202"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "209"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Artist> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> ;
+        itsrdf:taConfidence     "0.9999892207029037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colette> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "407"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The case describes a 1-year treatment, by an early career professional, of Colette, a homeless woman with significant childhood trauma and a history of substance use. As the treatment unfolds, Colette begins to participate in activities at the residence where she lives, becomes visible, and relates her story to others. The case illustrates work with complex issues through a psychoanalytic lens.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_137_143>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "trauma" ;
+        nif:beginIndex          "137"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "143"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9980681476652181"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Psychological_trauma> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_401_405>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "lens" ;
+        nif:beginIndex          "401"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "405"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/AnatomicalStructure> ;
+        itsrdf:taConfidence     "0.7731490570493676"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Lens_(anatomy)> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_84_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Colette" ;
+        nif:beginIndex          "84"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/db5996ee14eff541000cbdefca0e#offset_0_407> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Writer> , <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Artist> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "0.9999892207029037"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Colette> .

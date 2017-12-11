@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_0_606> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_432_445>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "set-theoretic" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "445"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999998863"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Set_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_536_548>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "quantitative" ;
+        nif:beginIndex          "536"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "548"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8071354609068336"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Quantitative_research> .
+
+<http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_0_606>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "606"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In the course of legal reasoning—whether for purposes of deciding an issue, justifying a decision, predicting how an issue will be decided, or arguing for how it should be decided—one often is required to reach (and assert) conclusions based on a balance of reasons that is not straightforwardly reducible to the application of rules. Recent AI and Law work has modeled reason-balancing, both within and across cases, with set-theoretic and rule- or value-ordering approaches. This article explores a way to model balancing in quantitative terms that may yield new questions, insights, and tools.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_351_353>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "AI" ;
+        nif:beginIndex          "351"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "353"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/d4b37c5c79e2057b91fd40c83404#offset_0_606> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999661392222042"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Artificial_intelligence> .

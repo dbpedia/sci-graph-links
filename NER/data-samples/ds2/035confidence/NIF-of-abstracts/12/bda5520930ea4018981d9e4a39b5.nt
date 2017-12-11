@@ -1,0 +1,109 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_16_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "energy balance" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5014112193265371"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Energy_accounting> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_317_332>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "thermal comfort" ;
+        nif:beginIndex          "317"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Thermal_comfort> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_85_91>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Vienna" ;
+        nif:beginIndex          "85"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "91"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/Settlement> , <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Place> ;
+        itsrdf:taConfidence     "0.9996387276012124"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vienna> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_261_268>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "climate" ;
+        nif:beginIndex          "261"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "268"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.7054958459121687"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Climate_model> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "334"^^xsd:nonNegativeInteger ;
+        nif:isString    "Summary A human energy balance model is calculated using the homogeneous data set of Vienna, Austria (48°N and 16° E). Variations in the different stages of comfort since 1873 are discussed. The historical data are then used to generate scenarios of a changing climate and calculate the impact of these variations on thermal comfort.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_61_72>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homogeneous" ;
+        nif:beginIndex          "61"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "72"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9879752077912628"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homogeneity_and_heterogeneity> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_102_106>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "48°N" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "106"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/48th_parallel_north> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_93_100>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Austria" ;
+        nif:beginIndex          "93"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "100"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/PopulatedPlace> , <http://schema.org/Country> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Country> , <http://dbpedia.org/ontology/Place> ;
+        itsrdf:taConfidence     "0.9970112817817971"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Austria> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_73_81>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "data set" ;
+        nif:beginIndex          "73"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "81"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999977014227"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Data_set> .
+
+<http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_111_116>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "16° E" ;
+        nif:beginIndex          "111"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "116"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/bda5520930ea4018981d9e4a39b5#offset_0_334> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/16th_meridian_east> .

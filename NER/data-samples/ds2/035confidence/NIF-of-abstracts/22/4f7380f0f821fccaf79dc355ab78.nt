@@ -1,0 +1,49 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_367_371>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Crow" ;
+        nif:beginIndex          "367"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "371"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/EthnicGroup> ;
+        itsrdf:taConfidence     "0.9299649779295317"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Crow_Nation> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_230_235>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Crick" ;
+        nif:beginIndex          "230"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "235"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Scientist> ;
+        itsrdf:taConfidence     "0.9999999980780103"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Francis_Crick> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_238_250>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "double helix" ;
+        nif:beginIndex          "238"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "250"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_0_379> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995614868366115"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Nucleic_acid_double_helix> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_0_379> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/4f7380f0f821fccaf79dc355ab78#offset_0_379>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "379"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract “The two big problems — the nature of development and the nature of the mind — are being subdued. I don’t know whether there will be beautiful, general theories to come out of this — something really nice like Watson and Crick’s double helix — or whether there will be an accumulation of more and more details. I’ll confess to a secret hope for the former” (Crow 2000).\n" .

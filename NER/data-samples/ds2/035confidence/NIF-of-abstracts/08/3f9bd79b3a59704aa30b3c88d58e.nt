@@ -1,0 +1,47 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_63_79>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Fibonacci search" ;
+        nif:beginIndex          "63"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "79"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Fibonacci_search_technique> .
+
+<http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_0_506> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_41_47>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Kiefer" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "47"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999762583233"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jack_Kiefer_(statistician)> .
+
+<http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_16_25>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "classical" ;
+        nif:beginIndex          "16"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "25"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_0_506> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5582867645391273"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Classical_mechanics> .
+
+<http://www.springernature.com/scigraph/things/articles/3f9bd79b3a59704aa30b3c88d58e#offset_0_506>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "506"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract In his classical article[3], J. Kiefer introduced the Fibonacci search as a direct optimal method. The optimality was proved under the restriction: the total number of tests is given in advance and fixed. To avoid this restriction, some different concepts of optimality were proposed and some corresponding optimal methods were obtained in [1], [2], [5] and [6]. In particular, the even-block search was treated in [1]. This paper deals with the odd-block search. The main result is Theorem 1.15.\n" .

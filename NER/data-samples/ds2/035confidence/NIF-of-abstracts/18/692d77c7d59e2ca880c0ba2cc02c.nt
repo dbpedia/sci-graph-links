@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#offset_0_313>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "313"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We prove that if there is a strongly connected digraph of ordern, maximum degreed, diameterk and connectivityc, thenn≤c d k−d /d−1+d+1. It improves the previous known results, and it, in fact, is the best possible for several interesting cases. A similar result for arc connectivity is also established.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#offset_275_278>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "arc" ;
+        nif:beginIndex          "275"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "278"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9960473195879835"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Directed_graph> .
+
+<http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#offset_56_63>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "digraph" ;
+        nif:beginIndex          "56"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "63"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#offset_0_313> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996301423625159"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Directed_graph> .
+
+<http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/692d77c7d59e2ca880c0ba2cc02c#offset_0_313> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

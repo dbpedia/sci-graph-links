@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_189_198>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aesthetic" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "198"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999702343989"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aesthetics> .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_237_246>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "discourse" ;
+        nif:beginIndex          "237"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "246"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999981756475492"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Discourse> .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "284"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Linguistic, gestic and scenic configurations in Prinz Friedrich von Homburg are examined in order to demonstrate the play’s essentially ironic structure. This irony subverts those aesthetic, philosophical and political modes of discourse which inform the text at every turn.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_168_173>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "irony" ;
+        nif:beginIndex          "168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "173"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Irony> .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_57_84>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Prinz Friedrich von Homburg" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "84"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/The_Prince_of_Homburg_(play)> .
+
+<http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_200_213>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "philosophical" ;
+        nif:beginIndex          "200"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "213"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5b92057113a5e003b508d553e839#offset_0_284> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9995009333373661"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Philosophy> .

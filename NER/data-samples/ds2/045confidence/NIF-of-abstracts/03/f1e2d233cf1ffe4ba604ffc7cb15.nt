@@ -1,0 +1,37 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#offset_96_114>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "molecular dynamics" ;
+        nif:beginIndex          "96"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "114"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#offset_0_305> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Molecular_dynamics> .
+
+<http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#offset_45_53>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "selenium" ;
+        nif:beginIndex          "45"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "53"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#offset_0_305> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998641422184368"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Selenium> .
+
+<http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#offset_0_305>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "305"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The equiliblium structures of small selenium clusters are obtained via first-principle molecular dynamics calculations based on the linearized-augmented-plane-wave (LAPW) method. Resulting equiliblium structures show a good agreement with experimental data and other firstprinciple calculations.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/f1e2d233cf1ffe4ba604ffc7cb15#offset_0_305> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .

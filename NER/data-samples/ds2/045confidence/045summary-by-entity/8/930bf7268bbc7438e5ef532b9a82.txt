@@ -1,0 +1,41 @@
+Abstract Recent advances in flash storage have made it an attractive alternative for data storage in a wide spectrum of computing devices, such as embedded sensors, mobile phones, PDA’s, laptops, and even servers. However, flash storage has many unique characteristics that make existing data management/analytics algorithms designed for magnetic disks perform poorly with flash storage. For example, while random reads can be nearly as fast as sequential reads, random writes and in-place data updates are orders of magnitude slower than sequential writes. In this paper, we consider an important fundamental problem that would seem to be particularly challenging for flash storage: efficiently maintaining a very large random sample of a data stream (e.g., of sensor readings). First, we show that previous algorithms such as reservoir sampling and geometric file are not readily adapted to flash. Second, we propose B-File, an energy-efficient abstraction for flash storage to store self-expiring items, and show how a B-File can be used to efficiently maintain a large sample in flash. Our solution is simple, has a small (RAM) memory footprint, and is designed to cope with flash constraints in order to reduce latency and energy consumption. Third, we provide techniques to maintain biased samples with a B-File and to query the large sample stored in a B-File for a subsample of an arbitrary size. Finally, we present an evaluation with flash storage that shows our techniques are several orders of magnitude faster and more energy-efficient than (flash-friendly versions of) reservoir sampling and geometric file. A key finding of our study, of potential use to many flash algorithms beyond sampling, is that “semi-random” writes (as defined in the paper) on flash cards are over two orders of magnitude faster and more energy-efficient than random writes.
+reservoir           0.9890221354614044^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reservoir             
+
+memory                        0.9999980443036317^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Computer_data_storage 
+
+magnitude                     0.9999930217243411^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+algorithms                    0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+magnitude                     0.9999930217243411^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+data management               0.6020310043031004^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Big_data              
+
+latency                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Latency_(engineering) 
+
+laptops                       1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Laptop                
+
+algorithms                    0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+RAM                           0.9999930252336019^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Random-access_memory  
+
+magnetic                      0.9900880542568874^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Magnetic_field        
+
+spectrum                      0.9469978981792456^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Electromagnetic_spectrum
+
+reservoir                     0.9890221354614044^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Reservoir             
+
+algorithms                    0.9999999999986358^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Algorithm             
+
+random sample                 0.9999998836563077^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Sampling_(statistics) 
+
+energy                        0.9999999213216628^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Energy                
+
+magnitude                     0.9999930217243411^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Euclidean_vector      
+
+mobile phones                 0.9999983466930213^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Mobile_phone          
+
+PDA                           1.0^^http://www.w3.org/2001/XMLSchema#double                          http://dbpedia.org/resource/Personal_digital_assistant
+
+flash cards                   0.9999999856786418^^http://www.w3.org/2001/XMLSchema#double           http://dbpedia.org/resource/Flash_memory          
+

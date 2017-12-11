@@ -1,0 +1,58 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_322_332>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "error term" ;
+        nif:beginIndex          "322"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "332"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.999460638519565"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Errors_and_residuals_in_statistics> .
+
+<http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_244_249>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nodes" ;
+        nif:beginIndex          "244"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "249"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.8435667086963627"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_0_343> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_333_336>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "ofO" ;
+        nif:beginIndex          "333"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "336"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Language> , <http://dbpedia.org/ontology/Language> ;
+        itsrdf:taConfidence     "0.5686996879491117"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Ofo_language> .
+
+<http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_0_343>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "343"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract R. Kemp has shown that the average height of r-tuply rooted planted plane trees is $$\\\\sqrt {\\\\pi n} - \\\\frac{1}{2}(r - 2) + O(\\\\log (n)n^{1/2 - \\\\varepsilon } ), \\\\varepsilon > 0, n \\\\to \\\\infty ,$$ assuming that all such trees withn nodes are equally likely. We give a quite short proof of this result (with an error term ofO (1)).\n" .
+
+<http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_77_88>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "plane trees" ;
+        nif:beginIndex          "77"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "88"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6d68b98951c05ac2da228b268d19#offset_0_343> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999909762638168"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Tree_(graph_theory)> .

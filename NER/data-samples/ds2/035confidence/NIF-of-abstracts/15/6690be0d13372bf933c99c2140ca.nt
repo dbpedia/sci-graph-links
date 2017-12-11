@@ -1,0 +1,128 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "825"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract For several years, MBA students enrolled in a Business & Society/Business Ethics class at the University of Wisconsin-Madison have been volunteering their services at homeless shelters and in low-income communities. Students also work with low-income residents and relevant stakeholders on evolutionary team projects aimed at improving living conditions in low-income communities. These projects include starting a grocery co-op, credit union, day-care center, job training center and a transportation business. In addition, student groups develop service networks that link low-income communities with student organizations, other university professors and United Way volunteers. This article provides an evolutionary summary of these projects with the hope that other professors will adopt them for their classes.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_74_89>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Business Ethics" ;
+        nif:beginIndex          "74"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "89"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.99999999999784"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_ethics> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_667_677>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "United Way" ;
+        nif:beginIndex          "667"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "677"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999847414173908"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/United_Way_of_America> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_176_193>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "homeless shelters" ;
+        nif:beginIndex          "176"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "193"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Homeless_shelter> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_432_437>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "co-op" ;
+        nif:beginIndex          "432"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "437"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9977141942241988"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cooperative> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_117_134>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Wisconsin-Madison" ;
+        nif:beginIndex          "117"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "134"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999914735"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/University_of_Wisconsin–Madison> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_28_31>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MBA" ;
+        nif:beginIndex          "28"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "31"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999994058726"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Master_of_Business_Administration> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_55_73>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Business & Society" ;
+        nif:beginIndex          "55"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "73"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://dbpedia.org/ontology/Work> , <http://dbpedia.org/ontology/PeriodicalLiterature> , <http://dbpedia.org/ontology/AcademicJournal> , <http://schema.org/CreativeWork> , <http://dbpedia.org/ontology/WrittenWork> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Business_&_Society> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_299_311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolutionary" ;
+        nif:beginIndex          "299"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9783642867465637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_283_295>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stakeholders" ;
+        nif:beginIndex          "283"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "295"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9927902251165814"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stakeholder_(corporate)> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_715_727>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "evolutionary" ;
+        nif:beginIndex          "715"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "727"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9783642867465637"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Evolution> .
+
+<http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_439_451>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "credit union" ;
+        nif:beginIndex          "439"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "451"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/6690be0d13372bf933c99c2140ca#offset_0_825> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Credit_union> .

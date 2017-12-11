@@ -1,0 +1,67 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_47_54>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "chaotic" ;
+        nif:beginIndex          "47"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "54"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9981539523560587"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Chaos_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "548"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract This paper analyzes the security of a chaotic parallel keyed hash function in detail, and points out that it is susceptible to two kinds of forgery attacks and weak key attack (which results in MAC collision). To remedy such security flaws, an improved scheme is further proposed, and its security and performance are also discussed. The theoretical analysis shows that the improved scheme is more secure than the original one. In the meanwhile, it can also keep the parallel merit and other performance advantages of the original scheme.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_70_83>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hash function" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "83"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5726907291631785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cryptographic_hash_function> .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_149_156>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "forgery" ;
+        nif:beginIndex          "149"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "156"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999822349606717"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Forgery> .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_203_206>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MAC" ;
+        nif:beginIndex          "203"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "206"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999543247792"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Message_authentication_code> .
+
+<http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_169_177>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weak key" ;
+        nif:beginIndex          "169"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/9f08e4eea86f293b00e0c57c186d#offset_0_548> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999994884"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Weak_key> .

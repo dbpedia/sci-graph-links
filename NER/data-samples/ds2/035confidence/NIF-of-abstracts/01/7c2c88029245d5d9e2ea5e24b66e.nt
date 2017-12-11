@@ -1,0 +1,307 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_592_601>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "annealing" ;
+        nif:beginIndex          "592"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "601"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999883972112786"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Annealing_(metallurgy)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_68_71>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "MWS" ;
+        nif:beginIndex          "68"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "71"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9984346287763058"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Wernerian_Natural_History_Society> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_57_66>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "subgraphs" ;
+        nif:beginIndex          "57"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "66"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Glossary_of_graph_theory> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_878_887>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "algorithm" ;
+        nif:beginIndex          "878"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "887"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Algorithm> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1168_1177>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inference" ;
+        nif:beginIndex          "1168"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1177"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9416830180632841"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_inference> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_86_102>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "hard constraints" ;
+        nif:beginIndex          "86"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "102"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Constraint_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "1405"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract We consider a problem of finding maximum weight subgraphs (MWS) that satisfy hard constraints in a weighted graph. The constraints specify the graph nodes that must belong to the solution as well as mutual exclusions of graph nodes, i.e., pairs of nodes that cannot belong to the same solution. Our main contribution is a novel inference approach for solving this problem in a sequential monte carlo (SMC) sampling framework. Usually in an SMC framework there is a natural ordering of the states of the samples. The order typically depends on observations about the states or on the annealing setup used. In many applications (e.g., image jigsaw puzzle problems), all observations (e.g., puzzle pieces) are given at once and it is hard to define a natural ordering. Therefore, we relax the assumption of having ordered observations about states and propose a novel SMC algorithm for obtaining maximum a posteriori estimate of a high-dimensional posterior distribution. This is achieved by exploring different orders of states and selecting the most informative permutations in each step of the sampling. Our experimental results demonstrate that the proposed inference framework significantly outperforms loopy belief propagation in solving the image jigsaw puzzle problem. In particular, our inference quadruples the accuracy of the puzzle assembly compared to that of loopy belief propagation.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_158_163>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nodes" ;
+        nif:beginIndex          "158"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "163"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999930575996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1260_1273>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "jigsaw puzzle" ;
+        nif:beginIndex          "1260"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1273"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jigsaw_puzzle> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_257_262>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nodes" ;
+        nif:beginIndex          "257"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "262"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999930575996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_449_452>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SMC" ;
+        nif:beginIndex          "449"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "452"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5971547273106955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SMC_protein> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_386_408>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sequential monte carlo" ;
+        nif:beginIndex          "386"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "408"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Particle_filter> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_874_877>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SMC" ;
+        nif:beginIndex          "874"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "877"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5971547273106955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SMC_protein> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_648_661>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "jigsaw puzzle" ;
+        nif:beginIndex          "648"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "661"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Jigsaw_puzzle> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_954_976>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "posterior distribution" ;
+        nif:beginIndex          "954"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "976"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Posterior_probability> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1220_1238>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "belief propagation" ;
+        nif:beginIndex          "1220"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1238"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Belief_propagation> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_697_703>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "puzzle" ;
+        nif:beginIndex          "697"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "703"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999984755528681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Puzzle> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_512_519>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "samples" ;
+        nif:beginIndex          "512"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "519"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9966567504976991"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1070_1082>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "permutations" ;
+        nif:beginIndex          "1070"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1082"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999998971134"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Permutation> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_108_122>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "weighted graph" ;
+        nif:beginIndex          "108"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "122"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999991085815"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_410_413>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "SMC" ;
+        nif:beginIndex          "410"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "413"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.5971547273106955"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/SMC_protein> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_152_157>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "152"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "157"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999972972983785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1343_1349>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "puzzle" ;
+        nif:beginIndex          "1343"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999984755528681"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Puzzle> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_229_234>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "graph" ;
+        nif:beginIndex          "229"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "234"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999972972983785"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Graph_(mathematics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_337_346>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inference" ;
+        nif:beginIndex          "337"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "346"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9416830180632841"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_inference> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1302_1311>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "inference" ;
+        nif:beginIndex          "1302"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1311"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9416830180632841"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Statistical_inference> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_235_240>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "nodes" ;
+        nif:beginIndex          "235"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "240"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999930575996"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Vertex_(graph_theory)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1385_1403>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "belief propagation" ;
+        nif:beginIndex          "1385"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1403"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Belief_propagation> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_415_423>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sampling" ;
+        nif:beginIndex          "415"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "423"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999733073625123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .
+
+<http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_1103_1111>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "sampling" ;
+        nif:beginIndex          "1103"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "1111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/7c2c88029245d5d9e2ea5e24b66e#offset_0_1405> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999733073625123"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Sampling_(statistics)> .

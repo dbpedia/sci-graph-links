@@ -1,0 +1,87 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_611_616>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rivet" ;
+        nif:beginIndex          "611"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "616"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999999999432"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rivet> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_602_606>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "bolt" ;
+        nif:beginIndex          "602"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "606"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.998754885502593"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Screw> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_39_45>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "stress" ;
+        nif:beginIndex          "39"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "45"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999173178315122"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Stress_(mechanics)> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_24_30>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "radial" ;
+        nif:beginIndex          "24"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "30"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999990908473404"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Radius> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_95_103>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "aperture" ;
+        nif:beginIndex          "95"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "103"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9997407340577688"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Aperture> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_617_623>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "joints" ;
+        nif:beginIndex          "617"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "623"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999987335759276"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Joint> .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "625"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract The problem on radial contact stress that appears if the press-fit disk presses to an aperture wall made in the rectangle plate loaded over its external edges by an arbitrary set of forces in the plate's plane has been solved. The general solution is transformed into formulas for solving different problems by setting different forces at the plate edges. The results of calculations carried out according to the presented procedure are compared with theoretical and experimental results and they are in good agreement. The results of the present work can be used for strength calculation for bolt and rivet joints.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_121_130>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "rectangle" ;
+        nif:beginIndex          "121"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "130"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/3aa8f19a3aa229e35eaeb92afdb1#offset_0_625> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Rectangle> .

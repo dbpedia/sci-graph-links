@@ -1,0 +1,180 @@
+@prefix schema:   <http://schema.org/> .
+@prefix dbpedia:   <http://dbpedia.org/ontology/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif:   <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_300_306>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Europe" ;
+        nif:beginIndex          "300"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "306"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Continent> , <http://dbpedia.org/ontology/Continent> , <http://schema.org/Place> , <http://dbpedia.org/ontology/Place> , <http://dbpedia.org/ontology/PopulatedPlace> ;
+        itsrdf:taConfidence     "0.9992908152163194"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Europe> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_506_514>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Mersenne" ;
+        nif:beginIndex          "506"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "514"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://schema.org/Person> , <http://xmlns.com/foaf/0.1/Person> , <http://dbpedia.org/ontology/Person> , <http://dbpedia.org/ontology/Agent> ;
+        itsrdf:taConfidence     "0.9999992767924142"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marin_Mersenne> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_41_50>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scientist" ;
+        nif:beginIndex          "41"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "50"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.92654211231811"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scientist> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530>
+        a               nif:OffsetBasedString , nif:Context ;
+        nif:beginIndex  "0"^^xsd:nonNegativeInteger ;
+        nif:endIndex    "530"^^xsd:nonNegativeInteger ;
+        nif:isString    "Abstract Marin Mersenne was many things: scientist, mathematician and writer. He did original work on acoustics and on prime numbers; today his name is linked to a family of primes called ‘Mersenne primes’. But his greatest contribution was his work in propagating a culture of scientific inquiry in Europe — a culture which emphasized communication and dissemination and learning from one’s peers. The work done on the cycloid illustrates this theme beautifully. This article looks at some work for which Mersenne is best known.\n" .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_102_111>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "acoustics" ;
+        nif:beginIndex          "102"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "111"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999651078805494"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Acoustics> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#collection>
+        a               nif:ContextCollection ;
+        nif:hasContext  <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        <http://purl.org/dc/terms/conformsTo>
+                <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_70_76>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "writer" ;
+        nif:beginIndex          "70"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "76"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9239943543094574"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Writer> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_267_274>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "culture" ;
+        nif:beginIndex          "267"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "274"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996636171117933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Culture> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_189_204>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "Mersenne primes" ;
+        nif:beginIndex          "189"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "204"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mersenne_prime> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_52_65>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "mathematician" ;
+        nif:beginIndex          "52"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "65"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9941553686760553"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Mathematician> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_119_132>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "prime numbers" ;
+        nif:beginIndex          "119"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "132"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prime_number> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_164_170>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "family" ;
+        nif:beginIndex          "164"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "170"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9247362347593622"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Family_(biology)> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_311_318>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "culture" ;
+        nif:beginIndex          "311"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "318"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9996636171117933"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Culture> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_420_427>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "cycloid" ;
+        nif:beginIndex          "420"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "427"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999954439431"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Cycloid> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_336_349>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "communication" ;
+        nif:beginIndex          "336"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "349"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9998885651001321"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Communication> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_278_296>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "scientific inquiry" ;
+        nif:beginIndex          "278"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "296"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9551149826134989"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Scientific_method> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_9_23>
+        a                       nif:OffsetBasedString , nif:Phrase ;
+        nif:anchorOf            "Marin Mersenne" ;
+        nif:beginIndex          "9"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "23"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taClassRef       <http://xmlns.com/foaf/0.1/Person> , <http://schema.org/Person> , <http://dbpedia.org/ontology/Agent> , <http://dbpedia.org/ontology/Person> ;
+        itsrdf:taConfidence     "1.0"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Marin_Mersenne> .
+
+<http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_174_180>
+        a                       nif:Phrase , nif:OffsetBasedString ;
+        nif:anchorOf            "primes" ;
+        nif:beginIndex          "174"^^xsd:nonNegativeInteger ;
+        nif:endIndex            "180"^^xsd:nonNegativeInteger ;
+        nif:referenceContext    <http://www.springernature.com/scigraph/things/articles/5923879f4458ae4b4ff493a51bc2#offset_0_530> ;
+        itsrdf:taAnnotatorsRef  <http://model.dbpedia-spotlight.org> ;
+        itsrdf:taConfidence     "0.9999999997845066"^^xsd:double ;
+        itsrdf:taIdentRef       <http://dbpedia.org/resource/Prime_number> .
