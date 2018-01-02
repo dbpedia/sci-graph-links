@@ -15,12 +15,12 @@ This folder contains the abstracts, found named entities and candidates for each
 
 ## Processing the data
 
-1. Download data : Either, you can use data samples existing in the repository, or you can download SciGraph article abstracts from http://scigraph.springernature.com/explorer/downloads/ (Links (CC BY-NC))
+1. Download data : Either, you can use data samples existing in the repository, or you can download SciGraph article abstracts from [this link](http://scigraph.springernature.com/explorer/downloads/) (Links (CC BY-NC))
 
 2. Use of DBpedia Spotlight 
 
 * You will need DBpedia Spotlight tool to annotate the data and find the named entities
-* If you have enough memory (16GB or more) to run whole DBpedia Spotlight then you can download from https://github.com/dbpedia-spotlight/dbpedia-spotlight-model and use it locally
+* If you have enough memory (16GB or more) to run whole DBpedia Spotlight then you can download from [this repository](https://github.com/dbpedia-spotlight/dbpedia-spotlight-model) and use it locally
 * Otherwise, you can use webservice from 'http://api.dbpedia-spotlight.org/annotate'
 * You can produce either named entity links or candidate links. Named entity recognition system discovers the named entities in the abstract and produces a corresponding link in DBpedia as its representation. You can send the following query to the web service to spot entity links:
 
