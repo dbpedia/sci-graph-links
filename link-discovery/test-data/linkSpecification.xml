@@ -55,11 +55,11 @@
           </Aggregate><Aggregate id="maxAffiliation" required="false" weight="1" type="max">
             <Aggregate id="maxAffiliationName" required="false" weight="1" type="max">
             <Compare id="compAffName" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
-            <Input id="dbWorkName" path="/dbpp:workInstitution/foaf:name"/><Input id="sgOrcidAffiliationName" path="/sg:hasPerson/ex:hasEmployement"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+            <Input id="dbWorkName" path="/dbpp:workInstitution/foaf:name@en"/><Input id="sgOrcidAffiliationName" path="/sg:hasPerson/ex:hasEmployement"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
           </Compare><Compare id="compAffiliationName2" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
-            <Input id="dbAffiliationName" path="/dbpp:workInstitution/foaf:name"/><Input id="sgAffiliationName" path="/sg:hasAffiliation/sg:publishedName"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+            <Input id="dbAffiliationName" path="/dbpp:workInstitution/foaf:name@en"/><Input id="sgAffiliationName" path="/sg:hasAffiliation/sg:publishedName"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
           </Compare><Compare id="compAffiliationName3" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
-            <Input id="dbAlmaMaterName" path="/dbpediaowl:almaMater/foaf:name"/><Input id="targetPath1" path="/sg:hasAffiliation/sg:publishedName"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+            <Input id="dbAlmaMaterName" path="/dbpediaowl:almaMater/foaf:name@en"/><Input id="targetPath1" path="/sg:hasAffiliation/sg:publishedName"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
           </Compare>
           </Aggregate><Aggregate id="maxAffiliationID" required="false" weight="1" type="max">
             <Compare id="compareAffiliationID" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
@@ -83,9 +83,9 @@
           
         </Transforms>
         <Outputs>
-          <Output id="verify" type="file" maxConfidence="0.9">
+          <Output id="verify" type="file" maxConfidence="0.6">
             <Param name="file" value="verify_links.nt"/><Param name="format" value="ntriples"/><Param name="graph" value=""/>
-          </Output><Output id="accept" type="file" minConfidence="0.9">
+          </Output><Output id="accept" type="file" minConfidence="0.6">
             <Param name="file" value="accepted_links.nt"/><Param name="format" value="ntriples"/><Param name="graph" value=""/>
           </Output>
         </Outputs>
