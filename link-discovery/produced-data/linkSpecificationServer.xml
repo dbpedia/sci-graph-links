@@ -1,0 +1,93 @@
+<Silk>
+        <Prefixes>
+      <Prefix id="rdf" namespace="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/><Prefix id="dbpp" namespace="http://dbpedia.org/property/"/><Prefix id="dcterm" namespace="http://purl.org/dc/terms/"/><Prefix id="dc" namespace="http://purl.org/dc/elements/1.1/"/><Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#"/><Prefix id="skos" namespace="http://www.w3.org/2004/02/skos/core#"/><Prefix id="foaf" namespace="http://xmlns.com/foaf/0.1/"/><Prefix id="ex" namespace="http://example.org/"/><Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#"/><Prefix id="sg" namespace="http://scigraph.springernature.com/ontologies/core/"/><Prefix id="dbpediaowl" namespace="http://dbpedia.org/ontology/"/>
+    </Prefixes>
+        <DataSources>
+          <Dataset id="DBpedia" type="file">
+            <Param name="file" value="/data/scigraph-links/silk-dataset/Test/DBFile.nt"/><Param name="format" value="N-TRIPLE"/><Param name="graph" value=""/>
+          </Dataset><Dataset id="SciGraph" type="file">
+            <Param name="file" value="/data/scigraph-links/silk-dataset/Test/SCIFile.nt"/><Param name="format" value="N-TRIPLE"/><Param name="graph" value=""/>
+          </Dataset>
+        </DataSources>
+        <Interlinks>
+          <Interlink id="contributions">
+        <SourceDataset dataSource="DBpedia" var="a" typeUri="http://dbpedia.org/ontology/Person">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </SourceDataset>
+        <TargetDataset dataSource="SciGraph" var="b" typeUri="http://scigraph.springernature.com/ontologies/core/Contribution">
+        <RestrictTo>
+          
+        </RestrictTo>
+      </TargetDataset>
+       <LinkageRule linkType="sg:contribution">
+        <Aggregate id="maxLast" required="false" weight="1" type="max">
+            <Compare id="compareOrcid" required="false" weight="5" metric="equality" threshold="0.0" indexing="true">
+            <Input id="dbOrcid" path="/dc:identifier"/><Input id="sgOrcid" path="/sg:hasPerson"/>
+          </Compare><Aggregate id="averageAffiliationAndName" required="false" weight="1" type="average">
+            <Aggregate id="maxName" required="false" weight="5" type="max">
+            <Compare id="compareFullName3" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <TransformInput id="lowerCase4" function="lowerCase">
+            <Input id="dbFN" path="/foaf:name"/>
+            
+          </TransformInput><TransformInput id="lowerCase3" function="lowerCase">
+            <TransformInput id="concat1" function="concat">
+            <Input id="sciName" path="/sg:publishedGivenName"/><Input id="sgSurname" path="/sg:publishedFamilyName"/>
+            <Param name="glue" value=" "/>
+          </TransformInput>
+            
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare><Compare id="compareFullName" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <TransformInput id="lowerCase2" function="lowerCase">
+            <Input id="dbFullName" path="/foaf:name"/>
+            
+          </TransformInput><TransformInput id="lowerCase1" function="lowerCase">
+            <Input id="sciFullName" path="/sg:publishedName"/>
+            
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare><Compare id="compareFullName2" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <Input id="dbName" path="/foaf:name"/><TransformInput id="concat2" function="concat">
+            <Input id="sgOrcidName" path="/sg:hasPerson/foaf:name"/><Input id="sgOrcidSurname" path="/sg:hasPerson/foaf:surname"/>
+            <Param name="glue" value="   "/>
+          </TransformInput><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+          </Aggregate><Aggregate id="maxAffiliation" required="false" weight="1" type="max">
+            <Aggregate id="maxAffiliationName" required="false" weight="1" type="max">
+            <Compare id="compAffName" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <Input id="dbWorkName" path="/dbpp:workInstitution/foaf:name"/><Input id="sgOrcidAffiliationName" path="/sg:hasPerson/ex:hasEmployement"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare><Compare id="compAffiliationName2" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <Input id="dbAffiliationName" path="/dbpp:workInstitution/foaf:name"/><Input id="sgAffiliationName" path="/sg:hasAffiliation/sg:publishedName"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare><Compare id="compAffiliationName3" required="false" weight="1" metric="levenshteinDistance" threshold="0.0" indexing="true">
+            <Input id="dbAlmaMaterName" path="/dbpediaowl:almaMater/foaf:name"/><Input id="targetPath1" path="/sg:hasAffiliation/sg:publishedName"/><Param name="minChar" value="0"/><Param name="maxChar" value="z"/>
+          </Compare>
+          </Aggregate><Aggregate id="maxAffiliationID" required="false" weight="1" type="max">
+            <Compare id="compareAffiliationID" required="false" weight="1" metric="equality" threshold="0.0" indexing="true">
+            <Input id="dbWork" path="/dbpp:workInstitution"/><Input id="sciWork" path="/sg:hasAffiliationsg:hasOrganization"/>
+          </Compare><Compare id="compareAffiliationID2" required="false" weight="5" metric="equality" threshold="0.0" indexing="true">
+            <Input id="dbAlmaMater" path="/dbpediaowl:almaMater"/><Input id="sciAffiliationID" path="/sg:hasAffiliation/sg:hasOrganization"/>
+          </Compare>
+          </Aggregate>
+          </Aggregate>
+          </Aggregate>
+          </Aggregate>
+        <Filter/>
+      </LinkageRule>
+      <Outputs>
+          <Output id="accept"/> 
+	  <Output id="verify"/>
+      </Outputs>
+      </Interlink>
+        </Interlinks>
+        <Transforms></Transforms>
+        <Outputs>
+          <Output id="accept" type="file" minConfidence="0.9">
+		<Param name="file" value="~/silk/silk-singlemachine-2.7.1/accepted_links.nt"/>
+		<Param name="format" value="ntriples"/>
+	  </Output>
+	  <Output id="verify" type="file" maxConfidence="0.9">
+		<Param name="file" value="~/silk/silk-singlemachine-2.7.1/verify_links.nt"/>
+		<Param name="format" value="ntriples"/>
+	  </Output>
+        </Outputs>
+      </Silk>
