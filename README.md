@@ -1,4 +1,4 @@
-#  Guideline to SciGraph-DBpedia Data Repository
+#  SciGraph-DBpedia Data Repository
 
 We worked on interlinking SciGraph and DBpedia datasets by using Link Discovery approach for the structured content and Named Entity Recognition approach for unstructured text. The goals of this work are:
 
